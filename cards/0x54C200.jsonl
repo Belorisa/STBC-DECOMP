@@ -1,0 +1,5 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ui-input-gaps", "by": "sonnet", "from": null, "to": 83.7, "how": "new draft: space local before Speed GetString (71), Dot operand order (no change); remaining: frame slot of the space temp, x87 dot order", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-input-gaps", "commit": "537eab6140", "from": null, "to": 83.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "try", "lane": "renumber", "by": "opus", "from": 83.7, "to": 83.7, "how": "the speed reads UtopiaModule::gameUnitConversionFactor (0x8D9AF0) then the shared 3600.0f (0x88F4CC), as PlayerReticleWindow::Unknown512310 writes it; referents now agree, score unchanged (frame slot and x87 order remain)", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts80", "commit": "12adbbcb6c", "from": 83.7, "to": 100.0, "status": "MATCH"}

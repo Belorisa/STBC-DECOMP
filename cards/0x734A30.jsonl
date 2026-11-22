@@ -1,0 +1,3 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-4", "commit": "8be52fa575", "from": null, "to": 82.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "try", "lane": "nitmap", "by": "opus", "from": 82.9, "to": 82.9, "how": "NiTList::GetNext's element as a const T & local: 82.9 -> 82.3, reverted", "wall": "register", "group": "nitlist-getnext"}

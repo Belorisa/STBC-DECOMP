@@ -1,0 +1,6 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-net-ui", "by": "opus", "from": null, "to": 90.9, "how": "name and refCount stored in the body after the vtable (88.3 -> 90.9); left: SetSize(15)'s constant in edx, ebx in retail", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-net-ui", "commit": "b3c40e0de3", "from": null, "to": 90.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 90.9, "to": 90.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 90.9, "to": 90.9, "how": "sched triage: (c) register assignment (edx/ebx for the constant 0xf) plus a moved store: allocation", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "nitcontainers", "commit": "f44a2efe84", "from": 90.9, "to": 100.0, "status": "MATCH"}

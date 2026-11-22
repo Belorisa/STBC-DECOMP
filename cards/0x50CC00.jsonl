@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-500000", "by": "sonnet", "from": null, "to": 93.2, "how": "named raw NiRender local, operand order of the mode compare; the renderer temporary's NiObject::DecRefCount is still expanded where retail calls 0x40CFE0; 93.2", "wall": "inline"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-500000", "commit": "5dcc5a9d91", "from": null, "to": 93.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "inline-walls", "commit": "c36197485e", "from": 93.2, "to": 100.0, "status": "MATCH"}

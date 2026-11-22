@@ -1,0 +1,4 @@
+{"date": "2026-11-16", "kind": "try", "lane": "ph1-tg", "by": "opus", "from": null, "to": 84.3, "how": "loadSizes' exit destructor: ours has a guard bit (class static), retail none, i.e. a file-scope static; moving it out of TGObject.h shifted every TGObject.h includer's numbers, reverted, reported", "wall": "structure"}
+{"date": "2026-11-16", "kind": "score", "lane": "ph1-tg", "commit": "88808d6c4b", "from": null, "to": 84.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "niimage-fileimage", "by": "opus", "from": 84.3, "to": 84.3, "how": "renumbered with TGObject's other initialisers after NiImage gained the fileImage class static (+1, by hand: renumber's single-shift check stops on this already-failing row); no source change, still 84.3"}
+{"date": "2026-11-16", "kind": "score", "lane": "structural-statics", "commit": "d7443a0b16", "from": 84.3, "to": 100.0, "status": "MATCH"}

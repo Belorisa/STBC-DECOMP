@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-93", "commit": "9a3a8f2070", "from": null, "to": 87.3, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "try", "lane": "weapons-damage", "by": "sonnet", "from": 87.3, "to": 87.3, "how": "no source change; the unit gained UpdateWeapon/UpdateWeapons (Weapon friend), score stays 87.3", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 87.3, "to": 87.3, "how": "ctxscan: invariant, 1 state (frame/register) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-21", "kind": "score", "lane": "levers-sweep", "commit": "4494d438dc", "from": 87.3, "to": 100.0, "status": "MATCH"}

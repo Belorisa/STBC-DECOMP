@@ -1,0 +1,3 @@
+{"date": "2026-11-05", "kind": "score", "lane": "ready-b", "commit": "fc02058fc7", "from": null, "to": 88.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-17", "kind": "try", "lane": "frame-walls", "by": "opus", "from": 88.4, "to": 88.4, "how": "TGPoint3 position 78.7; the position expression passed straight to Torpedo::Create 80.5; velocity in a block of its own 88.4 unchanged. Also seen: retail stores EH state 0 after GetWorldRotation's call, ours right after the TGPoint3 temporary is built", "wall": "register"}

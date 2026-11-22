@@ -1,0 +1,3 @@
+{"date": "2026-11-17", "kind": "try", "lane": "gaps-final", "by": "opus", "from": null, "to": 53.3, "how": "new: DetachAllEffects as a loop of Remove and DetachAffectedNode over the list head; Remove (0x7E63D0, defined in NiNode.cpp) stays out of line where retail expands it, the wall DetachEffect is parked on", "wall": "inline"}
+{"date": "2026-11-18", "kind": "score", "lane": "gaps-final", "commit": "39d55b822c", "from": null, "to": 53.3, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-40", "commit": "f2f5f34c53", "from": 53.3, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-ui-16", "commit": "7723165aba", "from": null, "to": 87.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "unused-frame-bytes", "how": "framemap: one side reserves frame bytes no instruction touches: a local declared and never used"}
+{"date": "2026-11-18", "kind": "try", "lane": "rulings", "by": "opus", "from": 87.5, "to": 87.5, "how": "rulings lane: identity-TODO comment at the find data (0x280 bytes on the frame, no WIN32_FIND_DATA variant fits; user's ruling 2026-11-18, no type change); comment only", "wall": "structure"}

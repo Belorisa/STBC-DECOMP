@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "viewscreen-near", "by": "opus", "from": null, "to": 97.8, "how": "ptX/ptY/ptZ declared before the matrix pointer (fixes frame, 75.8->97.8); x centre left+right, right+left and '= ... + x' all emit fld left first, retail fld right", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "viewscreen-near", "commit": "541f602407", "from": null, "to": 97.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "near-95", "commit": "0288b43e46", "from": 97.8, "to": 100.0, "status": "MATCH"}

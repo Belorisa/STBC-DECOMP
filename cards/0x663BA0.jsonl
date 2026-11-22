@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 67.7, "how": "draft: int loops over rows and pixels, swapped row strides kept as BUG; 67.7", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 67.7, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts-owned", "by": "opus", "from": 67.7, "to": 81.4, "how": "row pointers from y * rowStride (ApplyAlphaTable's form): inner loop exact 67.7 -> 78.4; dest's row first 81.4; int offsets for both images 74.4. Left: width/height loaded after destStride in ours, row-pointer update order", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts-owned", "commit": "b14ecec9b2", "from": 67.7, "to": 81.4, "status": "DIFF"}

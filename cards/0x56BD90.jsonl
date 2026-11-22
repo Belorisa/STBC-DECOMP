@@ -1,0 +1,4 @@
+{"date": "2026-10-28", "kind": "score", "lane": "game-subsystems", "commit": "287897a426", "from": null, "to": 72.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 72.0, "to": 72.0, "how": "accessor reads instead of members (tools sweep): condition->GetCondition 68.0", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65", "by": "opus", "from": 72.0, "to": 72.0, "how": "a named quotient local and the swapped sum (points / complexity + condition) give the same bytes, 72.0: VC6 still folds condition as fadd [mem]", "wall": "register", "group": "x87-stray"}
+{"date": "2026-11-22", "kind": "score", "lane": "sub80-a3", "commit": "127f9fbb3f", "from": 72.0, "to": 100.0, "status": "MATCH-PENDING"}

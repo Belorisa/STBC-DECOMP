@@ -1,0 +1,4 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-voxel", "by": "fable", "from": null, "to": 8.2, "how": "sixteen corners per run in retail's order, the first eight as a copy of the origin plus an x offset; 8.2, all registers shifted by the missing temporaries", "wall": "inline"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-voxel", "commit": "0eab6aac09", "from": null, "to": 8.2, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "try", "lane": "dt-pass2", "by": "opus", "from": 8.2, "to": 100.0, "how": "the end squares as *origin + NiPoint3( offset ) (the CreateGridLines spelling) and the run's start/end as const unsigned short references declared before the corner pointer: own cost 1245 -> ~1145, corners 12-14 keep NiPoint3's constructor out of line and 15 operator+ and operator=, as retail: 8.2 -> 100"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-pass2", "commit": "a7930c3d67", "from": 8.2, "to": 100.0, "status": "MATCH"}

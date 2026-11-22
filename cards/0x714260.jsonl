@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-claims-2", "by": "sonnet", "from": null, "to": 89.4, "how": "full body from the asm 89%; zero local for fade duration gave no change (removed); timer start/next store order and AddTail store order differ", "wall": "inline"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-claims-2", "commit": "0d34ab46bb", "from": null, "to": 89.4, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-blockers", "commit": "151e7d81f0", "from": 89.4, "to": 100.0, "status": "MATCH"}

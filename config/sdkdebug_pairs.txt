@@ -1,0 +1,18 @@
+0x829860 0x46B415  # NiOBBox::TestIntersection: /Od 100/100 with Gamebryo names, same callees (Dot, GetVelocity, GetDeltaTime)
+0x82A440 0x46C2F5  # NiOBBox::FindIntersection: /Od statements and frame identical, the switch table aside
+0x7D0F90 0x5212A1  # NiD3DLightEntry::Update: /Od 100/100 (D3DLightState.cpp), same callees
+0x7D1570 0x5218E2  # NiD3DLightManager::UpdateLights: /Od 100/100, closed the release match
+0x7E7DB0 0x4259BE  # NiCamera::~NiCamera: search hit, /Od 100/100 in the unit's file
+0x7E2C40 0x418C5C  # NiRender::NiRender: search hit, /Od 100/100 in the unit's file
+0x802080 0x4456AB  # NiMultiTextureProperty::NiMultiTextureProperty: search hit, /Od 100/100 in the unit's file
+0x7A1890 0x48D9F6  # NiKeyframeManager::Sequence::~Sequence: search hit, /Od 100/100 in the unit's file
+0x7A2690 0x48E935  # NiKeyframeManager::Sequence::Unknown7A2690: search hit, statements identical (frame slots differ: names)
+0x8147B0 0x422DBD  # NiMatrix3::QLAlgorithm: search hit; statements identical with NiAbs/NiSqrt and the chained cs *= ( sn = 1.0f / r ), release MATCH
+0x832C30 0x4D21BE  # NiBezierPatch::CreateSets: search hit in the unit's file, statements identical once the texture flag is or'ed (release MATCH)
+0x7F2E30 0x434D76  # NiTriShape::ReallocateVertexArrays: search hit in the unit's file, its asserts (NiTriShape.cpp 558-580); release MATCH from its statements
+0x7F27B0 0x434330  # NiTriShape::CollapseVertices: search hit in the unit's file; release MATCH from its statements
+0x7C0160 0x50DB40  # NiD3DRender::SelectDevice: search hit in the unit's file; statements identical after the rewrite (the tool reads past its jump table into the next function)
+0x7D5B30 0x52FF24  # NiD3DTextureManager::Unknown7D5B30: search hit in the unit's file; release MATCH from its statements
+0x7D5640 0x52FADA  # NiD3DTextureManager::Unknown7D5640: called by 0x52FF24 where retail's caller calls 0x7D5640; /Od identical
+0x7D5910 0x52FE5F  # NiD3DTextureManager::Unknown7D5910: its assert (D3DTextureManager.cpp 1057), the same eviction loop
+0x7D57F0 0x52FCA9  # NiD3DTextureManager::Unknown7D57F0: called by 0x52FE5F as retail's 0x7D5910 calls it; /Od statements identical

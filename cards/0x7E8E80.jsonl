@@ -1,0 +1,5 @@
+{"date": "2026-11-15", "kind": "try", "lane": "ni-mid", "by": "opus", "from": null, "to": 95.8, "how": "lineage form (Gamebryo 1.2.2 ScreenSpaceBoundBound) reaches 95.8; w with the +m33 split off fell to 94.0; store-then-divide rows unchanged (kept, the lineage form)", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-mid", "commit": "f106423767", "from": null, "to": 95.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 95.8, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 95.8, "to": 95.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

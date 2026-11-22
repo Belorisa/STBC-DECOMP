@@ -1,0 +1,6 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-500000", "by": "sonnet", "from": null, "to": 90.2, "how": "while and for walks over menuIDs with an inline Remove, STTopLevelMenu::Cast; retail pushes saved registers after the list-empty test and keeps the next position in a frame slot; 90.2", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-500000", "commit": "5dcc5a9d91", "from": null, "to": 90.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 90.2, "to": 90.2, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 90.2, "to": 90.2, "how": "sched triage: (c) register picks in the list walk plus an inverted branch: allocation/control flow", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90b", "commit": "2cc7dd80df", "from": 90.2, "to": 100.0, "status": "MATCH"}

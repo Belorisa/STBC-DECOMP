@@ -1,0 +1,4 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-net-ui", "by": "opus", "from": null, "to": 75.0, "how": "draft from the two batch helpers (now matched); explicit default-colour local 74.7 -> 75.0; retail copies the colour argument into a local at entry and initialises 16 white floats (the colour array is a guess)", "wall": "structure"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-net-ui", "by": "opus", "from": null, "to": 80.5, "how": "TGIconLocation::texture as NiPointer<NiTextureProperty> (Reset's release, ReadFromStream now exact): 75.0 -> 80.5", "wall": "structure"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-net-ui", "commit": "b3c40e0de3", "from": null, "to": 80.5, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "structure", "commit": "bb9c928933", "from": 80.5, "to": 100.0, "status": "MATCH"}

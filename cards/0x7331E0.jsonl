@@ -1,0 +1,2 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-53", "commit": "a17d067bbb", "from": null, "to": 89.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow2", "by": "opus", "from": 89.8, "to": 89.8, "how": "y<top compare: top>y, compare against accessor in place, top declared before left, if(y>=top){...}else break: all byte-identical to the base (VC6 folds a single-use top into fcomp mem; retail keeps top on the FPU stack then fstp st(0)); control flow is otherwise identical, the wall is x87 operand residency", "wall": "register"}

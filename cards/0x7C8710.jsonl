@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "AnimOnly 0x51AF18: statements in its order (release MATCH), /Od 82.4%: only the frame slots of the three locals differ (debug: context -0xC, mode depth -8, render depths -4); six names for the context and declarations at the top don't move them: no fitting name found"}

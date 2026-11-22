@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "audit-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "sdkdebug: AnimOnly 0x41AA8F (NiStream.cpp) copies the file name into a 256-byte local and opens that; BC's sets fileName and opens it (retail's bytes). Release-vs-debug conflict: release kept; only the written-out SetFileName body is shared.", "wall": "structure"}

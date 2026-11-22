@@ -1,0 +1,2 @@
+{"date": "2026-11-15", "kind": "score", "lane": "statics-owner", "commit": "fe3cac66d8", "from": 100.0, "to": 100.0, "status": "ACCEPTED-LOST"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-statics", "commit": "74b937744b", "from": 100.0, "to": 100.0, "status": "MATCH"}

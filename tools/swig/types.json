@@ -1,0 +1,8618 @@
+[
+{
+"i": 0,
+"ti": 9395624,
+"name": "_p_KeyboardBinding",
+"str": "KeyboardBinding *",
+"eq": [
+[
+"_p_KeyboardBinding",
+0
+]
+]
+},
+{
+"i": 1,
+"ti": 9395688,
+"name": "_p_TGProfilingInfo",
+"str": "TGProfilingInfo *",
+"eq": [
+[
+"_p_TGProfilingInfo",
+0
+]
+]
+},
+{
+"i": 2,
+"ti": 9395752,
+"name": "_p_TGCondition",
+"str": "TGCondition *",
+"eq": [
+[
+"_p_TGCondition",
+0
+],
+[
+"_p_ConditionScript",
+6586432
+]
+]
+},
+{
+"i": 3,
+"ti": 9395832,
+"name": "_p_TGUITheme",
+"str": "TGUITheme *",
+"eq": [
+[
+"_p_TGUITheme",
+0
+]
+]
+},
+{
+"i": 4,
+"ti": 9395896,
+"name": "_p_GameSpy",
+"str": "GameSpy *",
+"eq": [
+[
+"_p_GameSpy",
+0
+]
+]
+},
+{
+"i": 5,
+"ti": 9395960,
+"name": "_p_Game",
+"str": "Game *",
+"eq": [
+[
+"_p_MultiplayerGame",
+6601824
+],
+[
+"_p_Game",
+0
+]
+]
+},
+{
+"i": 6,
+"ti": 9396040,
+"name": "_p_float",
+"str": "float *",
+"eq": [
+[
+"_p_float",
+0
+]
+]
+},
+{
+"i": 7,
+"ti": 9396104,
+"name": "_p_TGGamepadEvent",
+"str": "TGGamepadEvent *",
+"eq": [
+[
+"_p_TGGamepadEvent",
+0
+]
+]
+},
+{
+"i": 8,
+"ti": 9396168,
+"name": "_p_TGKeyboardEvent",
+"str": "TGKeyboardEvent *",
+"eq": [
+[
+"_p_TGKeyboardEvent",
+0
+]
+]
+},
+{
+"i": 9,
+"ti": 9396232,
+"name": "_p_TGPane",
+"str": "TGPane *",
+"eq": [
+[
+"_p_STCharacterMenu",
+6586448
+],
+[
+"_p_STFileDialog",
+6586464
+],
+[
+"_p_STSaveDialog",
+6586480
+],
+[
+"_p_TGButton",
+6586496
+],
+[
+"_p_MultiplayerWindow",
+6586608
+],
+[
+"_p_MapWindow",
+6586528
+],
+[
+"_p_TacticalWindow",
+6586560
+],
+[
+"_p_MainWindow",
+6586592
+],
+[
+"_p_TopWindow",
+6586576
+],
+[
+"_p_TacticalControlWindow",
+6586544
+],
+[
+"_p_STStylizedWindow",
+6586512
+],
+[
+"_p_STFillGauge",
+6586624
+],
+[
+"_p_TGButtonBase",
+6586640
+],
+[
+"_p_TGPrompt",
+6586656
+],
+[
+"_p_STMissionLog",
+6586672
+],
+[
+"_p_STComponentMenu",
+6586688
+],
+[
+"_p_EngPowerDisplay",
+6586800
+],
+[
+"_p_DamageDisplay",
+6586752
+],
+[
+"_p_ShieldsDisplay",
+6586736
+],
+[
+"_p_STNumericBar",
+6586704
+],
+[
+"_p_ShipDisplay",
+6586720
+],
+[
+"_p_WeaponsDisplay",
+6586768
+],
+[
+"_p_RadarDisplay",
+6586784
+],
+[
+"_p_OptionsWindow",
+6586944
+],
+[
+"_p_ConsoleWindow",
+6586928
+],
+[
+"_p_TGFrameWindow",
+6586896
+],
+[
+"_p_TGDialogWindow",
+6586912
+],
+[
+"_p_TGWindow",
+6586880
+],
+[
+"_p_BridgeWindow",
+6586864
+],
+[
+"_p_ModalDialogWindow",
+6586848
+],
+[
+"_p_CinematicWindow",
+6586832
+],
+[
+"_p_SubtitleWindow",
+6586816
+],
+[
+"_p_STToggle",
+6586960
+],
+[
+"_p_TGPane",
+0
+],
+[
+"_p_STTargetMenu",
+6586976
+],
+[
+"_p_GraphicsMenu",
+6587008
+],
+[
+"_p_STSubsystemMenu",
+6587024
+],
+[
+"_p_SortedRegionMenu",
+6587040
+],
+[
+"_p_TacWeaponsCtrl",
+6587056
+],
+[
+"_p_EngRepairPane",
+6587072
+],
+[
+"_p_TGRootPane",
+6587088
+],
+[
+"_p_STTopLevelMenu",
+6587104
+],
+[
+"_p_TGParagraph",
+6587120
+],
+[
+"_p_TGConsole",
+6587136
+],
+[
+"_p_STLoadDialog",
+6587152
+],
+[
+"_p_STMenu",
+6586992
+],
+[
+"_p_STSubPane",
+6587168
+],
+[
+"_p_STRoundedButton",
+6587184
+],
+[
+"_p_STButton",
+6587200
+],
+[
+"_p_TGTextButton",
+6587216
+],
+[
+"_p_RadarScope",
+6587232
+],
+[
+"_p_STWarpButton",
+6587248
+],
+[
+"_p_EngPowerCtrl",
+6587264
+],
+[
+"_p_STFileMenu",
+6587280
+],
+[
+"_p_STComponentMenuItem",
+6587296
+]
+]
+},
+{
+"i": 10,
+"ti": 9397376,
+"name": "_p_CharacterClass",
+"str": "CharacterClass *",
+"eq": [
+[
+"_p_CharacterClass",
+0
+]
+]
+},
+{
+"i": 11,
+"ti": 9397440,
+"name": "_p_TGAnimationManagerClass",
+"str": "TGAnimationManagerClass *",
+"eq": [
+[
+"_p_TGAnimationManagerClass",
+0
+]
+]
+},
+{
+"i": 12,
+"ti": 9397504,
+"name": "_p_TGSystemWrapperClass",
+"str": "TGSystemWrapperClass *",
+"eq": [
+[
+"_p_TGSystemWrapperClass",
+0
+]
+]
+},
+{
+"i": 13,
+"ti": 9397568,
+"name": "_p_VarManagerClass",
+"str": "VarManagerClass *",
+"eq": [
+[
+"_p_VarManagerClass",
+0
+]
+]
+},
+{
+"i": 14,
+"ti": 9397632,
+"name": "_p_ImageManagerClass",
+"str": "ImageManagerClass *",
+"eq": [
+[
+"_p_ImageManagerClass",
+0
+]
+]
+},
+{
+"i": 15,
+"ti": 9397696,
+"name": "_TGAnimCallbackPtr",
+"str": "TGAnimCallbackPtr ",
+"eq": [
+[
+"_TGAnimCallbackPtr",
+0
+]
+]
+},
+{
+"i": 16,
+"ti": 9397760,
+"name": "_p_SubsystemList",
+"str": "SubsystemList *",
+"eq": [
+[
+"_p_NiTList_ShipSubsystem___",
+0
+],
+[
+"_p_SubsystemList",
+0
+]
+]
+},
+{
+"i": 17,
+"ti": 9397840,
+"name": "_p_LightPlacement",
+"str": "LightPlacement *",
+"eq": [
+[
+"_p_LightPlacement",
+0
+]
+]
+},
+{
+"i": 18,
+"ti": 9397904,
+"name": "_p_AsteroidFieldPlacement",
+"str": "AsteroidFieldPlacement *",
+"eq": [
+[
+"_p_AsteroidFieldPlacement",
+0
+]
+]
+},
+{
+"i": 19,
+"ti": 9397968,
+"name": "_p_CameraMode",
+"str": "CameraMode *",
+"eq": [
+[
+"_p_CameraMode",
+0
+]
+]
+},
+{
+"i": 20,
+"ti": 9398032,
+"name": "_p_FuzzyLogic",
+"str": "FuzzyLogic *",
+"eq": [
+[
+"_p_FuzzyLogic",
+0
+]
+]
+},
+{
+"i": 21,
+"ti": 9398096,
+"name": "_p_ArtificialIntelligence",
+"str": "ArtificialIntelligence *",
+"eq": [
+[
+"_p_PlainAI",
+6587312
+],
+[
+"_p_OptimizedFireScript",
+6587328
+],
+[
+"_p_PreprocessingAI",
+6587344
+],
+[
+"_p_OptimizedSelectTarget",
+6587360
+],
+[
+"_p_BuilderAI",
+6587376
+],
+[
+"_p_ArtificialIntelligence",
+0
+],
+[
+"_p_ConditionalAI",
+6587392
+],
+[
+"_p_PriorityListAI",
+6587408
+],
+[
+"_p_RandomAI",
+6587424
+],
+[
+"_p_SequenceAI",
+6587440
+]
+]
+},
+{
+"i": 22,
+"ti": 9398336,
+"name": "_p_ProximityEvent",
+"str": "ProximityEvent *",
+"eq": [
+[
+"_p_ProximityEvent",
+0
+]
+]
+},
+{
+"i": 23,
+"ti": 9398400,
+"name": "_p_STWarpButton",
+"str": "STWarpButton *",
+"eq": [
+[
+"_p_STWarpButton",
+0
+]
+]
+},
+{
+"i": 24,
+"ti": 9398464,
+"name": "_p_STRoundedButton",
+"str": "STRoundedButton *",
+"eq": [
+[
+"_p_STRoundedButton",
+0
+]
+]
+},
+{
+"i": 25,
+"ti": 9398528,
+"name": "_p_STButton",
+"str": "STButton *",
+"eq": [
+[
+"_p_STButton",
+0
+],
+[
+"_p_STWarpButton",
+6587456
+],
+[
+"_p_STToggle",
+6587472
+],
+[
+"_p_STComponentMenuItem",
+6587488
+]
+]
+},
+{
+"i": 26,
+"ti": 9398648,
+"name": "_p_TGTextButton",
+"str": "TGTextButton *",
+"eq": [
+[
+"_p_TGTextButton",
+0
+]
+]
+},
+{
+"i": 27,
+"ti": 9398712,
+"name": "_p_TGButton",
+"str": "TGButton *",
+"eq": [
+[
+"_p_TGButton",
+0
+]
+]
+},
+{
+"i": 28,
+"ti": 9398776,
+"name": "_p_BuilderAI",
+"str": "BuilderAI *",
+"eq": [
+[
+"_p_BuilderAI",
+0
+]
+]
+},
+{
+"i": 29,
+"ti": 9398840,
+"name": "_p_CollisionEvent",
+"str": "CollisionEvent *",
+"eq": [
+[
+"_p_CollisionEvent",
+0
+]
+]
+},
+{
+"i": 30,
+"ti": 9398904,
+"name": "_p_STComponentMenuItem",
+"str": "STComponentMenuItem *",
+"eq": [
+[
+"_p_STComponentMenuItem",
+0
+]
+]
+},
+{
+"i": 31,
+"ti": 9398968,
+"name": "_p_NiImage",
+"str": "NiImage *",
+"eq": [
+[
+"_p_NiImage",
+0
+]
+]
+},
+{
+"i": 32,
+"ti": 9399032,
+"name": "_p_FiringChain",
+"str": "FiringChain *",
+"eq": [
+[
+"_p_FiringChain",
+0
+]
+]
+},
+{
+"i": 33,
+"ti": 9399096,
+"name": "_p_NiPoint2",
+"str": "NiPoint2 *",
+"eq": [
+[
+"_p_NiPoint2",
+0
+]
+]
+},
+{
+"i": 34,
+"ti": 9399160,
+"name": "_p_NiPoint3",
+"str": "NiPoint3 *",
+"eq": [
+[
+"_p_NiPoint3",
+0
+],
+[
+"_p_TGPoint3",
+6587504
+]
+]
+},
+{
+"i": 35,
+"ti": 9399240,
+"name": "_p_TGPoint3",
+"str": "TGPoint3 *",
+"eq": [
+[
+"_p_TGPoint3",
+0
+]
+]
+},
+{
+"i": 36,
+"ti": 9399304,
+"name": "_p_PulseWeaponSystem",
+"str": "PulseWeaponSystem *",
+"eq": [
+[
+"_p_PulseWeaponSystem",
+0
+]
+]
+},
+{
+"i": 37,
+"ti": 9399368,
+"name": "_p_PhaserSystem",
+"str": "PhaserSystem *",
+"eq": [
+[
+"_p_PhaserSystem",
+0
+]
+]
+},
+{
+"i": 38,
+"ti": 9399432,
+"name": "_p_WeaponSystem",
+"str": "WeaponSystem *",
+"eq": [
+[
+"_p_WeaponSystem",
+0
+],
+[
+"_p_PhaserSystem",
+6587520
+],
+[
+"_p_PulseWeaponSystem",
+6587536
+],
+[
+"_p_TorpedoSystem",
+6587552
+],
+[
+"_p_TractorBeamSystem",
+6587568
+]
+]
+},
+{
+"i": 39,
+"ti": 9399576,
+"name": "_p_TGSoundRegion",
+"str": "TGSoundRegion *",
+"eq": [
+[
+"_p_TGSoundRegion",
+0
+]
+]
+},
+{
+"i": 40,
+"ti": 9399640,
+"name": "_p_PoweredSubsystem",
+"str": "PoweredSubsystem *",
+"eq": [
+[
+"_p_WeaponSystem",
+6587584
+],
+[
+"_p_PhaserSystem",
+6587600
+],
+[
+"_p_PulseWeaponSystem",
+6587616
+],
+[
+"_p_PoweredSubsystem",
+0
+],
+[
+"_p_TorpedoSystem",
+6587632
+],
+[
+"_p_SensorSubsystem",
+6587648
+],
+[
+"_p_CloakingSubsystem",
+6587664
+],
+[
+"_p_RepairSubsystem",
+6587680
+],
+[
+"_p_ImpulseEngineSubsystem",
+6587696
+],
+[
+"_p_WarpEngineSubsystem",
+6587712
+],
+[
+"_p_TractorBeamSystem",
+6587728
+],
+[
+"_p_ShieldClass",
+6587744
+]
+]
+},
+{
+"i": 41,
+"ti": 9399920,
+"name": "_p_p_ShipSubsystem",
+"str": "ShipSubsystem **",
+"eq": [
+[
+"_p_p_PhaserBank",
+6587760
+],
+[
+"_p_p_TorpedoTube",
+6587776
+],
+[
+"_p_p_HullClass",
+6587792
+],
+[
+"_p_p_ShieldClass",
+6587808
+],
+[
+"_p_p_TorpedoSystem",
+6587840
+],
+[
+"_p_p_PowerSubsystem",
+6587856
+],
+[
+"_p_p_PoweredSubsystem",
+6587872
+],
+[
+"_p_p_CloakingSubsystem",
+6587888
+],
+[
+"_p_p_RepairSubsystem",
+6587904
+],
+[
+"_p_p_ImpulseEngineSubsystem",
+6587920
+],
+[
+"_p_p_WarpEngineSubsystem",
+6587936
+],
+[
+"_p_p_TractorBeamProjector",
+6587952
+],
+[
+"_p_p_SensorSubsystem",
+6587824
+],
+[
+"_p_p_ShipSubsystem",
+0
+],
+[
+"_p_p_TractorBeamSystem",
+6587968
+],
+[
+"_p_p_PulseWeapon",
+6587984
+],
+[
+"_p_p_EnergyWeapon",
+6588000
+],
+[
+"_p_p_Weapon",
+6588064
+],
+[
+"_p_p_PulseWeaponSystem",
+6588016
+],
+[
+"_p_p_PhaserSystem",
+6588032
+],
+[
+"_p_p_WeaponSystem",
+6588048
+]
+]
+},
+{
+"i": 42,
+"ti": 9400384,
+"name": "_p_ShipSubsystem",
+"str": "ShipSubsystem *",
+"eq": [
+[
+"_p_PhaserBank",
+6588080
+],
+[
+"_p_TorpedoTube",
+6588096
+],
+[
+"_p_HullClass",
+6588112
+],
+[
+"_p_ShieldClass",
+6588128
+],
+[
+"_p_PoweredSubsystem",
+6588192
+],
+[
+"_p_CloakingSubsystem",
+6588208
+],
+[
+"_p_RepairSubsystem",
+6588224
+],
+[
+"_p_ImpulseEngineSubsystem",
+6588240
+],
+[
+"_p_WarpEngineSubsystem",
+6588256
+],
+[
+"_p_PowerSubsystem",
+6588176
+],
+[
+"_p_TorpedoSystem",
+6588160
+],
+[
+"_p_SensorSubsystem",
+6588144
+],
+[
+"_p_ShipSubsystem",
+0
+],
+[
+"_p_TractorBeamSystem",
+6588288
+],
+[
+"_p_TractorBeamProjector",
+6588272
+],
+[
+"_p_Weapon",
+6588384
+],
+[
+"_p_EnergyWeapon",
+6588320
+],
+[
+"_p_PulseWeapon",
+6588304
+],
+[
+"_p_PulseWeaponSystem",
+6588336
+],
+[
+"_p_PhaserSystem",
+6588352
+],
+[
+"_p_WeaponSystem",
+6588368
+]
+]
+},
+{
+"i": 43,
+"ti": 9400848,
+"name": "_p_CloakingSubsystem",
+"str": "CloakingSubsystem *",
+"eq": [
+[
+"_p_CloakingSubsystem",
+0
+]
+]
+},
+{
+"i": 44,
+"ti": 9400912,
+"name": "_p_RepairSubsystem",
+"str": "RepairSubsystem *",
+"eq": [
+[
+"_p_RepairSubsystem",
+0
+]
+]
+},
+{
+"i": 45,
+"ti": 9400976,
+"name": "_p_TractorBeamSystem",
+"str": "TractorBeamSystem *",
+"eq": [
+[
+"_p_TractorBeamSystem",
+0
+]
+]
+},
+{
+"i": 46,
+"ti": 9401040,
+"name": "_p_TorpedoSystem",
+"str": "TorpedoSystem *",
+"eq": [
+[
+"_p_TorpedoSystem",
+0
+]
+]
+},
+{
+"i": 47,
+"ti": 9401104,
+"name": "_p_WarpEngineSubsystem",
+"str": "WarpEngineSubsystem *",
+"eq": [
+[
+"_p_WarpEngineSubsystem",
+0
+]
+]
+},
+{
+"i": 48,
+"ti": 9401168,
+"name": "_p_ImpulseEngineSubsystem",
+"str": "ImpulseEngineSubsystem *",
+"eq": [
+[
+"_p_ImpulseEngineSubsystem",
+0
+]
+]
+},
+{
+"i": 49,
+"ti": 9401232,
+"name": "_p_SensorSubsystem",
+"str": "SensorSubsystem *",
+"eq": [
+[
+"_p_SensorSubsystem",
+0
+]
+]
+},
+{
+"i": 50,
+"ti": 9401296,
+"name": "_p_PowerSubsystem",
+"str": "PowerSubsystem *",
+"eq": [
+[
+"_p_PowerSubsystem",
+0
+]
+]
+},
+{
+"i": 51,
+"ti": 9401360,
+"name": "_p_GraphicsModeInfo",
+"str": "GraphicsModeInfo *",
+"eq": [
+[
+"_p_GraphicsModeInfo",
+0
+]
+]
+},
+{
+"i": 52,
+"ti": 9401424,
+"name": "_p_TGStringToStringMap",
+"str": "TGStringToStringMap *",
+"eq": [
+[
+"_p_TGStringToStringMap",
+0
+]
+]
+},
+{
+"i": 53,
+"ti": 9401488,
+"name": "_p_TGFrame",
+"str": "TGFrame *",
+"eq": [
+[
+"_p_TGFrame",
+0
+]
+]
+},
+{
+"i": 54,
+"ti": 9401552,
+"name": "_p_NiTListIterator",
+"str": "NiTListIterator *",
+"eq": [
+[
+"_p_NiTListIterator",
+0
+]
+]
+},
+{
+"i": 55,
+"ti": 9401616,
+"name": "_p_ProximityManager__ObjectIterator",
+"str": "ProximityManager::ObjectIterator *",
+"eq": [
+[
+"_p_ProximityManager__ObjectIterator",
+0
+]
+]
+},
+{
+"i": 56,
+"ti": 9401680,
+"name": "_p_ShipClass__MatchIterator",
+"str": "ShipClass::MatchIterator *",
+"eq": [
+[
+"_p_ShipClass__MatchIterator",
+0
+]
+]
+},
+{
+"i": 57,
+"ti": 9401744,
+"name": "_p_NiFrustum",
+"str": "NiFrustum *",
+"eq": [
+[
+"_p_NiFrustum",
+0
+]
+]
+},
+{
+"i": 58,
+"ti": 9401808,
+"name": "_p_TGRootPane",
+"str": "TGRootPane *",
+"eq": [
+[
+"_p_TGRootPane",
+0
+]
+]
+},
+{
+"i": 59,
+"ti": 9401872,
+"name": "_p_OptimizedSelectTarget",
+"str": "OptimizedSelectTarget *",
+"eq": [
+[
+"_p_OptimizedSelectTarget",
+0
+]
+]
+},
+{
+"i": 60,
+"ti": 9401936,
+"name": "_p_SortedRegionMenu",
+"str": "SortedRegionMenu *",
+"eq": [
+[
+"_p_SortedRegionMenu",
+0
+]
+]
+},
+{
+"i": 61,
+"ti": 9402000,
+"name": "_p_PlacementObject",
+"str": "PlacementObject *",
+"eq": [
+[
+"_p_PlacementObject",
+0
+],
+[
+"_p_Waypoint",
+6588400
+],
+[
+"_p_LightPlacement",
+6588416
+],
+[
+"_p_AsteroidFieldPlacement",
+6588432
+]
+]
+},
+{
+"i": 62,
+"ti": 9402120,
+"name": "_p_ViewScreenObject",
+"str": "ViewScreenObject *",
+"eq": [
+[
+"_p_ViewScreenObject",
+0
+]
+]
+},
+{
+"i": 63,
+"ti": 9402184,
+"name": "_p_TGTemplatedAttrObject",
+"str": "TGTemplatedAttrObject *",
+"eq": [
+[
+"_p_Waypoint",
+6588512
+],
+[
+"_p_ObjectGroup",
+6588528
+],
+[
+"_p_ShipClass",
+6588544
+],
+[
+"_p_STTargetMenu",
+6588560
+],
+[
+"_p_Episode",
+6588576
+],
+[
+"_p_STMenu",
+6589232
+],
+[
+"_p_AsteroidField",
+6588592
+],
+[
+"_p_HullClass",
+6588608
+],
+[
+"_p_STTiledIcon",
+6588624
+],
+[
+"_p_STMissionLog",
+6588640
+],
+[
+"_p_AsteroidFieldPlacement",
+6588688
+],
+[
+"_p_LightPlacement",
+6588672
+],
+[
+"_p_STFillGauge",
+6588656
+],
+[
+"_p_ShipDisplay",
+6588752
+],
+[
+"_p_ShieldsDisplay",
+6588768
+],
+[
+"_p_DamageDisplay",
+6588784
+],
+[
+"_p_WeaponsDisplay",
+6588800
+],
+[
+"_p_RadarDisplay",
+6588816
+],
+[
+"_p_EngPowerDisplay",
+6588832
+],
+[
+"_p_PulseWeaponSystem",
+6588704
+],
+[
+"_p_PhaserSystem",
+6588720
+],
+[
+"_p_WeaponSystem",
+6588736
+],
+[
+"_p_RadarScope",
+6588848
+],
+[
+"_p_PhaserBank",
+6588864
+],
+[
+"_p_Weapon",
+6589392
+],
+[
+"_p_PulseWeapon",
+6588880
+],
+[
+"_p_EnergyWeapon",
+6588896
+],
+[
+"_p_BackdropSphere",
+6588928
+],
+[
+"_p_StarSphere",
+6588912
+],
+[
+"_p_TGButton",
+6588944
+],
+[
+"_p_TGConsole",
+6588960
+],
+[
+"_p_Torpedo",
+6588976
+],
+[
+"_p_GridClass",
+6588992
+],
+[
+"_p_CharacterClass",
+6589008
+],
+[
+"_p_VarManagerClass",
+6589024
+],
+[
+"_p_TGUIObject",
+6589056
+],
+[
+"_p_DamageableObject",
+6589040
+],
+[
+"_p_SubtitleWindow",
+6589216
+],
+[
+"_p_CinematicWindow",
+6589200
+],
+[
+"_p_ModalDialogWindow",
+6589184
+],
+[
+"_p_BridgeWindow",
+6589168
+],
+[
+"_p_OptionsWindow",
+6589152
+],
+[
+"_p_ConsoleWindow",
+6589136
+],
+[
+"_p_TGWindow",
+6589120
+],
+[
+"_p_TGFrameWindow",
+6589104
+],
+[
+"_p_TGDialogWindow",
+6589088
+],
+[
+"_p_STSaveDialog",
+6589264
+],
+[
+"_p_STFileDialog",
+6589248
+],
+[
+"_p_TGParagraph",
+6589280
+],
+[
+"_p_STToggle",
+6589312
+],
+[
+"_p_STNumericBar",
+6589328
+],
+[
+"_p_STCharacterMenu",
+6589296
+],
+[
+"_p_Mission",
+6589344
+],
+[
+"_p_TGMusic",
+6589360
+],
+[
+"_p_STComponentMenuItem",
+6589376
+],
+[
+"_p_TGIcon",
+6590400
+],
+[
+"_p_ObjectGroupWithInfo",
+6589408
+],
+[
+"_p_TGPane",
+6590464
+],
+[
+"_p_STWarpButton",
+6589472
+],
+[
+"_p_STRoundedButton",
+6589456
+],
+[
+"_p_STButton",
+6589440
+],
+[
+"_p_TGTextButton",
+6589424
+],
+[
+"_p_Game",
+6589072
+],
+[
+"_p_Planet",
+6590544
+],
+[
+"_p_MetaNebula",
+6589504
+],
+[
+"_p_Nebula",
+6590560
+],
+[
+"_p_LightObjectClass",
+6589648
+],
+[
+"_p_CameraObjectClass",
+6589632
+],
+[
+"_p_ObjectClass",
+6589616
+],
+[
+"_p_BaseObjectClass",
+6589600
+],
+[
+"_p_SetClass",
+6589584
+],
+[
+"_p_ChatObjectClass",
+6589568
+],
+[
+"_p_ZoomCameraObjectClass",
+6589552
+],
+[
+"_p_BridgeObjectClass",
+6589536
+],
+[
+"_p_PhysicsObjectClass",
+6589520
+],
+[
+"_p_TractorBeamProjector",
+6589664
+],
+[
+"_p_Backdrop",
+6589680
+],
+[
+"_p_STSubPane",
+6589696
+],
+[
+"_p_ProximityCheck",
+6589712
+],
+[
+"_p_TGPythonInstanceWrapper",
+6589728
+],
+[
+"_p_CameraMode",
+6589744
+],
+[
+"_p_GraphicsMenu",
+6589760
+],
+[
+"_p_TorpedoTube",
+6589776
+],
+[
+"_p_MultiplayerGame",
+6589792
+],
+[
+"_p_TGFrame",
+6589808
+],
+[
+"_p_EngRepairPane",
+6589824
+],
+[
+"_p_TGSoundManager",
+6589840
+],
+[
+"_p_TGActionManager",
+6589856
+],
+[
+"_p_SpaceCamera",
+6589872
+],
+[
+"_p_WarpSet",
+6589888
+],
+[
+"_p_TGTemplatedAttrObject",
+0
+],
+[
+"_p_TGEventHandlerObject",
+6589920
+],
+[
+"_p_ViewScreenObject",
+6589904
+],
+[
+"_p_ScriptObject",
+6589936
+],
+[
+"_p_PlacementObject",
+6589952
+],
+[
+"_p_TGPrompt",
+6589968
+],
+[
+"_p_TGNetwork",
+6589984
+],
+[
+"_p_TGWinsockNetwork",
+6590000
+],
+[
+"_p_BridgeSet",
+6590016
+],
+[
+"_p_TopWindow",
+6590032
+],
+[
+"_p_MainWindow",
+6590048
+],
+[
+"_p_TacticalWindow",
+6590064
+],
+[
+"_p_TacticalControlWindow",
+6590080
+],
+[
+"_p_MapWindow",
+6590096
+],
+[
+"_p_STStylizedWindow",
+6590112
+],
+[
+"_p_MultiplayerWindow",
+6590128
+],
+[
+"_p_STTopLevelMenu",
+6590144
+],
+[
+"_p_TGRootPane",
+6590160
+],
+[
+"_p_STLoadDialog",
+6590176
+],
+[
+"_p_WarpEngineSubsystem",
+6590192
+],
+[
+"_p_ImpulseEngineSubsystem",
+6590208
+],
+[
+"_p_RepairSubsystem",
+6590224
+],
+[
+"_p_CloakingSubsystem",
+6590240
+],
+[
+"_p_SensorSubsystem",
+6590256
+],
+[
+"_p_TorpedoSystem",
+6590272
+],
+[
+"_p_PowerSubsystem",
+6590288
+],
+[
+"_p_PoweredSubsystem",
+6590304
+],
+[
+"_p_ShipSubsystem",
+6590320
+],
+[
+"_p_TGButtonBase",
+6590336
+],
+[
+"_p_TractorBeamSystem",
+6590352
+],
+[
+"_p_SortedRegionMenu",
+6590368
+],
+[
+"_p_TacWeaponsCtrl",
+6590384
+],
+[
+"_p_STFileMenu",
+6590416
+],
+[
+"_p_STComponentMenu",
+6590432
+],
+[
+"_p_DamageIcon",
+6590448
+],
+[
+"_p_WarpFlash",
+6590480
+],
+[
+"_p_STSubsystemMenu",
+6590496
+],
+[
+"_p_RadarBlip",
+6590512
+],
+[
+"_p_EngPowerCtrl",
+6590528
+],
+[
+"_p_Sun",
+6589488
+],
+[
+"_p_ShieldClass",
+6590576
+]
+]
+},
+{
+"i": 64,
+"ti": 9404848,
+"name": "_p_TGAttrObject",
+"str": "TGAttrObject *",
+"eq": [
+[
+"_p_Waypoint",
+6590592
+],
+[
+"_p_ObjectGroup",
+6590608
+],
+[
+"_p_ShipClass",
+6590624
+],
+[
+"_p_STTargetMenu",
+6590640
+],
+[
+"_p_Episode",
+6590656
+],
+[
+"_p_STMenu",
+6591312
+],
+[
+"_p_AsteroidField",
+6590672
+],
+[
+"_p_HullClass",
+6590688
+],
+[
+"_p_STTiledIcon",
+6590704
+],
+[
+"_p_STMissionLog",
+6590720
+],
+[
+"_p_AsteroidFieldPlacement",
+6590768
+],
+[
+"_p_LightPlacement",
+6590752
+],
+[
+"_p_STFillGauge",
+6590736
+],
+[
+"_p_ShipDisplay",
+6590832
+],
+[
+"_p_ShieldsDisplay",
+6590848
+],
+[
+"_p_DamageDisplay",
+6590864
+],
+[
+"_p_WeaponsDisplay",
+6590880
+],
+[
+"_p_RadarDisplay",
+6590896
+],
+[
+"_p_EngPowerDisplay",
+6590912
+],
+[
+"_p_PulseWeaponSystem",
+6590784
+],
+[
+"_p_PhaserSystem",
+6590800
+],
+[
+"_p_WeaponSystem",
+6590816
+],
+[
+"_p_RadarScope",
+6590928
+],
+[
+"_p_PhaserBank",
+6590944
+],
+[
+"_p_Weapon",
+6591472
+],
+[
+"_p_PulseWeapon",
+6590960
+],
+[
+"_p_EnergyWeapon",
+6590976
+],
+[
+"_p_StarSphere",
+6590992
+],
+[
+"_p_BackdropSphere",
+6591008
+],
+[
+"_p_TGButton",
+6591024
+],
+[
+"_p_TGConsole",
+6591040
+],
+[
+"_p_Torpedo",
+6591056
+],
+[
+"_p_GridClass",
+6591072
+],
+[
+"_p_CharacterClass",
+6591088
+],
+[
+"_p_VarManagerClass",
+6591104
+],
+[
+"_p_TGUIObject",
+6591136
+],
+[
+"_p_DamageableObject",
+6591120
+],
+[
+"_p_SubtitleWindow",
+6591296
+],
+[
+"_p_CinematicWindow",
+6591280
+],
+[
+"_p_ModalDialogWindow",
+6591264
+],
+[
+"_p_BridgeWindow",
+6591248
+],
+[
+"_p_OptionsWindow",
+6591232
+],
+[
+"_p_ConsoleWindow",
+6591216
+],
+[
+"_p_TGWindow",
+6591184
+],
+[
+"_p_TGFrameWindow",
+6591168
+],
+[
+"_p_TGDialogWindow",
+6591200
+],
+[
+"_p_STSaveDialog",
+6591344
+],
+[
+"_p_STFileDialog",
+6591328
+],
+[
+"_p_TGParagraph",
+6591360
+],
+[
+"_p_STToggle",
+6591392
+],
+[
+"_p_STNumericBar",
+6591408
+],
+[
+"_p_STCharacterMenu",
+6591376
+],
+[
+"_p_Mission",
+6591424
+],
+[
+"_p_TGMusic",
+6591440
+],
+[
+"_p_STComponentMenuItem",
+6591456
+],
+[
+"_p_TGIcon",
+6592496
+],
+[
+"_p_ObjectGroupWithInfo",
+6591488
+],
+[
+"_p_TGPane",
+6592560
+],
+[
+"_p_STWarpButton",
+6591552
+],
+[
+"_p_STRoundedButton",
+6591536
+],
+[
+"_p_STButton",
+6591520
+],
+[
+"_p_TGTextButton",
+6591504
+],
+[
+"_p_Game",
+6591152
+],
+[
+"_p_Planet",
+6592640
+],
+[
+"_p_MetaNebula",
+6591584
+],
+[
+"_p_Nebula",
+6592656
+],
+[
+"_p_LightObjectClass",
+6591728
+],
+[
+"_p_CameraObjectClass",
+6591712
+],
+[
+"_p_ObjectClass",
+6591696
+],
+[
+"_p_BaseObjectClass",
+6591680
+],
+[
+"_p_SetClass",
+6591664
+],
+[
+"_p_ChatObjectClass",
+6591648
+],
+[
+"_p_ZoomCameraObjectClass",
+6591632
+],
+[
+"_p_BridgeObjectClass",
+6591616
+],
+[
+"_p_PhysicsObjectClass",
+6591600
+],
+[
+"_p_TractorBeamProjector",
+6591760
+],
+[
+"_p_Backdrop",
+6591744
+],
+[
+"_p_STSubPane",
+6591776
+],
+[
+"_p_ProximityCheck",
+6591792
+],
+[
+"_p_TGPythonInstanceWrapper",
+6591808
+],
+[
+"_p_CameraMode",
+6591824
+],
+[
+"_p_GraphicsMenu",
+6591840
+],
+[
+"_p_TorpedoTube",
+6591856
+],
+[
+"_p_MultiplayerGame",
+6591872
+],
+[
+"_p_TGFrame",
+6591888
+],
+[
+"_p_EngRepairPane",
+6591904
+],
+[
+"_p_TGSoundManager",
+6591920
+],
+[
+"_p_TGActionManager",
+6591936
+],
+[
+"_p_SpaceCamera",
+6591952
+],
+[
+"_p_WarpSet",
+6591968
+],
+[
+"_p_TGAttrObject",
+0
+],
+[
+"_p_TGTemplatedAttrObject",
+6592016
+],
+[
+"_p_ViewScreenObject",
+6591984
+],
+[
+"_p_TGEventHandlerObject",
+6592000
+],
+[
+"_p_ScriptObject",
+6592032
+],
+[
+"_p_PlacementObject",
+6592048
+],
+[
+"_p_TGPrompt",
+6592064
+],
+[
+"_p_TGNetwork",
+6592080
+],
+[
+"_p_TGWinsockNetwork",
+6592096
+],
+[
+"_p_BridgeSet",
+6592112
+],
+[
+"_p_TopWindow",
+6592128
+],
+[
+"_p_MainWindow",
+6592144
+],
+[
+"_p_TacticalWindow",
+6592160
+],
+[
+"_p_TacticalControlWindow",
+6592176
+],
+[
+"_p_MapWindow",
+6592192
+],
+[
+"_p_STStylizedWindow",
+6592208
+],
+[
+"_p_MultiplayerWindow",
+6592224
+],
+[
+"_p_STTopLevelMenu",
+6592240
+],
+[
+"_p_TGRootPane",
+6592256
+],
+[
+"_p_STLoadDialog",
+6592272
+],
+[
+"_p_WarpEngineSubsystem",
+6592288
+],
+[
+"_p_ImpulseEngineSubsystem",
+6592304
+],
+[
+"_p_RepairSubsystem",
+6592320
+],
+[
+"_p_CloakingSubsystem",
+6592336
+],
+[
+"_p_SensorSubsystem",
+6592352
+],
+[
+"_p_TorpedoSystem",
+6592368
+],
+[
+"_p_PowerSubsystem",
+6592384
+],
+[
+"_p_PoweredSubsystem",
+6592400
+],
+[
+"_p_ShipSubsystem",
+6592416
+],
+[
+"_p_TGButtonBase",
+6592432
+],
+[
+"_p_TractorBeamSystem",
+6592448
+],
+[
+"_p_SortedRegionMenu",
+6592464
+],
+[
+"_p_TacWeaponsCtrl",
+6592480
+],
+[
+"_p_STFileMenu",
+6592512
+],
+[
+"_p_STComponentMenu",
+6592528
+],
+[
+"_p_DamageIcon",
+6592544
+],
+[
+"_p_WarpFlash",
+6592576
+],
+[
+"_p_STSubsystemMenu",
+6592592
+],
+[
+"_p_RadarBlip",
+6592608
+],
+[
+"_p_EngPowerCtrl",
+6592624
+],
+[
+"_p_Sun",
+6591568
+],
+[
+"_p_ShieldClass",
+6592672
+]
+]
+},
+{
+"i": 65,
+"ti": 9407528,
+"name": "_p_NiAVObject",
+"str": "NiAVObject *",
+"eq": [
+[
+"_p_NiAVObject",
+0
+]
+]
+},
+{
+"i": 66,
+"ti": 9407592,
+"name": "_p_TGEventHandlerObject",
+"str": "TGEventHandlerObject *",
+"eq": [
+[
+"_p_Waypoint",
+6592688
+],
+[
+"_p_ObjectGroup",
+6592704
+],
+[
+"_p_ShipClass",
+6592720
+],
+[
+"_p_STTargetMenu",
+6592736
+],
+[
+"_p_Episode",
+6592752
+],
+[
+"_p_STMenu",
+6593408
+],
+[
+"_p_AsteroidField",
+6592768
+],
+[
+"_p_HullClass",
+6592784
+],
+[
+"_p_STTiledIcon",
+6592800
+],
+[
+"_p_STMissionLog",
+6592816
+],
+[
+"_p_AsteroidFieldPlacement",
+6592864
+],
+[
+"_p_LightPlacement",
+6592848
+],
+[
+"_p_STFillGauge",
+6592832
+],
+[
+"_p_ShipDisplay",
+6592928
+],
+[
+"_p_ShieldsDisplay",
+6592944
+],
+[
+"_p_DamageDisplay",
+6592960
+],
+[
+"_p_WeaponsDisplay",
+6592976
+],
+[
+"_p_RadarDisplay",
+6592992
+],
+[
+"_p_EngPowerDisplay",
+6593008
+],
+[
+"_p_PulseWeaponSystem",
+6592880
+],
+[
+"_p_PhaserSystem",
+6592896
+],
+[
+"_p_WeaponSystem",
+6592912
+],
+[
+"_p_RadarScope",
+6593024
+],
+[
+"_p_PhaserBank",
+6593040
+],
+[
+"_p_Weapon",
+6593568
+],
+[
+"_p_PulseWeapon",
+6593056
+],
+[
+"_p_EnergyWeapon",
+6593072
+],
+[
+"_p_BackdropSphere",
+6593088
+],
+[
+"_p_StarSphere",
+6593104
+],
+[
+"_p_TGButton",
+6593120
+],
+[
+"_p_TGConsole",
+6593136
+],
+[
+"_p_Torpedo",
+6593152
+],
+[
+"_p_GridClass",
+6593168
+],
+[
+"_p_CharacterClass",
+6593184
+],
+[
+"_p_VarManagerClass",
+6593200
+],
+[
+"_p_TGUIObject",
+6593232
+],
+[
+"_p_DamageableObject",
+6593216
+],
+[
+"_p_SubtitleWindow",
+6593392
+],
+[
+"_p_CinematicWindow",
+6593376
+],
+[
+"_p_ModalDialogWindow",
+6593360
+],
+[
+"_p_BridgeWindow",
+6593344
+],
+[
+"_p_OptionsWindow",
+6593328
+],
+[
+"_p_ConsoleWindow",
+6593312
+],
+[
+"_p_TGWindow",
+6593296
+],
+[
+"_p_TGFrameWindow",
+6593280
+],
+[
+"_p_TGDialogWindow",
+6593264
+],
+[
+"_p_STSaveDialog",
+6593440
+],
+[
+"_p_STFileDialog",
+6593424
+],
+[
+"_p_TGParagraph",
+6593456
+],
+[
+"_p_STToggle",
+6593488
+],
+[
+"_p_STNumericBar",
+6593504
+],
+[
+"_p_STCharacterMenu",
+6593472
+],
+[
+"_p_Mission",
+6593520
+],
+[
+"_p_TGMusic",
+6593536
+],
+[
+"_p_STComponentMenuItem",
+6593552
+],
+[
+"_p_TGIcon",
+6594560
+],
+[
+"_p_ObjectGroupWithInfo",
+6593584
+],
+[
+"_p_TGPane",
+6594624
+],
+[
+"_p_STWarpButton",
+6593648
+],
+[
+"_p_STRoundedButton",
+6593632
+],
+[
+"_p_STButton",
+6593616
+],
+[
+"_p_TGTextButton",
+6593600
+],
+[
+"_p_Game",
+6593248
+],
+[
+"_p_Planet",
+6594704
+],
+[
+"_p_MetaNebula",
+6593680
+],
+[
+"_p_Nebula",
+6594720
+],
+[
+"_p_LightObjectClass",
+6593824
+],
+[
+"_p_CameraObjectClass",
+6593808
+],
+[
+"_p_ObjectClass",
+6593792
+],
+[
+"_p_BaseObjectClass",
+6593776
+],
+[
+"_p_SetClass",
+6593760
+],
+[
+"_p_ChatObjectClass",
+6593744
+],
+[
+"_p_ZoomCameraObjectClass",
+6593728
+],
+[
+"_p_BridgeObjectClass",
+6593712
+],
+[
+"_p_PhysicsObjectClass",
+6593696
+],
+[
+"_p_TractorBeamProjector",
+6593840
+],
+[
+"_p_Backdrop",
+6593856
+],
+[
+"_p_STSubPane",
+6593872
+],
+[
+"_p_ProximityCheck",
+6593888
+],
+[
+"_p_TGPythonInstanceWrapper",
+6593904
+],
+[
+"_p_CameraMode",
+6593920
+],
+[
+"_p_GraphicsMenu",
+6593936
+],
+[
+"_p_TorpedoTube",
+6593952
+],
+[
+"_p_MultiplayerGame",
+6593968
+],
+[
+"_p_TGFrame",
+6593984
+],
+[
+"_p_EngRepairPane",
+6594000
+],
+[
+"_p_TGSoundManager",
+6594016
+],
+[
+"_p_TGActionManager",
+6594032
+],
+[
+"_p_SpaceCamera",
+6594048
+],
+[
+"_p_WarpSet",
+6594064
+],
+[
+"_p_TGEventHandlerObject",
+0
+],
+[
+"_p_ViewScreenObject",
+6594080
+],
+[
+"_p_ScriptObject",
+6594096
+],
+[
+"_p_PlacementObject",
+6594112
+],
+[
+"_p_TGPrompt",
+6594128
+],
+[
+"_p_TGNetwork",
+6594144
+],
+[
+"_p_TGWinsockNetwork",
+6594160
+],
+[
+"_p_BridgeSet",
+6594176
+],
+[
+"_p_TopWindow",
+6594192
+],
+[
+"_p_MainWindow",
+6594208
+],
+[
+"_p_TacticalWindow",
+6594224
+],
+[
+"_p_TacticalControlWindow",
+6594240
+],
+[
+"_p_MapWindow",
+6594256
+],
+[
+"_p_STStylizedWindow",
+6594272
+],
+[
+"_p_MultiplayerWindow",
+6594288
+],
+[
+"_p_STTopLevelMenu",
+6594304
+],
+[
+"_p_TGRootPane",
+6594320
+],
+[
+"_p_STLoadDialog",
+6594336
+],
+[
+"_p_TractorBeamSystem",
+6594352
+],
+[
+"_p_WarpEngineSubsystem",
+6594368
+],
+[
+"_p_ImpulseEngineSubsystem",
+6594384
+],
+[
+"_p_RepairSubsystem",
+6594400
+],
+[
+"_p_CloakingSubsystem",
+6594416
+],
+[
+"_p_SensorSubsystem",
+6594432
+],
+[
+"_p_TorpedoSystem",
+6594448
+],
+[
+"_p_PowerSubsystem",
+6594464
+],
+[
+"_p_PoweredSubsystem",
+6594480
+],
+[
+"_p_ShipSubsystem",
+6594496
+],
+[
+"_p_TGButtonBase",
+6594512
+],
+[
+"_p_SortedRegionMenu",
+6594528
+],
+[
+"_p_TacWeaponsCtrl",
+6594544
+],
+[
+"_p_STFileMenu",
+6594576
+],
+[
+"_p_STComponentMenu",
+6594592
+],
+[
+"_p_DamageIcon",
+6594608
+],
+[
+"_p_WarpFlash",
+6594640
+],
+[
+"_p_STSubsystemMenu",
+6594656
+],
+[
+"_p_RadarBlip",
+6594672
+],
+[
+"_p_EngPowerCtrl",
+6594688
+],
+[
+"_p_Sun",
+6593664
+],
+[
+"_p_ShieldClass",
+6594736
+]
+]
+},
+{
+"i": 67,
+"ti": 9410232,
+"name": "_p_ScriptObject",
+"str": "ScriptObject *",
+"eq": [
+[
+"_p_MultiplayerGame",
+6588448
+],
+[
+"_p_Episode",
+6588464
+],
+[
+"_p_ScriptObject",
+0
+],
+[
+"_p_Game",
+6588480
+],
+[
+"_p_Mission",
+6588496
+]
+]
+},
+{
+"i": 68,
+"ti": 9410376,
+"name": "_p_DamageableObject",
+"str": "DamageableObject *",
+"eq": [
+[
+"_p_ShipClass",
+6594752
+],
+[
+"_p_DamageableObject",
+0
+]
+]
+},
+{
+"i": 69,
+"ti": 9410456,
+"name": "_p_p_PyObject",
+"str": "PyObject **",
+"eq": [
+[
+"_p_p_PyObject",
+0
+]
+]
+},
+{
+"i": 70,
+"ti": 9410520,
+"name": "_p_PyObject",
+"str": "PyObject *",
+"eq": [
+[
+"_p_PyObject",
+0
+]
+]
+},
+{
+"i": 71,
+"ti": 9410584,
+"name": "_p_TGObject",
+"str": "TGObject *",
+"eq": [
+[
+"_p_STTiledIcon",
+6594768
+],
+[
+"_p_TGIEvent",
+6594784
+],
+[
+"_p_WarpSequence",
+6594800
+],
+[
+"_p_TGSequence",
+6594816
+],
+[
+"_p_TGEvent",
+6594832
+],
+[
+"_p_BlinkingLightProperty",
+6595280
+],
+[
+"_p_ExplodeEmitterProperty",
+6595264
+],
+[
+"_p_SparkEmitterProperty",
+6595248
+],
+[
+"_p_SmokeEmitterProperty",
+6595232
+],
+[
+"_p_EffectEmitterProperty",
+6595216
+],
+[
+"_p_EngineProperty",
+6595200
+],
+[
+"_p_WarpEngineProperty",
+6595184
+],
+[
+"_p_ImpulseEngineProperty",
+6595168
+],
+[
+"_p_PowerProperty",
+6595152
+],
+[
+"_p_ShipProperty",
+6595136
+],
+[
+"_p_RepairSubsystemProperty",
+6595120
+],
+[
+"_p_CloakingSubsystemProperty",
+6595104
+],
+[
+"_p_SensorProperty",
+6595088
+],
+[
+"_p_HullProperty",
+6595072
+],
+[
+"_p_ShieldProperty",
+6595056
+],
+[
+"_p_EngineGlowProperty",
+6595040
+],
+[
+"_p_TorpedoSystemProperty",
+6595024
+],
+[
+"_p_TorpedoTubeProperty",
+6595008
+],
+[
+"_p_TractorBeamProperty",
+6594992
+],
+[
+"_p_PulseWeaponProperty",
+6594976
+],
+[
+"_p_TGModelProperty",
+6594848
+],
+[
+"_p_PositionOrientationProperty",
+6594864
+],
+[
+"_p_SubsystemProperty",
+6594880
+],
+[
+"_p_PoweredSubsystemProperty",
+6594896
+],
+[
+"_p_WeaponSystemProperty",
+6594912
+],
+[
+"_p_WeaponProperty",
+6594928
+],
+[
+"_p_EnergyWeaponProperty",
+6594944
+],
+[
+"_p_PhaserProperty",
+6594960
+],
+[
+"_p_ObjectEmitterProperty",
+6595296
+],
+[
+"_p_TorpedoTube",
+6595312
+],
+[
+"_p_TGRootPane",
+6595344
+],
+[
+"_p_STComponentMenuItem",
+6595360
+],
+[
+"_p_TGNetwork",
+6595376
+],
+[
+"_p_TGWinsockNetwork",
+6595392
+],
+[
+"_p_TGBoolEvent",
+6595408
+],
+[
+"_p_STTargetMenu",
+6595424
+],
+[
+"_p_TGPane",
+6597888
+],
+[
+"_p_CharacterClass",
+6595440
+],
+[
+"_p_VarManagerClass",
+6595456
+],
+[
+"_p_TGParagraph",
+6595488
+],
+[
+"_p_TGPythonInstanceWrapper",
+6595504
+],
+[
+"_p_ObjectExplodingEvent",
+6595520
+],
+[
+"_p_StartFiringEvent",
+6595536
+],
+[
+"_p_TGStringEvent",
+6595552
+],
+[
+"_p_Mission",
+6595568
+],
+[
+"_p_TGMouseEvent",
+6595584
+],
+[
+"_p_TGMessageEvent",
+6595600
+],
+[
+"_p_STToggle",
+6595616
+],
+[
+"_p_BridgeEffectAction",
+6595632
+],
+[
+"_p_EffectAction",
+6595648
+],
+[
+"_p_CharacterAction",
+6595664
+],
+[
+"_p_TGScriptAction",
+6595680
+],
+[
+"_p_TGTimedAction",
+6595696
+],
+[
+"_p_TGSoundAction",
+6595712
+],
+[
+"_p_TGConditionAction",
+6595728
+],
+[
+"_p_TGCreditAction",
+6595744
+],
+[
+"_p_LoadMissionAction",
+6595760
+],
+[
+"_p_ChangeRenderedSetAction",
+6595776
+],
+[
+"_p_STFileMenu",
+6595792
+],
+[
+"_p_ViewScreenObject",
+6595808
+],
+[
+"_p_TGAttrObject",
+6595824
+],
+[
+"_p_TGTemplatedAttrObject",
+6595840
+],
+[
+"_p_TGEventHandlerObject",
+6595856
+],
+[
+"_p_ScriptObject",
+6595872
+],
+[
+"_p_PlacementObject",
+6595888
+],
+[
+"_p_RadarBlip",
+6595904
+],
+[
+"_p_STCharacterMenu",
+6595920
+],
+[
+"_p_GraphicsMenu",
+6595936
+],
+[
+"_p_ObjectGroupWithInfo",
+6595952
+],
+[
+"_p_Planet",
+6595472
+],
+[
+"_p_ShipClass",
+6595968
+],
+[
+"_p_SortedRegionMenu",
+6595984
+],
+[
+"_p_WarpFlash",
+6596000
+],
+[
+"_p_WeaponSystem",
+6596048
+],
+[
+"_p_PhaserSystem",
+6596032
+],
+[
+"_p_PulseWeaponSystem",
+6596016
+],
+[
+"_p_STSubsystemMenu",
+6596064
+],
+[
+"_p_SortServerListEvent",
+6596144
+],
+[
+"_p_ServerListEvent",
+6596128
+],
+[
+"_p_TGFloatEvent",
+6596096
+],
+[
+"_p_WeaponHitEvent",
+6596080
+],
+[
+"_p_GridClass",
+6596112
+],
+[
+"_p_ObjectGroup",
+6596160
+],
+[
+"_p_LoadEpisodeAction",
+6596240
+],
+[
+"_p_TGMovieAction",
+6596224
+],
+[
+"_p_TGAnimAction",
+6596208
+],
+[
+"_p_TGAction",
+6596192
+],
+[
+"_p_SubtitleAction",
+6596176
+],
+[
+"_p_STTopLevelMenu",
+6596256
+],
+[
+"_p_Game",
+6597008
+],
+[
+"_p_TGUIObject",
+6596288
+],
+[
+"_p_DamageableObject",
+6596272
+],
+[
+"_p_TGObject",
+0
+],
+[
+"_p_SpaceCamera",
+6596304
+],
+[
+"_p_STWarpButton",
+6596368
+],
+[
+"_p_TGTextButton",
+6596352
+],
+[
+"_p_STButton",
+6596336
+],
+[
+"_p_STRoundedButton",
+6596320
+],
+[
+"_p_EngPowerDisplay",
+6596464
+],
+[
+"_p_RadarDisplay",
+6596448
+],
+[
+"_p_WeaponsDisplay",
+6596432
+],
+[
+"_p_DamageDisplay",
+6596416
+],
+[
+"_p_ShieldsDisplay",
+6596400
+],
+[
+"_p_ShipDisplay",
+6596384
+],
+[
+"_p_StarSphere",
+6596512
+],
+[
+"_p_BackdropSphere",
+6596496
+],
+[
+"_p_TacWeaponsCtrl",
+6596544
+],
+[
+"_p_Torpedo",
+6596528
+],
+[
+"_p_TGFrame",
+6596560
+],
+[
+"_p_ShipSubsystem",
+6596720
+],
+[
+"_p_PoweredSubsystem",
+6596704
+],
+[
+"_p_PowerSubsystem",
+6596688
+],
+[
+"_p_TorpedoSystem",
+6596672
+],
+[
+"_p_SensorSubsystem",
+6596656
+],
+[
+"_p_CloakingSubsystem",
+6596640
+],
+[
+"_p_RepairSubsystem",
+6596624
+],
+[
+"_p_ImpulseEngineSubsystem",
+6596608
+],
+[
+"_p_WarpEngineSubsystem",
+6596592
+],
+[
+"_p_TractorBeamSystem",
+6596576
+],
+[
+"_p_TGPrompt",
+6596736
+],
+[
+"_p_TractorBeamProjector",
+6596752
+],
+[
+"_p_TGCondition",
+6596768
+],
+[
+"_p_MultiplayerGame",
+6596816
+],
+[
+"_p_AsteroidFieldPlacement",
+6596800
+],
+[
+"_p_LightPlacement",
+6596784
+],
+[
+"_p_ShieldClass",
+6596832
+],
+[
+"_p_TGAnimPosition",
+6596848
+],
+[
+"_p_TGIntEvent",
+6596896
+],
+[
+"_p_TGShortEvent",
+6596880
+],
+[
+"_p_WaypointEvent",
+6596864
+],
+[
+"_p_CameraMode",
+6596912
+],
+[
+"_p_SetFloatVarEvent",
+6596976
+],
+[
+"_p_TGPlayerEvent",
+6596960
+],
+[
+"_p_TGCharEvent",
+6596944
+],
+[
+"_p_Waypoint",
+6596992
+],
+[
+"_p_TGButton",
+6597024
+],
+[
+"_p_STLoadDialog",
+6597040
+],
+[
+"_p_ProximityEvent",
+6597056
+],
+[
+"_p_STMenu",
+6596480
+],
+[
+"_p_PhaserBank",
+6597072
+],
+[
+"_p_STFillGauge",
+6597088
+],
+[
+"_p_MultiplayerWindow",
+6597200
+],
+[
+"_p_TopWindow",
+6597184
+],
+[
+"_p_MainWindow",
+6597168
+],
+[
+"_p_TacticalWindow",
+6597152
+],
+[
+"_p_TacticalControlWindow",
+6597136
+],
+[
+"_p_MapWindow",
+6597120
+],
+[
+"_p_STStylizedWindow",
+6597104
+],
+[
+"_p_EngRepairPane",
+6597232
+],
+[
+"_p_Sun",
+6595328
+],
+[
+"_p_DamageIcon",
+6597248
+],
+[
+"_p_TGVoidPtrEvent",
+6597264
+],
+[
+"_p_TGIcon",
+6596928
+],
+[
+"_p_TGObjPtrEvent",
+6597280
+],
+[
+"_p_WarpSet",
+6597296
+],
+[
+"_p_TGMusic",
+6597328
+],
+[
+"_p_STSaveDialog",
+6597344
+],
+[
+"_p_STFileDialog",
+6597360
+],
+[
+"_p_ConditionEventCreator",
+6597376
+],
+[
+"_p_Episode",
+6597392
+],
+[
+"_p_SubtitleWindow",
+6597408
+],
+[
+"_p_CinematicWindow",
+6597424
+],
+[
+"_p_ModalDialogWindow",
+6597440
+],
+[
+"_p_BridgeWindow",
+6597456
+],
+[
+"_p_OptionsWindow",
+6597472
+],
+[
+"_p_ConsoleWindow",
+6597488
+],
+[
+"_p_TGDialogWindow",
+6597504
+],
+[
+"_p_TGFrameWindow",
+6597520
+],
+[
+"_p_TGWindow",
+6597536
+],
+[
+"_p_EngPowerCtrl",
+6597552
+],
+[
+"_p_Weapon",
+6597216
+],
+[
+"_p_STComponentMenu",
+6597568
+],
+[
+"_p_TGSoundRegion",
+6597584
+],
+[
+"_p_PulseWeapon",
+6597600
+],
+[
+"_p_EnergyWeapon",
+6597616
+],
+[
+"_p_TGGamepadEvent",
+6597632
+],
+[
+"_p_BridgeSet",
+6597648
+],
+[
+"_p_ConditionScript",
+6597664
+],
+[
+"_p_TGConsole",
+6597680
+],
+[
+"_p_HullClass",
+6597696
+],
+[
+"_p_TGTimer",
+6597712
+],
+[
+"_p_RadarScope",
+6597728
+],
+[
+"_p_Nebula",
+6597312
+],
+[
+"_p_STSubPane",
+6597744
+],
+[
+"_p_MetaNebula",
+6597760
+],
+[
+"_p_STNumericBar",
+6597776
+],
+[
+"_p_TGButtonBase",
+6597792
+],
+[
+"_p_WarpEvent",
+6597808
+],
+[
+"_p_AsteroidField",
+6597824
+],
+[
+"_p_STMissionLog",
+6597840
+],
+[
+"_p_CollisionEvent",
+6597856
+],
+[
+"_p_TGModelPropertySet",
+6597872
+],
+[
+"_p_TGKeyboardEvent",
+6597904
+],
+[
+"_p_TGSoundManager",
+6597920
+],
+[
+"_p_TGActionManager",
+6597936
+],
+[
+"_p_PhysicsObjectClass",
+6597952
+],
+[
+"_p_BridgeObjectClass",
+6597968
+],
+[
+"_p_ZoomCameraObjectClass",
+6597984
+],
+[
+"_p_SetClass",
+6598000
+],
+[
+"_p_BaseObjectClass",
+6598016
+],
+[
+"_p_ObjectClass",
+6598032
+],
+[
+"_p_CameraObjectClass",
+6598048
+],
+[
+"_p_LightObjectClass",
+6598064
+],
+[
+"_p_ChatObjectClass",
+6598080
+],
+[
+"_p_ProximityCheck",
+6598096
+],
+[
+"_p_Backdrop",
+6598112
+]
+]
+},
+{
+"i": 72,
+"ti": 9414848,
+"name": "_p_TGUIObject",
+"str": "TGUIObject *",
+"eq": [
+[
+"_p_STCharacterMenu",
+6598128
+],
+[
+"_p_DamageIcon",
+6598144
+],
+[
+"_p_STFileDialog",
+6598160
+],
+[
+"_p_STSaveDialog",
+6598176
+],
+[
+"_p_TGButton",
+6598192
+],
+[
+"_p_STStylizedWindow",
+6598208
+],
+[
+"_p_MapWindow",
+6598224
+],
+[
+"_p_TacticalControlWindow",
+6598240
+],
+[
+"_p_TacticalWindow",
+6598256
+],
+[
+"_p_TopWindow",
+6598288
+],
+[
+"_p_MainWindow",
+6598272
+],
+[
+"_p_MultiplayerWindow",
+6598304
+],
+[
+"_p_STFillGauge",
+6598320
+],
+[
+"_p_TGButtonBase",
+6598352
+],
+[
+"_p_TGPrompt",
+6598368
+],
+[
+"_p_RadarBlip",
+6598384
+],
+[
+"_p_STMissionLog",
+6598416
+],
+[
+"_p_STComponentMenu",
+6598432
+],
+[
+"_p_STTiledIcon",
+6598448
+],
+[
+"_p_EngPowerDisplay",
+6598560
+],
+[
+"_p_RadarDisplay",
+6598544
+],
+[
+"_p_WeaponsDisplay",
+6598528
+],
+[
+"_p_DamageDisplay",
+6598512
+],
+[
+"_p_ShieldsDisplay",
+6598496
+],
+[
+"_p_ShipDisplay",
+6598480
+],
+[
+"_p_STNumericBar",
+6598464
+],
+[
+"_p_OptionsWindow",
+6598640
+],
+[
+"_p_ConsoleWindow",
+6598656
+],
+[
+"_p_TGDialogWindow",
+6598704
+],
+[
+"_p_TGFrameWindow",
+6598688
+],
+[
+"_p_TGWindow",
+6598672
+],
+[
+"_p_BridgeWindow",
+6598624
+],
+[
+"_p_ModalDialogWindow",
+6598608
+],
+[
+"_p_CinematicWindow",
+6598592
+],
+[
+"_p_SubtitleWindow",
+6598576
+],
+[
+"_p_TGPane",
+6598336
+],
+[
+"_p_STToggle",
+6598720
+],
+[
+"_p_STTargetMenu",
+6598736
+],
+[
+"_p_GraphicsMenu",
+6598768
+],
+[
+"_p_TGFrame",
+6598784
+],
+[
+"_p_STSubsystemMenu",
+6598800
+],
+[
+"_p_SortedRegionMenu",
+6598816
+],
+[
+"_p_TGIcon",
+6598400
+],
+[
+"_p_TacWeaponsCtrl",
+6598832
+],
+[
+"_p_EngRepairPane",
+6598848
+],
+[
+"_p_TGUIObject",
+0
+],
+[
+"_p_TGRootPane",
+6598864
+],
+[
+"_p_STTopLevelMenu",
+6598880
+],
+[
+"_p_TGParagraph",
+6598896
+],
+[
+"_p_TGConsole",
+6598912
+],
+[
+"_p_STLoadDialog",
+6598928
+],
+[
+"_p_STMenu",
+6598752
+],
+[
+"_p_STSubPane",
+6598944
+],
+[
+"_p_STRoundedButton",
+6598960
+],
+[
+"_p_STButton",
+6598976
+],
+[
+"_p_TGTextButton",
+6598992
+],
+[
+"_p_RadarScope",
+6599008
+],
+[
+"_p_STWarpButton",
+6599024
+],
+[
+"_p_EngPowerCtrl",
+6599040
+],
+[
+"_p_STFileMenu",
+6599056
+],
+[
+"_p_STComponentMenuItem",
+6599072
+]
+]
+},
+{
+"i": 73,
+"ti": 9416112,
+"name": "_p_Planet",
+"str": "Planet *",
+"eq": [
+[
+"_p_Planet",
+0
+],
+[
+"_p_Sun",
+6599088
+]
+]
+},
+{
+"i": 74,
+"ti": 9416192,
+"name": "_TGModelPropertyManager__FilterFunc",
+"str": "TGModelPropertyManager::FilterFunc ",
+"eq": [
+[
+"_TGModelPropertyManager__FilterFunc",
+0
+]
+]
+},
+{
+"i": 75,
+"ti": 9416256,
+"name": "_p_ConditionEventCreator",
+"str": "ConditionEventCreator *",
+"eq": [
+[
+"_p_ConditionEventCreator",
+0
+]
+]
+},
+{
+"i": 76,
+"ti": 9416320,
+"name": "_p_TGConditionHandler",
+"str": "TGConditionHandler *",
+"eq": [
+[
+"_p_TGConditionHandler",
+0
+],
+[
+"_p_ConditionalAI",
+6599104
+],
+[
+"_p_TGConditionAction",
+6599120
+],
+[
+"_p_ConditionEventCreator",
+6599136
+]
+]
+},
+{
+"i": 77,
+"ti": 9416440,
+"name": "_p_TGPythonInstanceWrapper",
+"str": "TGPythonInstanceWrapper *",
+"eq": [
+[
+"_p_TGPythonInstanceWrapper",
+0
+]
+]
+},
+{
+"i": 78,
+"ti": 9416504,
+"name": "_p_TGNetPlayer",
+"str": "TGNetPlayer *",
+"eq": [
+[
+"_p_TGNetPlayer",
+0
+]
+]
+},
+{
+"i": 79,
+"ti": 9416568,
+"name": "_p_p_TGNetPlayer",
+"str": "TGNetPlayer **",
+"eq": [
+[
+"_p_p_TGNetPlayer",
+0
+]
+]
+},
+{
+"i": 80,
+"ti": 9416632,
+"name": "_p_TGGroupPlayer",
+"str": "TGGroupPlayer *",
+"eq": [
+[
+"_p_TGGroupPlayer",
+0
+]
+]
+},
+{
+"i": 81,
+"ti": 9416696,
+"name": "_p_STSubsystemMenu",
+"str": "STSubsystemMenu *",
+"eq": [
+[
+"_p_STSubsystemMenu",
+0
+]
+]
+},
+{
+"i": 82,
+"ti": 9416760,
+"name": "_p_PythonMethodProcess",
+"str": "PythonMethodProcess *",
+"eq": [
+[
+"_p_PythonMethodProcess",
+0
+]
+]
+},
+{
+"i": 83,
+"ti": 9416824,
+"name": "_p_TimeSliceProcess",
+"str": "TimeSliceProcess *",
+"eq": [
+[
+"_p_TimeSliceProcess",
+0
+],
+[
+"_p_PythonMethodProcess",
+6599152
+]
+]
+},
+{
+"i": 84,
+"ti": 9416904,
+"name": "_p_TGNetworkListType",
+"str": "TGNetworkListType *",
+"eq": [
+[
+"_p_TGNetworkListType",
+0
+]
+]
+},
+{
+"i": 85,
+"ti": 9416968,
+"name": "_p_ProximityCheck",
+"str": "ProximityCheck *",
+"eq": [
+[
+"_p_ProximityCheck",
+0
+]
+]
+},
+{
+"i": 86,
+"ti": 9417032,
+"name": "_p_TGTimer",
+"str": "TGTimer *",
+"eq": [
+[
+"_p_TGTimer",
+0
+]
+]
+},
+{
+"i": 87,
+"ti": 9417096,
+"name": "_p_MultiplayerGame",
+"str": "MultiplayerGame *",
+"eq": [
+[
+"_p_MultiplayerGame",
+0
+]
+]
+},
+{
+"i": 88,
+"ti": 9417160,
+"name": "_p_FloatRangeWatcher",
+"str": "FloatRangeWatcher *",
+"eq": [
+[
+"_p_FloatRangeWatcher",
+0
+]
+]
+},
+{
+"i": 89,
+"ti": 9417224,
+"name": "_p_ShipClass",
+"str": "ShipClass *",
+"eq": [
+[
+"_p_ShipClass",
+0
+]
+]
+},
+{
+"i": 90,
+"ti": 9417288,
+"name": "_p_BridgeSet",
+"str": "BridgeSet *",
+"eq": [
+[
+"_p_BridgeSet",
+0
+]
+]
+},
+{
+"i": 91,
+"ti": 9417352,
+"name": "_p_STMissionLog",
+"str": "STMissionLog *",
+"eq": [
+[
+"_p_STMissionLog",
+0
+]
+]
+},
+{
+"i": 92,
+"ti": 9417416,
+"name": "_p_TGAnimBlender",
+"str": "TGAnimBlender *",
+"eq": [
+[
+"_p_TGAnimBlender",
+0
+]
+]
+},
+{
+"i": 93,
+"ti": 9417480,
+"name": "_p_TorpedoAmmoType",
+"str": "TorpedoAmmoType *",
+"eq": [
+[
+"_p_TorpedoAmmoType",
+0
+]
+]
+},
+{
+"i": 94,
+"ti": 9417544,
+"name": "_p_NiCameraPtr",
+"str": "NiCameraPtr *",
+"eq": [
+[
+"_p_NiCameraPtr",
+0
+]
+]
+},
+{
+"i": 95,
+"ti": 9417608,
+"name": "_p_TGButtonBase",
+"str": "TGButtonBase *",
+"eq": [
+[
+"_p_TGTextButton",
+6599168
+],
+[
+"_p_STButton",
+6599184
+],
+[
+"_p_STRoundedButton",
+6599200
+],
+[
+"_p_STWarpButton",
+6599216
+],
+[
+"_p_TGButton",
+6599232
+],
+[
+"_p_STToggle",
+6599248
+],
+[
+"_p_TGButtonBase",
+0
+],
+[
+"_p_STComponentMenuItem",
+6599264
+]
+]
+},
+{
+"i": 96,
+"ti": 9417808,
+"name": "_p_TGMessageMethodPtr",
+"str": "TGMessageMethodPtr *",
+"eq": [
+[
+"_p_TGMessageMethodPtr",
+0
+]
+]
+},
+{
+"i": 97,
+"ti": 9417872,
+"name": "_p_GServer",
+"str": "GServer *",
+"eq": [
+[
+"_p_GServer",
+0
+]
+]
+},
+{
+"i": 98,
+"ti": 9417936,
+"name": "_p_TGGroupList",
+"str": "TGGroupList *",
+"eq": [
+[
+"_p_TGGroupList",
+0
+]
+]
+},
+{
+"i": 99,
+"ti": 9418000,
+"name": "_p_NiColorA",
+"str": "NiColorA *",
+"eq": [
+[
+"_p_NiColorA",
+0
+],
+[
+"_p_TGColorA",
+6599280
+]
+]
+},
+{
+"i": 100,
+"ti": 9418080,
+"name": "_p_TGColorA",
+"str": "TGColorA *",
+"eq": [
+[
+"_p_TGColorA",
+0
+]
+]
+},
+{
+"i": 101,
+"ti": 9418144,
+"name": "_p_TGEncrypt",
+"str": "TGEncrypt *",
+"eq": [
+[
+"_p_TGEncrypt",
+0
+]
+]
+},
+{
+"i": 102,
+"ti": 9418208,
+"name": "_p_ConditionalAI",
+"str": "ConditionalAI *",
+"eq": [
+[
+"_p_ConditionalAI",
+0
+]
+]
+},
+{
+"i": 103,
+"ti": 9418272,
+"name": "_p_RadarBlip",
+"str": "RadarBlip *",
+"eq": [
+[
+"_p_RadarBlip",
+0
+]
+]
+},
+{
+"i": 104,
+"ti": 9418336,
+"name": "_r_FuzzySet",
+"str": "FuzzySet &",
+"eq": [
+[
+"_r_FuzzySet",
+0
+],
+[
+"_p_int",
+0
+]
+]
+},
+{
+"i": 105,
+"ti": 9418416,
+"name": "_p_TGBoolEvent",
+"str": "TGBoolEvent *",
+"eq": [
+[
+"_p_TGBoolEvent",
+0
+]
+]
+},
+{
+"i": 106,
+"ti": 9418480,
+"name": "_p_TextureAnimTrack",
+"str": "TextureAnimTrack *",
+"eq": [
+[
+"_p_TextureAnimTrack",
+0
+]
+]
+},
+{
+"i": 107,
+"ti": 9418544,
+"name": "_p_LODModel",
+"str": "LODModel *",
+"eq": [
+[
+"_p_LODModel",
+0
+]
+]
+},
+{
+"i": 108,
+"ti": 9418608,
+"name": "_p_STTopLevelMenu",
+"str": "STTopLevelMenu *",
+"eq": [
+[
+"_p_STTargetMenu",
+6599296
+],
+[
+"_p_STFileMenu",
+6599312
+],
+[
+"_p_STTopLevelMenu",
+0
+]
+]
+},
+{
+"i": 109,
+"ti": 9418712,
+"name": "_p_UtopiaApp",
+"str": "UtopiaApp *",
+"eq": [
+[
+"_p_UtopiaApp",
+0
+]
+]
+},
+{
+"i": 110,
+"ti": 9418776,
+"name": "_p_Waypoint",
+"str": "Waypoint *",
+"eq": [
+[
+"_p_Waypoint",
+0
+]
+]
+},
+{
+"i": 111,
+"ti": 9418840,
+"name": "_p_ConditionScript",
+"str": "ConditionScript *",
+"eq": [
+[
+"_p_ConditionScript",
+0
+]
+]
+},
+{
+"i": 112,
+"ti": 9418904,
+"name": "_p_STMenu",
+"str": "STMenu *",
+"eq": [
+[
+"_p_STMenu",
+0
+],
+[
+"_p_STCharacterMenu",
+6599328
+],
+[
+"_p_STTargetMenu",
+6599344
+],
+[
+"_p_STSubsystemMenu",
+6599360
+],
+[
+"_p_SortedRegionMenu",
+6599392
+],
+[
+"_p_STFileMenu",
+6599376
+],
+[
+"_p_STTopLevelMenu",
+6599408
+],
+[
+"_p_STComponentMenu",
+6599424
+]
+]
+},
+{
+"i": 113,
+"ti": 9419104,
+"name": "_p_OptimizedFireScript",
+"str": "OptimizedFireScript *",
+"eq": [
+[
+"_p_OptimizedFireScript",
+0
+]
+]
+},
+{
+"i": 114,
+"ti": 9419168,
+"name": "_p_AttrType",
+"str": "AttrType *",
+"eq": [
+[
+"_p_AttrType",
+0
+]
+]
+},
+{
+"i": 115,
+"ti": 9419232,
+"name": "_p_MetaNebula",
+"str": "MetaNebula *",
+"eq": [
+[
+"_p_MetaNebula",
+0
+]
+]
+},
+{
+"i": 116,
+"ti": 9419296,
+"name": "_p_Nebula",
+"str": "Nebula *",
+"eq": [
+[
+"_p_Nebula",
+0
+],
+[
+"_p_MetaNebula",
+6599440
+]
+]
+},
+{
+"i": 117,
+"ti": 9419376,
+"name": "_p_STFileMenu",
+"str": "STFileMenu *",
+"eq": [
+[
+"_p_STFileMenu",
+0
+]
+]
+},
+{
+"i": 118,
+"ti": 9419440,
+"name": "_p_STLoadDialog",
+"str": "STLoadDialog *",
+"eq": [
+[
+"_p_STLoadDialog",
+0
+]
+]
+},
+{
+"i": 119,
+"ti": 9419504,
+"name": "_p_STSubPane",
+"str": "STSubPane *",
+"eq": [
+[
+"_p_STSubPane",
+0
+]
+]
+},
+{
+"i": 120,
+"ti": 9419568,
+"name": "_p_STSaveDialog",
+"str": "STSaveDialog *",
+"eq": [
+[
+"_p_STSaveDialog",
+0
+]
+]
+},
+{
+"i": 121,
+"ti": 9419632,
+"name": "_p_STFileDialog",
+"str": "STFileDialog *",
+"eq": [
+[
+"_p_STLoadDialog",
+6599536
+],
+[
+"_p_STFileDialog",
+0
+],
+[
+"_p_STSaveDialog",
+6599552
+]
+]
+},
+{
+"i": 122,
+"ti": 9419736,
+"name": "_p_UITreeDialog",
+"str": "UITreeDialog *",
+"eq": [
+[
+"_p_UITreeDialog",
+0
+]
+]
+},
+{
+"i": 123,
+"ti": 9419800,
+"name": "_p_PulseWeapon",
+"str": "PulseWeapon *",
+"eq": [
+[
+"_p_PulseWeapon",
+0
+]
+]
+},
+{
+"i": 124,
+"ti": 9419864,
+"name": "_p_EnergyWeapon",
+"str": "EnergyWeapon *",
+"eq": [
+[
+"_p_EnergyWeapon",
+0
+],
+[
+"_p_PulseWeapon",
+6599568
+],
+[
+"_p_TractorBeamProjector",
+6599584
+],
+[
+"_p_PhaserBank",
+6599600
+]
+]
+},
+{
+"i": 125,
+"ti": 9419984,
+"name": "_p_Weapon",
+"str": "Weapon *",
+"eq": [
+[
+"_p_Weapon",
+0
+],
+[
+"_p_TorpedoTube",
+6599456
+],
+[
+"_p_EnergyWeapon",
+6599472
+],
+[
+"_p_PulseWeapon",
+6599488
+],
+[
+"_p_TractorBeamProjector",
+6599504
+],
+[
+"_p_PhaserBank",
+6599520
+]
+]
+},
+{
+"i": 126,
+"ti": 9420144,
+"name": "_p_ObjectGroupWithInfo",
+"str": "ObjectGroupWithInfo *",
+"eq": [
+[
+"_p_ObjectGroupWithInfo",
+0
+]
+]
+},
+{
+"i": 127,
+"ti": 9420208,
+"name": "_p_PhaserBank",
+"str": "PhaserBank *",
+"eq": [
+[
+"_p_PhaserBank",
+0
+]
+]
+},
+{
+"i": 128,
+"ti": 9420272,
+"name": "_p_Episode",
+"str": "Episode *",
+"eq": [
+[
+"_p_Episode",
+0
+]
+]
+},
+{
+"i": 129,
+"ti": 9420336,
+"name": "_p_GridClass",
+"str": "GridClass *",
+"eq": [
+[
+"_p_GridClass",
+0
+]
+]
+},
+{
+"i": 130,
+"ti": 9420400,
+"name": "_p___int16",
+"str": "__int16 *",
+"eq": [
+[
+"_p___int16",
+0
+]
+]
+},
+{
+"i": 131,
+"ti": 9420464,
+"name": "_p_ShieldClass",
+"str": "ShieldClass *",
+"eq": [
+[
+"_p_ShieldClass",
+0
+]
+]
+},
+{
+"i": 132,
+"ti": 9420528,
+"name": "_p_TorpedoTube",
+"str": "TorpedoTube *",
+"eq": [
+[
+"_p_TorpedoTube",
+0
+]
+]
+},
+{
+"i": 133,
+"ti": 9420592,
+"name": "_p_TGIcon",
+"str": "TGIcon *",
+"eq": [
+[
+"_p_TGIcon",
+0
+],
+[
+"_p_STTiledIcon",
+6599616
+],
+[
+"_p_DamageIcon",
+6599632
+],
+[
+"_p_RadarBlip",
+6599648
+]
+]
+},
+{
+"i": 134,
+"ti": 9420712,
+"name": "_p_Sun",
+"str": "Sun *",
+"eq": [
+[
+"_p_Sun",
+0
+]
+]
+},
+{
+"i": 135,
+"ti": 9420776,
+"name": "_p_RandomAI",
+"str": "RandomAI *",
+"eq": [
+[
+"_p_RandomAI",
+0
+]
+]
+},
+{
+"i": 136,
+"ti": 9420840,
+"name": "_p_TGRect",
+"str": "TGRect *",
+"eq": [
+[
+"_p_TGRect",
+0
+]
+]
+},
+{
+"i": 137,
+"ti": 9420904,
+"name": "_p_NiTList_ShipSubsystem___",
+"str": "NiTList<ShipSubsystem *> *",
+"eq": [
+[
+"_p_NiTList_ShipSubsystem___",
+0
+],
+[
+"_p_SubsystemList",
+0
+]
+]
+},
+{
+"i": 138,
+"ti": 9420984,
+"name": "_p_TGMessage",
+"str": "TGMessage *",
+"eq": [
+[
+"_p_TGMessage",
+0
+],
+[
+"_p_TGNameChangeMessage",
+6599664
+],
+[
+"_p_TGAckMessage",
+6599680
+],
+[
+"_p_TGDoNothingMessage",
+6599696
+],
+[
+"_p_TGBootPlayerMessage",
+6599712
+],
+[
+"_p_TGConnectMessage",
+6599728
+],
+[
+"_p_TGDisconnectMessage",
+6599744
+]
+]
+},
+{
+"i": 139,
+"ti": 9421168,
+"name": "_p_p_TGMessage",
+"str": "TGMessage **",
+"eq": [
+[
+"_p_p_TGMessage",
+0
+],
+[
+"_p_p_TGNameChangeMessage",
+6599760
+],
+[
+"_p_p_TGAckMessage",
+6599776
+],
+[
+"_p_p_TGDoNothingMessage",
+6599792
+],
+[
+"_p_p_TGBootPlayerMessage",
+6599808
+],
+[
+"_p_p_TGConnectMessage",
+6599824
+],
+[
+"_p_p_TGDisconnectMessage",
+6599840
+]
+]
+},
+{
+"i": 140,
+"ti": 9421352,
+"name": "_p_TGNameChangeMessage",
+"str": "TGNameChangeMessage *",
+"eq": [
+[
+"_p_TGNameChangeMessage",
+0
+]
+]
+},
+{
+"i": 141,
+"ti": 9421416,
+"name": "_p_TGAckMessage",
+"str": "TGAckMessage *",
+"eq": [
+[
+"_p_TGAckMessage",
+0
+]
+]
+},
+{
+"i": 142,
+"ti": 9421480,
+"name": "_p_TGDoNothingMessage",
+"str": "TGDoNothingMessage *",
+"eq": [
+[
+"_p_TGDoNothingMessage",
+0
+]
+]
+},
+{
+"i": 143,
+"ti": 9421544,
+"name": "_p_TGBootPlayerMessage",
+"str": "TGBootPlayerMessage *",
+"eq": [
+[
+"_p_TGBootPlayerMessage",
+0
+]
+]
+},
+{
+"i": 144,
+"ti": 9421608,
+"name": "_p_TGConnectMessage",
+"str": "TGConnectMessage *",
+"eq": [
+[
+"_p_TGConnectMessage",
+0
+]
+]
+},
+{
+"i": 145,
+"ti": 9421672,
+"name": "_p_TGDisconnectMessage",
+"str": "TGDisconnectMessage *",
+"eq": [
+[
+"_p_TGDisconnectMessage",
+0
+]
+]
+},
+{
+"i": 146,
+"ti": 9421736,
+"name": "_p_unsigned_short",
+"str": "unsigned short *",
+"eq": [
+[
+"_p_unsigned_short",
+0
+]
+]
+},
+{
+"i": 147,
+"ti": 9421800,
+"name": "_p_WarpSet",
+"str": "WarpSet *",
+"eq": [
+[
+"_p_WarpSet",
+0
+]
+]
+},
+{
+"i": 148,
+"ti": 9421864,
+"name": "_p_TGString",
+"str": "TGString *",
+"eq": [
+[
+"_p_TGString",
+0
+]
+]
+},
+{
+"i": 149,
+"ti": 9421928,
+"name": "_p_InterfaceModule",
+"str": "InterfaceModule *",
+"eq": [
+[
+"_p_InterfaceModule",
+0
+]
+]
+},
+{
+"i": 150,
+"ti": 9421992,
+"name": "_p_UtopiaModule",
+"str": "UtopiaModule *",
+"eq": [
+[
+"_p_UtopiaModule",
+0
+]
+]
+},
+{
+"i": 151,
+"ti": 9422056,
+"name": "_p_bool",
+"str": "bool *",
+"eq": [
+[
+"_p_bool",
+0
+]
+]
+},
+{
+"i": 152,
+"ti": 9422120,
+"name": "_p_STToggle",
+"str": "STToggle *",
+"eq": [
+[
+"_p_STToggle",
+0
+]
+]
+},
+{
+"i": 153,
+"ti": 9422184,
+"name": "_p_ExplosionPlumeController",
+"str": "ExplosionPlumeController *",
+"eq": [
+[
+"_p_ExplosionPlumeController",
+0
+]
+]
+},
+{
+"i": 154,
+"ti": 9422248,
+"name": "_p_AnimTSParticleController",
+"str": "AnimTSParticleController *",
+"eq": [
+[
+"_p_AnimTSParticleController",
+0
+],
+[
+"_p_ExplosionPlumeController",
+6599856
+]
+]
+},
+{
+"i": 155,
+"ti": 9422328,
+"name": "_p_DebrisParticleController",
+"str": "DebrisParticleController *",
+"eq": [
+[
+"_p_DebrisParticleController",
+0
+]
+]
+},
+{
+"i": 156,
+"ti": 9422392,
+"name": "_p_ExplodeParticleController",
+"str": "ExplodeParticleController *",
+"eq": [
+[
+"_p_ExplodeParticleController",
+0
+]
+]
+},
+{
+"i": 157,
+"ti": 9422456,
+"name": "_p_SparkParticleController",
+"str": "SparkParticleController *",
+"eq": [
+[
+"_p_SparkParticleController",
+0
+]
+]
+},
+{
+"i": 158,
+"ti": 9422520,
+"name": "_p_EmitterController",
+"str": "EmitterController *",
+"eq": [
+[
+"_p_EmitterController",
+0
+],
+[
+"_p_PointParticleController",
+6599872
+],
+[
+"_p_SparkParticleController",
+6599888
+],
+[
+"_p_TexturedSparksController",
+6599904
+],
+[
+"_p_ExplodeParticleController",
+6599920
+],
+[
+"_p_DebrisParticleController",
+6599936
+],
+[
+"_p_AnimTSParticleController",
+6599952
+],
+[
+"_p_ExplosionPlumeController",
+6599968
+]
+]
+},
+{
+"i": 159,
+"ti": 9422720,
+"name": "_p_EffectController",
+"str": "EffectController *",
+"eq": [
+[
+"_p_EffectController",
+0
+],
+[
+"_p_EmitterController",
+6599984
+],
+[
+"_p_PointParticleController",
+6600000
+],
+[
+"_p_SparkParticleController",
+6600016
+],
+[
+"_p_TexturedSparksController",
+6600032
+],
+[
+"_p_ExplodeParticleController",
+6600048
+],
+[
+"_p_DebrisParticleController",
+6600064
+],
+[
+"_p_AnimTSParticleController",
+6600080
+],
+[
+"_p_ExplosionPlumeController",
+6600096
+]
+]
+},
+{
+"i": 160,
+"ti": 9422944,
+"name": "_p_PointParticleController",
+"str": "PointParticleController *",
+"eq": [
+[
+"_p_PointParticleController",
+0
+],
+[
+"_p_SparkParticleController",
+6600112
+],
+[
+"_p_ExplodeParticleController",
+6600128
+],
+[
+"_p_DebrisParticleController",
+6600144
+]
+]
+},
+{
+"i": 161,
+"ti": 9423064,
+"name": "_p_NiSourcePtr",
+"str": "NiSourcePtr *",
+"eq": [
+[
+"_p_NiSourcePtr",
+0
+]
+]
+},
+{
+"i": 162,
+"ti": 9423128,
+"name": "_p_TGPhoneme",
+"str": "TGPhoneme *",
+"eq": [
+[
+"_p_TGPhoneme",
+0
+]
+]
+},
+{
+"i": 163,
+"ti": 9423192,
+"name": "_p_FILE",
+"str": "FILE *",
+"eq": [
+[
+"_p_FILE",
+0
+]
+]
+},
+{
+"i": 164,
+"ti": 9423256,
+"name": "_p_TGModelPropertyList",
+"str": "TGModelPropertyList *",
+"eq": [
+[
+"_p_TGModelPropertyList",
+0
+]
+]
+},
+{
+"i": 165,
+"ti": 9423320,
+"name": "_p_RadarScope",
+"str": "RadarScope *",
+"eq": [
+[
+"_p_RadarScope",
+0
+]
+]
+},
+{
+"i": 166,
+"ti": 9423384,
+"name": "_p_EngPowerCtrl",
+"str": "EngPowerCtrl *",
+"eq": [
+[
+"_p_EngPowerCtrl",
+0
+]
+]
+},
+{
+"i": 167,
+"ti": 9423448,
+"name": "_p_TGConfigMapping",
+"str": "TGConfigMapping *",
+"eq": [
+[
+"_p_TGConfigMapping",
+0
+]
+]
+},
+{
+"i": 168,
+"ti": 9423512,
+"name": "_p_TGIconGroup",
+"str": "TGIconGroup *",
+"eq": [
+[
+"_p_TGFontGroup",
+6600160
+],
+[
+"_p_TGIconGroup",
+0
+]
+]
+},
+{
+"i": 169,
+"ti": 9423592,
+"name": "_p_STTargetMenu",
+"str": "STTargetMenu *",
+"eq": [
+[
+"_p_STTargetMenu",
+0
+]
+]
+},
+{
+"i": 170,
+"ti": 9423656,
+"name": "_p_TGPrompt",
+"str": "TGPrompt *",
+"eq": [
+[
+"_p_TGPrompt",
+0
+]
+]
+},
+{
+"i": 171,
+"ti": 9423720,
+"name": "_p_NiColor",
+"str": "NiColor *",
+"eq": [
+[
+"_p_NiColor",
+0
+]
+]
+},
+{
+"i": 172,
+"ti": 9423784,
+"name": "_p_LensFlare",
+"str": "LensFlare *",
+"eq": [
+[
+"_p_LensFlare",
+0
+]
+]
+},
+{
+"i": 173,
+"ti": 9423848,
+"name": "_p_WeaponHitEvent",
+"str": "WeaponHitEvent *",
+"eq": [
+[
+"_p_WeaponHitEvent",
+0
+]
+]
+},
+{
+"i": 174,
+"ti": 9423912,
+"name": "_p_TGFloatEvent",
+"str": "TGFloatEvent *",
+"eq": [
+[
+"_p_TGFloatEvent",
+0
+]
+]
+},
+{
+"i": 175,
+"ti": 9423976,
+"name": "_p_ServerListEvent",
+"str": "ServerListEvent *",
+"eq": [
+[
+"_p_ServerListEvent",
+0
+]
+]
+},
+{
+"i": 176,
+"ti": 9424040,
+"name": "_p_SortServerListEvent",
+"str": "SortServerListEvent *",
+"eq": [
+[
+"_p_SortServerListEvent",
+0
+]
+]
+},
+{
+"i": 177,
+"ti": 9424104,
+"name": "_p_WaypointEvent",
+"str": "WaypointEvent *",
+"eq": [
+[
+"_p_WaypointEvent",
+0
+]
+]
+},
+{
+"i": 178,
+"ti": 9424168,
+"name": "_p_TGIntEvent",
+"str": "TGIntEvent *",
+"eq": [
+[
+"_p_TGIntEvent",
+0
+]
+]
+},
+{
+"i": 179,
+"ti": 9424232,
+"name": "_p_TGShortEvent",
+"str": "TGShortEvent *",
+"eq": [
+[
+"_p_TGShortEvent",
+0
+]
+]
+},
+{
+"i": 180,
+"ti": 9424296,
+"name": "_p_Force",
+"str": "Force *",
+"eq": [
+[
+"_p_Force",
+0
+]
+]
+},
+{
+"i": 181,
+"ti": 9424360,
+"name": "_p_SequenceAI",
+"str": "SequenceAI *",
+"eq": [
+[
+"_p_SequenceAI",
+0
+]
+]
+},
+{
+"i": 182,
+"ti": 9424424,
+"name": "_p_EngPowerDisplay",
+"str": "EngPowerDisplay *",
+"eq": [
+[
+"_p_EngPowerDisplay",
+0
+]
+]
+},
+{
+"i": 183,
+"ti": 9424488,
+"name": "_p_DamageDisplay",
+"str": "DamageDisplay *",
+"eq": [
+[
+"_p_DamageDisplay",
+0
+]
+]
+},
+{
+"i": 184,
+"ti": 9424552,
+"name": "_p_ShieldsDisplay",
+"str": "ShieldsDisplay *",
+"eq": [
+[
+"_p_ShieldsDisplay",
+0
+]
+]
+},
+{
+"i": 185,
+"ti": 9424616,
+"name": "_p_RadarDisplay",
+"str": "RadarDisplay *",
+"eq": [
+[
+"_p_RadarDisplay",
+0
+]
+]
+},
+{
+"i": 186,
+"ti": 9424680,
+"name": "_p_WeaponsDisplay",
+"str": "WeaponsDisplay *",
+"eq": [
+[
+"_p_WeaponsDisplay",
+0
+]
+]
+},
+{
+"i": 187,
+"ti": 9424744,
+"name": "_p_ShipDisplay",
+"str": "ShipDisplay *",
+"eq": [
+[
+"_p_ShipDisplay",
+0
+]
+]
+},
+{
+"i": 188,
+"ti": 9424808,
+"name": "_p_TGIEvent",
+"str": "TGIEvent *",
+"eq": [
+[
+"_p_TGMouseEvent",
+6600176
+],
+[
+"_p_TGIEvent",
+0
+],
+[
+"_p_TGGamepadEvent",
+6600192
+],
+[
+"_p_TGKeyboardEvent",
+6600208
+]
+]
+},
+{
+"i": 189,
+"ti": 9424928,
+"name": "_p_TacWeaponsCtrl",
+"str": "TacWeaponsCtrl *",
+"eq": [
+[
+"_p_TacWeaponsCtrl",
+0
+]
+]
+},
+{
+"i": 190,
+"ti": 9424992,
+"name": "_p_CPyDebug",
+"str": "CPyDebug *",
+"eq": [
+[
+"_p_CPyDebug",
+0
+]
+]
+},
+{
+"i": 191,
+"ti": 9425056,
+"name": "_p_TGPlayerList",
+"str": "TGPlayerList *",
+"eq": [
+[
+"_p_TGPlayerList",
+0
+]
+]
+},
+{
+"i": 192,
+"ti": 9425120,
+"name": "_p_Mission",
+"str": "Mission *",
+"eq": [
+[
+"_p_Mission",
+0
+]
+]
+},
+{
+"i": 193,
+"ti": 9425184,
+"name": "_p_TGAnimPosition",
+"str": "TGAnimPosition *",
+"eq": [
+[
+"_p_TGAnimPosition",
+0
+]
+]
+},
+{
+"i": 194,
+"ti": 9425248,
+"name": "_p_TGModelPropertySet",
+"str": "TGModelPropertySet *",
+"eq": [
+[
+"_p_TGModelPropertySet",
+0
+]
+]
+},
+{
+"i": 195,
+"ti": 9425312,
+"name": "_p_HullClass",
+"str": "HullClass *",
+"eq": [
+[
+"_p_HullClass",
+0
+]
+]
+},
+{
+"i": 196,
+"ti": 9425376,
+"name": "_p_Ni3DDeviceDesc",
+"str": "Ni3DDeviceDesc *",
+"eq": [
+[
+"_p_Ni3DDeviceDesc",
+0
+]
+]
+},
+{
+"i": 197,
+"ti": 9425440,
+"name": "_p_STMenu__STMenuColorScheme",
+"str": "STMenu::STMenuColorScheme *",
+"eq": [
+[
+"_p_STMenu__STMenuColorScheme",
+0
+]
+]
+},
+{
+"i": 198,
+"ti": 9425504,
+"name": "_p_GraphicsMenuInfo",
+"str": "GraphicsMenuInfo *",
+"eq": [
+[
+"_p_GraphicsMenuInfo",
+0
+]
+]
+},
+{
+"i": 199,
+"ti": 9425568,
+"name": "_p_NiNode",
+"str": "NiNode *",
+"eq": [
+[
+"_p_TGAnimNode",
+6600224
+],
+[
+"_p_NiNode",
+0
+]
+]
+},
+{
+"i": 200,
+"ti": 9425648,
+"name": "_p_STComponentMenu",
+"str": "STComponentMenu *",
+"eq": [
+[
+"_p_STComponentMenu",
+0
+]
+]
+},
+{
+"i": 201,
+"ti": 9425712,
+"name": "_p_TGPMWalkObjectsFunc",
+"str": "TGPMWalkObjectsFunc *",
+"eq": [
+[
+"_p_TGPMWalkObjectsFunc",
+0
+]
+]
+},
+{
+"i": 202,
+"ti": 9425776,
+"name": "_p_DamageIcon",
+"str": "DamageIcon *",
+"eq": [
+[
+"_p_DamageIcon",
+0
+]
+]
+},
+{
+"i": 203,
+"ti": 9425840,
+"name": "_p_Torpedo",
+"str": "Torpedo *",
+"eq": [
+[
+"_p_Torpedo",
+0
+]
+]
+},
+{
+"i": 204,
+"ti": 9425904,
+"name": "_p_TGNetwork",
+"str": "TGNetwork *",
+"eq": [
+[
+"_p_TGNetwork",
+0
+],
+[
+"_p_TGWinsockNetwork",
+6600240
+]
+]
+},
+{
+"i": 205,
+"ti": 9425984,
+"name": "_p_TGWinsockNetwork",
+"str": "TGWinsockNetwork *",
+"eq": [
+[
+"_p_TGWinsockNetwork",
+0
+]
+]
+},
+{
+"i": 206,
+"ti": 9426048,
+"name": "_p_TGRedbookClass",
+"str": "TGRedbookClass *",
+"eq": [
+[
+"_p_TGRedbookClass",
+0
+]
+]
+},
+{
+"i": 207,
+"ti": 9426112,
+"name": "_p_ProximityCheck__TriggerType",
+"str": "ProximityCheck::TriggerType *",
+"eq": [
+[
+"_p_ProximityCheck__TriggerType",
+0
+]
+]
+},
+{
+"i": 208,
+"ti": 9426176,
+"name": "_p_TractorBeamProperty",
+"str": "TractorBeamProperty *",
+"eq": [
+[
+"_p_TractorBeamProperty",
+0
+]
+]
+},
+{
+"i": 209,
+"ti": 9426240,
+"name": "_p_WarpEngineProperty",
+"str": "WarpEngineProperty *",
+"eq": [
+[
+"_p_WarpEngineProperty",
+0
+]
+]
+},
+{
+"i": 210,
+"ti": 9426304,
+"name": "_p_ImpulseEngineProperty",
+"str": "ImpulseEngineProperty *",
+"eq": [
+[
+"_p_ImpulseEngineProperty",
+0
+]
+]
+},
+{
+"i": 211,
+"ti": 9426368,
+"name": "_p_RepairSubsystemProperty",
+"str": "RepairSubsystemProperty *",
+"eq": [
+[
+"_p_RepairSubsystemProperty",
+0
+]
+]
+},
+{
+"i": 212,
+"ti": 9426432,
+"name": "_p_CloakingSubsystemProperty",
+"str": "CloakingSubsystemProperty *",
+"eq": [
+[
+"_p_CloakingSubsystemProperty",
+0
+]
+]
+},
+{
+"i": 213,
+"ti": 9426496,
+"name": "_p_SensorProperty",
+"str": "SensorProperty *",
+"eq": [
+[
+"_p_SensorProperty",
+0
+]
+]
+},
+{
+"i": 214,
+"ti": 9426560,
+"name": "_p_PulseWeaponProperty",
+"str": "PulseWeaponProperty *",
+"eq": [
+[
+"_p_PulseWeaponProperty",
+0
+]
+]
+},
+{
+"i": 215,
+"ti": 9426624,
+"name": "_p_PhaserProperty",
+"str": "PhaserProperty *",
+"eq": [
+[
+"_p_PhaserProperty",
+0
+]
+]
+},
+{
+"i": 216,
+"ti": 9426688,
+"name": "_p_EnergyWeaponProperty",
+"str": "EnergyWeaponProperty *",
+"eq": [
+[
+"_p_EnergyWeaponProperty",
+0
+],
+[
+"_p_PhaserProperty",
+6600256
+],
+[
+"_p_PulseWeaponProperty",
+6600272
+],
+[
+"_p_TractorBeamProperty",
+6600288
+]
+]
+},
+{
+"i": 217,
+"ti": 9426808,
+"name": "_p_ShieldProperty",
+"str": "ShieldProperty *",
+"eq": [
+[
+"_p_ShieldProperty",
+0
+]
+]
+},
+{
+"i": 218,
+"ti": 9426872,
+"name": "_p_TorpedoTubeProperty",
+"str": "TorpedoTubeProperty *",
+"eq": [
+[
+"_p_TorpedoTubeProperty",
+0
+]
+]
+},
+{
+"i": 219,
+"ti": 9426936,
+"name": "_p_TorpedoSystemProperty",
+"str": "TorpedoSystemProperty *",
+"eq": [
+[
+"_p_TorpedoSystemProperty",
+0
+]
+]
+},
+{
+"i": 220,
+"ti": 9427000,
+"name": "_p_WeaponSystemProperty",
+"str": "WeaponSystemProperty *",
+"eq": [
+[
+"_p_WeaponSystemProperty",
+0
+],
+[
+"_p_TorpedoSystemProperty",
+6600304
+]
+]
+},
+{
+"i": 221,
+"ti": 9427080,
+"name": "_p_WeaponProperty",
+"str": "WeaponProperty *",
+"eq": [
+[
+"_p_WeaponProperty",
+0
+],
+[
+"_p_EnergyWeaponProperty",
+6600320
+],
+[
+"_p_PhaserProperty",
+6600336
+],
+[
+"_p_PulseWeaponProperty",
+6600352
+],
+[
+"_p_TractorBeamProperty",
+6600368
+],
+[
+"_p_TorpedoTubeProperty",
+6600384
+]
+]
+},
+{
+"i": 222,
+"ti": 9427240,
+"name": "_p_PowerProperty",
+"str": "PowerProperty *",
+"eq": [
+[
+"_p_PowerProperty",
+0
+]
+]
+},
+{
+"i": 223,
+"ti": 9427304,
+"name": "_p_PoweredSubsystemProperty",
+"str": "PoweredSubsystemProperty *",
+"eq": [
+[
+"_p_PoweredSubsystemProperty",
+0
+],
+[
+"_p_WeaponSystemProperty",
+6600400
+],
+[
+"_p_TorpedoSystemProperty",
+6600416
+],
+[
+"_p_ShieldProperty",
+6600432
+],
+[
+"_p_SensorProperty",
+6600448
+],
+[
+"_p_CloakingSubsystemProperty",
+6600464
+],
+[
+"_p_RepairSubsystemProperty",
+6600480
+],
+[
+"_p_ImpulseEngineProperty",
+6600496
+],
+[
+"_p_WarpEngineProperty",
+6600512
+]
+]
+},
+{
+"i": 224,
+"ti": 9427528,
+"name": "_p_SubsystemProperty",
+"str": "SubsystemProperty *",
+"eq": [
+[
+"_p_HullProperty",
+6600576
+],
+[
+"_p_TorpedoTubeProperty",
+6600624
+],
+[
+"_p_TractorBeamProperty",
+6600640
+],
+[
+"_p_PulseWeaponProperty",
+6600656
+],
+[
+"_p_PhaserProperty",
+6600672
+],
+[
+"_p_EnergyWeaponProperty",
+6600688
+],
+[
+"_p_WeaponProperty",
+6600704
+],
+[
+"_p_SubsystemProperty",
+0
+],
+[
+"_p_PoweredSubsystemProperty",
+6600736
+],
+[
+"_p_WeaponSystemProperty",
+6600720
+],
+[
+"_p_TorpedoSystemProperty",
+6600608
+],
+[
+"_p_ShieldProperty",
+6600592
+],
+[
+"_p_SensorProperty",
+6600560
+],
+[
+"_p_CloakingSubsystemProperty",
+6600544
+],
+[
+"_p_RepairSubsystemProperty",
+6600528
+],
+[
+"_p_PowerProperty",
+6600752
+],
+[
+"_p_ImpulseEngineProperty",
+6600768
+],
+[
+"_p_WarpEngineProperty",
+6600784
+],
+[
+"_p_EngineProperty",
+6600800
+]
+]
+},
+{
+"i": 225,
+"ti": 9427952,
+"name": "_p_ShipProperty",
+"str": "ShipProperty *",
+"eq": [
+[
+"_p_ShipProperty",
+0
+]
+]
+},
+{
+"i": 226,
+"ti": 9428016,
+"name": "_p_TGModelProperty",
+"str": "TGModelProperty *",
+"eq": [
+[
+"_p_SubsystemProperty",
+6601008
+],
+[
+"_p_PoweredSubsystemProperty",
+6600992
+],
+[
+"_p_WeaponSystemProperty",
+6600976
+],
+[
+"_p_WeaponProperty",
+6600960
+],
+[
+"_p_EnergyWeaponProperty",
+6600944
+],
+[
+"_p_PhaserProperty",
+6600928
+],
+[
+"_p_PulseWeaponProperty",
+6600912
+],
+[
+"_p_TractorBeamProperty",
+6600896
+],
+[
+"_p_TorpedoTubeProperty",
+6600880
+],
+[
+"_p_TorpedoSystemProperty",
+6600864
+],
+[
+"_p_EngineGlowProperty",
+6600848
+],
+[
+"_p_ShieldProperty",
+6600832
+],
+[
+"_p_HullProperty",
+6600816
+],
+[
+"_p_TGModelProperty",
+0
+],
+[
+"_p_PositionOrientationProperty",
+6601024
+],
+[
+"_p_SensorProperty",
+6601040
+],
+[
+"_p_CloakingSubsystemProperty",
+6601056
+],
+[
+"_p_RepairSubsystemProperty",
+6601072
+],
+[
+"_p_ShipProperty",
+6601088
+],
+[
+"_p_PowerProperty",
+6601104
+],
+[
+"_p_ImpulseEngineProperty",
+6601120
+],
+[
+"_p_WarpEngineProperty",
+6601136
+],
+[
+"_p_EngineProperty",
+6601152
+],
+[
+"_p_EffectEmitterProperty",
+6601168
+],
+[
+"_p_SmokeEmitterProperty",
+6601184
+],
+[
+"_p_SparkEmitterProperty",
+6601200
+],
+[
+"_p_ExplodeEmitterProperty",
+6601216
+],
+[
+"_p_BlinkingLightProperty",
+6601232
+],
+[
+"_p_ObjectEmitterProperty",
+6601248
+]
+]
+},
+{
+"i": 227,
+"ti": 9428640,
+"name": "_p_PositionOrientationProperty",
+"str": "PositionOrientationProperty *",
+"eq": [
+[
+"_p_PositionOrientationProperty",
+0
+],
+[
+"_p_EffectEmitterProperty",
+6601264
+],
+[
+"_p_SmokeEmitterProperty",
+6601280
+],
+[
+"_p_SparkEmitterProperty",
+6601296
+],
+[
+"_p_ExplodeEmitterProperty",
+6601312
+],
+[
+"_p_BlinkingLightProperty",
+6601328
+],
+[
+"_p_ObjectEmitterProperty",
+6601344
+]
+]
+},
+{
+"i": 228,
+"ti": 9428824,
+"name": "_p_EngineGlowProperty",
+"str": "EngineGlowProperty *",
+"eq": [
+[
+"_p_EngineGlowProperty",
+0
+]
+]
+},
+{
+"i": 229,
+"ti": 9428888,
+"name": "_p_HullProperty",
+"str": "HullProperty *",
+"eq": [
+[
+"_p_HullProperty",
+0
+]
+]
+},
+{
+"i": 230,
+"ti": 9428952,
+"name": "_p_EngineProperty",
+"str": "EngineProperty *",
+"eq": [
+[
+"_p_EngineProperty",
+0
+]
+]
+},
+{
+"i": 231,
+"ti": 9429016,
+"name": "_p_EffectEmitterProperty",
+"str": "EffectEmitterProperty *",
+"eq": [
+[
+"_p_EffectEmitterProperty",
+0
+],
+[
+"_p_SmokeEmitterProperty",
+6601360
+],
+[
+"_p_SparkEmitterProperty",
+6601376
+],
+[
+"_p_ExplodeEmitterProperty",
+6601392
+],
+[
+"_p_BlinkingLightProperty",
+6601408
+]
+]
+},
+{
+"i": 232,
+"ti": 9429160,
+"name": "_p_SmokeEmitterProperty",
+"str": "SmokeEmitterProperty *",
+"eq": [
+[
+"_p_SmokeEmitterProperty",
+0
+]
+]
+},
+{
+"i": 233,
+"ti": 9429224,
+"name": "_p_SparkEmitterProperty",
+"str": "SparkEmitterProperty *",
+"eq": [
+[
+"_p_SparkEmitterProperty",
+0
+]
+]
+},
+{
+"i": 234,
+"ti": 9429288,
+"name": "_p_ExplodeEmitterProperty",
+"str": "ExplodeEmitterProperty *",
+"eq": [
+[
+"_p_ExplodeEmitterProperty",
+0
+]
+]
+},
+{
+"i": 235,
+"ti": 9429352,
+"name": "_p_BlinkingLightProperty",
+"str": "BlinkingLightProperty *",
+"eq": [
+[
+"_p_BlinkingLightProperty",
+0
+]
+]
+},
+{
+"i": 236,
+"ti": 9429416,
+"name": "_p_ObjectEmitterProperty",
+"str": "ObjectEmitterProperty *",
+"eq": [
+[
+"_p_ObjectEmitterProperty",
+0
+]
+]
+},
+{
+"i": 237,
+"ti": 9429480,
+"name": "_p_STCharacterMenu",
+"str": "STCharacterMenu *",
+"eq": [
+[
+"_p_STCharacterMenu",
+0
+],
+[
+"_p_SortedRegionMenu",
+6601424
+]
+]
+},
+{
+"i": 238,
+"ti": 9429560,
+"name": "_p_SetFloatVarEvent",
+"str": "SetFloatVarEvent *",
+"eq": [
+[
+"_p_SetFloatVarEvent",
+0
+]
+]
+},
+{
+"i": 239,
+"ti": 9429624,
+"name": "_p_TGCharEvent",
+"str": "TGCharEvent *",
+"eq": [
+[
+"_p_TGCharEvent",
+0
+]
+]
+},
+{
+"i": 240,
+"ti": 9429688,
+"name": "_p_TGPlayerEvent",
+"str": "TGPlayerEvent *",
+"eq": [
+[
+"_p_TGPlayerEvent",
+0
+]
+]
+},
+{
+"i": 241,
+"ti": 9429752,
+"name": "_p_TGIconManager",
+"str": "TGIconManager *",
+"eq": [
+[
+"_p_TGIconManager",
+0
+]
+]
+},
+{
+"i": 242,
+"ti": 9429816,
+"name": "_p_TGInputManager",
+"str": "TGInputManager *",
+"eq": [
+[
+"_p_TGInputManager",
+0
+]
+]
+},
+{
+"i": 243,
+"ti": 9429880,
+"name": "_p_TGTimerManager",
+"str": "TGTimerManager *",
+"eq": [
+[
+"_p_TGTimerManager",
+0
+]
+]
+},
+{
+"i": 244,
+"ti": 9429944,
+"name": "_p_TGEventManager",
+"str": "TGEventManager *",
+"eq": [
+[
+"_p_TGEventManager",
+0
+]
+]
+},
+{
+"i": 245,
+"ti": 9430008,
+"name": "_p_TGModelManager",
+"str": "TGModelManager *",
+"eq": [
+[
+"_p_TGModelManager",
+0
+]
+]
+},
+{
+"i": 246,
+"ti": 9430072,
+"name": "_p_TGLocalizationManager",
+"str": "TGLocalizationManager *",
+"eq": [
+[
+"_p_TGLocalizationManager",
+0
+]
+]
+},
+{
+"i": 247,
+"ti": 9430136,
+"name": "_p_TGPoolManager",
+"str": "TGPoolManager *",
+"eq": [
+[
+"_p_TGPoolManager",
+0
+]
+]
+},
+{
+"i": 248,
+"ti": 9430200,
+"name": "_p_TGFontManager",
+"str": "TGFontManager *",
+"eq": [
+[
+"_p_TGFontManager",
+0
+]
+]
+},
+{
+"i": 249,
+"ti": 9430264,
+"name": "_p_TGUIThemeManager",
+"str": "TGUIThemeManager *",
+"eq": [
+[
+"_p_TGUIThemeManager",
+0
+]
+]
+},
+{
+"i": 250,
+"ti": 9430328,
+"name": "_p_TGSoundManager",
+"str": "TGSoundManager *",
+"eq": [
+[
+"_p_TGSoundManager",
+0
+]
+]
+},
+{
+"i": 251,
+"ti": 9430392,
+"name": "_p_TGModelPropertyManager",
+"str": "TGModelPropertyManager *",
+"eq": [
+[
+"_p_TGModelPropertyManager",
+0
+]
+]
+},
+{
+"i": 252,
+"ti": 9430456,
+"name": "_p_TGActionManager",
+"str": "TGActionManager *",
+"eq": [
+[
+"_p_TGActionManager",
+0
+]
+]
+},
+{
+"i": 253,
+"ti": 9430520,
+"name": "_p_TGMovieManager",
+"str": "TGMovieManager *",
+"eq": [
+[
+"_p_TGMovieManager",
+0
+]
+]
+},
+{
+"i": 254,
+"ti": 9430584,
+"name": "_p_SetManager",
+"str": "SetManager *",
+"eq": [
+[
+"_p_SetManager",
+0
+]
+]
+},
+{
+"i": 255,
+"ti": 9430648,
+"name": "_p_FocusManager",
+"str": "FocusManager *",
+"eq": [
+[
+"_p_FocusManager",
+0
+]
+]
+},
+{
+"i": 256,
+"ti": 9430712,
+"name": "_p_LODModelManager",
+"str": "LODModelManager *",
+"eq": [
+[
+"_p_LODModelManager",
+0
+]
+]
+},
+{
+"i": 257,
+"ti": 9430776,
+"name": "_p_TextureAnimManager",
+"str": "TextureAnimManager *",
+"eq": [
+[
+"_p_TextureAnimManager",
+0
+]
+]
+},
+{
+"i": 258,
+"ti": 9430840,
+"name": "_p_ProximityManager",
+"str": "ProximityManager *",
+"eq": [
+[
+"_p_ProximityManager",
+0
+]
+]
+},
+{
+"i": 259,
+"ti": 9430904,
+"name": "_p_TGObjPtrEvent",
+"str": "TGObjPtrEvent *",
+"eq": [
+[
+"_p_TGObjPtrEvent",
+0
+]
+]
+},
+{
+"i": 260,
+"ti": 9430968,
+"name": "_p_TGVoidPtrEvent",
+"str": "TGVoidPtrEvent *",
+"eq": [
+[
+"_p_TGVoidPtrEvent",
+0
+]
+]
+},
+{
+"i": 261,
+"ti": 9431032,
+"name": "_p_AsteroidField",
+"str": "AsteroidField *",
+"eq": [
+[
+"_p_AsteroidField",
+0
+]
+]
+},
+{
+"i": 262,
+"ti": 9431096,
+"name": "_p_PriorityListAI",
+"str": "PriorityListAI *",
+"eq": [
+[
+"_p_PriorityListAI",
+0
+]
+]
+},
+{
+"i": 263,
+"ti": 9431160,
+"name": "_p_TGConsole",
+"str": "TGConsole *",
+"eq": [
+[
+"_p_TGConsole",
+0
+]
+]
+},
+{
+"i": 264,
+"ti": 9431224,
+"name": "_p_TGAnimNode",
+"str": "TGAnimNode *",
+"eq": [
+[
+"_p_TGAnimNode",
+0
+]
+]
+},
+{
+"i": 265,
+"ti": 9431288,
+"name": "_p_TGEvent",
+"str": "TGEvent *",
+"eq": [
+[
+"_p_TGPlayerEvent",
+6601440
+],
+[
+"_p_TGCharEvent",
+6601456
+],
+[
+"_p_SetFloatVarEvent",
+6601504
+],
+[
+"_p_TGIntEvent",
+6601472
+],
+[
+"_p_TGShortEvent",
+6601488
+],
+[
+"_p_WaypointEvent",
+6601520
+],
+[
+"_p_TGKeyboardEvent",
+6601536
+],
+[
+"_p_TGFloatEvent",
+6601552
+],
+[
+"_p_WeaponHitEvent",
+6601568
+],
+[
+"_p_ServerListEvent",
+6601584
+],
+[
+"_p_SortServerListEvent",
+6601600
+],
+[
+"_p_TGBoolEvent",
+6601616
+],
+[
+"_p_TGGamepadEvent",
+6601632
+],
+[
+"_p_TGStringEvent",
+6601648
+],
+[
+"_p_TGMessageEvent",
+6601664
+],
+[
+"_p_StartFiringEvent",
+6601696
+],
+[
+"_p_ObjectExplodingEvent",
+6601712
+],
+[
+"_p_TGMouseEvent",
+6601680
+],
+[
+"_p_CollisionEvent",
+6601728
+],
+[
+"_p_WarpEvent",
+6601744
+],
+[
+"_p_ProximityEvent",
+6601760
+],
+[
+"_p_TGEvent",
+0
+],
+[
+"_p_TGIEvent",
+6601776
+],
+[
+"_p_TGObjPtrEvent",
+6601792
+],
+[
+"_p_TGVoidPtrEvent",
+6601808
+]
+]
+},
+{
+"i": 266,
+"ti": 9431832,
+"name": "_p_ObjectExplodingEvent",
+"str": "ObjectExplodingEvent *",
+"eq": [
+[
+"_p_ObjectExplodingEvent",
+0
+]
+]
+},
+{
+"i": 267,
+"ti": 9431896,
+"name": "_p_StartFiringEvent",
+"str": "StartFiringEvent *",
+"eq": [
+[
+"_p_StartFiringEvent",
+0
+]
+]
+},
+{
+"i": 268,
+"ti": 9431960,
+"name": "_p_TGStringEvent",
+"str": "TGStringEvent *",
+"eq": [
+[
+"_p_TGStringEvent",
+0
+]
+]
+},
+{
+"i": 269,
+"ti": 9432024,
+"name": "_p_STNumericBar",
+"str": "STNumericBar *",
+"eq": [
+[
+"_p_STNumericBar",
+0
+]
+]
+},
+{
+"i": 270,
+"ti": 9432088,
+"name": "_p_TGMusic",
+"str": "TGMusic *",
+"eq": [
+[
+"_p_TGMusic",
+0
+]
+]
+},
+{
+"i": 271,
+"ti": 9432152,
+"name": "_p_SpaceCamera",
+"str": "SpaceCamera *",
+"eq": [
+[
+"_p_SpaceCamera",
+0
+]
+]
+},
+{
+"i": 272,
+"ti": 9432216,
+"name": "_p_NiCamera",
+"str": "NiCamera *",
+"eq": [
+[
+"_p_NiCamera",
+0
+]
+]
+},
+{
+"i": 273,
+"ti": 9432280,
+"name": "_p_DWORD",
+"str": "DWORD *",
+"eq": [
+[
+"_p_DWORD",
+0
+]
+]
+},
+{
+"i": 274,
+"ti": 9432344,
+"name": "_p_int",
+"str": "int *",
+"eq": [
+[
+"_r_FuzzySet",
+0
+],
+[
+"_p_int",
+0
+]
+]
+},
+{
+"i": 275,
+"ti": 9432424,
+"name": "_p_void",
+"str": "void *",
+"eq": [
+[
+"_p_void",
+0
+]
+]
+},
+{
+"i": 276,
+"ti": 9432488,
+"name": "_p_GraphicsMenu",
+"str": "GraphicsMenu *",
+"eq": [
+[
+"_p_GraphicsMenu",
+0
+]
+]
+},
+{
+"i": 277,
+"ti": 9432552,
+"name": "_p_Backdrop",
+"str": "Backdrop *",
+"eq": [
+[
+"_p_Backdrop",
+0
+],
+[
+"_p_BackdropSphere",
+6601840
+],
+[
+"_p_StarSphere",
+6601856
+]
+]
+},
+{
+"i": 278,
+"ti": 9432656,
+"name": "_p_STStylizedWindow",
+"str": "STStylizedWindow *",
+"eq": [
+[
+"_p_ShipDisplay",
+6602016
+],
+[
+"_p_WeaponsDisplay",
+6602032
+],
+[
+"_p_RadarDisplay",
+6602048
+],
+[
+"_p_TacWeaponsCtrl",
+6602064
+],
+[
+"_p_STStylizedWindow",
+0
+]
+]
+},
+{
+"i": 279,
+"ti": 9432800,
+"name": "_p_MapWindow",
+"str": "MapWindow *",
+"eq": [
+[
+"_p_MapWindow",
+0
+]
+]
+},
+{
+"i": 280,
+"ti": 9432864,
+"name": "_p_TacticalControlWindow",
+"str": "TacticalControlWindow *",
+"eq": [
+[
+"_p_TacticalControlWindow",
+0
+]
+]
+},
+{
+"i": 281,
+"ti": 9432928,
+"name": "_p_TacticalWindow",
+"str": "TacticalWindow *",
+"eq": [
+[
+"_p_TacticalWindow",
+0
+]
+]
+},
+{
+"i": 282,
+"ti": 9432992,
+"name": "_p_MainWindow",
+"str": "MainWindow *",
+"eq": [
+[
+"_p_MainWindow",
+0
+],
+[
+"_p_TacticalWindow",
+6601872
+],
+[
+"_p_MapWindow",
+6601888
+],
+[
+"_p_MultiplayerWindow",
+6601904
+],
+[
+"_p_ConsoleWindow",
+6601920
+],
+[
+"_p_OptionsWindow",
+6601936
+],
+[
+"_p_BridgeWindow",
+6601952
+],
+[
+"_p_ModalDialogWindow",
+6601968
+],
+[
+"_p_CinematicWindow",
+6601984
+],
+[
+"_p_SubtitleWindow",
+6602000
+]
+]
+},
+{
+"i": 283,
+"ti": 9433232,
+"name": "_p_TopWindow",
+"str": "TopWindow *",
+"eq": [
+[
+"_p_TopWindow",
+0
+]
+]
+},
+{
+"i": 284,
+"ti": 9433296,
+"name": "_p_MultiplayerWindow",
+"str": "MultiplayerWindow *",
+"eq": [
+[
+"_p_MultiplayerWindow",
+0
+]
+]
+},
+{
+"i": 285,
+"ti": 9433360,
+"name": "_p_SubtitleWindow",
+"str": "SubtitleWindow *",
+"eq": [
+[
+"_p_SubtitleWindow",
+0
+]
+]
+},
+{
+"i": 286,
+"ti": 9433424,
+"name": "_p_CinematicWindow",
+"str": "CinematicWindow *",
+"eq": [
+[
+"_p_CinematicWindow",
+0
+]
+]
+},
+{
+"i": 287,
+"ti": 9433488,
+"name": "_p_ModalDialogWindow",
+"str": "ModalDialogWindow *",
+"eq": [
+[
+"_p_ModalDialogWindow",
+0
+]
+]
+},
+{
+"i": 288,
+"ti": 9433552,
+"name": "_p_BridgeWindow",
+"str": "BridgeWindow *",
+"eq": [
+[
+"_p_BridgeWindow",
+0
+]
+]
+},
+{
+"i": 289,
+"ti": 9433616,
+"name": "_p_OptionsWindow",
+"str": "OptionsWindow *",
+"eq": [
+[
+"_p_OptionsWindow",
+0
+]
+]
+},
+{
+"i": 290,
+"ti": 9433680,
+"name": "_p_ConsoleWindow",
+"str": "ConsoleWindow *",
+"eq": [
+[
+"_p_ConsoleWindow",
+0
+]
+]
+},
+{
+"i": 291,
+"ti": 9433744,
+"name": "_p_TGWindow",
+"str": "TGWindow *",
+"eq": [
+[
+"_p_TGWindow",
+0
+],
+[
+"_p_TGDialogWindow",
+6602080
+],
+[
+"_p_TGFrameWindow",
+6602096
+],
+[
+"_p_STCharacterMenu",
+6602112
+],
+[
+"_p_STStylizedWindow",
+6602128
+],
+[
+"_p_STTargetMenu",
+6602144
+],
+[
+"_p_STComponentMenu",
+6602160
+],
+[
+"_p_STSubsystemMenu",
+6602176
+],
+[
+"_p_ShipDisplay",
+6602240
+],
+[
+"_p_WeaponsDisplay",
+6602224
+],
+[
+"_p_RadarDisplay",
+6602208
+],
+[
+"_p_STTopLevelMenu",
+6602192
+],
+[
+"_p_STMenu",
+6602272
+],
+[
+"_p_TacWeaponsCtrl",
+6602256
+],
+[
+"_p_SortedRegionMenu",
+6602288
+],
+[
+"_p_STFileMenu",
+6602304
+]
+]
+},
+{
+"i": 292,
+"ti": 9434104,
+"name": "_p_TGFrameWindow",
+"str": "TGFrameWindow *",
+"eq": [
+[
+"_p_TGFrameWindow",
+0
+],
+[
+"_p_TGDialogWindow",
+6602320
+]
+]
+},
+{
+"i": 293,
+"ti": 9434184,
+"name": "_p_TGDialogWindow",
+"str": "TGDialogWindow *",
+"eq": [
+[
+"_p_TGDialogWindow",
+0
+]
+]
+},
+{
+"i": 294,
+"ti": 9434248,
+"name": "_p_TGBufferStream",
+"str": "TGBufferStream *",
+"eq": [
+[
+"_p_TGBufferStream",
+0
+]
+]
+},
+{
+"i": 295,
+"ti": 9434312,
+"name": "_p_TGStream",
+"str": "TGStream *",
+"eq": [
+[
+"_p_TGStream",
+0
+],
+[
+"_p_TGBufferStream",
+6602336
+]
+]
+},
+{
+"i": 296,
+"ti": 9434392,
+"name": "_p_NiStream",
+"str": "NiStream *",
+"eq": [
+[
+"_p_NiStream",
+0
+]
+]
+},
+{
+"i": 297,
+"ti": 9434456,
+"name": "_p_TGParagraph",
+"str": "TGParagraph *",
+"eq": [
+[
+"_p_TGParagraph",
+0
+],
+[
+"_p_TGPrompt",
+6602352
+]
+]
+},
+{
+"i": 298,
+"ti": 9434536,
+"name": "_p_TextureAnimContainer",
+"str": "TextureAnimContainer *",
+"eq": [
+[
+"_p_TextureAnimContainer",
+0
+]
+]
+},
+{
+"i": 299,
+"ti": 9434600,
+"name": "_p_StarSphere",
+"str": "StarSphere *",
+"eq": [
+[
+"_p_StarSphere",
+0
+]
+]
+},
+{
+"i": 300,
+"ti": 9434664,
+"name": "_p_BackdropSphere",
+"str": "BackdropSphere *",
+"eq": [
+[
+"_p_BackdropSphere",
+0
+],
+[
+"_p_StarSphere",
+6602368
+]
+]
+},
+{
+"i": 301,
+"ti": 9434744,
+"name": "_p_p_ObjectClass",
+"str": "ObjectClass **",
+"eq": [
+[
+"_p_p_StarSphere",
+6602384
+],
+[
+"_p_p_BackdropSphere",
+6602400
+],
+[
+"_p_p_ViewScreenObject",
+6602416
+],
+[
+"_p_p_PlacementObject",
+6602432
+],
+[
+"_p_p_WarpFlash",
+6602464
+],
+[
+"_p_p_ShipClass",
+6602480
+],
+[
+"_p_p_ProximityCheck",
+6602512
+],
+[
+"_p_p_Backdrop",
+6602528
+],
+[
+"_p_p_CharacterClass",
+6602544
+],
+[
+"_p_p_Planet",
+6602608
+],
+[
+"_p_p_Sun",
+6602496
+],
+[
+"_p_p_Torpedo",
+6602560
+],
+[
+"_p_p_PhysicsObjectClass",
+6602576
+],
+[
+"_p_p_ObjectClass",
+0
+],
+[
+"_p_p_BridgeObjectClass",
+6602592
+],
+[
+"_p_p_Waypoint",
+6602624
+],
+[
+"_p_p_LightPlacement",
+6602640
+],
+[
+"_p_p_GridClass",
+6602656
+],
+[
+"_p_p_AsteroidFieldPlacement",
+6602672
+],
+[
+"_p_p_DamageableObject",
+6602688
+],
+[
+"_p_p_Nebula",
+6602448
+],
+[
+"_p_p_MetaNebula",
+6602704
+],
+[
+"_p_p_AsteroidField",
+6602720
+]
+]
+},
+{
+"i": 302,
+"ti": 9435248,
+"name": "_p_PhysicsObjectClass",
+"str": "PhysicsObjectClass *",
+"eq": [
+[
+"_p_ShipClass",
+6602736
+],
+[
+"_p_PhysicsObjectClass",
+0
+],
+[
+"_p_Torpedo",
+6602752
+],
+[
+"_p_DamageableObject",
+6602768
+]
+]
+},
+{
+"i": 303,
+"ti": 9435368,
+"name": "_p_BridgeObjectClass",
+"str": "BridgeObjectClass *",
+"eq": [
+[
+"_p_BridgeObjectClass",
+0
+]
+]
+},
+{
+"i": 304,
+"ti": 9435432,
+"name": "_p_ZoomCameraObjectClass",
+"str": "ZoomCameraObjectClass *",
+"eq": [
+[
+"_p_ZoomCameraObjectClass",
+0
+]
+]
+},
+{
+"i": 305,
+"ti": 9435496,
+"name": "_p_ChatObjectClass",
+"str": "ChatObjectClass *",
+"eq": [
+[
+"_p_ChatObjectClass",
+0
+]
+]
+},
+{
+"i": 306,
+"ti": 9435560,
+"name": "_p_SetClass",
+"str": "SetClass *",
+"eq": [
+[
+"_p_SetClass",
+0
+],
+[
+"_p_BridgeSet",
+6603600
+],
+[
+"_p_WarpSet",
+6603616
+]
+]
+},
+{
+"i": 307,
+"ti": 9435664,
+"name": "_p_ObjectClass",
+"str": "ObjectClass *",
+"eq": [
+[
+"_p_BackdropSphere",
+6602800
+],
+[
+"_p_StarSphere",
+6602784
+],
+[
+"_p_PlacementObject",
+6602832
+],
+[
+"_p_ViewScreenObject",
+6602816
+],
+[
+"_p_WarpFlash",
+6602864
+],
+[
+"_p_ShipClass",
+6602880
+],
+[
+"_p_ProximityCheck",
+6602912
+],
+[
+"_p_Backdrop",
+6602928
+],
+[
+"_p_CharacterClass",
+6602944
+],
+[
+"_p_Planet",
+6603008
+],
+[
+"_p_Sun",
+6602896
+],
+[
+"_p_Torpedo",
+6602960
+],
+[
+"_p_PhysicsObjectClass",
+6602976
+],
+[
+"_p_ObjectClass",
+0
+],
+[
+"_p_BridgeObjectClass",
+6602992
+],
+[
+"_p_Waypoint",
+6603024
+],
+[
+"_p_LightPlacement",
+6603040
+],
+[
+"_p_GridClass",
+6603056
+],
+[
+"_p_AsteroidFieldPlacement",
+6603072
+],
+[
+"_p_DamageableObject",
+6603088
+],
+[
+"_p_Nebula",
+6602848
+],
+[
+"_p_MetaNebula",
+6603104
+],
+[
+"_p_AsteroidField",
+6603120
+]
+]
+},
+{
+"i": 308,
+"ti": 9436168,
+"name": "_p_CameraObjectClass",
+"str": "CameraObjectClass *",
+"eq": [
+[
+"_p_CameraObjectClass",
+0
+],
+[
+"_p_ZoomCameraObjectClass",
+6603568
+],
+[
+"_p_SpaceCamera",
+6603584
+]
+]
+},
+{
+"i": 309,
+"ti": 9436272,
+"name": "_p_LightObjectClass",
+"str": "LightObjectClass *",
+"eq": [
+[
+"_p_LightObjectClass",
+0
+]
+]
+},
+{
+"i": 310,
+"ti": 9436336,
+"name": "_p_BaseObjectClass",
+"str": "BaseObjectClass *",
+"eq": [
+[
+"_p_BackdropSphere",
+6603152
+],
+[
+"_p_StarSphere",
+6603136
+],
+[
+"_p_PlacementObject",
+6603184
+],
+[
+"_p_ViewScreenObject",
+6603168
+],
+[
+"_p_WarpFlash",
+6603216
+],
+[
+"_p_SpaceCamera",
+6603232
+],
+[
+"_p_ShipClass",
+6603248
+],
+[
+"_p_ProximityCheck",
+6603280
+],
+[
+"_p_Backdrop",
+6603296
+],
+[
+"_p_CharacterClass",
+6603312
+],
+[
+"_p_Planet",
+6603440
+],
+[
+"_p_Sun",
+6603264
+],
+[
+"_p_BaseObjectClass",
+0
+],
+[
+"_p_LightObjectClass",
+6603376
+],
+[
+"_p_CameraObjectClass",
+6603392
+],
+[
+"_p_ZoomCameraObjectClass",
+6603360
+],
+[
+"_p_PhysicsObjectClass",
+6603328
+],
+[
+"_p_ObjectClass",
+6603408
+],
+[
+"_p_BridgeObjectClass",
+6603344
+],
+[
+"_p_Torpedo",
+6603424
+],
+[
+"_p_Waypoint",
+6603456
+],
+[
+"_p_LightPlacement",
+6603472
+],
+[
+"_p_GridClass",
+6603488
+],
+[
+"_p_AsteroidFieldPlacement",
+6603504
+],
+[
+"_p_DamageableObject",
+6603520
+],
+[
+"_p_Nebula",
+6603200
+],
+[
+"_p_AsteroidField",
+6603536
+],
+[
+"_p_MetaNebula",
+6603552
+]
+]
+},
+{
+"i": 311,
+"ti": 9436936,
+"name": "_p_TGSound",
+"str": "TGSound *",
+"eq": [
+[
+"_p_TGSound",
+0
+]
+]
+},
+{
+"i": 312,
+"ti": 9437000,
+"name": "_p_BridgeEffectAction",
+"str": "BridgeEffectAction *",
+"eq": [
+[
+"_p_BridgeEffectAction",
+0
+]
+]
+},
+{
+"i": 313,
+"ti": 9437064,
+"name": "_p_EffectAction",
+"str": "EffectAction *",
+"eq": [
+[
+"_p_EffectAction",
+0
+],
+[
+"_p_BridgeEffectAction",
+6603632
+]
+]
+},
+{
+"i": 314,
+"ti": 9437144,
+"name": "_p_CharacterAction",
+"str": "CharacterAction *",
+"eq": [
+[
+"_p_CharacterAction",
+0
+]
+]
+},
+{
+"i": 315,
+"ti": 9437208,
+"name": "_p_ChangeRenderedSetAction",
+"str": "ChangeRenderedSetAction *",
+"eq": [
+[
+"_p_ChangeRenderedSetAction",
+0
+]
+]
+},
+{
+"i": 316,
+"ti": 9437272,
+"name": "_p_LoadMissionAction",
+"str": "LoadMissionAction *",
+"eq": [
+[
+"_p_LoadMissionAction",
+0
+]
+]
+},
+{
+"i": 317,
+"ti": 9437336,
+"name": "_p_TGScriptAction",
+"str": "TGScriptAction *",
+"eq": [
+[
+"_p_TGScriptAction",
+0
+],
+[
+"_p_LoadMissionAction",
+6603648
+],
+[
+"_p_LoadEpisodeAction",
+6603664
+]
+]
+},
+{
+"i": 318,
+"ti": 9437440,
+"name": "_p_TGTimedAction",
+"str": "TGTimedAction *",
+"eq": [
+[
+"_p_TGTimedAction",
+0
+],
+[
+"_p_TGCreditAction",
+6603680
+],
+[
+"_p_EffectAction",
+6603696
+],
+[
+"_p_BridgeEffectAction",
+6603712
+],
+[
+"_p_TGAnimAction",
+6603728
+],
+[
+"_p_SubtitleAction",
+6603744
+]
+]
+},
+{
+"i": 319,
+"ti": 9437600,
+"name": "_p_TGSoundAction",
+"str": "TGSoundAction *",
+"eq": [
+[
+"_p_TGSoundAction",
+0
+]
+]
+},
+{
+"i": 320,
+"ti": 9437664,
+"name": "_p_TGConditionAction",
+"str": "TGConditionAction *",
+"eq": [
+[
+"_p_TGConditionAction",
+0
+]
+]
+},
+{
+"i": 321,
+"ti": 9437728,
+"name": "_p_TGCreditAction",
+"str": "TGCreditAction *",
+"eq": [
+[
+"_p_TGCreditAction",
+0
+]
+]
+},
+{
+"i": 322,
+"ti": 9437792,
+"name": "_p_SubtitleAction",
+"str": "SubtitleAction *",
+"eq": [
+[
+"_p_SubtitleAction",
+0
+]
+]
+},
+{
+"i": 323,
+"ti": 9437856,
+"name": "_p_LoadEpisodeAction",
+"str": "LoadEpisodeAction *",
+"eq": [
+[
+"_p_LoadEpisodeAction",
+0
+]
+]
+},
+{
+"i": 324,
+"ti": 9437920,
+"name": "_p_TGAction",
+"str": "TGAction *",
+"eq": [
+[
+"_p_TGAction",
+0
+],
+[
+"_p_TGMovieAction",
+6603776
+],
+[
+"_p_TGAnimPosition",
+6603808
+],
+[
+"_p_TGAnimAction",
+6603792
+],
+[
+"_p_SubtitleAction",
+6603824
+],
+[
+"_p_LoadEpisodeAction",
+6603760
+],
+[
+"_p_WarpSequence",
+6603856
+],
+[
+"_p_TGSequence",
+6603840
+],
+[
+"_p_CharacterAction",
+6603888
+],
+[
+"_p_ChangeRenderedSetAction",
+6603904
+],
+[
+"_p_TGConditionAction",
+6603952
+],
+[
+"_p_TGSoundAction",
+6603968
+],
+[
+"_p_TGTimedAction",
+6603984
+],
+[
+"_p_TGCreditAction",
+6603936
+],
+[
+"_p_EffectAction",
+6603872
+],
+[
+"_p_TGScriptAction",
+6604000
+],
+[
+"_p_LoadMissionAction",
+6603920
+],
+[
+"_p_BridgeEffectAction",
+6604016
+]
+]
+},
+{
+"i": 325,
+"ti": 9438320,
+"name": "_p_TGAnimAction",
+"str": "TGAnimAction *",
+"eq": [
+[
+"_p_TGAnimAction",
+0
+]
+]
+},
+{
+"i": 326,
+"ti": 9438384,
+"name": "_p_TGMovieAction",
+"str": "TGMovieAction *",
+"eq": [
+[
+"_p_TGMovieAction",
+0
+]
+]
+},
+{
+"i": 327,
+"ti": 9438448,
+"name": "_p_PreprocessingAI",
+"str": "PreprocessingAI *",
+"eq": [
+[
+"_p_OptimizedFireScript",
+6604032
+],
+[
+"_p_PreprocessingAI",
+0
+],
+[
+"_p_OptimizedSelectTarget",
+6604048
+],
+[
+"_p_BuilderAI",
+6604064
+]
+]
+},
+{
+"i": 328,
+"ti": 9438568,
+"name": "_p_TGModelPropertyInstance",
+"str": "TGModelPropertyInstance *",
+"eq": [
+[
+"_p_TGModelPropertyInstance",
+0
+]
+]
+},
+{
+"i": 329,
+"ti": 9438632,
+"name": "_p_EngRepairPane",
+"str": "EngRepairPane *",
+"eq": [
+[
+"_p_EngRepairPane",
+0
+]
+]
+},
+{
+"i": 330,
+"ti": 9438696,
+"name": "_p_WarpEvent",
+"str": "WarpEvent *",
+"eq": [
+[
+"_p_WarpEvent",
+0
+]
+]
+},
+{
+"i": 331,
+"ti": 9438760,
+"name": "_p_TGIconPoly",
+"str": "TGIconPoly *",
+"eq": [
+[
+"_p_TGIconPoly",
+0
+]
+]
+},
+{
+"i": 332,
+"ti": 9438824,
+"name": "_p_WarpFlash",
+"str": "WarpFlash *",
+"eq": [
+[
+"_p_WarpFlash",
+0
+]
+]
+},
+{
+"i": 333,
+"ti": 9438888,
+"name": "_p_TGMatrix3",
+"str": "TGMatrix3 *",
+"eq": [
+[
+"_p_TGMatrix3",
+0
+]
+]
+},
+{
+"i": 334,
+"ti": 9438952,
+"name": "_p_TractorBeamProjector",
+"str": "TractorBeamProjector *",
+"eq": [
+[
+"_p_TractorBeamProjector",
+0
+]
+]
+},
+{
+"i": 335,
+"ti": 9439016,
+"name": "_p_STFillGauge",
+"str": "STFillGauge *",
+"eq": [
+[
+"_p_STFillGauge",
+0
+]
+]
+},
+{
+"i": 336,
+"ti": 9439080,
+"name": "_p_TGMouseEvent",
+"str": "TGMouseEvent *",
+"eq": [
+[
+"_p_TGMouseEvent",
+0
+]
+]
+},
+{
+"i": 337,
+"ti": 9439144,
+"name": "_p_TGMessageEvent",
+"str": "TGMessageEvent *",
+"eq": [
+[
+"_p_TGMessageEvent",
+0
+]
+]
+},
+{
+"i": 338,
+"ti": 9439208,
+"name": "_p_WeaponPayload",
+"str": "WeaponPayload *",
+"eq": [
+[
+"_p_WeaponPayload",
+0
+],
+[
+"_p_Torpedo",
+6604080
+]
+]
+},
+{
+"i": 339,
+"ti": 9439288,
+"name": "_p_TGLocalizationDatabase",
+"str": "TGLocalizationDatabase *",
+"eq": [
+[
+"_p_TGLocalizationDatabase",
+0
+]
+]
+},
+{
+"i": 340,
+"ti": 9439352,
+"name": "_p_TGNetGroup",
+"str": "TGNetGroup *",
+"eq": [
+[
+"_p_TGNetGroup",
+0
+]
+]
+},
+{
+"i": 341,
+"ti": 9439416,
+"name": "_p_ObjectGroup",
+"str": "ObjectGroup *",
+"eq": [
+[
+"_p_ObjectGroup",
+0
+],
+[
+"_p_ObjectGroupWithInfo",
+6604112
+]
+]
+},
+{
+"i": 342,
+"ti": 9439496,
+"name": "_p_TGFontGroup",
+"str": "TGFontGroup *",
+"eq": [
+[
+"_p_TGFontGroup",
+0
+]
+]
+},
+{
+"i": 343,
+"ti": 9439560,
+"name": "_p_WarpSequence",
+"str": "WarpSequence *",
+"eq": [
+[
+"_p_WarpSequence",
+0
+]
+]
+},
+{
+"i": 344,
+"ti": 9439624,
+"name": "_p_TGSequence",
+"str": "TGSequence *",
+"eq": [
+[
+"_p_TGSequence",
+0
+],
+[
+"_p_WarpSequence",
+6604128
+]
+]
+},
+{
+"i": 345,
+"ti": 9439704,
+"name": "_p_STTiledIcon",
+"str": "STTiledIcon *",
+"eq": [
+[
+"_p_STTiledIcon",
+0
+]
+]
+},
+{
+"i": 346,
+"ti": 9439768,
+"name": "_p_PlainAI",
+"str": "PlainAI *",
+"eq": [
+[
+"_p_PlainAI",
+0
+]
+]
+},
+{
+"i": 347,
+"ti": 9439832,
+"name": "_p_HWND",
+"str": "HWND *",
+"eq": [
+[
+"_p_HWND",
+0
+]
+]
+}
+]

@@ -1,0 +1,953 @@
+{
+"unit": "game/BridgeObjectClass",
+"function": "BridgeObjectClass::SetupLighting",
+"functions": [
+{
+"name": "BridgeObjectClass::SetupLighting",
+"raw": "?SetupLighting@BridgeObjectClass@@IAEXXZ",
+"own": 871,
+"budget": 1742,
+"sites": [
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 1742,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 43,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator=",
+"raw": "??4?$NiPointer@VNiAVObject@@@@QAEAAV0@PAVNiAVObject@@@Z",
+"cost": 91,
+"budget": 1742,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 42,
+"nested": [
+{
+"callee": "NiObject::DecRefCount",
+"raw": "?DecRefCount@NiObject@@QAEHXZ",
+"cost": 66,
+"budget": 42,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 66 > budget 42"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiObject::IncRefCount",
+"raw": "?IncRefCount@NiObject@@QAEXXZ",
+"cost": 24,
+"budget": 42,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 42,
+"nested": []
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 1651,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 43,
+"nested": []
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::NiTStringMap<BridgeTexture *>",
+"raw": "??0?$NiTStringMap@PAUBridgeTexture@@@@QAE@I@Z",
+"cost": 58,
+"budget": 1651,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 43,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::NiTMap<char const *,BridgeTexture *>",
+"raw": "??0?$NiTMap@PBDPAUBridgeTexture@@@@QAE@I@Z",
+"cost": 89,
+"budget": 43,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 89 > budget 43"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetFirstPos",
+"raw": "?GetFirstPos@?$NiTMap@PBDPAUBridgeTexture@@@@QAEPAXXZ",
+"cost": 81,
+"budget": 1593,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 42,
+"nested": []
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetNext",
+"raw": "?GetNext@?$NiTMap@PBDPAUBridgeTexture@@@@QAEXAAPAXAAPBDAAPAUBridgeTexture@@@Z",
+"cost": 149,
+"budget": 1512,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 4,
+"args": 4,
+"verdict": "inline",
+"why": [],
+"share": 38,
+"nested": []
+},
+{
+"callee": "NiTArray<BridgeTexture *>::Add",
+"raw": "?Add@?$NiTArray@PAUBridgeTexture@@@@QAEXPAUBridgeTexture@@@Z",
+"cost": 35,
+"budget": 1363,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 40,
+"nested": [
+{
+"callee": "NiTArray<BridgeTexture *>::SetAtGrow",
+"raw": "?SetAtGrow@?$NiTArray@PAUBridgeTexture@@@@QAEIIPAUBridgeTexture@@@Z",
+"cost": 69,
+"budget": 40,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 3,
+"args": 3,
+"verdict": "reject",
+"why": [
+"cost 69 > budget 40"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::~NiTStringMap<BridgeTexture *>",
+"raw": "??1?$NiTStringMap@PAUBridgeTexture@@@@UAE@XZ",
+"cost": 126,
+"budget": 1363,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 37,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::~NiTMap<char const *,BridgeTexture *>",
+"raw": "??1?$NiTMap@PBDPAUBridgeTexture@@@@UAE@XZ",
+"cost": 52,
+"budget": 37,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 52 > budget 37"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 1237,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 38,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 1237,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 39,
+"nested": []
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::NiTStringMap<BridgeTexture *>",
+"raw": "??0?$NiTStringMap@PAUBridgeTexture@@@@QAE@I@Z",
+"cost": 58,
+"budget": 1237,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 39,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::NiTMap<char const *,BridgeTexture *>",
+"raw": "??0?$NiTMap@PBDPAUBridgeTexture@@@@QAE@I@Z",
+"cost": 89,
+"budget": 39,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 89 > budget 39"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetFirstPos",
+"raw": "?GetFirstPos@?$NiTMap@PBDPAUBridgeTexture@@@@QAEPAXXZ",
+"cost": 81,
+"budget": 1179,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 37,
+"nested": []
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetNext",
+"raw": "?GetNext@?$NiTMap@PBDPAUBridgeTexture@@@@QAEXAAPAXAAPBDAAPAUBridgeTexture@@@Z",
+"cost": 149,
+"budget": 1098,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 4,
+"args": 4,
+"verdict": "inline",
+"why": [],
+"share": 33,
+"nested": []
+},
+{
+"callee": "NiTArray<BridgeTexture *>::Add",
+"raw": "?Add@?$NiTArray@PAUBridgeTexture@@@@QAEXPAUBridgeTexture@@@Z",
+"cost": 35,
+"budget": 949,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 35,
+"nested": [
+{
+"callee": "NiTArray<BridgeTexture *>::SetAtGrow",
+"raw": "?SetAtGrow@?$NiTArray@PAUBridgeTexture@@@@QAEIIPAUBridgeTexture@@@Z",
+"cost": 69,
+"budget": 35,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 3,
+"args": 3,
+"verdict": "reject",
+"why": [
+"cost 69 > budget 35"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::~NiTStringMap<BridgeTexture *>",
+"raw": "??1?$NiTStringMap@PAUBridgeTexture@@@@UAE@XZ",
+"cost": 126,
+"budget": 949,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 31,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::~NiTMap<char const *,BridgeTexture *>",
+"raw": "??1?$NiTMap@PBDPAUBridgeTexture@@@@UAE@XZ",
+"cost": 52,
+"budget": 31,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 52 > budget 31"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 823,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 32,
+"nested": []
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::NiTStringMap<BridgeTexture *>",
+"raw": "??0?$NiTStringMap@PAUBridgeTexture@@@@QAE@I@Z",
+"cost": 58,
+"budget": 823,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 31,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::NiTMap<char const *,BridgeTexture *>",
+"raw": "??0?$NiTMap@PBDPAUBridgeTexture@@@@QAE@I@Z",
+"cost": 89,
+"budget": 31,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 89 > budget 31"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetFirstPos",
+"raw": "?GetFirstPos@?$NiTMap@PBDPAUBridgeTexture@@@@QAEPAXXZ",
+"cost": 81,
+"budget": 765,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 29,
+"nested": []
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetNext",
+"raw": "?GetNext@?$NiTMap@PBDPAUBridgeTexture@@@@QAEXAAPAXAAPBDAAPAUBridgeTexture@@@Z",
+"cost": 149,
+"budget": 684,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 4,
+"args": 4,
+"verdict": "inline",
+"why": [],
+"share": 24,
+"nested": []
+},
+{
+"callee": "NiTArray<BridgeTexture *>::Add",
+"raw": "?Add@?$NiTArray@PAUBridgeTexture@@@@QAEXPAUBridgeTexture@@@Z",
+"cost": 35,
+"budget": 535,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 25,
+"nested": [
+{
+"callee": "NiTArray<BridgeTexture *>::SetAtGrow",
+"raw": "?SetAtGrow@?$NiTArray@PAUBridgeTexture@@@@QAEIIPAUBridgeTexture@@@Z",
+"cost": 69,
+"budget": 25,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 3,
+"args": 3,
+"verdict": "reject",
+"why": [
+"cost 69 > budget 25"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::~NiTStringMap<BridgeTexture *>",
+"raw": "??1?$NiTStringMap@PAUBridgeTexture@@@@UAE@XZ",
+"cost": 126,
+"budget": 535,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 20,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::~NiTMap<char const *,BridgeTexture *>",
+"raw": "??1?$NiTMap@PBDPAUBridgeTexture@@@@UAE@XZ",
+"cost": 52,
+"budget": 20,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 52 > budget 20"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 409,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 21,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 409,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 22,
+"nested": []
+},
+{
+"callee": "NiObject::DynamicCast",
+"raw": "?DynamicCast@NiObject@@QBEPAV1@PBVNiRTTI@@@Z",
+"cost": 35,
+"budget": 409,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 24,
+"nested": [
+{
+"callee": "NiObject::IsKindOf",
+"raw": "?IsKindOf@NiObject@@QBE_NPBVNiRTTI@@@Z",
+"cost": 72,
+"budget": 24,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 72 > budget 24"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiPointer<NiMaterialProperty>::operator=",
+"raw": "??4?$NiPointer@VNiMaterialProperty@@@@QAEAAV0@PAVNiMaterialProperty@@@Z",
+"cost": 91,
+"budget": 409,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 19,
+"nested": [
+{
+"callee": "NiObject::DecRefCount",
+"raw": "?DecRefCount@NiObject@@QAEHXZ",
+"cost": 66,
+"budget": 19,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 66 > budget 19"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiObject::IncRefCount",
+"raw": "?IncRefCount@NiObject@@QAEXXZ",
+"cost": 24,
+"budget": 19,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 19,
+"nested": []
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 318,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 21,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 318,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 22,
+"nested": []
+},
+{
+"callee": "NiObject::DynamicCast",
+"raw": "?DynamicCast@NiObject@@QBEPAV1@PBVNiRTTI@@@Z",
+"cost": 35,
+"budget": 318,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 24,
+"nested": [
+{
+"callee": "NiObject::IsKindOf",
+"raw": "?IsKindOf@NiObject@@QBE_NPBVNiRTTI@@@Z",
+"cost": 72,
+"budget": 24,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 72 > budget 24"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiPointer<NiMaterialProperty>::operator=",
+"raw": "??4?$NiPointer@VNiMaterialProperty@@@@QAEAAV0@PAVNiMaterialProperty@@@Z",
+"cost": 91,
+"budget": 318,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 18,
+"nested": [
+{
+"callee": "NiObject::DecRefCount",
+"raw": "?DecRefCount@NiObject@@QAEHXZ",
+"cost": 66,
+"budget": 18,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 66 > budget 18"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiObject::IncRefCount",
+"raw": "?IncRefCount@NiObject@@QAEXXZ",
+"cost": 24,
+"budget": 18,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 18,
+"nested": []
+}
+]
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 227,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 20,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 227,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 22,
+"nested": []
+},
+{
+"callee": "NiPointer<NiAVObject>::operator NiAVObject *",
+"raw": "??B?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 227,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 25,
+"nested": []
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::NiTStringMap<BridgeTexture *>",
+"raw": "??0?$NiTStringMap@PAUBridgeTexture@@@@QAE@I@Z",
+"cost": 58,
+"budget": 227,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 21,
+"nested": [
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::NiTMap<char const *,BridgeTexture *>",
+"raw": "??0?$NiTMap@PBDPAUBridgeTexture@@@@QAE@I@Z",
+"cost": 89,
+"budget": 21,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 89 > budget 21"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetFirstPos",
+"raw": "?GetFirstPos@?$NiTMap@PBDPAUBridgeTexture@@@@QAEPAXXZ",
+"cost": 81,
+"budget": 169,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 12,
+"nested": []
+},
+{
+"callee": "NiTMap<char const *,BridgeTexture *>::GetNext",
+"raw": "?GetNext@?$NiTMap@PBDPAUBridgeTexture@@@@QAEXAAPAXAAPBDAAPAUBridgeTexture@@@Z",
+"cost": 149,
+"budget": 88,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 4,
+"args": 4,
+"verdict": "reject",
+"why": [
+"cost 149 > budget 88"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiTArray<BridgeTexture *>::Add",
+"raw": "?Add@?$NiTArray@PAUBridgeTexture@@@@QAEXPAUBridgeTexture@@@Z",
+"cost": 35,
+"budget": 88,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "inline",
+"why": [],
+"share": 17,
+"nested": [
+{
+"callee": "NiTArray<BridgeTexture *>::SetAtGrow",
+"raw": "?SetAtGrow@?$NiTArray@PAUBridgeTexture@@@@QAEIIPAUBridgeTexture@@@Z",
+"cost": 69,
+"budget": 17,
+"force": false,
+"limit": 8,
+"depth": 2,
+"params": 3,
+"args": 3,
+"verdict": "reject",
+"why": [
+"cost 69 > budget 17"
+],
+"share": null,
+"nested": null
+}
+]
+},
+{
+"callee": "NiTStringMap<BridgeTexture *>::~NiTStringMap<BridgeTexture *>",
+"raw": "??1?$NiTStringMap@PAUBridgeTexture@@@@UAE@XZ",
+"cost": 126,
+"budget": 88,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "reject",
+"why": [
+"cost 126 > budget 88"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiColor::NiColor",
+"raw": "??0NiColor@@QAE@MMM@Z",
+"cost": 47,
+"budget": 88,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 4,
+"args": 4,
+"verdict": "inline",
+"why": [],
+"share": 13,
+"nested": []
+},
+{
+"callee": "NiLight::SetAmbientColor",
+"raw": "?SetAmbientColor@NiLight@@QAEXABVNiColor@@@Z",
+"cost": 42,
+"budget": 41,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 2,
+"args": 2,
+"verdict": "reject",
+"why": [
+"cost 42 > budget 41"
+],
+"share": null,
+"nested": null
+},
+{
+"callee": "NiPointer<NiAVObject>::operator->",
+"raw": "??C?$NiPointer@VNiAVObject@@@@QBEPAVNiAVObject@@XZ",
+"cost": 24,
+"budget": 41,
+"force": false,
+"limit": 8,
+"depth": 1,
+"params": 1,
+"args": 1,
+"verdict": "inline",
+"why": [],
+"share": 41,
+"nested": []
+}
+]
+}
+]
+}

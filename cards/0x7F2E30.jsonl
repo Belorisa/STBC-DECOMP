@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-48", "commit": "2d89c5d0dd", "from": null, "to": 37.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "ni-big", "by": "opus", "from": 88.8, "to": 88.8, "how": "renamed VirtualSlot50 -> ReallocateVertexArrays (Gamebryo 1.2.2 NiOptimize::ReallocateVertexArrays); no codegen change", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 88.8, "to": 88.8, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (4 register picks, 10 frame-slot swaps, 1 instructions scheduled elsewhere, 21 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-od-hits", "commit": "79966d738a", "from": 88.8, "to": 100.0, "status": "MATCH"}

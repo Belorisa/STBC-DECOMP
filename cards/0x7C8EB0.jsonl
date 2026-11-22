@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "AnimOnly 0x51B53C: IsHardware taken in the software-device loop; the rest is a release-vs-debug conflict: 3.1 picks the windowed and fullscreen devices without BC's T&L flag tests"}

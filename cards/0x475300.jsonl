@@ -1,0 +1,4 @@
+{"date": "2026-11-22", "kind": "try", "lane": "last-unknowns", "by": "opus", "from": null, "to": 0.0, "how": "identity: NiTList<AILogScope *>::GetNext, AILog's copy; annotated in NiTList.h; no symbol while AILog::CloseRoot (0x474AB0) expands SameTree's GetNext calls", "wall": "inline"}
+{"date": "2026-11-22", "kind": "score", "lane": "last-unknowns", "commit": "7b56d271ef", "from": null, "to": 0.0, "status": "NO-SYMBOL"}
+{"date": "2026-11-22", "kind": "try", "lane": "ni-gap-headers", "by": "opus", "from": 0.0, "to": 0.0, "how": "not worked: its source block changed only through this lane's edits around it (NiTList::GetNext returns T() instead of 0; neutral tree-wide in build -s); still NO-SYMBOL: AILog::CloseRoot expands it", "group": "hdr-nitlist-getnext"}
+{"date": "2026-11-22", "kind": "score", "lane": "gap-callers", "commit": "ed4dcaa654", "from": 0.0, "to": 100.0, "status": "MATCH"}

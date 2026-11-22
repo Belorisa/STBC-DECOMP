@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-99", "commit": "61ccccad65", "from": null, "to": 28.3, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "modelutils", "by": "opus", "from": 28.3, "to": 39.8, "how": "TGModelUtils::LocalToWorldPoint( geometry, *vertex ) inside WorldToModel: 28.3 -> 39.8; LocalToLocalUnitVector( geometry, node, *vertexNormal ) for the normal dips to 35.9 (not kept); left: retail keeps 0x41CBD0 out of line, ours calls the ctor 0x414540 instead", "wall": "inline"}
+{"date": "2026-11-17", "kind": "score", "lane": "modelutils", "commit": "aa8c9f3689", "from": 28.3, "to": 39.8, "status": "DIFF"}
+{"date": "2026-11-22", "kind": "score", "lane": "sub80-c2", "commit": "5179fbbf01", "from": 39.8, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,6 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-79", "commit": "c8193d9510", "from": null, "to": 66.8, "status": "DIFF"}
+{"date": "2026-11-10", "kind": "try", "lane": "classes-3", "by": "opus", "from": 66.8, "to": 66.8, "how": "source parameter retyped TGObject * (PhaserBank passes itself); decorated name updated; bytes unchanged", "wall": "inline"}
+{"date": "2026-11-17", "kind": "try", "lane": "modelutils", "by": "opus", "from": 66.8, "to": 98.1, "how": "TGModelUtils::WorldToLocalPoint / WorldToLocalVector( GetNode(), ... ) for the hit point and normal: 66.8 -> 98.1, call set exact; left: overflow fld level; fchs; faddp in retail against fsub (+ -level folds, fabs wrong)", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "modelutils", "commit": "aa8c9f3689", "from": 66.8, "to": 98.1, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "near-misses", "by": "opus", "from": 98.1, "to": 100.0, "how": "overflow written + ( 0.0f - level ): VC6 keeps the subtraction from zero as fld level; fchs; faddp where - level and + -level fold to fsub: 98.1 -> 100 MATCH"}
+{"date": "2026-11-17", "kind": "score", "lane": "near-misses", "commit": "83ac2576d4", "from": 98.1, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,5 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 65.5, "how": "first draft 65.5 from Ghidra and retail asm; same call multiset except the second GetAt (out of line here, expanded in retail)", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 65.5, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "lineage-scan", "by": "opus", "from": 65.5, "to": 42.6, "how": "bend/chord squared lengths through NiPoint3::SqrLength(): budget runs out, SqrLength twice and three constructors out of line (65.5 -> 42.6), reverted; retail computes the bend's squared length right after the bend product, before the cache reads", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 65.5, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-21", "kind": "try", "lane": "bezier-names", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od frame only (21 inner locals); the bucket model (hb.py) found no assignment of readable names with i/j kept that gives AnimOnly's order; left", "wall": "structure"}

@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-80", "commit": "e4540cf39e", "from": null, "to": 98.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 98.6, "to": 98.6, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 98.6, "to": 98.6, "how": "sched triage: (c) not-schedule, an x87 operand or form differs (operand order, fcomp form, constant) before any ordering: first ours \"fld dword ptr [esi + 0x20]\" retail \"fld dword ptr [esi + 0x4c]\"", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls", "commit": "7e6a26ed1b", "from": 98.6, "to": 100.0, "status": "MATCH"}

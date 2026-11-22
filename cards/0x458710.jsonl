@@ -1,0 +1,2 @@
+{"date": "2026-11-22", "kind": "try", "lane": "ni-gap-headers", "by": "opus", "from": null, "to": 51.6, "how": "first emitted (Build now expands NewItem): 51.6; retail tests the new item array for NULL (items = p ? p : 0), what a NiTListItem<T> with a constructor gives; TGOverlayRun() {} A/B loses Build's NewItem expansion", "wall": "structure"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-gap-headers", "commit": "11b2e96161", "from": null, "to": 51.6, "status": "DIFF"}

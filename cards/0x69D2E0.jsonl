@@ -1,0 +1,2 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 98.0, "how": "count = numplayers + 1 with i < count fixed the loop compare (97.0->98.0); left: register picks", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-30", "commit": "c6a5563fda", "from": null, "to": 74.0, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-60", "by": "opus", "from": 74.0, "to": 76.5, "how": "dot products as NiPoint3::operator* (retail calls 0x469620 out of line; Gamebryo 1.1.2 NiPlanarCollider::Resolve calls ??DNiPoint3@@QBEMABV0@@Z x3), offset reduced in place (Ghidra: one copy), last test as one positive if with return false after it (retail's return-false block sits at the end): 74.0 -> 76.5, call set equal; hitPoint/offset declared then assigned 67.2 (reverted); nested ifs throughout lose operator-= (own 555, needs +10)", "wall": "structure"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-60", "commit": "dd14ddfa15", "from": 74.0, "to": 76.5, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "fin-geom", "commit": "82a5978fd2", "from": 76.5, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,6 @@
+{"date": "2026-11-11", "kind": "try", "lane": "backdrop-family", "by": "sonnet", "from": null, "to": 99.9, "how": "array static's exit destructor: guard 0x98D80C bit 1 resolves to the byte shared with the handler table's guard in our compile (WRONG-REFERENT after the handler table was defined); not reconciled", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-family", "commit": "fd26b2f6c9", "from": null, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-guards", "commit": "6fa030c9bb", "from": 99.9, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-interface", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B2D0: _$E250 -> _$E252"}
+{"date": "2026-11-11", "kind": "try", "lane": "glow-setclass", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B2D0: _$E252 -> _$E253"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-gaps", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B2D0: _$E253 -> _$E254"}

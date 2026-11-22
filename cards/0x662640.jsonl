@@ -1,0 +1,5 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 19.8, "how": "draft: NiDynamicCast to NiTriShape and NiNode; 19.8, this build calls IsKindOf out of line where retail inlines both loops", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 19.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80b", "by": "opus", "from": 19.8, "to": 83.1, "how": "ApplyGamma's twin forms: no NULL guard (19.8 -> 25.1), bytes indexed by vertex (60.0), an int vertex count (retail's xor/mov bx zero-extension; 83.1); the first cast's IsKindOf still misses its 62 share by 10: 3 fewer inline sites needed (a geometry-data local over the first three reads gave the inline but loses retail's reload of shape->modelData after the delete)", "wall": "inline", "group": "inline-budget"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80b", "commit": "b3f6db459f", "from": 19.8, "to": 83.1, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts70", "commit": "25d3486ca6", "from": 83.1, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-35", "commit": "27719b7424", "from": null, "to": 91.0, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "ni-math-lineage", "commit": "725498b958", "from": 91.0, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-18", "kind": "score", "lane": "const-referents", "commit": "f95d91a8cd", "from": 100.0, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-18", "kind": "score", "lane": "renumber", "commit": "7769acdd48", "from": 99.9, "to": 100.0, "status": "MATCH"}

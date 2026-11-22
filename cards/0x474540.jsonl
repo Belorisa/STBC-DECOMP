@@ -1,0 +1,4 @@
+{"date": "2026-11-09", "kind": "try", "lane": "classes-1", "by": "opus", "from": null, "to": 99.3, "how": "recovered AILogScope (0x40: text, parent, two NiTLists, start time) and current 0x981AE4; a parent local (one load of current) took 84.7 to 99.3; left: base/index order of items[size-1].next in the inlined NiTListBlock ctor", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "classes-1", "commit": "e725c1e7a5", "from": null, "to": 99.3, "status": "DIFF"}
+{"date": "2026-11-09", "kind": "score", "lane": "placement-1", "commit": "005ced19c7", "from": 99.3, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "group", "lane": "tools-openwork", "by": "opus", "group": "nitlistblock-base-index", "how": "seeded from the cards' own texts: each names the base/index operand order inside the inlined NiTListBlock constructor (NiTList.h) as its residue, and the six-unit A/B of that constructor is recorded on five of them"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ai-range", "by": "sonnet", "from": null, "to": 94.4, "how": "first draft; while-loop, for(;;) with explicit null tests and both true/false orders: same shape as retail but each 'return true' folds to sete where retail has mov al,1 behind a jne", "wall": "control-flow"}
+{"date": "2026-11-11", "kind": "score", "lane": "ai-range", "commit": "f59026b73c", "from": null, "to": 94.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 94.4, "to": 100.0, "status": "MATCH"}

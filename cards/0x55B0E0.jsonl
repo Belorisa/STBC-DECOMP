@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "input-frame", "by": "sonnet", "from": null, "to": 93.7, "how": "ternary spellings (!= / ==, local var) all hoist the fileName test before the arg pushes and reuse esi; retail tests after the zero pushes", "wall": "control-flow"}
+{"date": "2026-11-11", "kind": "score", "lane": "input-frame", "commit": "2ce9b0c6d9", "from": null, "to": 93.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "control-flow-walls", "commit": "ecfccf2f7b", "from": 93.7, "to": 100.0, "status": "MATCH"}

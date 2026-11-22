@@ -1,0 +1,5 @@
+{"date": "2026-11-03", "kind": "score", "lane": "game-68", "commit": "105e1cfa36", "from": null, "to": 76.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 76.6, "to": 76.4, "how": "accessor reads instead of members (tools sweep): collisionForce->GetCollisionForce 76.4", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "vector-ops", "by": "opus", "from": 76.6, "to": 95.7, "how": "the point into the object's frame through TGModelUtils::WorldToLocalPoint( node, position ): 76.6 -> 95.7 (calls now retail's); radius declared before/after the point 95.7; radius set before the transform 38.1", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "vector-ops", "commit": "3e01c75b6c", "from": 76.6, "to": 95.7, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 95.7, "to": 100.0, "status": "MATCH"}

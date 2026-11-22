@@ -1,0 +1,5 @@
+{"date": "2026-11-14", "kind": "try", "lane": "bezier-large", "by": "opus", "from": null, "to": 93.1, "how": "first draft: bicubic -> biquadratic (tensor-product centre, order from the out-of-line tail); index++ loops gave row<3 tests where retail tests index<9: row*3+column indexing took it 75.0 -> 93.1; left: frame 4 bytes and temp slots", "wall": "register"}
+{"date": "2026-11-14", "kind": "score", "lane": "bezier-large", "commit": "56637ab518", "from": null, "to": 93.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "try", "lane": "yx-ab", "by": "opus", "from": 93.1, "to": 93.1, "how": "full-tree /YX A/B (lane yx-ab): 93.1 -> MATCH 100 under /YX, source unchanged; waits on the user's ruling on the switch", "wall": "structure"}
+{"date": "2026-11-18", "kind": "score", "lane": "yx-on", "commit": "b08d7209ce", "from": 93.1, "to": 100.0, "status": "MATCH"}

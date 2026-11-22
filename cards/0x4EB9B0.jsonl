@@ -1,0 +1,4 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-shieldpatch", "by": "fable", "from": null, "to": 77.1, "how": "first body, written like the shock wave's constructor with the tail loop: 77.1; the same two residues (loop registers, EH states inside the inlined property constructors)", "wall": "structure"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-shieldpatch", "commit": "eff6ca6af1", "from": null, "to": 77.1, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts-owned", "by": "opus", "from": 78.9, "to": 92.8, "how": "as AtmosphereShockWave: int above local 78.9 -> 90.3, index declared before backFaces 92.8; operand-swapped product and index + backFaces spellings byte-identical. Left: numTailRows/column-term order and the two reused parameter homes swapped", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts-owned", "commit": "b14ecec9b2", "from": 78.9, "to": 92.8, "status": "DIFF"}

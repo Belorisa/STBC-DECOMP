@@ -1,0 +1,6 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 97.8, "how": "seed xor: every permutation of seed/GetTickCount/time/clock compiles to time, GetTickCount, clock; retail time, clock, GetTickCount", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 97.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.8, "to": 97.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "finish-ni", "by": "opus", "from": 97.8, "to": 100.0, "how": "include order: nonport.h (windows.h) before <time.h> makes the seed's calls time, clock, GetTickCount as retail (97.8 -> 100); the call order in a commutative chain follows the callees' declaration order, not the source order"}
+{"date": "2026-11-17", "kind": "score", "lane": "finish-ni", "commit": "1676118d97", "from": 97.8, "to": 100.0, "status": "MATCH"}

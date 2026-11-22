@@ -1,0 +1,3 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ship-range", "by": "opus", "from": null, "to": 70.8, "how": "first draft from retail: push_back(candidates[i].object) closed the call set (56->71); axes[a][i] operator[] adds an abort check retail lacks (69)", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "ship-range", "commit": "69115445a6", "from": null, "to": 70.8, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "walls-game", "commit": "d9d8ba9f05", "from": 71.1, "to": 100.0, "status": "MATCH"}

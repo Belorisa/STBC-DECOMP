@@ -1,0 +1,2 @@
+{"date": "2026-11-08", "kind": "score", "lane": "appwrap-8", "commit": "175719dbc1", "from": null, "to": 62.0, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-game", "commit": "d062175954", "from": 62.0, "to": 100.0, "status": "MATCH"}

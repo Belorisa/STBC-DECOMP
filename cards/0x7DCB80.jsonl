@@ -1,0 +1,6 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-36", "commit": "72d66ec27d", "from": null, "to": 44.4, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-rest", "by": "opus", "from": 44.4, "to": 50.5, "how": "CullShow written as its two halves, Unknown7DCA70 and Unknown7DCB00 (defined above it, expanded by /Ob2; retail's restore loop hoists the count exactly as 7DCB00 does): 44.4 -> 50.5. Left: the register wall Unknown7DCA70 has on its own (this/camera roles swapped, mask word index scaled once)", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-rest", "commit": "5a6e45f5a8", "from": 44.4, "to": 50.5, "status": "DIFF"}
+{"date": "2026-11-21", "kind": "try", "lane": "dt-signatures", "by": "opus", "from": 50.5, "to": 50.5, "how": "NiPlaneMask is DamageTool's NiBitVector (renamed): byte-neutral, the word-offset register wall stays (see 0x7DCA70)", "wall": "register"}
+{"date": "2026-11-21", "kind": "try", "lane": "dt-signatures", "by": "opus", "from": 50.5, "to": 50.5, "how": "header src/netimmerse/NiCamera.h (NiPlaneMask -> NiBitVector): settled, byte-neutral", "group": "hdr-nibitvector"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-low", "commit": "a4b2e231bc", "from": 50.5, "to": 100.0, "status": "MATCH"}

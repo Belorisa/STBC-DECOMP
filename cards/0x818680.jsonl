@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "audit-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "sdkdebug: AnimOnly 0x41B194 (NiStream.cpp) is 3.1's search: sequential if ( !bFound ) tests, one search directory, assert( bFound ); BC's walks a ';'-separated search path (retail's bytes). Release-vs-debug conflict: release kept.", "wall": "structure"}

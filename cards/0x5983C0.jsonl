@@ -1,0 +1,4 @@
+{"date": "2026-11-14", "kind": "try", "lane": "damage-nebula", "by": "opus", "from": null, "to": 65.2, "how": "first draft 64.9; (float)sqrt( 5.0 ) gives retail's float constants (65.2); references for the triangle's corners fell to 59.8", "wall": "register"}
+{"date": "2026-11-14", "kind": "score", "lane": "damage-nebula", "commit": "9576341043", "from": null, "to": 65.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "ni-big", "by": "opus", "from": 65.2, "to": 65.2, "how": "only the callee's name changed (Unknown7F27B0 -> CollapseVertices, now annotated); no codegen change", "wall": "inline"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-40", "by": "opus", "from": 65.2, "to": 65.2, "how": "skipped (inline-40): c2trace call sets agree: a control-flow wall (one branch)", "wall": "control-flow"}

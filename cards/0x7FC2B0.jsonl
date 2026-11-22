@@ -1,0 +1,6 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-26", "commit": "e99eb72ac8", "from": null, "to": 97.8, "status": "DIFF"}
+{"date": "2026-11-06", "kind": "score", "lane": "merge", "commit": "f603f80545", "from": 97.8, "to": 99.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 99.3, "to": 99.3, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "finish-ni", "by": "opus", "from": 99.3, "to": 100.0, "how": "NiBound::SetCenterAndRadius (Gamebryo 1.1.2 NIBOUND.H setter) for modelBound and the merged bound in place of three member stores: hasBound's store lands after the first center store as retail (99.3 -> 100)"}
+{"date": "2026-11-17", "kind": "score", "lane": "finish-ni", "commit": "1676118d97", "from": 99.3, "to": 100.0, "status": "MATCH"}

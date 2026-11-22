@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: scaled-time local and GetNormals from AnimOnly 0x495F96 (98.3); left: the bit-4/5 inline accessors 0x497FE0, 0x497FC0, 0x497FA0 and NiTriBasedGeom's model-data accessor 0x498040 (header items)"}

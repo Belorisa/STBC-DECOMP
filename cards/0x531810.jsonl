@@ -1,0 +1,2 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-11", "commit": "b21a6bb535", "from": null, "to": 49.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow-4", "by": "opus", "from": 49.2, "to": 49.2, "how": "read only: the fld/fstp copy of the screen height is x87.md's two-level accessor rule (TGIconManager::GetScreenHeight, open with STFillGauge::RoundToPixels); the extra branch and fidivr follow from pixels kept on the FPU. Needs the accessor's inner level, a shared TGIconManager.h change outside this lane", "wall": "register"}

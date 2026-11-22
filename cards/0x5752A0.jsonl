@@ -1,0 +1,5 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-weapons-13", "commit": "48a4024223", "from": null, "to": 48.4, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "vector-ops", "by": "opus", "from": 48.4, "to": 79.5, "how": "target into the ship's frame through TGModelUtils::WorldToLocalPoint( node, targetPosition ): 48.4 -> 79.5, calls and branches now retail's; left: register picks", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "vector-ops", "commit": "3e01c75b6c", "from": 48.4, "to": 79.5, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-sites", "by": "opus", "from": 79.5, "to": 79.5, "how": "WorldToLocalPoint( ship->GetNode(), ... ) without the cached node: no change (79.5), reverted"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65", "commit": "26f7d6da56", "from": 79.5, "to": 100.0, "status": "MATCH"}

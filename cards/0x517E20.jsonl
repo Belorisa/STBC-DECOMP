@@ -1,0 +1,6 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ui-windows", "by": "sonnet", "from": null, "to": 83.7, "how": "TGObjPtrEvent* vs TGEvent* parameter with cast, GetDestination()->CallNextHandler: no change; esi/edi swapped", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "ui-windows", "commit": "2a3255ce07", "from": null, "to": 83.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 83.7, "to": 83.7, "how": "accessor reads instead of members (tools sweep): setCourseMenu->GetRoot 83.7", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 83.7, "to": 83.7, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80", "by": "opus", "from": 83.7, "to": 83.7, "how": "no compile; c2trace --regs: this prio 23 is allocated first (esi), event prio 7 last (edi); retail gives event esi, so event must outrank this: no evidence-backed form found", "wall": "register", "group": "register-roles"}

@@ -1,0 +1,7 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-2", "commit": "1fa3fe3629", "from": null, "to": 85.0, "status": "DIFF"}
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-3", "commit": "cc0e13a734", "from": 85.0, "to": 91.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-reuse", "how": "framemap: retail keeps some of one variable's values in another's slot: one variable reused, or scopes that let them share"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-members", "by": "opus", "from": 91.1, "to": 91.1, "how": "RoundToPixelX/Y (invented) replaced by the SWIG-named TGUIModule::PixelAlignValue( value[, false] ), same body: score unchanged"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 91.1, "to": 91.1, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (12 frame-slot swaps, 10 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-22", "kind": "try", "lane": "float-frame", "by": "opus", "from": 91.1, "to": 100.0, "how": "MATCH: two early returns (not visible, no parent) put parentClip's id before clipRect's; alignedDx/Dy locals share the dead parameter slots with the pixel counts", "group": "tgui-move-frame"}
+{"date": "2026-11-22", "kind": "score", "lane": "float-frame", "commit": "96a058a9e6", "from": 91.1, "to": 100.0, "status": "MATCH"}

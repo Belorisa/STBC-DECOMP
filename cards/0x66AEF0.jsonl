@@ -1,0 +1,3 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-25", "commit": "cc3c19bf6a", "from": null, "to": 79.7, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "nitlist", "by": "opus", "from": 80.6, "to": 80.6, "how": "queue walk as queued = Get( pos ); pos = GetNextPos( pos ) (Get now tests pos): 80.6 -> 63.3, reverted", "wall": "control-flow"}
+{"date": "2026-11-22", "kind": "score", "lane": "walls-structure-2", "commit": "8bffeb9e6c", "from": 80.6, "to": 100.0, "status": "MATCH"}

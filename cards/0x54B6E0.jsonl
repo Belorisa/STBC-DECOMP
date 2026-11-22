@@ -1,0 +1,3 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ui-layout", "by": "opus", "from": null, "to": 81.1, "how": "first draft: loop register picks differ", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-layout", "commit": "55b3cdda01", "from": null, "to": 81.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "drafts-low-game", "commit": "1f164242f6", "from": 81.1, "to": 100.0, "status": "MATCH"}

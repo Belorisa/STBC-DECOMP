@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "classes-3", "by": "opus", "from": null, "to": 83.1, "how": "found branch first then the no-target branch (82.7); reordering the nearest copies and typing the nearest object as ObjectClass changed nothing", "wall": "register"}
+{"date": "2026-11-10", "kind": "score", "lane": "classes-3", "commit": "f15ee49105", "from": null, "to": 83.1, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "weapons-fire", "commit": "4db7a1b914", "from": 83.1, "to": 100.0, "status": "MATCH"}

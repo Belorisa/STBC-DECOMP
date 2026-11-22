@@ -1,0 +1,6 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-32", "commit": "913ff130e2", "from": null, "to": 97.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 97.9, "to": 97.9, "how": "positive condition (database != NULL && HasString) with the branches swapped: 97.9, the this-register hoist before the je still missing", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.9, "to": 97.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 97.9, "to": 97.9, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov ebp, dword ptr [??npos@?$basic_string@GU?$\" retail \"mov ebp, dword ptr [R]\"", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-97", "commit": "529b74fe05", "from": 97.9, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,7 @@
+{"date": "2026-11-16", "kind": "try", "lane": "ni-gaps-drafts", "by": "opus", "from": null, "to": 97.6, "how": "written from scratch (sphere-map reflection loop); pointer walk and textures-before-normal increments fix the loop; dot product sum order x,z,y vs ours z,y,x unmoved by Dot/operator*/dot local/operand swaps", "wall": "register"}
+{"date": "2026-11-16", "kind": "try", "lane": "ni-gaps-drafts", "by": "opus", "from": null, "to": 97.6, "how": "explicit sums y,z,x / z,x,y / x+(y+z) 88.7-93.1; normal*(2*dot) unchanged 97.6: the x,z,y order (also NiCamera::ScreenSpaceBoundBound's w sums) is not a summand order", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "ni-gaps-drafts", "commit": "6f081912e5", "from": null, "to": 97.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.6, "to": 97.6, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 97.6, "to": 97.6, "how": "sched triage: (b) x87: fld/fmul pair order inside one sum", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls2", "commit": "f0c5b30f2b", "from": 97.6, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,2 @@
+{"date": "2026-11-15", "kind": "try", "lane": "viewscreen-near", "by": "opus", "from": null, "to": 40.5, "how": "corners as NiPoint3(x,y,z) initialiser list, copy-init of upper/lower, center+half vs half+center, retail store order for port/width: all ~40; retail builds corners through temporaries", "wall": "structure"}
+{"date": "2026-11-15", "kind": "score", "lane": "viewscreen-near", "commit": "541f602407", "from": null, "to": 40.5, "status": "DIFF"}

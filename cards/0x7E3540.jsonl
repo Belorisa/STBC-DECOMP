@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "NiRender: BC addition (retail slot 21): no 3.1 slot; its body (return 0) equals debug 0x419590; the map paired 0x4194E0, which is VirtualSlot26's copy (fld 1.0)"}

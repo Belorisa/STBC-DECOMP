@@ -1,0 +1,3 @@
+{"date": "2026-10-28", "kind": "score", "lane": "game-objects", "commit": "e8326acc45", "from": null, "to": 67.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 67.1, "to": 67.1, "how": "probe in the wrapper: passing (NiPoint3)*arg copies (or a NiPoint3 copy's address) closes the copy (SetOrientation 95.0, SetTargetAngularVelocityFraction 97.3): the method takes const NiPoint3 & and the header has a TGPoint3 overload casting to NiPoint3, as PhaserProperty::SetOrientation; needs a game-header change (slot1), reverted", "wall": "structure"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 67.1, "to": 100.0, "status": "MATCH"}

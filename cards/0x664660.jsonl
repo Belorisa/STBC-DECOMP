@@ -1,0 +1,5 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 93.1, "how": "location read before IsStateSet and buffers swapped: 92.3 -> 93.1, schedule left", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 93.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 93.1, "to": 93.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90a", "commit": "1ecba9d39e", "from": 93.1, "to": 100.0, "status": "MATCH"}

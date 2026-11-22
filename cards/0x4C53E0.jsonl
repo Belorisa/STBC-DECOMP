@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-86", "commit": "21c80f9284", "from": null, "to": 39.5, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "game-big", "by": "opus", "from": 39.5, "to": 43.9, "how": "box test flipped to other->upper[i] > lower[i], as Overlaps and Difference's retail read it (39.5->43.9)", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "game-big", "commit": "fb639c803d", "from": 39.5, "to": 43.9, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "include-graph", "by": "opus", "from": 43.9, "to": 43.9, "how": "include-context probe: NiPropertyState.h forward-declaring its property classes (Gamebryo NIPROPERTYSTATE.H lineage) plus unit includes ordered so the emitted registrations equal retail's run exactly; disassembly diff byte-identical to before: unit context is not this wall"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 43.9, "to": 44.4, "how": "header-only: TestAndSet without its byte pointer: 43.9 -> 44.4, source unchanged"}

@@ -1,0 +1,6 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-18", "commit": "ee0325a149", "from": null, "to": 87.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 87.0, "to": 87.0, "how": "contained AI through GetContainedAI() into block locals, branches split: 87.0, still loaded into esi (this) instead of ecx", "wall": "register"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 87.0, "to": 87.0, "how": "accessor reads instead of members (tools sweep): containedAI->GetContainedAI 87.0", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 87.0, "to": 87.0, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 87.0, "to": 87.0, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov esi, dword ptr [esi + 0x48]\" retail \"mov ecx, dword ptr [esi + 0x48]\"", "wall": "register"}

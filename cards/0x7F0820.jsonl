@@ -1,0 +1,7 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-36", "commit": "72d66ec27d", "from": null, "to": 84.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 84.0, "to": 84.0, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 84.0, "to": 84.0, "how": "sched triage: (c) register allocation: record1 in ebp, other object in ebx against the reverse; the moved rows follow from it", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "ni-headers", "by": "opus", "from": 84.0, "to": 69.9, "how": "lane/ni-headers: the debug copy (AnimOnly.exe 0x431592) reads the record's two fields through getters (0x41FD70, 0x41FD90, x2 each); written so, retail's inline budget moves (84.0 to 69.9: FindVolumeTriangles inlined, two other callees out of line); without the getters 84.0. Evidence-backed dip", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-headers", "commit": "47442d0b13", "from": 84.0, "to": 69.9, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom-2", "commit": "44f7a6a251", "from": 69.9, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,6 @@
+{"date": "2026-10-27", "kind": "score", "lane": "tg-events", "commit": "51df7886af", "from": null, "to": 87.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 87.0, "to": 87.0, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 87.0, "to": 87.0, "how": "sched triage: (b) latency/x87/height, height: loads of globals at different heights; not a tie", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "nitmap", "by": "opus", "from": 87.0, "to": 87.0, "how": "Gamebryo's const on the NiTMap getters and hooks: no move", "wall": "register", "group": "nitmap-const"}
+{"date": "2026-11-22", "kind": "try", "lane": "c2-schedule", "by": "opus", "from": 87.0, "to": 87.0, "how": "c2order: reorder, NOT the input order (retail's node had no ready predecessor set in ours: a dependence differs)", "wall": "register", "group": "schedule-only"}

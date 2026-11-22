@@ -1,0 +1,2 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-81", "commit": "6961dea113", "from": null, "to": 74.0, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 74.0, "to": 74.0, "how": "read: retail saves edi at entry (the bar loops' counter), ours only around the blink branch; the note's top-level counter, member inline and static helper spellings stand. Not tried further", "wall": "register"}

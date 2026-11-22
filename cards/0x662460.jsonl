@@ -1,0 +1,5 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 88.1, "how": "draft with NiFloatKey setters and the inlined TGDimmerController constructor; 88.1, register only", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 88.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 88.7, "to": 88.7, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90a", "commit": "1ecba9d39e", "from": 88.7, "to": 100.0, "status": "MATCH"}

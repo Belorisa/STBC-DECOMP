@@ -1,0 +1,1625 @@
+# decorated-name address   # evidence
+_strchr 0x00859a30   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (string_print, 2 sites)
+__CIfmod 0x00859b2a   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (float_rem, 2 sites)
+__ftol 0x00859d20   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (complex_hash, 4 sites)
+__allshr 0x0085a960   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (PyLong_AsLongLong, 1 sites)
+__aullshr 0x0085f310   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (PyLong_FromLongLong, 3 sites)
+__allmul 0x0085f330   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (PyLong_AsLongLong, 2 sites)
+_lseek 0x00868150   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (new_buffersize, 1 sites)
+_isatty 0x0086c72c   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (file_isatty, 1 sites)
+_fstat 0x008703cb   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (new_buffersize, 1 sites)
+__iob 0x00979eb0   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (PyFloat_Fini, 2 sites)
+__pctype 0x0097a134   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (long_from_string, 3 sites)
+___mb_cur_max 0x0097a340   # VC6 CRT; referenced at the matching site of byte-identical Python Objects code (long_from_string, 3 sites)
+_memmove 0x00859530   # VC6 CRT (/MT); referenced at the matching site of byte-identical Python Objects code (file_readlines, 1 sites)
+__CIpow 0x0085a320   # VC6 CRT (/MT); referenced at the matching site of byte-identical Python Objects code (c_pow, 2 sites)
+__chkstk 0x0085f3a0   # VC6 CRT (/MT); referenced at the matching site of byte-identical Python Objects code (file_readlines, 1 sites)
+_memchr 0x0085f9f0   # VC6 CRT (/MT); referenced at the matching site of byte-identical Python Objects code (file_readlines, 1 sites)
+__HUGE 0x0097a350   # VC6 CRT (/MT); referenced at the matching site of byte-identical Python Objects code (float_pow, 1 sites)
+__Py_EllipsisObject 0x009753d0  # Objects/sliceobject.c: relocation target in byte-identical com_subscript where upstream names it
+__Py_TrueStruct 0x0095de90  # Objects/intobject.c: relocation target in byte-identical builtin_hasattr where upstream names it
+__Py_ZeroStruct 0x0095de80  # Objects/intobject.c: relocation target in byte-identical builtin_hasattr where upstream names it
+__imp__GetKeyboardState@4 0x00888288  # IAT slot: USER32 GetKeyboardState (Ghidra import label PTR_GetKeyboardState_00888288); NiKeyboard::NiKeyboard calls through it
+__imp__LoadIconA@8 0x0088830c  # IAT slot: USER32 LoadIconA; WinMain (Gamebryo 1.1.2 NiAppMain.cpp: LoadIcon( NULL, IDI_APPLICATION )) calls through it
+__imp__LoadCursorA@8 0x00888310  # IAT slot: USER32 LoadCursorA; WinMain (NiAppMain.cpp: LoadCursor( NULL, IDC_ARROW )) calls through it
+__imp__RegisterClassA@4 0x00888314  # IAT slot: USER32 RegisterClassA; WinMain (NiAppMain.cpp: RegisterClass( &kWC )) calls through it
+__imp__GetStockObject@4 0x00888048  # IAT slot: GDI32 GetStockObject; WinMain (NiAppMain.cpp: the class brush) calls through it
+__imp__FindClose@4 0x00888130  # IAT slot: the byte-identical check_case calls through it where upstream calls _FindClose
+__imp__FindFirstFileA@8 0x0088805c  # IAT slot: the byte-identical check_case calls through it where upstream calls _FindFirstFileA
+__imp__FormatMessageA@28 0x008880c0  # IAT slot: the byte-identical _PyImport_LoadDynamicModule calls through it where upstream calls _FormatMessageA
+__imp__GetLastError@0 0x0088809c  # IAT slot: the byte-identical _PyImport_LoadDynamicModule calls through it where upstream calls _GetLastError
+__imp__GetProcAddress@8 0x00888084  # IAT slot: the byte-identical _PyImport_LoadDynamicModule calls through it where upstream calls _GetProcAddress
+__imp__LoadLibraryExA@12 0x00888108  # IAT slot: the byte-identical _PyImport_LoadDynamicModule calls through it where upstream calls _LoadLibraryExA
+__imp__OutputDebugStringA@4 0x00888120  # IAT slot: the byte-identical Py_FatalError calls through it where upstream calls _OutputDebugStringA
+_fileno 0x0086f9bf  # VC6 CRT: call target in byte-identical builtin_raw_input where upstream calls fileno
+_stat 0x0086fa7f  # VC6 CRT: call target in byte-identical find_init_module where upstream calls stat
+_strncmp 0x0085a680  # VC6 CRT: call target in byte-identical check_case where upstream calls strncmp
+_strncpy 0x0085a750  # VC6 CRT: call target in byte-identical com_mangle where upstream calls strncpy
+_strrchr 0x00859af0  # VC6 CRT: call target in byte-identical PyErr_NewException where upstream calls strrchr
+_unlink 0x0085a149  # VC6 CRT: call target in byte-identical write_compiled_module where upstream calls unlink
+_strspn 0x0085f3d0  # VC6 CRT: call target in byte-identical PyCode_New where upstream calls strspn
+__imp__CloseHandle@4 0x0088806c  # IAT slot: byte-identical PyThread_free_lock calls through it where upstream calls CloseHandle
+__imp__CreateSemaphoreA@16 0x00888110  # IAT slot: byte-identical PyThread_allocate_lock calls through it where upstream calls CreateSemaphore
+__imp__GetCurrentThreadId@0 0x0088810c  # IAT slot: byte-identical PyThread_get_thread_ident calls through it where upstream calls GetCurrentThreadId
+__imp__ReleaseSemaphore@12 0x00888118  # IAT slot: byte-identical PyThread_release_lock calls through it where upstream calls ReleaseSemaphore
+__imp__WaitForSingleObject@8 0x00888114  # IAT slot: byte-identical PyThread_acquire_lock calls through it where upstream calls WaitForSingleObject
+_LargeIntegerDivide@20             0x00855660   # Win32 largeint.lib helper (LARGE_INTEGER arithmetic): referent at the upstream site in byte-identical time_clock (timemodule)
+_LargeIntegerSubtract@16           0x00855964   # Win32 largeint.lib helper (LARGE_INTEGER arithmetic): referent at the upstream site in byte-identical time_clock (timemodule)
+_LargeIntegerAdd@16                0x00855740   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_EnlargedIntegerMultiply@8         0x00855754   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_EnlargedUnsignedMultiply@8        0x00855760   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_EnlargedUnsignedDivide@16         0x0085576c   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_ExtendedLargeIntegerDivide@16     0x0085578c   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_ExtendedMagicDivide@20            0x008557e0   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_ExtendedIntegerMultiply@12        0x0085587c   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_LargeIntegerShiftLeft@12          0x008558d4   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_LargeIntegerShiftRight@12         0x008558fc   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_LargeIntegerArithmeticShift@12    0x00855924   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_LargeIntegerNegate@8              0x00855950   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_ConvertLongToLargeInteger@4       0x00855978   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+_ConvertUlongToLargeInteger@4      0x00855980   # LARGEINT.LIB largeint.obj (assembled): the whole object is byte-identical at 0x855740, relocations masked
+__CIcosh                           0x0085eba2   # VC6 CRT: referent at the upstream site in byte-identical c_cos (cmathmodule) and 5 more
+__CIsinh                           0x0085eb98   # VC6 CRT: referent at the upstream site in byte-identical c_cos (cmathmodule) and 5 more
+__alloca_probe                     0x0085f3a0   # VC6 CRT: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+__environ                          0x009b3914   # VC6 CRT: referent at the upstream site in byte-identical convertenviron (posixmodule)
+__imp__GetCurrentProcess@0         0x008880c8   # import thunk slot: referent at the upstream site in byte-identical posix_times (posixmodule)
+__imp__GetCurrentProcessId@0      0x00888138   # import thunk slot (KERNEL32 GetCurrentProcessId, by the import table): the byte-identical VC6 CRT _getpid jumps through it
+_getpid                            0x00870751   # OLDNAMES.LIB alias of the CRT's _getpid (__getpid, src/crt/getpid.c): byte-identical PyOS_AfterFork (signalmodule) and 2 more call getpid
+__imp__GetModuleFileNameA@12       0x0088807c   # import thunk slot: referent at the upstream site in byte-identical get_progpath (getpathp)
+__imp__GetProcessTimes@20          0x00888104   # import thunk slot: referent at the upstream site in byte-identical posix_times (posixmodule)
+__imp__QueryPerformanceCounter@4   0x00888094   # import thunk slot: referent at the upstream site in byte-identical time_clock (timemodule)
+__imp__QueryPerformanceFrequency@4 0x008880dc   # import thunk slot: referent at the upstream site in byte-identical time_clock (timemodule)
+__imp__RegCloseKey@4               0x00888008   # import thunk slot: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+__imp__RegEnumKeyA@16              0x00888024   # import thunk slot: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+__imp__RegFlushKey@4              0x0088801c   # IAT slot: ADVAPI32 RegFlushKey by the import table; DisableAutoRun and RestoreAutoRun (BezierCurve unit) call through it
+__imp__RegOpenKeyA@12              0x00888020   # import thunk slot: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+__imp__RegQueryInfoKeyA@48         0x00888028   # import thunk slot: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+__imp__Sleep@4                     0x00888090   # import thunk slot: referent at the upstream site in byte-identical floatsleep (timemodule)
+_asin                              0x0085a554   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_atan                              0x0085ea24   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_atan2                             0x0085eab0   # VC6 CRT: referent at the upstream site in a byte-identical FUNC2 function (mathmodule)
+_close                             0x00863930   # VC6 CRT: referent at the upstream site in byte-identical posix_close (posixmodule)
+_cos                               0x0085eae4   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_cosh                              0x0085eb8a   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_dup                               0x008700e8   # VC6 CRT: referent at the upstream site in byte-identical posix_dup (posixmodule)
+_dup2                              0x008701f0   # VC6 CRT: referent at the upstream site in byte-identical posix_dup2 (posixmodule)
+_exp                               0x0085ebb0   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_fmod                              0x00859b20   # VC6 CRT: referent at the upstream site in a byte-identical FUNC2 function (mathmodule)
+_ftime                             0x0085c56a   # VC6 CRT: referent at the upstream site in byte-identical floattime (timemodule)
+_log                               0x0085ef54   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_log10                             0x0085f024   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_pow                               0x0085a339   # VC6 CRT: referent at the upstream site in a byte-identical FUNC2 function (mathmodule)
+_sin                               0x0085f0f4   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_sinh                              0x0085eb80   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_sqrt                              0x0085f1a4   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_strdup                            0x0085aead   # VC6 CRT: referent at the upstream site in byte-identical PyLocale_setlocale (_localemodule)
+_tan                               0x0085f264   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_tanh                              0x0085eb91   # VC6 CRT: referent at the upstream site in a byte-identical FUNC1 function (mathmodule)
+_write                             0x00863e30   # VC6 CRT: referent at the upstream site in byte-identical posix_write (posixmodule)
+__imp__RegQueryValueA@16           0x00888004   # import thunk slot: referent at the upstream site in byte-identical getpythonregpath (getpathp)
+_daylight                          0x0097cdf4   # VC6 CRT: referent at the upstream site in byte-identical init function (timemodule)
+_timezone                          0x0097cdf0   # VC6 CRT: referent at the upstream site in byte-identical init function (timemodule)
+_tzname                            0x0097ce7c   # VC6 CRT: referent at the upstream site in byte-identical init function (timemodule)
+_tzset                             0x00868529   # VC6 CRT: referent at the upstream site in byte-identical init function (timemodule)
+__imp__GetCurrentDirectoryA@8      0x00888050   # import thunk slot (KERNEL32 GetCurrentDirectoryA, by the import table): called from TG is_custom_path (posixmodule)
+__imp__GetFullPathNameA@16         0x00888100   # import thunk slot (KERNEL32 GetFullPathNameA, by the import table): called from TG is_custom_path (posixmodule)
+__imp__FindNextFileA@8             0x0088812c   # import thunk slot: referent at the upstream site in byte-identical posix_listdir (posixmodule)
+_strstr                            0x0085a160   # VC6 CRT (intel strstr.asm): pointer-returning search called by TG is_custom_path (posixmodule)
+_access                            0x0086fede   # VC6 CRT: referent at the upstream site in byte-identical posix_access (posixmodule)
+_mkdir                             0x0086ff24   # VC6 CRT: referent at the upstream site in byte-identical posix_mkdir (posixmodule)
+_rmdir                             0x0086ff50   # VC6 CRT: referent at the upstream site in byte-identical posix_rmdir (posixmodule)
+_utime                             0x0086ff7a   # VC6 CRT: referent at the upstream site in byte-identical posix_utime (posixmodule)
+_open                              0x0086c825   # VC6 CRT: referent at the upstream site in byte-identical posix_open (posixmodule)
+_read                              0x00867a9a   # VC6 CRT: referent at the upstream site in byte-identical posix_read (posixmodule)
+_fdopen                            0x0087065e   # VC6 CRT: referent at the upstream site in byte-identical posix_fdopen (posixmodule)
+__imp__GetVersionExA@4             0x0088811c   # import thunk slot (KERNEL32 GetVersionExA, by the import table): referent at the upstream site in byte-identical PyWin_IsWin32s (import_nt)
+_strnicmp                          0x0086d8a0   # VC6 CRT: referent at the upstream site in byte-identical PyWin_FindRegisteredModule (import_nt)
+?Unknown668A20@CharacterClass@@QAEXPAVTGAnimNode@@0@Z 0x00668a20   # evidence: CharacterClass::Unknown668A00 (0x668A00) passes its two arguments to it with the same this (ret 8); it matches the head's skin bones to the body's by name
+?GetExteriorPane@STStylizedWindow@@QAEPAVTGPane@@XZ 0x0072ed70   # evidence: SWIG wrapper STStylizedWindow_GetExteriorPane
+__imp__CompareStringA@24           0x00888204   # IAT slot: the import table names KERNEL32.dll!CompareStringA at this slot; called through it by the VC6 CRT
+__imp__CompareStringW@24           0x00888200   # IAT slot: the import table names KERNEL32.dll!CompareStringW at this slot; called through it by the VC6 CRT
+__imp__CreateFileA@28              0x00888078   # IAT slot: the import table names KERNEL32.dll!CreateFileA at this slot; called through it by the VC6 CRT
+__imp__CreateThread@24             0x008881bc   # IAT slot: the import table names KERNEL32.dll!CreateThread at this slot; called through it by the VC6 CRT
+__imp__DeleteCriticalSection@4     0x00888154   # IAT slot: the import table names KERNEL32.dll!DeleteCriticalSection at this slot; called through it by the VC6 CRT
+__imp__DuplicateHandle@28          0x00888140   # IAT slot: the import table names KERNEL32.dll!DuplicateHandle at this slot; called through it by the VC6 CRT
+__imp__EnterCriticalSection@4      0x00888148   # IAT slot: the import table names KERNEL32.dll!EnterCriticalSection at this slot; called through it by the VC6 CRT
+__imp__EnumSystemLocalesA@8        0x0088820c   # IAT slot: the import table names KERNEL32.dll!EnumSystemLocalesA at this slot; called through it by the VC6 CRT
+__imp__ExitProcess@4               0x008880b0   # IAT slot: the import table names KERNEL32.dll!ExitProcess at this slot; called through it by the VC6 CRT
+__imp__ExitThread@4                0x008881c4   # IAT slot: the import table names KERNEL32.dll!ExitThread at this slot; called through it by the VC6 CRT
+__imp__FatalAppExitA@8             0x008881c8   # IAT slot: the import table names KERNEL32.dll!FatalAppExitA at this slot; called through it by the VC6 CRT
+__imp__FileTimeToLocalFileTime@8   0x008881ec   # IAT slot: the import table names KERNEL32.dll!FileTimeToLocalFileTime at this slot; called through it by the VC6 CRT
+__imp__FileTimeToSystemTime@8      0x008881f0   # IAT slot: the import table names KERNEL32.dll!FileTimeToSystemTime at this slot; called through it by the VC6 CRT
+__imp__FlushFileBuffers@4          0x00888144   # IAT slot: the import table names KERNEL32.dll!FlushFileBuffers at this slot; called through it by the VC6 CRT
+__imp__FreeEnvironmentStringsA@4   0x00888260   # IAT slot: the import table names KERNEL32.dll!FreeEnvironmentStringsA at this slot; called through it by the VC6 CRT
+__imp__FreeEnvironmentStringsW@4   0x0088825c   # IAT slot: the import table names KERNEL32.dll!FreeEnvironmentStringsW at this slot; called through it by the VC6 CRT
+__imp__GetACP@0                    0x00888224   # IAT slot: the import table names KERNEL32.dll!GetACP at this slot; called through it by the VC6 CRT
+__imp__GetCPInfo@8                 0x008881dc   # IAT slot: the import table names KERNEL32.dll!GetCPInfo at this slot; called through it by the VC6 CRT
+__imp__GetDriveTypeA@4             0x00888054   # IAT slot: the import table names KERNEL32.dll!GetDriveTypeA at this slot; called through it by the VC6 CRT
+__imp__GetEnvironmentStrings@0     0x00888254   # IAT slot: the import table names KERNEL32.dll!GetEnvironmentStrings at this slot; called through it by the VC6 CRT
+__imp__GetEnvironmentStringsW@0    0x00888250   # IAT slot: the import table names KERNEL32.dll!GetEnvironmentStringsW at this slot; called through it by the VC6 CRT
+__imp__GetFileInformationByHandle@8 0x0088813c   # IAT slot: the import table names KERNEL32.dll!GetFileInformationByHandle at this slot; called through it by the VC6 CRT
+__imp__GetFileType@4               0x00888248   # IAT slot: the import table names KERNEL32.dll!GetFileType at this slot; called through it by the VC6 CRT
+__imp__GetLogicalDriveStringsA@8 0x00888064   # IAT slot: the import table names KERNEL32.dll!GetLogicalDriveStringsA at this slot; TGApplication::CDCheck calls it through it
+__imp__GetLocalTime@4              0x0088818c   # IAT slot: the import table names KERNEL32.dll!GetLocalTime at this slot; called through it by the VC6 CRT
+__imp__GetLocaleInfoA@16           0x00888210   # IAT slot: the import table names KERNEL32.dll!GetLocaleInfoA at this slot; called through it by the VC6 CRT
+__imp__GetLocaleInfoW@16           0x008881f4   # IAT slot: the import table names KERNEL32.dll!GetLocaleInfoW at this slot; called through it by the VC6 CRT
+__imp__GetOEMCP@0                  0x00888220   # IAT slot: the import table names KERNEL32.dll!GetOEMCP at this slot; called through it by the VC6 CRT
+__imp__GetStartupInfoA@4           0x0088816c   # IAT slot: the import table names KERNEL32.dll!GetStartupInfoA at this slot; called through it by the VC6 CRT
+__imp__GetStdHandle@4              0x008880ac   # IAT slot: the import table names KERNEL32.dll!GetStdHandle at this slot; called through it by the VC6 CRT
+__imp__GetStringTypeA@20           0x008881a4   # IAT slot: the import table names KERNEL32.dll!GetStringTypeA at this slot; called through it by the VC6 CRT
+__imp__GetStringTypeW@16           0x0088821c   # IAT slot: the import table names KERNEL32.dll!GetStringTypeW at this slot; called through it by the VC6 CRT
+__imp__GetSystemTime@4             0x00888194   # IAT slot: the import table names KERNEL32.dll!GetSystemTime at this slot; called through it by the VC6 CRT
+__imp__GetSystemTimeAsFileTime@4   0x00888180   # IAT slot: the import table names KERNEL32.dll!GetSystemTimeAsFileTime at this slot; called through it by the VC6 CRT
+__imp__GetTimeZoneInformation@4    0x00888184   # IAT slot: the import table names KERNEL32.dll!GetTimeZoneInformation at this slot; called through it by the VC6 CRT
+__imp__GetUserDefaultLCID@0        0x00888208   # IAT slot: the import table names KERNEL32.dll!GetUserDefaultLCID at this slot; called through it by the VC6 CRT
+__imp__HeapAlloc@12                0x00888188   # IAT slot: the import table names KERNEL32.dll!HeapAlloc at this slot; called through it by the VC6 CRT
+__imp__HeapCreate@12               0x0088823c   # IAT slot: the import table names KERNEL32.dll!HeapCreate at this slot; called through it by the VC6 CRT
+__imp__HeapFree@12                 0x00888178   # IAT slot: the import table names KERNEL32.dll!HeapFree at this slot; called through it by the VC6 CRT
+__imp__InitializeCriticalSection@4 0x00888158   # IAT slot: the import table names KERNEL32.dll!InitializeCriticalSection at this slot; called through it by the VC6 CRT
+__imp__InterlockedDecrement@4      0x0088815c   # IAT slot: the import table names KERNEL32.dll!InterlockedDecrement at this slot; called through it by the VC6 CRT
+__imp__InterlockedIncrement@4      0x00888160   # IAT slot: the import table names KERNEL32.dll!InterlockedIncrement at this slot; called through it by the VC6 CRT
+__imp__IsBadWritePtr@8             0x008880d0   # IAT slot: the import table names KERNEL32.dll!IsBadWritePtr at this slot; called through it by the VC6 CRT
+__imp__IsBadCodePtr@4              0x008881f8   # IAT slot: the import table names KERNEL32.dll!IsBadCodePtr at this slot; called through it by _ValidateExecute
+__imp__IsBadReadPtr@8              0x008881fc   # IAT slot: the import table names KERNEL32.dll!IsBadReadPtr at this slot; called through it by _ValidateRead
+__imp__GetFileAttributesA@4         0x00888228   # IAT slot: the import table names KERNEL32.dll!GetFileAttributesA at this slot; called through it by _chmod and _access
+__imp__MoveFileA@8                 0x008881ac   # IAT slot: the import table names KERNEL32.dll!MoveFileA at this slot; called through it by rename
+__imp__RaiseException@16          0x008881a0   # IAT slot: the import table names KERNEL32.dll!RaiseException at this slot; called through it by _CxxThrowException
+__imp__IsValidCodePage@4           0x00888214   # IAT slot: the import table names KERNEL32.dll!IsValidCodePage at this slot; called through it by the VC6 CRT
+__imp__IsValidLocale@8             0x00888218   # IAT slot: the import table names KERNEL32.dll!IsValidLocale at this slot; called through it by the VC6 CRT
+__imp__LCMapStringA@24             0x00888230   # IAT slot: the import table names KERNEL32.dll!LCMapStringA at this slot; called through it by the VC6 CRT
+__imp__LCMapStringW@24             0x0088822c   # IAT slot: the import table names KERNEL32.dll!LCMapStringW at this slot; called through it by the VC6 CRT
+__imp__LeaveCriticalSection@4      0x00888164   # IAT slot: the import table names KERNEL32.dll!LeaveCriticalSection at this slot; called through it by the VC6 CRT
+__imp__LoadLibraryA@4              0x00888088   # IAT slot: the import table names KERNEL32.dll!LoadLibraryA at this slot; called through it by the VC6 CRT
+__imp__LocalFileTimeToFileTime@8   0x008881e4   # IAT slot: the import table names KERNEL32.dll!LocalFileTimeToFileTime at this slot; called through it by the VC6 CRT
+__imp__MultiByteToWideChar@24      0x008880ec   # IAT slot: the import table names KERNEL32.dll!MultiByteToWideChar at this slot; called through it by the VC6 CRT
+__imp__PeekNamedPipe@24            0x008881a8   # IAT slot: the import table names KERNEL32.dll!PeekNamedPipe at this slot; called through it by the VC6 CRT
+__imp__ReadFile@20                 0x00888070   # IAT slot: the import table names KERNEL32.dll!ReadFile at this slot; called through it by the VC6 CRT
+__imp__ResumeThread@4              0x008881b8   # IAT slot: the import table names KERNEL32.dll!ResumeThread at this slot; called through it by the VC6 CRT
+__imp__SetErrorMode@4             0x00888058   # IAT slot: the import table names KERNEL32.dll!SetErrorMode at this slot; TGApplication::CDCheck calls it through it
+__imp__SetConsoleCtrlHandler@8     0x008881b0   # IAT slot: the import table names KERNEL32.dll!SetConsoleCtrlHandler at this slot; called through it by the VC6 CRT
+__imp__SetCurrentDirectoryA@4      0x0088819c   # IAT slot: the import table names KERNEL32.dll!SetCurrentDirectoryA at this slot; called through it by the VC6 CRT
+__imp__SetEndOfFile@4              0x008881b4   # IAT slot: the import table names KERNEL32.dll!SetEndOfFile at this slot; called through it by the VC6 CRT
+__imp__SetEnvironmentVariableA@8   0x00888198   # IAT slot: the import table names KERNEL32.dll!SetEnvironmentVariableA at this slot; called through it by the VC6 CRT
+__imp__SetFilePointer@16           0x00888124   # IAT slot: the import table names KERNEL32.dll!SetFilePointer at this slot; called through it by the VC6 CRT
+__imp__SetFileTime@16              0x008881e8   # IAT slot: the import table names KERNEL32.dll!SetFileTime at this slot; called through it by the VC6 CRT
+__imp__SetHandleCount@4            0x0088824c   # IAT slot: the import table names KERNEL32.dll!SetHandleCount at this slot; called through it by the VC6 CRT
+__imp__SetLastError@4              0x008880fc   # IAT slot: the import table names KERNEL32.dll!SetLastError at this slot; called through it by the VC6 CRT
+__imp__SetStdHandle@8              0x0088814c   # IAT slot: the import table names KERNEL32.dll!SetStdHandle at this slot; called through it by the VC6 CRT
+__imp__SystemTimeToFileTime@8      0x008881e0   # IAT slot: the import table names KERNEL32.dll!SystemTimeToFileTime at this slot; called through it by the VC6 CRT
+__imp__TlsAlloc@0                  0x008881cc   # IAT slot: the import table names KERNEL32.dll!TlsAlloc at this slot; called through it by the VC6 CRT
+__imp__TlsFree@4                   0x008881d0   # IAT slot: the import table names KERNEL32.dll!TlsFree at this slot; called through it by the VC6 CRT
+__imp__TlsGetValue@4               0x008881d4   # IAT slot: the import table names KERNEL32.dll!TlsGetValue at this slot; called through it by the VC6 CRT
+__imp__TlsSetValue@8               0x008881c0   # IAT slot: the import table names KERNEL32.dll!TlsSetValue at this slot; called through it by the VC6 CRT
+__imp__UnhandledExceptionFilter@4  0x00888264   # IAT slot: the import table names KERNEL32.dll!UnhandledExceptionFilter at this slot; called through it by the VC6 CRT
+__imp__VirtualAlloc@16             0x00888234   # IAT slot: the import table names KERNEL32.dll!VirtualAlloc at this slot; called through it by the VC6 CRT
+__imp__WideCharToMultiByte@32      0x00888258   # IAT slot: the import table names KERNEL32.dll!WideCharToMultiByte at this slot; called through it by the VC6 CRT
+__imp__WriteFile@20                0x008880d8   # IAT slot: the import table names KERNEL32.dll!WriteFile at this slot; called through it by the VC6 CRT
+__allshl 0x0085a940   # VC6 CRT intel/llshl.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB llshl.obj (MASM 6.13.7299)
+__aulldiv 0x00867970   # VC6 CRT intel/ulldiv.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB ulldiv.obj (MASM 6.13.7299)
+__aullrem 0x00868ae0   # VC6 CRT intel/ullrem.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB ullrem.obj (MASM 6.13.7299)
+__except_handler3 0x0085fed0   # VC6 CRT exsup3.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB exsup3.obj (MASM 6.13.7299)
+__except_list 0x00000000   # VC6 CRT exsup.asm: absolute symbol, the FS:[0] offset of the SEH chain head (assembled as fs:__except_list)
+__stricmp 0x0085b2b0   # VC6 CRT intel/stricmp.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB stricmp.obj (MASM 6.13.7299)
+__strnicmp 0x0086d8a0   # VC6 CRT intel/strnicmp.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strnicmp.obj (MASM 6.13.7299)
+_memcpy 0x0085ffd0   # VC6 CRT intel/memcpy.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB memcpy.obj; the CRT's C callers (fread, fwrite) call it here
+_memset 0x008603e0   # VC6 CRT intel/memset.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB memset.obj (MASM 6.13.7299)
+_strcat 0x00863850   # VC6 CRT intel/strcat.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strcat.obj (MASM 6.13.7299)
+_strcpy 0x00863840   # VC6 CRT intel/strcat.asm (ORIGINAL-ASM): strcpy entry of LIBCMT.LIB strcat.obj, byte-identical
+_strcmp 0x00867ce0   # VC6 CRT intel/strcmp.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strcmp.obj (MASM 6.13.7299)
+_strcspn 0x00869f30   # VC6 CRT intel/strcspn.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strcspn.obj (MASM 6.13.7299)
+_strlen 0x00860440   # VC6 CRT intel/strlen.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strlen.obj (MASM 6.13.7299)
+_strpbrk 0x00869f70   # VC6 CRT intel/strpbrk.asm (ORIGINAL-ASM): byte-identical to LIBCMT.LIB strpbrk.obj (MASM 6.13.7299)
+___app_type 0x00979e88   # VC6 CRT crt0.c datum, linked from LIBCMT.LIB wincrt0.obj (the WinMain startup wrapper)
+___error_mode 0x009b3940   # VC6 CRT crt0.c datum, linked from LIBCMT.LIB wincrt0.obj (the WinMain startup wrapper)
+__acmdln 0x009b5344   # VC6 CRT crt0.c datum, linked from LIBCMT.LIB wincrt0.obj (the WinMain startup wrapper)
+__aenvptr 0x009b3938   # VC6 CRT crt0.c datum, linked from LIBCMT.LIB wincrt0.obj (the WinMain startup wrapper)
+__imp__HeapReAlloc@16              0x00888190   # IAT slot: the import table names KERNEL32.dll!HeapReAlloc at this slot; called through it by the VC6 CRT
+__imp__TerminateProcess@8          0x00888168   # IAT slot: the import table names KERNEL32.dll!TerminateProcess at this slot; called through it by the VC6 CRT
+__imp__VirtualFree@12              0x00888238   # IAT slot: the import table names KERNEL32.dll!VirtualFree at this slot; called through it by the VC6 CRT
+__CIasin 0x0085a540   # VC6 CRT intrinsic asin (operand on the FPU stack; spills it, calls the _asin worker); NiMatrix3's Euler decompositions reach it through asin under /O2
+__imp__GetCommandLineA@0           0x0088817c   # IAT slot: the import table names KERNEL32.dll!GetCommandLineA at this slot; called through it by the VC6 CRT
+__imp__GetModuleHandleA@4          0x008880cc   # IAT slot: the import table names KERNEL32.dll!GetModuleHandleA at this slot; called through it by the VC6 CRT
+__imp__GetVersion@0                0x00888174   # IAT slot: the import table names KERNEL32.dll!GetVersion at this slot; called through it by the VC6 CRT
+__imp__GetEnvironmentVariableA@12  0x00888244   # IAT slot: the import table names KERNEL32.dll!GetEnvironmentVariableA at this slot; called through it by the VC6 CRT
+__imp__HeapDestroy@4               0x00888240   # IAT slot: the import table names KERNEL32.dll!HeapDestroy at this slot; called through it by the VC6 CRT
+__imp__HeapSize@12                 0x008881d8   # IAT slot: the import table names KERNEL32.dll!HeapSize at this slot; called through it by the VC6 CRT
+__CIacos 0x00859e20   # VC6 CRT intrinsic acos (operand on the FPU stack); NiMatrix3::ExtractAngleAndAxis reaches it through acos under /O2, as the Euler decompositions reach __CIasin
+__EH_prolog 0x0085ffa8   # VC6 LIBCMT.LIB ehprolog.obj (MASM 6.13.7299; no source in VC98\CRT\SRC): its masked bytes occur once in retail
+_memcmp 0x00860920   # VC6 LIBCMT.LIB memcmp.obj (MASM 6.13.7299; no source in VC98\CRT\SRC): its masked bytes occur once in retail
+__imp__InterlockedExchange@8       0x00888150   # IAT slot: the import table names KERNEL32.dll!InterlockedExchange at this slot; called through it by the VC6 CRT
+??_H@YGXPAXIHP6EX0@Z@Z 0x00401dc0   # VC6 compiler-generated `vector constructor iterator'' (__stdcall: calls the constructor at each stride, count times, ret 0x10), which new[] of elements with a constructor and no destructor calls; its only copy in retail, called from NiBezierTriangle3::Unknown83B370, NiBezierRectangle3::Unknown84ACF0 and eleven more sites
+??_7type_info@@6B@ 0x0089b34c   # VC6 LIBCMT.LIB typinfo.obj vtable of type_info (no source in VC98\CRT\SRC): the first pointer of every retail RTTI type descriptor (??_R0) that the byte-identical LIBCPMT throw sites reference
+?_Stinit@?1??_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@23@@Z@4HA 0x009b3fd0   # function-local static _Stinit of basic_filebuf<char>::_Init (<fstream>), a communal datum with no line to annotate: the byte-identical LIBCPMT _Init (0x856C65) reads it here
+?_Stinit@?1??_Init@?$basic_filebuf@GU?$char_traits@G@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@23@@Z@4HA 0x009b3fc8   # function-local static _Stinit of basic_filebuf<wchar_t>::_Init (<fstream>), a communal datum with no line to annotate: the byte-identical LIBCPMT _Init (0x857BFD) reads it here
+?Unknown7D0A00@NiD3DTexturePipeline@@QAEIPAVNiPropertyState@@I@Z 0x007d0a00   # NetImmerse renderer: texture pipeline method (ret 8, returns a value); NiD3DRender slot 15 (0x7C29C0) calls it on the pipeline at 0xBC and ORs in the render state's answer
+?VirtualSlot23@NiD3DRender@@UAEXPAX0000@Z 0x007c2b70   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 23, not reconstructed yet
+?VirtualSlot42@NiD3DRender@@UAEXPAX00@Z 0x007c1a80   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 42, not reconstructed yet
+?VirtualSlot45@NiD3DRender@@UAEXPAX0@Z 0x007c1ca0   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 45, not reconstructed yet
+?VirtualSlot46@NiD3DRender@@UAEXPAX0@Z 0x007c1d10   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 46, not reconstructed yet
+?VirtualSlot47@NiD3DRender@@UAEXPAX0@Z 0x007c1d60   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 47, not reconstructed yet
+?VirtualSlot48@NiD3DRender@@UAEXPAX0@Z 0x007c1db0   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 48, not reconstructed yet
+?VirtualSlot49@NiD3DRender@@UAEXPAX0@Z 0x007c1e10   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 49, not reconstructed yet
+?VirtualSlot50@NiD3DRender@@UAEXPAX0@Z 0x007c28a0   # NetImmerse renderer: NiD3DRender vtable 0x898984 slot 50, not reconstructed yet
+?Unknown7C40D0@NiD3DRender@@QAEXW4_D3DPRIMITIVETYPE@@IPAX111H1@Z 0x007c40d0   # NetImmerse renderer: NiD3DRender method (ret 0x20, 8 arguments) in the renderer's unit, not yet reconstructed; slots 45-48 and 50-51 call it with a D3DPRIMITIVETYPE first (2, 4, 5, 6)
+__imp__ClientToScreen@8 0x0088826c  # IAT slot: the hint/name entry the slot points to (0x4B9D7E) names ClientToScreen (USER32); NiD3DFrameBuffer::SwapBuffers (0x7CAD30) calls through it
+?VirtualSlot19@TGEventHandlerObject@@UAEPAVTGEventHandlerTable@@XZ 0x006d9020   # TGEventHandlerObject vtable 0x896044 slot 19: returns the static handler table 0x998558
+_IID_IDirect3D7 0x0089dcc0   # dxguid: {F5049E77-4861-11D2-A407-00A0C90629A8}, the GUID ddraw's QueryInterface takes before IDirect3D7::EnumDevices (0x7C8805)
+_IID_IDirectDraw7 0x0089ded0   # dxguid: {15E65EC0-3B9C-11D2-B92F-00609797EA5B}, the GUID DirectDrawCreateEx takes (0x7C81FB)
+_IID_IDirect3DTnLHalDevice 0x0089dc50   # dxguid: {F5049E78-4861-11D2-A407-00A0C90629A8}, the device type 0x7C88D4 picks for D3DDEVCAPS_HWTRANSFORMANDLIGHT
+_IID_IDirect3DHALDevice 0x0089dc90   # dxguid: {84E63DE0-46AA-11CF-816F-0000C020156E}, the device type 0x7C88E6 picks for hardware rasterization
+_IID_IDirect3DRGBDevice 0x0089dca0   # dxguid: {A4665C60-2673-11CF-A31A-00AA00B93356}, the device type 0x7C892C picks without hardware rasterization
+_DirectDrawEnumerateA@8 0x0086efe0   # import thunk (jmp [0x888038], DDRAW.dll!DirectDrawEnumerateA); NiD3DDirectDraw::GetDisplayDevices calls it when DirectDrawEnumerateExA is missing
+__imp__AllocConsole@0 0x008880a4  # IAT slot: PyEmbed::ShowConsole (0x6F93D0) tail-jumps through it on the first show
+__imp__FreeConsole@0 0x008880a0  # IAT slot: PyEmbed::ShowConsole (0x6F93D0) tail-jumps through it on the last hide
+?Unknown7D5080@NiD3DTextureManager@@SAPAV1@_N0PAUIDirectDraw7@@PAUIDirect3DDevice7@@PBU_D3DDeviceDesc7@@@Z 0x007d5080   # NetImmerse renderer: cdecl, five arguments; NiD3DTextureManager::Create (0x7D4950) makes a manager with it when the DirectDraw object has none
+# decorated-name address   # evidence
+?VirtualSlot79@PhysicsObjectClass@@UAEXH@Z 0x005a22a0   # PhysicsObjectClass vtable 0x894128 slot 79, not reconstructed yet
+?VirtualSlot38@TractorBeamSystem@@UAEXH@Z 0x005825a0   # TractorBeamSystem::VirtualSlot38: slot 38 of the TractorBeamSystem vtable 0x893794
+?VirtualSlot03@NiD3DTextureManager@@UAE_NPAVNiDDImage@@PAX1H@Z 0x007d6f70  # NiD3DTextureManager vtable 0x898B58 slot 3; NiD3DRender::VirtualSlot28 (0x7C2A70) calls it with the image and -1
+?VirtualSlot05@NiD3DTextureManager@@UAEXPAVNiImage@@PAXH@Z 0x007d5e50  # NiD3DTextureManager vtable 0x898B58 slot 5
+?VirtualSlot06@NiD3DTextureManager@@UAE_NIPAVNiImage@@AAV?$NiPointer@VNiObject@@@@AAPAUIDirectDrawSurface7@@AA_N3@Z 0x007d6b50  # NiD3DTextureManager vtable 0x898B58 slot 6
+?Unknown7C5120@NiDDImage@@SAXI@Z 0x007c5120  # NetImmerse renderer: cdecl, one argument; ~NiD3DTextureManager (0x7D4DB0) calls it with each table id; walks NiDDImage's image list (0x9A11E8) dropping the entries of that id
+__imp__DispatchMessageA@4 0x008882b0   # IAT slot (USER32 DispatchMessageA, by the import table): NiApplication::Process
+__imp__PeekMessageA@20 0x0088832c   # IAT slot (USER32 PeekMessageA, by the import table): NiApplication::Process
+__imp__TranslateAcceleratorA@12 0x008882b4   # IAT slot (USER32 TranslateAcceleratorA, by the import table): NiApplication::Process
+__imp__TranslateMessage@4 0x008882b8   # IAT slot (USER32 TranslateMessage, by the import table): NiApplication::Process
+__imp__PostMessageA@16 0x008882ac   # IAT slot (USER32 PostMessageA, by the import table): NiMessageLoop::Quit
+?VirtualSlot28@PowerSubsystem@@UAEXPAVTGStream@@H@Z 0x005644b0   # PowerSubsystem::VirtualSlot28: slot 28 of the PowerSubsystem vtable 0x88A1F0
+?VirtualSlot29@PowerSubsystem@@UAEXPAVTGStream@@H@Z 0x00564530   # PowerSubsystem::VirtualSlot29: slot 29 of the PowerSubsystem vtable 0x88A1F0
+__imp__IsWindow@4 0x00888280   # IAT slot (USER32 IsWindow, by the import table): NiAppWindow destructor
+__imp__DestroyWindow@4 0x00888284   # IAT slot (USER32 DestroyWindow, by the import table): NiAppWindow destructor
+__imp__GetWindowRect@8 0x008882f4   # IAT slot (USER32 GetWindowRect, by the import table): NiAppWindow destructor and status bar creation
+__imp__MoveWindow@24 0x00888308   # IAT slot (USER32 MoveWindow, by the import table): NiAppWindow destructor and NiApplication::OnWindowResize
+__imp__AdjustWindowRect@12 0x00888270   # IAT slot (USER32 AdjustWindowRect, by the import table): NiAppWindow::CreateMainWindow
+__imp__CreateWindowExA@48 0x0088827c   # IAT slot (USER32 CreateWindowExA, by the import table): NiAppWindow::CreateMainWindow and the status bar creation
+__imp__ShowWindow@8 0x00888274   # IAT slot (USER32 ShowWindow, by the import table): NiAppWindow::CreateMainWindow
+__imp__UpdateWindow@4 0x00888278   # IAT slot (USER32 UpdateWindow, by the import table): NiAppWindow::CreateMainWindow
+?VirtualSlot32@NiSwitchNode@@UAE_NHHH@Z 0x007fc480   # NetImmerse: NiSwitchNode vtable 0x899BD4 slot 32; with the update-only-active flag (bit 5) tests only the active child (NiNode::GetAt, 0x4321A0) through the object at the second argument's 0x04 (its slot 32), else NiNode's (0x7E4B00)
+?VirtualSlot33@NiSwitchNode@@UAEHHHH@Z 0x007fc510   # NetImmerse: NiSwitchNode vtable 0x899BD4 slot 33; as slot 32 with the object's slot 33, else NiNode's (0x7E4BD0)
+?VirtualSlot34@NiCollisionSwitch@@UAE_NHHH@Z 0x007f8eb0   # NetImmerse: NiCollisionSwitch vtable 0x899920 slot 34; false when the third argument's byte at 0x11 is set and the node is app-culled (slot 21), or without the propagate flag (bit 5); else NiNode's (0x7E4D30)
+__imp__GetClientRect@8 0x008882e4   # IAT slot (USER32 GetClientRect, by the import table): NiApplication::OnWindowResize
+__imp__SendMessageA@16 0x00888320   # IAT slot (USER32 SendMessageA, by the import table): NiApplication::OnWindowResize sizes the status bar
+__imp__lstrlenA@4 0x008880f0   # IAT slot (KERNEL32 lstrlenA, by the import table): the display-settings dialog's template strings
+__imp__SendDlgItemMessageA@20 0x008882a0   # IAT slot (USER32 SendDlgItemMessageA, by the import table): the display-settings dialog's lists
+__imp__DialogBoxIndirectParamA@20 0x008882bc   # IAT slot (USER32 DialogBoxIndirectParamA, by the import table): NiSelectRenderer runs the display-settings dialog
+__imp__SetWindowTextA@8 0x008882d0   # IAT slot (USER32 SetWindowTextA, by the import table): the display-settings dialog's title
+__imp__EndDialog@8 0x00888300   # IAT slot (USER32 EndDialog, by the import table): the display-settings dialog's OK and CANCEL
+__imp__GetWindowLongA@8 0x00888328   # IAT slot (USER32 GetWindowLongA, by the import table): NiSelectRenderer reads the window's instance
+__imp__GetCursorPos@4 0x0088828c   # IAT slot (USER32 GetCursorPos, by the import table): NiMouse::GetPosition
+__imp__SetCursorPos@8 0x008882ec   # IAT slot: the import table names USER32.dll!SetCursorPos at this slot; TGInputManager 0x6E6430 calls through it (call [0x8882ec] at 0x6E6B2F)
+__imp__ScreenToClient@8 0x00888290   # IAT slot (USER32 ScreenToClient, by the import table): NiMouse::GetPosition outside fullscreen
+__imp__DefWindowProcA@16 0x00888294   # IAT slot (USER32 DefWindowProcA, by the import table): NiMessageLoop::WndProc
+__imp__PostQuitMessage@4 0x00888298   # IAT slot (USER32 PostQuitMessage, by the import table): NiMessageLoop::WndProc on WM_DESTROY
+__imp__BeginPaint@8 0x0088829c   # IAT slot (USER32 BeginPaint, by the import table): NiMessageLoop::WndProc on WM_PAINT
+__imp__EndPaint@8 0x008882a4   # IAT slot (USER32 EndPaint, by the import table): NiMessageLoop::WndProc on WM_PAINT
+__imp__GetTickCount@0 0x0088808c  # IAT slot (KERNEL32 GetTickCount, by the import table): TGRootPane::Init and UpdateFPS call through it for the frame clock
+?Unknown6F56F0@TGString@@QAEPADXZ 0x006f56f0   # evidence: TGParagraph slot 91 (0x726070) tail-calls it on its string (0x50); allocates length + 1 bytes and narrows the characters into them
+__imp__MessageBoxA@16 0x00888318   # IAT slot: USER32 MessageBoxA (Ghidra's import table); NiMessageBox calls through it
+__imp__AIL_open_3D_provider@4 0x00888468   # IAT slot: MSS32 _AIL_open_3D_provider@4 (import table); NiProvider_Info::Open (0x790DE0) calls through it
+__imp__AIL_close_3D_provider@4 0x0088846c   # IAT slot: MSS32 _AIL_close_3D_provider@4 (import table); NiProvider_Info's destructor (0x790DA0) and Close (0x790E00) call through it
+__imp__AIL_active_3D_sample_count@4 0x00888434   # IAT slot: MSS32 _AIL_active_3D_sample_count@4 (import table); NiProvider_Info (0x790E30) calls through it
+__imp__AIL_open_3D_listener@4 0x00888480   # IAT slot: MSS32 _AIL_open_3D_listener@4 (import table); NiListener (0x78CF10) calls through it
+__imp__AIL_close_3D_listener@4 0x00888484   # IAT slot: MSS32 _AIL_close_3D_listener@4 (import table); NiListener (0x78CEB0) calls through it
+__imp__AIL_set_3D_position@16 0x00888474   # IAT slot: MSS32 _AIL_set_3D_position@16 (import table); NiListener's update (0x78CFA0) calls through it
+__imp__AIL_set_3D_orientation@28 0x00888478   # IAT slot: MSS32 _AIL_set_3D_orientation@28 (import table); NiListener's update (0x78CFA0) calls through it
+__imp__AIL_set_3D_velocity_vector@16 0x0088847c   # IAT slot: MSS32 _AIL_set_3D_velocity_vector@16 (import table); NiListener's update (0x78CFA0) calls through it
+__imp__AIL_3D_orientation@28 0x00888470   # IAT slot: MSS32 _AIL_3D_orientation@28 (import table); NiListener (0x78D200) calls through it
+__imp__AIL_3D_position@16 0x0088854c   # IAT slot: MSS32 _AIL_3D_position@16 (import table); NiListener (0x78D0F0) calls through it
+__imp__AIL_3D_velocity@16 0x00888550   # IAT slot: MSS32 _AIL_3D_velocity@16 (import table); NiListener (0x78D170) calls through it
+__imp__AIL_set_redist_directory@4 0x00888458   # IAT slot: MSS32 _AIL_set_redist_directory@4 (import table); NiSoundSystem::Startup (0x78DB40) calls through it
+__imp__AIL_quick_startup@20 0x0088845c   # IAT slot: MSS32 _AIL_quick_startup@20 (import table); NiSoundSystem::Startup (0x78DB40) calls through it
+__imp__AIL_quick_handles@12 0x0088840c   # IAT slot: MSS32 _AIL_quick_handles@12 (import table); NiSoundSystem::Startup (0x78DB40) calls through it
+__imp__AIL_enumerate_3D_providers@12 0x00888464   # IAT slot: MSS32 _AIL_enumerate_3D_providers@12 (import table); NiSoundSystem::Startup (0x78DB40) calls through it
+__imp__AIL_quick_shutdown@0 0x00888454   # IAT slot: MSS32 _AIL_quick_shutdown@0 (import table); NiSoundSystem::Shutdown (0x78DDC0) jumps through it
+__imp__AIL_last_error@0 0x00888448   # IAT slot: MSS32 _AIL_last_error@0 (import table); NiSoundSystem::GetLastError (0x78DF10) jumps through it
+__imp__AIL_set_3D_speaker_type@8 0x0088844c   # IAT slot: MSS32 _AIL_set_3D_speaker_type@8 (import table); NiSoundSystem::SetSpeakerType (0x78DEC0) calls through it
+__imp__AIL_3D_speaker_type@4 0x00888450   # IAT slot: MSS32 _AIL_3D_speaker_type@4 (import table); NiSoundSystem::SetSpeakerType (0x78DEC0) calls through it
+__imp__AIL_set_3D_provider_preference@12 0x00888444   # IAT slot: MSS32 _AIL_set_3D_provider_preference@12 (import table); NiSoundSystem (0x78E5B0) jumps through it
+__imp__AIL_3D_provider_attribute@12 0x00888498   # IAT slot: MSS32 _AIL_3D_provider_attribute@12 (import table); NiSoundSystem (0x78E5D0) jumps through it
+__imp__AIL_3D_room_type@4 0x00888440   # IAT slot: MSS32 _AIL_3D_room_type@4 (import table); NiSoundSystem's room type functions (0x78E620-0x78E6C0) call through it
+__imp__AIL_set_3D_room_type@8 0x00888534   # IAT slot: MSS32 _AIL_set_3D_room_type@8 (import table); NiSoundSystem::SetRoomType (0x78E680) calls through it
+__imp__AIL_release_3D_sample_handle@4 0x00888488   # IAT slot: MSS32 _AIL_release_3D_sample_handle@4 (import table); TGSoundManager::FreeSamples (0x710FF0) calls through it
+__imp__AIL_release_sample_handle@4 0x0088848c   # IAT slot: MSS32 _AIL_release_sample_handle@4 (import table); TGSoundManager::FreeSamples (0x710FF0) calls through it
+__imp__AIL_digital_configuration@16 0x0088849c   # IAT slot: MSS32 _AIL_digital_configuration@16 (import table); TGSoundManager::Startup (0x70F240) calls through it
+__imp__AIL_allocate_3D_sample_handle@4 0x00888490   # IAT slot: MSS32 _AIL_allocate_3D_sample_handle@4 (import table); TGSoundManager::AllocateSamples (0x710A80) calls through it
+__imp__AIL_allocate_sample_handle@4 0x00888494   # IAT slot: MSS32 _AIL_allocate_sample_handle@4 (import table); TGSoundManager::AllocateSamples (0x710A80) calls through it
+__imp__AIL_3D_sample_volume@4 0x00888410   # IAT slot: MSS32 _AIL_3D_sample_volume@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stream_volume@4 0x00888414   # IAT slot: MSS32 _AIL_stream_volume@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_distances@12 0x00888418   # IAT slot: MSS32 _AIL_set_3D_sample_distances@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_cone@16 0x0088841c   # IAT slot: MSS32 _AIL_3D_sample_cone@16 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_cone@16 0x00888420   # IAT slot: MSS32 _AIL_set_3D_sample_cone@16 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stop_3D_sample@4 0x00888424   # IAT slot: MSS32 _AIL_stop_3D_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stop_sample@4 0x00888428   # IAT slot: MSS32 _AIL_stop_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_start_3D_sample@4 0x0088842c   # IAT slot: MSS32 _AIL_start_3D_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_loop_count@8 0x00888430   # IAT slot: MSS32 _AIL_set_3D_sample_loop_count@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_attribute@12 0x00888438   # IAT slot: MSS32 _AIL_3D_sample_attribute@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_sample_loop_count@8 0x0088843c   # IAT slot: MSS32 _AIL_set_sample_loop_count@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_preference@12 0x00888460   # IAT slot: MSS32 _AIL_set_3D_sample_preference@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_sample_playback_rate@8 0x008884ac   # IAT slot: MSS32 _AIL_set_sample_playback_rate@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_stream_playback_rate@8 0x008884b0   # IAT slot: MSS32 _AIL_set_stream_playback_rate@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_occlusion@4 0x008884b4   # IAT slot: MSS32 _AIL_3D_sample_occlusion@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_obstruction@4 0x008884b8   # IAT slot: MSS32 _AIL_3D_sample_obstruction@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_obstruction@8 0x008884bc   # IAT slot: MSS32 _AIL_set_3D_sample_obstruction@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_effects_level@8 0x008884c0   # IAT slot: MSS32 _AIL_set_3D_sample_effects_level@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_occlusion@8 0x008884c4   # IAT slot: MSS32 _AIL_set_3D_sample_occlusion@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_effects_level@4 0x008884c8   # IAT slot: MSS32 _AIL_3D_sample_effects_level@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_WAV_info@8 0x008884cc   # IAT slot: MSS32 _AIL_WAV_info@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stream_position@4 0x008884d0   # IAT slot: MSS32 _AIL_stream_position@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_stream_position@8 0x008884d4   # IAT slot: MSS32 _AIL_set_stream_position@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_sample_position@4 0x008884d8   # IAT slot: MSS32 _AIL_sample_position@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_offset@4 0x008884dc   # IAT slot: MSS32 _AIL_3D_sample_offset@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stream_ms_position@12 0x008884e0   # IAT slot: MSS32 _AIL_stream_ms_position@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_sample_status@4 0x008884e4   # IAT slot: MSS32 _AIL_sample_status@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_status@4 0x008884e8   # IAT slot: MSS32 _AIL_3D_sample_status@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stream_status@4 0x008884ec   # IAT slot: MSS32 _AIL_stream_status@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_resume_3D_sample@4 0x008884f0   # IAT slot: MSS32 _AIL_resume_3D_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_offset@8 0x008884f4   # IAT slot: MSS32 _AIL_set_3D_sample_offset@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_sample_position@8 0x008884f8   # IAT slot: MSS32 _AIL_set_sample_position@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_close_stream@4 0x008884fc   # IAT slot: MSS32 _AIL_close_stream@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_resume_sample@4 0x00888500   # IAT slot: MSS32 _AIL_resume_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_stream_loop_count@8 0x00888504   # IAT slot: MSS32 _AIL_set_stream_loop_count@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_sample_playback_rate@4 0x00888508   # IAT slot: MSS32 _AIL_sample_playback_rate@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_start_stream@4 0x0088850c   # IAT slot: MSS32 _AIL_start_stream@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_playback_rate@8 0x00888510   # IAT slot: MSS32 _AIL_set_3D_sample_playback_rate@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_open_stream@12 0x00888514   # IAT slot: MSS32 _AIL_open_stream@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_pause_stream@8 0x00888518   # IAT slot: MSS32 _AIL_pause_stream@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_end_sample@4 0x0088851c   # IAT slot: MSS32 _AIL_end_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_sample_volume@4 0x00888520   # IAT slot: MSS32 _AIL_sample_volume@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_volume@8 0x00888524   # IAT slot: MSS32 _AIL_set_3D_sample_volume@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_stream_volume@8 0x00888528   # IAT slot: MSS32 _AIL_set_stream_volume@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_sample_volume@8 0x0088852c   # IAT slot: MSS32 _AIL_set_sample_volume@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_stream_playback_rate@4 0x00888530   # IAT slot: MSS32 _AIL_stream_playback_rate@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_3D_sample_file@8 0x00888538   # IAT slot: MSS32 _AIL_set_3D_sample_file@8 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_distances@12 0x0088853c   # IAT slot: MSS32 _AIL_3D_sample_distances@12 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_set_named_sample_file@20 0x00888540   # IAT slot: MSS32 _AIL_set_named_sample_file@20 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_3D_sample_playback_rate@4 0x00888544   # IAT slot: MSS32 _AIL_3D_sample_playback_rate@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_start_sample@4 0x00888548   # IAT slot: MSS32 _AIL_start_sample@4 (import table); NiSource (0x78F1E0-0x790CA0) calls through it
+__imp__AIL_mem_free_lock@4 0x008884a0   # IAT slot: MSS32 _AIL_mem_free_lock@4 (import table); the sound file cache's destructor (0x70C770) calls through it
+__imp__AIL_file_size@4 0x008884a4   # IAT slot: MSS32 _AIL_file_size@4 (import table); the sound file cache's constructor (0x70C6F0) calls through it
+__imp__AIL_file_read@8 0x008884a8   # IAT slot: MSS32 _AIL_file_read@8 (import table); the sound file cache's constructor (0x70C6F0) calls through it
+__imp__mciSendCommandA@16 0x0088833c   # IAT slot: WINMM _mciSendCommandA@16 (import table); TGRedbookClass (0x712770-0x712D20) calls through it
+__imp__auxSetVolume@8 0x00888348   # IAT slot: WINMM _auxSetVolume@8 (import table); TGRedbookClass (0x712770-0x712D20) calls through it
+__imp__auxGetDevCapsA@12 0x0088834c   # IAT slot: WINMM _auxGetDevCapsA@12 (import table); TGRedbookClass (0x712770-0x712D20) calls through it
+__imp__auxGetNumDevs@0 0x00888350   # IAT slot: WINMM _auxGetNumDevs@0 (import table); TGRedbookClass (0x712770-0x712D20) calls through it
+__imp__auxGetVolume@8 0x0088835c   # IAT slot: WINMM _auxGetVolume@8 (import table); TGRedbookClass::OpenRedbookCD (0x712770) calls through it
+__imp__DeleteFileA@4 0x00888060  # IAT slot (import name DeleteFileA): Game::ClearMissionTempDir (0x407150) calls through it
+__imp__LocalFree@4 0x00888128  # IAT slot (import name LocalFree): Game::ClearMissionTempDir (0x407150) frees FormatMessage's buffer through it
+__imp__timeGetTime@0 0x00888358  # IAT slot (WINMM timeGetTime, by the import table): TGSystemWrapperClass::GetTimeSinceFrameStart (0x71ACC0) calls through it when there is no performance counter; UtopiaApp::OnIdle paces its idle turns with it
+__imp__joyGetNumDevs@0 0x00888354  # IAT slot (WINMM joyGetNumDevs, by the import table): TGSystemWrapperClass::PollJoystick (0x71AEE0) counts the joysticks with it
+__imp__joyGetDevCapsA@12 0x00888344  # IAT slot (WINMM joyGetDevCapsA, by the import table): TGSystemWrapperClass::PollJoystick (0x71AEE0) reads a joystick's caps (JOYCAPS, 0x194 bytes)
+__imp__joyGetPosEx@8 0x00888340  # IAT slot (WINMM joyGetPosEx, by the import table): TGSystemWrapperClass::PollJoystick (0x71AEE0) reads the position (JOYINFOEX, 0x34 bytes)
+__imp__GetForegroundWindow@0 0x008882e0  # IAT slot: TGSystemWrapperClass::IsForeground (0x71AE70) compares its result with the window
+__imp__IsChild@8 0x008882f0  # IAT slot: TGSystemWrapperClass::IsForeground (0x71AE70) tests the foreground window against the game's window
+__imp__BinkSetVolume@12 0x008883e0   # IAT slot: BINKW32 _BinkSetVolume@12 (import table); TGMovieManager::SetMovieVolume (0x6AFC20) calls through it
+__imp__BinkClose@4 0x00888404   # IAT slot: BINKW32 _BinkClose@4 (import table); TGMovieManager::CloseForcedMovie (0x6B0360) calls through it
+__imp__BinkOpenMiles@4 0x008883c8   # IAT slot: BINKW32 _BinkOpenMiles@4 (import table)
+__imp__BinkBufferSetOffset@12 0x008883cc   # IAT slot: BINKW32 _BinkBufferSetOffset@12 (import table)
+__imp__BinkBufferOpen@16 0x008883d0   # IAT slot: BINKW32 _BinkBufferOpen@16 (import table)
+__imp__BinkBufferSetDirectDraw@8 0x008883d4   # IAT slot: BINKW32 _BinkBufferSetDirectDraw@8 (import table)
+__imp__BinkNextFrame@4 0x008883d8   # IAT slot: BINKW32 _BinkNextFrame@4 (import table)
+__imp__BinkSetSoundSystem@8 0x008883dc   # IAT slot: BINKW32 _BinkSetSoundSystem@8 (import table)
+__imp__BinkOpen@8 0x008883e4   # IAT slot: BINKW32 _BinkOpen@8 (import table)
+__imp__BinkWait@4 0x008883e8   # IAT slot: BINKW32 _BinkWait@4 (import table)
+__imp__BinkDDSurfaceType@4 0x008883ec   # IAT slot: BINKW32 _BinkDDSurfaceType@4 (import table)
+__imp__BinkBufferClose@4 0x008883f0   # IAT slot: BINKW32 _BinkBufferClose@4 (import table)
+__imp__BinkGetRealtime@12 0x008883f4   # IAT slot: BINKW32 _BinkGetRealtime@12 (import table)
+__imp__BinkGoto@12 0x008883f8   # IAT slot: BINKW32 _BinkGoto@12 (import table)
+__imp__BinkDoFrame@4 0x008883fc   # IAT slot: BINKW32 _BinkDoFrame@4 (import table)
+__imp__BinkCopyToBuffer@28 0x00888400   # IAT slot: BINKW32 _BinkCopyToBuffer@28 (import table)
+_IID_IDirectDrawSurface 0x0089dec0   # dxguid: {6C14DB81-A733-11CE-A521-0020AF0BE560}, the GUID TGMovieManager::OpenBuffer (0x6AF03F) queries the back buffer surface for
+__imp__InitCommonControlsEx@4 0x00888030  # IAT slot (import name InitCommonControlsEx, COMCTL32): NiAppWindow::CreateStatusBar (0x7BE4A0) calls through it
+__global_unwind2 0x00859378   # VC6 CRT: byte-identical (relocations masked, 24 bytes) to __global_unwind2 in LIBCMT.LIB exsup.obj
+__local_unwind2 0x008593ba   # VC6 CRT: byte-identical (relocations masked, 88 bytes) to __local_unwind2 in LIBCMT.LIB exsup.obj
+__abnormal_termination 0x00859422   # VC6 CRT exsup.asm (LIBCMT.LIB exsup.obj, byte-identical with relocations masked): the SEH helper behind AbnormalTermination(), which CallCatchBlock's __finally calls
+__NLG_Notify 0x0085944e   # VC6 CRT: byte-identical (relocations masked, 19 bytes) to __NLG_Notify in LIBCMT.LIB exsup.obj
+___from_strstr_to_strchr 0x00859a36   # VC6 CRT: byte-identical (relocations masked, 182 bytes) to ___from_strstr_to_strchr in LIBCMT.LIB strchr.obj
+__CallSettingFrame@12 0x00861310   # VC6 CRT: byte-identical (relocations masked, 39 bytes) to __CallSettingFrame@12 in LIBCMT.LIB lowhelpr.obj
+__cintrindisp2 0x00862480   # VC6 CRT: byte-identical (relocations masked, 62 bytes) to __cintrindisp2 in LIBCMT.LIB 87cdisp.obj
+__cintrindisp1 0x008624be   # VC6 CRT: byte-identical (relocations masked, 61 bytes) to __cintrindisp1 in LIBCMT.LIB 87cdisp.obj
+__ctrandisp2 0x008624fb   # VC6 CRT: byte-identical (relocations masked, 384 bytes) to __ctrandisp2 in LIBCMT.LIB 87cdisp.obj
+__ctrandisp1 0x0086267b   # VC6 CRT: byte-identical (relocations masked, 51 bytes) to __ctrandisp1 in LIBCMT.LIB 87cdisp.obj
+__adj_fprem 0x008632cc   # VC6 CRT: byte-identical (relocations masked, 178 bytes) to __adj_fprem in LIBCMT.LIB adj_fdiv.obj
+__startTwoArgErrorHandling 0x00863650   # VC6 CRT: byte-identical (relocations masked, 23 bytes) to __startTwoArgErrorHandling in LIBCMT.LIB genexcep.obj
+__startOneArgErrorHandling 0x00863667   # VC6 CRT: byte-identical (relocations masked, 60 bytes) to __startOneArgErrorHandling in LIBCMT.LIB genexcep.obj
+__twoToTOS 0x008636b0   # VC6 CRT: byte-identical (relocations masked, 21 bytes) to __twoToTOS in LIBCMT.LIB common.obj
+__load_CW 0x008636c5   # VC6 CRT: byte-identical (relocations masked, 23 bytes) to __load_CW in LIBCMT.LIB common.obj
+__convertTOStoQNaN 0x008636dc   # VC6 CRT: byte-identical (relocations masked, 25 bytes) to __convertTOStoQNaN in LIBCMT.LIB common.obj
+__fload_withFB 0x008636f5   # VC6 CRT: byte-identical (relocations masked, 67 bytes) to __fload_withFB in LIBCMT.LIB common.obj
+__checkTOS_withFB 0x00863738   # VC6 CRT: byte-identical (relocations masked, 22 bytes) to __checkTOS_withFB in LIBCMT.LIB common.obj
+__fast_exit 0x0086374e   # VC6 CRT: byte-identical (relocations masked, 13 bytes) to __fast_exit in LIBCMT.LIB common.obj
+__math_exit 0x0086375b   # VC6 CRT: byte-identical (relocations masked, 42 bytes) to __math_exit in LIBCMT.LIB common.obj
+__check_range_exit 0x00863799   # VC6 CRT: byte-identical (relocations masked, 163 bytes) to __check_range_exit in LIBCMT.LIB common.obj
+_RtlUnwind@16 0x0086f760   # import thunk: jmp through the KERNEL32 RtlUnwind IAT slot 0x888170; ___CxxFrameHandler's unwind calls it
+_GUID_SysKeyboard 0x0089d000   # dinput.lib: {6F1D2B61-D5A0-11CF-BFC7-444553540000}, the device the input manager's startup creates its keyboard from
+_GUID_SysMouse 0x0089d010   # dinput.lib: {6F1D2B60-D5A0-11CF-BFC7-444553540000}, the device the input manager's startup creates its mouse from
+_c_dfDIKeyboard 0x00897f38   # dinput.lib: the keyboard data format the input manager's startup sets
+_c_dfDIMouse 0x00897f20   # dinput.lib: the mouse data format the input manager's startup sets
+_c_dfDIJoystick 0x00897f50   # dinput.lib: the joystick data format (DIDATAFORMAT, 0x18 bytes, five-dword DIOBJECTDATAFORMAT table of DIJOYSTATE's objects); TGGamepad::EnumerateDevice sets it
+_IID_IDirectInputDevice7A 0x0089d0e0   # dxguid: {57D7C6BC-2356-11D3-8E9D-00C04F6844AE}, the device interface TGGamepad::EnumerateDevice and the input manager's startup create through CreateDeviceEx
+_DirectInputCreateEx@20 0x0078c8a0   # import thunk: jmp [0x888040], DINPUT.dll DirectInputCreateEx (DirectX 7); TGSystemWrapperClass::GetDirectInput calls it with the version 0x700
+_IID_IDirectInput7A 0x0089d150   # dxguid: {9A4CB684-236D-11D3-8E9D-00C04F6844AE}, the GUID TGSystemWrapperClass::GetDirectInput passes to DirectInputCreateEx
+__imp__GetKeyState@4 0x008882c0   # USER32 GetKeyState's import address table slot; TGParagraph::KeyboardHandler reads Caps Lock through it
+_inet_addr@4 0x00855ada   # import thunk: jmp [0x888364], WSOCK32 inet_addr by the import table (Ghidra names the thunk); TGWinsockNetwork::SetLocalAddress and ResolveAddress call it
+_inet_ntoa@4 0x00855ae0   # import thunk: jmp [0x888370], WSOCK32 inet_ntoa by the import table (Ghidra names the thunk); TGWinsockNetwork::BanPlayerByIP calls it
+_socket@12 0x00855ae6   # import thunk: jmp [0x888368], WSOCK32 ordinal 23 (socket)
+_closesocket@4 0x00855aec   # import thunk: jmp [0x88836c], WSOCK32 ordinal 3 (closesocket); TGSocket::Close calls it
+_connect@12 0x00855af2   # import thunk: jmp [0x88837c], WSOCK32 ordinal 4 (connect)
+_gethostbyname@4 0x00855af8   # import thunk: jmp [0x888374], WSOCK32 ordinal 52 (gethostbyname)
+_htons@4 0x00855afe   # import thunk: jmp [0x888378], WSOCK32 ordinal 9 (htons)
+_send@16 0x00855b04   # import thunk: jmp [0x888388], WSOCK32 ordinal 19 (send)
+_recv@16 0x00855b0a   # import thunk: jmp [0x888380], WSOCK32 ordinal 16 (recv)
+_setsockopt@20 0x00855b10   # import thunk: jmp [0x888384], WSOCK32 ordinal 21 (setsockopt)
+_sendto@24 0x00855b16   # import thunk: jmp [0x888394], WSOCK32 ordinal 20 (sendto)
+_ntohs@4 0x00855b1c   # import thunk: jmp [0x88838c], WSOCK32 ordinal 15 (ntohs)
+_recvfrom@24 0x00855b22   # import thunk: jmp [0x888390], WSOCK32 ordinal 17 (recvfrom)
+_select@20 0x00855b28   # import thunk: jmp [0x8883a0], WSOCK32 ordinal 18 (select)
+___WSAFDIsSet@8 0x00855b2e   # import thunk: jmp [0x888398], WSOCK32 ordinal 151 (__WSAFDIsSet)
+_getsockname@12 0x00855b34   # import thunk: jmp [0x88839c], WSOCK32 ordinal 6 (getsockname)
+_bind@12 0x00855b3a   # import thunk: jmp [0x8883ac], WSOCK32 ordinal 2 (bind)
+_htonl@4 0x00855b40   # import thunk: jmp [0x8883a4], WSOCK32 ordinal 8 (htonl)
+_WSAStartup@8 0x00855b46   # import thunk: jmp [0x8883a8], WSOCK32 ordinal 115 (WSAStartup)
+_WSACleanup@0 0x00855b4c   # import thunk: jmp [0x8883b8], WSOCK32 ordinal 116 (WSACleanup)
+_ioctlsocket@12 0x00855b52   # import thunk: jmp [0x8883b0], WSOCK32 ordinal 12 (ioctlsocket)
+_gethostname@8 0x00855b58   # import thunk: jmp [0x8883b4], WSOCK32 ordinal 57 (gethostname)
+_WSAGetLastError@0 0x00855b5e   # import thunk: jmp [0x8883bc], WSOCK32 ordinal 111 (WSAGetLastError)
+_shutdown@8 0x00855b64   # import thunk: jmp [0x8883c0], WSOCK32 ordinal 22 (shutdown); TGSocket::Close calls it
+?GetShip@WarpSequence@@SAPAVShipClass@@PAV1@@Z 0x005ab5a0   # evidence: SWIG wrapper WarpSequence_GetShip calls it directly
+?SetName@STStylizedWindow@@QAEXPAVTGString@@@Z 0x006f4ee0   # evidence: SWIG wrapper STStylizedWindow_SetName calls it directly
+?SetCaptainName@UtopiaModule@@QAEXPAVTGString@@@Z 0x006f4ee0   # evidence: SWIG wrapper UtopiaModule_SetCaptainName calls it directly
+?Create@TGSequence@@SAPAV1@XZ 0x007004c0   # evidence: SWIG wrapper TGSequence_Create calls it directly
+?Create@TGSoundAction@@SAPAV1@PADH0M@Z 0x00702fa0   # evidence: SWIG wrapper TGSoundAction_Create calls it directly
+?Create@TGAnimAction@@SAPAV1@PAVTGAnimNode@@PADHHHH@Z 0x00703f90   # evidence: SWIG wrapper TGAnimAction_Create calls it directly
+?Create@TGAnimPosition@@SAPAV1@PAVTGAnimNode@@PAD@Z 0x00704730   # evidence: SWIG wrapper TGAnimPosition_Create calls it directly
+?Create@TGConditionAction@@SAPAV1@XZ 0x00704ad0   # evidence: SWIG wrapper TGConditionAction_Create calls it directly
+?Create@TGSoundRegion@@SAPAV1@PAD@Z 0x0070dd90   # evidence: SWIG wrapper TGSoundRegion_Create calls it directly
+__imp__GlobalAlloc@8 0x008880b4   # IAT slot (import name KERNEL32.dll!GlobalAlloc): GetRasConnectionStatus (0x6A8170) allocates the RAS buffers through it
+__imp__GlobalFree@4 0x00888080   # IAT slot (import name KERNEL32.dll!GlobalFree): GetRasConnectionStatus (0x6A8170) frees the RAS buffers through it
+__imp__CreateDirectoryA@8           0x00888068   # IAT slot: the import table names KERNEL32.dll!CreateDirectoryA at this slot (hint/name 0x4B9738); TGSystemWrapperClass::MakeDirectory calls through it
+??_ETGEventHandlerObject@@UAEPAXI@Z 0x006d9030   # slot 0 of TGEventHandlerObject's vtable 0x896044 (the compiled vtable of game/TGEventHandlerObject)
+??_ETGObject@@UAEPAXI@Z 0x006f0b70   # slot 0 of TGObject's vtable 0x896278 (the compiled vtable of game/TGObject)
+??_ETGTemplatedAttrObject@@UAEPAXI@Z 0x006f2620   # slot 0 of TGTemplatedAttrObject's vtable 0x8962A8 (the compiled vtable of game/TGTemplatedAttrObject)
+??_ENiObject@@UAEPAXI@Z 0x007d87c0   # slot 10 of NiObject's vtable 0x898B94 (the compiled vtable of netimmerse/NiObject)
+??_EWaypoint@@UAEPAXI@Z 0x00440f60   # slot 0 of Waypoint's vtable 0x88A804 (the compiled vtable of game/Waypoint)
+__imp__AdjustWindowRectEx@16 0x00888324   # IAT slot (USER32 AdjustWindowRectEx, by the import table): GraphicsMenu::ChangeDisplayMode sizes the window for the mode
+__imp__GetSystemMetrics@4 0x0088831c   # IAT slot (USER32 GetSystemMetrics, by the import table): GraphicsMenu::ChangeDisplayMode reads SM_CXFULLSCREEN and SM_CYFULLSCREEN
+__imp__WriteConsoleA@20 0x008880a8  # IAT slot: the import table names KERNEL32.dll!WriteConsoleA at this slot; PyEmbed::Unknown6F9470 (0x6F9470) writes the debug console's text through it
+__imp__ReadConsoleA@20 0x008880b8  # IAT slot: the import table names KERNEL32.dll!ReadConsoleA at this slot; PyEmbed::Unknown6F9470 (0x6F9470) reads the console's lines through it
+??_B?1???id@?$ctype@G@std@@$D@@9@51 0x009b3e34   # evidence: guard byte of the local static std::ctype<unsigned short>::id; the unit's initialiser at 0x700F40 tests and sets it
+??_B?1???id@?$collate@D@std@@$D@@9@51 0x009b3fcc   # evidence: guard byte of the local static std::collate<char>::id; wiostrea's locale initialiser (0x856DCD) tests and sets it after ctype<unsigned short>'s 0x9B3E34
+
+??_G?$NiTListBlock@PAUAvoidanceCandidate@@@@QAEPAXI@Z 0x004817f0  # NiTListBlock<AvoidanceCandidate*> scalar deleting destructor: OptimizedAvoidObstacles::Unknown480250 calls it out of line; not emitted until that draft stops inlining it
+__imp__RegQueryValueExA@24 0x0088800c   # IAT slot: the import table names ADVAPI32.dll!RegQueryValueExA at this slot; GetInstallPath, GetDataPath and GetExecutablePath call through it
+__imp__RegSetValueA@20 0x00888010   # IAT slot: the import table names ADVAPI32.dll!RegSetValueA at this slot; GetInstallPath calls through it
+__imp__RegCreateKeyExA@36 0x00888014   # IAT slot: the import table names ADVAPI32.dll!RegCreateKeyExA at this slot; GetInstallPath calls through it
+__imp__RegOpenKeyExA@20 0x00888018   # IAT slot: the import table names ADVAPI32.dll!RegOpenKeyExA at this slot; GetInstallPath, GetDataPath and GetExecutablePath call through it
+??_7NiBinaryVoxelExtraData@@6B@ 0x0088b764   # evidence: stored by the inline constructor LODModel's voxelizing routine (0x450996) and VisibleDamage::CloneGrid (0x4B1693) expand after NiExtraData's; slot 0 (0x451290) returns the NiRTTI 0x983910 named "NiBinaryVoxelExtraData"
+?SetAt@?$NiTArray@PAG@@QAEXIPAG@Z 0x004bbb60   # evidence: NiTArray SetAt; called right after the SetSize above (0x4BB820, 0x4C50A0) with the new triangle block
+__imp__FreeLibrary@4 0x00888134   # IAT slot (KERNEL32 FreeLibrary, by the import table): TGApplication's destructor frees "vtuneapi.dll" through it
+__imp__SetCapture@4 0x008882a8   # IAT slot (USER32 SetCapture, by the import table): UtopiaApp::OnDefault on WM_ACTIVATEAPP
+__imp__ReleaseCapture@0 0x00888304   # IAT slot (USER32 ReleaseCapture, by the import table): UtopiaApp::OnDefault on WM_ACTIVATEAPP
+__imp__FindWindowA@8 0x00888334   # IAT slot (USER32 FindWindowA, by the import table): FindDiscWithContents (0x460880) looks for "SJE_CdPlayerClass", the Windows CD Player
+__imp__GetFileSize@8               0x00888074   # IAT slot: the import table names KERNEL32.dll!GetFileSize at this slot; ReadDiscData (0x460660) calls through it
+??8NiPoint3@@QBEHABV0@@Z 0x0056ce70   # NiPoint3::operator==: thiscall, compares x, y and z with fcomp/test ah,0x40 and returns 1 or 0 in eax (int, as NiPoint3.h declares it); ShipSubsystem::UpdateDamagePoint (0x56C8F0) calls the out-of-line copy, which sits right after it in its unit
+__imp__GetActiveWindow@0           0x008882c4   # IAT slot: the import table names USER32.dll!GetActiveWindow at this slot; the assert dialog's handler (0x71ED40) calls through it
+__imp__MessageBeep@4               0x008882cc   # IAT slot: the import table names USER32.dll!MessageBeep at this slot; the assert dialog's handler (0x71ED40) calls through it
+__imp__OpenClipboard@4             0x008882c8   # IAT slot: the import table names USER32.dll!OpenClipboard at this slot; the assert dialog (0x71EB70) calls through it
+__imp__CloseClipboard@0            0x008882d4   # IAT slot: the import table names USER32.dll!CloseClipboard at this slot; the assert dialog (0x71EB70) calls through it
+__imp__EmptyClipboard@0            0x008882d8   # IAT slot: the import table names USER32.dll!EmptyClipboard at this slot; the assert dialog (0x71EB70) calls through it
+__imp__GetDlgItem@8                0x008882fc   # IAT slot: the import table names USER32.dll!GetDlgItem at this slot; the assert dialog (0x71EB70) calls through it
+__imp__GlobalLock@4                0x008880f8   # IAT slot: the import table names KERNEL32.dll!GlobalLock at this slot; the assert dialog (0x71EB70) calls through it
+__imp__GlobalUnlock@4              0x008880f4   # IAT slot: the import table names KERNEL32.dll!GlobalUnlock at this slot; the assert dialog (0x71EB70) calls through it
+__imp__SetClipboardData@8          0x008882dc   # IAT slot: the import table names USER32.dll!SetClipboardData at this slot; the assert dialog (0x71EB70) calls through it
+__imp__SetUnhandledExceptionFilter@4 0x008880bc  # IAT slot: KERNEL32 SetUnhandledExceptionFilter; MSJExceptionHandler's constructor and destructor call through it
+__imp__VirtualQuery@12 0x008880c4  # IAT slot: KERNEL32 VirtualQuery; MSJExceptionHandler::GetLogicalAddress calls through it
+__imp__wvsprintfA@12 0x008882e8  # IAT slot: USER32 wvsprintfA; MSJExceptionHandler's report printf calls through it
+__imp__GetCurrentThread@0 0x008880d4  # IAT slot: KERNEL32 GetCurrentThread; MSJExceptionHandler::ImagehlpStackWalk calls through it
+__imp__RemoveDirectoryA@4 0x008880e0  # IAT slot: KERNEL32 RemoveDirectoryA; TGSystemWrapperClass::DeleteDirectoryContents calls through it
+__imp__SetFileAttributesA@8 0x008880e4  # IAT slot: KERNEL32 SetFileAttributesA; TGSystemWrapperClass's directory delete and copy call through it
+__imp__CopyFileA@12 0x008880e8  # IAT slot: KERNEL32 CopyFileA; TGSystemWrapperClass::CopyDirectory calls through it
+__imp__GetPrivateProfileStringA@24 0x00888098  # IAT slot: KERNEL32 GetPrivateProfileStringA; TGApplication's constructor reads the renderer through it
+__imp__DialogBoxParamA@20 0x008882f8   # IAT slot: the import table names USER32.dll!DialogBoxParamA at this slot; UITreeDialog::DoModal calls through it
+__imp__ShowCursor@4 0x00888330   # IAT slot: the import table names USER32.dll!ShowCursor at this slot; UITreeDialog::DoModal calls through it
+__NLG_Return2 0x00859412   # VC6 LIBCMT.LIB exsup.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x859378
+__NLG_Notify1 0x00859445   # VC6 LIBCMT.LIB exsup.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x859378
+__NLG_Dispatch 0x00859461   # VC6 LIBCMT.LIB exsup.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x859378
+_acos 0x00859e34   # VC6 LIBCMT.LIB acos.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x859E20
+__strcmpi 0x0085b2b0   # VC6 LIBCMT.LIB stricmp.obj public (MASM 6.13.7299; VC98/CRT/SRC/PLATFORM/STRICMP.ASM, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85B2B0
+__CIatan 0x0085ea10   # VC6 LIBCMT.LIB atan.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EA10
+__CIatan2 0x0085eaba   # VC6 LIBCMT.LIB 87ctriga.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EAB0
+__CIcos 0x0085ead0   # VC6 LIBCMT.LIB cos.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EAD0
+__CItanh 0x0085eba9   # VC6 LIBCMT.LIB 87ctrigh.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EB80
+__CIexp 0x0085ebba   # VC6 LIBCMT.LIB 87ctran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EBB0
+__CIlog 0x0085ef40   # VC6 LIBCMT.LIB log.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85EF40
+__CIlog10 0x0085f010   # VC6 LIBCMT.LIB log10.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85F010
+__CIsin 0x0085f0e0   # VC6 LIBCMT.LIB sin.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85F0E0
+__CIsqrt 0x0085f190   # VC6 LIBCMT.LIB sqrt.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85F190
+__CItan 0x0085f250   # VC6 LIBCMT.LIB tan.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85F250
+__seh_longjmp_unwind@4 0x0085ff8d   # VC6 LIBCMT.LIB exsup3.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x85FEC8
+__NLG_Return 0x00861337   # VC6 LIBCMT.LIB lowhelpr.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x861310
+__fload 0x008626ae   # VC6 LIBCMT.LIB 87cdisp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x862480
+__trandisp1 0x008626f0   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__trandisp2 0x00862757   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rttospopde 0x008627e3   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rttospop 0x008627e8   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtnospop 0x008627ea   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rttosnpop 0x008627ec   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtnospopde 0x008627ed   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtzeropop 0x008627f4   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtzeronpop 0x008627f6   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtonepop 0x008627fb   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtonenpop 0x008627fd   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__tosnan1 0x00862802   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__nosnan2 0x0086282d   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__tosnan2 0x0086282f   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__nan2 0x00862857   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtindfpop 0x00862896   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtindfnpop 0x00862898   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rttosnpopde 0x008628a9   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+__rtchsifneg 0x008628b3   # VC6 LIBCMT.LIB 87disp.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8626F0
+_fdiv_main_routine 0x008628c0   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdiv_r 0x008629d7   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__fdivp_sti_st 0x00862e76   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__fdivrp_sti_st 0x00862e89   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdiv_m32 0x00862e9c   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdiv_m64 0x00862ee8   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdiv_m16i 0x00862f34   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdiv_m32i 0x00862f68   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdivr_m32 0x00862f9c   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdivr_m64 0x00862fe8   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdivr_m16i 0x00863034   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fdivr_m32i 0x00863068   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__safe_fdiv 0x0086309c   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__safe_fdivr 0x008630b1   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__fprem_common 0x008630c6   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__fprem1_common 0x0086337e   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fprem1 0x00863584   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__safe_fprem 0x00863639   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__safe_fprem1 0x0086363f   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fpatan 0x00863645   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__adj_fptan 0x00863648   # VC6 LIBCMT.LIB adj_fdiv.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8628C0
+__check_overflow_exit 0x00863785   # VC6 LIBCMT.LIB common.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x8636B0
+__fFEXP 0x00864031   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__rtinfpopse 0x00864098   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__rtinfnpopse 0x0086409a   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__fFLN 0x008640aa   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__rtinfpop 0x0086415f   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__rtinfnpop 0x00864161   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__ffexpm1 0x0086417e   # VC6 LIBCMT.LIB 87tran.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x864020
+__fFATN2 0x0086ab1c   # VC6 LIBCMT.LIB 87triga.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x86AB00
+__rtpiby2 0x0086ab6c   # VC6 LIBCMT.LIB 87triga.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x86AB00
+__fFSINH 0x0086abb0   # VC6 LIBCMT.LIB 87trigh.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x86ABB0
+__fFCOSH 0x0086ac02   # VC6 LIBCMT.LIB 87trigh.obj public (MASM 6.13.7299; no source in VC98\CRT\SRC, ORIGINAL-ASM): the object's masked bytes occur once in retail, from 0x86ABB0
+__imp__RegSetValueExA@24 0x00888000   # IAT slot: the import table names ADVAPI32.dll!RegSetValueExA at this slot; the GameSpy SDK's nonport.c SetReg calls through it
+_RegCloseKey@4 0x008554c0   # import thunk: jmp [0x888008], ADVAPI32.dll RegCloseKey by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegCloseKey@4)
+_RegQueryValueExA@24 0x008554c6   # import thunk: jmp [0x88800c], ADVAPI32.dll RegQueryValueExA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegQueryValueExA@24)
+_RegSetValueA@20 0x008554cc   # import thunk: jmp [0x888010], ADVAPI32.dll RegSetValueA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegSetValueA@20)
+_RegCreateKeyExA@36 0x008554d2   # import thunk: jmp [0x888014], ADVAPI32.dll RegCreateKeyExA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegCreateKeyExA@36)
+_RegOpenKeyExA@20 0x008554d8   # import thunk: jmp [0x888018], ADVAPI32.dll RegOpenKeyExA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegOpenKeyExA@20)
+_RegFlushKey@4 0x008554de   # import thunk: jmp [0x88801c], ADVAPI32.dll RegFlushKey by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegFlushKey@4)
+_RegSetValueExA@24 0x008554e4   # import thunk: jmp [0x888000], ADVAPI32.dll RegSetValueExA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegSetValueExA@24)
+_RegQueryValueA@16 0x008554ea   # import thunk: jmp [0x888004], ADVAPI32.dll RegQueryValueA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegQueryValueA@16)
+_RegEnumKeyA@16 0x008554f0   # import thunk: jmp [0x888024], ADVAPI32.dll RegEnumKeyA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegEnumKeyA@16)
+_RegQueryInfoKeyA@48 0x008554f6   # import thunk: jmp [0x888028], ADVAPI32.dll RegQueryInfoKeyA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegQueryInfoKeyA@48)
+_RegOpenKeyA@12 0x008554fc   # import thunk: jmp [0x888020], ADVAPI32.dll RegOpenKeyA by the import table; decorated as VC6's ADVAPI32.LIB names it (__imp__RegOpenKeyA@12)
+_FindClose@4 0x00855502   # import thunk: jmp [0x888130], KERNEL32.dll FindClose by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FindClose@4)
+_FindNextFileA@8 0x00855508   # import thunk: jmp [0x88812c], KERNEL32.dll FindNextFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FindNextFileA@8)
+_LocalFree@4 0x0085550e   # import thunk: jmp [0x888128], KERNEL32.dll LocalFree by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LocalFree@4)
+_GetLastError@0 0x00855514   # import thunk: jmp [0x88809c], KERNEL32.dll GetLastError by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetLastError@0)
+_FormatMessageA@28 0x0085551a   # import thunk: jmp [0x8880c0], KERNEL32.dll FormatMessageA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FormatMessageA@28)
+_DeleteFileA@4 0x00855520   # import thunk: jmp [0x888060], KERNEL32.dll DeleteFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__DeleteFileA@4)
+_FindFirstFileA@8 0x00855526   # import thunk: jmp [0x88805c], KERNEL32.dll FindFirstFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FindFirstFileA@8)
+_GetCurrentDirectoryA@8 0x0085552c   # import thunk: jmp [0x888050], KERNEL32.dll GetCurrentDirectoryA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCurrentDirectoryA@8)
+_GetDriveTypeA@4 0x00855532   # import thunk: jmp [0x888054], KERNEL32.dll GetDriveTypeA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetDriveTypeA@4)
+_SetErrorMode@4 0x00855538   # import thunk: jmp [0x888058], KERNEL32.dll SetErrorMode by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetErrorMode@4)
+_GetLogicalDriveStringsA@8 0x0085553e   # import thunk: jmp [0x888064], KERNEL32.dll GetLogicalDriveStringsA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetLogicalDriveStringsA@8)
+_GetModuleFileNameA@12 0x00855544   # import thunk: jmp [0x88807c], KERNEL32.dll GetModuleFileNameA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetModuleFileNameA@12)
+_CreateDirectoryA@8 0x0085554a   # import thunk: jmp [0x888068], KERNEL32.dll CreateDirectoryA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CreateDirectoryA@8)
+_CloseHandle@4 0x00855550   # import thunk: jmp [0x88806c], KERNEL32.dll CloseHandle by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CloseHandle@4)
+_ReadFile@20 0x00855556   # import thunk: jmp [0x888070], KERNEL32.dll ReadFile by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ReadFile@20)
+_GetFileSize@8 0x0085555c   # import thunk: jmp [0x888074], KERNEL32.dll GetFileSize by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetFileSize@8)
+_CreateFileA@28 0x00855562   # import thunk: jmp [0x888078], KERNEL32.dll CreateFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CreateFileA@28)
+_GlobalFree@4 0x00855568   # import thunk: jmp [0x888080], KERNEL32.dll GlobalFree by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GlobalFree@4)
+_GlobalAlloc@8 0x0085556e   # import thunk: jmp [0x8880b4], KERNEL32.dll GlobalAlloc by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GlobalAlloc@8)
+_GetProcAddress@8 0x00855574   # import thunk: jmp [0x888084], KERNEL32.dll GetProcAddress by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetProcAddress@8)
+_LoadLibraryA@4 0x0085557a   # import thunk: jmp [0x888088], KERNEL32.dll LoadLibraryA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LoadLibraryA@4)
+_GetTickCount@0 0x00855580   # import thunk: jmp [0x88808c], KERNEL32.dll GetTickCount by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetTickCount@0)
+_Sleep@4 0x00855586   # import thunk: jmp [0x888090], KERNEL32.dll Sleep by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__Sleep@4)
+_QueryPerformanceCounter@4 0x0085558c   # import thunk: jmp [0x888094], KERNEL32.dll QueryPerformanceCounter by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__QueryPerformanceCounter@4)
+_GetPrivateProfileStringA@24 0x00855592   # import thunk: jmp [0x888098], KERNEL32.dll GetPrivateProfileStringA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetPrivateProfileStringA@24)
+_FreeLibrary@4 0x00855598   # import thunk: jmp [0x888134], KERNEL32.dll FreeLibrary by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FreeLibrary@4)
+_FreeConsole@0 0x0085559e   # import thunk: jmp [0x8880a0], KERNEL32.dll FreeConsole by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FreeConsole@0)
+_AllocConsole@0 0x008555a4   # import thunk: jmp [0x8880a4], KERNEL32.dll AllocConsole by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__AllocConsole@0)
+_WriteConsoleA@20 0x008555aa   # import thunk: jmp [0x8880a8], KERNEL32.dll WriteConsoleA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__WriteConsoleA@20)
+_GetStdHandle@4 0x008555b0   # import thunk: jmp [0x8880ac], KERNEL32.dll GetStdHandle by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetStdHandle@4)
+_ExitProcess@4 0x008555b6   # import thunk: jmp [0x8880b0], KERNEL32.dll ExitProcess by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ExitProcess@4)
+_ReadConsoleA@20 0x008555bc   # import thunk: jmp [0x8880b8], KERNEL32.dll ReadConsoleA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ReadConsoleA@20)
+_OutputDebugStringA@4 0x008555c2   # import thunk: jmp [0x888120], KERNEL32.dll OutputDebugStringA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__OutputDebugStringA@4)
+_SetUnhandledExceptionFilter@4 0x008555c8   # import thunk: jmp [0x8880bc], KERNEL32.dll SetUnhandledExceptionFilter by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetUnhandledExceptionFilter@4)
+_SetFilePointer@16 0x008555ce   # import thunk: jmp [0x888124], KERNEL32.dll SetFilePointer by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetFilePointer@16)
+_VirtualQuery@12 0x008555d4   # import thunk: jmp [0x8880c4], KERNEL32.dll VirtualQuery by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__VirtualQuery@12)
+_GetCurrentProcess@0 0x008555da   # import thunk: jmp [0x8880c8], KERNEL32.dll GetCurrentProcess by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCurrentProcess@0)
+_GetModuleHandleA@4 0x008555e0   # import thunk: jmp [0x8880cc], KERNEL32.dll GetModuleHandleA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetModuleHandleA@4)
+_IsBadWritePtr@8 0x008555e6   # import thunk: jmp [0x8880d0], KERNEL32.dll IsBadWritePtr by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__IsBadWritePtr@8)
+_GetCurrentThread@0 0x008555ec   # import thunk: jmp [0x8880d4], KERNEL32.dll GetCurrentThread by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCurrentThread@0)
+_WriteFile@20 0x008555f2   # import thunk: jmp [0x8880d8], KERNEL32.dll WriteFile by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__WriteFile@20)
+_QueryPerformanceFrequency@4 0x008555f8   # import thunk: jmp [0x8880dc], KERNEL32.dll QueryPerformanceFrequency by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__QueryPerformanceFrequency@4)
+_RemoveDirectoryA@4 0x008555fe   # import thunk: jmp [0x8880e0], KERNEL32.dll RemoveDirectoryA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__RemoveDirectoryA@4)
+_SetFileAttributesA@8 0x00855604   # import thunk: jmp [0x8880e4], KERNEL32.dll SetFileAttributesA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetFileAttributesA@8)
+_CopyFileA@12 0x0085560a   # import thunk: jmp [0x8880e8], KERNEL32.dll CopyFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CopyFileA@12)
+_MultiByteToWideChar@24 0x00855610   # import thunk: jmp [0x8880ec], KERNEL32.dll MultiByteToWideChar by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__MultiByteToWideChar@24)
+_lstrlenA@4 0x00855616   # import thunk: jmp [0x8880f0], KERNEL32.dll lstrlenA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__lstrlenA@4)
+_GlobalUnlock@4 0x0085561c   # import thunk: jmp [0x8880f4], KERNEL32.dll GlobalUnlock by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GlobalUnlock@4)
+_GlobalLock@4 0x00855622   # import thunk: jmp [0x8880f8], KERNEL32.dll GlobalLock by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GlobalLock@4)
+_SetLastError@4 0x00855628   # import thunk: jmp [0x8880fc], KERNEL32.dll SetLastError by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetLastError@4)
+_GetFullPathNameA@16 0x0085562e   # import thunk: jmp [0x888100], KERNEL32.dll GetFullPathNameA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetFullPathNameA@16)
+_GetProcessTimes@20 0x00855634   # import thunk: jmp [0x888104], KERNEL32.dll GetProcessTimes by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetProcessTimes@20)
+_LoadLibraryExA@12 0x0085563a   # import thunk: jmp [0x888108], KERNEL32.dll LoadLibraryExA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LoadLibraryExA@12)
+_GetCurrentThreadId@0 0x00855640   # import thunk: jmp [0x88810c], KERNEL32.dll GetCurrentThreadId by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCurrentThreadId@0)
+_CreateSemaphoreA@16 0x00855646   # import thunk: jmp [0x888110], KERNEL32.dll CreateSemaphoreA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CreateSemaphoreA@16)
+_WaitForSingleObject@8 0x0085564c   # import thunk: jmp [0x888114], KERNEL32.dll WaitForSingleObject by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__WaitForSingleObject@8)
+_ReleaseSemaphore@12 0x00855652   # import thunk: jmp [0x888118], KERNEL32.dll ReleaseSemaphore by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ReleaseSemaphore@12)
+_GetVersionExA@4 0x00855658   # import thunk: jmp [0x88811c], KERNEL32.dll GetVersionExA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetVersionExA@4)
+_GetSystemMetrics@4 0x0085598a   # import thunk: jmp [0x88831c], USER32.dll GetSystemMetrics by the import table; decorated as VC6's USER32.LIB names it (__imp__GetSystemMetrics@4)
+_MoveWindow@24 0x00855990   # import thunk: jmp [0x888308], USER32.dll MoveWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__MoveWindow@24)
+_AdjustWindowRectEx@16 0x00855996   # import thunk: jmp [0x888324], USER32.dll AdjustWindowRectEx by the import table; decorated as VC6's USER32.LIB names it (__imp__AdjustWindowRectEx@16)
+_GetWindowLongA@8 0x0085599c   # import thunk: jmp [0x888328], USER32.dll GetWindowLongA by the import table; decorated as VC6's USER32.LIB names it (__imp__GetWindowLongA@8)
+_PeekMessageA@20 0x008559a2   # import thunk: jmp [0x88832c], USER32.dll PeekMessageA by the import table; decorated as VC6's USER32.LIB names it (__imp__PeekMessageA@20)
+_ShowCursor@4 0x008559a8   # import thunk: jmp [0x888330], USER32.dll ShowCursor by the import table; decorated as VC6's USER32.LIB names it (__imp__ShowCursor@4)
+_SetCapture@4 0x008559ae   # import thunk: jmp [0x8882a8], USER32.dll SetCapture by the import table; decorated as VC6's USER32.LIB names it (__imp__SetCapture@4)
+_ReleaseCapture@0 0x008559b4   # import thunk: jmp [0x888304], USER32.dll ReleaseCapture by the import table; decorated as VC6's USER32.LIB names it (__imp__ReleaseCapture@0)
+_SendMessageA@16 0x008559ba   # import thunk: jmp [0x888320], USER32.dll SendMessageA by the import table; decorated as VC6's USER32.LIB names it (__imp__SendMessageA@16)
+_FindWindowA@8 0x008559c0   # import thunk: jmp [0x888334], USER32.dll FindWindowA by the import table; decorated as VC6's USER32.LIB names it (__imp__FindWindowA@8)
+_DialogBoxParamA@20 0x008559c6   # import thunk: jmp [0x8882f8], USER32.dll DialogBoxParamA by the import table; decorated as VC6's USER32.LIB names it (__imp__DialogBoxParamA@20)
+_EndDialog@8 0x008559cc   # import thunk: jmp [0x888300], USER32.dll EndDialog by the import table; decorated as VC6's USER32.LIB names it (__imp__EndDialog@8)
+_GetDlgItem@8 0x008559d2   # import thunk: jmp [0x8882fc], USER32.dll GetDlgItem by the import table; decorated as VC6's USER32.LIB names it (__imp__GetDlgItem@8)
+_SetCursorPos@8 0x008559d8   # import thunk: jmp [0x8882ec], USER32.dll SetCursorPos by the import table; decorated as VC6's USER32.LIB names it (__imp__SetCursorPos@8)
+_GetWindowRect@8 0x008559de   # import thunk: jmp [0x8882f4], USER32.dll GetWindowRect by the import table; decorated as VC6's USER32.LIB names it (__imp__GetWindowRect@8)
+_IsChild@8 0x008559e4   # import thunk: jmp [0x8882f0], USER32.dll IsChild by the import table; decorated as VC6's USER32.LIB names it (__imp__IsChild@8)
+_GetForegroundWindow@0 0x008559ea   # import thunk: jmp [0x8882e0], USER32.dll GetForegroundWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__GetForegroundWindow@0)
+_wvsprintfA@12 0x008559f0   # import thunk: jmp [0x8882e8], USER32.dll wvsprintfA by the import table; decorated as VC6's USER32.LIB names it (__imp__wvsprintfA@12)
+_GetClientRect@8 0x008559f6   # import thunk: jmp [0x8882e4], USER32.dll GetClientRect by the import table; decorated as VC6's USER32.LIB names it (__imp__GetClientRect@8)
+_CloseClipboard@0 0x008559fc   # import thunk: jmp [0x8882d4], USER32.dll CloseClipboard by the import table; decorated as VC6's USER32.LIB names it (__imp__CloseClipboard@0)
+_SetClipboardData@8 0x00855a02   # import thunk: jmp [0x8882dc], USER32.dll SetClipboardData by the import table; decorated as VC6's USER32.LIB names it (__imp__SetClipboardData@8)
+_EmptyClipboard@0 0x00855a08   # import thunk: jmp [0x8882d8], USER32.dll EmptyClipboard by the import table; decorated as VC6's USER32.LIB names it (__imp__EmptyClipboard@0)
+_OpenClipboard@4 0x00855a0e   # import thunk: jmp [0x8882c8], USER32.dll OpenClipboard by the import table; decorated as VC6's USER32.LIB names it (__imp__OpenClipboard@4)
+_SetWindowTextA@8 0x00855a14   # import thunk: jmp [0x8882d0], USER32.dll SetWindowTextA by the import table; decorated as VC6's USER32.LIB names it (__imp__SetWindowTextA@8)
+_MessageBeep@4 0x00855a1a   # import thunk: jmp [0x8882cc], USER32.dll MessageBeep by the import table; decorated as VC6's USER32.LIB names it (__imp__MessageBeep@4)
+_DialogBoxIndirectParamA@20 0x00855a20   # import thunk: jmp [0x8882bc], USER32.dll DialogBoxIndirectParamA by the import table; decorated as VC6's USER32.LIB names it (__imp__DialogBoxIndirectParamA@20)
+_GetActiveWindow@0 0x00855a26   # import thunk: jmp [0x8882c4], USER32.dll GetActiveWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__GetActiveWindow@0)
+_GetKeyState@4 0x00855a2c   # import thunk: jmp [0x8882c0], USER32.dll GetKeyState by the import table; decorated as VC6's USER32.LIB names it (__imp__GetKeyState@4)
+_DispatchMessageA@4 0x00855a32   # import thunk: jmp [0x8882b0], USER32.dll DispatchMessageA by the import table; decorated as VC6's USER32.LIB names it (__imp__DispatchMessageA@4)
+_TranslateMessage@4 0x00855a38   # import thunk: jmp [0x8882b8], USER32.dll TranslateMessage by the import table; decorated as VC6's USER32.LIB names it (__imp__TranslateMessage@4)
+_TranslateAcceleratorA@12 0x00855a3e   # import thunk: jmp [0x8882b4], USER32.dll TranslateAcceleratorA by the import table; decorated as VC6's USER32.LIB names it (__imp__TranslateAcceleratorA@12)
+_SendDlgItemMessageA@20 0x00855a44   # import thunk: jmp [0x8882a0], USER32.dll SendDlgItemMessageA by the import table; decorated as VC6's USER32.LIB names it (__imp__SendDlgItemMessageA@20)
+_PostMessageA@16 0x00855a4a   # import thunk: jmp [0x8882ac], USER32.dll PostMessageA by the import table; decorated as VC6's USER32.LIB names it (__imp__PostMessageA@16)
+_EndPaint@8 0x00855a50   # import thunk: jmp [0x8882a4], USER32.dll EndPaint by the import table; decorated as VC6's USER32.LIB names it (__imp__EndPaint@8)
+_BeginPaint@8 0x00855a56   # import thunk: jmp [0x88829c], USER32.dll BeginPaint by the import table; decorated as VC6's USER32.LIB names it (__imp__BeginPaint@8)
+_PostQuitMessage@4 0x00855a5c   # import thunk: jmp [0x888298], USER32.dll PostQuitMessage by the import table; decorated as VC6's USER32.LIB names it (__imp__PostQuitMessage@4)
+_DefWindowProcA@16 0x00855a62   # import thunk: jmp [0x888294], USER32.dll DefWindowProcA by the import table; decorated as VC6's USER32.LIB names it (__imp__DefWindowProcA@16)
+_ScreenToClient@8 0x00855a68   # import thunk: jmp [0x888290], USER32.dll ScreenToClient by the import table; decorated as VC6's USER32.LIB names it (__imp__ScreenToClient@8)
+_GetCursorPos@4 0x00855a6e   # import thunk: jmp [0x88828c], USER32.dll GetCursorPos by the import table; decorated as VC6's USER32.LIB names it (__imp__GetCursorPos@4)
+_GetKeyboardState@4 0x00855a74   # import thunk: jmp [0x888288], USER32.dll GetKeyboardState by the import table; decorated as VC6's USER32.LIB names it (__imp__GetKeyboardState@4)
+_DestroyWindow@4 0x00855a7a   # import thunk: jmp [0x888284], USER32.dll DestroyWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__DestroyWindow@4)
+_IsWindow@4 0x00855a80   # import thunk: jmp [0x888280], USER32.dll IsWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__IsWindow@4)
+_CreateWindowExA@48 0x00855a86   # import thunk: jmp [0x88827c], USER32.dll CreateWindowExA by the import table; decorated as VC6's USER32.LIB names it (__imp__CreateWindowExA@48)
+_UpdateWindow@4 0x00855a8c   # import thunk: jmp [0x888278], USER32.dll UpdateWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__UpdateWindow@4)
+_ShowWindow@8 0x00855a92   # import thunk: jmp [0x888274], USER32.dll ShowWindow by the import table; decorated as VC6's USER32.LIB names it (__imp__ShowWindow@8)
+_AdjustWindowRect@12 0x00855a98   # import thunk: jmp [0x888270], USER32.dll AdjustWindowRect by the import table; decorated as VC6's USER32.LIB names it (__imp__AdjustWindowRect@12)
+_ClientToScreen@8 0x00855a9e   # import thunk: jmp [0x88826c], USER32.dll ClientToScreen by the import table; decorated as VC6's USER32.LIB names it (__imp__ClientToScreen@8)
+_timeGetTime@0 0x00855aa4   # import thunk: jmp [0x888358], WINMM.dll timeGetTime by the import table; decorated as VC6's WINMM.LIB names it (__imp__timeGetTime@0)
+_mciSendCommandA@16 0x00855aaa   # import thunk: jmp [0x88833c], WINMM.dll mciSendCommandA by the import table; decorated as VC6's WINMM.LIB names it (__imp__mciSendCommandA@16)
+_auxGetVolume@8 0x00855ab0   # import thunk: jmp [0x88835c], WINMM.dll auxGetVolume by the import table; decorated as VC6's WINMM.LIB names it (__imp__auxGetVolume@8)
+_auxGetDevCapsA@12 0x00855ab6   # import thunk: jmp [0x88834c], WINMM.dll auxGetDevCapsA by the import table; decorated as VC6's WINMM.LIB names it (__imp__auxGetDevCapsA@12)
+_auxGetNumDevs@0 0x00855abc   # import thunk: jmp [0x888350], WINMM.dll auxGetNumDevs by the import table; decorated as VC6's WINMM.LIB names it (__imp__auxGetNumDevs@0)
+_auxSetVolume@8 0x00855ac2   # import thunk: jmp [0x888348], WINMM.dll auxSetVolume by the import table; decorated as VC6's WINMM.LIB names it (__imp__auxSetVolume@8)
+_joyGetPosEx@8 0x00855ac8   # import thunk: jmp [0x888340], WINMM.dll joyGetPosEx by the import table; decorated as VC6's WINMM.LIB names it (__imp__joyGetPosEx@8)
+_joyGetDevCapsA@12 0x00855ace   # import thunk: jmp [0x888344], WINMM.dll joyGetDevCapsA by the import table; decorated as VC6's WINMM.LIB names it (__imp__joyGetDevCapsA@12)
+_joyGetNumDevs@0 0x00855ad4   # import thunk: jmp [0x888354], WINMM.dll joyGetNumDevs by the import table; decorated as VC6's WINMM.LIB names it (__imp__joyGetNumDevs@0)
+_AIL_file_read@8 0x00855b6a   # import thunk: jmp [0x8884a8], mss32.dll _AIL_file_read@8 by the import table (the DLL exports the decorated name)
+_AIL_file_size@4 0x00855b70   # import thunk: jmp [0x8884a4], mss32.dll _AIL_file_size@4 by the import table (the DLL exports the decorated name)
+_AIL_mem_free_lock@4 0x00855b76   # import thunk: jmp [0x8884a0], mss32.dll _AIL_mem_free_lock@4 by the import table (the DLL exports the decorated name)
+_AIL_digital_configuration@16 0x00855b7c   # import thunk: jmp [0x88849c], mss32.dll _AIL_digital_configuration@16 by the import table (the DLL exports the decorated name)
+_AIL_3D_provider_attribute@12 0x00855b82   # import thunk: jmp [0x888498], mss32.dll _AIL_3D_provider_attribute@12 by the import table (the DLL exports the decorated name)
+_AIL_allocate_sample_handle@4 0x00855b88   # import thunk: jmp [0x888494], mss32.dll _AIL_allocate_sample_handle@4 by the import table (the DLL exports the decorated name)
+_AIL_allocate_3D_sample_handle@4 0x00855b8e   # import thunk: jmp [0x888490], mss32.dll _AIL_allocate_3D_sample_handle@4 by the import table (the DLL exports the decorated name)
+_AIL_release_sample_handle@4 0x00855b94   # import thunk: jmp [0x88848c], mss32.dll _AIL_release_sample_handle@4 by the import table (the DLL exports the decorated name)
+_AIL_release_3D_sample_handle@4 0x00855b9a   # import thunk: jmp [0x888488], mss32.dll _AIL_release_3D_sample_handle@4 by the import table (the DLL exports the decorated name)
+_AIL_close_3D_listener@4 0x00855ba0   # import thunk: jmp [0x888484], mss32.dll _AIL_close_3D_listener@4 by the import table (the DLL exports the decorated name)
+_AIL_open_3D_listener@4 0x00855ba6   # import thunk: jmp [0x888480], mss32.dll _AIL_open_3D_listener@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_velocity_vector@16 0x00855bac   # import thunk: jmp [0x88847c], mss32.dll _AIL_set_3D_velocity_vector@16 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_orientation@28 0x00855bb2   # import thunk: jmp [0x888478], mss32.dll _AIL_set_3D_orientation@28 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_position@16 0x00855bb8   # import thunk: jmp [0x888474], mss32.dll _AIL_set_3D_position@16 by the import table (the DLL exports the decorated name)
+_AIL_3D_position@16 0x00855bbe   # import thunk: jmp [0x88854c], mss32.dll _AIL_3D_position@16 by the import table (the DLL exports the decorated name)
+_AIL_3D_velocity@16 0x00855bc4   # import thunk: jmp [0x888550], mss32.dll _AIL_3D_velocity@16 by the import table (the DLL exports the decorated name)
+_AIL_3D_orientation@28 0x00855bca   # import thunk: jmp [0x888470], mss32.dll _AIL_3D_orientation@28 by the import table (the DLL exports the decorated name)
+_AIL_close_3D_provider@4 0x00855bd0   # import thunk: jmp [0x88846c], mss32.dll _AIL_close_3D_provider@4 by the import table (the DLL exports the decorated name)
+_AIL_open_3D_provider@4 0x00855bd6   # import thunk: jmp [0x888468], mss32.dll _AIL_open_3D_provider@4 by the import table (the DLL exports the decorated name)
+_AIL_enumerate_3D_providers@12 0x00855bdc   # import thunk: jmp [0x888464], mss32.dll _AIL_enumerate_3D_providers@12 by the import table (the DLL exports the decorated name)
+_AIL_quick_handles@12 0x00855be2   # import thunk: jmp [0x88840c], mss32.dll _AIL_quick_handles@12 by the import table (the DLL exports the decorated name)
+_AIL_quick_startup@20 0x00855be8   # import thunk: jmp [0x88845c], mss32.dll _AIL_quick_startup@20 by the import table (the DLL exports the decorated name)
+_AIL_set_redist_directory@4 0x00855bee   # import thunk: jmp [0x888458], mss32.dll _AIL_set_redist_directory@4 by the import table (the DLL exports the decorated name)
+_AIL_quick_shutdown@0 0x00855bf4   # import thunk: jmp [0x888454], mss32.dll _AIL_quick_shutdown@0 by the import table (the DLL exports the decorated name)
+_AIL_3D_speaker_type@4 0x00855bfa   # import thunk: jmp [0x888450], mss32.dll _AIL_3D_speaker_type@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_speaker_type@8 0x00855c00   # import thunk: jmp [0x88844c], mss32.dll _AIL_set_3D_speaker_type@8 by the import table (the DLL exports the decorated name)
+_AIL_last_error@0 0x00855c06   # import thunk: jmp [0x888448], mss32.dll _AIL_last_error@0 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_provider_preference@12 0x00855c0c   # import thunk: jmp [0x888444], mss32.dll _AIL_set_3D_provider_preference@12 by the import table (the DLL exports the decorated name)
+_AIL_3D_room_type@4 0x00855c12   # import thunk: jmp [0x888440], mss32.dll _AIL_3D_room_type@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_room_type@8 0x00855c18   # import thunk: jmp [0x888534], mss32.dll _AIL_set_3D_room_type@8 by the import table (the DLL exports the decorated name)
+_AIL_end_sample@4 0x00855c1e   # import thunk: jmp [0x88851c], mss32.dll _AIL_end_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_close_stream@4 0x00855c24   # import thunk: jmp [0x8884fc], mss32.dll _AIL_close_stream@4 by the import table (the DLL exports the decorated name)
+_AIL_pause_stream@8 0x00855c2a   # import thunk: jmp [0x888518], mss32.dll _AIL_pause_stream@8 by the import table (the DLL exports the decorated name)
+_AIL_open_stream@12 0x00855c30   # import thunk: jmp [0x888514], mss32.dll _AIL_open_stream@12 by the import table (the DLL exports the decorated name)
+_AIL_set_named_sample_file@20 0x00855c36   # import thunk: jmp [0x888540], mss32.dll _AIL_set_named_sample_file@20 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_file@8 0x00855c3c   # import thunk: jmp [0x888538], mss32.dll _AIL_set_3D_sample_file@8 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_cone@16 0x00855c42   # import thunk: jmp [0x888420], mss32.dll _AIL_set_3D_sample_cone@16 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_cone@16 0x00855c48   # import thunk: jmp [0x88841c], mss32.dll _AIL_3D_sample_cone@16 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_distances@12 0x00855c4e   # import thunk: jmp [0x888418], mss32.dll _AIL_set_3D_sample_distances@12 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_distances@12 0x00855c54   # import thunk: jmp [0x88853c], mss32.dll _AIL_3D_sample_distances@12 by the import table (the DLL exports the decorated name)
+_AIL_set_sample_volume@8 0x00855c5a   # import thunk: jmp [0x88852c], mss32.dll _AIL_set_sample_volume@8 by the import table (the DLL exports the decorated name)
+_AIL_set_stream_volume@8 0x00855c60   # import thunk: jmp [0x888528], mss32.dll _AIL_set_stream_volume@8 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_volume@8 0x00855c66   # import thunk: jmp [0x888524], mss32.dll _AIL_set_3D_sample_volume@8 by the import table (the DLL exports the decorated name)
+_AIL_sample_volume@4 0x00855c6c   # import thunk: jmp [0x888520], mss32.dll _AIL_sample_volume@4 by the import table (the DLL exports the decorated name)
+_AIL_stream_volume@4 0x00855c72   # import thunk: jmp [0x888414], mss32.dll _AIL_stream_volume@4 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_volume@4 0x00855c78   # import thunk: jmp [0x888410], mss32.dll _AIL_3D_sample_volume@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_preference@12 0x00855c7e   # import thunk: jmp [0x888460], mss32.dll _AIL_set_3D_sample_preference@12 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_attribute@12 0x00855c84   # import thunk: jmp [0x888438], mss32.dll _AIL_3D_sample_attribute@12 by the import table (the DLL exports the decorated name)
+_AIL_set_sample_playback_rate@8 0x00855c8a   # import thunk: jmp [0x8884ac], mss32.dll _AIL_set_sample_playback_rate@8 by the import table (the DLL exports the decorated name)
+_AIL_set_stream_playback_rate@8 0x00855c90   # import thunk: jmp [0x8884b0], mss32.dll _AIL_set_stream_playback_rate@8 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_playback_rate@8 0x00855c96   # import thunk: jmp [0x888510], mss32.dll _AIL_set_3D_sample_playback_rate@8 by the import table (the DLL exports the decorated name)
+_AIL_sample_playback_rate@4 0x00855c9c   # import thunk: jmp [0x888508], mss32.dll _AIL_sample_playback_rate@4 by the import table (the DLL exports the decorated name)
+_AIL_stream_playback_rate@4 0x00855ca2   # import thunk: jmp [0x888530], mss32.dll _AIL_stream_playback_rate@4 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_playback_rate@4 0x00855ca8   # import thunk: jmp [0x888544], mss32.dll _AIL_3D_sample_playback_rate@4 by the import table (the DLL exports the decorated name)
+_AIL_start_sample@4 0x00855cae   # import thunk: jmp [0x888548], mss32.dll _AIL_start_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_start_stream@4 0x00855cb4   # import thunk: jmp [0x88850c], mss32.dll _AIL_start_stream@4 by the import table (the DLL exports the decorated name)
+_AIL_start_3D_sample@4 0x00855cba   # import thunk: jmp [0x88842c], mss32.dll _AIL_start_3D_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_set_sample_loop_count@8 0x00855cc0   # import thunk: jmp [0x88843c], mss32.dll _AIL_set_sample_loop_count@8 by the import table (the DLL exports the decorated name)
+_AIL_set_stream_loop_count@8 0x00855cc6   # import thunk: jmp [0x888504], mss32.dll _AIL_set_stream_loop_count@8 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_loop_count@8 0x00855ccc   # import thunk: jmp [0x888430], mss32.dll _AIL_set_3D_sample_loop_count@8 by the import table (the DLL exports the decorated name)
+_AIL_stop_sample@4 0x00855cd2   # import thunk: jmp [0x888428], mss32.dll _AIL_stop_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_stop_3D_sample@4 0x00855cd8   # import thunk: jmp [0x888424], mss32.dll _AIL_stop_3D_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_resume_sample@4 0x00855cde   # import thunk: jmp [0x888500], mss32.dll _AIL_resume_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_resume_3D_sample@4 0x00855ce4   # import thunk: jmp [0x8884f0], mss32.dll _AIL_resume_3D_sample@4 by the import table (the DLL exports the decorated name)
+_AIL_set_sample_position@8 0x00855cea   # import thunk: jmp [0x8884f8], mss32.dll _AIL_set_sample_position@8 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_offset@8 0x00855cf0   # import thunk: jmp [0x8884f4], mss32.dll _AIL_set_3D_sample_offset@8 by the import table (the DLL exports the decorated name)
+_AIL_sample_status@4 0x00855cf6   # import thunk: jmp [0x8884e4], mss32.dll _AIL_sample_status@4 by the import table (the DLL exports the decorated name)
+_AIL_stream_status@4 0x00855cfc   # import thunk: jmp [0x8884ec], mss32.dll _AIL_stream_status@4 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_status@4 0x00855d02   # import thunk: jmp [0x8884e8], mss32.dll _AIL_3D_sample_status@4 by the import table (the DLL exports the decorated name)
+_AIL_sample_position@4 0x00855d08   # import thunk: jmp [0x8884d8], mss32.dll _AIL_sample_position@4 by the import table (the DLL exports the decorated name)
+_AIL_stream_ms_position@12 0x00855d0e   # import thunk: jmp [0x8884e0], mss32.dll _AIL_stream_ms_position@12 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_offset@4 0x00855d14   # import thunk: jmp [0x8884dc], mss32.dll _AIL_3D_sample_offset@4 by the import table (the DLL exports the decorated name)
+_AIL_WAV_info@8 0x00855d1a   # import thunk: jmp [0x8884cc], mss32.dll _AIL_WAV_info@8 by the import table (the DLL exports the decorated name)
+_AIL_set_stream_position@8 0x00855d20   # import thunk: jmp [0x8884d4], mss32.dll _AIL_set_stream_position@8 by the import table (the DLL exports the decorated name)
+_AIL_stream_position@4 0x00855d26   # import thunk: jmp [0x8884d0], mss32.dll _AIL_stream_position@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_effects_level@8 0x00855d2c   # import thunk: jmp [0x8884c0], mss32.dll _AIL_set_3D_sample_effects_level@8 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_effects_level@4 0x00855d32   # import thunk: jmp [0x8884c8], mss32.dll _AIL_3D_sample_effects_level@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_occlusion@8 0x00855d38   # import thunk: jmp [0x8884c4], mss32.dll _AIL_set_3D_sample_occlusion@8 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_occlusion@4 0x00855d3e   # import thunk: jmp [0x8884b4], mss32.dll _AIL_3D_sample_occlusion@4 by the import table (the DLL exports the decorated name)
+_AIL_set_3D_sample_obstruction@8 0x00855d44   # import thunk: jmp [0x8884bc], mss32.dll _AIL_set_3D_sample_obstruction@8 by the import table (the DLL exports the decorated name)
+_AIL_3D_sample_obstruction@4 0x00855d4a   # import thunk: jmp [0x8884b8], mss32.dll _AIL_3D_sample_obstruction@4 by the import table (the DLL exports the decorated name)
+_AIL_active_3D_sample_count@4 0x00855d50   # import thunk: jmp [0x888434], mss32.dll _AIL_active_3D_sample_count@4 by the import table (the DLL exports the decorated name)
+_BinkClose@4 0x00855d56   # import thunk: jmp [0x888404], binkw32.dll _BinkClose@4 by the import table (the DLL exports the decorated name)
+_BinkSetVolume@12 0x00855d5c   # import thunk: jmp [0x8883e0], binkw32.dll _BinkSetVolume@12 by the import table (the DLL exports the decorated name)
+_BinkOpen@8 0x00855d62   # import thunk: jmp [0x8883e4], binkw32.dll _BinkOpen@8 by the import table (the DLL exports the decorated name)
+_BinkSetSoundSystem@8 0x00855d68   # import thunk: jmp [0x8883dc], binkw32.dll _BinkSetSoundSystem@8 by the import table (the DLL exports the decorated name)
+_BinkOpenMiles@4 0x00855d6e   # import thunk: jmp [0x8883c8], binkw32.dll _BinkOpenMiles@4 by the import table (the DLL exports the decorated name)
+_BinkBufferSetOffset@12 0x00855d74   # import thunk: jmp [0x8883cc], binkw32.dll _BinkBufferSetOffset@12 by the import table (the DLL exports the decorated name)
+_BinkBufferOpen@16 0x00855d7a   # import thunk: jmp [0x8883d0], binkw32.dll _BinkBufferOpen@16 by the import table (the DLL exports the decorated name)
+_BinkBufferSetDirectDraw@8 0x00855d80   # import thunk: jmp [0x8883d4], binkw32.dll _BinkBufferSetDirectDraw@8 by the import table (the DLL exports the decorated name)
+_BinkNextFrame@4 0x00855d86   # import thunk: jmp [0x8883d8], binkw32.dll _BinkNextFrame@4 by the import table (the DLL exports the decorated name)
+_BinkCopyToBuffer@28 0x00855d8c   # import thunk: jmp [0x888400], binkw32.dll _BinkCopyToBuffer@28 by the import table (the DLL exports the decorated name)
+_BinkDoFrame@4 0x00855d92   # import thunk: jmp [0x8883fc], binkw32.dll _BinkDoFrame@4 by the import table (the DLL exports the decorated name)
+_BinkWait@4 0x00855d98   # import thunk: jmp [0x8883e8], binkw32.dll _BinkWait@4 by the import table (the DLL exports the decorated name)
+_BinkDDSurfaceType@4 0x00855d9e   # import thunk: jmp [0x8883ec], binkw32.dll _BinkDDSurfaceType@4 by the import table (the DLL exports the decorated name)
+_BinkBufferClose@4 0x00855da4   # import thunk: jmp [0x8883f0], binkw32.dll _BinkBufferClose@4 by the import table (the DLL exports the decorated name)
+_BinkGetRealtime@12 0x00855daa   # import thunk: jmp [0x8883f4], binkw32.dll _BinkGetRealtime@12 by the import table (the DLL exports the decorated name)
+_BinkGoto@12 0x00855db0   # import thunk: jmp [0x8883f8], binkw32.dll _BinkGoto@12 by the import table (the DLL exports the decorated name)
+_InitCommonControlsEx@4 0x0086efe6   # import thunk: jmp [0x888030], COMCTL32.dll InitCommonControlsEx by the import table; decorated as VC6's COMCTL32.LIB names it (__imp__InitCommonControlsEx@4)
+_GetStockObject@4 0x0086f730   # import thunk: jmp [0x888048], GDI32.dll GetStockObject by the import table; decorated as VC6's GDI32.LIB names it (__imp__GetStockObject@4)
+_EnterCriticalSection@4 0x0086f736   # import thunk: jmp [0x888148], KERNEL32.dll EnterCriticalSection by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__EnterCriticalSection@4)
+_InitializeCriticalSection@4 0x0086f73c   # import thunk: jmp [0x888158], KERNEL32.dll InitializeCriticalSection by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__InitializeCriticalSection@4)
+_InterlockedExchange@8 0x0086f742   # import thunk: jmp [0x888150], KERNEL32.dll InterlockedExchange by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__InterlockedExchange@8)
+_DeleteCriticalSection@4 0x0086f748   # import thunk: jmp [0x888154], KERNEL32.dll DeleteCriticalSection by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__DeleteCriticalSection@4)
+_LeaveCriticalSection@4 0x0086f74e   # import thunk: jmp [0x888164], KERNEL32.dll LeaveCriticalSection by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LeaveCriticalSection@4)
+_InterlockedDecrement@4 0x0086f754   # import thunk: jmp [0x88815c], KERNEL32.dll InterlockedDecrement by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__InterlockedDecrement@4)
+_InterlockedIncrement@4 0x0086f75a   # import thunk: jmp [0x888160], KERNEL32.dll InterlockedIncrement by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__InterlockedIncrement@4)
+_TerminateProcess@8 0x0086f766   # import thunk: jmp [0x888168], KERNEL32.dll TerminateProcess by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__TerminateProcess@8)
+_GetStartupInfoA@4 0x0086f76c   # import thunk: jmp [0x88816c], KERNEL32.dll GetStartupInfoA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetStartupInfoA@4)
+_GetCommandLineA@0 0x0086f772   # import thunk: jmp [0x88817c], KERNEL32.dll GetCommandLineA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCommandLineA@0)
+_GetVersion@0 0x0086f778   # import thunk: jmp [0x888174], KERNEL32.dll GetVersion by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetVersion@0)
+_HeapFree@12 0x0086f77e   # import thunk: jmp [0x888178], KERNEL32.dll HeapFree by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapFree@12)
+_HeapAlloc@12 0x0086f784   # import thunk: jmp [0x888188], KERNEL32.dll HeapAlloc by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapAlloc@12)
+_GetSystemTimeAsFileTime@4 0x0086f78a   # import thunk: jmp [0x888180], KERNEL32.dll GetSystemTimeAsFileTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetSystemTimeAsFileTime@4)
+_GetTimeZoneInformation@4 0x0086f790   # import thunk: jmp [0x888184], KERNEL32.dll GetTimeZoneInformation by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetTimeZoneInformation@4)
+_GetSystemTime@4 0x0086f796   # import thunk: jmp [0x888194], KERNEL32.dll GetSystemTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetSystemTime@4)
+_GetLocalTime@4 0x0086f79c   # import thunk: jmp [0x88818c], KERNEL32.dll GetLocalTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetLocalTime@4)
+_HeapReAlloc@16 0x0086f7a2   # import thunk: jmp [0x888190], KERNEL32.dll HeapReAlloc by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapReAlloc@16)
+_RaiseException@16 0x0086f7a8   # import thunk: jmp [0x8881a0], KERNEL32.dll RaiseException by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__RaiseException@16)
+_SetEnvironmentVariableA@8 0x0086f7ae   # import thunk: jmp [0x888198], KERNEL32.dll SetEnvironmentVariableA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetEnvironmentVariableA@8)
+_SetCurrentDirectoryA@4 0x0086f7b4   # import thunk: jmp [0x88819c], KERNEL32.dll SetCurrentDirectoryA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetCurrentDirectoryA@4)
+_GetFileAttributesA@4 0x0086f7ba   # import thunk: jmp [0x888228], KERNEL32.dll GetFileAttributesA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetFileAttributesA@4)
+_MoveFileA@8 0x0086f7c0   # import thunk: jmp [0x8881ac], KERNEL32.dll MoveFileA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__MoveFileA@8)
+_SetConsoleCtrlHandler@8 0x0086f7c6   # import thunk: jmp [0x8881b0], KERNEL32.dll SetConsoleCtrlHandler by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetConsoleCtrlHandler@8)
+_SetEndOfFile@4 0x0086f7cc   # import thunk: jmp [0x8881b4], KERNEL32.dll SetEndOfFile by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetEndOfFile@4)
+_ResumeThread@4 0x0086f7d2   # import thunk: jmp [0x8881b8], KERNEL32.dll ResumeThread by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ResumeThread@4)
+_CreateThread@24 0x0086f7d8   # import thunk: jmp [0x8881bc], KERNEL32.dll CreateThread by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CreateThread@24)
+_TlsSetValue@8 0x0086f7de   # import thunk: jmp [0x8881c0], KERNEL32.dll TlsSetValue by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__TlsSetValue@8)
+_ExitThread@4 0x0086f7e4   # import thunk: jmp [0x8881c4], KERNEL32.dll ExitThread by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__ExitThread@4)
+_FatalAppExitA@8 0x0086f7ea   # import thunk: jmp [0x8881c8], KERNEL32.dll FatalAppExitA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FatalAppExitA@8)
+_TlsAlloc@0 0x0086f7f0   # import thunk: jmp [0x8881cc], KERNEL32.dll TlsAlloc by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__TlsAlloc@0)
+_TlsFree@4 0x0086f7f6   # import thunk: jmp [0x8881d0], KERNEL32.dll TlsFree by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__TlsFree@4)
+_TlsGetValue@4 0x0086f7fc   # import thunk: jmp [0x8881d4], KERNEL32.dll TlsGetValue by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__TlsGetValue@4)
+_HeapSize@12 0x0086f802   # import thunk: jmp [0x8881d8], KERNEL32.dll HeapSize by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapSize@12)
+_GetCPInfo@8 0x0086f808   # import thunk: jmp [0x8881dc], KERNEL32.dll GetCPInfo by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCPInfo@8)
+_GetACP@0 0x0086f80e   # import thunk: jmp [0x888224], KERNEL32.dll GetACP by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetACP@0)
+_GetOEMCP@0 0x0086f814   # import thunk: jmp [0x888220], KERNEL32.dll GetOEMCP by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetOEMCP@0)
+_UnhandledExceptionFilter@4 0x0086f81a   # import thunk: jmp [0x888264], KERNEL32.dll UnhandledExceptionFilter by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__UnhandledExceptionFilter@4)
+_FreeEnvironmentStringsA@4 0x0086f820   # import thunk: jmp [0x888260], KERNEL32.dll FreeEnvironmentStringsA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FreeEnvironmentStringsA@4)
+_FreeEnvironmentStringsW@4 0x0086f826   # import thunk: jmp [0x88825c], KERNEL32.dll FreeEnvironmentStringsW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FreeEnvironmentStringsW@4)
+_WideCharToMultiByte@32 0x0086f82c   # import thunk: jmp [0x888258], KERNEL32.dll WideCharToMultiByte by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__WideCharToMultiByte@32)
+_GetEnvironmentStrings@0 0x0086f832   # import thunk: jmp [0x888254], KERNEL32.dll GetEnvironmentStrings by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetEnvironmentStrings@0)
+_GetEnvironmentStringsW@0 0x0086f838   # import thunk: jmp [0x888250], KERNEL32.dll GetEnvironmentStringsW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetEnvironmentStringsW@0)
+_SetHandleCount@4 0x0086f83e   # import thunk: jmp [0x88824c], KERNEL32.dll SetHandleCount by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetHandleCount@4)
+_GetFileType@4 0x0086f844   # import thunk: jmp [0x888248], KERNEL32.dll GetFileType by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetFileType@4)
+_GetEnvironmentVariableA@12 0x0086f84a   # import thunk: jmp [0x888244], KERNEL32.dll GetEnvironmentVariableA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetEnvironmentVariableA@12)
+_HeapDestroy@4 0x0086f850   # import thunk: jmp [0x888240], KERNEL32.dll HeapDestroy by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapDestroy@4)
+_HeapCreate@12 0x0086f856   # import thunk: jmp [0x88823c], KERNEL32.dll HeapCreate by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__HeapCreate@12)
+_VirtualFree@12 0x0086f85c   # import thunk: jmp [0x888238], KERNEL32.dll VirtualFree by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__VirtualFree@12)
+_VirtualAlloc@16 0x0086f862   # import thunk: jmp [0x888234], KERNEL32.dll VirtualAlloc by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__VirtualAlloc@16)
+_LCMapStringA@24 0x0086f868   # import thunk: jmp [0x888230], KERNEL32.dll LCMapStringA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LCMapStringA@24)
+_LCMapStringW@24 0x0086f86e   # import thunk: jmp [0x88822c], KERNEL32.dll LCMapStringW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LCMapStringW@24)
+_SetStdHandle@8 0x0086f874   # import thunk: jmp [0x88814c], KERNEL32.dll SetStdHandle by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetStdHandle@8)
+_FlushFileBuffers@4 0x0086f87a   # import thunk: jmp [0x888144], KERNEL32.dll FlushFileBuffers by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FlushFileBuffers@4)
+_GetStringTypeA@20 0x0086f880   # import thunk: jmp [0x8881a4], KERNEL32.dll GetStringTypeA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetStringTypeA@20)
+_GetStringTypeW@16 0x0086f886   # import thunk: jmp [0x88821c], KERNEL32.dll GetStringTypeW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetStringTypeW@16)
+_IsValidLocale@8 0x0086f88c   # import thunk: jmp [0x888218], KERNEL32.dll IsValidLocale by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__IsValidLocale@8)
+_IsValidCodePage@4 0x0086f892   # import thunk: jmp [0x888214], KERNEL32.dll IsValidCodePage by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__IsValidCodePage@4)
+_GetLocaleInfoA@16 0x0086f898   # import thunk: jmp [0x888210], KERNEL32.dll GetLocaleInfoA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetLocaleInfoA@16)
+_EnumSystemLocalesA@8 0x0086f89e   # import thunk: jmp [0x88820c], KERNEL32.dll EnumSystemLocalesA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__EnumSystemLocalesA@8)
+_GetUserDefaultLCID@0 0x0086f8a4   # import thunk: jmp [0x888208], KERNEL32.dll GetUserDefaultLCID by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetUserDefaultLCID@0)
+_CompareStringA@24 0x0086f8aa   # import thunk: jmp [0x888204], KERNEL32.dll CompareStringA by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CompareStringA@24)
+_CompareStringW@24 0x0086f8b0   # import thunk: jmp [0x888200], KERNEL32.dll CompareStringW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__CompareStringW@24)
+_IsBadReadPtr@8 0x0086f8b6   # import thunk: jmp [0x8881fc], KERNEL32.dll IsBadReadPtr by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__IsBadReadPtr@8)
+_IsBadCodePtr@4 0x0086f8bc   # import thunk: jmp [0x8881f8], KERNEL32.dll IsBadCodePtr by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__IsBadCodePtr@4)
+_GetLocaleInfoW@16 0x0086f8c2   # import thunk: jmp [0x8881f4], KERNEL32.dll GetLocaleInfoW by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetLocaleInfoW@16)
+_MessageBoxA@16 0x0086f8c8   # import thunk: jmp [0x888318], USER32.dll MessageBoxA by the import table; decorated as VC6's USER32.LIB names it (__imp__MessageBoxA@16)
+_RegisterClassA@4 0x0086f8ce   # import thunk: jmp [0x888314], USER32.dll RegisterClassA by the import table; decorated as VC6's USER32.LIB names it (__imp__RegisterClassA@4)
+_LoadCursorA@8 0x0086f8d4   # import thunk: jmp [0x888310], USER32.dll LoadCursorA by the import table; decorated as VC6's USER32.LIB names it (__imp__LoadCursorA@8)
+_LoadIconA@8 0x0086f8da   # import thunk: jmp [0x88830c], USER32.dll LoadIconA by the import table; decorated as VC6's USER32.LIB names it (__imp__LoadIconA@8)
+_FileTimeToSystemTime@8 0x00870f80   # import thunk: jmp [0x8881f0], KERNEL32.dll FileTimeToSystemTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FileTimeToSystemTime@8)
+_FileTimeToLocalFileTime@8 0x00870f86   # import thunk: jmp [0x8881ec], KERNEL32.dll FileTimeToLocalFileTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__FileTimeToLocalFileTime@8)
+_SetFileTime@16 0x00870f8c   # import thunk: jmp [0x8881e8], KERNEL32.dll SetFileTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SetFileTime@16)
+_LocalFileTimeToFileTime@8 0x00870f92   # import thunk: jmp [0x8881e4], KERNEL32.dll LocalFileTimeToFileTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__LocalFileTimeToFileTime@8)
+_SystemTimeToFileTime@8 0x00870f98   # import thunk: jmp [0x8881e0], KERNEL32.dll SystemTimeToFileTime by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__SystemTimeToFileTime@8)
+_DuplicateHandle@28 0x00870f9e   # import thunk: jmp [0x888140], KERNEL32.dll DuplicateHandle by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__DuplicateHandle@28)
+_GetFileInformationByHandle@8 0x00870fa4   # import thunk: jmp [0x88813c], KERNEL32.dll GetFileInformationByHandle by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetFileInformationByHandle@8)
+_PeekNamedPipe@24 0x00870faa   # import thunk: jmp [0x8881a8], KERNEL32.dll PeekNamedPipe by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__PeekNamedPipe@24)
+_GetCurrentProcessId@0 0x00870fb0   # import thunk: jmp [0x888138], KERNEL32.dll GetCurrentProcessId by the import table; decorated as VC6's KERNEL32.LIB names it (__imp__GetCurrentProcessId@0)
+
+# MSVC6 runtime (LIBCMT, LIBCPMT): identities only. The runtime's source is Microsoft's and is not part of this
+# tree; each name was matched against retail from the VC6 CRT source (the unit named), which a VC6 install ships.
+??_D?$basic_istream@DU?$char_traits@D@std@@@std@@QAEXXZ 0x00855e3f   # VC6 runtime, cpprt/iostream
+??_D?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 0x00855e83   # VC6 runtime, cpprt/iostream
+??0Init@ios_base@std@@QAE@XZ 0x00855f23   # VC6 runtime, cpprt/iostream
+??3@YAXPAX0@Z 0x008560a2   # VC6 runtime, cpprt/iostream
+??1Init@ios_base@std@@QAE@XZ 0x008560a3   # VC6 runtime, cpprt/iostream
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N1@Z 0x008560e6   # VC6 runtime, cpprt/iostream
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x00856150   # VC6 runtime, cpprt/iostream
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 0x008561af   # VC6 runtime, cpprt/iostream
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 0x008561f9   # VC6 runtime, cpprt/iostream
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 0x00856204   # VC6 runtime, cpprt/iostream
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x0085626c   # VC6 runtime, cpprt/iostream
+??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 0x008562cb   # VC6 runtime, cpprt/iostream
+??0locale@std@@QAE@XZ 0x0085632b   # VC6 runtime, cpprt/ios
+?_Incref@facet@locale@std@@QAEXXZ 0x00856359   # VC6 runtime, cpprt/ios
+??1locale@std@@QAE@XZ 0x0085637f   # VC6 runtime, cpprt/ios
+?_Decref@facet@locale@std@@QAEPAV123@XZ 0x00856397   # VC6 runtime, cpprt/ios
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 0x008563d0   # VC6 runtime, cpprt/iostream
+?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 0x008563de   # VC6 runtime, cpprt/iostream
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 0x008563e4   # VC6 runtime, cpprt/iostream
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x008563ea   # VC6 runtime, cpprt/iostream
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x008563ed   # VC6 runtime, cpprt/iostream
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x008563f1   # VC6 runtime, cpprt/iostream
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADH@Z 0x0085640e   # VC6 runtime, cpprt/iostream
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPBDH@Z 0x00856482   # VC6 runtime, cpprt/iostream
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 0x008564f8   # VC6 runtime, cpprt/iostream
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 0x0085651c   # VC6 runtime, cpprt/iostream
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PADH@Z 0x00856540   # VC6 runtime, cpprt/iostream
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x00856545   # VC6 runtime, cpprt/iostream
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z 0x00856548   # VC6 runtime, cpprt/iostream
+??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x0085654b   # VC6 runtime, cpprt/iostream
+??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 0x00856556   # VC6 runtime, cpprt/iostream
+?overflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 0x008565bb   # VC6 runtime, cpprt/iostream
+?pbackfail@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHH@Z 0x008566f1   # VC6 runtime, cpprt/iostream
+?underflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x0085679e   # VC6 runtime, cpprt/iostream
+?uflow@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x008567cb   # VC6 runtime, cpprt/iostream
+?seekoff@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 0x008568e0   # VC6 runtime, cpprt/iostream
+?seekpos@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 0x0085694f   # VC6 runtime, cpprt/iostream
+?setbuf@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PADH@Z 0x008569fe   # VC6 runtime, cpprt/iostream
+?sync@?$basic_filebuf@DU?$char_traits@D@std@@@std@@MAEHXZ 0x00856a29   # VC6 runtime, cpprt/iostream
+??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0x00856a42   # VC6 runtime, cpprt/iostream
+??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0x00856a61   # VC6 runtime, cpprt/iostream
+??_G?$basic_istream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0x00856a7d   # VC6 runtime, cpprt/iostream
+??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0x00856a9c   # VC6 runtime, cpprt/iostream
+??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAEPAXI@Z 0x00856ab8   # VC6 runtime, cpprt/iostream
+?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 0x00856ad4   # VC6 runtime, cpprt/iostream
+?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 0x00856b2d   # VC6 runtime, cpprt/ios
+?init@?$basic_ios@DU?$char_traits@D@std@@@std@@IAEXPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@_N@Z 0x00856b94   # VC6 runtime, cpprt/iostream
+??0?$fpos@H@std@@QAE@J@Z 0x00856bd4   # VC6 runtime, cpprt/iostream
+?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 0x00856c0e   # VC6 runtime, cpprt/iostream
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 0x00856c1e   # VC6 runtime, cpprt/iostream
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 0x00856c2e   # VC6 runtime, cpprt/iostream
+?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ 0x00856c3e   # VC6 runtime, cpprt/iostream
+?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 0x00856c65   # VC6 runtime, cpprt/iostream
+?_Freeze@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 0x00856cdd   # VC6 runtime, cpprt/iostream
+?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 0x00856d09   # VC6 runtime, cpprt/ios
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ 0x00856d3e   # VC6 runtime, cpprt/iostream
+?_Ungetc@std@@YA_NABDPAU_iobuf@@I@Z 0x00856d80   # VC6 runtime, cpprt/iostream
+??_D?$basic_istream@GU?$char_traits@G@std@@@std@@QAEXXZ 0x00856f1a   # VC6 runtime, cpprt/wiostrea
+??_D?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ 0x00856f5e   # VC6 runtime, cpprt/wiostrea
+??0_Winit@std@@QAE@XZ 0x00856fd1   # VC6 runtime, cpprt/wiostrea
+??1_Winit@std@@QAE@XZ 0x00857152   # VC6 runtime, cpprt/wiostrea
+??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@_N1@Z 0x00857195   # VC6 runtime, cpprt/wiostrea
+??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x008571ff   # VC6 runtime, cpprt/wiostrea
+?flush@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@XZ 0x0085725e   # VC6 runtime, cpprt/wiostrea
+??1?$basic_ios@GU?$char_traits@G@std@@@std@@UAE@XZ 0x008572a8   # VC6 runtime, cpprt/wiostrea
+??0?$basic_istream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@_N@Z 0x008572b3   # VC6 runtime, cpprt/wiostrea
+??0?$basic_istream@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x0085731b   # VC6 runtime, cpprt/wiostrea
+??0?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAE@PAU_iobuf@@@Z 0x0085737a   # VC6 runtime, cpprt/wiostrea
+??1?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAE@XZ 0x008573da   # VC6 runtime, cpprt/wiostrea
+?overflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGG@Z 0x008573e8   # VC6 runtime, cpprt/wiostrea
+?pbackfail@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGG@Z 0x008573ef   # VC6 runtime, cpprt/wiostrea
+?showmanyc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ 0x008573f6   # VC6 runtime, cpprt/wiostrea
+?underflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ 0x008573f9   # VC6 runtime, cpprt/wiostrea
+?uflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ 0x008573fe   # VC6 runtime, cpprt/wiostrea
+?xsgetn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHPAGH@Z 0x0085741f   # VC6 runtime, cpprt/wiostrea
+?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHPBGH@Z 0x008574a6   # VC6 runtime, cpprt/wiostrea
+?seekoff@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 0x0085752e   # VC6 runtime, cpprt/wiostrea
+?seekpos@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 0x00857552   # VC6 runtime, cpprt/wiostrea
+?setbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEPAV12@PAGH@Z 0x00857576   # VC6 runtime, cpprt/wiostrea
+?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ 0x0085757b   # VC6 runtime, cpprt/wiostrea
+?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z 0x0085757e   # VC6 runtime, cpprt/wiostrea
+??0?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAE@W4_Uninitialized@1@@Z 0x00857581   # VC6 runtime, cpprt/wiostrea
+??1?$basic_filebuf@GU?$char_traits@G@std@@@std@@UAE@XZ 0x0085758c   # VC6 runtime, cpprt/wiostrea
+?overflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGG@Z 0x008575f1   # VC6 runtime, cpprt/wiostrea
+?pbackfail@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGG@Z 0x00857739   # VC6 runtime, cpprt/wiostrea
+?underflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGXZ 0x008577f0   # VC6 runtime, cpprt/wiostrea
+?uflow@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEGXZ 0x0085781e   # VC6 runtime, cpprt/wiostrea
+?seekoff@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 0x0085793c   # VC6 runtime, cpprt/wiostrea
+?seekpos@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z 0x008579ab   # VC6 runtime, cpprt/wiostrea
+?setbuf@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@PAGH@Z 0x00857a5a   # VC6 runtime, cpprt/wiostrea
+?sync@?$basic_filebuf@GU?$char_traits@G@std@@@std@@MAEHXZ 0x00857a88   # VC6 runtime, cpprt/wiostrea
+??_G?$basic_ostream@GU?$char_traits@G@std@@@std@@UAEPAXI@Z 0x00857aa1   # VC6 runtime, cpprt/wiostrea
+??_G?$basic_ios@GU?$char_traits@G@std@@@std@@UAEPAXI@Z 0x00857ac0   # VC6 runtime, cpprt/wiostrea
+??_G?$basic_istream@GU?$char_traits@G@std@@@std@@UAEPAXI@Z 0x00857adc   # VC6 runtime, cpprt/wiostrea
+??_G?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAEPAXI@Z 0x00857afb   # VC6 runtime, cpprt/wiostrea
+??_G?$basic_filebuf@GU?$char_traits@G@std@@@std@@UAEPAXI@Z 0x00857b17   # VC6 runtime, cpprt/wiostrea
+?init@?$basic_ios@GU?$char_traits@G@std@@@std@@IAEXPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@_N@Z 0x00857b33   # VC6 runtime, cpprt/wiostrea
+?gbump@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXH@Z 0x00857b7d   # VC6 runtime, cpprt/wiostrea
+?_Gndec@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ 0x00857b91   # VC6 runtime, cpprt/wiostrea
+?_Gninc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ 0x00857ba2   # VC6 runtime, cpprt/wiostrea
+?pbump@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXH@Z 0x00857bb2   # VC6 runtime, cpprt/wiostrea
+?_Pninc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ 0x00857bc6   # VC6 runtime, cpprt/wiostrea
+?close@?$basic_filebuf@GU?$char_traits@G@std@@@std@@QAEPAV12@XZ 0x00857bd6   # VC6 runtime, cpprt/wiostrea
+?_Init@?$basic_filebuf@GU?$char_traits@G@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 0x00857bfd   # VC6 runtime, cpprt/wiostrea
+?_Init@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXXZ 0x00857c53   # VC6 runtime, cpprt/wiostrea
+?_Xlen@std@@YAXXZ 0x00857cd7   # VC6 runtime, cpprt/string
+??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0x00857d31   # VC6 runtime, cpprt/string
+?what@logic_error@std@@UBEPBDXZ 0x00857d95   # VC6 runtime, cpprt/string
+?_Doraise@logic_error@std@@MBEXXZ 0x00857da2   # VC6 runtime, cpprt/string
+??1logic_error@std@@UAE@XZ 0x00857dbf   # VC6 runtime, cpprt/string
+??_Glogic_error@std@@UAEPAXI@Z 0x00857dfc   # VC6 runtime, cpprt/string
+??0logic_error@std@@QAE@ABV01@@Z 0x00857e18   # VC6 runtime, cpprt/string
+??1length_error@std@@UAE@XZ 0x00857e75   # VC6 runtime, cpprt/string
+?_Doraise@length_error@std@@MBEXXZ 0x00857eb2   # VC6 runtime, cpprt/string
+??_Glength_error@std@@UAEPAXI@Z 0x00857ecf   # VC6 runtime, cpprt/string
+??0length_error@std@@QAE@ABV01@@Z 0x00857eeb   # VC6 runtime, cpprt/string
+?_Xran@std@@YAXXZ 0x00857f03   # VC6 runtime, cpprt/string
+??1out_of_range@std@@UAE@XZ 0x00857f5d   # VC6 runtime, cpprt/string
+?_Doraise@out_of_range@std@@MBEXXZ 0x00857f9a   # VC6 runtime, cpprt/string
+??_Gout_of_range@std@@UAEPAXI@Z 0x00857fb7   # VC6 runtime, cpprt/string
+??0out_of_range@std@@QAE@ABV01@@Z 0x00857fd3   # VC6 runtime, cpprt/string
+?uncaught_exception@std@@YA_NXZ 0x0085802d   # VC6 runtime, cpprt/uncaught
+?clear@ios_base@std@@QAEXH_N@Z 0x00858030   # VC6 runtime, cpprt/ios
+??0runtime_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0x008580cc   # VC6 runtime, cpprt/ios
+?what@runtime_error@std@@UBEPBDXZ 0x00858130   # VC6 runtime, cpprt/ios
+?_Doraise@runtime_error@std@@MBEXXZ 0x0085813d   # VC6 runtime, cpprt/ios
+??1runtime_error@std@@UAE@XZ 0x0085815a   # VC6 runtime, cpprt/ios
+??_Gruntime_error@std@@UAEPAXI@Z 0x00858197   # VC6 runtime, cpprt/ios
+??0runtime_error@std@@QAE@ABV01@@Z 0x008581b3   # VC6 runtime, cpprt/ios
+??1failure@ios_base@std@@UAE@XZ 0x00858210   # VC6 runtime, cpprt/ios
+?_Doraise@failure@ios_base@std@@MBEXXZ 0x0085824d   # VC6 runtime, cpprt/ios
+??_Gfailure@ios_base@std@@UAEPAXI@Z 0x0085826a   # VC6 runtime, cpprt/ios
+??0failure@ios_base@std@@QAE@ABV012@@Z 0x00858286   # VC6 runtime, cpprt/ios
+?copyfmt@ios_base@std@@QAEAAV12@ABV12@@Z 0x0085829e   # VC6 runtime, cpprt/ios
+??4locale@std@@QAEAAV01@ABV01@@Z 0x0085832f   # VC6 runtime, cpprt/ios
+?imbue@ios_base@std@@QAE?AVlocale@2@ABV32@@Z 0x0085835e   # VC6 runtime, cpprt/ios
+?register_callback@ios_base@std@@QAEXP6AXW4event@12@AAV12@H@ZH@Z 0x008583bd   # VC6 runtime, cpprt/ios
+??1ios_base@std@@UAE@XZ 0x008583f3   # VC6 runtime, cpprt/ios
+??_Gios_base@std@@UAEPAXI@Z 0x00858443   # VC6 runtime, cpprt/ios
+?_Callfns@ios_base@std@@AAEXW4event@12@@Z 0x0085845f   # VC6 runtime, cpprt/ios
+?_Findarr@ios_base@std@@AAEAAU_Iosarray@12@H@Z 0x00858481   # VC6 runtime, cpprt/ios
+?_Addstd@ios_base@std@@IAEXXZ 0x00858552   # VC6 runtime, cpprt/ios
+?_Init@ios_base@std@@IAEXXZ 0x008585a0   # VC6 runtime, cpprt/ios
+?_Tidy@ios_base@std@@AAEXXZ 0x008585d8   # VC6 runtime, cpprt/ios
+??0_Lockit@std@@QAE@XZ 0x0085861a   # VC6 runtime, cpprt/xlock
+?_CleanUp@std@@YAXXZ 0x00858698   # VC6 runtime, cpprt/xlock
+??1_Lockit@std@@QAE@XZ 0x008586b6   # VC6 runtime, cpprt/xlock
+?classic@locale@std@@SAABV12@XZ 0x008586ec   # VC6 runtime, cpprt/locale0
+?empty@locale@std@@SA?AV12@XZ 0x0085870c   # VC6 runtime, cpprt/locale0
+?_Getfacet@locale@std@@QBEPBVfacet@12@I_N@Z 0x00858753   # VC6 runtime, cpprt/locale0
+?_Iscloc@locale@std@@QBE_NXZ 0x008587a9   # VC6 runtime, cpprt/locale0
+??8locale@std@@QBE_NABV01@@Z 0x008587e4   # VC6 runtime, cpprt/locale0
+?name@locale@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ 0x008588b3   # VC6 runtime, cpprt/locale0
+?_Init@locale@std@@CAPAV_Locimp@12@XZ 0x008588ea   # VC6 runtime, cpprt/locale0
+?_Tidy@locale@std@@CAXXZ 0x008589b4   # VC6 runtime, cpprt/locale0
+??0_Locimp@locale@std@@AAE@_N@Z 0x008589fe   # VC6 runtime, cpprt/locale0
+??1facet@locale@std@@UAE@XZ 0x00858a70   # VC6 runtime, cpprt/locale0
+??_Gfacet@locale@std@@UAEPAXI@Z 0x00858a77   # VC6 runtime, cpprt/locale0
+??_G_Locimp@locale@std@@UAEPAXI@Z 0x00858a94   # VC6 runtime, cpprt/locale0
+??1_Locimp@locale@std@@UAE@XZ 0x00858ab0   # VC6 runtime, cpprt/locale0
+?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHABV12@@Z 0x00858b38   # VC6 runtime, cpprt/locale0
+?compare@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEHIIPBDI@Z 0x00858b5a   # VC6 runtime, cpprt/locale0
+__Mbrtowc 0x00858bff   # VC6 runtime, crt/xmbtowc
+__Mbrtowc_lk 0x00858c62   # VC6 runtime, crt/xmbtowc
+_btowc 0x00858d75   # VC6 runtime, crt/xmbtowc
+_mbrlen 0x00858db6   # VC6 runtime, crt/xmbtowc
+_mbrtowc 0x00858e21   # VC6 runtime, crt/xmbtowc
+_mbsrtowcs 0x00858eb2   # VC6 runtime, crt/xmbtowc
+?_Nomemory@std@@YAXXZ 0x00858fa7   # VC6 runtime, cpprt/nomemory
+??0bad_alloc@std@@QAE@PBD@Z 0x00858ff2   # VC6 runtime, cpprt/nomemory
+??1bad_alloc@std@@UAE@XZ 0x0085900b   # VC6 runtime, cpprt/nomemory
+?_Doraise@bad_alloc@std@@MBEXXZ 0x00859016   # VC6 runtime, cpprt/nomemory
+??_Gbad_alloc@std@@UAEPAXI@Z 0x00859033   # VC6 runtime, cpprt/nomemory
+??0bad_alloc@std@@QAE@ABV01@@Z 0x0085904f   # VC6 runtime, cpprt/nomemory
+?_JumpToContinuation@@YGXPAXPAUEHRegistrationNode@@@Z 0x00859071   # VC6 runtime, cpprt/trnsctrl
+?_CallMemberFunction0@@YGXPAX0@Z 0x008590a5   # VC6 runtime, cpprt/trnsctrl
+?_CallMemberFunction1@@YGXPAX00@Z 0x008590ac   # VC6 runtime, cpprt/trnsctrl
+?_CallMemberFunction2@@YGXPAX00H@Z 0x008590b3   # VC6 runtime, cpprt/trnsctrl
+?_UnwindNestedFrames@@YGXPAUEHRegistrationNode@@PAUEHExceptionRecord@@@Z 0x008590ba   # VC6 runtime, cpprt/trnsctrl
+___CxxFrameHandler 0x00859109   # VC6 runtime, cpprt/trnsctrl
+___CxxLongjmpUnwind@4 0x0085913f   # VC6 runtime, cpprt/trnsctrl
+?_CallCatchBlock2@@YAPAXPAUEHRegistrationNode@@PBU_s_FuncInfo@@PAXHK@Z 0x00859159   # VC6 runtime, cpprt/trnsctrl
+?CatchGuardHandler@@YA?AW4_EXCEPTION_DISPOSITION@@PAUEHExceptionRecord@@PAUCatchGuardRN@@PAX2@Z 0x008591ad   # VC6 runtime, cpprt/trnsctrl
+?_CallSETranslator@@YAHPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAX2PBU_s_FuncInfo@@H1@Z 0x008591d2   # VC6 runtime, cpprt/trnsctrl
+?TranslatorGuardHandler@@YA?AW4_EXCEPTION_DISPOSITION@@PAUEHExceptionRecord@@PAUTranslatorGuardRN@@PAX2@Z 0x00859288   # VC6 runtime, cpprt/trnsctrl
+?_GetRangeOfTrysToCheck@@YAPBU_s_TryBlockMapEntry@@PBU_s_FuncInfo@@HHPAI1@Z 0x008592fd   # VC6 runtime, cpprt/trnsctrl
+__onexit 0x00859466   # VC6 runtime, crt/onexit
+_atexit 0x008594e4   # VC6 runtime, crt/onexit
+___onexitinit 0x008594f6   # VC6 runtime, crt/onexit
+??_M@YGXPAXIHP6EX0@Z@Z 0x00859865   # VC6 runtime, cpprt/ehvecdtr
+?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 0x008598e5   # VC6 runtime, cpprt/ehvecdtr
+?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 0x00859943   # VC6 runtime, cpprt/ehvecdtr
+__fpmath 0x00859959   # VC6 runtime, crt/fpinit
+__fpclear 0x00859970   # VC6 runtime, crt/fpinit
+__cfltcvt_init 0x00859971   # VC6 runtime, crt/fpinit
+___setfflag 0x008599a9   # VC6 runtime, crt/fpinit
+_sprintf 0x008599b9   # VC6 runtime, crt/sprintf
+__purecall 0x00859a0b   # VC6 runtime, crt/purevirt
+_qsort 0x00859b52   # VC6 runtime, crt/qsort
+_shortsort 0x00859ca6   # VC6 runtime, crt/qsort
+_swap 0x00859cf4   # VC6 runtime, crt/qsort
+_wcslen 0x00859d47   # VC6 runtime, crt/wcslen
+??_L@YGXPAXIHP6EX0@Z1@Z 0x00859d64   # VC6 runtime, cpprt/ehvecctr
+_srand 0x00859de6   # VC6 runtime, crt/rand
+_rand 0x00859df3   # VC6 runtime, crt/rand
+__getcwd 0x00859eeb   # VC6 runtime, crt/getcwd
+__getdcwd 0x00859f12   # VC6 runtime, crt/getcwd
+__getdcwd_lk 0x00859f3b   # VC6 runtime, crt/getcwd
+__validdrive 0x0085a010   # VC6 runtime, crt/getcwd
+_fclose 0x0085a047   # VC6 runtime, crt/fclose
+__fclose_lk 0x0085a078   # VC6 runtime, crt/fclose
+__fsopen 0x0085a0c4   # VC6 runtime, crt/fopen
+_fopen 0x0085a0f5   # VC6 runtime, crt/fopen
+_abort 0x0085a108   # VC6 runtime, crt/abort
+_remove 0x0085a11f   # VC6 runtime, crt/unlink
+__unlink 0x0085a149   # VC6 runtime, crt/unlink
+_fwrite 0x0085a1e0   # VC6 runtime, crt/fwrite
+__fwrite_lk 0x0085a20f   # VC6 runtime, crt/fwrite
+__mbsrchr 0x0085a60b   # VC6 runtime, crt/mbsrchr
+__mbschr 0x0085a6b8   # VC6 runtime, crt/mbschr
+__vsnprintf 0x0085a84e   # VC6 runtime, crt/vsnprint
+_fprintf 0x0085a89e   # VC6 runtime, crt/fprintf
+_atof 0x0085a8da   # VC6 runtime, crt/atof
+__cinit 0x0085a981   # VC6 runtime, crt/crt0dat
+_exit 0x0085a9ae   # VC6 runtime, crt/crt0dat
+__exit 0x0085a9bf   # VC6 runtime, crt/crt0dat
+__cexit 0x0085a9d0   # VC6 runtime, crt/crt0dat
+__c_exit 0x0085a9df   # VC6 runtime, crt/crt0dat
+_doexit 0x0085a9ee   # VC6 runtime, crt/crt0dat
+__lockexit 0x0085aa93   # VC6 runtime, crt/crt0dat
+__unlockexit 0x0085aa9c   # VC6 runtime, crt/crt0dat
+__initterm 0x0085aaa5   # VC6 runtime, crt/crt0dat
+_printf 0x0085aabf   # VC6 runtime, crt/printf
+_floor 0x0085ab00   # VC6 runtime, crt/floor
+_strtok 0x0085abcf   # VC6 runtime, crt/strtok
+_WinMainCRTStartup 0x0085ac73   # VC6 runtime, crt/wincrt0
+__amsg_exit 0x0085ad7b   # VC6 runtime, crt/wincrt0
+_fast_error_exit 0x0085ada0   # VC6 runtime, crt/wincrt0
+_free 0x0085adc4   # VC6 runtime, crt/free
+__strdup 0x0085aead   # VC6 runtime, crt/strdup
+_atol 0x0085aed8   # VC6 runtime, crt/atox
+_atoi 0x0085af63   # VC6 runtime, crt/atox
+__atoi64 0x0085af6e   # VC6 runtime, crt/atox
+_malloc 0x0085b028   # VC6 runtime, crt/malloc
+__nh_malloc 0x0085b03a   # VC6 runtime, crt/malloc
+__heap_alloc 0x0085b066   # VC6 runtime, crt/malloc
+__tolower 0x0085b162   # VC6 runtime, crt/tolower
+_tolower 0x0085b16a   # VC6 runtime, crt/tolower
+__tolower_lk 0x0085b1d9   # VC6 runtime, crt/tolower
+_fgets 0x0085b380   # VC6 runtime, crt/fgets
+_clock 0x0085b3e2   # VC6 runtime, crt/clock
+___inittime 0x0085b425   # VC6 runtime, crt/clock
+_time 0x0085b45a   # VC6 runtime, crt/time
+_realloc 0x0085b536   # VC6 runtime, crt/realloc
+_fread 0x0085b865   # VC6 runtime, crt/fread
+__fread_lk 0x0085b894   # VC6 runtime, crt/fread
+??1type_info@@UAE@XZ 0x0085b97c   # VC6 runtime, cpprt/typinfo
+??_Gtype_info@@UAEPAXI@Z 0x0085b9a5   # VC6 runtime, cpprt/typinfo
+??8type_info@@QBEHABV0@@Z 0x0085b9c1   # VC6 runtime, cpprt/typinfo
+??9type_info@@QBEHABV0@@Z 0x0085b9dc   # VC6 runtime, cpprt/typinfo
+?before@type_info@@QBEHABV1@@Z 0x0085b9f8   # VC6 runtime, cpprt/typinfo
+?raw_name@type_info@@QBEPBDXZ 0x0085ba17   # VC6 runtime, cpprt/typinfo
+??0type_info@@AAE@ABV0@@Z 0x0085ba1b   # VC6 runtime, cpprt/typinfo
+??4type_info@@AAEAAV0@ABV0@@Z 0x0085ba26   # VC6 runtime, cpprt/typinfo
+__CxxThrowException@8 0x0085ba2b   # VC6 runtime, cpprt/throw
+__filelength 0x0085ba65   # VC6 runtime, crt/flength
+_fgetc 0x0085baef   # VC6 runtime, crt/fgetc
+_getc 0x0085bb20   # VC6 runtime, crt/fgetc
+_fputs 0x0085bb2b   # VC6 runtime, crt/fputs
+_fputc 0x0085bb79   # VC6 runtime, crt/fputc
+_putc 0x0085bbb4   # VC6 runtime, crt/fputc
+_fseek 0x0085bbc4   # VC6 runtime, crt/fseek
+__fseek_lk 0x0085bbf0   # VC6 runtime, crt/fseek
+_ftell 0x0085bc7d   # VC6 runtime, crt/ftell
+__ftell_lk 0x0085bc9f   # VC6 runtime, crt/ftell
+_clearerr 0x0085be00   # VC6 runtime, crt/clearerr
+_wcsstr 0x0085be41   # VC6 runtime, crt/wcsstr
+_wcscmp 0x0085be82   # VC6 runtime, crt/wcscmp
+___initstdio 0x0085beb7   # VC6 runtime, crt/_file
+___endstdio 0x0085bf5f   # VC6 runtime, crt/_file
+__lock_file 0x0085bf73   # VC6 runtime, crt/_file
+__lock_file2 0x0085bfa2   # VC6 runtime, crt/_file
+__unlock_file 0x0085bfc5   # VC6 runtime, crt/_file
+__unlock_file2 0x0085bff4   # VC6 runtime, crt/_file
+_vsprintf 0x0085c017   # VC6 runtime, crt/vsprintf
+_ctime 0x0085c068   # VC6 runtime, crt/ctime
+__chdir 0x0085c081   # VC6 runtime, crt/chdir
+__chmod 0x0085c107   # VC6 runtime, crt/chmod
+__splitpath 0x0085c146   # VC6 runtime, crt/splitpat
+_strtod 0x0085c28d   # VC6 runtime, crt/strtod
+_strtol 0x0085c337   # VC6 runtime, crt/strtol
+_strtoxl 0x0085c34e   # VC6 runtime, crt/strtol
+_strtoul 0x0085c553   # VC6 runtime, crt/strtol
+__ftime 0x0085c56a   # VC6 runtime, crt/ftime
+_fflush 0x0085c64f   # VC6 runtime, crt/fflush
+__fflush_lk 0x0085c67e   # VC6 runtime, crt/fflush
+__flush 0x0085c6ac   # VC6 runtime, crt/fflush
+__flushall 0x0085c708   # VC6 runtime, crt/fflush
+_flsall 0x0085c711   # VC6 runtime, crt/fflush
+_isleadbyte 0x0085c7b5   # VC6 runtime, crt/_wctype
+_iswalpha 0x0085c7ca   # VC6 runtime, crt/_wctype
+_iswupper 0x0085c7db   # VC6 runtime, crt/_wctype
+_iswlower 0x0085c7e9   # VC6 runtime, crt/_wctype
+_iswdigit 0x0085c7f7   # VC6 runtime, crt/_wctype
+_iswxdigit 0x0085c805   # VC6 runtime, crt/_wctype
+_iswspace 0x0085c816   # VC6 runtime, crt/_wctype
+_iswpunct 0x0085c824   # VC6 runtime, crt/_wctype
+_iswalnum 0x0085c832   # VC6 runtime, crt/_wctype
+_iswprint 0x0085c843   # VC6 runtime, crt/_wctype
+_iswgraph 0x0085c854   # VC6 runtime, crt/_wctype
+_iswcntrl 0x0085c865   # VC6 runtime, crt/_wctype
+_iswascii 0x0085c873   # VC6 runtime, crt/_wctype
+_getenv 0x0085c87f   # VC6 runtime, crt/getenv
+__getenv_lk 0x0085c8a0   # VC6 runtime, crt/getenv
+__isctype 0x0085c91d   # VC6 runtime, crt/isctype
+_frexp 0x0085c992   # VC6 runtime, crt/frexp
+_modf 0x0085ca42   # VC6 runtime, crt/modf
+__dosmaperr 0x0085cb64   # VC6 runtime, crt/dosmap
+__errno 0x0085cbd7   # VC6 runtime, crt/dosmap
+___doserrno 0x0085cbe0   # VC6 runtime, crt/dosmap
+_ceil 0x0085cbe9   # VC6 runtime, crt/ceil
+_strerror 0x0085ccb8   # VC6 runtime, crt/strerror
+_localeconv 0x0085cd08   # VC6 runtime, crt/lconv
+_setlocale 0x0085cd0e   # VC6 runtime, crt/setlocal
+__setlocale_set_cat 0x0085cf54   # VC6 runtime, crt/setlocal
+__setlocale_get_all 0x0085d06f   # VC6 runtime, crt/setlocal
+__expandlocale 0x0085d128   # VC6 runtime, crt/setlocal
+__strcats 0x0085d243   # VC6 runtime, crt/setlocal
+___lc_strtolc 0x0085d268   # VC6 runtime, crt/setlocal
+___lc_lctostr 0x0085d334   # VC6 runtime, crt/setlocal
+_strcoll 0x0085d387   # VC6 runtime, crt/strcoll
+_strxfrm 0x0085d456   # VC6 runtime, crt/strxfrm
+_ldexp 0x0085d54d   # VC6 runtime, crt/ldexp
+_gmtime 0x0085d733   # VC6 runtime, crt/gmtime
+_localtime 0x0085d83d   # VC6 runtime, crt/localtim
+__Getdays 0x0085d99d   # VC6 runtime, crt/strftime
+__Getmonths 0x0085da2c   # VC6 runtime, crt/strftime
+__Gettnames 0x0085dac1   # VC6 runtime, crt/strftime
+_strftime 0x0085dcf3   # VC6 runtime, crt/strftime
+__Strftime 0x0085dd0e   # VC6 runtime, crt/strftime
+__expandtime 0x0085de08   # VC6 runtime, crt/strftime
+__store_str 0x0085e1f7   # VC6 runtime, crt/strftime
+__store_num 0x0085e21e   # VC6 runtime, crt/strftime
+__store_number 0x0085e28d   # VC6 runtime, crt/strftime
+__store_winword 0x0085e2d6   # VC6 runtime, crt/strftime
+_asctime 0x0085e5a5   # VC6 runtime, crt/asctime
+_store_dt 0x0085e66f   # VC6 runtime, crt/asctime
+_mktime 0x0085e697   # VC6 runtime, crt/mktime
+__mkgmtime 0x0085e6a5   # VC6 runtime, crt/mktime
+__make_time_t 0x0085e6b3   # VC6 runtime, crt/mktime
+__toupper 0x0085e897   # VC6 runtime, crt/toupper
+_toupper 0x0085e89f   # VC6 runtime, crt/toupper
+__toupper_lk 0x0085e90e   # VC6 runtime, crt/toupper
+_rename 0x0085e9da   # VC6 runtime, crt/rename
+_fabs 0x0085ebc4   # VC6 runtime, crt/fabs
+__hypot 0x0085ec79   # VC6 runtime, crt/hypot
+__cabs 0x0085ec96   # VC6 runtime, crt/hypot
+__hypothlp 0x0085ecb3   # VC6 runtime, crt/hypot
+_vfprintf 0x0085f364   # VC6 runtime, crt/vfprintf
+_signal 0x0085f40e   # VC6 runtime, crt/winsig
+_ctrlevent_capture@4 0x0085f590   # VC6 runtime, crt/winsig
+_raise 0x0085f5f2   # VC6 runtime, crt/winsig
+_siglookup 0x0085f774   # VC6 runtime, crt/winsig
+___fpecode 0x0085f7b1   # VC6 runtime, crt/winsig
+___pxcptinfoptrs 0x0085f7ba   # VC6 runtime, crt/winsig
+_setvbuf 0x0085f7c3   # VC6 runtime, crt/setvbuf
+__chsize 0x0085f872   # VC6 runtime, crt/chsize
+__chsize_lk 0x0085f8cb   # VC6 runtime, crt/chsize
+__beginthread 0x0085fa95   # VC6 runtime, crt/thread
+__threadstart@4 0x0085fb0c   # VC6 runtime, crt/thread
+__endthread 0x0085fb9f   # VC6 runtime, crt/thread
+_sscanf 0x0085fbde   # VC6 runtime, crt/sscanf
+_isalpha 0x0085fc12   # VC6 runtime, crt/_ctype
+_isupper 0x0085fc40   # VC6 runtime, crt/_ctype
+_islower 0x0085fc68   # VC6 runtime, crt/_ctype
+_isdigit 0x0085fc90   # VC6 runtime, crt/_ctype
+_isxdigit 0x0085fcb8   # VC6 runtime, crt/_ctype
+_isspace 0x0085fce5   # VC6 runtime, crt/_ctype
+_ispunct 0x0085fd0d   # VC6 runtime, crt/_ctype
+_isalnum 0x0085fd35   # VC6 runtime, crt/_ctype
+_isprint 0x0085fd63   # VC6 runtime, crt/_ctype
+_isgraph 0x0085fd91   # VC6 runtime, crt/_ctype
+_iscntrl 0x0085fdbf   # VC6 runtime, crt/_ctype
+___isascii 0x0085fde7   # VC6 runtime, crt/_ctype
+___toascii 0x0085fdf4   # VC6 runtime, crt/_ctype
+___iscsymf 0x0085fdfc   # VC6 runtime, crt/_ctype
+___iscsym 0x0085fe39   # VC6 runtime, crt/_ctype
+__snprintf 0x0085fe76   # VC6 runtime, crt/snprintf
+_ungetc 0x00860305   # VC6 runtime, crt/ungetc
+__ungetc_lk 0x0086032e   # VC6 runtime, crt/ungetc
+_fgetpos 0x0086039c   # VC6 runtime, crt/fgetpos
+_fsetpos 0x008603be   # VC6 runtime, crt/fsetpos
+_fputwc 0x008604bb   # VC6 runtime, crt/fputwc
+__putwc_lk 0x008604e5   # VC6 runtime, crt/fputwc
+_putwc 0x008605de   # VC6 runtime, crt/fputwc
+_ungetwc 0x008605ee   # VC6 runtime, crt/ungetwc
+__ungetwc_lk 0x00860618   # VC6 runtime, crt/ungetwc
+_fgetwc 0x00860705   # VC6 runtime, crt/fgetwc
+__getwc_lk 0x00860728   # VC6 runtime, crt/fgetwc
+_getwc 0x00860819   # VC6 runtime, crt/fgetwc
+??0exception@@QAE@XZ 0x00860824   # VC6 runtime, cpprt/stdexcpt
+??_Gexception@@UAEPAXI@Z 0x00860835   # VC6 runtime, cpprt/stdexcpt
+??0exception@@QAE@ABQBD@Z 0x00860851   # VC6 runtime, cpprt/stdexcpt
+??0exception@@QAE@ABV0@@Z 0x0086088e   # VC6 runtime, cpprt/stdexcpt
+??4exception@@QAEAAV0@ABV0@@Z 0x008608d8   # VC6 runtime, cpprt/stdexcpt
+??1exception@@UAE@XZ 0x008608f7   # VC6 runtime, cpprt/stdexcpt
+?what@exception@@UBEPBDXZ 0x0086090d   # VC6 runtime, cpprt/stdexcpt
+__mtinitlocks 0x008609cc   # VC6 runtime, crt/mlock
+__mtdeletelocks 0x008609f5   # VC6 runtime, crt/mlock
+__lock 0x00860a61   # VC6 runtime, crt/mlock
+__unlock 0x00860ac2   # VC6 runtime, crt/mlock
+__lockerr_exit 0x00860ad7   # VC6 runtime, crt/mlock
+___InternalCxxFrameHandler 0x00860aef   # VC6 runtime, cpprt/frame
+?FindHandler@@YAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAU_CONTEXT@@PAXPBU_s_FuncInfo@@EH1@Z 0x00860b8a   # VC6 runtime, cpprt/frame
+?FindHandlerForForeignException@@YAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAU_CONTEXT@@PAXPBU_s_FuncInfo@@HH1@Z 0x00860d3d   # VC6 runtime, cpprt/frame
+?TypeMatch@@YAHPBU_s_HandlerType@@PBU_s_CatchableType@@PBU_s_ThrowInfo@@@Z 0x00860de7   # VC6 runtime, cpprt/frame
+___FrameUnwindToState 0x00860e44   # VC6 runtime, cpprt/frame
+?FrameUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 0x00860ee2   # VC6 runtime, cpprt/frame
+?CatchIt@@YAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAU_CONTEXT@@PAXPBU_s_FuncInfo@@PBU_s_HandlerType@@PBU_s_CatchableType@@PBU_s_TryBlockMapEntry@@H1E@Z 0x00860ef8   # VC6 runtime, cpprt/frame
+?CallCatchBlock@@YAPAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAU_CONTEXT@@PBU_s_FuncInfo@@PAXHK@Z 0x00860f73   # VC6 runtime, cpprt/frame
+?ExFilterRethrow@@YAHPAU_EXCEPTION_POINTERS@@@Z 0x0086108e   # VC6 runtime, cpprt/frame
+?BuildCatchObject@@YAXPAUEHExceptionRecord@@PAUEHRegistrationNode@@PBU_s_HandlerType@@PBU_s_CatchableType@@@Z 0x008610b8   # VC6 runtime, cpprt/frame
+?_DestructExceptionObject@@YAXPAUEHExceptionRecord@@E@Z 0x0086127c   # VC6 runtime, cpprt/frame
+?AdjustPointer@@YAPAXPAXABUPMD@@@Z 0x008612e3   # VC6 runtime, cpprt/frame
+__mtinit 0x0086135c   # VC6 runtime, crt/tidtable
+__mtterm 0x008613b0   # VC6 runtime, crt/tidtable
+__initptd 0x008613ce   # VC6 runtime, crt/tidtable
+__getptd 0x008613e1   # VC6 runtime, crt/tidtable
+__freeptd 0x00861448   # VC6 runtime, crt/tidtable
+?terminate@@YAXXZ 0x008614f4   # VC6 runtime, cpprt/hooks
+?unexpected@@YAXXZ 0x00861555   # VC6 runtime, cpprt/hooks
+?_inconsistency@@YAXXZ 0x0086156d   # VC6 runtime, cpprt/hooks
+__msize 0x008615c3   # VC6 runtime, crt/msize
+__setdefaultprecision 0x008616b1   # VC6 runtime, crt/fp8
+__ms_p5_test_fdiv 0x008616c3   # VC6 runtime, crt/testfdiv
+__ms_p5_mp_test_fdiv 0x00861701   # VC6 runtime, crt/testfdiv
+__forcdecpt 0x0086172a   # VC6 runtime, crt/cvt
+__cropzeros 0x00861784   # VC6 runtime, crt/cvt
+__positive 0x008617d2   # VC6 runtime, crt/cvt
+__fassign 0x008617ea   # VC6 runtime, crt/cvt
+__cftoe 0x00861828   # VC6 runtime, crt/cvt
+__cftoe2 0x00861889   # VC6 runtime, crt/cvt
+__cftof 0x0086194b   # VC6 runtime, crt/cvt
+__cftof2 0x008619a0   # VC6 runtime, crt/cvt
+__cftog 0x00861a47   # VC6 runtime, crt/cvt
+__cfltcvt 0x00861ada   # VC6 runtime, crt/cvt
+__shift 0x00861b2b   # VC6 runtime, crt/cvt
+__flsbuf 0x00861b50   # VC6 runtime, crt/_flsbuf
+__output 0x00861c68   # VC6 runtime, crt/output
+_write_char 0x008623a9   # VC6 runtime, crt/output
+_write_multi_char 0x008623de   # VC6 runtime, crt/output
+_write_string 0x0086240f   # VC6 runtime, crt/output
+_get_int_arg 0x00862447   # VC6 runtime, crt/output
+_get_int64_arg 0x00862454   # VC6 runtime, crt/output
+_get_short_arg 0x00862464   # VC6 runtime, crt/output
+__close 0x00863930   # VC6 runtime, crt/close
+__close_lk 0x0086398d   # VC6 runtime, crt/close
+__freebuf 0x00863a10   # VC6 runtime, crt/_freebuf
+__openfile 0x00863a3b   # VC6 runtime, crt/_open
+__getstream 0x00863bab   # VC6 runtime, crt/stream
+__FF_MSGBANNER 0x00863c73   # VC6 runtime, crt/crt0msg
+__NMSG_WRITE 0x00863cac   # VC6 runtime, crt/crt0msg
+__GET_RTERRMSG 0x00863dff   # VC6 runtime, crt/crt0msg
+__write 0x00863e30   # VC6 runtime, crt/write
+__write_lk 0x00863e95   # VC6 runtime, crt/write
+__powhlp 0x00864227   # VC6 runtime, crt/powhlp
+__d_inttype 0x00864357   # VC6 runtime, crt/powhlp
+__setmbcp 0x008643bc   # VC6 runtime, crt/mbctype
+_getSystemCP 0x00864569   # VC6 runtime, crt/mbctype
+_CPtoLCID 0x008645b3   # VC6 runtime, crt/mbctype
+_setSBCS 0x008645e6   # VC6 runtime, crt/mbctype
+_setSBUpLow 0x0086460f   # VC6 runtime, crt/mbctype
+__getmbcp 0x00864794   # VC6 runtime, crt/mbctype
+___initmbctable 0x008647a4   # VC6 runtime, crt/mbctype
+__stbuf 0x008647c0   # VC6 runtime, crt/_sftbuf
+__ftbuf 0x0086484d   # VC6 runtime, crt/_sftbuf
+__fltin2 0x00864877   # VC6 runtime, crt/cfin
+__handle_qnan1 0x008648f6   # VC6 runtime, crt/fpexcept
+__handle_qnan2 0x0086494a   # VC6 runtime, crt/fpexcept
+__except1 0x008649aa   # VC6 runtime, crt/fpexcept
+__except2 0x00864a42   # VC6 runtime, crt/fpexcept
+__raise_exc 0x00864ae7   # VC6 runtime, crt/fpexcept
+__handle_exc 0x00864d9a   # VC6 runtime, crt/fpexcept
+__umatherr 0x00864fb1   # VC6 runtime, crt/fpexcept
+__set_errno 0x00865039   # VC6 runtime, crt/fpexcept
+__get_fname 0x00865061   # VC6 runtime, crt/fpexcept
+__errcode 0x00865086   # VC6 runtime, crt/fpexcept
+__frnd 0x008650b3   # VC6 runtime, crt/frnd
+__set_exp 0x008650c5   # VC6 runtime, crt/util
+__get_exp 0x008650ee   # VC6 runtime, crt/util
+__add_exp 0x00865102   # VC6 runtime, crt/util
+__set_bexp 0x0086512e   # VC6 runtime, crt/util
+__sptype 0x00865152   # VC6 runtime, crt/util
+__decomp 0x008651ac   # VC6 runtime, crt/util
+__statfp 0x0086526d   # VC6 runtime, crt/fpctrl
+__clrfp 0x0086527b   # VC6 runtime, crt/fpctrl
+__ctrlfp 0x0086528a   # VC6 runtime, crt/fpctrl
+__set_statfp 0x008652ad   # VC6 runtime, crt/fpctrl
+__XcptFilter 0x00865303   # VC6 runtime, crt/winxfltr
+_xcptlookup 0x00865441   # VC6 runtime, crt/winxfltr
+__wincmdln 0x0086547b   # VC6 runtime, crt/wincmdln
+__setenvp 0x008654d3   # VC6 runtime, crt/stdenvp
+__setargv 0x0086558c   # VC6 runtime, crt/stdargv
+_parse_cmdline 0x00865625   # VC6 runtime, crt/stdargv
+___crtGetEnvironmentStringsA 0x008657d9   # VC6 runtime, crt/a_env
+__ioinit 0x0086590b   # VC6 runtime, crt/ioinit
+__ioterm 0x00865ac7   # VC6 runtime, crt/ioinit
+__GetLinkerVersion 0x00865b1b   # VC6 runtime, crt/heapinit
+___heap_select 0x00865b48   # VC6 runtime, crt/heapinit
+__heap_init 0x00865c90   # VC6 runtime, crt/heapinit
+__heap_term 0x00865ced   # VC6 runtime, crt/heapinit
+__get_sbh_threshold 0x00865d95   # VC6 runtime, crt/sbheap
+__set_sbh_threshold 0x00865db4   # VC6 runtime, crt/sbheap
+___sbh_heap_init 0x00865e67   # VC6 runtime, crt/sbheap
+___sbh_find_block 0x00865eaf   # VC6 runtime, crt/sbheap
+___sbh_free_block 0x00865eda   # VC6 runtime, crt/sbheap
+___sbh_alloc_block 0x00866203   # VC6 runtime, crt/sbheap
+___sbh_alloc_new_region 0x0086650c   # VC6 runtime, crt/sbheap
+___sbh_alloc_new_group 0x008665bd   # VC6 runtime, crt/sbheap
+___sbh_resize_block 0x008666b8   # VC6 runtime, crt/sbheap
+___sbh_heapmin 0x008669ae   # VC6 runtime, crt/sbheap
+___sbh_heap_check 0x00866a7f   # VC6 runtime, crt/sbheap
+__get_old_sbh_threshold 0x00866dae   # VC6 runtime, crt/sbheap
+__set_old_sbh_threshold 0x00866db4   # VC6 runtime, crt/sbheap
+___old_sbh_new_region 0x00866dd0   # VC6 runtime, crt/sbheap
+___old_sbh_release_region 0x00866f14   # VC6 runtime, crt/sbheap
+___old_sbh_decommit_pages 0x00866f6a   # VC6 runtime, crt/sbheap
+___old_sbh_find_block 0x0086702c   # VC6 runtime, crt/sbheap
+___old_sbh_free_block 0x00867083   # VC6 runtime, crt/sbheap
+___old_sbh_alloc_block 0x008670c8   # VC6 runtime, crt/sbheap
+___old_sbh_alloc_block_from_page 0x008672d0   # VC6 runtime, crt/sbheap
+___old_sbh_resize_block 0x008673f4   # VC6 runtime, crt/sbheap
+___old_sbh_heap_check 0x0086749d   # VC6 runtime, crt/sbheap
+?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z 0x008675fb   # VC6 runtime, cpprt/handler
+?_query_new_handler@@YAP6AHI@ZXZ 0x0086761f   # VC6 runtime, cpprt/handler
+__callnewh 0x00867625   # VC6 runtime, cpprt/handler
+___crtLCMapStringA 0x00867640   # VC6 runtime, crt/a_map
+__filbuf 0x0086788f   # VC6 runtime, crt/_filbuf
+___loctotime_t 0x008679d8   # VC6 runtime, crt/dtoxtime
+__read 0x00867a9a   # VC6 runtime, crt/read
+__read_lk 0x00867aff   # VC6 runtime, crt/read
+?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 0x00867d64   # VC6 runtime, cpprt/unhandld
+?__CxxSetUnhandledExceptionFilter@@YAXXZ 0x00867daa   # VC6 runtime, cpprt/unhandld
+?__CxxRestoreUnhandledExceptionFilter@@YAXXZ 0x00867dbb   # VC6 runtime, cpprt/unhandld
+__alloc_osfhnd 0x00867dc8   # VC6 runtime, crt/osfinfo
+__set_osfhnd 0x00867eeb   # VC6 runtime, crt/osfinfo
+__free_osfhnd 0x00867f67   # VC6 runtime, crt/osfinfo
+__get_osfhandle 0x00867fe6   # VC6 runtime, crt/osfinfo
+__open_osfhandle 0x00868028   # VC6 runtime, crt/osfinfo
+__lock_fhandle 0x008680cf   # VC6 runtime, crt/osfinfo
+__unlock_fhandle 0x0086812e   # VC6 runtime, crt/osfinfo
+__lseek 0x00868150   # VC6 runtime, crt/lseek
+__lseek_lk 0x008681b5   # VC6 runtime, crt/lseek
+_calloc 0x00868228   # VC6 runtime, crt/calloc
+__fcloseall 0x00868365   # VC6 runtime, crt/closeall
+__mbctoupper 0x008683e6   # VC6 runtime, crt/mbtoupr
+__mbsnbcpy 0x00868461   # VC6 runtime, crt/mbsnbcpy
+___tzset 0x008684fb   # VC6 runtime, crt/tzset
+__tzset 0x00868529   # VC6 runtime, crt/tzset
+__tzset_lk 0x0086853f   # VC6 runtime, crt/tzset
+__isindst 0x008687c6   # VC6 runtime, crt/tzset
+__isindst_lk 0x008687e7   # VC6 runtime, crt/tzset
+_cvtdate 0x00868993   # VC6 runtime, crt/tzset
+__commit 0x00868b55   # VC6 runtime, crt/commit
+_iswctype 0x00868be8   # VC6 runtime, crt/iswctype
+_is_wctype 0x00868c3a   # VC6 runtime, crt/iswctype
+__mbsnbicoll 0x00868c4a   # VC6 runtime, crt/mbsnbico
+___wtomb_environ 0x00868c89   # VC6 runtime, crt/wtombenv
+___crtGetStringTypeA 0x00868cf7   # VC6 runtime, crt/a_str
+__copysign 0x00868e40   # VC6 runtime, crt/ieeemisc
+__chgsign 0x00868e61   # VC6 runtime, crt/ieeemisc
+__scalb 0x00868e86   # VC6 runtime, crt/ieeemisc
+__logb 0x00868e9c   # VC6 runtime, crt/ieeemisc
+__nextafter 0x00868f83   # VC6 runtime, crt/ieeemisc
+__finite 0x00869218   # VC6 runtime, crt/ieeemisc
+__isnan 0x0086922c   # VC6 runtime, crt/ieeemisc
+__fpclass 0x0086925a   # VC6 runtime, crt/ieeemisc
+___init_time 0x008692ec   # VC6 runtime, crt/inittime
+__get_lc_time 0x0086937d   # VC6 runtime, crt/inittime
+__free_lc_time 0x008696cb   # VC6 runtime, crt/inittime
+___init_numeric 0x0086985b   # VC6 runtime, crt/initnum
+_fix_grouping 0x00869a30   # VC6 runtime, crt/initmon
+___init_monetary 0x00869a67   # VC6 runtime, crt/initmon
+__get_lc_lconv 0x00869b32   # VC6 runtime, crt/initmon
+__free_lc_lconv 0x00869c8b   # VC6 runtime, crt/initmon
+___init_ctype 0x00869cd9   # VC6 runtime, crt/initctyp
+___init_collate 0x00869f1e   # VC6 runtime, crt/initcoll
+___get_qualified_locale 0x00869faa   # VC6 runtime, crt/getqloc
+_TranslateName 0x0086a127   # VC6 runtime, crt/getqloc
+_GetLcidFromLangCountry 0x0086a17f   # VC6 runtime, crt/getqloc
+_LangCountryEnumProc@4 0x0086a206   # VC6 runtime, crt/getqloc
+_GetLcidFromLanguage 0x0086a40a   # VC6 runtime, crt/getqloc
+_LanguageEnumProc@4 0x0086a460   # VC6 runtime, crt/getqloc
+_GetLcidFromCountry 0x0086a51d   # VC6 runtime, crt/getqloc
+_CountryEnumProc@4 0x0086a554   # VC6 runtime, crt/getqloc
+_GetLcidFromDefault 0x0086a5da   # VC6 runtime, crt/getqloc
+_ProcessCodePage 0x0086a5f4   # VC6 runtime, crt/getqloc
+_TestDefaultCountry 0x0086a65a   # VC6 runtime, crt/getqloc
+_TestDefaultLanguage 0x0086a679   # VC6 runtime, crt/getqloc
+_IsThisWindowsNT 0x0086a6db   # VC6 runtime, crt/getqloc
+_crtGetLocaleInfoA@16 0x0086a711   # VC6 runtime, crt/getqloc
+_LcidFromHexString 0x0086a7f7   # VC6 runtime, crt/getqloc
+_GetPrimaryLen 0x0086a830   # VC6 runtime, crt/getqloc
+___crtCompareStringA 0x0086a851   # VC6 runtime, crt/a_cmp
+_strncnt 0x0086aace   # VC6 runtime, crt/a_cmp
+__setmode 0x0086acac   # VC6 runtime, crt/setmode
+__setmode_lk 0x0086ad05   # VC6 runtime, crt/setmode
+__input 0x0086ad66   # VC6 runtime, crt/input
+__hextodec 0x0086b78b   # VC6 runtime, crt/input
+__inc 0x0086b7c2   # VC6 runtime, crt/input
+__un_inc 0x0086b7dc   # VC6 runtime, crt/input
+__whiteout 0x0086b7f3   # VC6 runtime, crt/input
+__getbuf 0x0086b817   # VC6 runtime, crt/_getbuf
+__ftelli64 0x0086b85b   # VC6 runtime, crt/ftelli64
+__ftelli64_lk 0x0086b883   # VC6 runtime, crt/ftelli64
+__fseeki64 0x0086ba13   # VC6 runtime, crt/fseeki64
+__fseeki64_lk 0x0086ba42   # VC6 runtime, crt/fseeki64
+__flswbuf 0x0086bad3   # VC6 runtime, crt/_flswbuf
+_wctomb 0x0086bbfa   # VC6 runtime, crt/wctomb
+__wctomb_lk 0x0086bc53   # VC6 runtime, crt/wctomb
+__filwbuf 0x0086bcbc   # VC6 runtime, crt/_filwbuf
+_mbtowc 0x0086bda3   # VC6 runtime, crt/mbtowc
+__mbtowc_lk 0x0086be00   # VC6 runtime, crt/mbtowc
+?_ValidateRead@@YAHPBXI@Z 0x0086bec9   # VC6 runtime, cpprt/validate
+?_ValidateWrite@@YAHPAXI@Z 0x0086bee5   # VC6 runtime, cpprt/validate
+?_ValidateExecute@@YAHP6GHXZ@Z 0x0086bf01   # VC6 runtime, cpprt/validate
+__statusfp 0x0086bf19   # VC6 runtime, crt/ieee87
+__clearfp 0x0086bf2c   # VC6 runtime, crt/ieee87
+__control87 0x0086bf40   # VC6 runtime, crt/ieee87
+__controlfp 0x0086bf75   # VC6 runtime, crt/ieee87
+__fpreset 0x0086bf8b   # VC6 runtime, crt/ieee87
+__abstract_cw 0x0086bfb6   # VC6 runtime, crt/ieee87
+__hw_cw 0x0086c048   # VC6 runtime, crt/ieee87
+__abstract_sw 0x0086c0d1   # VC6 runtime, crt/ieee87
+__ZeroTail 0x0086c106   # VC6 runtime, crt/intrncvt
+__IncMan 0x0086c14f   # VC6 runtime, crt/intrncvt
+__RoundMan 0x0086c1a5   # VC6 runtime, crt/intrncvt
+__CopyMan 0x0086c231   # VC6 runtime, crt/intrncvt
+__FillZeroMan 0x0086c24c   # VC6 runtime, crt/intrncvt
+__IsZeroMan 0x0086c258   # VC6 runtime, crt/intrncvt
+__ShrMan 0x0086c273   # VC6 runtime, crt/intrncvt
+__ld12cvt 0x0086c300   # VC6 runtime, crt/intrncvt
+__ld12tod 0x0086c46c   # VC6 runtime, crt/intrncvt
+__ld12tof 0x0086c482   # VC6 runtime, crt/intrncvt
+__ld12told 0x0086c498   # VC6 runtime, crt/intrncvt
+__atodbl 0x0086c512   # VC6 runtime, crt/intrncvt
+__atoldbl 0x0086c53f   # VC6 runtime, crt/intrncvt
+__atoflt 0x0086c56d   # VC6 runtime, crt/intrncvt
+__fptostr 0x0086c59a   # VC6 runtime, crt/_fptostr
+__fltout2 0x0086c611   # VC6 runtime, crt/cfout
+___dtold 0x0086c66d   # VC6 runtime, crt/cfout
+__fptrap 0x0086c723   # VC6 runtime, crt/crt0fp
+__isatty 0x0086c72c   # VC6 runtime, crt/isatty
+__87except 0x0086c755   # VC6 runtime, crt/87except
+__open 0x0086c825   # VC6 runtime, crt/open
+__sopen 0x0086c83c   # VC6 runtime, crt/open
+___crtMessageBoxA 0x0086cb0b   # VC6 runtime, crt/crtmbox
+___strgtold12 0x0086cb94   # VC6 runtime, crt/strgtold
+___STRINGTOLD 0x0086d065   # VC6 runtime, crt/strgtold
+__matherr 0x0086d0a1   # VC6 runtime, crt/matherr
+__ismbbkalnum 0x0086d0a4   # VC6 runtime, crt/ismbbyte
+__ismbbkprint 0x0086d0b5   # VC6 runtime, crt/ismbbyte
+__ismbbkpunct 0x0086d0c6   # VC6 runtime, crt/ismbbyte
+__ismbbalnum 0x0086d0d7   # VC6 runtime, crt/ismbbyte
+__ismbbalpha 0x0086d0eb   # VC6 runtime, crt/ismbbyte
+__ismbbgraph 0x0086d0ff   # VC6 runtime, crt/ismbbyte
+__ismbbprint 0x0086d113   # VC6 runtime, crt/ismbbyte
+__ismbbpunct 0x0086d127   # VC6 runtime, crt/ismbbyte
+__ismbblead 0x0086d138   # VC6 runtime, crt/ismbbyte
+__ismbbtrail 0x0086d149   # VC6 runtime, crt/ismbbyte
+__ismbbkana 0x0086d15a   # VC6 runtime, crt/ismbbyte
+_x_ismbbtype 0x0086d181   # VC6 runtime, crt/ismbbyte
+___crtGetStringTypeW 0x0086d1b2   # VC6 runtime, crt/w_str
+___crtsetenv 0x0086d377   # VC6 runtime, crt/setenv
+_findenv 0x0086d4fe   # VC6 runtime, crt/setenv
+_copy_environ 0x0086d556   # VC6 runtime, crt/setenv
+___getlocaleinfo 0x0086d5bd   # VC6 runtime, crt/inithelp
+__itoa 0x0086d6f5   # VC6 runtime, crt/xtoa
+_xtoa 0x0086d722   # VC6 runtime, crt/xtoa
+__ltoa 0x0086d77e   # VC6 runtime, crt/xtoa
+__ultoa 0x0086d7a8   # VC6 runtime, crt/xtoa
+__i64toa 0x0086d7c3   # VC6 runtime, crt/xtoa
+_x64toa@20 0x0086d7f4   # VC6 runtime, crt/xtoa
+__ui64toa 0x0086d87a   # VC6 runtime, crt/xtoa
+__lseeki64 0x0086d9a1   # VC6 runtime, crt/lseeki64
+__lseeki64_lk 0x0086da12   # VC6 runtime, crt/lseeki64
+___addl 0x0086da97   # VC6 runtime, crt/mantold
+___add_12 0x0086dab8   # VC6 runtime, crt/mantold
+___shl_12 0x0086db16   # VC6 runtime, crt/mantold
+___shr_12 0x0086db44   # VC6 runtime, crt/mantold
+___mtold12 0x0086db71   # VC6 runtime, crt/mantold
+_$I10_OUTPUT 0x0086dc38   # VC6 runtime, crt/x10fout
+___ld12mul 0x0086decb   # VC6 runtime, crt/tenpow
+___multtenpow12 0x0086e0eb   # VC6 runtime, crt/tenpow
+___crtGetLocaleInfoW 0x0086e167   # VC6 runtime, crt/w_loc
+___crtGetLocaleInfoA 0x0086e27a   # VC6 runtime, crt/a_loc
+__wcsicmp 0x0086f8e0   # VC6 runtime, crt/wcsicmp
+__fileno 0x0086f9bf   # VC6 runtime, crt/fileno
+___dtoxmode 0x0086f9c7   # VC6 runtime, crt/stat
+__stat 0x0086fa7f   # VC6 runtime, crt/stat
+_IsRootUNCName 0x0086fd3a   # VC6 runtime, crt/stat
+__strupr 0x0086fdaa   # VC6 runtime, crt/strupr
+__access 0x0086fede   # VC6 runtime, crt/access
+__mkdir 0x0086ff24   # VC6 runtime, crt/mkdir
+__rmdir 0x0086ff50   # VC6 runtime, crt/rmdir
+__utime 0x0086ff7a   # VC6 runtime, crt/utime
+__futime 0x0086ffb1   # VC6 runtime, crt/utime
+__dup 0x008700e8   # VC6 runtime, crt/dup
+__dup2 0x008701f0   # VC6 runtime, crt/dup2
+_extend_ioinfo_arrays 0x00870361   # VC6 runtime, crt/dup2
+__fstat 0x008703cb   # VC6 runtime, crt/fstat
+__fdopen 0x0087065e   # VC6 runtime, crt/fdopen
+__getpid 0x00870751   # VC6 runtime, crt/getpid
+__makepath 0x00870757   # VC6 runtime, crt/makepath
+_towlower 0x008707e8   # VC6 runtime, crt/towlower
+__towlower_lk 0x00870862   # VC6 runtime, crt/towlower
+__mbsicmp 0x008708d7   # VC6 runtime, crt/mbsicmp
+__fullpath 0x00870a6c   # VC6 runtime, crt/fullpath
+__getdrive 0x00870b11   # VC6 runtime, crt/drive
+__chdrive 0x00870b54   # VC6 runtime, crt/drive
+__mbctolower 0x00870bc7   # VC6 runtime, crt/mbtolwr
+__mbspbrk 0x00870c42   # VC6 runtime, crt/mbspbrk
+__mbsdec 0x00870cd7   # VC6 runtime, crt/mbsdec
+___crtLCMapStringW 0x00870d44   # VC6 runtime, crt/w_map
+_wcsncnt 0x00870f4d   # VC6 runtime, crt/w_map
+?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A 0x009b3638   # VC6 runtime, cpprt/iostream (std::cerr)

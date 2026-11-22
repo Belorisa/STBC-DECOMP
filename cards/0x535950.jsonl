@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-11", "commit": "b21a6bb535", "from": null, "to": 96.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 96.8, "to": 96.8, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 96.8, "to": 96.8, "how": "sched triage: (b) latency/x87/height, height: three byte stores of ebx against the preceding instruction; the stores have equal priority only after a height that retail does not have (not a tie)", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-95", "commit": "fb95c15932", "from": 96.8, "to": 100.0, "status": "MATCH"}

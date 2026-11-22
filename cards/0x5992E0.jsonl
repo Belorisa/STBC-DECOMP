@@ -1,0 +1,2 @@
+{"date": "2026-11-10", "kind": "score", "lane": "fable-nebula", "commit": "97a1cf78b5", "from": null, "to": 100.0, "status": "REFERENT"}
+{"date": "2026-11-11", "kind": "score", "lane": "refine-95", "commit": "d6617011d2", "from": 100.0, "to": 100.0, "status": "MATCH"}

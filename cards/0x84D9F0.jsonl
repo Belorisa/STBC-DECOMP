@@ -1,0 +1,4 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-50", "commit": "c38c1ff50a", "from": null, "to": 63.8, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-ni", "by": "opus", "from": 63.8, "to": 68.3, "how": "c2trace arithmetic: Realloc cost C must be 127-128 for retail's in/out/out/in/out/in over the six Adds (floor budget 1000); NiTSet::Realloc with the size test nested in the maxSize test (Gamebryo 1.1.2's shape, its inner test an assert) costs 127 and gives retail's call set (63.8 -> 68.3); left: retail's frame is 4 bytes larger with a zeroed slot (a running index in memory) and the segment count in ebx", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-ni", "commit": "427115440b", "from": 63.8, "to": 68.3, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 68.3, "to": 100.0, "status": "MATCH"}

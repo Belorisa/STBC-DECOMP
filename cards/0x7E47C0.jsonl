@@ -1,0 +1,3 @@
+{"date": "2026-10-28", "kind": "score", "lane": "netimmerse-8", "commit": "4f0754f6d4", "from": null, "to": 44.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-ni", "by": "opus", "from": 44.8, "to": 44.8, "how": "Gamebryo 1.2.2's early return on !Find: unchanged 44.8 (inline boundary of Remove)", "wall": "inline"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-40", "commit": "f2f5f34c53", "from": 44.8, "to": 100.0, "status": "MATCH"}

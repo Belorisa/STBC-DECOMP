@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-82", "commit": "36469e1db0", "from": null, "to": 94.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 94.4, "to": 94.4, "how": "state as GetColorDepth() == 16 ? 0 : 1: 94.4, the compare still sinks below the toggle's NULL test", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 94.4, "to": 94.4, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 94.4, "to": 94.4, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov edx, dword ptr [ecx + 0x14]\" retail \"push eax\"", "wall": "register"}

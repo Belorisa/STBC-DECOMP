@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-15", "commit": "8b45ef0ace", "from": null, "to": 58.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 58.3, "to": 0.0, "how": "accessor reads instead of members (tools sweep): NUM_SHIELDS->GetNumShields 0.0", "wall": "register"}
+{"date": "2026-11-22", "kind": "try", "lane": "sub80-a", "by": "opus", "from": 58.3, "to": 93.6, "how": "structure: the inner loop breaks once a facing fills (retail's full arm falls out to total = remaining; done = false in both arms) 58.3 -> 90.6; full zeroed by memset (retail's dword+word store through one zero register) 93.6; residue the schedule of the two 0.0f loads and the memset's zero register (ours eax before this moves to edi); declaration order A/B neutral", "wall": "register"}
+{"date": "2026-11-22", "kind": "score", "lane": "sub80-a", "commit": "84f791f64b", "from": 58.3, "to": 93.6, "status": "DIFF"}

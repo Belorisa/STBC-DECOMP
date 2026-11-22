@@ -1,0 +1,229 @@
+/*
+===============================================================================
+
+	TGMouseEvent.cpp
+
+===============================================================================
+*/
+
+#include <iostream>
+#include "TGMouseEvent.h"
+#include "TGStream.h"
+#include "NiMain.h"
+
+// The standard streams' initialisers and exit-time destructors (<iostream>).
+// FUNCTION: STBC 0x006e7cf0 _$E32
+// FUNCTION: STBC 0x006e7d00 _$E29
+// FUNCTION: STBC 0x006e7d10 _$E31
+// FUNCTION: STBC 0x006e7d20 _$E30
+// FUNCTION: STBC 0x006e7d30 _$E38
+// FUNCTION: STBC 0x006e7d40 _$E35
+// FUNCTION: STBC 0x006e7d50 _$E37
+// FUNCTION: STBC 0x006e7d60 _$E36
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x006e7d70 _$E58
+// FUNCTION: STBC 0x006e7d80 _$E57
+// FUNCTION: STBC 0x006e7d90 _$E73
+// FUNCTION: STBC 0x006e7da0 _$E72
+// FUNCTION: STBC 0x006e7db0 _$E77
+// FUNCTION: STBC 0x006e7dc0 _$E76
+// FUNCTION: STBC 0x006e7dd0 _$E81
+// FUNCTION: STBC 0x006e7de0 _$E80
+// FUNCTION: STBC 0x006e7df0 _$E85
+// FUNCTION: STBC 0x006e7e00 _$E84
+// FUNCTION: STBC 0x006e7e10 _$E209
+// FUNCTION: STBC 0x006e7e20 _$E208
+// FUNCTION: STBC 0x006e7e30 _$E62
+// FUNCTION: STBC 0x006e7e40 _$E61
+// FUNCTION: STBC 0x006e7e50 _$E151
+// FUNCTION: STBC 0x006e7e60 _$E150
+// FUNCTION: STBC 0x006e7e70 _$E164
+// FUNCTION: STBC 0x006e7e80 _$E163
+// FUNCTION: STBC 0x006e7e90 _$E214
+// FUNCTION: STBC 0x006e7ea0 _$E213
+// FUNCTION: STBC 0x006e7eb0 _$E219
+// FUNCTION: STBC 0x006e7ec0 _$E218
+// FUNCTION: STBC 0x006e7ed0 _$E223
+// FUNCTION: STBC 0x006e7ee0 _$E222
+// FUNCTION: STBC 0x006e7ef0 _$E227
+// FUNCTION: STBC 0x006e7f00 _$E226
+// FUNCTION: STBC 0x006e7f10 _$E234
+// FUNCTION: STBC 0x006e7f20 _$E233
+// FUNCTION: STBC 0x006e7f30 _$E256
+// FUNCTION: STBC 0x006e7f40 _$E255
+// FUNCTION: STBC 0x006e7f50 _$E260
+// FUNCTION: STBC 0x006e7f60 _$E259
+// FUNCTION: STBC 0x006e7f70 _$E109
+// FUNCTION: STBC 0x006e7f80 _$E108
+// FUNCTION: STBC 0x006e7f90 _$E242
+// FUNCTION: STBC 0x006e7fa0 _$E241
+// FUNCTION: STBC 0x006e7fb0 _$E249
+// FUNCTION: STBC 0x006e7fc0 _$E248
+// FUNCTION: STBC 0x006e7fd0 _$E272
+// FUNCTION: STBC 0x006e7fe0 _$E271
+// FUNCTION: STBC 0x006e7ff0 _$E276
+// FUNCTION: STBC 0x006e8000 _$E275
+// FUNCTION: STBC 0x006e8010 _$E316
+// FUNCTION: STBC 0x006e8020 _$E315
+// FUNCTION: STBC 0x006e8030 _$E322
+// FUNCTION: STBC 0x006e8040 _$E321
+// FUNCTION: STBC 0x006e8050 _$E264
+// FUNCTION: STBC 0x006e8060 _$E263
+// FUNCTION: STBC 0x006e8070 _$E268
+// FUNCTION: STBC 0x006e8080 _$E267
+// FUNCTION: STBC 0x006e8090 _$E280
+// FUNCTION: STBC 0x006e80a0 _$E279
+// FUNCTION: STBC 0x006e80b0 _$E284
+// FUNCTION: STBC 0x006e80c0 _$E283
+// FUNCTION: STBC 0x006e80d0 _$E288
+// FUNCTION: STBC 0x006e80e0 _$E287
+// FUNCTION: STBC 0x006e80f0 _$E292
+// FUNCTION: STBC 0x006e8100 _$E291
+// FUNCTION: STBC 0x006e8110 _$E296
+// FUNCTION: STBC 0x006e8120 _$E295
+// FUNCTION: STBC 0x006e8130 _$E300
+// FUNCTION: STBC 0x006e8140 _$E299
+// FUNCTION: STBC 0x006e8150 _$E304
+// FUNCTION: STBC 0x006e8160 _$E303
+// FUNCTION: STBC 0x006e8170 _$E308
+// FUNCTION: STBC 0x006e8180 _$E307
+// FUNCTION: STBC 0x006e8190 _$E114
+// FUNCTION: STBC 0x006e81a0 _$E113
+// FUNCTION: STBC 0x006e81b0 _$E312
+// FUNCTION: STBC 0x006e81c0 _$E311
+// FUNCTION: STBC 0x006e81d0 _$E119
+// FUNCTION: STBC 0x006e81e0 _$E118
+// FUNCTION: STBC 0x006e81f0 _$E326
+// FUNCTION: STBC 0x006e8200 _$E325
+// FUNCTION: STBC 0x006e8210 _$E330
+// FUNCTION: STBC 0x006e8220 _$E329
+// FUNCTION: STBC 0x006e8230 _$E334
+// FUNCTION: STBC 0x006e8240 _$E333
+// FUNCTION: STBC 0x006e8250 _$E338
+// FUNCTION: STBC 0x006e8260 _$E337
+// FUNCTION: STBC 0x006e8270 _$E128
+// FUNCTION: STBC 0x006e8280 _$E127
+// FUNCTION: STBC 0x006e8290 _$E342
+// FUNCTION: STBC 0x006e82a0 _$E341
+// FUNCTION: STBC 0x006e82b0 _$E346
+// FUNCTION: STBC 0x006e82c0 _$E345
+// FUNCTION: STBC 0x006e82d0 _$E350
+// FUNCTION: STBC 0x006e82e0 _$E349
+// FUNCTION: STBC 0x006e82f0 _$E134
+// FUNCTION: STBC 0x006e8300 _$E133
+// FUNCTION: STBC 0x006e8310 _$E139
+// FUNCTION: STBC 0x006e8320 _$E138
+// FUNCTION: STBC 0x006e8330 _$E169
+// FUNCTION: STBC 0x006e8340 _$E168
+// FUNCTION: STBC 0x006e8350 _$E354
+// FUNCTION: STBC 0x006e8360 _$E353
+// FUNCTION: STBC 0x006e8370 _$E174
+// FUNCTION: STBC 0x006e8380 _$E173
+// FUNCTION: STBC 0x006e8390 _$E358
+// FUNCTION: STBC 0x006e83a0 _$E357
+// FUNCTION: STBC 0x006e83b0 _$E362
+// FUNCTION: STBC 0x006e83c0 _$E361
+// FUNCTION: STBC 0x006e83d0 _$E179
+// FUNCTION: STBC 0x006e83e0 _$E178
+// FUNCTION: STBC 0x006e83f0 _$E366
+// FUNCTION: STBC 0x006e8400 _$E365
+// FUNCTION: STBC 0x006e8410 _$E144
+// FUNCTION: STBC 0x006e8420 _$E143
+// FUNCTION: STBC 0x006e8430 _$E370
+// FUNCTION: STBC 0x006e8440 _$E369
+// FUNCTION: STBC 0x006e8450 _$E374
+// FUNCTION: STBC 0x006e8460 _$E373
+// FUNCTION: STBC 0x006e8470 _$E184
+// FUNCTION: STBC 0x006e8480 _$E183
+// FUNCTION: STBC 0x006e8490 _$E189
+// FUNCTION: STBC 0x006e84a0 _$E188
+// FUNCTION: STBC 0x006e84b0 _$E378
+// FUNCTION: STBC 0x006e84c0 _$E377
+// FUNCTION: STBC 0x006e84d0 _$E382
+// FUNCTION: STBC 0x006e84e0 _$E381
+// FUNCTION: STBC 0x006e84f0 _$E386
+// FUNCTION: STBC 0x006e8500 _$E385
+// FUNCTION: STBC 0x006e8510 _$E390
+// FUNCTION: STBC 0x006e8520 _$E389
+// FUNCTION: STBC 0x006e8530 _$E394
+// FUNCTION: STBC 0x006e8540 _$E393
+// FUNCTION: STBC 0x006e8550 _$E398
+// FUNCTION: STBC 0x006e8560 _$E397
+// FUNCTION: STBC 0x006e8570 _$E402
+// FUNCTION: STBC 0x006e8580 _$E401
+// FUNCTION: STBC 0x006e8590 _$E406
+// FUNCTION: STBC 0x006e85a0 _$E405
+// FUNCTION: STBC 0x006e85b0 _$E194
+// FUNCTION: STBC 0x006e85c0 _$E193
+// FUNCTION: STBC 0x006e85d0 _$E410
+// FUNCTION: STBC 0x006e85e0 _$E409
+// FUNCTION: STBC 0x006e85f0 _$E199
+// FUNCTION: STBC 0x006e8600 _$E198
+// FUNCTION: STBC 0x006e8610 _$E204
+// FUNCTION: STBC 0x006e8620 _$E203
+
+/*
+================
+TGMouseEvent::Copy
+
+Copies the event's state, and the position.
+================
+*/
+// FUNCTION: STBC 0x006e8630
+bool TGMouseEvent::Copy( TGEvent *event ) {
+	if ( TGEvent::Copy( event ) == true ) {
+		TGMouseEvent *other = (TGMouseEvent *)event;
+		x = other->x;
+		y = other->y;
+	}
+	return true;
+}
+
+/*
+================
+TGMouseEvent::GetPickRay
+
+The ray through the camera from the event's position (y counted up from
+the bottom of the screen); nothing when the point maps outside the view.
+================
+*/
+// FUNCTION: STBC 0x006e8660
+bool TGMouseEvent::GetPickRay( NiPoint3 *origin, NiPoint3 *direction, NiCamera *camera ) {
+	float viewX;
+	float viewY;
+	if ( !camera->MapBufferPointToViewPoint( x, 1.0f - y, viewX, viewY ) ) {
+		return false;
+	}
+	return camera->ViewPointToRay( viewX, viewY, *origin, *direction );
+}
+
+/*
+================
+TGMouseEvent::WriteToStream
+================
+*/
+// FUNCTION: STBC 0x006e86c0
+bool TGMouseEvent::WriteToStream( TGStream *stream ) {
+	if ( !TGEvent::WriteToStream( stream ) ) {
+		return false;
+	}
+	stream->WriteFloat( x );
+	stream->WriteFloat( y );
+	return true;
+}
+
+/*
+================
+TGMouseEvent::ReadFromStream
+================
+*/
+// FUNCTION: STBC 0x006e8700
+bool TGMouseEvent::ReadFromStream( TGStream *stream ) {
+	if ( !TGEvent::ReadFromStream( stream ) ) {
+		return false;
+	}
+	x = stream->ReadFloat();
+	y = stream->ReadFloat();
+	return true;
+}

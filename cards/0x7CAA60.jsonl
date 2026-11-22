@@ -1,0 +1,7 @@
+{"date": "2026-10-28", "kind": "score", "lane": "ni-renderer-5", "commit": "4ef4914d0f", "from": null, "to": 94.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 94.5, "to": 94.5, "how": "ctxscan: invariant, 1 state (frame/register) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 94.5, "to": 94.5, "how": "sched triage: (c) register choice for the DirectDraw object", "wall": "register"}
+{"date": "2026-11-19", "kind": "try", "lane": "niddimage", "by": "opus", "from": 94.5, "to": 94.5, "how": "an inline NiD3DDirectDraw::GetDirectDraw() accessor (in NiD3DDirectDraw.h) at both NiDDBufferImage::Create sites gives 100 (the loaded IDirectDraw7 reuses ecx as retail's); evidence-free and outside this lane's headers: not kept; a hoisted IDirectDraw7 local as in AttachSurfaces 88.9", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "od-netimmerse", "by": "opus", "from": 94.5, "to": 100.0, "how": "AnimOnly 0x51E66E: accessors GetPrimarySurface/GetDirectDraw: release MATCH; /Od left: two asserts on the images at entry (lines 653-654)"}
+{"date": "2026-11-20", "kind": "score", "lane": "od-netimmerse", "commit": "ea62909a2e", "from": 94.5, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-04", "kind": "score", "lane": "game-72", "commit": "393e86d24d", "from": null, "to": 89.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 89.9, "to": 89.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 89.9, "to": 89.9, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov ecx, dword ptr [edi]\" retail \"mov eax, dword ptr [edi]\"", "wall": "register"}

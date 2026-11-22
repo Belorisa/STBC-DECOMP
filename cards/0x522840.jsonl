@@ -1,0 +1,3 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-11", "commit": "b21a6bb535", "from": null, "to": 86.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "fpu-copy", "how": "framemap: same frame, one value written as float on one side and int on the other: an FPU copy (fld/fstp) against integer moves, an inline level (x87.md, Floats copied through the FPU)"}
+{"date": "2026-11-17", "kind": "score", "lane": "accessor-levels", "commit": "e37955cbd1", "from": 86.2, "to": 100.0, "status": "MATCH"}

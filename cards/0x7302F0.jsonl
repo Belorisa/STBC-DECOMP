@@ -1,0 +1,7 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-1", "commit": "5dba95e29a", "from": null, "to": 74.5, "status": "DIFF"}
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-3", "commit": "cc0e13a734", "from": 74.5, "to": 88.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "fpu-copy", "how": "framemap: same frame, one value written as float on one side and int on the other: an FPU copy (fld/fstp) against integer moves, an inline level (x87.md, Floats copied through the FPU)"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-members", "by": "opus", "from": 88.6, "to": 88.6, "how": "RoundToPixelX/Y (invented) replaced by the SWIG-named TGUIModule::PixelAlignValue( value[, false] ), same body: score unchanged"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 88.6, "to": 88.6, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (12 frame-slot swaps, 16 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-22", "kind": "try", "lane": "float-frame", "by": "opus", "from": 88.6, "to": 98.2, "how": "same fix as Move (early return, alignedX/Y locals): 88.6 -> 98.2; left the same early parent load before the flags test", "wall": "register", "group": "tgui-move-frame"}
+{"date": "2026-11-22", "kind": "score", "lane": "float-frame", "commit": "96a058a9e6", "from": 88.6, "to": 98.2, "status": "DIFF"}

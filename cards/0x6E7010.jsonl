@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-31", "commit": "435203b965", "from": null, "to": 89.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 89.4, "to": 92.9, "how": "NiPoint2 moveStart/moveEnd (copies now as retail) 92.9; moveEnd = NiPoint2( x, y ) same; retail loads duration into edx first", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-tg", "commit": "10ac37fbdf", "from": 89.4, "to": 92.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 92.9, "to": 92.9, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (2 frame-slot swaps, 10 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}

@@ -1,0 +1,3 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-37", "commit": "67550fc263", "from": null, "to": 83.1, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow2", "by": "opus", "from": 83.1, "to": 83.1, "how": "read + c2trace --regs: ours gives ebp to height_ (prio 29, 8 refs) over format_ (prio 16, 2 refs); retail keeps format_ in ebp (3 uses: guard compare, switch, store) and reads height_ from the stack at every use; the guard's return true then cross-jumps into the last case's. No source shape found that lowers height_ below format_; register wall upstream of the tail merge", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 83.1, "to": 100.0, "status": "MATCH"}

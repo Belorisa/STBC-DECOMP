@@ -1,0 +1,6 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-31", "commit": "b8f658bc10", "from": null, "to": 70.4, "status": "DIFF"}
+{"date": "2026-11-03", "kind": "score", "lane": "netimmerse-55", "commit": "22e78a9d8a", "from": 70.4, "to": 71.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-40", "by": "opus", "from": 71.4, "to": 71.4, "how": "skipped (inline-40): c2trace call sets agree; frame-slot wall as its PARKED note says", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "ni-headers", "by": "opus", "from": 71.4, "to": 76.4, "how": "lane/ni-headers: NiFloatKey::GetCreateFunction/GetFillDerivedFunction as the debug copy calls them (AnimOnly.exe 0x499942); moved up 71.4 to 76.4", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-headers", "commit": "47442d0b13", "from": 71.4, "to": 76.4, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 76.4, "to": 100.0, "status": "MATCH"}

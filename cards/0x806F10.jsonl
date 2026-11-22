@@ -1,0 +1,3 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gaps-mop", "by": "opus", "from": null, "to": 62.3, "how": "written after NiPointLight::CreateObject with its own NiSpotLightLoadRecord (vtable 0x89A174; its ??_G/??1 at 0x807020/0x807040 match) 62.3; the wall is the inline budget the parked siblings (NiBone, NiTextureEffect) share: retail calls the record's base and array constructors out of line", "wall": "inline"}
+{"date": "2026-11-16", "kind": "score", "lane": "gaps-mop", "commit": "1b964e58c3", "from": null, "to": 62.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "inline-walls", "commit": "c36197485e", "from": 62.3, "to": 100.0, "status": "MATCH"}

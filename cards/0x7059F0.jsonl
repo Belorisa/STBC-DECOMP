@@ -1,0 +1,2 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-700000", "by": "sonnet", "from": null, "to": 98.1, "how": "entry as struct with NiPointer + two NiTList members and delete entry: 98.1, only the ~NiPointer call and the two map RemoveAll referents differ; raw pointer with an explicit DecRefCount dtor 85.2 (worse)", "wall": "inline"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-700000", "commit": "9b062d0036", "from": null, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-optimized", "by": "fable", "from": null, "to": 96.2, "how": "phase 1 draft from the script's method of the same role; see the DRAFT note (if/else assignment into a NiPoint3 instead of ?: removed the EH frame where retail has none)"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-optimized", "commit": "b5a883162e", "from": null, "to": 96.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "refine95", "commit": "b1297d8424", "from": 96.2, "to": 100.0, "status": "MATCH"}

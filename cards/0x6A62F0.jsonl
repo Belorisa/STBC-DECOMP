@@ -1,0 +1,2 @@
+{"date": "2026-11-03", "kind": "score", "lane": "game-67", "commit": "a65881eba1", "from": null, "to": 73.1, "status": "MATCH-PENDING"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 73.1, "to": 73.1, "how": "ORIGINAL-ASM (inline rol). Retail keeps buffer in an EBP frame slot, walks data in ebx and folds each word through edi (load, xor, store to the checksum's slot); ours walks in edi with buffer in ebx and xors into memory. checksum = checksum ^ *(int *)data: flat (73.1)", "wall": "register"}

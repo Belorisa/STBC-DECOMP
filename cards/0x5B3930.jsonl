@@ -1,0 +1,5 @@
+{"date": "2026-11-15", "kind": "try", "lane": "ship-large", "by": "opus", "from": null, "to": 83.7, "how": "draft from retail: ParseTuple, the SWIG pointer, the (always set) list test with the AttributeError, the tuple of VirtualSlot08s; early returns 70.5 (4 returns), nested with the error arm first 83.7 (2 returns as retail); left: retail keeps the NULL result in EDI from the entry", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "ship-large", "commit": "c097bdb50c", "from": null, "to": 83.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 83.7, "to": 83.7, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80", "commit": "b6c32a4175", "from": 83.7, "to": 100.0, "status": "MATCH"}

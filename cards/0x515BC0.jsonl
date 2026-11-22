@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-81", "commit": "6961dea113", "from": null, "to": 68.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65", "by": "opus", "from": 68.4, "to": 92.9, "how": "the point's coordinates copied before the camera's matrix and port are read (Gamebryo's WorldPtToScreenPt order; retail loads the camera after the copies): frame and slots now retail's, 68.4 -> 92.9. x *= w and x = w * x give the same bytes; left the 1/w multiply order", "wall": "register", "group": "reticle-project"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65", "commit": "26f7d6da56", "from": 68.4, "to": 92.9, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "dupes", "by": "sonnet", "from": 92.9, "to": 100.0, "how": "respelled as twin ViewScreenNode::ProjectPoint (double w, double invW, x *= invW, GetViewPort() at each use, 1e-5f): MATCH"}
+{"date": "2026-11-18", "kind": "score", "lane": "dupes", "commit": "e65014490a", "from": 92.9, "to": 100.0, "status": "MATCH"}

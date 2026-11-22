@@ -1,0 +1,4 @@
+{"date": "2026-10-28", "kind": "score", "lane": "tg-handlers", "commit": "cf568e7c04", "from": null, "to": 68.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 68.2, "to": 77.1, "how": "if ( name == NULL ) first 73.2 (block layout now retail's); FindLastChar( pythonName ) instead of the module copy 77.1; open-coded search 65.1; *name++ / &name[1] no change", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-tg", "commit": "10ac37fbdf", "from": 68.2, "to": 77.1, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65", "commit": "26f7d6da56", "from": 77.1, "to": 100.0, "status": "MATCH"}

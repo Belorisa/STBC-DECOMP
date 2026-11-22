@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "damage-geometry", "by": "opus", "from": null, "to": 92.5, "how": "first draft as a non-inline DamageBuilderMesh member in VisibleDamageBuilder.cpp (an inline in DamageMesh.h expanded into every caller)", "wall": "control-flow"}
+{"date": "2026-11-11", "kind": "score", "lane": "damage-geometry", "commit": "af70f034d4", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "damage-geometry", "commit": "70f473b730", "from": 92.5, "to": 100.0, "status": "MATCH"}

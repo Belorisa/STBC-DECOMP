@@ -1,0 +1,3 @@
+{"date": "2026-10-30", "kind": "score", "lane": "game-21", "commit": "91231749e3", "from": null, "to": 74.7, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 74.7, "to": 74.7, "how": "read: an ebx/edi/ebp rotation from the first argument load on (args in edi in retail, ebx here; the new condition then in ebx vs ebp); calls, branches and loads agree. No spelling tried", "wall": "register"}
+{"date": "2026-11-22", "kind": "try", "lane": "link-leftovers", "by": "sonnet", "from": 74.7, "to": 74.7, "how": "renamed to its SWIG name _wrap_ConditionScript_Create (extern C, as the App method table references it) so the symbols.txt claim is dropped; body unchanged, score 74.7 unchanged"}

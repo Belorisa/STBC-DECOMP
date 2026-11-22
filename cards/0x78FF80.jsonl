@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "netimmerse-38", "commit": "4ec906b69c", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 92.5, "to": 92.5, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 92.5, "to": 92.5, "how": "sched triage: (b) x87: as NiListener::Update (fld 1.0; fdiv against fdivr)", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 92.5, "to": 92.5, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (23 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}

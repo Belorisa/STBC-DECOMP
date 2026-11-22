@@ -1,0 +1,5 @@
+{"date": "2026-11-11", "kind": "try", "lane": "weapons-fire", "by": "opus", "from": null, "to": 95.9, "how": "first draft after PhaserBank::UpdateBeam (one looping sound inside the region test, priority 0.5/0.9); a named mode and a system pointer read twice give the same residue: eax/ecx/edx permuted in the graphic update", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "weapons-fire", "commit": "4db7a1b914", "from": null, "to": 95.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 95.9, "to": 95.9, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 95.9, "to": 95.9, "how": "sched triage: (c) register picks (ecx/eax/edx) for argument setup: allocation", "wall": "register"}

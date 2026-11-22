@@ -1,0 +1,2 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-85", "commit": "c00851fd4f", "from": null, "to": 74.3, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-lineage", "by": "opus", "from": 74.3, "to": 74.8, "how": "NiPoint3::Length through Gamebryo 1.1.2's NiSqrt (float(sqrt(value)), NiMath.h included by NiPoint3.h) in place of sqrtf: 74.3 -> 74.8"}

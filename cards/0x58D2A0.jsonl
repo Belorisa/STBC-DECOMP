@@ -1,0 +1,7 @@
+{"date": "2026-11-11", "kind": "try", "lane": "backdrop-family", "by": "sonnet", "from": null, "to": 84.4, "how": "tried stores in retail's order (tiles first), mem-initialiser list for the first group: VC6 regroups stores by constant; 84.4 with the unit's order", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-family", "commit": "fd26b2f6c9", "from": null, "to": 84.4, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-damage", "by": "opus", "from": 84.4, "to": 84.4, "how": "members 0x94/0x98 renamed srcBlendMode/destBlendMode only (from SetAlphaBlendModes and slot 71's alpha property); no codegen change"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 84.4, "to": 84.4, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 84.4, "to": 84.4, "how": "sched triage: (b) latency/x87/height, store grouping: priority and the 13 ties of the constructor are decided by heights; the member stores regroup by the unit of retail (card: tiles first tried)", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80b", "commit": "b3f6db459f", "from": 84.4, "to": 100.0, "status": "MATCH"}

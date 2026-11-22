@@ -1,0 +1,3 @@
+{"date": "2026-11-19", "kind": "try", "lane": "drafts50", "by": "opus", "from": 100.0, "to": 99.9, "how": "declaration-count flip (user's ruling 2026-11-19): ctxscan exact with 1-63 more declarations, 99.9 with 0; flipped by NiDynamicEffectState.h Get/SetCachedState with NiPropertyState.h SwapProperties (both lineage); listed in config/declaration_sensitive.txt, PARKED note added", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts50", "commit": "3a884cd999", "from": 100.0, "to": 99.9, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "pch-game", "commit": "bbf1355738", "from": 99.9, "to": 100.0, "status": "MATCH"}

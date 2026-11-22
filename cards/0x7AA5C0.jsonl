@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: the vertex loop reuses j as AnimOnly 0x49899B (93.4, frame only); the loop scope needs keyType<save<keys<j<verts<=numKeys by name bucket: three or more invented names, not taken"}

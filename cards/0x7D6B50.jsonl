@@ -1,0 +1,8 @@
+{"date": "2026-10-29", "kind": "score", "lane": "ni-renderer-22", "commit": "7248d4654a", "from": null, "to": 78.8, "status": "DIFF"}
+{"date": "2026-10-29", "kind": "score", "lane": "ni-renderer-23", "commit": "b665a4144e", "from": 78.8, "to": 91.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 91.0, "to": 91.0, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "regs-frame", "by": "opus", "from": 91.0, "to": 91.0, "how": "c2trace --sched: the current-pointer load waits on the mipmapped store because both use eax (retail puts the mipmapped pointer in edx); changed = mipmapped = false, the reverse chain and the swapped stores: 91.0 flat", "wall": "register", "group": "register-roles"}
+{"date": "2026-11-18", "kind": "try", "lane": "regs-frame", "by": "opus", "from": 91.0, "to": 91.0, "how": "-"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 91.0, "to": 91.0, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (17 register picks, 3 instructions scheduled elsewhere, 27 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom-2", "commit": "44f7a6a251", "from": 91.0, "to": 100.0, "status": "MATCH"}

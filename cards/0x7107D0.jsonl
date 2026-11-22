@@ -1,0 +1,3 @@
+{"date": "2026-10-30", "kind": "score", "lane": "game-22", "commit": "b54d9ce269", "from": null, "to": 84.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 84.6, "to": 84.6, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

@@ -1,0 +1,37 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-100", "commit": "4dcef20a19", "from": null, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-09", "kind": "score", "lane": "placement-1", "commit": "005ced19c7", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-09", "kind": "score", "lane": "classes-2", "commit": "289593fdfd", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-shieldpatch", "commit": "eff6ca6af1", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-damage", "by": "opus", "from": 100.0, "to": 97.2, "how": "lost MATCH at merge of lane/setclass-damage with source unchanged: NiMultiTextureProperty::Map::Map and SetMap added to NiMultiTextureProperty.h (needed by BackdropSphere::VirtualSlot71) swap two frame slots and EDI/EBP; a lone declaration does it too; only the original header restores it; user accepted the loss under the standing rule", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "setclass-damage", "commit": "0fea678c3a", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "ni-assets", "commit": "3eab26de47", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-12", "kind": "try", "lane": "early-game-gaps", "by": "opus", "from": 100.0, "to": 97.2, "how": "source unchanged; lost MATCH (97.2, EDI/EBP and two frame slots swapped) when this lane added inline members to NiCamera.h (GetPlanes) and NiParticlesData.h (SetActiveParticleCount), both reached through NiMain.h; declaration-sensitive, for merge --accept", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "early-game-gaps", "commit": "de8ecfbe71", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "subsystems-input", "commit": "080ce309a0", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-15", "kind": "try", "lane": "ni-mid", "by": "opus", "from": 100.0, "to": 97.2, "how": "lost to the declaration-sensitive flip its PARKED note names (one more NiMultiTextureProperty.h member swaps two slots and EDI/EBP; source unchanged): lane ni-mid adds the evidenced Map constructors and CopyMembers there; for merge --accept", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-mid", "commit": "f106423767", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "statics-owner", "commit": "fe3cac66d8", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-15", "kind": "try", "lane": "early-game2", "by": "opus", "from": 100.0, "to": 97.2, "how": "lost by declaration: NiColor::operator* (needed by the LightObjectClass light drafts) swaps the frame slots and EDI/EBP; source unchanged", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "early-game2", "commit": "db7e4ed843", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "ph1-tg", "commit": "88808d6c4b", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "try", "lane": "gaps-mop", "by": "opus", "from": 100.0, "to": 97.2, "how": "lost to the frame-slot/register flip again when PyEmbed.h gained the ConsolePrintf and MakePointerString declarations (the functions at 0x6F9410, 0x6F9840); source unchanged, standing ruling", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "gaps-mop", "commit": "1b964e58c3", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "flip-bisect", "by": "opus", "from": 97.2, "to": 97.2, "how": "flip-bisect: currently on the flipped side by entity count; k dummy externs above the definition give retail's bytes for k=3,5,8-20,22-33,41-54,57-58 (modulo 64): retail's unit saw a different number of declarations before it; no honest declaration identified, dummies are a fakematch", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.2, "to": 97.2, "how": "ctxscan: exact at k=3,5,8-20,22-33,41-54,57-58 (context-decided; 2 states: frame/register k=0-2,4,6-7,21,34-40,55-56,59-63; exact k=3,5,8-20,22-33,41-54,57-58)", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-math-lineage", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "ni-math-lineage", "commit": "725498b958", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "inline-depth", "commit": "58ddfdf790", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-18", "kind": "try", "lane": "gaps-final", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "gaps-final", "commit": "39d55b822c", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-40", "commit": "f2f5f34c53", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-18", "kind": "try", "lane": "renumber", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "renumber", "commit": "7769acdd48", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts70", "commit": "25d3486ca6", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-19", "kind": "try", "lane": "pending-evidence", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "pending-evidence", "commit": "33091f8bd5", "from": 100.0, "to": 97.2, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts50", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "fin-geom", "commit": "82a5978fd2", "from": 97.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-21", "kind": "try", "lane": "callers", "by": "merge_lane", "from": 100.0, "to": 97.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-21", "kind": "score", "lane": "callers", "commit": "716841e6f8", "from": 100.0, "to": 97.2, "status": "DIFF"}

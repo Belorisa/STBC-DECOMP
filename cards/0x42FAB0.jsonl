@@ -1,0 +1,5 @@
+{"date": "2026-11-12", "kind": "try", "lane": "early-game-gaps", "by": "opus", "from": null, "to": 96.0, "how": "NiFrustum temporary 96.0; member-by-member local frustum 92.4 (reverted); right side copied fld/fstp vs retail mov", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "early-game-gaps", "commit": "de8ecfbe71", "from": null, "to": 96.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "refine95", "by": "opus", "from": 96.0, "to": 96.0, "how": "named NiFrustum local: 96.0 no change; DUST_HALF_WIDTH defined after the function: no change; float halfWidth = DUST_HALF_WIDTH local (as CameraObjectClass::SetFrustumValues): 75.4", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "fpu-copy", "how": "framemap: same frame, one value written as float on one side and int on the other: an FPU copy (fld/fstp) against integer moves, an inline level (x87.md, Floats copied through the FPU)"}
+{"date": "2026-11-17", "kind": "score", "lane": "accessor-levels", "commit": "e37955cbd1", "from": 96.0, "to": 100.0, "status": "MATCH"}

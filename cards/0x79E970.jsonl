@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-30", "commit": "c6a5563fda", "from": null, "to": 73.2, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "accessor-levels", "by": "opus", "from": 73.2, "to": 76.0, "how": "dir /= distance (NiPoint3::operator/=) for the reciprocal and component scales: 73.2 -> 76.0, kept; dir *= 1.0f / distance 75.2. Left: the inline budget (out-of-line constructor and operator-= in retail)", "wall": "inline"}
+{"date": "2026-11-17", "kind": "score", "lane": "accessor-levels", "commit": "e37955cbd1", "from": 73.2, "to": 76.0, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "ni-members", "commit": "429c53842c", "from": 76.0, "to": 100.0, "status": "MATCH"}

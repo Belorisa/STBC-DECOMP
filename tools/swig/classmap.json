@@ -1,0 +1,9817 @@
+{
+"(free functions)": {
+"direct": [
+"TGLocDBWrapperSerialize",
+"TGLocDBWrapperUnserialize",
+"ChaseCameraMode_Cast",
+"TargetCameraMode_Cast",
+"ZoomTargetMode_Cast",
+"MapCameraMode_Cast",
+"DropAndWatchMode_Cast",
+"PlacementWatchMode_Cast",
+"LockedPositionMode_Cast",
+"TorpCameraMode_Cast",
+"PlaceByDirectionMode_Cast",
+"BreakIntoSets"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"DisplayCollisionTests"
+],
+"static": 0
+},
+"TGActionManager": {
+"direct": [
+"SkipEvents"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"RegisterAction",
+"KillActions"
+],
+"static": 1
+},
+"SubsystemList": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"GetSize",
+"GetNext",
+"GetPrev"
+],
+"4": [
+"GetHead"
+],
+"8": [
+"GetTail"
+]
+},
+"other": [
+"Cast",
+"GetHeadPos",
+"GetTailPos"
+],
+"static": 0
+},
+"NiFrustum": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"m_fLeft_set",
+"m_fLeft_get"
+],
+"4": [
+"m_fRight_set",
+"m_fRight_get"
+],
+"8": [
+"m_fTop_set",
+"m_fTop_get"
+],
+"12": [
+"m_fBottom_set",
+"m_fBottom_get"
+],
+"16": [
+"m_fNear_set",
+"m_fNear_get"
+],
+"20": [
+"m_fFar_set",
+"m_fFar_get"
+]
+},
+"other": [
+"(delete)"
+],
+"static": 0
+},
+"NiColor": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"r_set",
+"r_get"
+],
+"4": [
+"g_set",
+"g_get"
+],
+"8": [
+"b_set",
+"b_get"
+]
+},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"NiColorA": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"r_set",
+"r_get",
+"g_set",
+"g_get",
+"b_set",
+"b_get",
+"a_set",
+"a_get",
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"TGColorA": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"r_set",
+"r_get",
+"GetR",
+"SetR",
+"SetRGBA",
+"ScaleRGB"
+],
+"4": [
+"g_set",
+"g_get",
+"GetG",
+"SetG"
+],
+"8": [
+"b_set",
+"b_get",
+"GetB",
+"SetB"
+],
+"12": [
+"a_set",
+"a_get",
+"GetA",
+"SetA"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"Copy"
+],
+"static": 0
+},
+"NiPoint2": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"x_set",
+"x_get"
+],
+"4": [
+"y_set",
+"y_get",
+"Length",
+"SqrLength",
+"Dot",
+"Unitize"
+]
+},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"NiPoint3": {
+"direct": [],
+"virtual": {},
+"inline": {
+"8": [
+"Length",
+"SqrLength",
+"Dot",
+"Unitize"
+]
+},
+"other": [
+"x_set",
+"x_get",
+"y_set",
+"y_get",
+"z_set",
+"z_get",
+"(new)",
+"(delete)",
+"Cross",
+"UnitCross",
+"Perpendicular"
+],
+"static": 0
+},
+"TGPoint3": {
+"direct": [
+"MultMatrix",
+"MultMatrixLeft",
+"LoadBinary",
+"SaveBinary",
+"UnitizeVectors"
+],
+"virtual": {},
+"inline": {
+"0": [
+"x_set",
+"x_get",
+"GetX",
+"SetX",
+"SetXYZ",
+"Add",
+"Subtract",
+"Scale"
+],
+"4": [
+"y_set",
+"y_get",
+"GetY",
+"SetY"
+],
+"8": [
+"z_set",
+"z_get",
+"GetZ",
+"SetZ",
+"UnitizeVector",
+"VectorLength"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"GetRandomUnitVector",
+"GetModelForward",
+"GetModelBackward",
+"GetModelUp",
+"GetModelDown",
+"GetModelRight",
+"GetModelLeft",
+"Cross",
+"UnitCross",
+"GetAlignedComponent",
+"GetPerpendicularComponent",
+"Set"
+],
+"static": 1
+},
+"TGModelUtils": {
+"direct": [
+"CastNodeToAVObject"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"LocalToWorldPoint",
+"WorldToLocalPoint",
+"LocalToLocalPoint",
+"LocalToWorldVector",
+"WorldToLocalVector",
+"LocalToLocalVector",
+"LocalToWorldUnitVector",
+"WorldToLocalUnitVector",
+"LocalToLocalUnitVector"
+],
+"static": 0
+},
+"TGSystemWrapperClass": {
+"direct": [
+"GetTimeSinceFrameStart",
+"GetVerticalAspectRatio",
+"IsForeground",
+"GetRandomNumber",
+"SetRandomSeed",
+"GetIniInt",
+"GetIniFloat",
+"GetIniString",
+"SetDefaultScreenShotPath"
+],
+"virtual": {},
+"inline": {
+"12": [
+"GetTimeInSeconds"
+],
+"16": [
+"GetTimeInMilliseconds"
+],
+"20": [
+"GetTimeElapsedInSeconds"
+],
+"24": [
+"GetTimeElapsedInMilliseconds"
+],
+"56": [
+"GetUpdateNumber"
+]
+},
+"other": [
+"TakeScreenshot"
+],
+"static": 0
+},
+"TGProfilingInfo": {
+"direct": [
+"EnableProfiling",
+"DisableProfiling",
+"StopTiming",
+"SetTimingData",
+"SaveRawData",
+"Terminate"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)",
+"StartTiming"
+],
+"static": 6
+},
+"TGConfigMapping": {
+"direct": [
+"GetFloatValue",
+"GetIntValue",
+"GetStringValue",
+"GetTGStringValue",
+"SetFloatValue",
+"SetIntValue",
+"SetStringValue",
+"SetTGStringValue",
+"HasValue",
+"LoadConfigFile",
+"SaveConfigFile"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGPoolManager": {
+"direct": [
+"Purge",
+"PrintPoolSummary",
+"PrintFull",
+"PrintSummary",
+"DumpFile",
+"DumpBlocks",
+"DumpObjects",
+"DisplayFile"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"WalkObjects"
+],
+"static": 0
+},
+"TGObject": {
+"direct": [
+"GetIndentString",
+"GetTGObjectPtr"
+],
+"virtual": {
+"1": [
+"GetObjType"
+],
+"2": [
+"IsTypeOf"
+],
+"0": [
+"Destroy"
+],
+"3": [
+"Print"
+]
+},
+"inline": {
+"4": [
+"GetObjID"
+]
+},
+"other": [
+"SetIncrementID",
+"IsIncrementID"
+],
+"static": 2
+},
+"TGAttrObject": {
+"direct": [],
+"virtual": {
+"12": [
+"LookupAttrValue"
+],
+"13": [
+"GetAttrValue"
+],
+"14": [
+"SetAttrValue"
+],
+"15": [
+"RemoveAttr"
+],
+"16": [
+"LookupAttrInt"
+],
+"17": [
+"GetAttrInt"
+],
+"18": [
+"SetAttrInt"
+]
+},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGTemplatedAttrObject": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"LookupLocalAttrValue"
+],
+"static": 0
+},
+"TGString": {
+"direct": [
+"SetString",
+"CompareC",
+"Compare"
+],
+"virtual": {},
+"inline": {
+"8": [
+"GetLength"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"FindC",
+"Find",
+"Append"
+],
+"static": 0
+},
+"TGBufferStream": {
+"direct": [],
+"virtual": {
+"1": [
+"Close"
+],
+"2": [
+"SetWriteMode"
+],
+"3": [
+"GetWriteMode"
+],
+"4": [
+"Read"
+],
+"5": [
+"Write"
+],
+"6": [
+"ReadCLine"
+],
+"7": [
+"WriteCLine"
+],
+"8": [
+"ReadCString"
+],
+"9": [
+"WriteCString"
+],
+"12": [
+"ReadCWLine"
+],
+"13": [
+"WriteCWLine"
+],
+"14": [
+"ReadWChar"
+],
+"15": [
+"WriteWChar"
+],
+"20": [
+"ReadChar"
+],
+"18": [
+"ReadBool"
+],
+"22": [
+"ReadShort"
+],
+"24": [
+"ReadInt"
+],
+"26": [
+"ReadLong"
+],
+"28": [
+"ReadFloat"
+],
+"30": [
+"ReadDouble"
+],
+"19": [
+"WriteBool"
+],
+"21": [
+"WriteChar"
+],
+"23": [
+"WriteShort"
+],
+"25": [
+"WriteInt"
+],
+"27": [
+"WriteLong"
+],
+"29": [
+"WriteFloat"
+],
+"31": [
+"WriteDouble"
+],
+"32": [
+"ReadID"
+],
+"33": [
+"WriteID"
+],
+"61": [
+"GetBuffer"
+],
+"62": [
+"OpenBuffer"
+],
+"63": [
+"CloseBuffer"
+],
+"54": [
+"GetPos"
+],
+"56": [
+"GetLength"
+],
+"57": [
+"Eof"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"TGLocalizationDatabase": {
+"direct": [
+"Create",
+"GetString",
+"HasString",
+"GetFilename",
+"WriteSample"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 2
+},
+"TGLocalizationManager": {
+"direct": [
+"Load",
+"Unload",
+"DeleteAll",
+"Purge",
+"GetIfRegistered",
+"RegisterDatabase"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGAnimNode": {
+"direct": [
+"StopNonExclusiveAnimation",
+"Stop",
+"Copy",
+"IsAnimate",
+"UseAnimationPosition"
+],
+"virtual": {
+"22": [
+"SetRootNode",
+"FindNode"
+]
+},
+"inline": {
+"232": [
+"GetRootNode"
+],
+"332": [
+"SetBlendTime",
+"GetBlendTime"
+]
+},
+"other": [
+"UseAnimation",
+"SetExclusiveAnimation",
+"SetNonExclusiveAnimation",
+"SetExclusiveAnimationUseDefault"
+],
+"static": 0
+},
+"TGAnimationManagerClass": {
+"direct": [
+"LoadAnimation",
+"MapDefaultAnimation",
+"FreeAnimation",
+"UseAnimation",
+"BlendAnimation",
+"UseDefault",
+"GetAnimationLength",
+"IsLoaded",
+"ClearAnimations",
+"PositionUsingAnimation"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGModelManager": {
+"direct": [
+"IsModelLoaded",
+"AddModel",
+"GetModel",
+"GetCamera",
+"CloneModel",
+"CloneCamera",
+"CopyModel",
+"FreeModel",
+"FreeAllModels",
+"Refer",
+"Unrefer",
+"UnreferAll",
+"Purge",
+"DoIncrementalLoad",
+"ClearIncrementalLoadQueue"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"LoadModel",
+"LoadModelIncremental"
+],
+"static": 0
+},
+"TGEvent": {
+"direct": [
+"Cast",
+"Duplicate",
+"SetSource",
+"SetDestination",
+"SetLogged",
+"SetPrivate",
+"SetNotSaved",
+"DecRefCount"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"12": [
+"Copy"
+]
+},
+"inline": {
+"16": [
+"GetEventType",
+"SetEventType"
+],
+"8": [
+"GetSource"
+],
+"12": [
+"GetDestination"
+],
+"20": [
+"GetTimestamp",
+"SetTimestamp"
+],
+"24": [
+"IsLogged",
+"IsPrivate",
+"IsNotSaved"
+],
+"26": [
+"IncRefCount"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetRefCount"
+],
+"static": 1
+},
+"TGBoolEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"25": [
+"GetBool",
+"SetBool"
+],
+"24": [
+"ToggleBool"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGCharEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetChar",
+"SetChar"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGShortEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetShort",
+"SetShort"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGIntEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetInt",
+"SetInt"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGFloatEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetFloat",
+"SetFloat"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGStringEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"GetString",
+"SetString"
+],
+"static": 1
+},
+"TGVoidPtrEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetVoidPtr",
+"SetVoidPtr"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGObjPtrEvent": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"4": [
+"SetObjPtr"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetObjPtr"
+],
+"static": 1
+},
+"TGEventHandlerObject": {
+"direct": [
+"Cast",
+"CallNextHandler",
+"AddPythonFuncHandlerForInstance",
+"AddPythonMethodHandlerForInstance",
+"RemoveHandlerForInstance",
+"RemoveAllInstanceHandlers"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"20": [
+"ProcessEvent"
+]
+},
+"inline": {},
+"other": [],
+"static": 1
+},
+"TGEventManager": {
+"direct": [
+"AddEvent"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"AddBroadcastPythonFuncHandler",
+"AddBroadcastPythonMethodHandler",
+"RemoveBroadcastHandler",
+"RemoveAllBroadcastHandlersForObject"
+],
+"static": 0
+},
+"TGTimer": {
+"direct": [
+"SetEvent",
+"GetTGTimerPtr"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"8": [
+"SetTimerStart"
+],
+"12": [
+"SetDelay",
+"GetDelay"
+],
+"16": [
+"SetDuration",
+"GetDuration"
+],
+"20": [
+"GetTimerStart"
+],
+"24": [
+"GetEvent"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGTimerManager": {
+"direct": [
+"AddTimer",
+"RemoveTimer",
+"DeleteTimer"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGPythonInstanceWrapper": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGIEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"25": [
+"EventHandled",
+"SetHandled"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGMouseEvent": {
+"direct": [],
+"virtual": {
+"12": [
+"Copy"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"25": [
+"IsButtonEvent"
+],
+"24": [
+"GetButtonNum",
+"GetFlags",
+"SetFlags"
+],
+"40": [
+"GetX"
+],
+"44": [
+"GetY"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGKeyboardEvent": {
+"direct": [],
+"virtual": {
+"12": [
+"Copy"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetUnicode",
+"SetUnicode"
+],
+"44": [
+"GetKeyData",
+"SetKeyData"
+],
+"48": [
+"GetKeyState",
+"SetKeyState"
+]
+},
+"other": [
+"Create",
+"(new)"
+],
+"static": 0
+},
+"TGGamepadEvent": {
+"direct": [],
+"virtual": {
+"12": [
+"Copy"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"44": [
+"GetInfo"
+],
+"52": [
+"SetInfo"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGInputManager": {
+"direct": [
+"Poll",
+"UpdateDevices",
+"KeyEvent",
+"MouseEvent",
+"GetMouseDeltaX",
+"GetMouseDeltaY",
+"GetMouseX",
+"GetMouseY",
+"GamepadEvent",
+"RegisterDeadKey",
+"GetUnicodeKey",
+"GetScanCode",
+"SetCurrentUnicodeKeyList",
+"MoveMouseCursorTo",
+"PauseMouseCursorMoveTo",
+"ResumeMouseCursorMoveTo"
+],
+"virtual": {},
+"inline": {
+"0": [
+"SetMousePosition"
+],
+"1428": [
+"GetCenterMouse",
+"SetCenterMouse"
+],
+"228": [
+"SetKeyboardInputEnabled"
+]
+},
+"other": [
+"GetMousePos",
+"GetMouseDelta",
+"RegisterUnicodeKey",
+"SetDisplayStringForUnicode",
+"GetDisplayStringFromUnicode"
+],
+"static": 0
+},
+"TGUIModule": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"PixelAlignRect",
+"PixelAlignPoint",
+"PixelAlignValue"
+],
+"static": 0
+},
+"TGRect": {
+"direct": [
+"DoesIntersect",
+"IsWithin",
+"ClipTo",
+"Clear"
+],
+"virtual": {},
+"inline": {
+"0": [
+"Set",
+"GetLeft",
+"GetPosition",
+"SetLeft",
+"SetPosition"
+],
+"4": [
+"GetTop",
+"SetTop",
+"SetBottom",
+"IsClear"
+],
+"8": [
+"GetWidth",
+"GetRight",
+"SetWidth",
+"SetRight",
+"IsEmpty"
+],
+"12": [
+"GetHeight",
+"GetBottom",
+"SetHeight"
+]
+},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"TGUIObject": {
+"direct": [
+"GetConceptualParent",
+"SetBounds",
+"GetScreenOffset",
+"GetClipRect",
+"GetCommonAncestor",
+"HasFocus",
+"HasTrueFocus",
+"HasAncestor",
+"IsInTrueFocusPath"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"SetParent"
+],
+"22": [
+"SetPosition"
+],
+"23": [
+"Move"
+],
+"24": [
+"Resize"
+],
+"25": [
+"GetFocusLeaf"
+],
+"26": [
+"GotFocus"
+],
+"27": [
+"GotTrueFocus"
+],
+"28": [
+"GotTrueFocusPath"
+],
+"29": [
+"LostFocus"
+],
+"30": [
+"LostTrueFocus"
+],
+"31": [
+"LostTrueFocusPath"
+],
+"32": [
+"FocusHeight"
+],
+"33": [
+"GetDesiredSize"
+],
+"34": [
+"MouseEntered"
+],
+"35": [
+"MouseExited"
+],
+"36": [
+"IsCompletelyEnabled"
+],
+"37": [
+"SetEnabled",
+"SetEnabledFlag"
+],
+"38": [
+"SetDisabled",
+"ToggleEnabled"
+],
+"39": [
+"SetSelected",
+"SetSelectedFlag"
+],
+"40": [
+"SetNotSelected",
+"ToggleSelected"
+],
+"41": [
+"SetHighlighted",
+"SetHighlightedFlag"
+],
+"42": [
+"SetNotHighlighted",
+"ToggleHighlighted"
+],
+"43": [
+"IsCompletelyVisible"
+],
+"44": [
+"SetVisible",
+"SetVisibleFlag"
+],
+"45": [
+"SetNotVisible",
+"ToggleVisible"
+],
+"46": [
+"SetExclusive",
+"SetExclusiveFlag"
+],
+"47": [
+"SetNotExclusive",
+"ToggleExclusive"
+],
+"48": [
+"SetSkipParent",
+"SetSkipParentFlag"
+],
+"49": [
+"SetNoSkipParent",
+"ToggleSkipParent"
+],
+"50": [
+"SetAlwaysHandleEvents",
+"SetAlwaysHandleEventsFlag"
+],
+"51": [
+"SetNotAlwaysHandleEvents",
+"ToggleAlwaysHandleEvents"
+],
+"52": [
+"SetUseParentBatch",
+"SetUseParentBatchFlag"
+],
+"53": [
+"SetNotUseParentBatch",
+"ToggleUseParentBatch"
+],
+"54": [
+"SetBatchChildPolys",
+"SetBatchChildPolysFlag"
+],
+"55": [
+"SetNotBatchChildPolys",
+"ToggleBatchChildPolys"
+],
+"56": [
+"SetNoFocus",
+"SetNoFocusFlag"
+],
+"57": [
+"SetNotNoFocus",
+"ToggleNoFocus"
+],
+"3": [
+"Print"
+],
+"58": [
+"Layout"
+]
+},
+"inline": {
+"20": [
+"GetParent"
+],
+"0": [
+"GetBounds",
+"IsWithin"
+],
+"24": [
+"GetLeft",
+"GetPosition"
+],
+"28": [
+"GetTop"
+],
+"32": [
+"GetRight",
+"GetWidth"
+],
+"36": [
+"GetBottom",
+"GetHeight"
+],
+"40": [
+"GetFlags",
+"IsEnabled",
+"IsSelected",
+"IsHighlighted",
+"IsVisible",
+"IsExclusive",
+"IsSkipParent",
+"IsAlwaysHandleEvents",
+"IsUseParentBatch",
+"IsBatchChildPolys",
+"IsNoFocus"
+]
+},
+"other": [
+"AlignTo"
+],
+"static": 0
+},
+"TGPane": {
+"direct": [
+"Cast",
+"GetTrueNumChildren",
+"GetTrueNthChild"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"64": [
+"AddChild",
+"PrependChild",
+"InsertChild"
+],
+"65": [
+"RemoveChild"
+],
+"66": [
+"DeleteChild"
+],
+"67": [
+"GetNumChildren"
+],
+"68": [
+"FindPos"
+],
+"69": [
+"GetFirstChild"
+],
+"70": [
+"GetLastChild"
+],
+"71": [
+"GetNthChild"
+],
+"72": [
+"GetNextChild"
+],
+"73": [
+"GetPrevChild"
+],
+"74": [
+"KillChildren"
+],
+"75": [
+"MoveToFront"
+],
+"76": [
+"MoveTowardsFront"
+],
+"77": [
+"MoveToBack"
+],
+"78": [
+"MoveTowardsBack"
+],
+"79": [
+"SetFocus"
+],
+"80": [
+"GetFocus"
+],
+"81": [
+"MoveFocus"
+],
+"25": [
+"GetFocusLeaf"
+],
+"32": [
+"FocusHeight"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGIcon": {
+"direct": [
+"Cast",
+"SetIconNum",
+"SetColor",
+"SizeToArtwork",
+"SetIconGroupName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"56": [
+"GetIconNum"
+],
+"0": [
+"GetColor"
+],
+"76": [
+"SetClamp",
+"GetClamp"
+],
+"48": [
+"GetIconPoly"
+],
+"52": [
+"GetIconGroupName"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGFrame": {
+"direct": [
+"Cast",
+"SetIconGroupName",
+"SetScale",
+"SetStretchType",
+"SetFirstIconNum",
+"SetEdgeStretch"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"4": [
+"SetNiColor"
+],
+"120": [
+"GetEdgeStretch"
+]
+},
+"other": [
+"Create",
+"(new)",
+"GetInnerRect",
+"GetNiColor"
+],
+"static": 1
+},
+"TGButtonBase": {
+"direct": [
+"Cast",
+"ClearMouseDown"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"82": [
+"ClearActivationEvent"
+],
+"83": [
+"SetActivationEvent"
+],
+"84": [
+"SendActivationEvent"
+],
+"85": [
+"GetActivationEvent"
+],
+"86": [
+"SetMouseDownEvent"
+],
+"87": [
+"SendMouseDownEvent"
+],
+"88": [
+"SetMouseUpEvent"
+],
+"89": [
+"SendMouseUpEvent"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGButton": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"90": [
+"SetIcons"
+],
+"91": [
+"SetIconColor"
+]
+},
+"inline": {
+"92": [
+"GetFirstIconNum"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TGTextButton": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"90": [
+"SetText"
+],
+"91": [
+"SetTextW"
+],
+"92": [
+"SetIcons"
+],
+"93": [
+"SetTextWrapWidth"
+],
+"94": [
+"AlignTextHorizontal"
+],
+"95": [
+"AlignTextVertical"
+]
+},
+"inline": {
+"0": [
+"GetInnerRect"
+]
+},
+"other": [
+"(new)",
+"Create",
+"CreateW"
+],
+"static": 1
+},
+"TGRootPane": {
+"direct": [
+"SetMouseCursor",
+"SetCursorVisible",
+"PushCursor",
+"PopCursor",
+"GrabMouse",
+"ReleaseMouse",
+"UpdateTrueFocus",
+"ShowFPS",
+"HideFPS"
+],
+"virtual": {
+"58": [
+"Layout"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"92": [
+"GetMouseCursor"
+],
+"120": [
+"GetMouseGrabOwner"
+],
+"116": [
+"GetTrueFocus"
+]
+},
+"other": [],
+"static": 0
+},
+"TGParagraph": {
+"direct": [
+"Cast",
+"SetFontGroup",
+"SetColor",
+"SetReadOnly",
+"SetString",
+"SetIgnoreString"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"82": [
+"GetString"
+],
+"83": [
+"GetWrapWidth"
+],
+"84": [
+"SetWrapWidth"
+],
+"64": [
+"InsertChild"
+],
+"85": [
+"InsertChar",
+"AppendChar"
+],
+"86": [
+"RecalcBounds"
+],
+"87": [
+"InsertString",
+"AppendString",
+"InsertStringW",
+"AppendStringW"
+],
+"88": [
+"SetStringW"
+],
+"89": [
+"SetIgnoreStringW"
+],
+"90": [
+"SetCursorPosition",
+"MoveCursorToStart",
+"MoveCursorToEnd"
+]
+},
+"inline": {
+"76": [
+"GetFontGroup"
+],
+"40": [
+"IsReadOnly"
+],
+"144": [
+"SetMaxChars",
+"GetMaxChars"
+]
+},
+"other": [
+"(new)",
+"Create",
+"CreateW",
+"SetCursorBlinkInterval"
+],
+"static": 1
+},
+"TGIconGroup": {
+"direct": [
+"Reset",
+"SetName",
+"LoadIconTexture",
+"GetIconPixelWidth",
+"GetIconPixelHeight",
+"GetIconScreenWidth",
+"GetIconScreenHeight",
+"IsNumValid",
+"GoToFirstPos",
+"GetNext"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"1": [
+"SetIconLocation"
+],
+"2": [
+"GetPyWrapper"
+]
+},
+"inline": {
+"4": [
+"GetName"
+],
+"16": [
+"GetCount"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGIconManager": {
+"direct": [
+"RegisterIconGroup",
+"CreateIconGroup",
+"AddIconGroup",
+"DeleteIconGroup",
+"GetIconGroup",
+"Purge",
+"SetPixelCenterAdj",
+"SetDisplayInfo",
+"Draw"
+],
+"virtual": {
+"10": [
+"SetCamera"
+]
+},
+"inline": {
+"88": [
+"GetScreenWidth",
+"SetScreenWidth"
+],
+"92": [
+"GetScreenHeight",
+"SetScreenHeight"
+],
+"84": [
+"SetScale",
+"GetScale"
+],
+"96": [
+"GetPixelCenterAdj"
+]
+},
+"other": [
+"GetCamera"
+],
+"static": 0
+},
+"TGFontGroup": {
+"direct": [
+"MapChar"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"52": [
+"GetFontName"
+],
+"56": [
+"GetFontSize"
+],
+"64": [
+"SetSpaceWidth",
+"GetPixelSpaceWidth",
+"GetScreenSpaceWidth"
+],
+"60": [
+"SetTabWidth",
+"GetPixelTabWidth",
+"GetScreenTabWidth"
+],
+"68": [
+"SetHorizontalSpacing",
+"GetPixelHorizontalSpacing",
+"GetScreenHorizontalSpacing"
+],
+"72": [
+"SetVerticalSpacing",
+"GetPixelVerticalSpacing",
+"GetScreenVerticalSpacing"
+],
+"76": [
+"GetPixelMaxHeight",
+"GetScreenMaxHeight"
+]
+},
+"other": [],
+"static": 0
+},
+"TGFontManager": {
+"direct": [
+"RegisterFont",
+"CreateFontGroup",
+"AddFontGroup",
+"SetDefaultFont",
+"GetFontGroup",
+"Purge",
+"RemoveGroup"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)",
+"GetDefaultFont"
+],
+"static": 0
+},
+"TGWindow": {
+"direct": [
+"Create",
+"Cast",
+"SetIndent"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"82": [
+"GetSubPane"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"TGFrameWindow": {
+"direct": [
+"CreateFromTheme",
+"Create",
+"GetFramePane"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Cast",
+"(new)"
+],
+"static": 2
+},
+"TGDialogWindow": {
+"direct": [
+"CreateFromTheme",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"SetEventType",
+"GetEventType"
+]
+},
+"other": [
+"(new)",
+"Cast"
+],
+"static": 2
+},
+"TGUITheme": {
+"direct": [
+"Create",
+"SetThemeName",
+"Copy",
+"SetWindowFrameName",
+"SetButtonFrameName",
+"SetDialogFrameName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"8": [
+"SetWindowFrameScale",
+"GetWindowFrameScale"
+],
+"16": [
+"SetButtonFrameScale",
+"GetButtonFrameScale"
+],
+"24": [
+"SetDialogFrameScale",
+"GetDialogFrameScale"
+],
+"12": [
+"GetWindowFrameName"
+],
+"20": [
+"GetButtonFrameName"
+],
+"28": [
+"GetDialogFrameName"
+],
+"4": [
+"GetThemeName"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGUIThemeManager": {
+"direct": [
+"FindTheme",
+"SetCurrentTheme",
+"AddTheme"
+],
+"virtual": {},
+"inline": {
+"28": [
+"GetCurrentTheme"
+]
+},
+"other": [],
+"static": 0
+},
+"TGConsole": {
+"direct": [
+"GetPyString",
+"Cast",
+"EvalString",
+"AddConsoleString",
+"SetConsoleFont"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"SetTextIndent",
+"GetTextIndent"
+],
+"static": 2
+},
+"TGPrompt": {
+"direct": [],
+"virtual": {
+"82": [
+"GetString"
+],
+"91": [
+"GetCString"
+],
+"90": [
+"SetCursorPosition"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGSound": {
+"direct": [
+"Load",
+"Unload",
+"SetGroup",
+"Play",
+"PlayAndNotify",
+"Stop",
+"Rewind",
+"Pause",
+"Unpause",
+"GetStatus",
+"Is3D",
+"AttachToNode",
+"DetachFromNode",
+"GetParentNode",
+"SetOrientation",
+"GetOrientation",
+"SetPosition",
+"SetConeData",
+"GetConeData",
+"SetMinMaxDistance",
+"GetMinMaxDistance",
+"SetVolume",
+"SetPitch",
+"GetPitch",
+"SetPlayPositionSeconds",
+"GetPlayPositionSeconds",
+"GetDurationSeconds",
+"SetEndEvent",
+"GetEndEvent",
+"Update",
+"AddFadePoint",
+"ClearFadePoints"
+],
+"virtual": {},
+"inline": {
+"0": [
+"GetGroup"
+],
+"82": [
+"IsPaused"
+],
+"83": [
+"SetSingleShot",
+"IsSingleShot"
+],
+"8": [
+"GetSoundName"
+],
+"4": [
+"GetFileName"
+],
+"19": [
+"IsStreamed"
+],
+"15": [
+"IsLoaded"
+],
+"12": [
+"SetSFX",
+"IsSFX"
+],
+"13": [
+"SetVoice",
+"IsVoice"
+],
+"14": [
+"SetInterface",
+"IsInterface"
+],
+"18": [
+"SetLooping",
+"GetLooping"
+],
+"100": [
+"GetVolume"
+],
+"104": [
+"SetPriority",
+"GetPriority"
+]
+},
+"other": [
+"Create",
+"GetPosition",
+"SetPlayPosition",
+"GetPlayPosition",
+"GetNiSourceObj"
+],
+"static": 0
+},
+"TGSoundManager": {
+"direct": [
+"Reload",
+"SetMaxSoundsAtOnce",
+"SetUnitsPerMeter",
+"GetUnitsPerMeter",
+"SetMasterVolume",
+"SetSFXVolume",
+"SetSFXEnabled",
+"SetVoiceVolume",
+"SetVoiceEnabled",
+"SetInterfaceVolume",
+"GetSound",
+"GetPlayingSound",
+"PlaySound",
+"StopSound",
+"SetSFXAdjustmentMinimum",
+"StopAllSounds",
+"StopAllSoundsInGroup",
+"DeleteSound",
+"DeleteAllSounds",
+"DeleteAllSoundsInGroup",
+"GetNumSoundsAllocated",
+"GetRoughMemoryUsage",
+"IsA3DSupported",
+"IsEAXSupported"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"29": [
+"SetEnabled"
+],
+"28": [
+"IsEnabled"
+],
+"76": [
+"GetMaxSoundsAtOnce"
+],
+"32": [
+"GetMasterVolume"
+],
+"36": [
+"GetSFXVolume"
+],
+"48": [
+"IsSFXEnabled"
+],
+"40": [
+"GetVoiceVolume"
+],
+"49": [
+"IsVoiceEnabled"
+],
+"44": [
+"GetInterfaceVolume"
+]
+},
+"other": [],
+"static": 0
+},
+"TGRedbookClass": {
+"direct": [
+"OpenRedbookCD",
+"PlayRedbookCDTrack",
+"StopRedbookCDTrack",
+"CloseRedbookCD",
+"IsRedbookCDTrackFinishedPlaying",
+"GetCDTrackLengthInMilliseconds",
+"SetRedbookCDVolume",
+"FadeRedbookCDVolume",
+"UpdateRedbookCD"
+],
+"virtual": {},
+"inline": {
+"8": [
+"GetCDID"
+],
+"140": [
+"SetCDDonePlaying"
+]
+},
+"other": [],
+"static": 0
+},
+"TGMusic": {
+"direct": [
+"StartMusic",
+"StopMusic",
+"PlayFanfare",
+"SetEnabled",
+"SetVolume"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"36": [
+"IsEnabled"
+],
+"28": [
+"GetVolume"
+]
+},
+"other": [
+"LoadMusic",
+"UnloadMusic"
+],
+"static": 0
+},
+"TGSoundRegion": {
+"direct": [
+"GetRegion",
+"AddSound",
+"RemoveSound",
+"SetFilter"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 1
+},
+"PyEmbed": {
+"direct": [
+"UnserializeModule",
+"StartSave",
+"FinishSave",
+"StartLoad",
+"FinishLoad"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"SerializeModule"
+],
+"static": 0
+},
+"TGModelProperty": {
+"direct": [
+"GetRefCount",
+"DecRefCount",
+"IncRefCount",
+"Cast",
+"Create",
+"Duplicate"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"13": [
+"WriteInit"
+],
+"14": [
+"Edit"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"GetName",
+"SetName",
+"SetNameW"
+],
+"static": 2
+},
+"TGModelPropertyManager": {
+"direct": [
+"IsLocalTemplate",
+"IsGlobalTemplate",
+"RegisterLocalTemplate",
+"RegisterGlobalTemplate",
+"ClearGlobalTemplates",
+"ClearLocalTemplates",
+"ClearRegisteredFilters",
+"RegisterFilter",
+"AddFilter",
+"ApplyFilters",
+"ClearCurrentFilters",
+"RemoveFilter",
+"RemoveTemplate",
+"FindByNameAndType",
+"FindByName"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGModelPropertySet": {
+"direct": [
+"GetPropertyList",
+"GetPropertiesByType",
+"AddToSet"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGModelPropertyInstance": {
+"direct": [
+"UseOriginalTemplate"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"8": [
+"GetHardpointName"
+],
+"12": [
+"GetProperty"
+],
+"4": [
+"GetOriginalTemplate"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGModelPropertyList": {
+"direct": [
+"TGBeginIteration",
+"TGGetNext",
+"TGDestroy"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"28": [
+"TGDoneIterating"
+],
+"4": [
+"TGGetNumItems"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGAction": {
+"direct": [
+"Cast",
+"AddCompletedEvent",
+"IsPartOfSequence",
+"SetUseRealTime"
+],
+"virtual": {
+"12": [
+"IsPlaying"
+],
+"13": [
+"ConstructDescription"
+],
+"14": [
+"SetupEditControls"
+],
+"15": [
+"ExtractControlValues"
+],
+"16": [
+"Play"
+],
+"17": [
+"Restart"
+],
+"18": [
+"Skip"
+],
+"19": [
+"Abort"
+],
+"20": [
+"Completed"
+]
+},
+"inline": {
+"12": [
+"IsSkippable",
+"SetSkippable"
+],
+"20": [
+"GetSequence"
+],
+"28": [
+"IsUseRealTime"
+],
+"29": [
+"SetSurviveGlobalAbort",
+"IsGlobalAbortSurvivor"
+]
+},
+"other": [
+"CreateNull"
+],
+"static": 1
+},
+"TGSequence": {
+"direct": [
+"Cast",
+"AppendAction"
+],
+"virtual": {
+"16": [
+"Play"
+],
+"18": [
+"Skip"
+]
+},
+"inline": {
+"32": [
+"GetNumActions"
+],
+"36": [
+"GetAction"
+]
+},
+"other": [
+"Create",
+"AddAction"
+],
+"static": 1
+},
+"TGScriptAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+]
+},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGTimedAction": {
+"direct": [],
+"virtual": {},
+"inline": {
+"32": [
+"SetDuration",
+"GetDuration"
+]
+},
+"other": [],
+"static": 0
+},
+"TGSoundAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+],
+"17": [
+"Restart"
+],
+"20": [
+"Completed"
+],
+"18": [
+"Skip"
+],
+"10": [
+"SetNode"
+]
+},
+"inline": {
+"44": [
+"SetPriority"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"TGAnimAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+],
+"17": [
+"Restart"
+],
+"20": [
+"Completed"
+],
+"18": [
+"Skip"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"TGAnimPosition": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"TGCondition": {
+"direct": [
+"Cast",
+"AddHandler",
+"RemoveHandler"
+],
+"virtual": {
+"12": [
+"SetStatus"
+],
+"13": [
+"SetActive"
+],
+"14": [
+"SetInactive"
+]
+},
+"inline": {
+"8": [
+"GetStatus"
+],
+"9": [
+"IsActive"
+]
+},
+"other": [],
+"static": 1
+},
+"TGConditionHandler": {
+"direct": [],
+"virtual": {
+"0": [
+"ConditionChanged"
+],
+"1": [
+"AddCondition"
+],
+"2": [
+"RemoveCondition"
+]
+},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TGConditionAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"TGMessage": {
+"direct": [
+"UnSerialize",
+"SetData",
+"SetDataNoCopy",
+"SetDataFromStream",
+"ReadyToResend",
+"SetNumRetries",
+"GetBufferStream"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"3": [
+"Merge"
+],
+"4": [
+"OverrideOldPackets"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+],
+"7": [
+"BreakUpMessage"
+]
+},
+"inline": {
+"8": [
+"GetDataLength"
+],
+"58": [
+"SetGuaranteed",
+"IsGuaranteed"
+],
+"59": [
+"SetHighPriority",
+"IsHighPriority"
+],
+"12": [
+"GetFromID",
+"SetFromID"
+],
+"16": [
+"GetFromAddress",
+"SetFromAddress"
+],
+"48": [
+"SetFirstResendTime",
+"GetFirstResendTime"
+],
+"44": [
+"SetBackoffType",
+"GetBackoffType"
+],
+"52": [
+"SetBackoffFactor",
+"GetBackoffFactor"
+],
+"20": [
+"SetSequenceNumber",
+"GetSequenceNumber"
+],
+"40": [
+"SetToID",
+"GetToID"
+],
+"24": [
+"GetNumRetries"
+],
+"28": [
+"SetBackoffTime",
+"GetBackoffTime"
+],
+"32": [
+"SetTimeStamp",
+"GetTimeStamp"
+],
+"36": [
+"SetFirstSendTime",
+"GetFirstSendTime"
+],
+"57": [
+"SetMultiPartSequenceNumber",
+"GetMultiPartSequenceNumber"
+],
+"56": [
+"SetMultiPartCount",
+"GetMultiPartCount"
+],
+"60": [
+"SetMultiPart",
+"IsMultiPart"
+],
+"61": [
+"SetAggregate",
+"IsAggregate"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetData",
+"IncrementNumRetries"
+],
+"static": 1
+},
+"TGPlayerList": {
+"direct": [
+"GetPlayerAtIndex",
+"GetPlayerFromAddress",
+"ChangePlayerNetID",
+"DeletePlayerByAddress"
+],
+"virtual": {
+"0": [
+"(delete)",
+"DeletePlayer",
+"DeletePlayerAtIndex",
+"DeleteAllPlayers"
+]
+},
+"inline": {
+"8": [
+"GetNumPlayers"
+],
+"4": [
+"GetPlayer",
+"GetPlayerList"
+]
+},
+"other": [
+"(new)",
+"AddPlayer"
+],
+"static": 0
+},
+"TGNetwork": {
+"direct": [
+"Update",
+"Disconnect",
+"GetConnectStatus",
+"CreateLocalPlayer",
+"DeleteLocalPlayer",
+"SetName",
+"GetName",
+"GetCName",
+"SendTGMessage",
+"SendTGMessageToGroup",
+"SetSendTimeout",
+"GetNextMessage",
+"GetHostName",
+"SetPassword",
+"SetEncryptor",
+"AddGroup",
+"GetTimeElapsedSinceLastHostPing",
+"RegisterHandlers",
+"AddClassHandlers",
+"ReceiveMessageHandler"
+],
+"virtual": {
+"0": [
+"(delete)",
+"DeleteGroup"
+],
+"21": [
+"GetLocalIPAddress"
+],
+"22": [
+"GetIPPacketHeaderSize"
+]
+},
+"inline": {
+"184": [
+"SetConnectionTimeout"
+],
+"32": [
+"GetHostID"
+],
+"24": [
+"GetLocalID"
+],
+"270": [
+"IsHost"
+],
+"48": [
+"GetNumPlayers"
+],
+"40": [
+"GetPlayerList"
+],
+"224": [
+"GetPassword"
+],
+"240": [
+"GetEncryptor"
+],
+"4": [
+"GetGroup"
+],
+"256": [
+"SetBootReason",
+"GetBootReason"
+],
+"272": [
+"EnableProfiling"
+],
+"0": [
+"RegisterMessageType"
+]
+},
+"other": [
+"(new)",
+"Connect",
+"GetTGNetworkList"
+],
+"static": 2
+},
+"TGWinsockNetwork": {
+"direct": [
+"SetPortNumber",
+"BanPlayerByIP",
+"BanPlayerByName"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"GetLocalIPAddress"
+],
+"22": [
+"GetIPPacketHeaderSize"
+]
+},
+"inline": {
+"824": [
+"GetPortNumber"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"TGNameChangeMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGAckMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {
+"64": [
+"SetSystemMessage",
+"IsSystemMessage"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGDoNothingMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGBootPlayerMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {
+"64": [
+"SetBootReason",
+"GetBootReason"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGConnectMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGDisconnectMessage": {
+"direct": [
+"UnSerialize"
+],
+"virtual": {
+"1": [
+"(delete)"
+],
+"2": [
+"Serialize"
+],
+"5": [
+"GetBufferSpaceRequired"
+],
+"6": [
+"Copy"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TGMessageEvent": {
+"direct": [
+"SetMessage"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetMessage"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGPlayerEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"SetPlayerID",
+"GetPlayerID"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TGGroupPlayer": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"m_iNetID_set",
+"m_iNetID_get"
+]
+},
+"other": [],
+"static": 0
+},
+"TGNetGroup": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"4": [
+"GetName"
+],
+"8": [
+"GetPlayerList",
+"IsPlayerInGroup"
+]
+},
+"other": [
+"(new)",
+"Copy",
+"SetName",
+"Validate",
+"AddPlayerToGroup",
+"DeletePlayerFromGroup"
+],
+"static": 0
+},
+"TGNetPlayer": {
+"direct": [
+"SetName",
+"GetBytesPerSecondTo",
+"GetBytesPerSecondFrom"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"1": [
+"Copy"
+]
+},
+"inline": {
+"4": [
+"GetName"
+],
+"24": [
+"SetNetID",
+"GetNetID",
+"Compare"
+],
+"28": [
+"SetNetAddress",
+"GetNetAddress"
+],
+"188": [
+"SetDisconnected",
+"IsDisconnected"
+],
+"32": [
+"SetConnectUID",
+"GetConnectUID"
+],
+"20": [
+"SetConnectAddress",
+"GetConnectAddress"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"TGMovieAction": {
+"direct": [
+"SetOffset",
+"DeleteFrameAction"
+],
+"virtual": {
+"16": [
+"Play"
+],
+"18": [
+"Skip"
+],
+"20": [
+"Completed"
+]
+},
+"inline": {
+"40": [
+"GetOffsetX"
+],
+"44": [
+"GetOffsetY"
+],
+"48": [
+"Repeats"
+]
+},
+"other": [
+"Create",
+"AddFrameAction"
+],
+"static": 0
+},
+"TGCreditAction": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+],
+"16": [
+"Play"
+]
+},
+"inline": {
+"4": [
+"SetColor"
+]
+},
+"other": [
+"Create",
+"CreateSTR",
+"(new)",
+"SetDefaultColor"
+],
+"static": 0
+},
+"TGMovieManager": {
+"direct": [
+"PlayNextFrame",
+"SwitchToMovieMode",
+"SwitchOutOfMovieMode",
+"SetMovieVolume",
+"LoadForcedMovie"
+],
+"virtual": {},
+"inline": {
+"60": [
+"IsAnyPlaying"
+]
+},
+"other": [],
+"static": 0
+},
+"TGGeomUtils": {
+"direct": [
+"LineSphereIntersection"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"CalcAngularDifferenceSingle"
+],
+"static": 0
+},
+"UtopiaModule": {
+"direct": [
+"RenderDefaultCamera",
+"Pause",
+"SaveToFile",
+"LoadFromFile",
+"SetLoadFromFileName",
+"SetInternalLoadFileName",
+"SaveMissionState",
+"LoadMissionState",
+"GetNextEventType",
+"DetermineModemConnection",
+"TerminateNetwork",
+"CreateGameSpy",
+"TerminateGameSpy",
+"IncrementClientID",
+"SetGameName",
+"SetGamePath",
+"SetDataPath"
+],
+"virtual": {},
+"inline": {
+"40": [
+"GetCamera"
+],
+"144": [
+"GetGameTime",
+"SetGameTime"
+],
+"84": [
+"GetRealTime",
+"GetMaxFriendlyTractorTime",
+"SetMaxFriendlyTractorTime"
+],
+"140": [
+"IsGamePaused",
+"SetUnusedClientID",
+"GetUnusedClientID"
+],
+"156": [
+"SetTimeRate"
+],
+"160": [
+"SetTimeScale"
+],
+"180": [
+"IsDirectStart"
+],
+"44": [
+"GetSaveFilename"
+],
+"48": [
+"GetLoadFilename"
+],
+"136": [
+"SetIsClient",
+"IsClient"
+],
+"137": [
+"SetMultiplayer",
+"IsMultiplayer"
+],
+"138": [
+"SetIsHost",
+"IsHost"
+],
+"162": [
+"IsModemConnection"
+],
+"139": [
+"SetProcessingPackets",
+"IsProcessingPackets"
+],
+"132": [
+"SetPlayerNumber",
+"GetPlayerNumber"
+],
+"172": [
+"IsLoading"
+],
+"120": [
+"GetNetwork"
+],
+"124": [
+"GetGameSpy"
+],
+"161": [
+"SetIgnoreClientIDForObjectCreation",
+"IsIgnoreClientIDForObjectCreation"
+],
+"20": [
+"GetGameName"
+],
+"24": [
+"GetGamePath"
+],
+"28": [
+"GetDataPath"
+],
+"64": [
+"GetFriendlyFireTolerance",
+"SetMaxFriendlyFire"
+],
+"68": [
+"GetCurrentFriendlyFire",
+"SetCurrentFriendlyFire"
+],
+"72": [
+"GetFriendlyFireWarningPoints",
+"SetFriendlyFireWarningPoints"
+],
+"76": [
+"GetFriendlyTractorTime",
+"SetFriendlyTractorTime"
+],
+"80": [
+"GetFriendlyTractorWarning",
+"SetFriendlyTractorWarning"
+],
+"184": [
+"GetTestMenuState"
+]
+},
+"other": [
+"ForceUnpause",
+"LoadEpisodeSounds",
+"CDCheck",
+"GetGameVersion",
+"SetCaptainName",
+"GetCaptainName",
+"InitializeNetwork",
+"SetMaxTorpedoLoad",
+"GetMaxTorpedoLoad",
+"SetCurrentStarbaseTorpedoLoad",
+"GetCurrentStarbaseTorpedoLoad",
+"ConvertGameUnitsToKilometers",
+"ConvertKilometersToGameUnits",
+"SetGameUnitConversionFactor"
+],
+"static": 1
+},
+"UtopiaApp": {
+"direct": [],
+"virtual": {},
+"inline": {
+"44": [
+"IsFullscreen"
+],
+"168": [
+"GetWidth"
+],
+"172": [
+"GetHeight"
+],
+"52": [
+"GetBitDepth"
+],
+"176": [
+"GetDeviceDesc"
+],
+"180": [
+"IsDirectStart"
+],
+"184": [
+"GetTestMenuState",
+"SetTestMenuState"
+],
+"116": [
+"SetFrameRate"
+]
+},
+"other": [
+"(new)",
+"GetApp"
+],
+"static": 0
+},
+"TGMatrix3": {
+"direct": [
+"MakeZero",
+"MakeIdentity",
+"MakeDiagonal",
+"MakeXRotation",
+"MakeYRotation",
+"MakeZRotation",
+"MakeRotation",
+"Set",
+"ExtractAngleAndAxis",
+"ToEulerAnglesXYZ",
+"ToEulerAnglesXZY",
+"ToEulerAnglesYXZ",
+"ToEulerAnglesYZX",
+"ToEulerAnglesZXY",
+"ToEulerAnglesZYX",
+"FromEulerAnglesXYZ",
+"FromEulerAnglesXZY",
+"FromEulerAnglesYXZ",
+"FromEulerAnglesYZX",
+"FromEulerAnglesZXY",
+"FromEulerAnglesZYX",
+"Reorthogonalize",
+"TransformVertices",
+"TransformNormals",
+"TransformVerticesAndNormals",
+"EigenSolveSymmetric"
+],
+"virtual": {},
+"inline": {
+"0": [
+"GetRow",
+"SetRow",
+"GetCol",
+"SetCol"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"GetEntry",
+"SetEntry",
+"Inverse",
+"Transpose",
+"MultMatrix",
+"MultMatrixLeft",
+"TransposeTimes",
+"Congruence"
+],
+"static": 3
+},
+"SetClass": {
+"direct": [
+"Cast",
+"CanGlowBeEnabled",
+"SetProximityManagerActive",
+"SetRegionModule",
+"CalcIsRendered",
+"AddBackdropToSet",
+"RemoveBackdropFromSet",
+"SetBackgroundModel",
+"RemoveBackgroundModel",
+"RemoveObjectFromSet",
+"DeleteObjectFromSet",
+"GetObject",
+"GetObjectByID",
+"IsLocationEmptyTG",
+"SetName",
+"GetFirstObject",
+"GetNextObject",
+"GetPreviousObject",
+"CreateCamera",
+"AddCameraToSet",
+"GetCamera",
+"RemoveCameraFromSet",
+"DeleteCameraFromSet",
+"SetActiveCamera",
+"GetActiveCamera",
+"CreateAmbientLight",
+"CreateDirectionalLight",
+"GetLight",
+"DeleteLightFromSet",
+"StartPick",
+"GetPickedObject",
+"GetDotProductToObject"
+],
+"virtual": {
+"21": [
+"AddObjectToSet"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"244": [
+"GetProximityManager"
+],
+"120": [
+"GetRegionModule"
+],
+"269": [
+"IsRendered"
+],
+"116": [
+"GetName"
+],
+"160": [
+"GetSceneRoot"
+],
+"164": [
+"GetEffectRoot"
+],
+"168": [
+"GetBackdropRoot"
+],
+"172": [
+"GetForegroundRoot"
+],
+"260": [
+"SetGlowIntensity"
+],
+"236": [
+"GetNebula"
+]
+},
+"other": [
+"Create",
+"GetNull",
+"SetGlowEnabled",
+"IsGlowEnabled",
+"GetDisplayName",
+"MakeDisplayName",
+"GetDotProductToVector",
+"SetSplitLargeZRenders",
+"GetSplitLargeZRenders"
+],
+"static": 2
+},
+"SetManager": {
+"direct": [
+"Terminate",
+"AddSet",
+"RemoveSet",
+"DeleteSet",
+"MakeRenderedSet"
+],
+"virtual": {
+"0": [
+"DeleteAllSets"
+],
+"27": [
+"GetSet"
+]
+},
+"inline": {
+"12": [
+"GetNumSets"
+],
+"4": [
+"ClearRenderedSet",
+"GetRenderedSet"
+]
+},
+"other": [],
+"static": 0
+},
+"ScriptObject": {
+"direct": [
+"SetOnIdleFunc",
+"SetDatabase"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"PreLoadAssets"
+],
+"22": [
+"Initialize"
+],
+"23": [
+"Load"
+],
+"24": [
+"OnIdle"
+],
+"25": [
+"Unload"
+],
+"26": [
+"Terminate"
+],
+"27": [
+"AddPersistentModule"
+]
+},
+"inline": {
+"28": [
+"GetInstanceNextEventType",
+"SetEventCount"
+],
+"20": [
+"GetScript"
+],
+"40": [
+"SetAssetsLoaded",
+"AreAssetsLoaded"
+],
+"52": [
+"GetDatabase"
+]
+},
+"other": [
+"(new)",
+"LoadSound",
+"LoadDatabaseSound"
+],
+"static": 0
+},
+"Game": {
+"direct": [
+"GetNextEventType",
+"SetPlayer",
+"SetLastSavedGame",
+"SetPreLoadDoneEvent",
+"GetCurrentPlayer",
+"GetPlayerSet",
+"GetPlayerCamera",
+"SetUIShipID",
+"SetDifficulty",
+"SetDifficultyReallyIMeanIt",
+"SetDifficultyMultipliers",
+"SetDefaultDifficultyMultipliers",
+"GetOffensiveDifficultyMultiplier",
+"GetDefensiveDifficultyMultiplier",
+"SetPlayerHardpointFileName"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"26": [
+"Terminate"
+]
+},
+"inline": {
+"112": [
+"GetCurrentEpisode"
+],
+"56": [
+"GetScore"
+],
+"60": [
+"GetRating"
+],
+"64": [
+"GetKills"
+],
+"68": [
+"GetTorpsFired"
+],
+"72": [
+"GetTorpsHit"
+],
+"80": [
+"GetLastSavedGame"
+],
+"84": [
+"GetPlayer"
+],
+"88": [
+"GetPlayerGroup"
+],
+"96": [
+"SetGodMode",
+"InGodMode"
+]
+},
+"other": [
+"(new)",
+"Create",
+"LoadEpisode",
+"LoadSoundInGroup",
+"LoadDatabaseSoundInGroup",
+"GetCurrentGame",
+"GetDifficulty",
+"GetPlayerHardpointFileName"
+],
+"static": 9
+},
+"Episode": {
+"direct": [
+"GetNextEventType",
+"RegisterGoal",
+"RemoveGoal"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"60": [
+"GetCurrentMission"
+]
+},
+"other": [
+"LoadMission"
+],
+"static": 1
+},
+"Mission": {
+"direct": [
+"GetNextEventType",
+"AddPrecreatedShip",
+"GetPrecreatedShip"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 1
+},
+"BaseObjectClass": {
+"direct": [
+"Create",
+"Cast",
+"AttachObject",
+"DetachObject",
+"SetDisplayName",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"21": [
+"Update",
+"IsHidden"
+],
+"22": [
+"UpdateNodeOnly"
+],
+"25": [
+"GetAnimNode"
+],
+"20": [
+"SetHidden"
+],
+"26": [
+"SetName"
+],
+"28": [
+"Rotate"
+],
+"29": [
+"SetTranslateXYZ"
+],
+"31": [
+"SetTranslate"
+],
+"32": [
+"SetAngleAxisRotation"
+],
+"34": [
+"SetMatrixRotation"
+],
+"35": [
+"SetScale"
+],
+"36": [
+"GetScale"
+],
+"37": [
+"GetWorldLocation"
+],
+"38": [
+"GetTranslate"
+],
+"39": [
+"GetRotation"
+],
+"40": [
+"GetWorldRotation"
+],
+"43": [
+"GetWorldBackwardTG"
+],
+"44": [
+"GetWorldUpTG",
+"GetWorldDownTG"
+],
+"45": [
+"GetWorldRightTG",
+"GetWorldLeftTG"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"24": [
+"GetNode"
+],
+"32": [
+"GetContainingSet"
+],
+"28": [
+"GetNiObject"
+],
+"36": [
+"SetDeleteMe"
+],
+"40": [
+"GetName"
+]
+},
+"other": [
+"AlignToVectors",
+"GetDisplayName",
+"GetWorldForwardTG"
+],
+"static": 4
+},
+"ObjectClass": {
+"direct": [
+"Cast",
+"Create",
+"PlaceObjectByName",
+"RandomOrientation",
+"AlignToObject",
+"SetHailable",
+"SetScannable",
+"LineCollides",
+"RefreshReplacedTextures",
+"GetObject",
+"GetObjectByID",
+"GetNumClassObjects"
+],
+"virtual": {
+"57": [
+"GetRadius"
+],
+"50": [
+"IsTargetable"
+],
+"51": [
+"CanTargetObject"
+],
+"52": [
+"IsHailable"
+],
+"53": [
+"IsScannable"
+],
+"60": [
+"GetRandomPointOnModel"
+],
+"61": [
+"GetLocalRandomPointAndNormalOnModel"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"60": [
+"SetCollisionFlags",
+"GetCollisionFlags"
+]
+},
+"other": [
+"SetMaximumNumberOfLights",
+"GetMaximumNumberOfLights",
+"ReplaceTexture"
+],
+"static": 5
+},
+"CameraObjectClass": {
+"direct": [
+"Create",
+"CreateFromNiCamera",
+"Cast",
+"SetFrustumValues",
+"SetFrustum",
+"SetNearAndFarDistance",
+"SetNiFrustum",
+"PushCameraMode",
+"GetCurrentCameraMode",
+"AddModeHierarchy",
+"GetNamedCameraMode",
+"AddNamedCameraMode",
+"Zoom",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"50": [
+"PopCameraMode"
+],
+"43": [
+"GetWorldForward"
+],
+"44": [
+"GetWorldUp"
+],
+"45": [
+"GetWorldRight"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"GetNiFrustum",
+"LookToward"
+],
+"static": 5
+},
+"SpaceCamera": {
+"direct": [
+"SetSpaceDustForCamera",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"300": [
+"IsSpaceDustEnabled"
+]
+},
+"other": [
+"Create",
+"IsSpaceDustEnabledInGame",
+"SetSpaceDustInGame"
+],
+"static": 2
+},
+"LightObjectClass": {
+"direct": [
+"Cast",
+"SetIntensity",
+"GetIntensity",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"51": [
+"AddIlluminatedObject"
+],
+"52": [
+"RemoveIlluminatedObject"
+],
+"53": [
+"IlluminateEntireSet"
+],
+"54": [
+"UnilluminateEntireSet"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 3
+},
+"CameraMode": {
+"direct": [
+"SetAttrIDObject",
+"GetAttrIDObject",
+"Create"
+],
+"virtual": {
+"21": [
+"SetAttrFloat"
+],
+"1": [
+"GetAttrFloat",
+"GetAttrID"
+],
+"22": [
+"SetAttrID"
+],
+"23": [
+"SetAttrPoint"
+],
+"24": [
+"SnapToIdealPosition"
+],
+"25": [
+"Reset"
+],
+"26": [
+"IsValid"
+],
+"27": [
+"Update"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"56": [
+"GetName"
+]
+},
+"other": [
+"GetAttrPoint"
+],
+"static": 1
+},
+"Backdrop": {
+"direct": [
+"Create",
+"Cast",
+"SetModelName",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"26": [
+"SetName"
+],
+"24": [
+"SetContainingSet"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"104": [
+"GetModelName"
+]
+},
+"other": [],
+"static": 4
+},
+"BackdropSphere": {
+"direct": [
+"Create",
+"Cast",
+"SetHorizontalSpan",
+"SetVerticalSpan",
+"SetTextureHTile",
+"SetTextureVTile",
+"SetDetailTextureFileName",
+"SetDetailTextureHTile",
+"SetDetailTextureVTile",
+"SetDecimate",
+"Rebuild",
+"SetSphereRadius",
+"SetTargetPolyCount",
+"GetObject",
+"GetNumClassObjects",
+"SetAlphaBlendModes"
+],
+"virtual": {
+"70": [
+"SetTextureFileName"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 4
+},
+"StarSphere": {
+"direct": [
+"Create",
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"AsteroidField": {
+"direct": [
+"Cast",
+"SetOuterFieldRadius",
+"SetInnerFieldRadius",
+"SetNumAsteroidsPerTile",
+"SetAsteroidSizeFactor",
+"IsShipInside",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"21": [
+"Update"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"GetOuterFieldRadius"
+],
+"112": [
+"GetInnerFieldRadius",
+"GetTileSize"
+],
+"200": [
+"GetNumAsteroidsPerTile"
+],
+"204": [
+"GetAsteroidSizeFactor"
+]
+},
+"other": [
+"Create"
+],
+"static": 3
+},
+"SetFloatVarEvent": {
+"direct": [
+"SetScope",
+"SetName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetScope"
+],
+"44": [
+"GetName"
+],
+"48": [
+"SetValue",
+"GetValue"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"VarManagerClass": {
+"direct": [
+"SetFloatVariable",
+"GetFloatVariable",
+"SetStringVariable",
+"GetStringVariable",
+"DeleteAllVariables",
+"DeleteAllScopedVariables"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"MakeEpisodeEventType"
+],
+"static": 0
+},
+"CPyDebug": {
+"direct": [
+"Print"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"ImageManagerClass": {
+"direct": [
+"SetImageDetail",
+"GetImage",
+"EnableMipMaps",
+"AreMipMapsEnabled",
+"SetDefaultTextureFilterQuality"
+],
+"virtual": {},
+"inline": {
+"4": [
+"GetImageDetail"
+],
+"16": [
+"GetDefaultTextureFilterQuality"
+]
+},
+"other": [
+"FindDetailPath"
+],
+"static": 0
+},
+"FocusManager": {
+"direct": [
+"AddObjectToTabOrder",
+"RemoveObjectFromTabOrder",
+"RemoveAllObjects",
+"RemoveAllObjectsUnder",
+"Tab"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"LODModel": {
+"direct": [
+"SetTextureSharePath",
+"AddGlowPassTexture",
+"Load",
+"LoadIncremental"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"AddLOD"
+],
+"static": 0
+},
+"LODModelManager": {
+"direct": [
+"Contains",
+"Unrefer",
+"ForgetAll",
+"Purge",
+"AreGlowMapsEnabled",
+"SetGlowMapsEnabled",
+"AreSpecularMapsEnabled",
+"SetSpecularMapsEnabled",
+"IsMotionBlurEnabled",
+"SetMotionBlurEnabled",
+"SetDropLODLevel",
+"GetDropLODLevel"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"FloatRangeWatcher": {
+"direct": [
+"AddRangeCheck",
+"RemoveRangeCheck"
+],
+"virtual": {},
+"inline": {
+"0": [
+"GetWatchedVariable"
+]
+},
+"other": [],
+"static": 0
+},
+"TGStringToStringMap": {
+"direct": [
+"AddMapping",
+"GetDest",
+"DeleteMappings"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"LoadMissionAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+]
+},
+"inline": {
+"44": [
+"GetGame"
+],
+"48": [
+"GetEpisode"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"LoadEpisodeAction": {
+"direct": [],
+"virtual": {
+"16": [
+"Play"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"ChatObjectClass": {
+"direct": [
+"Disconnect",
+"IsChatObjectReady",
+"GetLocalIPAddress",
+"SendChatMessage"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"GraphicsModeInfo": {
+"direct": [
+"GetCurrentResolution"
+],
+"virtual": {},
+"inline": {
+"0": [
+"GetDevice"
+],
+"4": [
+"GetDesc"
+],
+"8": [
+"IsWindowed"
+],
+"12": [
+"GetWidth",
+"GetPixelWidth"
+],
+"16": [
+"GetHeight",
+"GetPixelHeight"
+],
+"20": [
+"GetColorDepth"
+],
+"24": [
+"IsHighZBuffer"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"GetCurrentMode",
+"GetLcarsString",
+"GetLcarsModule"
+],
+"static": 0
+},
+"TimeSliceProcess": {
+"direct": [
+"SetPriority"
+],
+"virtual": {
+"0": [
+"Update"
+]
+},
+"inline": {
+"8": [
+"GetPriority"
+],
+"16": [
+"SetDelay",
+"GetDelay"
+],
+"25": [
+"SetDelayUsesGameTime",
+"GetDelayUsesGameTime"
+]
+},
+"other": [],
+"static": 0
+},
+"PythonMethodProcess": {
+"direct": [],
+"virtual": {
+"1": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"SetFunction"
+],
+"static": 0
+},
+"ChangeRenderedSetAction": {
+"direct": [
+"SetName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"CreateFromSet"
+],
+"static": 0
+},
+"ZoomCameraObjectClass": {
+"direct": [
+"UpdateViewFrustum",
+"Create",
+"Cast",
+"ToggleZoom",
+"SetShake",
+"LookForward",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"328": [
+"GetMaxZoom"
+],
+"324": [
+"GetMinZoom"
+],
+"332": [
+"GetZoomTime",
+"SetZoomTime"
+],
+"352": [
+"IsZoomed"
+],
+"340": [
+"GetShake"
+]
+},
+"other": [
+"(new)",
+"SetMaxZoom",
+"SetMinZoom"
+],
+"static": 4
+},
+"CharacterAction": {
+"direct": [
+"Cast",
+"ConvertFolderLWVs",
+"UseNameAndSetInsteadOfObject"
+],
+"virtual": {
+"16": [
+"Play"
+],
+"20": [
+"Completed"
+]
+},
+"inline": {
+"36": [
+"GetActionType"
+],
+"44": [
+"GetDetail"
+],
+"56": [
+"SetPriority"
+],
+"60": [
+"SetSubPriority"
+]
+},
+"other": [
+"Create",
+"CreateByName",
+"SetSkipAllLines"
+],
+"static": 2
+},
+"CharacterClass": {
+"direct": [
+"Cast",
+"IsSomeoneSpeaking",
+"ReplaceBodyAndHead",
+"MorphBody",
+"SetYesSir",
+"GetHeadHeight",
+"IsSpeaking",
+"IsReadyToSpeak",
+"IsAnimating",
+"IsGoingToAnimate",
+"IsAnimatingInterruptable",
+"IsAnimatingNonInterruptable",
+"SetMenuEnabled",
+"SetInitiative",
+"AddAnimation",
+"ClearAnimations",
+"ClearExtraAnimations",
+"SetBlinkAnimation",
+"SetActive",
+"ClearAnimationsOfType",
+"SetAnimationDoneEvent",
+"SetLocation",
+"SetLocationName",
+"IsStateSet",
+"SetFlags",
+"ClearFlags",
+"SetStanding",
+"AddSoundToQueue",
+"Blink",
+"SetName",
+"GetPositionZoom",
+"GetPositionLookAtName",
+"SetDatabase",
+"ClearStatus",
+"GetStatus",
+"ToolTip",
+"GetCharacterFromMenu",
+"MenuUp",
+"MenuDown",
+"IsMenuUp",
+"LookAtMe",
+"AddFacialImage",
+"AddPhoneme",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"116": [
+"GetYesSir"
+],
+"120": [
+"SetSize",
+"GetSize"
+],
+"124": [
+"SetGender",
+"GetGender"
+],
+"376": [
+"SetBlinkStages"
+],
+"316": [
+"IsRandomAnimationEnabled",
+"SetRandomAnimationEnabled"
+],
+"432": [
+"IsMenuEnabled"
+],
+"156": [
+"GetLocation"
+],
+"160": [
+"GetTurnTowardsLocation"
+],
+"320": [
+"GetRandomAnimationChance",
+"SetRandomAnimationChance"
+],
+"184": [
+"GetBlinkChance",
+"SetBlinkChance"
+],
+"132": [
+"GetAudioMode",
+"SetAudioMode"
+],
+"204": [
+"IsActive"
+],
+"196": [
+"SetAsExtra",
+"IsAnExtra"
+],
+"136": [
+"GetCharacterName"
+],
+"336": [
+"SetLookAtAdj"
+],
+"328": [
+"GetDatabase"
+],
+"212": [
+"GetStatusBox"
+],
+"332": [
+"SetMenu",
+"GetMenu"
+],
+"424": [
+"UsePhonemeGroup"
+],
+"380": [
+"SetAnimatedSpeaking",
+"UsesAnimatedSpeaking"
+],
+"428": [
+"GetLastTalkTime"
+]
+},
+"other": [
+"Create",
+"CreateNull",
+"SetAllowExtras",
+"SetWalkOnChance",
+"GetWalkOnChance",
+"SetToolTipsEnabled",
+"AreToolTipsEnabled",
+"SetCollisionAlertEnabled",
+"IsCollisionAlertEnabled",
+"SetVolumeForLineType",
+"GetVolumeForLineType",
+"IsStanding",
+"IsTurned",
+"IsUIDisabled",
+"IsGlancing",
+"IsInitiativeOn",
+"AddRandomAnimation",
+"SetCurrentAnimation",
+"MoveTo",
+"GlanceAt",
+"GlanceAway",
+"TurnTowards",
+"TurnBack",
+"PlayAnimation",
+"PlayAnimationFile",
+"Breathe",
+"SpeakLine",
+"SayLine",
+"SetCharacterName",
+"AddPositionZoom",
+"SetCurrentToolTipOwner",
+"GetCurrentToolTipOwner",
+"SetStatus",
+"ShowPhonemeDebugging"
+],
+"static": 5
+},
+"ViewScreenObject": {
+"direct": [
+"Cast",
+"Create",
+"SetModel",
+"SetRemoteCam",
+"GetRemoteCam",
+"ToggleRemoteCam",
+"SetIsOn",
+"IsOn",
+"SetStaticIsOn",
+"IsStaticOn",
+"SetStaticVariation",
+"SetOffTexture",
+"SetStaticTextureIconGroup",
+"MenuUp",
+"MenuDown",
+"IsMenuUp",
+"LookTowardsSpace",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"RenderingRemoteCam"
+],
+"116": [
+"SetMenu",
+"ClearMenu",
+"GetMenu"
+]
+},
+"other": [
+"CreateNull"
+],
+"static": 4
+},
+"BridgeSet": {
+"direct": [
+"Cast",
+"SetViewScreen",
+"SetConfig",
+"IsSameConfig"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"316": [
+"GetViewScreen"
+],
+"320": [
+"GetConfig"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"BridgeObjectClass": {
+"direct": [
+"Create",
+"Cast",
+"DoCrewReactions",
+"FlickerLCARs",
+"TurnLCARsOff",
+"TurnLCARsOn",
+"GoToGreenAllert",
+"GoToYellowAllert",
+"GoToRedAllert",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"GetPropertySet"
+]
+},
+"other": [
+"GetHardpointProperty",
+"CreateEffect"
+],
+"static": 4
+},
+"ArtificialIntelligence": {
+"direct": [
+"GetObject",
+"GetShip",
+"LogAITree"
+],
+"virtual": {
+"1": [
+"IsInterruptable"
+],
+"2": [
+"Reset"
+]
+},
+"inline": {
+"32": [
+"IsActive"
+],
+"33": [
+"HasFocus"
+],
+"34": [
+"Pause",
+"Unpause",
+"IsPaused"
+],
+"35": [
+"SetInterruptable"
+],
+"36": [
+"GetID"
+],
+"12": [
+"GetName"
+]
+},
+"other": [],
+"static": 1
+},
+"PlainAI": {
+"direct": [
+"SetScriptModule"
+],
+"virtual": {},
+"inline": {
+"52": [
+"StopCallingActivate"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"PriorityListAI": {
+"direct": [
+"AddAI",
+"RemoveAIByPriority",
+"RemoveAI"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"SequenceAI": {
+"direct": [
+"AddAI",
+"RemoveAI",
+"RemoveAIByIndex",
+"GetAI"
+],
+"virtual": {},
+"inline": {
+"56": [
+"SetLoopCount"
+],
+"52": [
+"GetLoopCount"
+],
+"60": [
+"SetResetIfInterrupted"
+],
+"61": [
+"SetDoubleCheckAllDone"
+],
+"62": [
+"SetSkipDormant"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"RandomAI": {
+"direct": [
+"AddAI"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"PreprocessingAI": {
+"direct": [
+"Cast",
+"SetPreprocessingMethod",
+"SetContainedAI"
+],
+"virtual": {
+"21": [
+"GetPreprocessingInstance"
+]
+},
+"inline": {
+"72": [
+"GetContainedAI"
+],
+"60": [
+"ForceUpdate"
+],
+"64": [
+"ForceDormantStatus"
+],
+"68": [
+"ForceStatusChange"
+]
+},
+"other": [
+"Create"
+],
+"static": 1
+},
+"ConditionalAI": {
+"direct": [
+"SetContainedAI"
+],
+"virtual": {},
+"inline": {
+"68": [
+"GetContainedAI"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"ConditionScript": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"13": [
+"SetActive"
+],
+"14": [
+"SetInactive"
+]
+},
+"inline": {},
+"other": [],
+"static": 1
+},
+"ConditionEventCreator": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)",
+"ConditionChanged"
+]
+},
+"inline": {
+"24": [
+"SetEvent"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"FuzzyLogic": {
+"direct": [
+"SetMaxRules",
+"AddRule",
+"GetRule",
+"RemoveRule",
+"SetRuleConfidence",
+"SetPercentageInSet",
+"GetResultBySet"
+],
+"virtual": {},
+"inline": {
+"0": [
+"GetMaxRules"
+]
+},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"WaypointEvent": {
+"direct": [],
+"virtual": {
+"12": [
+"Copy"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"SetPlacement",
+"GetPlacement"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"AIScriptAssist": {
+"direct": [
+"TorpIsIncoming"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"OptimizedFireScript": {
+"direct": [
+"AddWeaponSystem",
+"RemoveAllWeaponSystems",
+"SetEnabled",
+"HasSubsystemTargets",
+"IgnoreSubsystemTargets",
+"RestoreSubsystemTargets",
+"SetTarget"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"OptimizedSelectTarget": {
+"direct": [
+"AddSetTargetTree"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"BuilderAI": {
+"direct": [
+"AddAIBlock",
+"AddDependency"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"PhysicsObjectClass": {
+"direct": [
+"Cast",
+"ConstCast",
+"Create",
+"ApplyForce",
+"SetVelocity",
+"SetAngularVelocity",
+"SetAngularAcceleration",
+"SetAngularAccelerationLinear",
+"SetAngularDirectionType",
+"GetObject",
+"GetNumClassObjects",
+"GetAI",
+"HasBuildingAIs"
+],
+"virtual": {
+"74": [
+"SetupModel"
+],
+"75": [
+"TurnTowardOrientation"
+],
+"76": [
+"SetAcceleration"
+],
+"77": [
+"SetAI"
+],
+"78": [
+"ClearAI"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"260": [
+"SetStatic",
+"IsStatic"
+],
+"216": [
+"GetMass",
+"SetMass"
+],
+"220": [
+"GetRotationalInertia",
+"SetRotationalInertia"
+],
+"232": [
+"GetAngularDirectionType"
+],
+"236": [
+"SetNetType",
+"GetNetType"
+],
+"241": [
+"SetDoNetUpdate",
+"IsDoingNetUpdate"
+],
+"240": [
+"SetUsePhysics",
+"IsUsingPhysics"
+]
+},
+"other": [
+"GetVelocity",
+"GetAcceleration",
+"GetAngularAcceleration",
+"GetVelocityTG",
+"GetAngularVelocityTG",
+"GetAccelerationTG",
+"GetAngularAccelerationTG",
+"GetAngularVelocity",
+"GetPredictedPosition",
+"GetPredictedRotationTG"
+],
+"static": 5
+},
+"DamageableObject": {
+"direct": [
+"Cast",
+"RemoveVisibleDamage",
+"SetSpecularKs",
+"DisableGlowAlphaMaps",
+"CanCollide",
+"EnableCollisionsWith",
+"SetCollisionsOn",
+"AddObjectDamageVolume",
+"DamageRefresh",
+"GetObjectByID",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"13": [
+"GetClonedModelRadius"
+],
+"85": [
+"AddDamage"
+],
+"86": [
+"SetupProperties"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"328": [
+"HasClonedModel"
+],
+"480": [
+"GetClonedModelCount"
+],
+"440": [
+"SetVisibleDamageRadiusModifier"
+],
+"444": [
+"SetVisibleDamageStrengthModifier"
+],
+"324": [
+"GetPropertySet"
+],
+"332": [
+"SetLifeTime",
+"GetLifeTime",
+"IsDying"
+],
+"336": [
+"IsDead",
+"SetDead"
+],
+"340": [
+"SetSplashDamage",
+"GetSplashDamage"
+],
+"344": [
+"GetSplashDamageRadius"
+]
+},
+"other": [
+"Create",
+"SetDamageGeometryEnabled",
+"IsDamageGeometryEnabled",
+"SetVolumeDamageGeometryEnabled",
+"IsVolumeDamageGeometryEnabled",
+"SetBreakableComponentsEnabled",
+"IsBreakableComponentsEnabled"
+],
+"static": 4
+},
+"ShipClass": {
+"direct": [
+"Cast",
+"Create",
+"SetScript",
+"SetDeathScript",
+"RunDeathScript",
+"SetTargetable",
+"SetInvincible",
+"SetHurtable",
+"GetWeaponSystemGroup",
+"GetWeaponGroupForSystem",
+"StopFiringWeapons",
+"CompleteStop",
+"AddSubsystem",
+"GetSubsystemByProperty",
+"StartGetSubsystemMatch",
+"GetNextSubsystemMatch",
+"IsReverse",
+"InSystemWarp",
+"StopInSystemWarp",
+"IsCloaked",
+"IsPlayerShip",
+"GetNextTarget",
+"GetTarget",
+"SetTarget",
+"SetTargetSubsystem",
+"GetTargetSubsystem",
+"DestroySystem",
+"SetAlertLevel",
+"GetObject",
+"GetNumClassObjects",
+"GetObjectByID"
+],
+"virtual": {
+"50": [
+"IsTargetable"
+],
+"51": [
+"CanTargetObject"
+],
+"91": [
+"SetAcceleration"
+],
+"75": [
+"TurnTowardOrientation"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"752": [
+"GetScript"
+],
+"756": [
+"GetDeathScript"
+],
+"745": [
+"IsInvincible"
+],
+"746": [
+"IsHurtable"
+],
+"747": [
+"SetDestroyBrokenSystems",
+"IsDestroyBrokenSystems"
+],
+"708": [
+"GetHull"
+],
+"704": [
+"GetShields"
+],
+"688": [
+"GetPowerSubsystem"
+],
+"712": [
+"GetSensorSubsystem"
+],
+"716": [
+"GetImpulseEngineSubsystem"
+],
+"720": [
+"GetWarpEngineSubsystem"
+],
+"692": [
+"GetTorpedoSystem"
+],
+"696": [
+"GetPhaserSystem"
+],
+"700": [
+"GetPulseWeaponSystem"
+],
+"736": [
+"GetShipProperty"
+],
+"724": [
+"GetTractorBeamSystem"
+],
+"728": [
+"GetRepairSubsystem"
+],
+"732": [
+"GetCloakingSubsystem"
+],
+"504": [
+"GetImpulse"
+],
+"524": [
+"SetDisabledEngineDeceleration"
+],
+"528": [
+"IsDoingInSystemWarp"
+],
+"486": [
+"SetDocked",
+"IsDocked"
+],
+"740": [
+"SetNetPlayerID",
+"GetNetPlayerID"
+],
+"564": [
+"GetAffiliation",
+"SetAffiliation"
+],
+"568": [
+"GetAlertLevel"
+],
+"748": [
+"DisableCollisionDamage",
+"IsCollisionDamageDisabled"
+],
+"760": [
+"IncrementAIDoneIgnore"
+]
+},
+"other": [
+"EndGetSubsystemMatch",
+"SetImpulse",
+"SetSpeed",
+"SetTargetAngularVelocityFraction",
+"SetTargetAngularVelocityDirect",
+"GetTargetAngularVelocityTG",
+"TurnTowardLocation",
+"TurnTowardDirection",
+"TurnTowardDifference",
+"TurnDirectionsToDirections",
+"GetTargetOffsetTG",
+"UseTargetOffsetTG",
+"DamageSystem"
+],
+"static": 5
+},
+"ObjectGroup": {
+"direct": [
+"SetEventFlag",
+"ClearEventFlag",
+"AddName",
+"IsNameInGroup",
+"FromModule"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"RemoveName"
+],
+"22": [
+"RemoveAllNames"
+]
+},
+"inline": {
+"72": [
+"IsEventFlagSet"
+],
+"56": [
+"GetNumActiveObjects"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"ObjectGroupWithInfo": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"ShipSubsystem": {
+"direct": [
+"GetName",
+"Cast",
+"GetMaxCondition",
+"GetCombinedConditionPercentage",
+"GetRadius",
+"IsCritical",
+"IsTargetable",
+"GetRepairComplexity",
+"GetDisabledPercentage",
+"IsDisabled",
+"IsHittableFromLocation",
+"GetChildSubsystem",
+"GetChildSubsystemIndex",
+"GetLastChildSubsystemIndex",
+"HasTargetableChildSubsystem",
+"AddChildSubsystem",
+"SetCondition",
+"SetConditionPercentage",
+"SetInvincible",
+"Repair",
+"UpdateDamagePoint"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"GetPosition"
+],
+"22": [
+"SetParentShip"
+],
+"23": [
+"SetParentSubsystem"
+],
+"24": [
+"SetProperty"
+],
+"25": [
+"Update"
+]
+},
+"inline": {
+"24": [
+"GetProperty"
+],
+"48": [
+"GetCondition"
+],
+"52": [
+"GetConditionPercentage"
+],
+"64": [
+"GetParentShip"
+],
+"76": [
+"GetConditionWatcher"
+],
+"60": [
+"GetLastUpdateLength"
+],
+"36": [
+"GetParentSubsystem"
+],
+"32": [
+"GetChildSubsystems"
+],
+"28": [
+"GetNumChildSubsystems"
+],
+"68": [
+"IsInvincible"
+],
+"88": [
+"GetCombinedPercentageWatcher"
+]
+},
+"other": [
+"(new)",
+"GetDisplayName",
+"Create",
+"GetDamage",
+"GetRepairPointsNeeded",
+"GetPositionTG",
+"GetWorldLocation",
+"GetNextTargetableChildSubsystem",
+"GetDamagePoint"
+],
+"static": 1
+},
+"PoweredSubsystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"SetPowerPercentageWanted",
+"SetPowerSource"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"30": [
+"GetNormalPowerWanted"
+],
+"31": [
+"TurnOn",
+"Turn"
+],
+"32": [
+"TurnOff"
+]
+},
+"inline": {
+"144": [
+"GetPowerPercentageWanted"
+],
+"140": [
+"GetPowerWanted",
+"SetPowerWanted"
+],
+"136": [
+"GetPowerReceived"
+],
+"148": [
+"GetPowerPercentage"
+],
+"152": [
+"GetNormalPowerPercentage"
+],
+"156": [
+"IsOn"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"PowerSubsystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"GetPowerOutput",
+"GetMainBatteryLimit",
+"GetBackupBatteryLimit",
+"GetMaxMainConduitCapacity",
+"GetMainConduitCapacity",
+"GetBackupConduitCapacity",
+"AddPower",
+"DeductPower",
+"StealPower",
+"StealPowerFromReserve",
+"GetPowerWanted"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"160": [
+"GetAvailablePower",
+"SetAvailablePower"
+],
+"172": [
+"GetMainBatteryPower",
+"SetMainBatteryPower"
+],
+"180": [
+"GetBackupBatteryPower",
+"SetBackupBatteryPower"
+],
+"136": [
+"GetMainBatteryWatcher"
+],
+"148": [
+"GetBackupBatteryWatcher"
+],
+"188": [
+"GetPowerDispensed"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"Weapon": {
+"direct": [
+"Cast",
+"GetProperty",
+"IsMemberOfGroup",
+"GetDamageRadiusFactor",
+"IsDumbFire"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"30": [
+"StopFiring"
+],
+"31": [
+"Fire"
+],
+"32": [
+"FireDumb"
+],
+"33": [
+"CanFire"
+],
+"34": [
+"CalculateRoughDirection"
+],
+"35": [
+"CalculateWeaponAppeal"
+]
+},
+"inline": {
+"136": [
+"IsFiring",
+"SetFiring"
+],
+"36": [
+"GetOverallConditionPercentage"
+],
+"140": [
+"GetTargetID"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"FiringChain": {
+"direct": [
+"SetName",
+"GetFirstGroup",
+"GetNextGroup"
+],
+"virtual": {},
+"inline": {
+"4": [
+"GetName"
+],
+"0": [
+"GetWeaponGroups",
+"SetWeaponGroups"
+]
+},
+"other": [
+"(new)",
+"(delete)",
+"HasGroup"
+],
+"static": 0
+},
+"WeaponSystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"IsSingleFire",
+"ShouldBeAimed",
+"StopFiringAtTarget",
+"ClearTargetList",
+"RemoveFromTargetList",
+"UpdateWeapons",
+"UpdateTargetList",
+"SetFiringChainMode",
+"GetFiringChain",
+"GetFiringChainName",
+"GetLastWeaponFired",
+"GetNextWeapon",
+"Fire"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"35": [
+"StartFiring"
+],
+"36": [
+"StopFiring"
+],
+"37": [
+"SetGroupFireMode"
+]
+},
+"inline": {
+"168": [
+"IsTryingToFire"
+],
+"169": [
+"IsFiring"
+],
+"171": [
+"CanFire"
+],
+"172": [
+"SetForceUpdate"
+],
+"176": [
+"GetGroupFireMode"
+],
+"184": [
+"GetFiringChainMode"
+],
+"216": [
+"GetNumFiringChains"
+],
+"188": [
+"GetLastGroupFired"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetWeapon",
+"IsInTargetList"
+],
+"static": 1
+},
+"WeaponPayload": {
+"direct": [],
+"virtual": {},
+"inline": {
+"4": [
+"GetID",
+"NextID"
+],
+"8": [
+"GetPayloadType"
+],
+"12": [
+"GetDamageRadiusFactor",
+"SetDamageRadiusFactor"
+]
+},
+"other": [],
+"static": 0
+},
+"Torpedo": {
+"direct": [
+"Cast",
+"CreateDisruptorModel",
+"CreateTorpedoModel",
+"GetLaunchSpeed",
+"GetLaunchSound",
+"DetectCollision",
+"GetObject",
+"GetObjectByID",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"75": [
+"TurnTowardOrientation"
+]
+},
+"inline": {
+"300": [
+"GetModuleName"
+],
+"296": [
+"SetParent",
+"GetParentID"
+],
+"280": [
+"SetTarget",
+"GetTargetID"
+],
+"0": [
+"SetTargetOffset"
+],
+"308": [
+"SetMaxAngularAccel",
+"GetMaxAngularAccel"
+],
+"320": [
+"SetGuidanceLifetime"
+],
+"324": [
+"SetDamage",
+"GetDamage"
+],
+"312": [
+"SetLifetime",
+"GetLifetime"
+],
+"332": [
+"SetPlayerID",
+"GetPlayerID"
+],
+"316": [
+"GetGuidanceLifeTime"
+]
+},
+"other": [
+"Create",
+"GetMaxLifetime"
+],
+"static": 4
+},
+"TorpedoSystem": {
+"direct": [
+"Cast",
+"SetAmmoType",
+"SetSkewFire",
+"RemoveAmmoType",
+"FillAmmoType",
+"LoadAmmoType",
+"IsTubeReady",
+"GetNumAvailableTorpsToType"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"24": [
+"GetProperty",
+"GetNumAmmoTypes"
+],
+"276": [
+"GetCurrentAmmoType",
+"GetCurrentAmmoTypeNumber",
+"GetAmmoTypeNumber"
+],
+"280": [
+"GetNumReady"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetAmmoType"
+],
+"static": 1
+},
+"TorpedoTube": {
+"direct": [
+"Cast",
+"GetProperty",
+"GetImmediateDelay",
+"GetReloadDelay",
+"GetMaxReady",
+"ReloadTorpedo",
+"UnloadTorpedo"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"24": [
+"SetProperty"
+]
+},
+"inline": {
+"160": [
+"SetNumReady",
+"IncNumReady",
+"DecNumReady",
+"GetNumReady"
+],
+"164": [
+"SetLastFireTime",
+"GetLastFireTime"
+],
+"168": [
+"SetSkewFire",
+"IsSkewFire"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetDirection",
+"GetRight",
+"CanHit",
+"IsInArc"
+],
+"static": 1
+},
+"Nebula": {
+"direct": [
+"Cast",
+"Create",
+"SetupDamage",
+"GetObject",
+"GetObjectByID",
+"GetNumClassObjects",
+"IsObjectInNebula"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 5
+},
+"MetaNebula": {
+"direct": [
+"Cast",
+"Create",
+"AddNebulaSphere"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"Planet": {
+"direct": [
+"Cast",
+"Create",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"SetAtmosphereRadius",
+"GetAtmosphereRadius"
+],
+"120": [
+"SetEnvironmentalShieldDamage"
+],
+"116": [
+"SetEnvironmentalHullDamage"
+]
+},
+"other": [],
+"static": 4
+},
+"Sun": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 1
+},
+"ProximityManager": {
+"direct": [
+"AddObject",
+"RemoveObject",
+"DumpCollisions",
+"GetNearObjects",
+"GetNextObject",
+"EndObjectIteration",
+"Update",
+"UpdateObject"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"(new)",
+"(delete)",
+"SetPlayerCollisionsEnabled",
+"GetPlayerCollisionsEnabled",
+"SetMultiplayerPlayerCollisionsEnabled",
+"GetLineIntersectObjects"
+],
+"static": 0
+},
+"ProximityCheck": {
+"direct": [
+"Cast",
+"AddObjectToCheckList",
+"AddObjectToCheckListByID",
+"AddObjectListToCheckList",
+"AddObjectTypeToCheckList",
+"GetTriggerType",
+"SetTriggerType",
+"RemoveObjectFromCheckList",
+"RemoveObjectFromCheckListByID",
+"RemoveObjectTypeFromCheckList",
+"ClearCheckList",
+"CheckProximity",
+"RemoveAndDelete",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"120": [
+"SetRadius"
+],
+"124": [
+"SetIgnoreObjectSize",
+"GetIgnoreObjectSize"
+]
+},
+"other": [
+"Create",
+"CreateWithEvent",
+"IsObjectInCheckList"
+],
+"static": 3
+},
+"ProximityEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+],
+"4": [
+"Serialize"
+],
+"5": [
+"UnSerialize"
+],
+"6": [
+"CanFixupPtrs"
+],
+"7": [
+"FixupPtrs"
+]
+},
+"inline": {
+"40": [
+"SetProximityCheck",
+"GetProximityCheck"
+],
+"44": [
+"SetObject",
+"GetObject"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"WeaponHitEvent": {
+"direct": [
+"GetFiringObject",
+"GetTargetObject"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"GetCondition"
+],
+"72": [
+"GetWeaponInstanceID"
+],
+"76": [
+"GetRadius"
+],
+"84": [
+"GetDamage"
+],
+"44": [
+"GetWeaponType"
+],
+"88": [
+"IsHullHit"
+],
+"92": [
+"SetFiringPlayerID",
+"GetFiringPlayerID"
+]
+},
+"other": [
+"GetObjectHitPoint",
+"GetObjectHitNormal",
+"GetWorldHitPoint",
+"GetWorldHitNormal"
+],
+"static": 0
+},
+"StartFiringEvent": {
+"direct": [
+"GetTarget"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"48": [
+"GetOffset"
+]
+},
+"other": [],
+"static": 0
+},
+"ObjectExplodingEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"SetFiringPlayerID",
+"GetFiringPlayerID"
+],
+"44": [
+"SetLifetime",
+"GetLifetime"
+]
+},
+"other": [],
+"static": 0
+},
+"CollisionEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"56": [
+"GetNumPoints"
+],
+"64": [
+"GetCollisionForce"
+]
+},
+"other": [
+"GetPoint"
+],
+"static": 0
+},
+"ShieldClass": {
+"direct": [
+"Cast",
+"BoostShield",
+"GetShieldPercentage",
+"SetCurShields",
+"IsShieldBreached",
+"IsAnyShieldBreached",
+"RedistributeShields",
+"GetOppositeShield"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"24": [
+"GetProperty",
+"GetMaxShields",
+"GetShieldChargePerSecond",
+"GetShieldGlowDecay"
+]
+},
+"other": [
+"Create",
+"GetNumShields",
+"GetShieldWatcher",
+"GetSingleShieldPercentage",
+"GetCurShields",
+"IsShieldDamaged",
+"SetShieldDamaged",
+"GetShieldGlowColor"
+],
+"static": 1
+},
+"HullClass": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"EnergyWeapon": {
+"direct": [
+"Cast",
+"GetProperty",
+"GetRechargeRate",
+"GetNormalDischargeRate",
+"GetMaxCharge",
+"GetMinFiringCharge",
+"GetFireSound",
+"GetFireStartSound",
+"GetFireLoopSound",
+"GetMaxDamage",
+"GetMaxDamageDistance",
+"GetChargePercentage",
+"UpdateCharge"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"36": [
+"SetPowerSetting"
+],
+"35": [
+"CalculateWeaponAppeal"
+]
+},
+"inline": {
+"172": [
+"GetPowerSetting"
+],
+"176": [
+"GetChargeWatcher"
+],
+"160": [
+"GetChargeLevel",
+"SetChargeLevel"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"PhaserSystem": {
+"direct": [
+"Cast",
+"SetPowerLevel"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"240": [
+"GetPowerLevel"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"PhaserBank": {
+"direct": [
+"Cast",
+"GetProperty",
+"GetWidth",
+"GetLength",
+"GetPhaserTextureStart",
+"GetPhaserTextureEnd",
+"GetPhaserWidth",
+"GetArcWidthAngles",
+"GetArcHeightAngles",
+"GetArcWidthAngleMin",
+"GetArcWidthAngleMax",
+"GetArcHeightAngleMin",
+"GetArcHeightAngleMax",
+"UpdateCharge",
+"CanHit"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight",
+"GetMaxPhaserRange",
+"SetMaxPhaserRange"
+],
+"static": 1
+},
+"PulseWeapon": {
+"direct": [
+"Cast",
+"CanHitTarget",
+"GetPowerScaled",
+"GetDamageScale",
+"GetProperty",
+"GetArcHeightAngleMin",
+"GetArcHeightAngleMax",
+"GetArcWidthAngleMin",
+"GetArcWidthAngleMax",
+"GetArcHeightAngles",
+"GetArcWidthAngles",
+"GetCooldownTime"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"34": [
+"CalculateRoughDirection"
+],
+"35": [
+"CalculateWeaponAppeal"
+]
+},
+"inline": {
+"200": [
+"GetLastFireTime"
+],
+"204": [
+"GetLaunchSpeed"
+]
+},
+"other": [
+"(new)",
+"Create",
+"IsInArc"
+],
+"static": 1
+},
+"PulseWeaponSystem": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"SensorSubsystem": {
+"direct": [
+"Cast",
+"GetSensorRange",
+"ScanAllObjects",
+"IdentifyObject",
+"ForceObjectIdentified",
+"GetIdentificationTime",
+"AddProbe",
+"IsObjectVisible",
+"IsObjectNear",
+"IsObjectFar",
+"IsObjectKnown"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"24": [
+"GetProperty",
+"GetBaseSensorRange"
+],
+"200": [
+"GetNumProbes",
+"SetNumProbes"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"CloakingSubsystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"StartCloaking",
+"StopCloaking",
+"InstantCloak",
+"InstantDecloak"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"172": [
+"IsCloaked"
+],
+"173": [
+"IsTryingToCloak"
+],
+"176": [
+"IsCloaking",
+"IsDecloaking"
+]
+},
+"other": [
+"(new)",
+"Create",
+"SetCloakTime",
+"GetCloakTime",
+"SetShieldDelay",
+"GetShieldDelay"
+],
+"static": 1
+},
+"RepairSubsystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"AddSubsystem",
+"AddToRepairList",
+"IsBeingRepaired"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"ImpulseEngineSubsystem": {
+"direct": [
+"Cast",
+"GetProperty",
+"GetMaxSpeed",
+"GetMaxAccel",
+"GetMaxAngularVelocity",
+"GetMaxAngularAccel"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"172": [
+"GetCurMaxSpeed"
+],
+"176": [
+"GetCurMaxAccel"
+],
+"180": [
+"GetCurMaxAngularVelocity"
+],
+"184": [
+"GetCurMaxAngularAccel"
+],
+"168": [
+"GetTractorBeamSystem",
+"SetTractorBeamSystem"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"WarpEngineSubsystem": {
+"direct": [
+"Cast",
+"Warp",
+"TransitionToState"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"24": [
+"GetProperty"
+],
+"180": [
+"GetWarpState",
+"SetWarpState"
+],
+"188": [
+"GetPlacement",
+"SetPlacement"
+],
+"0": [
+"SetExitPoint"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetWarpExitLocation",
+"GetWarpExitRotation",
+"GetWarpEffectTime",
+"SetWarpEffectTime",
+"GetWarpSpeed",
+"SetWarpSpeed",
+"GetWarpSequence"
+],
+"static": 1
+},
+"TractorBeamProjector": {
+"direct": [
+"Cast",
+"GetProperty"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"TractorBeamSystem": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"244": [
+"GetMode",
+"SetMode"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"WarpEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"GetDestinationSetName"
+],
+"44": [
+"GetPlacementName"
+],
+"60": [
+"GetDuration"
+]
+},
+"other": [
+"GetExitPoint"
+],
+"static": 0
+},
+"EffectController": {
+"direct": [
+"SetTargetAlphaBlendModes"
+],
+"virtual": {
+"23": [
+"CreateTarget"
+],
+"24": [
+"GetTargetCast"
+],
+"25": [
+"AttachEffect"
+],
+"26": [
+"DetachEffect"
+],
+"27": [
+"AddColorKey"
+],
+"28": [
+"RemoveAllColorKeys"
+],
+"29": [
+"AddAlphaKey"
+],
+"30": [
+"RemoveAllAlphaKeys"
+],
+"31": [
+"AddSizeKey"
+],
+"32": [
+"RemoveAllSizeKeys"
+]
+},
+"inline": {
+"48": [
+"SetEffectLifeTime",
+"GetEffectLifeTime"
+]
+},
+"other": [
+"GetEffectLevel",
+"SetEffectLevel"
+],
+"static": 0
+},
+"EmitterController": {
+"direct": [],
+"virtual": {
+"10": [
+"SetEmitFromObject"
+]
+},
+"inline": {
+"56": [
+"GetEmitFromObject"
+],
+"8": [
+"SetDetachEmitObject",
+"SetInheritsVelocity"
+],
+"168": [
+"SetEmitRadius"
+],
+"212": [
+"SetAngleVariance"
+],
+"204": [
+"SetEmitVelocity"
+],
+"196": [
+"SetEmitLife"
+],
+"216": [
+"SetEmitFrequency"
+],
+"208": [
+"SetEmitVelocityVariance"
+],
+"200": [
+"SetEmitLifeVariance"
+],
+"220": [
+"SetEmitFrequencyVariance"
+],
+"240": [
+"SetGravity"
+],
+"252": [
+"SetDamping"
+]
+},
+"other": [
+"SetEmitPositionAndDirection"
+],
+"static": 0
+},
+"PointParticleController": {
+"direct": [
+"Create"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 1
+},
+"SparkParticleController": {
+"direct": [],
+"virtual": {},
+"inline": {
+"260": [
+"SetTailLength"
+],
+"264": [
+"SetTailFade"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"ExplodeParticleController": {
+"direct": [],
+"virtual": {
+"40": [
+"AddIntensityKey"
+],
+"41": [
+"RemoveIntensityKeyAt"
+],
+"42": [
+"RemoveAllIntensityKeys"
+],
+"43": [
+"SetSceneRoot"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"DebrisParticleController": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"AnimTSParticleController": {
+"direct": [],
+"virtual": {},
+"inline": {
+"268": [
+"SetDrawOldToNew"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"EffectAction": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"BridgeEffectAction": {
+"direct": [
+"Create",
+"CreateSparks",
+"CreateSmoke",
+"CreateExplosion",
+"CreateDebris",
+"GetController",
+"GetSparkController",
+"GetExplosionController"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"48": [
+"GetHardpointName"
+]
+},
+"other": [],
+"static": 5
+},
+"WarpSet": {
+"direct": [
+"Create",
+"Cast",
+"SetNumTrails"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"316": [
+"GetNumTrails"
+],
+"324": [
+"SetForceUpdate"
+]
+},
+"other": [],
+"static": 2
+},
+"WarpSequence": {
+"direct": [
+"Cast",
+"AddActionBeforeWarp",
+"AddActionDuringWarp",
+"AddActionPostDuringWarp",
+"AddActionAfterWarp",
+"GetDestinationSet",
+"GetWarpSet",
+"SetPlacement",
+"GetWarpSequencePiece"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"18": [
+"Skip"
+],
+"24": [
+"SetEventDestination"
+]
+},
+"inline": {
+"56": [
+"GetOrigin"
+],
+"60": [
+"GetDestination"
+],
+"68": [
+"GetTimeToWarp"
+],
+"64": [
+"GetPlacementName"
+],
+"76": [
+"GetDestinationMission"
+],
+"72": [
+"GetDestinationEpisode"
+],
+"0": [
+"SetExitPoint"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetShip",
+"GetExitPoint"
+],
+"static": 2
+},
+"WarpFlash": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create",
+"CreateWithoutShip"
+],
+"static": 0
+},
+"LensFlare": {
+"direct": [
+"Create",
+"SetSource",
+"AddFlare",
+"Build"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 1
+},
+"ExplosionPlumeController": {
+"direct": [
+"SetUpRandomVelocity"
+],
+"virtual": {},
+"inline": {
+"0": [
+"SetEmitterVelocity"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"SunEffect": {
+"direct": [
+"Create"
+],
+"virtual": {},
+"inline": {},
+"other": [],
+"static": 0
+},
+"TextureAnimTrack": {
+"direct": [],
+"virtual": {},
+"inline": {
+"4": [
+"SetFrame"
+]
+},
+"other": [],
+"static": 0
+},
+"TextureAnimContainer": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"AddTextureTrack"
+],
+"static": 0
+},
+"TextureAnimManager": {
+"direct": [],
+"virtual": {
+"1": [
+"AddContainer"
+]
+},
+"inline": {},
+"other": [],
+"static": 0
+},
+"InterfaceModule": {
+"direct": [
+"IsUIElement",
+"HasUIElement",
+"GetFirstUIElement",
+"GetLastUIElement",
+"GetPrevUIElement",
+"GetNextUIElement",
+"ForceFocusOnObject",
+"SwitchFonts",
+"DoTheRightThing"
+],
+"virtual": {},
+"inline": {
+"21": [
+"PlayClickSound"
+],
+"20": [
+"Mute",
+"UnMute"
+]
+},
+"other": [],
+"static": 9
+},
+"TopWindow": {
+"direct": [
+"FindMainWindow",
+"SetEditMode",
+"ToggleEditMode",
+"ToggleOptionsMenu",
+"ToggleConsole",
+"ToggleMapWindow",
+"ToggleCinematicWindow",
+"ToggleBridgeAndTactical",
+"ForceBridgeVisible",
+"ForceTacticalVisible",
+"ToggleWireframe",
+"SetLastRenderedSet",
+"GetLastRenderedSet",
+"ShowBadConnectionText",
+"Initialize",
+"Update",
+"StartCutscene",
+"EndCutscene",
+"AbortCutscene",
+"FadeOut",
+"FadeIn",
+"AbortFade",
+"IsBridgeVisible",
+"IsTacticalVisible"
+],
+"virtual": {
+"82": [
+"AllowKeyboardInput"
+],
+"83": [
+"IsKeyboardInputAllowed"
+],
+"84": [
+"AllowMouseInput"
+],
+"85": [
+"IsMouseInputAllowed"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"IsEditModeEnabled"
+],
+"88": [
+"IsCutsceneMode"
+],
+"137": [
+"DisableOptionsMenu"
+]
+},
+"other": [
+"(new)",
+"GetTopWindow",
+"IsFading"
+],
+"static": 0
+},
+"MainWindow": {
+"direct": [
+"ToggleVisibility",
+"IsWindowActive"
+],
+"virtual": {
+"82": [
+"Initialize"
+],
+"83": [
+"Update"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetType"
+]
+},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"ConsoleWindow": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 0
+},
+"OptionsWindow": {
+"direct": [
+"Cast",
+"AddToPreviouslyVisible",
+"RemoveFromPreviouslyVisible",
+"SetHasFocusObject",
+"RemoveAllPreviouslyVisible"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"BridgeWindow": {
+"direct": [
+"Cast"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"TacticalWindow": {
+"direct": [
+"Cast",
+"SpaceCameraRotation"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"TacticalControlWindow": {
+"direct": [
+"Cast",
+"SetMousePickFire",
+"FindMenu",
+"GetMenuParentPane",
+"GetOpenMenu",
+"AddMenuToList"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"208": [
+"SetShipDisplay",
+"GetShipDisplay"
+],
+"212": [
+"SetEnemyShipDisplay",
+"GetEnemyShipDisplay"
+],
+"216": [
+"SetWeaponsDisplay",
+"GetWeaponsDisplay"
+],
+"220": [
+"SetWeaponsControl",
+"GetWeaponsControl"
+],
+"224": [
+"SetTargetMenu",
+"GetTargetMenu"
+],
+"228": [
+"SetRadarDisplay",
+"GetRadarDisplay"
+],
+"232": [
+"SetRadarToggle",
+"GetRadarToggle"
+],
+"236": [
+"SetTacticalMenu",
+"GetTacticalMenu"
+],
+"40": [
+"GetMousePickFire"
+],
+"205": [
+"IgnoreNextMouseKeyEvent",
+"SetIgnoreNextMouseKeyEvent"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetTacticalControlWindow"
+],
+"static": 1
+},
+"MapWindow": {
+"direct": [
+"Cast",
+"UpdatePlayerOrientationGraphics",
+"RemovePlayerOrientationGraphics"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 1
+},
+"ModalDialogWindow": {
+"direct": [
+"Cast",
+"Run",
+"Cancel"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"89": [
+"SetAsKeyboardConfig"
+]
+},
+"other": [],
+"static": 1
+},
+"CinematicWindow": {
+"direct": [
+"SetInteractive"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"40": [
+"IsInteractive"
+]
+},
+"other": [
+"Cast"
+],
+"static": 0
+},
+"SubtitleWindow": {
+"direct": [
+"Cast",
+"SetPositionForMode",
+"SetOff"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"SetOn",
+"IsOn"
+]
+},
+"other": [
+"Create"
+],
+"static": 1
+},
+"SubtitleAction": {
+"direct": [],
+"virtual": {},
+"inline": {},
+"other": [
+"Create",
+"CreateC"
+],
+"static": 0
+},
+"STStylizedWindow": {
+"direct": [
+"Cast",
+"GetNameParagraph",
+"GetExteriorPane",
+"InteriorChangedSize",
+"SetMinimized",
+"SetNotMinimized",
+"IsMinimized",
+"SetMinimizable",
+"SetFixedSize",
+"SetUseScrolling",
+"SetUseFocusGlass",
+"SetTitleBarThickness",
+"SetMaximumSize",
+"ScrollToTop",
+"ScrollToBottom",
+"Scroll",
+"EnsureFocusIsVisible"
+],
+"virtual": {
+"82": [
+"GetInteriorPane"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"169": [
+"IsMinimizable"
+],
+"108": [
+"IsFixedSize"
+],
+"104": [
+"IsScrolling"
+],
+"168": [
+"IsUseScrolling"
+],
+"170": [
+"IsUseFocusGlass"
+],
+"136": [
+"GetTitleBarThickness"
+],
+"100": [
+"GetMaximumWidth",
+"GetMaximumHeight",
+"GetMaximumInteriorWidth",
+"GetMaximumInteriorHeight"
+],
+"120": [
+"GetBorderWidth"
+],
+"124": [
+"GetBorderHeight"
+],
+"128": [
+"SetScrollViewHeight",
+"GetScrollViewHeight"
+],
+"132": [
+"SetScrollSpeed"
+],
+"0": [
+"GetColor"
+]
+},
+"other": [
+"CreateW",
+"Create",
+"SetName",
+"GetName"
+],
+"static": 1
+},
+"STMenu": {
+"direct": [
+"Cast",
+"UseFullTitleBar",
+"DisableFullTitleBar",
+"SetChosen",
+"GetContainingWindow",
+"ForceUpdate"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"83": [
+"GetActualHeight"
+],
+"84": [
+"GetTitleBarHeight"
+],
+"85": [
+"GetDesiredHeight"
+],
+"69": [
+"GetText"
+],
+"86": [
+"GetSubmenu"
+],
+"87": [
+"GetSubmenuW"
+],
+"88": [
+"GetButton"
+],
+"89": [
+"GetButtonW"
+],
+"90": [
+"RemoveItem"
+],
+"91": [
+"RemoveItemW"
+],
+"58": [
+"SetUseEndCapSpace",
+"SetUseUIHeight"
+],
+"92": [
+"GetClientArea"
+],
+"93": [
+"SetTwoClicks"
+],
+"94": [
+"SetSingleClick"
+],
+"95": [
+"SetOpenable"
+],
+"96": [
+"SetNotOpenable"
+],
+"97": [
+"SetCloseable"
+],
+"98": [
+"SetNotCloseable"
+],
+"99": [
+"SetClickedOnce"
+],
+"100": [
+"ClearClickedOnce"
+],
+"101": [
+"SetOpened"
+],
+"102": [
+"ClearOpened"
+],
+"103": [
+"SetActivationEvent"
+],
+"104": [
+"ClearActivationEvent"
+],
+"105": [
+"SendActivationEvent"
+],
+"106": [
+"SetName"
+],
+"107": [
+"GetName"
+],
+"108": [
+"ResetColorScheme"
+],
+"109": [
+"Open"
+],
+"110": [
+"Close"
+],
+"111": [
+"ResizeToContents"
+]
+},
+"inline": {
+"40": [
+"SetAutoChoose",
+"IsAutoChoose",
+"IsChosen",
+"IsUseEndCapSpace",
+"IsTwoClicks",
+"IsOpenable",
+"IsCloseable",
+"IsClickedOnce",
+"IsOpened"
+]
+},
+"other": [
+"Create",
+"CreateW",
+"CreateNull"
+],
+"static": 1
+},
+"STSubPane": {
+"direct": [
+"Cast",
+"ResizeToContents",
+"SetRadioGroup",
+"GetTotalHeightOfChildren",
+"GetContainingWindow"
+],
+"virtual": {
+"24": [
+"Create"
+],
+"64": [
+"InsertChild"
+],
+"65": [
+"RemoveChild"
+],
+"66": [
+"DeleteChild"
+],
+"82": [
+"GetSubmenu"
+],
+"83": [
+"GetSubmenuW"
+],
+"84": [
+"GetButton"
+],
+"85": [
+"GetButtonW"
+],
+"86": [
+"RemoveItem"
+],
+"87": [
+"RemoveItemW"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetVertSpacing"
+],
+"40": [
+"IsRadioGroup"
+],
+"80": [
+"SetExpandToFillParent"
+]
+},
+"other": [],
+"static": 1
+},
+"STTopLevelMenu": {
+"direct": [
+"Cast",
+"SetResizeSubpane"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"115": [
+"CloseMenu"
+],
+"26": [
+"GotFocus"
+],
+"29": [
+"LostFocus"
+],
+"44": [
+"SetVisible"
+],
+"45": [
+"SetNotVisible"
+],
+"111": [
+"ResizeToContents"
+]
+},
+"inline": {
+"92": [
+"IsResizeSubpane"
+],
+"96": [
+"GetOwner",
+"SetOwner"
+]
+},
+"other": [
+"Create",
+"CreateW",
+"CreateNull",
+"GetOpenMenu"
+],
+"static": 1
+},
+"STCharacterMenu": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create",
+"CreateW"
+],
+"static": 0
+},
+"STButton": {
+"direct": [
+"Cast",
+"SetName",
+"GetName",
+"SetJustification",
+"GetContainingWindow",
+"SetChoosable",
+"SetChosen",
+"SetColorBasedOnFlags",
+"SetColor"
+],
+"virtual": {
+"69": [
+"GetText"
+],
+"58": [
+"SetUseEndCaps",
+"SetUseEndCapSpace",
+"SetUseUIHeight"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"0": [
+"SetNormalColor",
+"SetSelectedColor",
+"SetHighlightedColor",
+"SetDisabledColor",
+"SetTextColor",
+"SetHighlightedTextColor",
+"SetSelectedTextColor",
+"SetDisabledTextColor",
+"SetMarkerNormalColor",
+"SetMarkerHighlightedColor",
+"SetMarkerSelectedColor"
+],
+"40": [
+"SetAutoChoose",
+"IsAutoChoose",
+"IsChoosable",
+"IsChosen",
+"IsUseEndCapSpace"
+],
+"269": [
+"IsUsingEndCaps"
+]
+},
+"other": [
+"Create",
+"CreateW"
+],
+"static": 1
+},
+"STRoundedButton": {
+"direct": [
+"Cast",
+"SetName",
+"GetName",
+"SetColorBasedOnFlags",
+"SetColor"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"0": [
+"SetNormalColor",
+"SetSelectedColor",
+"SetHighlightedColor",
+"SetDisabledColor",
+"SetTextColor",
+"SetHighlightedTextColor",
+"SetSelectedTextColor",
+"SetDisabledTextColor"
+]
+},
+"other": [
+"Create",
+"CreateW"
+],
+"static": 1
+},
+"STToggle": {
+"direct": [
+"Cast",
+"SetStateValue",
+"SetStateValueW",
+"SetState"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"372": [
+"GetState"
+]
+},
+"other": [
+"Create",
+"CreateW",
+"CreateUnsizedW",
+"SetPrimaryCaption",
+"SetPrimaryCaptionW",
+"SetStateValues",
+"SetStateValuesW",
+"GetPrimaryCaption"
+],
+"static": 1
+},
+"STFillGauge": {
+"direct": [
+"Cast",
+"UpdateGauge"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"4": [
+"SetObject"
+],
+"168": [
+"SetFillDirection"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetObject",
+"SetFillColor",
+"SetEmptyColor",
+"SetAlternateColor",
+"SetPythonMethods"
+],
+"static": 1
+},
+"STNumericBar": {
+"direct": [
+"Cast",
+"SetValue",
+"SetMarkerValue",
+"GetMarker",
+"GetPositionFromAbsolutePercentage",
+"SetNormalColor",
+"SetEmptyColor",
+"SetUseButtons",
+"SetUpdateEvent",
+"UpdateGauge"
+],
+"virtual": {
+"71": [
+"GetText",
+"GetPercentageText"
+],
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"SetRange",
+"GetRange"
+],
+"100": [
+"SetKeyInterval",
+"GetKeyInterval"
+],
+"96": [
+"SetAlternateValue"
+],
+"84": [
+"GetValue"
+],
+"88": [
+"SetUseMarker"
+],
+"89": [
+"SetUseAlternateColor"
+]
+},
+"other": [
+"Create"
+],
+"static": 1
+},
+"STTargetMenu": {
+"direct": [
+"Cast",
+"GetTargetMenu",
+"RebuildShipMenu",
+"RebuildShipMenus",
+"ResetAffiliationColors",
+"GetObjectEntry",
+"ClearPersistentTarget",
+"ClearTargetList"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"CreateW"
+],
+"static": 2
+},
+"STFileMenu": {
+"direct": [
+"Cast",
+"SetDir",
+"SetFilter",
+"Refresh"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"100": [
+"GetDir"
+],
+"104": [
+"GetFilter"
+]
+},
+"other": [
+"Create",
+"CreateW"
+],
+"static": 1
+},
+"STFileDialog": {
+"direct": [
+"GetFileMenu",
+"RefreshFileList"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"STLoadDialog": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"STSaveDialog": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 0
+},
+"STSubsystemMenu": {
+"direct": [
+"Cast",
+"GetShip",
+"ShowUnknownName",
+"ShowRealName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"STComponentMenu": {
+"direct": [
+"Cast",
+"GetShip",
+"GetSubsystem"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"STComponentMenuItem": {
+"direct": [
+"Cast",
+"GetSubsystem"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"STTiledIcon": {
+"direct": [
+"Cast",
+"IsTiling",
+"IsTileSize",
+"SetTiling",
+"SetTileSize",
+"SetTileNum",
+"GetTileNum"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"GraphicsMenuInfo": {
+"direct": [],
+"virtual": {},
+"inline": {
+"0": [
+"m_bDataWasChanged_set",
+"m_bDataWasChanged_get"
+],
+"1": [
+"m_bModeWasChanged_set",
+"m_bModeWasChanged_get"
+],
+"2": [
+"m_bWeAreCanceling_set",
+"m_bWeAreCanceling_get"
+],
+"3": [
+"m_bWeAreUndoing_set",
+"m_bWeAreUndoing_get"
+],
+"4": [
+"m_bDetect_set",
+"m_bDetect_get"
+],
+"8": [
+"m_kUndoMode_get"
+],
+"36": [
+"m_kOldMode_get"
+],
+"64": [
+"m_pSizeToggle_set",
+"m_pSizeToggle_get"
+],
+"68": [
+"m_pColorDepthToggle_set",
+"m_pColorDepthToggle_get"
+],
+"72": [
+"m_pApplyButton_set",
+"m_pApplyButton_get"
+],
+"76": [
+"ms_pDatabase_set",
+"ms_pDatabase_get"
+],
+"80": [
+"m_kSavedTitle_get"
+],
+"96": [
+"ms_pGraphicsMenu_set",
+"ms_pGraphicsMenu_get"
+]
+},
+"other": [
+"(new)",
+"m_kUndoMode_set",
+"m_kOldMode_set",
+"m_kSavedTitle_set"
+],
+"static": 0
+},
+"GraphicsMenu": {
+"direct": [
+"Cast",
+"ChangeDisplayMode",
+"GetDevicesMenu",
+"GetSizeToggle",
+"GetColorDepthToggle",
+"GetResolutionMenu",
+"ResetToggles"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"CreateW",
+"GetGraphicsMenu"
+],
+"static": 1
+},
+"ShipDisplay": {
+"direct": [
+"Cast",
+"SetShipID",
+"AddTargetChangeEvent",
+"ResizeUI",
+"RepositionUI"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"172": [
+"SetShipIDVar",
+"GetShipID"
+],
+"176": [
+"SetShieldsDisplay",
+"GetShieldsDisplay"
+],
+"180": [
+"SetDamageDisplay",
+"GetDamageDisplay"
+],
+"184": [
+"SetHealthGauge",
+"GetHealthGauge"
+]
+},
+"other": [
+"Create",
+"(new)"
+],
+"static": 1
+},
+"ShieldsDisplay": {
+"direct": [
+"Cast",
+"UpdateForNewShip",
+"RemoveEvents",
+"ResizeUI",
+"RepositionUI"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"DamageIcon": {
+"direct": [
+"Cast",
+"ResetPosition"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"GetSubsystem"
+]
+},
+"other": [
+"(new)"
+],
+"static": 1
+},
+"DamageDisplay": {
+"direct": [
+"Cast",
+"UpdateForNewShip",
+"RemoveEvents",
+"ResizeUI",
+"RepositionUI",
+"GetShip"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create",
+"(new)"
+],
+"static": 1
+},
+"WeaponsDisplay": {
+"direct": [
+"Cast",
+"SetShipID"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"196": [
+"GetShipID"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"RadarDisplay": {
+"direct": [
+"SetColorBasedOnFlags",
+"Cast",
+"ResizeUI",
+"RepositionUI"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"RadarBlip": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"SetShipID",
+"GetShipID"
+]
+},
+"other": [
+"Create"
+],
+"static": 0
+},
+"RadarScope": {
+"direct": [
+"Update",
+"CreateShipIcon"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"100": [
+"SetTargetBracket"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 0
+},
+"TacWeaponsCtrl": {
+"direct": [
+"Cast",
+"GetPhaserIntensityToggle",
+"GetTorpTypeToggle",
+"GetTorpSpreadToggle",
+"GetBeamToggle",
+"GetCloakToggle",
+"RefreshPhaserSettings",
+"RefreshTorpedoSettings",
+"RefreshTractorToggle",
+"RefreshCloakToggle",
+"Init"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"GetTacWeaponsCtrl"
+],
+"static": 1
+},
+"EngPowerCtrl": {
+"direct": [
+"Refresh",
+"GetBarForSubsystem"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"GetPowerCtrl",
+"Create"
+],
+"static": 0
+},
+"EngPowerDisplay": {
+"direct": [
+"Cast",
+"CreateBatteryGauge"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"GetPowerDisplay"
+],
+"static": 1
+},
+"EngRepairPane": {
+"direct": [
+"Cast",
+"GetSubsystemButton",
+"ResizeToContents"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"Create",
+"GetRepairPane"
+],
+"static": 1
+},
+"STWarpButton": {
+"direct": [
+"Cast",
+"AddActionBeforeWarp",
+"AddActionBeforeDuringWarp",
+"AddActionDuringWarp",
+"AddActionAfterDuringWarp",
+"AddActionAfterWarp",
+"ClearBDASequences",
+"SetLocation",
+"SetPlacementName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"308": [
+"SetCourseMenu"
+],
+"316": [
+"SetWarpTime",
+"GetWarpTime"
+],
+"312": [
+"SetShip"
+],
+"288": [
+"GetDestination"
+],
+"300": [
+"GetDestinationButtonID"
+],
+"296": [
+"SetUseLargeLoadingScreen"
+]
+},
+"other": [
+"Create",
+"CreateW",
+"SetDestination"
+],
+"static": 1
+},
+"SortedRegionMenu": {
+"direct": [
+"Cast",
+"SetWarpButton",
+"SetWarpToHere",
+"ClearInfo",
+"ClearSetCourseMenu",
+"InitializeAllSets"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"SetUseLargeLoadingScreen"
+],
+"92": [
+"GetRegionName"
+],
+"96": [
+"GetEpisodeName"
+],
+"100": [
+"GetMissionName"
+],
+"104": [
+"GetPlacementName"
+]
+},
+"other": [
+"Create",
+"CreateW",
+"CreateNull",
+"GetWarpButton",
+"SetRegionName",
+"SetEpisodeName",
+"SetMissionName",
+"SetPlacementName",
+"SetPauseSorting",
+"IsSortingPaused",
+"GetRoot"
+],
+"static": 3
+},
+"MultiplayerWindow": {
+"direct": [
+"Cast",
+"ToggleChatWindow",
+"IsChatWindowActive",
+"ClearCurrentServer",
+"BuildMissionMenu",
+"HideAllChildren",
+"IsAnyChildVisible",
+"SetStatusMessage"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"SetMultiplayerMenu",
+"GetMultiplayerMenu"
+],
+"84": [
+"SetHostMenu",
+"GetHostMenu"
+],
+"108": [
+"SetDedicatedServerMenu",
+"GetDedicatedServerMenu"
+],
+"88": [
+"SetJoinMenu",
+"GetJoinMenu"
+],
+"112": [
+"SetDirectJoinMenu",
+"GetDirectJoinMenu"
+],
+"92": [
+"SetMissionPane",
+"GetMissionPane"
+],
+"96": [
+"SetStatusWindow",
+"GetStatusWindow"
+],
+"100": [
+"SetEndWindow",
+"GetEndWindow"
+],
+"116": [
+"SetChatWindow",
+"GetChatWindow"
+],
+"179": [
+"IsTeamChat",
+"SetTeamChat"
+],
+"104": [
+"SetPlayerListWindow",
+"GetPlayerListWindow"
+],
+"120": [
+"IsServerSelected"
+],
+"177": [
+"SetGameOver",
+"IsGameOver"
+],
+"178": [
+"SetDirectJoin",
+"IsDirectJoin"
+],
+"180": [
+"SetHostUsingModem",
+"IsHostUsingModem"
+]
+},
+"other": [
+"(new)",
+"SetGameName",
+"GetGameName",
+"SetPlayerName",
+"GetPlayerName",
+"SetPassword",
+"GetPassword"
+],
+"static": 2
+},
+"STMissionLog": {
+"direct": [
+"SetNumStoredLines",
+"AddLine",
+"ClearLines"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"GetMissionLog"
+],
+"static": 0
+},
+"KeyboardBinding": {
+"direct": [
+"BindKey",
+"GetNumKeys",
+"FindKey",
+"ClearBinding",
+"GenerateMappingFile"
+],
+"virtual": {},
+"inline": {
+"0": [
+"SetMaxBoundKeys"
+]
+},
+"other": [
+"BindKeyChar",
+"FindKeyString",
+"LaunchEvent",
+"RebuildMappingFromFile"
+],
+"static": 0
+},
+"UITreeDialog": {
+"direct": [
+"AddTreeElement"
+],
+"virtual": {},
+"inline": {},
+"other": [
+"Create",
+"Go"
+],
+"static": 0
+},
+"PlacementObject": {
+"direct": [
+"Cast",
+"SetModel",
+"SaveObject",
+"SetStatic",
+"SetNavPoint",
+"FindContainingSet",
+"GetObject",
+"GetObjectBySetName"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"Update"
+],
+"67": [
+"SaveObjectSecondPass"
+]
+},
+"inline": {
+"104": [
+"GetModelName"
+],
+"108": [
+"IsStatic"
+],
+"109": [
+"IsNavPoint"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 3
+},
+"Waypoint": {
+"direct": [
+"Create",
+"Cast",
+"InsertAfterObj"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"112": [
+"SetSpeed",
+"GetSpeed"
+],
+"116": [
+"GetNext"
+],
+"120": [
+"GetPrev"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"LightPlacement": {
+"direct": [
+"Cast",
+"ConfigAmbientLight",
+"ConfigDirectionalLight",
+"ConfigPointLight",
+"ConfigSpotLight"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"Create"
+],
+"static": 1
+},
+"GridClass": {
+"direct": [
+"Create",
+"UpdatePosition",
+"GetObject",
+"GetNumClassObjects"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"Update"
+]
+},
+"inline": {
+"104": [
+"SetLineLength",
+"GetLineLength"
+],
+"108": [
+"SetStep",
+"GetStep"
+]
+},
+"other": [
+"(new)",
+"GetIntersectionPoint"
+],
+"static": 3
+},
+"AsteroidFieldPlacement": {
+"direct": [
+"SetFieldRadius",
+"SetNumTilesPerAxis",
+"SetNumAsteroidsPerTile",
+"SetAsteroidSizeFactor",
+"Cast",
+"GetField",
+"ConfigField",
+"GetObject",
+"GetObjectBySetName"
+],
+"virtual": {
+"0": [
+"(delete)"
+],
+"21": [
+"Update"
+]
+},
+"inline": {
+"112": [
+"GetFieldRadius"
+],
+"116": [
+"GetNumTilesPerAxis"
+],
+"120": [
+"GetNumAsteroidsPerTile"
+],
+"124": [
+"GetAsteroidSizeFactor"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 3
+},
+"PositionOrientationProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)",
+"SetOrientation",
+"SetPosition",
+"GetForward",
+"GetUp",
+"GetRight",
+"GetPosition"
+],
+"static": 2
+},
+"SubsystemProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"32": [
+"GetMaxCondition",
+"SetMaxCondition"
+],
+"36": [
+"IsCritical",
+"SetCritical"
+],
+"37": [
+"IsTargetable",
+"SetTargetable"
+],
+"38": [
+"IsPrimary",
+"SetPrimary"
+],
+"60": [
+"GetRepairComplexity",
+"SetRepairComplexity"
+],
+"64": [
+"GetDisabledPercentage",
+"SetDisabledPercentage"
+],
+"68": [
+"GetRadius",
+"SetRadius"
+],
+"52": [
+"GetPosition2D",
+"SetPosition2D"
+],
+"40": [
+"SetPosition"
+]
+},
+"other": [
+"(new)",
+"GetPosition",
+"GetPositionTG"
+],
+"static": 2
+},
+"PoweredSubsystemProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"72": [
+"GetNormalPowerPerSecond",
+"SetNormalPowerPerSecond"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"WeaponSystemProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetWeaponSystemType",
+"SetWeaponSystemType"
+],
+"80": [
+"IsSingleFire",
+"SetSingleFire"
+],
+"81": [
+"IsAimedWeapon",
+"SetAimedWeapon"
+]
+},
+"other": [
+"(new)",
+"GetFiringChainString",
+"SetFiringChainString"
+],
+"static": 2
+},
+"WeaponProperty": {
+"direct": [
+"Cast",
+"Create",
+"IsMemberOfGroup"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"72": [
+"IsDumbfire",
+"SetDumbfire"
+],
+"76": [
+"GetWeaponID",
+"SetWeaponID"
+],
+"80": [
+"GetGroups",
+"SetGroups"
+],
+"84": [
+"GetDamageRadiusFactor",
+"SetDamageRadiusFactor"
+],
+"88": [
+"GetIconNum",
+"SetIconNum"
+],
+"92": [
+"GetIconPositionX",
+"SetIconPositionX"
+],
+"96": [
+"GetIconPositionY",
+"SetIconPositionY"
+],
+"100": [
+"IsIconAboveShip",
+"SetIconAboveShip"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"EnergyWeaponProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetFireSound"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"108": [
+"GetRechargeRate",
+"SetRechargeRate"
+],
+"112": [
+"GetNormalDischargeRate",
+"SetNormalDischargeRate"
+],
+"104": [
+"GetMaxCharge",
+"SetMaxCharge"
+],
+"116": [
+"GetMinFiringCharge",
+"SetMinFiringCharge"
+],
+"128": [
+"GetFireSound"
+],
+"120": [
+"GetMaxDamage",
+"SetMaxDamage"
+],
+"124": [
+"GetMaxDamageDistance",
+"SetMaxDamageDistance"
+],
+"132": [
+"GetIndicatorIconNum",
+"SetIndicatorIconNum"
+],
+"136": [
+"GetIndicatorIconPositionX",
+"SetIndicatorIconPositionX"
+],
+"140": [
+"GetIndicatorIconPositionY",
+"SetIndicatorIconPositionY"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"PhaserProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetTextureName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"0": [
+"SetOrientation"
+],
+"320": [
+"SetWidth",
+"GetWidth"
+],
+"324": [
+"SetLength",
+"GetLength"
+],
+"200": [
+"SetPhaserTextureStart",
+"GetPhaserTextureStart"
+],
+"204": [
+"SetPhaserTextureEnd",
+"GetPhaserTextureEnd"
+],
+"208": [
+"SetPhaserWidth",
+"GetPhaserWidth"
+],
+"148": [
+"SetArcWidthAngles",
+"GetArcWidthAngles",
+"GetArcWidthAngleMin"
+],
+"156": [
+"SetArcHeightAngles",
+"GetArcHeightAngles",
+"GetArcHeightAngleMin"
+],
+"276": [
+"SetNumSides",
+"GetNumSides"
+],
+"280": [
+"SetMainRadius",
+"GetMainRadius"
+],
+"284": [
+"SetTaperRadius",
+"GetTaperRadius"
+],
+"288": [
+"SetCoreScale",
+"GetCoreScale"
+],
+"292": [
+"SetTaperRatio",
+"GetTaperRatio"
+],
+"296": [
+"SetTaperMinLength",
+"GetTaperMinLength"
+],
+"300": [
+"SetTaperMaxLength",
+"GetTaperMaxLength"
+],
+"304": [
+"SetLengthTextureTilePerUnit",
+"GetLengthTextureTilePerUnit"
+],
+"308": [
+"SetPerimeterTile",
+"GetPerimeterTile"
+],
+"312": [
+"SetTextureSpeed",
+"GetTextureSpeed"
+],
+"152": [
+"GetArcWidthAngleMax"
+],
+"160": [
+"GetArcHeightAngleMax"
+],
+"316": [
+"GetTextureName"
+]
+},
+"other": [
+"(new)",
+"SetOuterShellColor",
+"SetInnerShellColor",
+"SetOuterCoreColor",
+"SetInnerCoreColor",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOuterShellColor",
+"GetInnerShellColor",
+"GetOuterCoreColor",
+"GetInnerCoreColor"
+],
+"static": 2
+},
+"PulseWeaponProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetModuleName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"148": [
+"SetArcWidthAngles",
+"GetArcWidthAngles",
+"GetArcWidthAngleMin"
+],
+"156": [
+"SetArcHeightAngles",
+"GetArcHeightAngles",
+"GetArcHeightAngleMin"
+],
+"200": [
+"SetCooldownTime",
+"GetCooldownTime"
+],
+"152": [
+"GetArcWidthAngleMax"
+],
+"160": [
+"GetArcHeightAngleMax"
+],
+"204": [
+"GetModuleName"
+]
+},
+"other": [
+"(new)",
+"SetOrientation",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight"
+],
+"static": 2
+},
+"TractorBeamProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetTextureName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"148": [
+"SetArcWidthAngles",
+"GetArcWidthAngles",
+"GetArcWidthAngleMin"
+],
+"156": [
+"SetArcHeightAngles",
+"GetArcHeightAngles",
+"GetArcHeightAngleMin"
+],
+"152": [
+"GetArcWidthAngleMax"
+],
+"160": [
+"GetArcHeightAngleMax"
+],
+"276": [
+"GetNumSides",
+"SetNumSides"
+],
+"280": [
+"GetMainRadius",
+"SetMainRadius"
+],
+"284": [
+"GetTaperRadius",
+"SetTaperRadius"
+],
+"288": [
+"GetCoreScale",
+"SetCoreScale"
+],
+"292": [
+"GetTaperRatio",
+"SetTaperRatio"
+],
+"296": [
+"GetTaperMinLength",
+"SetTaperMinLength"
+],
+"300": [
+"GetTaperMaxLength",
+"SetTaperMaxLength"
+],
+"304": [
+"GetLengthTextureTilePerUnit",
+"SetLengthTextureTilePerUnit"
+],
+"308": [
+"GetPerimeterTile",
+"SetPerimeterTile"
+],
+"312": [
+"GetTextureSpeed",
+"SetTextureSpeed"
+],
+"208": [
+"GetTextureName"
+],
+"200": [
+"GetTextureStart",
+"SetTextureStart"
+],
+"204": [
+"GetTextureEnd",
+"SetTextureEnd"
+],
+"316": [
+"GetTractorBeamWidth",
+"SetTractorBeamWidth"
+]
+},
+"other": [
+"(new)",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight",
+"SetOrientation",
+"GetOuterShellColor",
+"GetInnerShellColor",
+"GetOuterCoreColor",
+"GetInnerCoreColor",
+"SetOuterShellColor",
+"SetInnerShellColor",
+"SetOuterCoreColor",
+"SetInnerCoreColor"
+],
+"static": 2
+},
+"TorpedoTubeProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"132": [
+"GetImmediateDelay",
+"SetImmediateDelay"
+],
+"136": [
+"GetReloadDelay",
+"SetReloadDelay"
+],
+"140": [
+"GetMaxReady",
+"SetMaxReady"
+],
+"0": [
+"SetDirection",
+"SetRight"
+]
+},
+"other": [
+"(new)",
+"GetDirection",
+"GetRight"
+],
+"static": 2
+},
+"TorpedoAmmoType": {
+"direct": [
+"GetPowerCost",
+"GetAmmoName",
+"SetTorpedoScript"
+],
+"virtual": {},
+"inline": {
+"8": [
+"GetLaunchSpeed",
+"m_fLaunchSpeed_set",
+"m_fLaunchSpeed_get"
+],
+"12": [
+"GetLaunchSound",
+"m_pcLaunchSound_get"
+],
+"0": [
+"GetMaxTorpedoes",
+"SetMaxTorpedoes",
+"m_iMaxTorpedoes_set",
+"m_iMaxTorpedoes_get"
+],
+"4": [
+"GetTorpedoScript",
+"m_pcModule_set",
+"m_pcModule_get",
+"m_pcLaunchSound_set"
+]
+},
+"other": [
+"(new)",
+"(delete)"
+],
+"static": 0
+},
+"TorpedoSystemProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetMaxTorpedoes",
+"GetMaxTorpedoes",
+"SetTorpedoScript",
+"GetTorpedoScript"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"164": [
+"SetNumAmmoTypes",
+"GetNumAmmoTypes"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"EngineGlowProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"ShieldProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"92": [
+"GetShieldGlowDecay",
+"SetShieldGlowDecay"
+]
+},
+"other": [
+"(new)",
+"GetShieldGlowColor",
+"GetMaxShields",
+"GetShieldChargePerSecond",
+"SetShieldGlowColor",
+"SetMaxShields",
+"SetShieldChargePerSecond"
+],
+"static": 2
+},
+"HullProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"SensorProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetBaseSensorRange",
+"SetBaseSensorRange"
+],
+"80": [
+"GetMaxProbes",
+"SetMaxProbes"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"CloakingSubsystemProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetCloakStrength",
+"SetCloakStrength"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"RepairSubsystemProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetMaxRepairPoints",
+"SetMaxRepairPoints"
+],
+"80": [
+"GetNumRepairTeams",
+"SetNumRepairTeams"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"ShipProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetShipName",
+"SetModelFilename",
+"SetAIString",
+"SetDeathExplosionSound"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"28": [
+"GetGenus",
+"SetGenus"
+],
+"32": [
+"GetSpecies",
+"SetSpecies"
+],
+"36": [
+"GetMass",
+"SetMass"
+],
+"40": [
+"GetRotationalInertia",
+"SetRotationalInertia"
+],
+"44": [
+"GetShipName"
+],
+"48": [
+"GetModelFilename"
+],
+"52": [
+"GetDamageResolution",
+"SetDamageResolution"
+],
+"56": [
+"GetAffiliation",
+"SetAffiliation"
+],
+"60": [
+"IsStationary",
+"SetStationary"
+],
+"64": [
+"GetAIString"
+],
+"68": [
+"GetDeathExplosionSound"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"PowerProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"72": [
+"GetMainBatteryLimit",
+"SetMainBatteryLimit"
+],
+"76": [
+"GetBackupBatteryLimit",
+"SetBackupBatteryLimit"
+],
+"80": [
+"GetMainConduitCapacity",
+"SetMainConduitCapacity"
+],
+"84": [
+"GetBackupConduitCapacity",
+"SetBackupConduitCapacity"
+],
+"88": [
+"GetPowerOutput",
+"SetPowerOutput"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"ImpulseEngineProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetEngineSound"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"76": [
+"GetMaxSpeed",
+"SetMaxSpeed"
+],
+"80": [
+"GetMaxAccel",
+"SetMaxAccel"
+],
+"84": [
+"GetMaxAngularVelocity",
+"SetMaxAngularVelocity"
+],
+"88": [
+"GetMaxAngularAccel",
+"SetMaxAngularAccel"
+],
+"92": [
+"GetEngineSound"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"WarpEngineProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"EngineProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"72": [
+"GetEngineType",
+"SetEngineType"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"EffectEmitterProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"SmokeEmitterProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"SparkEmitterProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"ExplodeEmitterProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {},
+"other": [],
+"static": 2
+},
+"BlinkingLightProperty": {
+"direct": [
+"Cast",
+"Create",
+"SetTextureName"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"96": [
+"GetRadius",
+"SetRadius"
+],
+"100": [
+"GetPeriod",
+"SetPeriod"
+],
+"104": [
+"GetDuration",
+"SetDuration"
+],
+"108": [
+"GetTextureName"
+]
+},
+"other": [
+"GetColor",
+"SetColor"
+],
+"static": 2
+},
+"ObjectEmitterProperty": {
+"direct": [
+"Cast",
+"Create"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"80": [
+"GetEmittedObjectType",
+"SetEmittedObjectType"
+]
+},
+"other": [
+"(new)"
+],
+"static": 2
+},
+"MultiplayerGame": {
+"direct": [
+"Cast",
+"GetPlayerNumberFromID",
+"SetReadyForNewPlayers",
+"GetPlayerName",
+"GetNumberPlayersInGame",
+"IsPlayerInGame",
+"GetShipFromPlayerID",
+"DeletePlayerShipsAndTorps",
+"DeleteObjectFromGame",
+"IsPlayerUsingModem"
+],
+"virtual": {
+"0": [
+"(delete)"
+]
+},
+"inline": {
+"504": [
+"IsReadyForNewPlayers"
+],
+"508": [
+"SetMaxPlayers",
+"GetMaxPlayers"
+]
+},
+"other": [
+"(new)",
+"Create"
+],
+"static": 1
+},
+"ServerListEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+],
+"12": [
+"Copy"
+]
+},
+"inline": {
+"0": [
+"SetServer"
+]
+},
+"other": [
+"(new)",
+"Create",
+"GetServer",
+"GetServerName",
+"GetMissionName",
+"GetAddress",
+"GetVersion",
+"GetPortNumber",
+"GetPing",
+"GetNumPlayers",
+"GetMaxPlayers"
+],
+"static": 0
+},
+"SortServerListEvent": {
+"direct": [],
+"virtual": {
+"0": [
+"(delete)"
+],
+"12": [
+"Copy"
+]
+},
+"inline": {
+"40": [
+"GetSortBy"
+],
+"44": [
+"SetStringField",
+"IsStringField"
+]
+},
+"other": [
+"(new)",
+"Create",
+"SetSortBy"
+],
+"static": 0
+}
+}

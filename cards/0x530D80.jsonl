@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-11", "commit": "b21a6bb535", "from": null, "to": 99.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "near-95", "by": "opus", "from": 99.6, "to": 99.6, "how": "diagnosed only: one store (maximumWidth at 0x70) scheduled before the 0x64/0x68/0x84 stores instead of after scrollSpeed; parked note says statement orders were tried", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 99.6, "to": 99.6, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "c2-sched", "commit": "e4fabebf72", "from": 99.6, "to": 100.0, "status": "MATCH"}

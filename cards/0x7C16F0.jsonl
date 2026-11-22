@@ -1,0 +1,7 @@
+{"date": "2026-10-28", "kind": "score", "lane": "ni-renderer-9", "commit": "74664867c3", "from": null, "to": 93.9, "status": "DIFF"}
+{"date": "2026-10-28", "kind": "score", "lane": "ni-renderer-13", "commit": "5e95ad1027", "from": 93.9, "to": 99.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 99.1, "to": 99.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 99.1, "to": 99.1, "how": "sched triage: (b) x87: operand order of the horizontal centre sum", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls", "commit": "7e6a26ed1b", "from": 99.1, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "pair corrected: sdkdebug map pairs NiD3DRender by 3.1 vtable slot, but BC has three more slots (16, 21, 37): debug slot k is retail k (k<16), k+1 (16-19), k+2 (20-34), k+3 (35+); verified by callees, strings and ret size. debug 0x50EC69 (slot 38, ret 0x18, SetCameraRange), not 0x50F3D9: /Od 59.2%"}

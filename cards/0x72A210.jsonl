@@ -1,0 +1,2 @@
+{"date": "2026-11-20", "kind": "try", "lane": "od-netimmerse", "by": "opus", "from": 100.0, "to": 76.7, "how": "NiTArray::Compact takes AnimOnly 0x4D9B50's text (user's ruling 2026-11-20): Compact costs 279, RemovePos's nested RemoveTail gets a share of 94 against cost 100 (needs 6 more), so it stays out of line; accepted loss", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "od-netimmerse", "commit": "ea62909a2e", "from": 100.0, "to": 76.7, "status": "DIFF"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-83", "commit": "8d4dae5114", "from": null, "to": 92.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 92.3, "to": 93.8, "how": "return exact ? false : true fixes the first return's AL (92.3 -> 93.8); !exact || IsSolid early return, separate early returns (92.1), exact && !IsSolid block, positive GetSurfaceCell, positive nesting of the bounds test: all 93.8, the return true block stays at the end", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 92.3, "to": 93.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow", "commit": "6cc37bced7", "from": 93.8, "to": 100.0, "status": "MATCH"}

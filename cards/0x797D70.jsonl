@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: frame only: uiIndex sits among the destructor-guard temporaries $S250-$S253 in another order than AnimOnly 0x47F64F; the temporaries' unit-wide numbering decides it"}

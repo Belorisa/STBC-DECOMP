@@ -1,0 +1,7 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-38", "commit": "666d8b24d0", "from": null, "to": 78.1, "status": "DIFF"}
+{"date": "2026-11-01", "kind": "score", "lane": "game-41", "commit": "e6a791229f", "from": 78.1, "to": 89.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-lineage", "by": "opus", "from": 89.9, "to": 97.3, "how": "NiPoint3::Length through Gamebryo 1.1.2's NiSqrt (float(sqrt(value)), NiMath.h included by NiPoint3.h) in place of sqrtf: 89.9 -> 97.3"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 89.9, "to": 89.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "near-misses", "by": "opus", "from": 97.3, "to": 100.0, "how": "lookup through the Torpedo::GetTargetID() accessor: an inline level on the ID moves its reload from ecx to eax after the WriteChar vcall: 97.3 -> 100 MATCH"}
+{"date": "2026-11-17", "kind": "score", "lane": "near-misses", "commit": "83ac2576d4", "from": 97.3, "to": 100.0, "status": "MATCH"}

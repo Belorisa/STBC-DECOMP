@@ -1,0 +1,5 @@
+{"date": "2026-11-02", "kind": "score", "lane": "game-62", "commit": "5b8206f147", "from": null, "to": 89.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 89.4, "to": 91.7, "how": "the guarded extra-data loop of FindIntersections (if extra; while true; bottom NULL break) closes the walk (89.4 -> 91.7); left: cross-jump direction of the two inline Adds; an early leafSize == 0 return 91.1", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 89.4, "to": 91.7, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow", "by": "opus", "from": 91.7, "to": 100.0, "how": "NiNode walk in an else after the shape branch (no return after the new root's Add) matches: the found case's Add keeps its tail; break-out-of-loop with one Add per arm: 93.9 / 82.8", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow", "commit": "6cc37bced7", "from": 91.7, "to": 100.0, "status": "MATCH"}

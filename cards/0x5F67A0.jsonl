@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "appwrap-2", "commit": "dc2c03cfa0", "from": null, "to": 91.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 91.2, "to": 91.2, "how": "diagnosis only: retail copies the float through the FPU (fld/fstp) as an inline's float parameter does; the lead is a TGPoint3 * overload of LookToward inline in CameraObjectClass.h forwarding to the NiPoint3 one (as PhaserProperty::SetOrientation); a game-header change for slot1, not tried", "wall": "structure"}
+{"date": "2026-11-16", "kind": "score", "lane": "ni-statics-sweep", "commit": "277d5868f5", "from": 91.2, "to": 100.0, "status": "MATCH"}

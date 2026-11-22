@@ -1,0 +1,6 @@
+{"date": "2026-11-12", "kind": "try", "lane": "early-game-gaps", "by": "opus", "from": null, "to": 96.4, "how": "first draft 88.5 (one chained cross product); the side vector named 96.4 (frame now right); three products' operand order differ", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "early-game-gaps", "commit": "de8ecfbe71", "from": null, "to": 96.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "statics-refine", "by": "opus", "from": 96.4, "to": 96.4, "how": "world up named before the cross: 78.3; side = GetWorldUp().Cross( *forward ) with *up = forward->Cross( side ): 88.2; both reverted. Retail's first cross loads forward.y then the up's z (y * pt.z in order), ours the reverse", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 96.4, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 96.4, "to": 96.4, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

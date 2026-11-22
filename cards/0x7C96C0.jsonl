@@ -1,0 +1,6 @@
+{"date": "2026-10-27", "kind": "score", "lane": "ni-renderer-4", "commit": "631d2bbc1d", "from": null, "to": 89.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 89.1, "to": 89.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 89.1, "to": 89.1, "how": "sched triage: (c) extra loads and a different temp setup: the instruction set differs", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "mixed-b", "by": "opus", "from": 89.1, "to": 100.0, "how": "the description read through the unit's own static GetSurfaceDesc( frontSurface, &desc ) (expanded under /Ob2: its argument, frontSurface, is loaded before the inlined memset as retail does): MATCH"}
+{"date": "2026-11-18", "kind": "score", "lane": "mixed-b", "commit": "d1d2b65205", "from": 89.1, "to": 100.0, "status": "MATCH"}

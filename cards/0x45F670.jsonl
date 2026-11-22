@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-36", "commit": "de03222cd3", "from": null, "to": 98.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 98.8, "to": 98.8, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 98.8, "to": 98.8, "how": "sched triage: (c) operand order of the compare address ([ebx+4] against [edx]): the instruction before scheduling", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-95", "commit": "fb95c15932", "from": 98.8, "to": 100.0, "status": "MATCH"}

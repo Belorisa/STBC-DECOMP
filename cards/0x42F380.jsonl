@@ -1,0 +1,4 @@
+{"date": "2026-11-12", "kind": "try", "lane": "early-game-gaps", "by": "opus", "from": null, "to": 95.1, "how": "named the icon group local (arg order fixed, 94.1->95.1); NiPointer ctor and SetField inline choices reversed", "wall": "inline"}
+{"date": "2026-11-12", "kind": "score", "lane": "early-game-gaps", "commit": "de8ecfbe71", "from": null, "to": 95.1, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "inline-trace2", "by": "opus", "from": 95.1, "to": 100.0, "how": "c2trace: site 26 NiPointer ctor share 59 (retail <53) and site 28 SetField share 53 (retail <50): two more sites after site 32 needed; GetContainingSet() at both uses (+2 sites) left site 28 at 653/13=50, if ( GetContainingSet() ) for != NULL (-2 tuples, budget -4) gives 649/13=49: MATCH", "wall": "inline"}
+{"date": "2026-11-17", "kind": "score", "lane": "inline-trace2", "commit": "30cda070e7", "from": 95.1, "to": 100.0, "status": "MATCH"}

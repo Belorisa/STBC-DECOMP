@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "interface-obb", "by": "opus", "from": null, "to": 99.9, "how": "inline id ctor with unknownAC NiTList(2): bytes agree, the vtable 0x8923F8 lacks the destructor and the class's own slots", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "interface-obb", "commit": "211e918131", "from": null, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-12", "kind": "try", "lane": "ui-input-gaps", "by": "sonnet", "from": 99.9, "to": 99.9, "how": "unchanged: header gained declarations (Unknown54BEE0/54BFD0/54C200); still WRONG-REFERENT on the undeclared vtable", "wall": "referent"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-layout", "commit": "55b3cdda01", "from": 99.9, "to": 100.0, "status": "MATCH"}

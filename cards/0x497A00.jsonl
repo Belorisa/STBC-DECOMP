@@ -1,0 +1,2 @@
+{"date": "2026-11-03", "kind": "score", "lane": "game-70", "commit": "bca098b61b", "from": null, "to": 77.4, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 77.4, "to": 77.4, "how": "rect.SetWidth/SetHeight( button->GetWidth()/GetHeight() ) instead of the member stores: flat (77.4). c2float: both size copies are adjacent fld/fstp pairs the peephole merges into integer moves; retail keeps them (and the top/width/height argument pushes) on the FPU, left alone as an integer move", "wall": "register"}

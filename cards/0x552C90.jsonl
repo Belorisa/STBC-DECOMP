@@ -1,0 +1,6 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-84", "commit": "8f87d04e31", "from": null, "to": 89.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 89.1, "to": 89.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 89.1, "to": 89.1, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov edx, dword ptr [eax + 4]\" retail \"mov eax, dword ptr [eax + 4]\"", "wall": "register"}
+{"date": "2026-11-21", "kind": "try", "lane": "wrappers", "by": "opus", "from": 89.1, "to": 91.5, "how": "Ni3DDeviceDesc::GetName() in the two strcmp tests (the SetDevice and TGString uses take char *, left as the member): 89.1 -> 91.5"}
+{"date": "2026-11-21", "kind": "score", "lane": "wrappers", "commit": "a77601c64c", "from": 89.1, "to": 91.5, "status": "DIFF"}

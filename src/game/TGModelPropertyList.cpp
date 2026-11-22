@@ -1,0 +1,223 @@
+/*
+===============================================================================
+
+	TGModelPropertyList.cpp
+
+===============================================================================
+*/
+
+#include <iostream>
+#include "TGModelPropertyList.h"
+#include "NiMain.h"
+
+// The locale-id pair: std::ctype<unsigned short>::id's guard byte and its exit-time registration.
+// FUNCTION: STBC 0x006ed7e0 _$E408
+// FUNCTION: STBC 0x006ed800 _$E407
+
+// The standard streams' initialisers and exit-time destructors (<iostream>).
+// FUNCTION: STBC 0x006ed680 _$E32
+// FUNCTION: STBC 0x006ed690 _$E29
+// FUNCTION: STBC 0x006ed6a0 _$E31
+// FUNCTION: STBC 0x006ed6b0 _$E30
+// FUNCTION: STBC 0x006ed6c0 _$E38
+// FUNCTION: STBC 0x006ed6d0 _$E35
+// FUNCTION: STBC 0x006ed6e0 _$E37
+// FUNCTION: STBC 0x006ed6f0 _$E36
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x006ed700 _$E45
+// FUNCTION: STBC 0x006ed710 _$E44
+// FUNCTION: STBC 0x006ed720 _$E49
+// FUNCTION: STBC 0x006ed730 _$E48
+// FUNCTION: STBC 0x006ed740 _$E60
+// FUNCTION: STBC 0x006ed750 _$E59
+// FUNCTION: STBC 0x006ed760 _$E64
+// FUNCTION: STBC 0x006ed770 _$E63
+// FUNCTION: STBC 0x006ed780 _$E68
+// FUNCTION: STBC 0x006ed790 _$E67
+// FUNCTION: STBC 0x006ed7a0 _$E72
+// FUNCTION: STBC 0x006ed7b0 _$E71
+// FUNCTION: STBC 0x006ed7c0 _$E196
+// FUNCTION: STBC 0x006ed7d0 _$E195
+// FUNCTION: STBC 0x006ed810 _$E138
+// FUNCTION: STBC 0x006ed820 _$E137
+// FUNCTION: STBC 0x006ed830 _$E151
+// FUNCTION: STBC 0x006ed840 _$E150
+// FUNCTION: STBC 0x006ed850 _$E201
+// FUNCTION: STBC 0x006ed860 _$E200
+// FUNCTION: STBC 0x006ed870 _$E206
+// FUNCTION: STBC 0x006ed880 _$E205
+// FUNCTION: STBC 0x006ed890 _$E210
+// FUNCTION: STBC 0x006ed8a0 _$E209
+// FUNCTION: STBC 0x006ed8b0 _$E214
+// FUNCTION: STBC 0x006ed8c0 _$E213
+// FUNCTION: STBC 0x006ed8d0 _$E221
+// FUNCTION: STBC 0x006ed8e0 _$E220
+// FUNCTION: STBC 0x006ed8f0 _$E246
+// FUNCTION: STBC 0x006ed900 _$E245
+// FUNCTION: STBC 0x006ed910 _$E250
+// FUNCTION: STBC 0x006ed920 _$E249
+// FUNCTION: STBC 0x006ed930 _$E96
+// FUNCTION: STBC 0x006ed940 _$E95
+// FUNCTION: STBC 0x006ed950 _$E232
+// FUNCTION: STBC 0x006ed960 _$E231
+// FUNCTION: STBC 0x006ed970 _$E239
+// FUNCTION: STBC 0x006ed980 _$E238
+// FUNCTION: STBC 0x006ed990 _$E262
+// FUNCTION: STBC 0x006ed9a0 _$E261
+// FUNCTION: STBC 0x006ed9b0 _$E266
+// FUNCTION: STBC 0x006ed9c0 _$E265
+// FUNCTION: STBC 0x006ed9d0 _$E306
+// FUNCTION: STBC 0x006ed9e0 _$E305
+// FUNCTION: STBC 0x006ed9f0 _$E312
+// FUNCTION: STBC 0x006eda00 _$E311
+// FUNCTION: STBC 0x006eda10 _$E254
+// FUNCTION: STBC 0x006eda20 _$E253
+// FUNCTION: STBC 0x006eda30 _$E258
+// FUNCTION: STBC 0x006eda40 _$E257
+// FUNCTION: STBC 0x006eda50 _$E270
+// FUNCTION: STBC 0x006eda60 _$E269
+// FUNCTION: STBC 0x006eda70 _$E274
+// FUNCTION: STBC 0x006eda80 _$E273
+// FUNCTION: STBC 0x006eda90 _$E278
+// FUNCTION: STBC 0x006edaa0 _$E277
+// FUNCTION: STBC 0x006edab0 _$E282
+// FUNCTION: STBC 0x006edac0 _$E281
+// FUNCTION: STBC 0x006edad0 _$E286
+// FUNCTION: STBC 0x006edae0 _$E285
+// FUNCTION: STBC 0x006edaf0 _$E290
+// FUNCTION: STBC 0x006edb00 _$E289
+// FUNCTION: STBC 0x006edb10 _$E294
+// FUNCTION: STBC 0x006edb20 _$E293
+// FUNCTION: STBC 0x006edb30 _$E298
+// FUNCTION: STBC 0x006edb40 _$E297
+// FUNCTION: STBC 0x006edb50 _$E101
+// FUNCTION: STBC 0x006edb60 _$E100
+// FUNCTION: STBC 0x006edb70 _$E302
+// FUNCTION: STBC 0x006edb80 _$E301
+// FUNCTION: STBC 0x006edb90 _$E106
+// FUNCTION: STBC 0x006edba0 _$E105
+// FUNCTION: STBC 0x006edbb0 _$E316
+// FUNCTION: STBC 0x006edbc0 _$E315
+// FUNCTION: STBC 0x006edbd0 _$E320
+// FUNCTION: STBC 0x006edbe0 _$E319
+// FUNCTION: STBC 0x006edbf0 _$E324
+// FUNCTION: STBC 0x006edc00 _$E323
+// FUNCTION: STBC 0x006edc10 _$E328
+// FUNCTION: STBC 0x006edc20 _$E327
+// FUNCTION: STBC 0x006edc30 _$E115
+// FUNCTION: STBC 0x006edc40 _$E114
+// FUNCTION: STBC 0x006edc50 _$E332
+// FUNCTION: STBC 0x006edc60 _$E331
+// FUNCTION: STBC 0x006edc70 _$E336
+// FUNCTION: STBC 0x006edc80 _$E335
+// FUNCTION: STBC 0x006edc90 _$E340
+// FUNCTION: STBC 0x006edca0 _$E339
+// FUNCTION: STBC 0x006edcb0 _$E121
+// FUNCTION: STBC 0x006edcc0 _$E120
+// FUNCTION: STBC 0x006edcd0 _$E126
+// FUNCTION: STBC 0x006edce0 _$E125
+// FUNCTION: STBC 0x006edcf0 _$E156
+// FUNCTION: STBC 0x006edd00 _$E155
+// FUNCTION: STBC 0x006edd10 _$E344
+// FUNCTION: STBC 0x006edd20 _$E343
+// FUNCTION: STBC 0x006edd30 _$E161
+// FUNCTION: STBC 0x006edd40 _$E160
+// FUNCTION: STBC 0x006edd50 _$E348
+// FUNCTION: STBC 0x006edd60 _$E347
+// FUNCTION: STBC 0x006edd70 _$E352
+// FUNCTION: STBC 0x006edd80 _$E351
+// FUNCTION: STBC 0x006edd90 _$E166
+// FUNCTION: STBC 0x006edda0 _$E165
+// FUNCTION: STBC 0x006eddb0 _$E356
+// FUNCTION: STBC 0x006eddc0 _$E355
+// FUNCTION: STBC 0x006eddd0 _$E131
+// FUNCTION: STBC 0x006edde0 _$E130
+// FUNCTION: STBC 0x006eddf0 _$E360
+// FUNCTION: STBC 0x006ede00 _$E359
+// FUNCTION: STBC 0x006ede10 _$E364
+// FUNCTION: STBC 0x006ede20 _$E363
+// FUNCTION: STBC 0x006ede30 _$E171
+// FUNCTION: STBC 0x006ede40 _$E170
+// FUNCTION: STBC 0x006ede50 _$E176
+// FUNCTION: STBC 0x006ede60 _$E175
+// FUNCTION: STBC 0x006ede70 _$E368
+// FUNCTION: STBC 0x006ede80 _$E367
+// FUNCTION: STBC 0x006ede90 _$E372
+// FUNCTION: STBC 0x006edea0 _$E371
+// FUNCTION: STBC 0x006edeb0 _$E376
+// FUNCTION: STBC 0x006edec0 _$E375
+// FUNCTION: STBC 0x006eded0 _$E380
+// FUNCTION: STBC 0x006edee0 _$E379
+// FUNCTION: STBC 0x006edef0 _$E384
+// FUNCTION: STBC 0x006edf00 _$E383
+// FUNCTION: STBC 0x006edf10 _$E388
+// FUNCTION: STBC 0x006edf20 _$E387
+// FUNCTION: STBC 0x006edf30 _$E392
+// FUNCTION: STBC 0x006edf40 _$E391
+// FUNCTION: STBC 0x006edf50 _$E396
+// FUNCTION: STBC 0x006edf60 _$E395
+// FUNCTION: STBC 0x006edf70 _$E181
+// FUNCTION: STBC 0x006edf80 _$E180
+// FUNCTION: STBC 0x006edf90 _$E400
+// FUNCTION: STBC 0x006edfa0 _$E399
+// FUNCTION: STBC 0x006edfb0 _$E186
+// FUNCTION: STBC 0x006edfc0 _$E185
+// FUNCTION: STBC 0x006edfd0 _$E191
+// FUNCTION: STBC 0x006edfe0 _$E190
+
+/*
+================
+TGModelPropertyList::TGModelPropertyList
+================
+*/
+// FUNCTION: STBC 0x006edff0
+TGModelPropertyList::TGModelPropertyList( void ) : NiTList<TGModelPropertyInstance *>( 2 ) {
+	iterator = NULL;
+}
+
+/*
+================
+TGModelPropertyList::~TGModelPropertyList
+
+The instances are not freed with the list.
+================
+*/
+// FUNCTION: STBC 0x006ee040
+// FUNCTION: STBC 0x006ee020 ??_GTGModelPropertyList@@UAEPAXI@Z
+TGModelPropertyList::~TGModelPropertyList( void ) {
+}
+
+/*
+================
+TGModelPropertyList::TGBeginIteration
+
+Starts at the head of the list.
+================
+*/
+// FUNCTION: STBC 0x006ee090
+void TGModelPropertyList::TGBeginIteration( void ) {
+	iterator = GetHeadPos();
+}
+
+/*
+================
+TGModelPropertyList::TGGetNext
+
+The instance at the iterator, which moves on; NULL at the end.
+================
+*/
+// FUNCTION: STBC 0x006ee0a0
+TGModelPropertyInstance *TGModelPropertyList::TGGetNext( void ) {
+	return GetNext( iterator );
+}
+
+/*
+================
+TGModelPropertyList::TGDestroy
+================
+*/
+// FUNCTION: STBC 0x006ee0c0
+void TGModelPropertyList::TGDestroy( void ) {
+	delete this;
+}

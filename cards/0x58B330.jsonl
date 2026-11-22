@@ -1,0 +1,6 @@
+{"date": "2026-11-11", "kind": "try", "lane": "backdrop-family", "by": "sonnet", "from": null, "to": 99.9, "how": "map static's exit destructor: same guard-byte split as 0x58B2D0", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-family", "commit": "fd26b2f6c9", "from": null, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-guards", "commit": "6fa030c9bb", "from": 99.9, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-interface", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B330: _$E256 -> _$E258"}
+{"date": "2026-11-11", "kind": "try", "lane": "glow-setclass", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B330: _$E258 -> _$E259"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-gaps", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B330: _$E259 -> _$E260"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-83", "commit": "8d4dae5114", "from": null, "to": 60.2, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 60.2, "to": 89.1, "how": "DamageBitArray::TestAndSet without its byte pointer (bits[index >> 3] read and or-ed: retail's lea ebp,[ecx+edx] beside mov cl,[ecx+edx] is the address CSE'd, not a named pointer): 60.2 -> 89.1. Left: base/index register swap in both bit tests (retail index in edx, bits in ecx/ebp). A byteIndex local 85.5, IsSet()+Set() 74.5; Clear keeps its pointer (retail add esi,ecx; [esi])", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-game", "commit": "d062175954", "from": 60.2, "to": 89.1, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-leads", "commit": "aa9a05357a", "from": 89.1, "to": 100.0, "status": "MATCH"}

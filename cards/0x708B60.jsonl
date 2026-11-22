@@ -1,0 +1,5 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-700000", "by": "sonnet", "from": null, "to": 91.8, "how": "do-while with early return in the last-entry block 91.8; if/else with the last-entry block in else 89.3; ebx/ebp assignment and shared epilogue not reached", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-700000", "commit": "9b062d0036", "from": null, "to": 91.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 91.8, "to": 100.0, "how": "ctxscan: invariant (1 state, k=0-63); while loop instead of guard + do-while gives retail's bottom-test and epilogue (89.3), entry fetched inside each arm gives the register roles: 100", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "schedule-verdicts", "commit": "ba1fbdb4f7", "from": 91.8, "to": 100.0, "status": "MATCH"}

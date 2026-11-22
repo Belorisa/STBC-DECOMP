@@ -1,0 +1,3 @@
+{"date": "2026-10-28", "kind": "score", "lane": "netimmerse-6", "commit": "26d2d9c864", "from": null, "to": 79.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "mixed-b", "by": "opus", "from": 79.2, "to": 79.2, "how": "lineage = NULL initialiser: 79.2. Retail calls DecRefCount (0x4E1580) out of line only in the first lastState = 0 (its operator= inline); c2trace: that DecRefCount's share is 913/7 = 130 >= 66 at depth 2; one level deeper (an inline that resets lastState, cost ~95) would give (129 - 87) / 2 = 21 and call it, but no such member is evidenced: not written", "wall": "inline"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts50", "commit": "3a884cd999", "from": 79.2, "to": 100.0, "status": "MATCH"}

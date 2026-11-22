@@ -1,0 +1,2 @@
+{"date": "2026-10-30", "kind": "score", "lane": "game-ui-10", "commit": "3f30f3b954", "from": null, "to": 77.5, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 77.8, "to": 77.8, "how": "read: retail divides with fdivr [height] (height from memory, the end cap's height on the stack) and adds the indent with faddp; ours loads height and divides by st(1), then pops the leftover. Frame slots of the cast child pointers also rotate (0x24/0x2c/0x30). No spelling tried", "wall": "register"}

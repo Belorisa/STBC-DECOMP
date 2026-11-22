@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "early-game2", "by": "opus", "from": null, "to": 75.2, "how": "first draft from retail: GetAt, detail loop against renderer slot 37's size, fallback to the plain file, SetAt; retail's GetAt copies through NiPointer<NiImage>::operator= (0x44F130), ours NiPointer<NiObject>'s", "wall": "structure"}
+{"date": "2026-11-15", "kind": "score", "lane": "early-game2", "commit": "db7e4ed843", "from": null, "to": 75.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "leads-mixed", "commit": "ef61bc27fe", "from": 75.2, "to": 100.0, "status": "MATCH"}

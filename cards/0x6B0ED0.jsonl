@@ -1,0 +1,4 @@
+{"date": "2026-11-04", "kind": "score", "lane": "game-74", "commit": "4bc7c07c36", "from": null, "to": 90.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 90.8, "to": 81.5, "how": "while ( true ) with the count test first 87.6; a ?: entry with one combined break 81.5", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "score", "lane": "regs-frame", "commit": "fbe7e4c603", "from": 90.8, "to": 100.0, "status": "MATCH"}

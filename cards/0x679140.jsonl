@@ -1,0 +1,7 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-44", "commit": "d8c668d0ba", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 92.5, "to": 92.5, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 92.5, "to": 97.5, "how": "sched triage: (c) after hoisting the two window globals into locals (97.5, as retail loads them before the loop) the loop step reads [eax+0x14] where retail reads [ecx+0x14] (no copy propagation): front end / register allocation", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 92.5, "to": 97.5, "how": "hoisted TacticalControlWindow/TopWindow globals into two locals before the loop (retail loads both before the first test): 92.5 -> 97.5; the [eax+0x14] vs [ecx+0x14] loop step stays", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "sched-b", "commit": "61977543a1", "from": 92.5, "to": 97.5, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-97", "commit": "529b74fe05", "from": 97.5, "to": 100.0, "status": "MATCH"}

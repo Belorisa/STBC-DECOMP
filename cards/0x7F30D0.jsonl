@@ -1,0 +1,5 @@
+{"date": "2026-10-28", "kind": "score", "lane": "netimmerse-6", "commit": "26d2d9c864", "from": null, "to": 85.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 85.7, "to": 85.7, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-object-lineage", "by": "opus", "from": 85.7, "to": 85.7, "how": "triangle-list reads spelled NiTriShape::GetTriList()/GetTriListLength() (Gamebryo NITRISHAPE.INL) in place of GetShapeData()->GetTriList(): score unchanged"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-low", "commit": "a4b2e231bc", "from": 85.7, "to": 100.0, "status": "MATCH"}

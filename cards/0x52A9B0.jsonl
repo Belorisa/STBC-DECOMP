@@ -1,0 +1,4 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-14", "commit": "3b7d4c4062", "from": null, "to": 79.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 79.5, "to": 79.5, "how": "accessor reads instead of members (tools sweep): value->GetValue 79.5", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65c", "by": "opus", "from": 79.5, "to": 87.1, "how": "scratch NiColor and NiColorA filled member by member (retail's g/b integer-move copies), one colour pair reused for fill and empty (retail shares the slots), alpha stored after the clamps: 79.5 -> 87.1; swapping sum operands is byte-flat; left: retail frame +4 (scratch in a 16-byte home) and width-before-left load order", "wall": "register", "group": "stnumericbar-color"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65c", "commit": "204178d1fe", "from": 79.5, "to": 87.1, "status": "DIFF"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-88", "commit": "530fb1ef3f", "from": null, "to": 78.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 78.0, "to": 38.5, "how": "accessor reads instead of members (tools sweep): left->GetLeft,right->GetRight 38.8; left->GetLeft 38.8; right->GetRight 38.5", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65c", "commit": "204178d1fe", "from": 78.0, "to": 100.0, "status": "MATCH"}

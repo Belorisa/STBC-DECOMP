@@ -1,0 +1,4 @@
+{"date": "2026-11-02", "kind": "score", "lane": "game-62", "commit": "5b8206f147", "from": null, "to": 90.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-low", "by": "opus", "from": 90.9, "to": 90.9, "how": "early return of list->Get( id ) without the object local: 76.4 (retail's set/GetAt failures return the zeroed local in ebx, so the local is real); the surviving items test is Get's in retail, Find's here", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "try", "lane": "control-flow-walls", "by": "opus", "from": 90.9, "to": 90.9, "how": "object local kept with return list->Get( id ) inside the if and return object after: 76.4 (VC6 folds object to xor eax; retail returns a live zeroed ebx from the set and GetAt failures while Get's own NULL return is separate)", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "score", "lane": "sortedarray", "commit": "fe927f871a", "from": 90.9, "to": 100.0, "status": "MATCH"}

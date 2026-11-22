@@ -1,0 +1,366 @@
+/*
+===============================================================================
+
+	EffectAction.cpp
+
+===============================================================================
+*/
+
+#include <iostream>
+#include <windows.h>
+
+// <windows.h>'s ANSI/wide macro would rename TGObject's method.
+#undef GetClassName
+
+#include "EffectAction.h"
+#include "EffectController.h"
+#include "NiMath.h"
+#include "NiProperty.h"
+#include "NiVisController.h"
+#include "NiMain.h"
+#include "NiAnimation.h"
+#include "NiListener.h"
+#include "NiSoundSystem.h"
+#include "NiSource.h"
+
+// The locale-id pair: std::ctype<unsigned short>::id's guard byte and its exit-time registration.
+// FUNCTION: STBC 0x004df0a0 _$E627
+// FUNCTION: STBC 0x004df0c0 _$E626
+
+// The standard streams' initialisers and exit-time destructors (<iostream>).
+// FUNCTION: STBC 0x004de2f0 _$E32
+// FUNCTION: STBC 0x004de300 _$E29
+// FUNCTION: STBC 0x004de310 _$E31
+// FUNCTION: STBC 0x004de320 _$E30
+// FUNCTION: STBC 0x004de330 _$E38
+// FUNCTION: STBC 0x004de340 _$E35
+// FUNCTION: STBC 0x004de350 _$E37
+// FUNCTION: STBC 0x004de360 _$E36
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x004ddf10 _$E95
+// FUNCTION: STBC 0x004ddf20 _$E94
+// FUNCTION: STBC 0x004ddf30 _$E445
+// FUNCTION: STBC 0x004ddf40 _$E444
+// FUNCTION: STBC 0x004ddf50 _$E449
+// FUNCTION: STBC 0x004ddf60 _$E448
+// FUNCTION: STBC 0x004ddf70 _$E453
+// FUNCTION: STBC 0x004ddf80 _$E452
+// FUNCTION: STBC 0x004ddf90 _$E476
+// FUNCTION: STBC 0x004ddfa0 _$E475
+// FUNCTION: STBC 0x004ddfb0 _$E467
+// FUNCTION: STBC 0x004ddfc0 _$E466
+// FUNCTION: STBC 0x004ddfd0 _$E480
+// FUNCTION: STBC 0x004ddfe0 _$E479
+// FUNCTION: STBC 0x004ddff0 _$E484
+// FUNCTION: STBC 0x004de000 _$E483
+// FUNCTION: STBC 0x004de010 _$E545
+// FUNCTION: STBC 0x004de020 _$E544
+// FUNCTION: STBC 0x004de030 _$E548
+// FUNCTION: STBC 0x004de040 _$E547
+// FUNCTION: STBC 0x004de050 _$E505
+// FUNCTION: STBC 0x004de060 _$E504
+// FUNCTION: STBC 0x004de070 _$E521
+// FUNCTION: STBC 0x004de080 _$E520
+// FUNCTION: STBC 0x004de090 _$E488
+// FUNCTION: STBC 0x004de0a0 _$E487
+// FUNCTION: STBC 0x004de0b0 _$E528
+// FUNCTION: STBC 0x004de0c0 _$E527
+// FUNCTION: STBC 0x004de0d0 _$E531
+// FUNCTION: STBC 0x004de0e0 _$E530
+// FUNCTION: STBC 0x004de0f0 _$E567
+// FUNCTION: STBC 0x004de100 _$E566
+// FUNCTION: STBC 0x004de110 _$E491
+// FUNCTION: STBC 0x004de120 _$E490
+// FUNCTION: STBC 0x004de130 _$E494
+// FUNCTION: STBC 0x004de140 _$E493
+// FUNCTION: STBC 0x004de150 _$E497
+// FUNCTION: STBC 0x004de160 _$E496
+// FUNCTION: STBC 0x004de170 _$E83
+// FUNCTION: STBC 0x004de180 _$E82
+// FUNCTION: STBC 0x004de190 _$E501
+// FUNCTION: STBC 0x004de1a0 _$E500
+// FUNCTION: STBC 0x004de1b0 _$E534
+// FUNCTION: STBC 0x004de1c0 _$E533
+// FUNCTION: STBC 0x004de1d0 _$E509
+// FUNCTION: STBC 0x004de1e0 _$E508
+// FUNCTION: STBC 0x004de1f0 _$E513
+// FUNCTION: STBC 0x004de200 _$E512
+// FUNCTION: STBC 0x004de210 _$E517
+// FUNCTION: STBC 0x004de220 _$E516
+// FUNCTION: STBC 0x004de230 _$E575
+// FUNCTION: STBC 0x004de240 _$E574
+// FUNCTION: STBC 0x004de250 _$E600
+// FUNCTION: STBC 0x004de260 _$E599
+// FUNCTION: STBC 0x004de270 _$E588
+// FUNCTION: STBC 0x004de280 _$E587
+// FUNCTION: STBC 0x004de290 _$E525
+// FUNCTION: STBC 0x004de2a0 _$E524
+// FUNCTION: STBC 0x004de2b0 _$E538
+// FUNCTION: STBC 0x004de2c0 _$E537
+// FUNCTION: STBC 0x004de2d0 _$E542
+// FUNCTION: STBC 0x004de2e0 _$E541
+// FUNCTION: STBC 0x004de370 _$E86
+// FUNCTION: STBC 0x004de380 _$E85
+// FUNCTION: STBC 0x004de390 _$E98
+// FUNCTION: STBC 0x004de3a0 _$E97
+// FUNCTION: STBC 0x004de3b0 _$E552
+// FUNCTION: STBC 0x004de3c0 _$E551
+// FUNCTION: STBC 0x004de3d0 _$E560
+// FUNCTION: STBC 0x004de3e0 _$E559
+// FUNCTION: STBC 0x004de3f0 _$E564
+// FUNCTION: STBC 0x004de400 _$E563
+// FUNCTION: STBC 0x004de410 _$E571
+// FUNCTION: STBC 0x004de420 _$E570
+// FUNCTION: STBC 0x004de430 _$E52
+// FUNCTION: STBC 0x004de440 _$E51
+// FUNCTION: STBC 0x004de450 _$E556
+// FUNCTION: STBC 0x004de460 _$E555
+// FUNCTION: STBC 0x004de470 _$E117
+// FUNCTION: STBC 0x004de480 _$E116
+// FUNCTION: STBC 0x004de490 _$E584
+// FUNCTION: STBC 0x004de4a0 _$E583
+// FUNCTION: STBC 0x004de4b0 _$E580
+// FUNCTION: STBC 0x004de4c0 _$E579
+// FUNCTION: STBC 0x004de4d0 _$E592
+// FUNCTION: STBC 0x004de4e0 _$E591
+// FUNCTION: STBC 0x004de4f0 _$E63
+// FUNCTION: STBC 0x004de500 _$E62
+// FUNCTION: STBC 0x004de510 _$E596
+// FUNCTION: STBC 0x004de520 _$E595
+// FUNCTION: STBC 0x004de530 _$E603
+// FUNCTION: STBC 0x004de540 _$E602
+// FUNCTION: STBC 0x004de550 _$E606
+// FUNCTION: STBC 0x004de560 _$E605
+// FUNCTION: STBC 0x004de570 _$E67
+// FUNCTION: STBC 0x004de580 _$E66
+// FUNCTION: STBC 0x004de590 _$E109
+// FUNCTION: STBC 0x004de5a0 _$E108
+// FUNCTION: STBC 0x004de5b0 _$E71
+// FUNCTION: STBC 0x004de5c0 _$E70
+// FUNCTION: STBC 0x004de5d0 _$E113
+// FUNCTION: STBC 0x004de5e0 _$E112
+// FUNCTION: STBC 0x004de5f0 _$E105
+// FUNCTION: STBC 0x004de600 _$E104
+// FUNCTION: STBC 0x004de880 _$E237
+// FUNCTION: STBC 0x004de890 _$E236
+// FUNCTION: STBC 0x004de8a0 _$E179
+// FUNCTION: STBC 0x004de8b0 _$E178
+// FUNCTION: STBC 0x004de8c0 _$E192
+// FUNCTION: STBC 0x004de8d0 _$E191
+// FUNCTION: STBC 0x004de8e0 _$E242
+// FUNCTION: STBC 0x004de8f0 _$E241
+// FUNCTION: STBC 0x004de900 _$E247
+// FUNCTION: STBC 0x004de910 _$E246
+// FUNCTION: STBC 0x004de920 _$E251
+// FUNCTION: STBC 0x004de930 _$E250
+// FUNCTION: STBC 0x004de940 _$E255
+// FUNCTION: STBC 0x004de950 _$E254
+// FUNCTION: STBC 0x004de960 _$E262
+// FUNCTION: STBC 0x004de970 _$E261
+// FUNCTION: STBC 0x004de980 _$E287
+// FUNCTION: STBC 0x004de990 _$E286
+// FUNCTION: STBC 0x004de9a0 _$E291
+// FUNCTION: STBC 0x004de9b0 _$E290
+// FUNCTION: STBC 0x004de9c0 _$E141
+// FUNCTION: STBC 0x004de9d0 _$E140
+// FUNCTION: STBC 0x004de9e0 _$E273
+// FUNCTION: STBC 0x004de9f0 _$E272
+// FUNCTION: STBC 0x004dea00 _$E280
+// FUNCTION: STBC 0x004dea10 _$E279
+// FUNCTION: STBC 0x004dea20 _$E303
+// FUNCTION: STBC 0x004dea30 _$E302
+// FUNCTION: STBC 0x004dea40 _$E307
+// FUNCTION: STBC 0x004dea50 _$E306
+// FUNCTION: STBC 0x004dea60 _$E347
+// FUNCTION: STBC 0x004dea70 _$E346
+// FUNCTION: STBC 0x004dea80 _$E353
+// FUNCTION: STBC 0x004dea90 _$E352
+// FUNCTION: STBC 0x004deac0 _$E295
+// FUNCTION: STBC 0x004dead0 _$E294
+// FUNCTION: STBC 0x004deae0 _$E299
+// FUNCTION: STBC 0x004deaf0 _$E298
+// FUNCTION: STBC 0x004deb00 _$E311
+// FUNCTION: STBC 0x004deb10 _$E310
+// FUNCTION: STBC 0x004deb20 _$E315
+// FUNCTION: STBC 0x004deb30 _$E314
+// FUNCTION: STBC 0x004deb40 _$E319
+// FUNCTION: STBC 0x004deb50 _$E318
+// FUNCTION: STBC 0x004deb60 _$E323
+// FUNCTION: STBC 0x004deb70 _$E322
+// FUNCTION: STBC 0x004deb80 _$E327
+// FUNCTION: STBC 0x004deb90 _$E326
+// FUNCTION: STBC 0x004deba0 _$E331
+// FUNCTION: STBC 0x004debb0 _$E330
+// FUNCTION: STBC 0x004debc0 _$E335
+// FUNCTION: STBC 0x004debd0 _$E334
+// FUNCTION: STBC 0x004debe0 _$E339
+// FUNCTION: STBC 0x004debf0 _$E338
+// FUNCTION: STBC 0x004dec00 _$E146
+// FUNCTION: STBC 0x004dec10 _$E145
+// FUNCTION: STBC 0x004dec20 _$E343
+// FUNCTION: STBC 0x004dec30 _$E342
+// FUNCTION: STBC 0x004dec40 _$E151
+// FUNCTION: STBC 0x004dec50 _$E150
+// FUNCTION: STBC 0x004dec60 _$E357
+// FUNCTION: STBC 0x004dec70 _$E356
+// FUNCTION: STBC 0x004dec80 _$E361
+// FUNCTION: STBC 0x004dec90 _$E360
+// FUNCTION: STBC 0x004deca0 _$E365
+// FUNCTION: STBC 0x004decb0 _$E364
+// FUNCTION: STBC 0x004decc0 _$E369
+// FUNCTION: STBC 0x004decd0 _$E368
+// FUNCTION: STBC 0x004dece0 _$E156
+// FUNCTION: STBC 0x004decf0 _$E155
+// FUNCTION: STBC 0x004ded00 _$E373
+// FUNCTION: STBC 0x004ded10 _$E372
+// FUNCTION: STBC 0x004ded20 _$E377
+// FUNCTION: STBC 0x004ded30 _$E376
+// FUNCTION: STBC 0x004ded40 _$E381
+// FUNCTION: STBC 0x004ded50 _$E380
+// FUNCTION: STBC 0x004ded60 _$E162
+// FUNCTION: STBC 0x004ded70 _$E161
+// FUNCTION: STBC 0x004ded80 _$E167
+// FUNCTION: STBC 0x004ded90 _$E166
+// FUNCTION: STBC 0x004deda0 _$E197
+// FUNCTION: STBC 0x004dedb0 _$E196
+// FUNCTION: STBC 0x004dedc0 _$E385
+// FUNCTION: STBC 0x004dedd0 _$E384
+// FUNCTION: STBC 0x004dede0 _$E202
+// FUNCTION: STBC 0x004dedf0 _$E201
+// FUNCTION: STBC 0x004dee00 _$E389
+// FUNCTION: STBC 0x004dee10 _$E388
+// FUNCTION: STBC 0x004dee20 _$E393
+// FUNCTION: STBC 0x004dee30 _$E392
+// FUNCTION: STBC 0x004dee40 _$E207
+// FUNCTION: STBC 0x004dee50 _$E206
+// FUNCTION: STBC 0x004dee60 _$E397
+// FUNCTION: STBC 0x004dee70 _$E396
+// FUNCTION: STBC 0x004dee80 _$E172
+// FUNCTION: STBC 0x004dee90 _$E171
+// FUNCTION: STBC 0x004deea0 _$E401
+// FUNCTION: STBC 0x004deeb0 _$E400
+// FUNCTION: STBC 0x004deec0 _$E405
+// FUNCTION: STBC 0x004deed0 _$E404
+// FUNCTION: STBC 0x004deee0 _$E212
+// FUNCTION: STBC 0x004deef0 _$E211
+// FUNCTION: STBC 0x004def00 _$E217
+// FUNCTION: STBC 0x004def10 _$E216
+// FUNCTION: STBC 0x004def20 _$E409
+// FUNCTION: STBC 0x004def30 _$E408
+// FUNCTION: STBC 0x004def40 _$E413
+// FUNCTION: STBC 0x004def50 _$E412
+// FUNCTION: STBC 0x004def60 _$E417
+// FUNCTION: STBC 0x004def70 _$E416
+// FUNCTION: STBC 0x004def80 _$E421
+// FUNCTION: STBC 0x004def90 _$E420
+// FUNCTION: STBC 0x004defa0 _$E425
+// FUNCTION: STBC 0x004defb0 _$E424
+// FUNCTION: STBC 0x004defc0 _$E429
+// FUNCTION: STBC 0x004defd0 _$E428
+// FUNCTION: STBC 0x004defe0 _$E433
+// FUNCTION: STBC 0x004deff0 _$E432
+// FUNCTION: STBC 0x004df000 _$E437
+// FUNCTION: STBC 0x004df010 _$E436
+// FUNCTION: STBC 0x004df020 _$E222
+// FUNCTION: STBC 0x004df030 _$E221
+// FUNCTION: STBC 0x004df040 _$E441
+// FUNCTION: STBC 0x004df050 _$E440
+// FUNCTION: STBC 0x004df060 _$E227
+// FUNCTION: STBC 0x004df070 _$E226
+// FUNCTION: STBC 0x004df080 _$E232
+// FUNCTION: STBC 0x004df090 _$E231
+// FUNCTION: STBC 0x004df0d0 _$E610
+// FUNCTION: STBC 0x004df0e0 _$E609
+// FUNCTION: STBC 0x004df0f0 _$E615
+// FUNCTION: STBC 0x004df100 _$E614
+// FUNCTION: STBC 0x004df110 _$E619
+// FUNCTION: STBC 0x004df120 _$E618
+
+/*
+================
+EffectAction::Create
+================
+*/
+// FUNCTION: STBC 0x004de610
+EffectAction *EffectAction::Create( EffectController *controller ) {
+	return new EffectAction( controller );
+}
+
+/*
+================
+EffectAction::EffectAction
+================
+*/
+// FUNCTION: STBC 0x004de640
+EffectAction::EffectAction( EffectController *controller_ ) : controller( NULL ) {
+	if ( controller_ ) {
+		controller = controller_;
+		target = controller_->target;
+	}
+}
+
+/*
+================
+EffectAction::~EffectAction
+================
+*/
+// FUNCTION: STBC 0x004de710
+// FUNCTION: STBC 0x004de6e0 ??_GEffectAction@@UAEPAXI@Z
+EffectAction::~EffectAction( void ) {
+	if ( controller ) {
+		controller->DetachEffect();
+	}
+}
+
+/*
+================
+EffectAction::Play
+
+Starts the controller for the action's duration, or for the controller's
+lifetime when the action has none. An effect with neither is dropped.
+================
+*/
+// FUNCTION: STBC 0x004de790
+void EffectAction::Play( void ) {
+	if ( target == NULL ) {
+		target = controller->target;
+	}
+	if ( duration <= 0.0f ) {
+		duration = controller->GetEffectLifeTime();
+	}
+	if ( duration <= 0.0f ) {
+		controller->DetachEffect();
+		controller = NULL;
+		target = NULL;
+	} else {
+		controller->Start( -NI_INFINITY );
+		TGTimedAction::Play();
+	}
+}
+
+/*
+================
+EffectAction::Completed
+================
+*/
+// FUNCTION: STBC 0x004de840
+void EffectAction::Completed( void ) {
+	if ( controller ) {
+		controller->Stop();
+	}
+	TGTimedAction::Completed();
+}
+
+/*
+================
+EffectAction::Skip
+================
+*/
+// FUNCTION: STBC 0x004de860
+void EffectAction::Skip( void ) {
+	if ( controller ) {
+		controller->Stop();
+	}
+	TGTimedAction::Skip();
+}

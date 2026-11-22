@@ -1,0 +1,3 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ui-layout", "by": "opus", "from": null, "to": 77.0, "how": "first draft adapting STButton::Resize: width arithmetic per flag case not yet read exactly", "wall": "structure"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-layout", "commit": "55b3cdda01", "from": null, "to": 77.0, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts70", "commit": "25d3486ca6", "from": 77.0, "to": 100.0, "status": "MATCH"}

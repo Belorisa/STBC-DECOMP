@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-700000", "by": "sonnet", "from": null, "to": 99.0, "how": "phoneme->duration read through an inline GetDuration gives the fld/fstp float pushes (93.5 to 99.0); moving the stream null before the allocations changed nothing; only EH state store differs", "wall": "structure"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-700000", "commit": "9b062d0036", "from": null, "to": 99.0, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "refine-95", "commit": "d6617011d2", "from": 99.0, "to": 100.0, "status": "MATCH"}

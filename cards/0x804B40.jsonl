@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-22", "commit": "a783844fdb", "from": null, "to": 75.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow3", "by": "opus", "from": 75.4, "to": 78.0, "how": "BoneVertex copied by value (retail copies the 16 bytes to the frame before the multiply): 75.4 -> 78.0; the zero kept in EBX from entry (the new array's NULL result) and the 4-byte frame difference remain", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow3", "commit": "15bb4890aa", "from": 75.4, "to": 78.0, "status": "DIFF"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-low", "commit": "a4b2e231bc", "from": 78.0, "to": 100.0, "status": "MATCH"}

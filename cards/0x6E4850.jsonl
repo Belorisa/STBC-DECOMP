@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-53", "commit": "a17d067bbb", "from": null, "to": 77.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-late", "by": "opus", "from": 77.2, "to": 77.2, "how": "source touched only by Poll's renames (events buffer typed DIDEVICEOBJECTDATA, allocated as TGINPUT_BUFFER_SIZE events; gamepad arrays named); score unchanged at 77.2"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-tg", "commit": "10ac37fbdf", "from": 77.2, "to": 100.0, "status": "MATCH"}

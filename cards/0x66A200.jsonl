@@ -1,0 +1,4 @@
+{"date": "2026-11-09", "kind": "score", "lane": "game-103", "commit": "d0a521b799", "from": null, "to": 86.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 86.1, "to": 86.1, "how": "accessor reads instead of members (tools sweep): statusBox->GetStatusBox 86.1", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 86.1, "to": 86.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

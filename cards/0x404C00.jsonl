@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-95", "commit": "ee04055b5f", "from": null, "to": 84.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 84.1, "to": 84.1, "how": "accessor reads instead of members (tools sweep): currentMission->GetCurrentMission 84.1", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-order", "how": "framemap: same frame size, slots at other offsets: declaration order or block layout"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80", "commit": "b6c32a4175", "from": 84.1, "to": 100.0, "status": "MATCH"}

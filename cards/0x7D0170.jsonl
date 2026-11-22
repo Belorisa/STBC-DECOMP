@@ -1,0 +1,5 @@
+{"date": "2026-10-28", "kind": "score", "lane": "ni-renderer-13", "commit": "5e95ad1027", "from": null, "to": 90.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 90.6, "to": 90.6, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "regs-frame", "by": "opus", "from": 90.6, "to": 68.3, "how": "one stage counter for both loops (for ( stage = 0; stage < textureSets; ...) then carried into the generated stages): 68.3, reverted", "wall": "register", "group": "register-roles"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 90.6, "to": 100.0, "status": "MATCH"}

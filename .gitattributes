@@ -1,0 +1,5 @@
+# Text files are stored and checked out with LF line endings, whatever core.autocrlf says: the tools write LF, and
+# MSVC 6 compiles LF sources the same as CRLF ones. Batch files keep CRLF for cmd.exe.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf

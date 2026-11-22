@@ -1,0 +1,2 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-57", "commit": "bb5ab2a9a1", "from": null, "to": 75.9, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "mixed-b", "by": "opus", "from": 75.9, "to": 75.9, "how": "c2trace read: both PopLocalPacket sites expand (cost 111); ours cross-jumps the first copy's tail into the second (je; jne to it), retail keeps two copies sharing only the else arm, since its zero register (ebp) and the data pointer (edi) differ from ours (edi, ebp); no source change tried", "wall": "register"}

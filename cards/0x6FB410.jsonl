@@ -1,0 +1,5 @@
+{"date": "2026-11-16", "kind": "try", "lane": "ph1-tg", "by": "opus", "from": null, "to": 74.4, "how": "as 0x6FB1A0 (70.4->74.4)", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "ph1-tg", "commit": "88808d6c4b", "from": null, "to": 74.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "nitlist", "by": "opus", "from": 74.4, "to": 67.5, "how": "NiTList::Get gained its null test: 74.4 -> 67.5, same register picks as RunGetStateFunctions; a local for the filed name 72.8 (not kept)", "wall": "register"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts70", "by": "opus", "from": 67.5, "to": 92.5, "how": "as RunGetStateFunctions: Get/GetNextPos walks in both loops: 67.5 -> 92.5; same register residue (IsSubclass argument loads, InsertBefore item stores)", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts70", "commit": "25d3486ca6", "from": 67.5, "to": 100.0, "status": "MATCH"}

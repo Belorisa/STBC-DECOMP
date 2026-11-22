@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 80.4, "how": "first draft 80.4, as Unknown82E5C0 for the rectangles", "wall": "control-flow"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 80.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow-4", "by": "opus", "from": 80.4, "to": 100.0, "how": "MATCH: the level update and AttachChild written in each case as Unknown82E5C0", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow-4", "commit": "d64aab6539", "from": 80.4, "to": 100.0, "status": "MATCH"}

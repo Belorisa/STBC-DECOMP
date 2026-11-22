@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "appwrap-2", "commit": "dc2c03cfa0", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 92.5, "to": 92.5, "how": "diagnosis: retail tests the flag with test/setne (an int-to-bool return, return flags & STSPF_RADIO_GROUP) where != 0 gives shr 31; needs STSubPane.h (game header, slot1's), not changed", "wall": "structure"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 92.5, "to": 100.0, "status": "MATCH"}

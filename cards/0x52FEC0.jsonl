@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ui-menus", "by": "sonnet", "from": null, "to": 92.3, "how": "first draft: TGString+ operands evaluated right-first (backslash before dir) as in STLoadDialog::HandleLoadButton; rest matches", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "ui-menus", "commit": "462cd6df72", "from": null, "to": 92.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 92.3, "to": 100.0, "status": "MATCH"}

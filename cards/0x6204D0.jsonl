@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "appwrap-mid", "by": "opus", "from": null, "to": 68.3, "how": "the header's inline AddTextureTrack (new track, tracks.Add) as written: this build expands TextureAnimTrack's constructor, retail calls its out-of-line copy 0x6205F0; no spelling tried yet", "wall": "inline"}
+{"date": "2026-11-15", "kind": "score", "lane": "appwrap-mid", "commit": "a029b2a998", "from": null, "to": 68.3, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-60", "commit": "dd14ddfa15", "from": 68.3, "to": 100.0, "status": "MATCH"}

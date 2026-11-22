@@ -1,0 +1,3 @@
+{"date": "2026-10-28", "kind": "score", "lane": "netimmerse-9", "commit": "0cc93ce3e1", "from": null, "to": 64.2, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-object-lineage", "by": "opus", "from": 64.2, "to": 64.2, "how": "scene typed NiPointer<NiNode> as NICAMERA.H (link cast to NiNode *): score unchanged"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-40", "commit": "f2f5f34c53", "from": 64.2, "to": 100.0, "status": "MATCH"}

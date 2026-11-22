@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "damage-geometry", "by": "opus", "from": null, "to": 92.5, "how": "first draft: vertex-colour property, NiDynamicCast texture/texture-mode/multi-texture clones held in NiPointer locals, white material", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "damage-geometry", "commit": "af70f034d4", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "inline-sweep3", "commit": "76ceec22b9", "from": 92.5, "to": 100.0, "status": "MATCH"}

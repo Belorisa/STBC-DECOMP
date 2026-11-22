@@ -1,0 +1,2 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-54", "commit": "e8b5827e8a", "from": null, "to": 79.3, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65b", "by": "opus", "from": 79.3, "to": 79.3, "how": "read only: retail reloads emitFrom from the member after the out-of-line NiPoint3 constructor call in the position statement, ours keeps it in ebx across the calls; no source-level cause found (same statements, same calls)", "wall": "register", "group": "member-reload"}

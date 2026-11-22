@@ -1,0 +1,5 @@
+{"date": "2026-11-14", "kind": "try", "lane": "ui-windows", "by": "opus", "from": null, "to": 83.8, "how": "first draft: display read into a local before GetCurrentPlayer (retail's load order, 85.3 to 83.8 but the shape is retail's); GetWeaponsDisplay() accessor for it changed nothing; residue is this/display in ebx/edi swapped", "wall": "register"}
+{"date": "2026-11-14", "kind": "score", "lane": "ui-windows", "commit": "2de5e57e00", "from": null, "to": 83.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 83.8, "to": 83.8, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts80", "by": "opus", "from": 83.8, "to": 83.8, "how": "read only, c2trace --regs: display (prio 18) picks edi before this (17); retail needs this first (edi) and display in ebx", "wall": "register"}

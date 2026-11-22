@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 34.0, "how": "first draft 34.0: weights and control flow from retail asm (Ghidra checked); the NiPoint3 sum's inline budget dominates the score as in the quadratic and cubic slot 46", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 34.0, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts-owned", "by": "opus", "from": 36.4, "to": 36.4, "how": "lineage lead: bend.SqrLength() for the squared-length sum: goes out of line (0x427860; retail expands it), 36.4 -> 27.3, reverted (as NiBezierCylinder's)", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 36.4, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,2 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-28", "commit": "574b7d1421", "from": null, "to": 54.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "low-cf", "commit": "84402143fd", "from": 54.8, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "weapon-properties", "by": "sonnet", "from": null, "to": 90.0, "how": "axes builder: explicit NiPoint3( r*f.x + p.x, ...) inlines the constructor (calls dropped); position copies stay integer vs retail FPU", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "weapon-properties", "commit": "1685fc5560", "from": null, "to": 90.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "score", "lane": "vector-ops", "commit": "3e01c75b6c", "from": 90.0, "to": 100.0, "status": "MATCH"}

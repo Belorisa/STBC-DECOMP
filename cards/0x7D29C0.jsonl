@@ -1,0 +1,2 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "mispair: sdkdebug map paired ApplyAlpha with 0x5349C0, which is the debug _assert; the real copy is in D3DRenderState.cpp / D3DMaterialState.cpp, not found this lane"}
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "the likeliest debug copy is AnimOnly 0x52020B (ret 4, eight SetRenderState calls, D3DRenderState.cpp's run): ours at /Od 63.4% against it; not worked further"}

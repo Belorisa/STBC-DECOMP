@@ -1,0 +1,5 @@
+{"date": "2026-10-27", "kind": "score", "lane": "ni-renderer", "commit": "9a484f9c01", "from": null, "to": 31.6, "status": "DIFF"}
+{"date": "2026-10-27", "kind": "score", "lane": "ni-renderer-2", "commit": "95bff2bf2c", "from": 31.6, "to": 100.0, "status": "MATCH"}
+{"date": "2026-10-29", "kind": "score", "lane": "ruling-patches", "commit": "7a82fc78ed", "from": 100.0, "to": 0.0, "status": "NO-SYMBOL"}
+{"date": "2026-11-18", "kind": "try", "lane": "lost-matches", "by": "opus", "from": 0.0, "to": 0.0, "how": "only AttachSurfaces (0x7CA640) calls it out of line in retail and no unit of this build emits it out of line (Register's copy could be bound to NiTextureManager's out-of-line copy; this one has no such twin); waits for AttachSurfaces's inline budget (c2trace --whatif own=-250 flips it with Register, but also [5.1] DecRefCount)", "wall": "inline"}
+{"date": "2026-11-19", "kind": "score", "lane": "yx-moved", "commit": "1f44c28356", "from": 0.0, "to": 100.0, "status": "MATCH"}

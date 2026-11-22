@@ -1,0 +1,5 @@
+{"date": "2026-10-29", "kind": "score", "lane": "ni-renderer-25", "commit": "c656db6d09", "from": null, "to": 97.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-order", "how": "framemap: same frame size, slots at other offsets: declaration order or block layout"}
+{"date": "2026-11-17", "kind": "try", "lane": "frame-walls", "by": "opus", "from": 97.6, "to": 97.6, "how": "framemap: the two spills are the this spill and the new path's buffer; per-branch IDirect3DVertexBuffer7 locals (one in the found block, one after it) 97.6 unchanged, reverted", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "near-miss-2", "by": "opus", "from": 97.6, "to": 97.6, "how": "near-miss-2 (post-/YX) re-diagnosed, skipped: first difference 'mov     dword ptr [esp + 0x14], ebx  vs  mov     dword ptr [esp + 0x18], ebx' (register), the card's tried spellings cover it and nothing in the build change reaches it", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 97.6, "to": 100.0, "status": "MATCH"}

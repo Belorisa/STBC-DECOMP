@@ -1,0 +1,4 @@
+{"date": "2026-11-15", "kind": "try", "lane": "ni-mid", "by": "opus", "from": null, "to": 37.1, "how": "first draft from the asm and the format strings (switch on the index, the members with NiTextureModeProperty's mode helpers): 37.1, the inline-budget family wall of the property GetViewerStrings (SetAtGrow out of line for the first Adds)", "wall": "inline"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-mid", "commit": "f106423767", "from": null, "to": 37.1, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "try", "lane": "od-netimmerse", "by": "opus", "from": 37.1, "to": 100.0, "how": "AnimOnly 0x44607C: each switch case sprintfs with i and adds the buffer itself, Map accessors GetImage/GetClampMode/GetFilterMode/GetTextureIndex/GetL/GetK (debug 0x4472C0..0x447390): release MATCH (37.1 -> 100); /Od left: locals' slots"}
+{"date": "2026-11-20", "kind": "score", "lane": "od-netimmerse", "commit": "ea62909a2e", "from": 37.1, "to": 100.0, "status": "MATCH"}

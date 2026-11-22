@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 61.6, "how": "first draft from retail asm, modelled on NiBezierTriangle::VirtualSlot42's tail; corner as bool and as unsigned char both 61.6: VC6 merges the &1 to the use where retail masks in each branch", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 61.6, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "try", "lane": "walls-recheck", "by": "opus", "from": 61.6, "to": 61.6, "how": "trial: corner as unsigned char instead of bool gives the same IL (no move), so the per-branch byte mask isn't the local's type; retail masks in each branch, which needs the conversion at each assignment to be kept rather than sunk to the single use: not found", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 61.6, "to": 100.0, "status": "MATCH"}

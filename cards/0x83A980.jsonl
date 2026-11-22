@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 42.3, "how": "first draft 42.3 from retail asm and NiBezierTriangle2::VirtualSlot46's shape: control flow and weights agree, retail expands fewer NiPoint3 products and calls operator= out of line", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 42.3, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 42.3, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,2 @@
+{"date": "2026-11-22", "kind": "try", "lane": "phase1-rest", "by": "sonnet", "from": null, "to": 100.0, "how": "annotated NiTList<NiD3DDisplayMode*>::RemoveAll @game/GraphicsMenu; MATCH"}
+{"date": "2026-11-22", "kind": "score", "lane": "phase1-rest", "commit": "9c5f2dea3d", "from": null, "to": 100.0, "status": "MATCH"}

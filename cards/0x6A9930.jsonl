@@ -1,0 +1,4 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 98.7, "how": "i initialised at its declaration and k loaded before the empty-value test fixed the frame and schedule (83->98.7); break vs return inside the loop doesn't move the epilogue order", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 98.7, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "finish-ni", "by": "opus", "from": 98.7, "to": 100.0, "how": "loop tail as i++; if (i < fieldcount) v = mytok(...) (also if (++i < fieldcount)): the compiler threads the guarded read into the while test and lays the empty-list epilogue first (98.7 -> 100); the break form gave the other epilogue order"}
+{"date": "2026-11-17", "kind": "score", "lane": "finish-ni", "commit": "1676118d97", "from": 98.7, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,7 @@
+{"date": "2026-11-07", "kind": "score", "lane": "game-77", "commit": "db09488282", "from": null, "to": 92.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-lineage", "by": "opus", "from": 92.6, "to": 96.5, "how": "NiPoint3::Length through Gamebryo 1.1.2's NiSqrt (float(sqrt(value)), NiMath.h included by NiPoint3.h) in place of sqrtf: 92.6 -> 96.5"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 92.6, "to": 92.6, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "near-misses", "by": "opus", "from": 96.5, "to": 96.5, "how": "diff is inside the inlined NiPoint3::Unitize and operator*= (y: retail fld y; fmul st(1), ours fld st(0); fmul y): shared-header inlines owned by another lane, not edited", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 96.5, "to": 96.5, "how": "sched triage: (c) not-schedule, an x87 operand or form differs (operand order, fcomp form, constant) before any ordering: first ours \"fld st(0)\" retail \"fld dword ptr [esp + 0xc]\"", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls2", "commit": "f0c5b30f2b", "from": 96.5, "to": 100.0, "status": "MATCH"}

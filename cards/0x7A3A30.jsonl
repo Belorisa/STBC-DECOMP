@@ -1,0 +1,5 @@
+{"date": "2026-11-15", "kind": "try", "lane": "ni-mid", "by": "opus", "from": null, "to": 82.1, "how": "from the asm and the log strings, the morph twin of 0x7A3830: 82.1, the phase/frequency loads and stores scheduled apart", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-mid", "commit": "f106423767", "from": null, "to": 82.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 82.1, "to": 82.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts80", "commit": "12adbbcb6c", "from": 82.1, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-ui-16", "commit": "7723165aba", "from": null, "to": 84.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 84.5, "to": 84.5, "how": "the hit test as inside = IsWithin( &point ) (closed TGButtonBase::MouseHandler) with the drag return as one or nested test: 84.5 unchanged; the wall stays this/event in edi/esi", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 84.5, "to": 84.5, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}

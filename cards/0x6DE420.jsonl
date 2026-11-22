@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "tg-events", "by": "sonnet", "from": null, "to": 71.6, "how": "nested whiles as ClearSource; early return for count==0; bare block vs flat: same result, 71.6; this lands in edi, retail esi", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "tg-events", "commit": "9581ac2f07", "from": null, "to": 71.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "drafts-low-game", "commit": "1f164242f6", "from": 71.6, "to": 100.0, "status": "MATCH"}

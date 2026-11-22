@@ -1,0 +1,6 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 96.7, "how": "server local lands in ip's dead param home, retail in querytype's; declaring server first: no change", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 96.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 96.7, "to": 96.7, "how": "ctxscan: invariant, 1 state (frame/register) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "finish-ni", "by": "opus", "from": 96.7, "to": 100.0, "how": "server block-scoped in each branch (the idle path's if block and an else block for the running update, with one shared return 0): both copies land in querytype's dead home as retail (96.7 -> 100); block scope in the first only 98.0; read moved inside the nextupdate test 92.5"}
+{"date": "2026-11-17", "kind": "score", "lane": "finish-ni", "commit": "1676118d97", "from": 96.7, "to": 100.0, "status": "MATCH"}

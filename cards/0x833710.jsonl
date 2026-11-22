@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 50.4, "how": "first draft 50.4 from the Gamebryo 1.2.2 FindIntersectionsTriBasedGeom shape fitted to retail (app-cull and ray-bound tests first, no find-first exit, face normal from P1-P0 x P2-P1); NiPick gains the lineage getters and Record setters; NiPointer<NiNode>( T * ) claimed at 0x46C560", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 50.4, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-object-lineage", "by": "opus", "from": 50.4, "to": 50.4, "how": "draft note only: 0x416FA0 now annotated as NiPointer<NiNode>'s assignment, so the proxy parent's referent resolves; score unchanged"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom-2", "commit": "44f7a6a251", "from": 50.4, "to": 100.0, "status": "MATCH"}

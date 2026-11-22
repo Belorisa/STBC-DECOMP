@@ -1,0 +1,6 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-34", "commit": "c894b35f4d", "from": null, "to": 57.0, "status": "DIFF"}
+{"date": "2026-11-03", "kind": "score", "lane": "netimmerse-55", "commit": "22e78a9d8a", "from": 57.0, "to": 97.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.1, "to": 97.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 97.1, "to": 97.1, "how": "sched triage: (b) x87: one fsubp scheduled after the push; commuted product loads", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls2", "commit": "f0c5b30f2b", "from": 97.1, "to": 100.0, "status": "MATCH"}

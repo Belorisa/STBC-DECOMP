@@ -1,0 +1,4 @@
+{"date": "2026-11-14", "kind": "try", "lane": "early-geometry", "by": "opus", "from": null, "to": 98.6, "how": "written as Unknown464770's twin with the depth test first; only the extra data walk's last branch is inverted, the parked loop-layout wall of FindIntersections", "wall": "control-flow"}
+{"date": "2026-11-14", "kind": "score", "lane": "early-geometry", "commit": "dd37c5c621", "from": null, "to": 98.6, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "ship-large", "by": "opus", "from": 98.6, "to": 98.6, "how": "OBBox renamed to NiBox (the duplicate struct unified with NiBox); the box parameter's type only, no codegen change"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 98.6, "to": 100.0, "status": "MATCH"}

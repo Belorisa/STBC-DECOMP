@@ -1,0 +1,8 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-32", "commit": "dfada99e7d", "from": null, "to": 93.5, "status": "DIFF"}
+{"date": "2026-11-03", "kind": "score", "lane": "netimmerse-53", "commit": "7945da51fc", "from": 93.5, "to": 95.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 95.8, "to": 95.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-members", "by": "opus", "from": 95.8, "to": 96.9, "how": "(float)fabs/sqrt/sin/cos/exp written as Gamebryo's NiAbs/NiSqrt/NiSin/NiCos/NiExp (NiMath.inl; float parameter): improved, kept"}
+{"date": "2026-11-17", "kind": "score", "lane": "ni-members", "commit": "429c53842c", "from": 95.8, "to": 96.9, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 96.9, "to": 96.9, "how": "sched triage: (b) x87: each direction-dot product loads the other operand first", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls2", "commit": "f0c5b30f2b", "from": 96.9, "to": 100.0, "status": "MATCH"}

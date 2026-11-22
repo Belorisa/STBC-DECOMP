@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "debug 0x5109D4 (slot 14): 3.1 asserts eFmt < TEX_DEFAULT and indexes GetUnknown08 directly; /Od 54.1%, not worked this lane"}

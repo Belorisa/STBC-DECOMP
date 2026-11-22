@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "audit-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "sdkdebug: AnimOnly 0x50E15C (NiDirect3D.cpp) tests the mode first and frees in another order; BC's CreateFromSurfaces differs in structure (retail's bytes). Release-vs-debug conflict: release kept.", "wall": "structure"}

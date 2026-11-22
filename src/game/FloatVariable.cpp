@@ -1,0 +1,250 @@
+/*
+===============================================================================
+
+	FloatVariable.cpp
+
+	A float variable of a VarManagerClass scope (invented unit name: the
+	code at 0x447480-0x447570 sits after UtopiaModule's template copies).
+
+	The variable units here (FloatVariable to FloatRangeWatcher) each lay
+	out their code, then their <iostream> quads and NetImmerse
+	registrations: FloatRangeWatcher::RID_INVALID (.bss 0x98039C) follows
+	the stores of the run after FloatRangeWatcher's code, and
+	g_kVarManager (0x980228) lies among those of the run after
+	VarManagerClass's, so each run is the unit's before it.
+
+===============================================================================
+*/
+
+#include <iostream>
+#include <string.h>
+#include "ScriptVariables.h"
+#include "NiMain.h"
+#include "NiListener.h"
+#include "NiSoundSystem.h"
+#include "NiSource.h"
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x00447600 _$E45
+// FUNCTION: STBC 0x00447610 _$E44
+// FUNCTION: STBC 0x00447620 _$E49
+// FUNCTION: STBC 0x00447630 _$E48
+// FUNCTION: STBC 0x00447640 _$E60
+// FUNCTION: STBC 0x00447650 _$E59
+// FUNCTION: STBC 0x00447660 _$E64
+// FUNCTION: STBC 0x00447670 _$E63
+// FUNCTION: STBC 0x00447680 _$E68
+// FUNCTION: STBC 0x00447690 _$E67
+// FUNCTION: STBC 0x004476a0 _$E72
+// FUNCTION: STBC 0x004476b0 _$E71
+// FUNCTION: STBC 0x004476c0 _$E196
+// FUNCTION: STBC 0x004476d0 _$E195
+// FUNCTION: STBC 0x004476e0 _$E138
+// FUNCTION: STBC 0x004476f0 _$E137
+// FUNCTION: STBC 0x00447700 _$E151
+// FUNCTION: STBC 0x00447710 _$E150
+// FUNCTION: STBC 0x00447720 _$E201
+// FUNCTION: STBC 0x00447730 _$E200
+// FUNCTION: STBC 0x00447740 _$E206
+// FUNCTION: STBC 0x00447750 _$E205
+// FUNCTION: STBC 0x00447760 _$E210
+// FUNCTION: STBC 0x00447770 _$E209
+// FUNCTION: STBC 0x00447780 _$E214
+// FUNCTION: STBC 0x00447790 _$E213
+// FUNCTION: STBC 0x004477a0 _$E221
+// FUNCTION: STBC 0x004477b0 _$E220
+// FUNCTION: STBC 0x004477c0 _$E246
+// FUNCTION: STBC 0x004477d0 _$E245
+// FUNCTION: STBC 0x004477e0 _$E250
+// FUNCTION: STBC 0x004477f0 _$E249
+// FUNCTION: STBC 0x00447800 _$E96
+// FUNCTION: STBC 0x00447810 _$E95
+// FUNCTION: STBC 0x00447820 _$E232
+// FUNCTION: STBC 0x00447830 _$E231
+// FUNCTION: STBC 0x00447840 _$E239
+// FUNCTION: STBC 0x00447850 _$E238
+// FUNCTION: STBC 0x00447860 _$E262
+// FUNCTION: STBC 0x00447870 _$E261
+// FUNCTION: STBC 0x00447880 _$E266
+// FUNCTION: STBC 0x00447890 _$E265
+// FUNCTION: STBC 0x004478a0 _$E306
+// FUNCTION: STBC 0x004478b0 _$E305
+// FUNCTION: STBC 0x004478c0 _$E312
+// FUNCTION: STBC 0x004478d0 _$E311
+// FUNCTION: STBC 0x004478e0 _$E254
+// FUNCTION: STBC 0x004478f0 _$E253
+// FUNCTION: STBC 0x00447930 _$E258
+// FUNCTION: STBC 0x00447940 _$E257
+// FUNCTION: STBC 0x00447950 _$E270
+// FUNCTION: STBC 0x00447960 _$E269
+// FUNCTION: STBC 0x00447970 _$E274
+// FUNCTION: STBC 0x00447980 _$E273
+// FUNCTION: STBC 0x00447990 _$E278
+// FUNCTION: STBC 0x004479a0 _$E277
+// FUNCTION: STBC 0x004479b0 _$E282
+// FUNCTION: STBC 0x004479c0 _$E281
+// FUNCTION: STBC 0x004479d0 _$E286
+// FUNCTION: STBC 0x004479e0 _$E285
+// FUNCTION: STBC 0x004479f0 _$E290
+// FUNCTION: STBC 0x00447a00 _$E289
+// FUNCTION: STBC 0x00447a10 _$E294
+// FUNCTION: STBC 0x00447a20 _$E293
+// FUNCTION: STBC 0x00447a30 _$E298
+// FUNCTION: STBC 0x00447a40 _$E297
+// FUNCTION: STBC 0x00447a50 _$E101
+// FUNCTION: STBC 0x00447a60 _$E100
+// FUNCTION: STBC 0x00447a70 _$E302
+// FUNCTION: STBC 0x00447a80 _$E301
+// FUNCTION: STBC 0x00447a90 _$E106
+// FUNCTION: STBC 0x00447aa0 _$E105
+// FUNCTION: STBC 0x00447ab0 _$E316
+// FUNCTION: STBC 0x00447ac0 _$E315
+// FUNCTION: STBC 0x00447ad0 _$E320
+// FUNCTION: STBC 0x00447ae0 _$E319
+// FUNCTION: STBC 0x00447af0 _$E324
+// FUNCTION: STBC 0x00447b00 _$E323
+// FUNCTION: STBC 0x00447b10 _$E328
+// FUNCTION: STBC 0x00447b20 _$E327
+// FUNCTION: STBC 0x00447b30 _$E115
+// FUNCTION: STBC 0x00447b40 _$E114
+// FUNCTION: STBC 0x00447b50 _$E332
+// FUNCTION: STBC 0x00447b60 _$E331
+// FUNCTION: STBC 0x00447b70 _$E336
+// FUNCTION: STBC 0x00447b80 _$E335
+// FUNCTION: STBC 0x00447b90 _$E340
+// FUNCTION: STBC 0x00447ba0 _$E339
+// FUNCTION: STBC 0x00447bb0 _$E121
+// FUNCTION: STBC 0x00447bc0 _$E120
+// FUNCTION: STBC 0x00447bd0 _$E126
+// FUNCTION: STBC 0x00447be0 _$E125
+// FUNCTION: STBC 0x00447bf0 _$E156
+// FUNCTION: STBC 0x00447c00 _$E155
+// FUNCTION: STBC 0x00447c10 _$E344
+// FUNCTION: STBC 0x00447c20 _$E343
+// FUNCTION: STBC 0x00447c30 _$E161
+// FUNCTION: STBC 0x00447c40 _$E160
+// FUNCTION: STBC 0x00447c50 _$E348
+// FUNCTION: STBC 0x00447c60 _$E347
+// FUNCTION: STBC 0x00447c70 _$E352
+// FUNCTION: STBC 0x00447c80 _$E351
+// FUNCTION: STBC 0x00447c90 _$E166
+// FUNCTION: STBC 0x00447ca0 _$E165
+// FUNCTION: STBC 0x00447cb0 _$E356
+// FUNCTION: STBC 0x00447cc0 _$E355
+// FUNCTION: STBC 0x00447cd0 _$E131
+// FUNCTION: STBC 0x00447ce0 _$E130
+// FUNCTION: STBC 0x00447cf0 _$E360
+// FUNCTION: STBC 0x00447d00 _$E359
+// FUNCTION: STBC 0x00447d10 _$E364
+// FUNCTION: STBC 0x00447d20 _$E363
+// FUNCTION: STBC 0x00447d30 _$E171
+// FUNCTION: STBC 0x00447d40 _$E170
+// FUNCTION: STBC 0x00447d50 _$E176
+// FUNCTION: STBC 0x00447d60 _$E175
+// FUNCTION: STBC 0x00447d70 _$E368
+// FUNCTION: STBC 0x00447d80 _$E367
+// FUNCTION: STBC 0x00447d90 _$E372
+// FUNCTION: STBC 0x00447da0 _$E371
+// FUNCTION: STBC 0x00447db0 _$E376
+// FUNCTION: STBC 0x00447dc0 _$E375
+// FUNCTION: STBC 0x00447dd0 _$E380
+// FUNCTION: STBC 0x00447de0 _$E379
+// FUNCTION: STBC 0x00447df0 _$E384
+// FUNCTION: STBC 0x00447e00 _$E383
+// FUNCTION: STBC 0x00447e10 _$E388
+// FUNCTION: STBC 0x00447e20 _$E387
+// FUNCTION: STBC 0x00447e30 _$E392
+// FUNCTION: STBC 0x00447e40 _$E391
+// FUNCTION: STBC 0x00447e50 _$E396
+// FUNCTION: STBC 0x00447e60 _$E395
+// FUNCTION: STBC 0x00447e70 _$E181
+// FUNCTION: STBC 0x00447e80 _$E180
+// FUNCTION: STBC 0x00447e90 _$E400
+// FUNCTION: STBC 0x00447ea0 _$E399
+// FUNCTION: STBC 0x00447eb0 _$E186
+// FUNCTION: STBC 0x00447ec0 _$E185
+// FUNCTION: STBC 0x00447ed0 _$E191
+// FUNCTION: STBC 0x00447ee0 _$E190
+// FUNCTION: STBC 0x00447ef0 _$E404
+// FUNCTION: STBC 0x00447f00 _$E403
+// FUNCTION: STBC 0x00447f10 _$E409
+// FUNCTION: STBC 0x00447f20 _$E408
+// FUNCTION: STBC 0x00447f30 _$E413
+// FUNCTION: STBC 0x00447f40 _$E412
+
+// <iostream>'s statics: the ios_base::Init and _Winit quads and the locale id pair.
+// FUNCTION: STBC 0x00447580 _$E32
+// FUNCTION: STBC 0x00447590 _$E29
+// FUNCTION: STBC 0x004475a0 _$E31
+// FUNCTION: STBC 0x004475b0 _$E30
+// FUNCTION: STBC 0x004475c0 _$E38
+// FUNCTION: STBC 0x004475d0 _$E35
+// FUNCTION: STBC 0x004475e0 _$E37
+// FUNCTION: STBC 0x004475f0 _$E36
+// FUNCTION: STBC 0x00447900 _$E421
+// FUNCTION: STBC 0x00447920 _$E420
+
+/*
+================
+FloatVariable::FloatVariable
+================
+*/
+// FUNCTION: STBC 0x00447480
+FloatVariable::FloatVariable( void ) {
+	name = NULL;
+	value = 0.0f;
+}
+
+/*
+================
+FloatVariable::Compare
+
+Compares the variable with another one by name.
+================
+*/
+// FUNCTION: STBC 0x004474a0
+int FloatVariable::Compare( FloatVariable *other ) {
+	return CompareKey( other->GetName() );
+}
+
+/*
+================
+FloatVariable::CompareKey
+
+Zero when the variable has the name, positive when the name sorts after
+the variable's and negative when it sorts before.
+================
+*/
+// FUNCTION: STBC 0x004474b0
+int FloatVariable::CompareKey( char *key ) {
+	return strcmp( key, name );
+}
+
+/*
+================
+FloatVariable::~FloatVariable
+================
+*/
+// FUNCTION: STBC 0x004474f0
+FloatVariable::~FloatVariable( void ) {
+	delete [] name;
+}
+
+/*
+================
+FloatVariable::SetName
+
+Keeps a copy of the variable's name.
+================
+*/
+// FUNCTION: STBC 0x00447510
+void FloatVariable::SetName( char *name_ ) {
+	if ( name != NULL ) {
+		delete [] name;
+		name = NULL;
+	}
+	if ( name_ != NULL ) {
+		name = new char[strlen( name_ ) + 1];
+		strcpy( name, name_ );
+	}
+}

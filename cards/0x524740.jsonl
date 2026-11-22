@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-520000", "by": "sonnet", "from": null, "to": 84.4, "how": "84.4: TGIntEvent expanded inline now (was TGBoolEvent); TGString operand order as Load; registers differ", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-520000", "commit": "6c726ec580", "from": null, "to": 84.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 84.4, "to": 100.0, "status": "MATCH"}

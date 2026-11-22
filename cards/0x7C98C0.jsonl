@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "release-vs-debug conflict: AnimOnly 0x51D53C takes two arguments (ret 8, caps built by if/else, GetSurfaceDesc helper); BC's takes a third (ret 0xc) and builds the caps with ?:"}

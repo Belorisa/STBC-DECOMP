@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: AnimOnly 0x481087 stores the sampled keys through NiPosKey SetPos/SetTime and NiRotKey SetQuaternion/SetTime (0x4852F0, 0x4852D0, 0x4852A0, 0x485280), the GenInterp results passed as temporaries: header items"}

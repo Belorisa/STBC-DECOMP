@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-geom", "by": "opus", "from": 100.0, "to": 100.0, "how": "od audit: mispair: map pairs AnimOnly 0x42B880 (a derived constructor setting +0x44); the real copy 0x42A53E (assert m_pItems) is now identical"}

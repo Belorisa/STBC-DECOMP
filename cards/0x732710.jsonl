@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-net-ui", "by": "opus", "from": null, "to": 78.6, "how": "draft; for loop over i <= cursorPosition with VS93(i, ..., i); GetScreen* inlines keep the screen size on the FPU here (Unknown732420's wall)", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-net-ui", "commit": "b3c40e0de3", "from": null, "to": 78.6, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts50", "commit": "3a884cd999", "from": 78.6, "to": 100.0, "status": "MATCH"}

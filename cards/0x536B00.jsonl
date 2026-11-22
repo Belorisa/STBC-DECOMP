@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-11", "commit": "b21a6bb535", "from": null, "to": 90.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 90.6, "to": 90.6, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 90.6, "to": 90.6, "how": "sched triage: (c) not-schedule, a register pick differs (the same instructions), so the allocator, not the order: first ours \"mov eax, dword ptr [esi]\" retail \"mov edx, dword ptr [esi]\"", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90c", "commit": "185f59f4f4", "from": 90.6, "to": 100.0, "status": "MATCH"}

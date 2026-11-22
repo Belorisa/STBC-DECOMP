@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-26", "commit": "96430044b8", "from": null, "to": 95.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "near-95", "by": "opus", "from": 95.2, "to": 93.7, "how": "(float)sqrt( ( *to - *from ).SqrLength() ): 93.7, the store now follows fsqrt as retail but the squares sum x,z,y against retail's z,x,y; sqrtf( SqrLength ) 95.2; named difference + (float)sqrt 93.7; reverted", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 95.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 95.2, "to": 95.2, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

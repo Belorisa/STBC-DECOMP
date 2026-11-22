@@ -1,0 +1,284 @@
+/*
+===============================================================================
+
+	PulseWeaponSystem.cpp
+
+===============================================================================
+*/
+
+#include "PulseWeaponSystem.h"
+#include "TGEventHandlerTable.h"
+#include "TGStream.h"
+#include <iostream>
+#include "NiMain.h"
+#include "NiListener.h"
+#include "NiSoundSystem.h"
+#include "NiSource.h"
+
+// The locale-id pair: std::ctype<unsigned short>::id's guard byte and its exit-time registration.
+// FUNCTION: STBC 0x00577bb0 _$E451
+// FUNCTION: STBC 0x00577bd0 _$E450
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x005774f0 _$E74
+// FUNCTION: STBC 0x00577500 _$E73
+// FUNCTION: STBC 0x00577510 _$E78
+// FUNCTION: STBC 0x00577520 _$E77
+// FUNCTION: STBC 0x00577530 _$E89
+// FUNCTION: STBC 0x00577540 _$E88
+// FUNCTION: STBC 0x00577550 _$E93
+// FUNCTION: STBC 0x00577560 _$E92
+// FUNCTION: STBC 0x00577570 _$E97
+// FUNCTION: STBC 0x00577580 _$E96
+// FUNCTION: STBC 0x00577590 _$E101
+// FUNCTION: STBC 0x005775a0 _$E100
+// FUNCTION: STBC 0x005775b0 _$E220
+// FUNCTION: STBC 0x005775c0 _$E219
+// FUNCTION: STBC 0x005775d0 _$E162
+// FUNCTION: STBC 0x005775e0 _$E161
+// FUNCTION: STBC 0x005775f0 _$E175
+// FUNCTION: STBC 0x00577600 _$E174
+// FUNCTION: STBC 0x00577610 _$E225
+// FUNCTION: STBC 0x00577620 _$E224
+// FUNCTION: STBC 0x00577630 _$E230
+// FUNCTION: STBC 0x00577640 _$E229
+// FUNCTION: STBC 0x00577650 _$E234
+// FUNCTION: STBC 0x00577660 _$E233
+// FUNCTION: STBC 0x00577670 _$E238
+// FUNCTION: STBC 0x00577680 _$E237
+// FUNCTION: STBC 0x00577690 _$E245
+// FUNCTION: STBC 0x005776a0 _$E244
+// FUNCTION: STBC 0x005776b0 _$E270
+// FUNCTION: STBC 0x005776c0 _$E269
+// FUNCTION: STBC 0x005776d0 _$E274
+// FUNCTION: STBC 0x005776e0 _$E273
+// FUNCTION: STBC 0x005776f0 _$E120
+// FUNCTION: STBC 0x00577700 _$E119
+// FUNCTION: STBC 0x00577710 _$E256
+// FUNCTION: STBC 0x00577720 _$E255
+// FUNCTION: STBC 0x00577730 _$E263
+// FUNCTION: STBC 0x00577740 _$E262
+// FUNCTION: STBC 0x00577750 _$E286
+// FUNCTION: STBC 0x00577760 _$E285
+// FUNCTION: STBC 0x00577770 _$E290
+// FUNCTION: STBC 0x00577780 _$E289
+// FUNCTION: STBC 0x00577790 _$E330
+// FUNCTION: STBC 0x005777a0 _$E329
+// FUNCTION: STBC 0x005777b0 _$E336
+// FUNCTION: STBC 0x005777c0 _$E335
+// FUNCTION: STBC 0x005777d0 _$E278
+// FUNCTION: STBC 0x005777e0 _$E277
+// FUNCTION: STBC 0x005777f0 _$E282
+// FUNCTION: STBC 0x00577800 _$E281
+// FUNCTION: STBC 0x00577810 _$E294
+// FUNCTION: STBC 0x00577820 _$E293
+// FUNCTION: STBC 0x00577830 _$E298
+// FUNCTION: STBC 0x00577840 _$E297
+// FUNCTION: STBC 0x00577850 _$E302
+// FUNCTION: STBC 0x00577860 _$E301
+// FUNCTION: STBC 0x00577870 _$E306
+// FUNCTION: STBC 0x00577880 _$E305
+// FUNCTION: STBC 0x00577890 _$E310
+// FUNCTION: STBC 0x005778a0 _$E309
+// FUNCTION: STBC 0x005778b0 _$E314
+// FUNCTION: STBC 0x005778c0 _$E313
+// FUNCTION: STBC 0x005778d0 _$E318
+// FUNCTION: STBC 0x005778e0 _$E317
+// FUNCTION: STBC 0x005778f0 _$E322
+// FUNCTION: STBC 0x00577900 _$E321
+// FUNCTION: STBC 0x00577910 _$E125
+// FUNCTION: STBC 0x00577920 _$E124
+// FUNCTION: STBC 0x00577930 _$E326
+// FUNCTION: STBC 0x00577940 _$E325
+// FUNCTION: STBC 0x00577950 _$E130
+// FUNCTION: STBC 0x00577960 _$E129
+// FUNCTION: STBC 0x00577970 _$E340
+// FUNCTION: STBC 0x00577980 _$E339
+// FUNCTION: STBC 0x00577990 _$E344
+// FUNCTION: STBC 0x005779a0 _$E343
+// FUNCTION: STBC 0x005779b0 _$E348
+// FUNCTION: STBC 0x005779c0 _$E347
+// FUNCTION: STBC 0x005779d0 _$E352
+// FUNCTION: STBC 0x005779e0 _$E351
+// FUNCTION: STBC 0x005779f0 _$E139
+// FUNCTION: STBC 0x00577a00 _$E138
+// FUNCTION: STBC 0x00577a10 _$E356
+// FUNCTION: STBC 0x00577a20 _$E355
+// FUNCTION: STBC 0x00577a30 _$E360
+// FUNCTION: STBC 0x00577a40 _$E359
+// FUNCTION: STBC 0x00577a50 _$E364
+// FUNCTION: STBC 0x00577a60 _$E363
+// FUNCTION: STBC 0x00577a70 _$E145
+// FUNCTION: STBC 0x00577a80 _$E144
+// FUNCTION: STBC 0x00577a90 _$E150
+// FUNCTION: STBC 0x00577aa0 _$E149
+// FUNCTION: STBC 0x00577ab0 _$E180
+// FUNCTION: STBC 0x00577ac0 _$E179
+// FUNCTION: STBC 0x00577ad0 _$E368
+// FUNCTION: STBC 0x00577ae0 _$E367
+// FUNCTION: STBC 0x00577af0 _$E185
+// FUNCTION: STBC 0x00577b00 _$E184
+// FUNCTION: STBC 0x00577b10 _$E372
+// FUNCTION: STBC 0x00577b20 _$E371
+// FUNCTION: STBC 0x00577b30 _$E376
+// FUNCTION: STBC 0x00577b40 _$E375
+// FUNCTION: STBC 0x00577b50 _$E190
+// FUNCTION: STBC 0x00577b60 _$E189
+// FUNCTION: STBC 0x00577b70 _$E380
+// FUNCTION: STBC 0x00577b80 _$E379
+// FUNCTION: STBC 0x00577b90 _$E155
+// FUNCTION: STBC 0x00577ba0 _$E154
+// FUNCTION: STBC 0x00577be0 _$E384
+// FUNCTION: STBC 0x00577bf0 _$E383
+// FUNCTION: STBC 0x00577c00 _$E388
+// FUNCTION: STBC 0x00577c10 _$E387
+// FUNCTION: STBC 0x00577c20 _$E195
+// FUNCTION: STBC 0x00577c30 _$E194
+// FUNCTION: STBC 0x00577c40 _$E200
+// FUNCTION: STBC 0x00577c50 _$E199
+// FUNCTION: STBC 0x00577c60 _$E392
+// FUNCTION: STBC 0x00577c70 _$E391
+// FUNCTION: STBC 0x00577c80 _$E396
+// FUNCTION: STBC 0x00577c90 _$E395
+// FUNCTION: STBC 0x00577ca0 _$E400
+// FUNCTION: STBC 0x00577cb0 _$E399
+// FUNCTION: STBC 0x00577cc0 _$E404
+// FUNCTION: STBC 0x00577cd0 _$E403
+// FUNCTION: STBC 0x00577ce0 _$E408
+// FUNCTION: STBC 0x00577cf0 _$E407
+// FUNCTION: STBC 0x00577d00 _$E412
+// FUNCTION: STBC 0x00577d10 _$E411
+// FUNCTION: STBC 0x00577d20 _$E416
+// FUNCTION: STBC 0x00577d30 _$E415
+// FUNCTION: STBC 0x00577d40 _$E420
+// FUNCTION: STBC 0x00577d50 _$E419
+// FUNCTION: STBC 0x00577d60 _$E205
+// FUNCTION: STBC 0x00577d70 _$E204
+// FUNCTION: STBC 0x00577d80 _$E424
+// FUNCTION: STBC 0x00577d90 _$E423
+// FUNCTION: STBC 0x00577da0 _$E210
+// FUNCTION: STBC 0x00577db0 _$E209
+// FUNCTION: STBC 0x00577dc0 _$E215
+// FUNCTION: STBC 0x00577dd0 _$E214
+// FUNCTION: STBC 0x00577de0 _$E428
+// FUNCTION: STBC 0x00577df0 _$E427
+// FUNCTION: STBC 0x00577e00 _$E433
+// FUNCTION: STBC 0x00577e10 _$E432
+// FUNCTION: STBC 0x00577e20 _$E437
+// FUNCTION: STBC 0x00577e30 _$E436
+
+// Standard streams, handler tables and other file-scope statics.
+// FUNCTION: STBC 0x005772b0 _$E61
+// FUNCTION: STBC 0x005772c0 _$E58
+// FUNCTION: STBC 0x005772d0 _$E60
+// FUNCTION: STBC 0x005772e0 _$E59
+// FUNCTION: STBC 0x005772f0 _$E67
+// FUNCTION: STBC 0x00577300 _$E64
+// FUNCTION: STBC 0x00577310 _$E66
+// FUNCTION: STBC 0x00577320 _$E65
+// FUNCTION: STBC 0x00577330 _$E443
+// FUNCTION: STBC 0x00577340 _$E439
+// FUNCTION: STBC 0x00577350 _$E442
+// FUNCTION: STBC 0x00577360 _$E440
+
+/*
+================
+PulseWeaponSystem::Cast
+
+The object as a PulseWeaponSystem; NULL when it is none.
+================
+*/
+// FUNCTION: STBC 0x00577380
+PulseWeaponSystem *PulseWeaponSystem::Cast( TGObject *object ) {
+	if ( object != NULL && object->IsTypeOf( PULSEWEAPONSYSTEM_TYPE ) ) {
+		return (PulseWeaponSystem *)object;
+	}
+	return NULL;
+}
+
+/*
+================
+PulseWeaponSystem::PulseWeaponSystem
+================
+*/
+// FUNCTION: STBC 0x005773b0
+PulseWeaponSystem::PulseWeaponSystem( long id ) : WeaponSystem( id ) {
+}
+
+// DATA: STBC 0x0098cae8
+TGEventHandlerTable PulseWeaponSystem::classHandlers;
+
+/*
+================
+PulseWeaponSystem::GetObjType
+================
+*/
+// FUNCTION: STBC 0x005773d0
+int PulseWeaponSystem::GetObjType( void ) {
+	return PULSEWEAPONSYSTEM_TYPE;
+}
+
+/*
+================
+PulseWeaponSystem::GetClassName
+================
+*/
+// FUNCTION: STBC 0x00577440
+char *PulseWeaponSystem::GetClassName( void ) {
+	return "PulseWeaponSystem";
+}
+
+/*
+================
+PulseWeaponSystem::GetSwigTypeName
+================
+*/
+// FUNCTION: STBC 0x00577450
+char *PulseWeaponSystem::GetSwigTypeName( void ) {
+	return "_p_PulseWeaponSystem";
+}
+
+/*
+================
+PulseWeaponSystem::GetPythonClassName
+================
+*/
+// FUNCTION: STBC 0x00577460
+char *PulseWeaponSystem::GetPythonClassName( void ) {
+	return "PulseWeaponSystemPtr";
+}
+
+/*
+================
+PulseWeaponSystem::GetClassHandlers
+================
+*/
+// FUNCTION: STBC 0x00577470
+TGEventHandlerTable *PulseWeaponSystem::GetClassHandlers( void ) {
+	return &classHandlers;
+}
+
+/*
+================
+PulseWeaponSystem::~PulseWeaponSystem
+================
+*/
+// FUNCTION: STBC 0x005774b0
+// FUNCTION: STBC 0x00577480 ??_GPulseWeaponSystem@@UAEPAXI@Z
+PulseWeaponSystem::~PulseWeaponSystem( void ) {
+}
+
+/*
+================
+PulseWeaponSystem::VirtualSlot27
+
+Reads WeaponSystem's state; the system stops trying to fire.
+================
+*/
+// FUNCTION: STBC 0x005774c0
+void PulseWeaponSystem::VirtualSlot27( TGStream *stream ) {
+	WeaponSystem::VirtualSlot27( stream );
+
+	tryingToFire = false;
+	stream->GetPos();
+}

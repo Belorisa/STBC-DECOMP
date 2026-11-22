@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-interface", "by": "sonnet", "from": null, "to": 98.1, "how": "list+copy-out draft; INFINITE_LIFE referent and numObjects init fixed (96.6->98.1); remaining vtable offsets +4 for IsTargetable/CanTargetObject (AppWrap's ObjectClass::IsTargetable compiles 0xc8, SetClass.cpp 0xcc) and drain-loop entry", "wall": "structure"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-interface", "by": "sonnet", "from": null, "to": 99.4, "how": "slot offsets were an include-order effect (Glow.h before the others shifted ObjectClass slots +4); Glow.h last gives 99.4; for-loop spelling of the copy-out did not move the mov/je order", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "setclass-interface", "commit": "001d1d5a80", "from": null, "to": 99.4, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "viewscreen-near", "commit": "541f602407", "from": 99.4, "to": 100.0, "status": "MATCH"}

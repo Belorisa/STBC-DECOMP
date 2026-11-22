@@ -1,0 +1,259 @@
+/*
+===============================================================================
+
+	StringVariable.cpp
+
+	A string variable of a VarManagerClass scope (invented unit name).
+
+===============================================================================
+*/
+
+#include <iostream>
+#include <string.h>
+#include "ScriptVariables.h"
+#include "NiMain.h"
+#include "NiListener.h"
+#include "NiSoundSystem.h"
+#include "NiSource.h"
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x00449ab0 _$E45
+// FUNCTION: STBC 0x00449ac0 _$E44
+// FUNCTION: STBC 0x00449ad0 _$E49
+// FUNCTION: STBC 0x00449ae0 _$E48
+// FUNCTION: STBC 0x00449af0 _$E60
+// FUNCTION: STBC 0x00449b00 _$E59
+// FUNCTION: STBC 0x00449b10 _$E64
+// FUNCTION: STBC 0x00449b20 _$E63
+// FUNCTION: STBC 0x00449b30 _$E68
+// FUNCTION: STBC 0x00449b40 _$E67
+// FUNCTION: STBC 0x00449b50 _$E72
+// FUNCTION: STBC 0x00449b60 _$E71
+// FUNCTION: STBC 0x00449b70 _$E196
+// FUNCTION: STBC 0x00449b80 _$E195
+// FUNCTION: STBC 0x00449b90 _$E138
+// FUNCTION: STBC 0x00449ba0 _$E137
+// FUNCTION: STBC 0x00449bb0 _$E151
+// FUNCTION: STBC 0x00449bc0 _$E150
+// FUNCTION: STBC 0x00449bd0 _$E201
+// FUNCTION: STBC 0x00449be0 _$E200
+// FUNCTION: STBC 0x00449bf0 _$E206
+// FUNCTION: STBC 0x00449c00 _$E205
+// FUNCTION: STBC 0x00449c10 _$E210
+// FUNCTION: STBC 0x00449c20 _$E209
+// FUNCTION: STBC 0x00449c30 _$E214
+// FUNCTION: STBC 0x00449c40 _$E213
+// FUNCTION: STBC 0x00449c50 _$E221
+// FUNCTION: STBC 0x00449c60 _$E220
+// FUNCTION: STBC 0x00449c70 _$E246
+// FUNCTION: STBC 0x00449c80 _$E245
+// FUNCTION: STBC 0x00449c90 _$E250
+// FUNCTION: STBC 0x00449ca0 _$E249
+// FUNCTION: STBC 0x00449cb0 _$E96
+// FUNCTION: STBC 0x00449cc0 _$E95
+// FUNCTION: STBC 0x00449cd0 _$E232
+// FUNCTION: STBC 0x00449ce0 _$E231
+// FUNCTION: STBC 0x00449cf0 _$E239
+// FUNCTION: STBC 0x00449d00 _$E238
+// FUNCTION: STBC 0x00449d10 _$E262
+// FUNCTION: STBC 0x00449d20 _$E261
+// FUNCTION: STBC 0x00449d30 _$E266
+// FUNCTION: STBC 0x00449d40 _$E265
+// FUNCTION: STBC 0x00449d50 _$E306
+// FUNCTION: STBC 0x00449d60 _$E305
+// FUNCTION: STBC 0x00449d70 _$E312
+// FUNCTION: STBC 0x00449d80 _$E311
+// FUNCTION: STBC 0x00449d90 _$E254
+// FUNCTION: STBC 0x00449da0 _$E253
+// FUNCTION: STBC 0x00449db0 _$E258
+// FUNCTION: STBC 0x00449dc0 _$E257
+// FUNCTION: STBC 0x00449e00 _$E270
+// FUNCTION: STBC 0x00449e10 _$E269
+// FUNCTION: STBC 0x00449e20 _$E274
+// FUNCTION: STBC 0x00449e30 _$E273
+// FUNCTION: STBC 0x00449e40 _$E278
+// FUNCTION: STBC 0x00449e50 _$E277
+// FUNCTION: STBC 0x00449e60 _$E282
+// FUNCTION: STBC 0x00449e70 _$E281
+// FUNCTION: STBC 0x00449e80 _$E286
+// FUNCTION: STBC 0x00449e90 _$E285
+// FUNCTION: STBC 0x00449ea0 _$E290
+// FUNCTION: STBC 0x00449eb0 _$E289
+// FUNCTION: STBC 0x00449ec0 _$E294
+// FUNCTION: STBC 0x00449ed0 _$E293
+// FUNCTION: STBC 0x00449ee0 _$E298
+// FUNCTION: STBC 0x00449ef0 _$E297
+// FUNCTION: STBC 0x00449f00 _$E101
+// FUNCTION: STBC 0x00449f10 _$E100
+// FUNCTION: STBC 0x00449f20 _$E302
+// FUNCTION: STBC 0x00449f30 _$E301
+// FUNCTION: STBC 0x00449f40 _$E106
+// FUNCTION: STBC 0x00449f50 _$E105
+// FUNCTION: STBC 0x00449f60 _$E316
+// FUNCTION: STBC 0x00449f70 _$E315
+// FUNCTION: STBC 0x00449f80 _$E320
+// FUNCTION: STBC 0x00449f90 _$E319
+// FUNCTION: STBC 0x00449fa0 _$E324
+// FUNCTION: STBC 0x00449fb0 _$E323
+// FUNCTION: STBC 0x00449fc0 _$E328
+// FUNCTION: STBC 0x00449fd0 _$E327
+// FUNCTION: STBC 0x00449fe0 _$E115
+// FUNCTION: STBC 0x00449ff0 _$E114
+// FUNCTION: STBC 0x0044a000 _$E332
+// FUNCTION: STBC 0x0044a010 _$E331
+// FUNCTION: STBC 0x0044a020 _$E336
+// FUNCTION: STBC 0x0044a030 _$E335
+// FUNCTION: STBC 0x0044a040 _$E340
+// FUNCTION: STBC 0x0044a050 _$E339
+// FUNCTION: STBC 0x0044a060 _$E121
+// FUNCTION: STBC 0x0044a070 _$E120
+// FUNCTION: STBC 0x0044a080 _$E126
+// FUNCTION: STBC 0x0044a090 _$E125
+// FUNCTION: STBC 0x0044a0a0 _$E156
+// FUNCTION: STBC 0x0044a0b0 _$E155
+// FUNCTION: STBC 0x0044a0c0 _$E344
+// FUNCTION: STBC 0x0044a0d0 _$E343
+// FUNCTION: STBC 0x0044a0e0 _$E161
+// FUNCTION: STBC 0x0044a0f0 _$E160
+// FUNCTION: STBC 0x0044a100 _$E348
+// FUNCTION: STBC 0x0044a110 _$E347
+// FUNCTION: STBC 0x0044a120 _$E352
+// FUNCTION: STBC 0x0044a130 _$E351
+// FUNCTION: STBC 0x0044a140 _$E166
+// FUNCTION: STBC 0x0044a150 _$E165
+// FUNCTION: STBC 0x0044a160 _$E356
+// FUNCTION: STBC 0x0044a170 _$E355
+// FUNCTION: STBC 0x0044a180 _$E131
+// FUNCTION: STBC 0x0044a190 _$E130
+// FUNCTION: STBC 0x0044a1a0 _$E360
+// FUNCTION: STBC 0x0044a1b0 _$E359
+// FUNCTION: STBC 0x0044a1c0 _$E364
+// FUNCTION: STBC 0x0044a1d0 _$E363
+// FUNCTION: STBC 0x0044a1e0 _$E171
+// FUNCTION: STBC 0x0044a1f0 _$E170
+// FUNCTION: STBC 0x0044a200 _$E176
+// FUNCTION: STBC 0x0044a210 _$E175
+// FUNCTION: STBC 0x0044a220 _$E368
+// FUNCTION: STBC 0x0044a230 _$E367
+// FUNCTION: STBC 0x0044a240 _$E372
+// FUNCTION: STBC 0x0044a250 _$E371
+// FUNCTION: STBC 0x0044a260 _$E376
+// FUNCTION: STBC 0x0044a270 _$E375
+// FUNCTION: STBC 0x0044a280 _$E380
+// FUNCTION: STBC 0x0044a290 _$E379
+// FUNCTION: STBC 0x0044a2a0 _$E384
+// FUNCTION: STBC 0x0044a2b0 _$E383
+// FUNCTION: STBC 0x0044a2c0 _$E388
+// FUNCTION: STBC 0x0044a2d0 _$E387
+// FUNCTION: STBC 0x0044a2e0 _$E392
+// FUNCTION: STBC 0x0044a2f0 _$E391
+// FUNCTION: STBC 0x0044a300 _$E396
+// FUNCTION: STBC 0x0044a310 _$E395
+// FUNCTION: STBC 0x0044a320 _$E181
+// FUNCTION: STBC 0x0044a330 _$E180
+// FUNCTION: STBC 0x0044a340 _$E400
+// FUNCTION: STBC 0x0044a350 _$E399
+// FUNCTION: STBC 0x0044a360 _$E186
+// FUNCTION: STBC 0x0044a370 _$E185
+// FUNCTION: STBC 0x0044a380 _$E191
+// FUNCTION: STBC 0x0044a390 _$E190
+// FUNCTION: STBC 0x0044a3a0 _$E404
+// FUNCTION: STBC 0x0044a3b0 _$E403
+// FUNCTION: STBC 0x0044a3c0 _$E409
+// FUNCTION: STBC 0x0044a3d0 _$E408
+// FUNCTION: STBC 0x0044a3e0 _$E413
+// FUNCTION: STBC 0x0044a3f0 _$E412
+
+// <iostream>'s statics: the ios_base::Init and _Winit quads and the locale id pair.
+// FUNCTION: STBC 0x00449a30 _$E32
+// FUNCTION: STBC 0x00449a40 _$E29
+// FUNCTION: STBC 0x00449a50 _$E31
+// FUNCTION: STBC 0x00449a60 _$E30
+// FUNCTION: STBC 0x00449a70 _$E38
+// FUNCTION: STBC 0x00449a80 _$E35
+// FUNCTION: STBC 0x00449a90 _$E37
+// FUNCTION: STBC 0x00449aa0 _$E36
+// FUNCTION: STBC 0x00449dd0 _$E421
+// FUNCTION: STBC 0x00449df0 _$E420
+
+/*
+================
+StringVariable::StringVariable
+================
+*/
+// FUNCTION: STBC 0x004498c0
+StringVariable::StringVariable( void ) {
+	name = NULL;
+	value = NULL;
+}
+
+/*
+================
+StringVariable::Compare
+
+Compares the variable with another one by name.
+================
+*/
+// FUNCTION: STBC 0x004498e0
+int StringVariable::Compare( StringVariable *other ) {
+	return CompareKey( other->GetName() );
+}
+
+/*
+================
+StringVariable::CompareKey
+================
+*/
+// FUNCTION: STBC 0x004498f0
+int StringVariable::CompareKey( char *key ) {
+	return strcmp( key, name );
+}
+
+/*
+================
+StringVariable::~StringVariable
+================
+*/
+// FUNCTION: STBC 0x00449930
+StringVariable::~StringVariable( void ) {
+	delete [] name;
+	delete [] value;
+}
+
+/*
+================
+StringVariable::SetName
+
+Keeps a copy of the variable's name.
+================
+*/
+// FUNCTION: STBC 0x00449950
+void StringVariable::SetName( char *name_ ) {
+	if ( name != NULL ) {
+		delete [] name;
+		name = NULL;
+	}
+	if ( name_ != NULL ) {
+		name = new char[strlen( name_ ) + 1];
+		strcpy( name, name_ );
+	}
+}
+
+/*
+================
+StringVariable::SetValue
+
+Keeps a copy of the value.
+================
+*/
+// FUNCTION: STBC 0x004499c0
+void StringVariable::SetValue( char *value_ ) {
+	if ( value != NULL ) {
+		delete [] value;
+		value = NULL;
+	}
+	if ( value_ != NULL ) {
+		value = new char[strlen( value_ ) + 1];
+		strcpy( value, value_ );
+	}
+}

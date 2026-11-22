@@ -1,0 +1,5 @@
+{"date": "2026-10-28", "kind": "score", "lane": "netimmerse-12", "commit": "b5b190b832", "from": null, "to": 83.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 83.1, "to": 83.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "od-netimmerse", "by": "opus", "from": 83.1, "to": 100.0, "how": "AnimOnly 0x450B32: NiTriBasedGeom::GetTriangleCount (lineage, debug 0x432510) and GetWorldVertices (0x42F8C0): release MATCH. 3.1's vertices come through a non-virtual NiGeometry accessor 0x4324B0 distinct from the virtual slot 39 (0x42F311) we call GetVertices: identity question, left as GetTrianglesData()->GetVertices()"}
+{"date": "2026-11-20", "kind": "score", "lane": "od-netimmerse", "commit": "ea62909a2e", "from": 83.1, "to": 100.0, "status": "MATCH"}

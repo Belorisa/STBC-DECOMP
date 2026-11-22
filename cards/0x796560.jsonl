@@ -1,0 +1,3 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-33", "commit": "2a3390aa41", "from": null, "to": 74.3, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65", "by": "opus", "from": 74.3, "to": 74.3, "how": "unsigned int i as Gamebryo 1.2.2 declares it: same bytes, 74.3. c2trace --regs: t (param, prio -2) takes ebp last; the key copy is propagated to key0, which is reloaded from its slot in the axis loop where retail keeps it in ebp", "wall": "register", "group": "eulerrot"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 74.3, "to": 100.0, "status": "MATCH"}

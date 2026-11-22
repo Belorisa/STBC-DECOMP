@@ -1,0 +1,409 @@
+/*
+===============================================================================
+
+	TGDimmerController.cpp
+
+===============================================================================
+*/
+
+#include "TGDimmerController.h"
+#include "NiStream.h"
+#include <iostream>
+#include "NiMain.h"
+#include "NiAnimation.h"
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x004554f0 _$E21
+// FUNCTION: STBC 0x00455500 _$E20
+// FUNCTION: STBC 0x00455510 _$E32
+// FUNCTION: STBC 0x00455520 _$E31
+// FUNCTION: STBC 0x00455550 _$E41
+// FUNCTION: STBC 0x00455560 _$E40
+// FUNCTION: STBC 0x00455570 _$E45
+// FUNCTION: STBC 0x00455580 _$E44
+// FUNCTION: STBC 0x00455590 _$E49
+// FUNCTION: STBC 0x004555a0 _$E48
+// FUNCTION: STBC 0x00455700 _$E57
+// FUNCTION: STBC 0x00455710 _$E56
+// FUNCTION: STBC 0x00455860 _$E61
+// FUNCTION: STBC 0x00455870 _$E60
+// FUNCTION: STBC 0x00455880 _$E65
+// FUNCTION: STBC 0x00455890 _$E64
+// FUNCTION: STBC 0x004558a0 _$E185
+// FUNCTION: STBC 0x004558b0 _$E184
+// FUNCTION: STBC 0x004558f0 _$E190
+// FUNCTION: STBC 0x00455900 _$E189
+// FUNCTION: STBC 0x00455910 _$E194
+// FUNCTION: STBC 0x00455920 _$E193
+// FUNCTION: STBC 0x004559a0 _$E198
+// FUNCTION: STBC 0x004559b0 _$E197
+// FUNCTION: STBC 0x004559c0 _$E226
+// FUNCTION: STBC 0x004559d0 _$E225
+// FUNCTION: STBC 0x004559e0 _$E127
+// FUNCTION: STBC 0x004559f0 _$E126
+// FUNCTION: STBC 0x00455a00 _$E140
+// FUNCTION: STBC 0x00455a10 _$E139
+// FUNCTION: STBC 0x00455a20 _$E231
+// FUNCTION: STBC 0x00455a30 _$E230
+// FUNCTION: STBC 0x00455a40 _$E235
+// FUNCTION: STBC 0x00455a50 _$E234
+// FUNCTION: STBC 0x00455a60 _$E239
+// FUNCTION: STBC 0x00455a70 _$E238
+// FUNCTION: STBC 0x00455a80 _$E246
+// FUNCTION: STBC 0x00455a90 _$E245
+// FUNCTION: STBC 0x00455aa0 _$E271
+// FUNCTION: STBC 0x00455ab0 _$E270
+// FUNCTION: STBC 0x00455ac0 _$E275
+// FUNCTION: STBC 0x00455ad0 _$E274
+// FUNCTION: STBC 0x00455ae0 _$E89
+// FUNCTION: STBC 0x00455af0 _$E88
+// FUNCTION: STBC 0x00455b00 _$E257
+// FUNCTION: STBC 0x00455b10 _$E256
+// FUNCTION: STBC 0x00455b20 _$E264
+// FUNCTION: STBC 0x00455b30 _$E263
+// FUNCTION: STBC 0x00455b40 _$E283
+// FUNCTION: STBC 0x00455b50 _$E282
+// FUNCTION: STBC 0x00455b60 _$E287
+// FUNCTION: STBC 0x00455b70 _$E286
+// FUNCTION: STBC 0x00455b80 _$E327
+// FUNCTION: STBC 0x00455b90 _$E326
+// FUNCTION: STBC 0x00455ba0 _$E333
+// FUNCTION: STBC 0x00455bb0 _$E332
+// FUNCTION: STBC 0x00455bc0 _$E279
+// FUNCTION: STBC 0x00455bd0 _$E278
+// FUNCTION: STBC 0x00455be0 _$E291
+// FUNCTION: STBC 0x00455bf0 _$E290
+// FUNCTION: STBC 0x00455c00 _$E295
+// FUNCTION: STBC 0x00455c10 _$E294
+// FUNCTION: STBC 0x00455c20 _$E299
+// FUNCTION: STBC 0x00455c30 _$E298
+// FUNCTION: STBC 0x00455c40 _$E303
+// FUNCTION: STBC 0x00455c50 _$E302
+// FUNCTION: STBC 0x00455c60 _$E307
+// FUNCTION: STBC 0x00455c70 _$E306
+// FUNCTION: STBC 0x00455c80 _$E311
+// FUNCTION: STBC 0x00455c90 _$E310
+// FUNCTION: STBC 0x00455ca0 _$E315
+// FUNCTION: STBC 0x00455cb0 _$E314
+// FUNCTION: STBC 0x00455cc0 _$E319
+// FUNCTION: STBC 0x00455cd0 _$E318
+// FUNCTION: STBC 0x00455ce0 _$E94
+// FUNCTION: STBC 0x00455cf0 _$E93
+// FUNCTION: STBC 0x00455d00 _$E323
+// FUNCTION: STBC 0x00455d10 _$E322
+// FUNCTION: STBC 0x00455d20 _$E99
+// FUNCTION: STBC 0x00455d30 _$E98
+// FUNCTION: STBC 0x00455d40 _$E337
+// FUNCTION: STBC 0x00455d50 _$E336
+// FUNCTION: STBC 0x00455d60 _$E341
+// FUNCTION: STBC 0x00455d70 _$E340
+// FUNCTION: STBC 0x00455d80 _$E345
+// FUNCTION: STBC 0x00455d90 _$E344
+// FUNCTION: STBC 0x00455da0 _$E349
+// FUNCTION: STBC 0x00455db0 _$E348
+// FUNCTION: STBC 0x00455dc0 _$E104
+// FUNCTION: STBC 0x00455dd0 _$E103
+// FUNCTION: STBC 0x00455de0 _$E353
+// FUNCTION: STBC 0x00455df0 _$E352
+// FUNCTION: STBC 0x00455e00 _$E357
+// FUNCTION: STBC 0x00455e10 _$E356
+// FUNCTION: STBC 0x00455e20 _$E361
+// FUNCTION: STBC 0x00455e30 _$E360
+// FUNCTION: STBC 0x00455e40 _$E110
+// FUNCTION: STBC 0x00455e50 _$E109
+// FUNCTION: STBC 0x00455e60 _$E115
+// FUNCTION: STBC 0x00455e70 _$E114
+// FUNCTION: STBC 0x00455e80 _$E145
+// FUNCTION: STBC 0x00455e90 _$E144
+// FUNCTION: STBC 0x00455ea0 _$E365
+// FUNCTION: STBC 0x00455eb0 _$E364
+// FUNCTION: STBC 0x00455ec0 _$E150
+// FUNCTION: STBC 0x00455ed0 _$E149
+// FUNCTION: STBC 0x00455ee0 _$E369
+// FUNCTION: STBC 0x00455ef0 _$E368
+// FUNCTION: STBC 0x00455f00 _$E373
+// FUNCTION: STBC 0x00455f10 _$E372
+// FUNCTION: STBC 0x00455f20 _$E155
+// FUNCTION: STBC 0x00455f30 _$E154
+// FUNCTION: STBC 0x00455f40 _$E377
+// FUNCTION: STBC 0x00455f50 _$E376
+// FUNCTION: STBC 0x00455f60 _$E120
+// FUNCTION: STBC 0x00455f70 _$E119
+// FUNCTION: STBC 0x00455f80 _$E381
+// FUNCTION: STBC 0x00455f90 _$E380
+// FUNCTION: STBC 0x00455fa0 _$E385
+// FUNCTION: STBC 0x00455fb0 _$E384
+// FUNCTION: STBC 0x00455fc0 _$E160
+// FUNCTION: STBC 0x00455fd0 _$E159
+// FUNCTION: STBC 0x00455fe0 _$E165
+// FUNCTION: STBC 0x00455ff0 _$E164
+// FUNCTION: STBC 0x00456000 _$E389
+// FUNCTION: STBC 0x00456010 _$E388
+// FUNCTION: STBC 0x00456020 _$E393
+// FUNCTION: STBC 0x00456030 _$E392
+// FUNCTION: STBC 0x00456040 _$E397
+// FUNCTION: STBC 0x00456050 _$E396
+// FUNCTION: STBC 0x00456060 _$E401
+// FUNCTION: STBC 0x00456070 _$E400
+// FUNCTION: STBC 0x00456080 _$E405
+// FUNCTION: STBC 0x00456090 _$E404
+// FUNCTION: STBC 0x004560a0 _$E409
+// FUNCTION: STBC 0x004560b0 _$E408
+// FUNCTION: STBC 0x004560c0 _$E413
+// FUNCTION: STBC 0x004560d0 _$E412
+// FUNCTION: STBC 0x004560e0 _$E417
+// FUNCTION: STBC 0x004560f0 _$E416
+// FUNCTION: STBC 0x00456100 _$E170
+// FUNCTION: STBC 0x00456110 _$E169
+// FUNCTION: STBC 0x00456120 _$E421
+// FUNCTION: STBC 0x00456130 _$E420
+// FUNCTION: STBC 0x00456140 _$E175
+// FUNCTION: STBC 0x00456150 _$E174
+// FUNCTION: STBC 0x00456160 _$E180
+// FUNCTION: STBC 0x00456170 _$E179
+// FUNCTION: STBC 0x00456180 _$E425
+// FUNCTION: STBC 0x00456190 _$E424
+// FUNCTION: STBC 0x004561a0 _$E448
+// FUNCTION: STBC 0x004561b0 _$E447
+// FUNCTION: STBC 0x004561c0 _$E439
+// FUNCTION: STBC 0x004561d0 _$E438
+// FUNCTION: STBC 0x004561e0 _$E452
+// FUNCTION: STBC 0x004561f0 _$E451
+// FUNCTION: STBC 0x00456200 _$E456
+// FUNCTION: STBC 0x00456210 _$E455
+// FUNCTION: STBC 0x00456220 _$E531
+// FUNCTION: STBC 0x00456230 _$E530
+// FUNCTION: STBC 0x00456240 _$E534
+// FUNCTION: STBC 0x00456250 _$E533
+// FUNCTION: STBC 0x00456260 _$E485
+// FUNCTION: STBC 0x00456270 _$E484
+// FUNCTION: STBC 0x00456280 _$E501
+// FUNCTION: STBC 0x00456290 _$E500
+// FUNCTION: STBC 0x004562a0 _$E460
+// FUNCTION: STBC 0x004562b0 _$E459
+// FUNCTION: STBC 0x004562c0 _$E508
+// FUNCTION: STBC 0x004562d0 _$E507
+// FUNCTION: STBC 0x004562e0 _$E511
+// FUNCTION: STBC 0x004562f0 _$E510
+// FUNCTION: STBC 0x00456300 _$E553
+// FUNCTION: STBC 0x00456310 _$E552
+// FUNCTION: STBC 0x00456320 _$E463
+// FUNCTION: STBC 0x00456330 _$E462
+// FUNCTION: STBC 0x00456340 _$E466
+// FUNCTION: STBC 0x00456350 _$E465
+// FUNCTION: STBC 0x00456360 _$E469
+// FUNCTION: STBC 0x00456370 _$E468
+// FUNCTION: STBC 0x00456380 _$E477
+// FUNCTION: STBC 0x00456390 _$E476
+// FUNCTION: STBC 0x004563a0 _$E481
+// FUNCTION: STBC 0x004563b0 _$E480
+// FUNCTION: STBC 0x004563c0 _$E514
+// FUNCTION: STBC 0x004563d0 _$E513
+// FUNCTION: STBC 0x004563e0 _$E489
+// FUNCTION: STBC 0x004563f0 _$E488
+// FUNCTION: STBC 0x00456400 _$E493
+// FUNCTION: STBC 0x00456410 _$E492
+// FUNCTION: STBC 0x00456420 _$E497
+// FUNCTION: STBC 0x00456430 _$E496
+// FUNCTION: STBC 0x00456440 _$E561
+// FUNCTION: STBC 0x00456450 _$E560
+// FUNCTION: STBC 0x00456460 _$E586
+// FUNCTION: STBC 0x00456470 _$E585
+// FUNCTION: STBC 0x00456480 _$E574
+// FUNCTION: STBC 0x00456490 _$E573
+// FUNCTION: STBC 0x004564a0 _$E505
+// FUNCTION: STBC 0x004564b0 _$E504
+// FUNCTION: STBC 0x004564c0 _$E518
+// FUNCTION: STBC 0x004564d0 _$E517
+// FUNCTION: STBC 0x004564e0 _$E522
+// FUNCTION: STBC 0x004564f0 _$E521
+// FUNCTION: STBC 0x00456500 _$E525
+// FUNCTION: STBC 0x00456510 _$E524
+// FUNCTION: STBC 0x00456520 _$E528
+// FUNCTION: STBC 0x00456530 _$E527
+// FUNCTION: STBC 0x00456540 _$E538
+// FUNCTION: STBC 0x00456550 _$E537
+// FUNCTION: STBC 0x00456560 _$E546
+// FUNCTION: STBC 0x00456570 _$E545
+// FUNCTION: STBC 0x00456580 _$E550
+// FUNCTION: STBC 0x00456590 _$E549
+// FUNCTION: STBC 0x004565a0 _$E557
+// FUNCTION: STBC 0x004565b0 _$E556
+// FUNCTION: STBC 0x004565c0 _$E542
+// FUNCTION: STBC 0x004565d0 _$E541
+// FUNCTION: STBC 0x004565e0 _$E570
+// FUNCTION: STBC 0x004565f0 _$E569
+// FUNCTION: STBC 0x00456600 _$E566
+// FUNCTION: STBC 0x00456610 _$E565
+// FUNCTION: STBC 0x00456620 _$E578
+// FUNCTION: STBC 0x00456630 _$E577
+// FUNCTION: STBC 0x00456640 _$E582
+// FUNCTION: STBC 0x00456650 _$E581
+// FUNCTION: STBC 0x00456660 _$E589
+// FUNCTION: STBC 0x00456670 _$E588
+// FUNCTION: STBC 0x00456680 _$E592
+// FUNCTION: STBC 0x00456690 _$E591
+// FUNCTION: STBC 0x004566a0 _$E596
+// FUNCTION: STBC 0x004566b0 _$E595
+// FUNCTION: STBC 0x004566c0 _$E600
+// FUNCTION: STBC 0x004566d0 _$E599
+
+// The standard streams' initialisers and exit-time destructors (<iostream>), and the
+// locale id's guard.
+// FUNCTION: STBC 0x00455450 _$E216
+// FUNCTION: STBC 0x00455460 _$E213
+// FUNCTION: STBC 0x00455470 _$E215
+// FUNCTION: STBC 0x00455480 _$E214
+// FUNCTION: STBC 0x00455490 _$E222
+// FUNCTION: STBC 0x004554a0 _$E219
+// FUNCTION: STBC 0x004554b0 _$E221
+// FUNCTION: STBC 0x004554c0 _$E220
+// FUNCTION: STBC 0x004558c0 _$E614
+// FUNCTION: STBC 0x004558e0 _$E613
+
+// FUNCTION: STBC 0x00455000 _$E606
+// FUNCTION: STBC 0x00455010 _$E602
+// FUNCTION: STBC 0x00455030 _$E605
+// FUNCTION: STBC 0x00455040 _$E603
+// DATA: STBC 0x9809B0 ?rtti@TGDimmerController@@2VNiRTTI@@B
+const NiRTTI TGDimmerController::rtti( "TGDimmerController", &NiFloatController::rtti );
+
+/*
+================
+TGDimmerController::Register
+================
+*/
+// FUNCTION: STBC 0x455060 ?Register@TGDimmerController@@SAHXZ
+NiImplementRegister( TGDimmerController )
+
+/*
+================
+TGDimmerController::FindController
+================
+*/
+// FUNCTION: STBC 0x4551B0
+TGDimmerController *TGDimmerController::FindController( NiObjectNET *target ) {
+	for ( NiTimeController *controller = target->GetControllers(); controller; controller = controller->GetNext() ) {
+		TGDimmerController *dimmer = NiDynamicCast( TGDimmerController, controller );
+		if ( dimmer ) {
+			return dimmer;
+		}
+	}
+	return 0;
+}
+
+/*
+================
+TGDimmerController::Update
+
+Sets the light's dimmer to the keys' value at the scaled time.
+================
+*/
+// FUNCTION: STBC 0x455200
+void TGDimmerController::Update( float time ) {
+	if ( !target || !GetActive() || lastTime == time ) {
+		return;
+	}
+
+	unsigned int numKeys;
+	NiFloatKey::KeyType keyType;
+	NiFloatKey **keys = GetAnim( numKeys, keyType );
+	float scaledTime = ComputeScaledTime( time );
+	level = NiFloatKey::GenInterp( scaledTime, keys, keyType, numKeys, lastIndex );
+	( (NiLight *)target )->SetDimmer( level );
+}
+
+/*
+================
+TGDimmerController::CreateClone
+================
+*/
+// FUNCTION: STBC 0x455290
+NiObject *TGDimmerController::CreateClone() {
+	TGDimmerController *clone = new TGDimmerController;
+	CopyMembers( clone );
+	return clone;
+}
+
+/*
+================
+TGDimmerController::CopyMembers
+================
+*/
+// FUNCTION: STBC 0x455310
+void TGDimmerController::CopyMembers( TGDimmerController *dest ) {
+	NiFloatController::CopyMembers( dest );
+}
+
+/*
+================
+TGDimmerController::CreateObject
+================
+*/
+// FUNCTION: STBC 0x455320
+void TGDimmerController::CreateObject( NiStream &stream, NiObject *&object ) {
+	TGDimmerController *controller = new TGDimmerController;
+	stream.SetLoadRecord( new TGDimmerControllerLoadRecord );
+	controller->LoadBinary( stream );
+	object = controller;
+}
+
+/*
+================
+TGDimmerController::LoadBinary
+================
+*/
+// FUNCTION: STBC 0x4553F0
+void TGDimmerController::LoadBinary( NiStream &stream ) {
+	NiFloatController::LoadBinary( stream );
+}
+
+/*
+================
+TGDimmerController::LinkObject
+================
+*/
+// FUNCTION: STBC 0x455400
+void TGDimmerController::LinkObject( NiStream &stream ) {
+	NiFloatController::LinkObject( stream );
+}
+
+/*
+================
+TGDimmerController::RegisterStreamables
+================
+*/
+// FUNCTION: STBC 0x455410
+bool TGDimmerController::RegisterStreamables( NiStream &stream ) {
+	return NiFloatController::RegisterStreamables( stream );
+}
+
+/*
+================
+TGDimmerController::SaveBinary
+================
+*/
+// FUNCTION: STBC 0x455420
+void TGDimmerController::SaveBinary( NiStream &stream ) {
+	NiFloatController::SaveBinary( stream );
+}
+
+/*
+================
+TGDimmerController::IsEqual
+================
+*/
+// FUNCTION: STBC 0x455430
+bool TGDimmerController::IsEqual( NiObject *object ) {
+	return NiFloatController::IsEqual( object );
+}
+
+/*
+================
+TGDimmerController::GetViewerStrings
+================
+*/
+// FUNCTION: STBC 0x455440
+void TGDimmerController::GetViewerStrings( NiTArray<char *> *strings ) {
+	NiFloatController::GetViewerStrings( strings );
+}

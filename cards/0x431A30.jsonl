@@ -1,0 +1,5 @@
+{"date": "2026-10-28", "kind": "score", "lane": "game-objects-2", "commit": "c769ad3202", "from": null, "to": 28.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 44.8, "to": 44.8, "how": "accessor reads instead of members (tools sweep): node->GetNode 44.8", "wall": "register"}
+{"date": "2026-11-16", "kind": "try", "lane": "tgpoint3-constants", "by": "opus", "from": 44.8, "to": 44.8, "how": "rename only: TGPoint3::MODEL_* became the namespace-scope MODEL_* (unguarded exits); bytes unchanged, score as before"}
+{"date": "2026-11-17", "kind": "try", "lane": "modelutils", "by": "opus", "from": 44.8, "to": 44.8, "how": "TGModelUtils::LocalToWorldUnitVector( node, MODEL_* ): identical bytes (44.8); a named local result gives 72.1 but copies with fld/fstp where retail copies the call's returned [eax] with integer moves: reverted both", "wall": "register"}
+{"date": "2026-11-21", "kind": "score", "lane": "levers-sweep", "commit": "4494d438dc", "from": 44.8, "to": 100.0, "status": "MATCH"}

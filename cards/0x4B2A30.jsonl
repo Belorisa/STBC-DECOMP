@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-86", "commit": "21c80f9284", "from": null, "to": 32.5, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow-4", "by": "opus", "from": 32.5, "to": 32.5, "how": "read only: the extra branch is block placement of the first-loop skip stub (ours mid-function with a jmp around it, retail at the end), following the register-held cursors; outer and inner loop tests otherwise agree", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "damage-rtti", "by": "opus", "from": 32.5, "to": 32.5, "how": "renamed (class, method or nested type) from DamageTool.exe's RTTI and COFF symbols (lane damage-rtti); no statement changed, score unchanged"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-meta", "commit": "f15ddcbc5e", "from": 32.5, "to": 100.0, "status": "MATCH"}

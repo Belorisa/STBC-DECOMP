@@ -1,0 +1,3 @@
+{"date": "2026-11-14", "kind": "try", "lane": "voxel-warp", "by": "opus", "from": null, "to": 98.5, "how": "phase 1 draft: points from GetWorldLocation/speed*GetWorldForward()*4; display branch order swapped (pathDisplay != NULL first, 73->91); two separate 'if ( pathDisplay != NULL ) delete' blocks for the culled and no-next paths (91->98.5); residue is address-operand order in the compare loop and one register pick", "wall": "register"}
+{"date": "2026-11-14", "kind": "score", "lane": "voxel-warp", "commit": "a51c625052", "from": null, "to": 98.5, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "viewscreen-near", "commit": "541f602407", "from": 99.3, "to": 100.0, "status": "MATCH"}

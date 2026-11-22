@@ -1,0 +1,4 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-45", "commit": "6d55e76168", "from": null, "to": 70.3, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow3", "by": "opus", "from": 70.3, "to": 71.5, "how": "the start key's time read once into a local in the before and no-after cases (retail loads it once and subtracts st(1)): 70.3 -> 71.5; a flat if/else-if chain 58.6, next = after in each inner arm 58.6", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow3", "commit": "15bb4890aa", "from": 70.3, "to": 71.5, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 71.5, "to": 100.0, "status": "MATCH"}

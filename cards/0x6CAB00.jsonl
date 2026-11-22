@@ -1,0 +1,2 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-100", "commit": "4dcef20a19", "from": null, "to": 79.6, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "mixed-b", "by": "opus", "from": 79.6, "to": 79.6, "how": "c2trace read only: own 1135, budget 2270; retail calls one NiPointer<NiKeyframeData>::operator= and two DecRefCount out of line where ours expands all (the budget runs through two SortedArray::Insert sites of 275, SortedArray's header held for the user): not tried", "wall": "inline"}

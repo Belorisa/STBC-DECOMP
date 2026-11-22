@@ -1,0 +1,5 @@
+# The tools' Python dependencies (Python 3.10 or later, Windows).
+capstone>=5.0    # disassembly: decomp.py, sibling.py, sdkdebug.py
+numpy            # decomp.py, similar.py, sdkdebug.py
+scipy            # only tools/similar.py
+frida            # only tools/trace.py (runtime leads; optional)

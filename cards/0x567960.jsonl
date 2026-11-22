@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-16", "commit": "79a1fa9662", "from": null, "to": 83.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "fpu-copy", "how": "framemap: same frame, one value written as float on one side and int on the other: an FPU copy (fld/fstp) against integer moves, an inline level (x87.md, Floats copied through the FPU)"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80", "by": "opus", "from": 83.3, "to": 91.5, "how": "one AddAction call per arm (if ( i > 0 ) ... GetIdentificationTime() else ... 1.0f) where the ternary pushed a float temp: 83.3 -> 91.5, retail's two push tails; left: shipID/sensorsID registers and slots swapped", "wall": "register", "group": "register-roles"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80", "commit": "b6c32a4175", "from": 83.3, "to": 100.0, "status": "MATCH"}

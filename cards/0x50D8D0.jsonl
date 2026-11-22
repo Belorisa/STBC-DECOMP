@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-33", "commit": "b097136ba2", "from": null, "to": 72.5, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65", "by": "opus", "from": 72.5, "to": 75.4, "how": "subtitle window named before SetPositionForMode (retail calls FindMainWindow before pushing the arguments): 72.5 -> 75.4, the twin ForceTacticalVisible matched. Left: this and bridge tie at prio 57, bridge wins on last-def", "wall": "register", "group": "topwindow-force"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65", "commit": "26f7d6da56", "from": 72.5, "to": 75.4, "status": "DIFF"}

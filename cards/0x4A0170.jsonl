@@ -1,0 +1,2 @@
+{"date": "2026-11-04", "kind": "score", "lane": "game-73", "commit": "8facb4657e", "from": null, "to": 67.0, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 67.0, "to": 67.0, "how": "same 8-byte lowest slot as EditorMode::LeftDrag (0x497F60): the code is the same shifted by 8, plus retail stores the drag y through a float slot ([esp+0xc]) before lastMousePosition; the NiPoint2 movement copies tried there didn't add the slot", "wall": "structure"}

@@ -1,0 +1,5 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-2", "commit": "1fa3fe3629", "from": null, "to": 51.6, "status": "DIFF"}
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-3", "commit": "cc0e13a734", "from": 51.6, "to": 60.4, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-members", "by": "opus", "from": 60.4, "to": 60.4, "how": "RoundToPixelX/Y (invented) replaced by the SWIG-named TGUIModule::PixelAlignValue( value[, false] ), same body: score unchanged"}
+{"date": "2026-11-22", "kind": "try", "lane": "float-frame", "by": "opus", "from": 60.4, "to": 98.1, "how": "same fix as TGUIObject::SetPosition (early return, alignedX/Y locals, both deltas before the stores as TGUIObject::SetPosition writes them: retail keeps dy out of the dead x slot): -> 98.1; left the early parent load before the flags test", "wall": "register", "group": "tgui-move-frame"}
+{"date": "2026-11-22", "kind": "score", "lane": "float-frame", "commit": "96a058a9e6", "from": 60.4, "to": 98.1, "status": "DIFF"}

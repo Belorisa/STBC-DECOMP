@@ -1,0 +1,3 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-optimized", "by": "fable", "from": null, "to": 74.7, "how": "early returns gave xor eax returns (68.5); nested positive tests with a return inside 74.7; retail's NULL result lives in esi with a third return", "wall": "control-flow"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-optimized", "commit": "b5a883162e", "from": null, "to": 74.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "control-flow-walls", "commit": "ecfccf2f7b", "from": 74.7, "to": 100.0, "status": "MATCH"}

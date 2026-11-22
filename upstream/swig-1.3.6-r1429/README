@@ -1,0 +1,3 @@
+SWIG runtime templates at svn r1429 (git f5f572427ebe044cde5ee7fa65b4642a59adf0d7, https://github.com/swig/swig),
+1.3.6 plus one change; `git archive` SHA-256 3d7d93aa2d9aa76e95ddb513a935ae903433e98bdb76e2278738d0f46afa1409.
+The game's App wrapper unit was generated with this runtime (see tools/swig/README.md).

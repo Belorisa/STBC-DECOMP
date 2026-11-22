@@ -1,0 +1,5 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-optimized", "by": "fable", "from": null, "to": 74.3, "how": "phase 1 draft from the script's method of the same role; see the DRAFT note (if/else assignment into a NiPoint3 instead of ?: removed the EH frame where retail has none)"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-optimized", "commit": "b5a883162e", "from": null, "to": 74.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 74.3, "to": 88.9, "how": "HasSubsystemTargets written out (!ignoreSubsystemTargets && targetSubsystems.GetSize() != 0, retail expands it) 74.3->78.5; the ID through TGObject::GetSavedID (retail's xor esi/store zero path) ->88.9; ?: and if/else ID forms 82; left: the two ChooseRatedSubsystem calls cross-jump here", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "drafts-low-game", "commit": "1f164242f6", "from": 74.3, "to": 88.9, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow2", "commit": "7186a400d9", "from": 88.9, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-net-ui", "by": "opus", "from": null, "to": 70.3, "how": "first draft from the image cache (GetImages accessor, out of line at 0x72C250, matched): 70.3; the calls go to template copies of other units with no annotations yet", "wall": "referent"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-net-ui", "commit": "b3c40e0de3", "from": null, "to": 70.3, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "leads-mixed", "by": "opus", "from": 70.3, "to": 70.3, "how": "map retyped to NiPointer<NiImage> (evidence: NiStream's map serves only NiImage::LoadBinary; 0x44F130/0x407D40 are NiImage's); local image now NiPointer<NiImage>, score unchanged 70.3, still expands the NiPointer assignment retail calls out of line (0x45D9A0)"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts70", "commit": "25d3486ca6", "from": 70.3, "to": 100.0, "status": "MATCH"}

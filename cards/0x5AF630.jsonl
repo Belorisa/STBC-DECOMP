@@ -1,0 +1,3 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-79", "commit": "c8193d9510", "from": null, "to": 89.9, "status": "DIFF"}
+{"date": "2026-11-10", "kind": "try", "lane": "classes-3", "by": "opus", "from": 89.9, "to": 89.9, "how": "source parameter retyped TGObject * with VirtualSlot81's; bytes unchanged", "wall": "inline"}
+{"date": "2026-11-17", "kind": "score", "lane": "modelutils", "commit": "aa8c9f3689", "from": 89.9, "to": 100.0, "status": "MATCH"}

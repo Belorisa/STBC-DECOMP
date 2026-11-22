@@ -1,0 +1,5 @@
+{"date": "2026-11-07", "kind": "score", "lane": "game-77", "commit": "db09488282", "from": null, "to": 57.0, "status": "DIFF"}
+{"date": "2026-11-08", "kind": "score", "lane": "game-78", "commit": "f24ca56eb0", "from": 57.0, "to": 81.9, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "try", "lane": "avoid-cpydebug", "by": "sonnet", "from": 81.9, "to": 81.9, "how": "no try: PARKED note edited only to drop the clause that Unknown47F5F0 has no source (it has a draft now); code unchanged"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 81.9, "to": 81.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

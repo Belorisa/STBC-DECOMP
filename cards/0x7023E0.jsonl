@@ -1,0 +1,8 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-19", "commit": "c44d64b9ba", "from": null, "to": 98.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "tg-walls", "by": "opus", "from": 98.7, "to": 98.7, "how": "ternary on the clock inside one SetTimerStart: 74.8; a remaining = duration - delay local: 82.1; both worse, if/else kept", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 98.7, "to": 98.7, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 98.7, "to": 82.1, "how": "sched triage: (b) height: mov al,[useRealTime] (read, height 5, 0x1a000) beats fld duration (0x18000); naming duration - delay as a local stores it (82.1)", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 98.7, "to": 82.1, "how": "float remaining = duration - delay before the branch: 82.1 (spilled to a stack slot), reverted", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-95b", "by": "opus", "from": 98.7, "to": 100.0, "how": "matched: GetRealTime() + ( duration - delay ), the clock first as Play writes GetRealTime() + duration; GetRealTime() + duration - delay 92.3"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-95b", "commit": "dafb32b59f", "from": 98.7, "to": 100.0, "status": "MATCH"}

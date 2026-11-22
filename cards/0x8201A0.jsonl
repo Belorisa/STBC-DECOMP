@@ -1,0 +1,5 @@
+{"date": "2026-10-31", "kind": "score", "lane": "netimmerse-41", "commit": "4748efed52", "from": null, "to": 97.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.9, "to": 97.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 97.9, "to": 97.9, "how": "sched triage: (b) x87: velocity sum x term operand order", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "x87-walls", "commit": "7e6a26ed1b", "from": 97.9, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-15", "kind": "try", "lane": "subsystems-input", "by": "opus", "from": null, "to": 95.2, "how": "draft: early return -1 inverted to a nested success branch (88.4 -> 95.2); normal + ( hit + hit ) and hit + hit + normal compile alike; Unitize's multiply order is the rest", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "subsystems-input", "commit": "080ce309a0", "from": null, "to": 95.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "refine95", "by": "opus", "from": 95.2, "to": 95.2, "how": "facing = ( hit + hit ) + normal: 93.1 (reverted)", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "statics-refine", "commit": "944f5c6c73", "from": 95.2, "to": 100.0, "status": "MATCH"}

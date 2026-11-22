@@ -1,0 +1,3 @@
+{"date": "2026-11-16", "kind": "try", "lane": "ph1-tg", "by": "opus", "from": null, "to": 91.4, "how": "first draft with the NetImmerse property idioms (91.4): calls, CFG and constants agree but retail calls NiPoint3's ctor and SetField out of line (inline budget); NiAlphaProperty/NiTextureModeProperty vtable referents flagged", "wall": "inline"}
+{"date": "2026-11-16", "kind": "score", "lane": "ph1-tg", "commit": "88808d6c4b", "from": null, "to": 91.4, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "inline-depth", "commit": "58ddfdf790", "from": 91.4, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,6 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-ui-16", "commit": "7723165aba", "from": null, "to": 85.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "tg-walls", "by": "opus", "from": 85.7, "to": 85.7, "how": "return Create(...): 66.7 (the scale goes through integer moves; the unused result is right, BUG kept); direct windowFrameScale: 50.0; direct windowFrameName: no change; left: retail loads subPane into edx and the name into ecx", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 85.7, "to": 85.7, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 85.7, "to": 85.7, "how": "sched triage: (c) register pick (ecx for edx) and one extra reload: allocation", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80", "by": "opus", "from": 85.7, "to": 85.7, "how": "named frameName local before Create: no change (85.7); the scratch pick subPane edx/name ecx stays", "wall": "register", "group": "local-alloc"}

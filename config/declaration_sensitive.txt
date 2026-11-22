@@ -1,0 +1,23 @@
+# Functions ruled declaration-sensitive (AGENTS.md, "Policies"): their frame slots, register picks or schedule flip
+# with the declarations their unit sees, with their own source unchanged. `decomp.py regress` (and so
+# `merge_lane.py check` and `merge`) accepts a listed function's lost match by itself when its source is unchanged and
+# its diff is only what its line allows:
+#   frame/register   the same instructions in the same order; only registers and stack-frame offsets differ
+#   schedule         the same instructions in another order
+# Anything else is still a regression. One function per line: address, name, allowed kinds (comma-separated).
+0x554040 GraphicsMenu::ChangeDisplayMode frame/register
+0x6FA560 PyEmbed::SaveModuleState frame/register
+0x59D5B0 _wrap_ObjectGroup_ForceToGroup frame/register
+0x585F40 WeaponSystem_GetTargetList frame/register,schedule
+# NiMultiTextureProperty::CreateClone: two known byte states, MATCH and 99.4 (the count and clone reloads after the
+# inlined SetAt in the other order), flipping with NiTimeController.h's GetStartTime (user's ruling, 2026-11-18)
+0x8022A0 NiMultiTextureProperty::CreateClone schedule
+# DisableGlossMaps: two known byte states, MATCH and 99.9 (the loop's back edge lands before or after the inlined
+# GetAt's bounds check), a declaration count (ctxscan: exact with 1-63 more declarations, the other state with 0);
+# flips with NiDynamicEffectState.h's lineage Get/SetCachedState and NiPropertyState.h's SwapProperties (user's
+# ruling, 2026-11-19). The address of the branch target is masked, so the flip classes as frame/register.
+0x45CD20 DisableGlossMaps frame/register
+# NiMorphController::CreateObject: a declaration count (ctxscan --top: exact only at k=13, 26-33 and 39-60 more
+# declarations; the other state is DIFF 98.5, frame slots only), sitting at the edge of the 39-60 window, so most
+# NetImmerse header additions flip it (user's ruling, 2026-11-20).
+0x7A8DD0 NiMorphController::CreateObject frame/register

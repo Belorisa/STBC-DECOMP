@@ -1,0 +1,1 @@
+{"date": "2026-11-11", "kind": "try", "lane": "avoid-cpydebug", "by": "sonnet", "from": null, "to": 0.0, "how": "annotated NiTListBlock<AvoidanceCandidate*>'s scalar deleting destructor; 0x480250 expands the destructor inline (two operator delete calls) so no symbol is compiled; retail calls it out of line", "wall": "inline"}

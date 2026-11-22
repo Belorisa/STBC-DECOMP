@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "early-game2", "by": "opus", "from": null, "to": 42.1, "how": "first draft from the point and directional lights; out-of-line UnitCross, operator= and NiColor copies in retail", "wall": "inline"}
+{"date": "2026-11-15", "kind": "score", "lane": "early-game2", "commit": "db7e4ed843", "from": null, "to": 42.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "statics-refine", "by": "opus", "from": 42.1, "to": 35.6, "how": "source unchanged; dipped when the NiLight/NiPointLight/NiSpotLight setters took Gamebryo 1.1.2's IncRevisionID() call (NILIGHT.INL) in place of revision++ (inline budget moved)", "wall": "inline"}

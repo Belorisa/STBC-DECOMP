@@ -1,0 +1,6 @@
+{"date": "2026-11-05", "kind": "score", "lane": "ready-b", "commit": "fc02058fc7", "from": null, "to": 88.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "drafts-low-game", "by": "opus", "from": 88.8, "to": 93.4, "how": "accessor reads instead of members (tools sweep): renderedSet->GetRenderedSet 93.4", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 88.8, "to": 88.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 88.8, "to": 88.8, "how": "sched triage: (c) not-schedule, the instruction stream differs before the order does: first ours \"mov dword ptr [esp + 0x14], ecx\" retail \"mov dword ptr [esp + 0x14], edi\"", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90b", "commit": "2cc7dd80df", "from": 88.8, "to": 100.0, "status": "MATCH"}

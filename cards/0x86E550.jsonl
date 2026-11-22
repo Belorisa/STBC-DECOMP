@@ -1,0 +1,4 @@
+{"date": "2026-10-29", "kind": "score", "lane": "netimmerse-26", "commit": "e99eb72ac8", "from": null, "to": 85.0, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow2", "by": "opus", "from": 85.0, "to": 85.0, "how": "buffer as one ternary ( good && size > 0 ? new char[size] : 0 ): byte-identical to the if/else (85.0). Gamebryo 1.1.2 ships only NIFILE.H here (no body to compare). Retail moves the buffer = 0 arm behind the allocation's epilogue with its own epilogue copy; no spelling found that makes VC6 duplicate the EH epilogue", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "try", "lane": "yx-ab", "by": "opus", "from": 85.0, "to": 85.0, "how": "full-tree /YX A/B (lane yx-ab): 85.0 -> MATCH 100 under /YX, source unchanged; waits on the user's ruling on the switch", "wall": "structure"}
+{"date": "2026-11-18", "kind": "score", "lane": "yx-on", "commit": "b08d7209ce", "from": 85.0, "to": 100.0, "status": "MATCH"}

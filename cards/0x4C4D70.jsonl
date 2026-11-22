@@ -1,0 +1,6 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-86", "commit": "21c80f9284", "from": null, "to": 35.2, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "try", "lane": "damage-geometry", "by": "opus", "from": 35.2, "to": 35.2, "how": "moved to DamagePolygonizer.h as an inline (only caller Unknown4C2550, out of line there); unchanged at 35.2", "wall": "register"}
+{"date": "2026-11-11", "kind": "try", "lane": "polygonizer-drafts", "by": "sonnet", "from": 35.2, "to": 35.2, "how": "header edits re-compiled the unit; score unchanged at 35.2", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "damage-rtti", "by": "opus", "from": 35.2, "to": 35.2, "how": "renamed (class, method or nested type) from DamageTool.exe's RTTI and COFF symbols (lane damage-rtti); no statement changed, score unchanged"}
+{"date": "2026-11-20", "kind": "try", "lane": "dt-meta", "by": "opus", "from": 35.2, "to": 35.2, "how": "the cell index through GetCellIndex: identical bytes (35.2); retail computes the index before its pushes and keeps this in edx, the mask in al: register wall", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-leads", "commit": "aa9a05357a", "from": 35.2, "to": 100.0, "status": "MATCH"}

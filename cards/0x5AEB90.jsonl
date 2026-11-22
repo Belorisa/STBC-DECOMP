@@ -1,0 +1,5 @@
+{"date": "2026-11-07", "kind": "score", "lane": "game-75", "commit": "4670c0efe2", "from": null, "to": 78.8, "status": "DIFF"}
+{"date": "2026-11-09", "kind": "score", "lane": "game-101", "commit": "595ea6b42f", "from": 78.8, "to": 80.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 80.8, "to": 80.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80", "by": "opus", "from": 80.8, "to": 80.8, "how": "child local dropped (call written into the recursion) 78.8; c2trace --regs: subsystem prio 91 against i 89 (i doubles as AddTail's zero), retail needs i above subsystem: 3 units", "wall": "register", "group": "register-roles"}

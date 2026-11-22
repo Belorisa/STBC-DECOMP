@@ -1,0 +1,4 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 96.9, "how": "cases reordered 2,1,0 and default: return -1 tried; the default -1 stays inline after the dispatch instead of retail's shared block after case 0; field search rewritten to return from the loop (closer)", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 96.9, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "finish-ni", "by": "opus", "from": 96.9, "to": 100.0, "how": "no default; case 1's too-many-fields path breaks out to one return -1 after the switch (96.9 -> 100); without the break (only the default dropped) 95.8"}
+{"date": "2026-11-17", "kind": "score", "lane": "finish-ni", "commit": "1676118d97", "from": 96.9, "to": 100.0, "status": "MATCH"}

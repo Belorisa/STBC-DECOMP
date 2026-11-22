@@ -1,0 +1,7192 @@
+{
+"NiAVObject": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"NiAVObjectPtr": {
+"bases": [
+"NiAVObject"
+],
+"names": [
+"__init__"
+]
+},
+"NiCamera": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"NiCameraPtr": {
+"bases": [
+"NiCamera"
+],
+"names": [
+"__init__"
+]
+},
+"NiFrustum": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"NiFrustum_m_fLeft_set",
+"NiFrustum_m_fRight_set",
+"NiFrustum_m_fTop_set",
+"NiFrustum_m_fBottom_set",
+"NiFrustum_m_fNear_set",
+"NiFrustum_m_fFar_set",
+"__setmethods__",
+"__setattr__",
+"NiFrustum_m_fLeft_get",
+"NiFrustum_m_fRight_get",
+"NiFrustum_m_fTop_get",
+"NiFrustum_m_fBottom_get",
+"NiFrustum_m_fNear_get",
+"NiFrustum_m_fFar_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"NiFrustumPtr": {
+"bases": [
+"NiFrustum"
+],
+"names": [
+"__init__"
+]
+},
+"NiColor": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"NiColor_r_set",
+"NiColor_g_set",
+"NiColor_b_set",
+"__setmethods__",
+"__setattr__",
+"NiColor_r_get",
+"NiColor_g_get",
+"NiColor_b_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"NiColorPtr": {
+"bases": [
+"NiColor"
+],
+"names": [
+"__init__"
+]
+},
+"NiColorA": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"NiColorA_r_set",
+"NiColorA_g_set",
+"NiColorA_b_set",
+"NiColorA_a_set",
+"__setmethods__",
+"__setattr__",
+"NiColorA_r_get",
+"NiColorA_g_get",
+"NiColorA_b_get",
+"NiColorA_a_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"NiColorAPtr": {
+"bases": [
+"NiColorA"
+],
+"names": [
+"__init__"
+]
+},
+"NiPoint2": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"NiPoint2_x_set",
+"NiPoint2_y_set",
+"__setmethods__",
+"__setattr__",
+"NiPoint2_x_get",
+"NiPoint2_y_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"NiPoint2Ptr": {
+"bases": [
+"NiPoint2"
+],
+"names": [
+"__init__"
+]
+},
+"NiPoint3": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Cross",
+"UnitCross",
+"Perpendicular",
+"NiPoint3_x_set",
+"NiPoint3_y_set",
+"NiPoint3_z_set",
+"__setmethods__",
+"__setattr__",
+"NiPoint3_x_get",
+"NiPoint3_y_get",
+"NiPoint3_z_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"NiPoint3Ptr": {
+"bases": [
+"NiPoint3"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelUtils": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGModelUtilsPtr": {
+"bases": [
+"TGModelUtils"
+],
+"names": [
+"__init__"
+]
+},
+"TGSystemWrapperClass": {
+"bases": [],
+"names": [
+"Appc",
+"TGSystemWrapperClass_IMAGE_FORMAT_TGA",
+"IMAGE_FORMAT_TGA",
+"TGSystemWrapperClass_IMAGE_FORMAT_BMP",
+"IMAGE_FORMAT_BMP",
+"__init__",
+"__repr__"
+]
+},
+"TGSystemWrapperClassPtr": {
+"bases": [
+"TGSystemWrapperClass"
+],
+"names": [
+"__init__"
+]
+},
+"TGProfilingInfo": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGProfilingInfoPtr": {
+"bases": [
+"TGProfilingInfo"
+],
+"names": [
+"__init__"
+]
+},
+"TGConfigMapping": {
+"bases": [],
+"names": [
+"__init__",
+"GetTGStringValue",
+"__repr__"
+]
+},
+"TGConfigMappingPtr": {
+"bases": [
+"TGConfigMapping"
+],
+"names": [
+"__init__"
+]
+},
+"TGPoolManager": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGPoolManagerPtr": {
+"bases": [
+"TGPoolManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGObject": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGObjectPtr": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__"
+]
+},
+"TGAttrObject": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGAttrObjectPtr": {
+"bases": [
+"TGAttrObject"
+],
+"names": [
+"__init__"
+]
+},
+"TGTemplatedAttrObject": {
+"bases": [
+"TGAttrObject"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGTemplatedAttrObjectPtr": {
+"bases": [
+"TGTemplatedAttrObject"
+],
+"names": [
+"__init__"
+]
+},
+"TGString": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Append",
+"__repr__"
+]
+},
+"TGStringPtr": {
+"bases": [
+"TGString"
+],
+"names": [
+"__init__"
+]
+},
+"TGStream": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGStreamPtr": {
+"bases": [
+"TGStream"
+],
+"names": [
+"__init__"
+]
+},
+"TGBufferStream": {
+"bases": [
+"TGStream"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGBufferStreamPtr": {
+"bases": [
+"TGBufferStream"
+],
+"names": [
+"__init__"
+]
+},
+"TGLocalizationDatabase": {
+"bases": [],
+"names": [
+"__init__",
+"GetString",
+"__repr__"
+]
+},
+"TGLocalizationDatabasePtr": {
+"bases": [
+"TGLocalizationDatabase"
+],
+"names": [
+"__init__"
+]
+},
+"TGLocalizationManager": {
+"bases": [],
+"names": [
+"__init__",
+"Load",
+"GetIfRegistered",
+"__repr__"
+]
+},
+"TGLocalizationManagerPtr": {
+"bases": [
+"TGLocalizationManager"
+],
+"names": [
+"__init__"
+]
+},
+"NiNode": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"NiNodePtr": {
+"bases": [
+"NiNode"
+],
+"names": [
+"__init__"
+]
+},
+"TGAnimNode": {
+"bases": [
+"NiNode"
+],
+"names": [
+"__init__",
+"GetRootNode",
+"FindNode",
+"__repr__"
+]
+},
+"TGAnimNodePtr": {
+"bases": [
+"TGAnimNode"
+],
+"names": [
+"__init__"
+]
+},
+"TGAnimationManagerClass": {
+"bases": [],
+"names": [
+"Appc",
+"TGAnimationManagerClass_SAT_NORMAL",
+"SAT_NORMAL",
+"TGAnimationManagerClass_SAT_SPECIAL",
+"SAT_SPECIAL",
+"TGAnimationManagerClass_SAT_MOVES_PELVIS",
+"SAT_MOVES_PELVIS",
+"__init__",
+"__repr__"
+]
+},
+"TGAnimationManagerClassPtr": {
+"bases": [
+"TGAnimationManagerClass"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelManager": {
+"bases": [],
+"names": [
+"__init__",
+"GetModel",
+"GetCamera",
+"CloneModel",
+"CloneCamera",
+"CopyModel",
+"__repr__"
+]
+},
+"TGModelManagerPtr": {
+"bases": [
+"TGModelManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGEvent": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Duplicate",
+"GetSource",
+"GetDestination",
+"__repr__"
+]
+},
+"TGEventPtr": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGBoolEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGBoolEventPtr": {
+"bases": [
+"TGBoolEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGCharEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGCharEventPtr": {
+"bases": [
+"TGCharEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGShortEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGShortEventPtr": {
+"bases": [
+"TGShortEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGIntEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGIntEventPtr": {
+"bases": [
+"TGIntEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGFloatEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGFloatEventPtr": {
+"bases": [
+"TGFloatEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGStringEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGStringEventPtr": {
+"bases": [
+"TGStringEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGVoidPtrEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGVoidPtrEventPtr": {
+"bases": [
+"TGVoidPtrEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGObjPtrEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"GetObjPtr",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGObjPtrEventPtr": {
+"bases": [
+"TGObjPtrEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGEventHandlerObject": {
+"bases": [
+"TGTemplatedAttrObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGEventHandlerObjectPtr": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__"
+]
+},
+"TGEventManager": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGEventManagerPtr": {
+"bases": [
+"TGEventManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGTimer": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetEvent",
+"__repr__"
+]
+},
+"TGTimerPtr": {
+"bases": [
+"TGTimer"
+],
+"names": [
+"__init__"
+]
+},
+"TGTimerManager": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGTimerManagerPtr": {
+"bases": [
+"TGTimerManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGPythonInstanceWrapper": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGPythonInstanceWrapperPtr": {
+"bases": [
+"TGPythonInstanceWrapper"
+],
+"names": [
+"__init__"
+]
+},
+"TGIEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGIEventPtr": {
+"bases": [
+"TGIEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGMouseEvent": {
+"bases": [
+"TGIEvent"
+],
+"names": [
+"Appc",
+"TGMouseEvent_MEF_BUTTON_DOWN",
+"MEF_BUTTON_DOWN",
+"TGMouseEvent_MEF_BUTTON_UP",
+"MEF_BUTTON_UP",
+"TGMouseEvent_MEF_BUTTON_MASK",
+"MEF_BUTTON_MASK",
+"TGMouseEvent_MEF_BUTTON_NUM_MASK",
+"MEF_BUTTON_NUM_MASK",
+"TGMouseEvent_MEF_BUTTON_LEFT",
+"MEF_BUTTON_LEFT",
+"TGMouseEvent_MEF_BUTTON_RIGHT",
+"MEF_BUTTON_RIGHT",
+"TGMouseEvent_MEF_BUTTON_MIDDLE",
+"MEF_BUTTON_MIDDLE",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGMouseEventPtr": {
+"bases": [
+"TGMouseEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGKeyboardEvent": {
+"bases": [
+"TGIEvent"
+],
+"names": [
+"Appc",
+"TGKeyboardEvent_KS_NORMAL",
+"KS_NORMAL",
+"TGKeyboardEvent_KS_KEYDOWN",
+"KS_KEYDOWN",
+"TGKeyboardEvent_KS_KEYUP",
+"KS_KEYUP",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGKeyboardEventPtr": {
+"bases": [
+"TGKeyboardEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGGamepadEvent": {
+"bases": [
+"TGIEvent"
+],
+"names": [
+"Appc",
+"TGGamepadEvent_PS_AXIS",
+"PS_AXIS",
+"TGGamepadEvent_PS_BTNDOWN",
+"PS_BTNDOWN",
+"TGGamepadEvent_PS_BTNUP",
+"PS_BTNUP",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGGamepadEventPtr": {
+"bases": [
+"TGGamepadEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGInputManager": {
+"bases": [],
+"names": [
+"Appc",
+"TGInputManager_TG_KEYBOARD",
+"TG_KEYBOARD",
+"TGInputManager_TG_MOUSE",
+"TG_MOUSE",
+"TGInputManager_TG_GAMEPAD",
+"TG_GAMEPAD",
+"TGInputManager_TG_NO_BUTTONS",
+"TG_NO_BUTTONS",
+"TGInputManager_TG_LMBUTTON",
+"TG_LMBUTTON",
+"TGInputManager_TG_CMBUTTON",
+"TG_CMBUTTON",
+"TGInputManager_TG_RMBUTTON",
+"TG_RMBUTTON",
+"TGInputManager_TG_BUTTON4",
+"TG_BUTTON4",
+"TGInputManager_KS_MOVE",
+"KS_MOVE",
+"TGInputManager_KS_DOWN",
+"KS_DOWN",
+"TGInputManager_KS_UP",
+"KS_UP",
+"TGInputManager_KS_NORMAL",
+"KS_NORMAL",
+"TGInputManager_KS_MOVE_DELTA",
+"KS_MOVE_DELTA",
+"TGInputManager_LEFT_DOWN",
+"LEFT_DOWN",
+"TGInputManager_MIDDLE_DOWN",
+"MIDDLE_DOWN",
+"TGInputManager_RIGHT_DOWN",
+"RIGHT_DOWN",
+"__init__",
+"GetMousePos",
+"GetMouseDelta",
+"GetDisplayStringFromUnicode",
+"__repr__"
+]
+},
+"TGInputManagerPtr": {
+"bases": [
+"TGInputManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGUIModule": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGUIModulePtr": {
+"bases": [
+"TGUIModule"
+],
+"names": [
+"__init__"
+]
+},
+"TGRect": {
+"bases": [],
+"names": [
+"Appc",
+"TGRect_NOT_WITHIN_RECT",
+"NOT_WITHIN_RECT",
+"TGRect_COMPLETELY_WITHIN_RECT",
+"COMPLETELY_WITHIN_RECT",
+"TGRect_PARTIALLY_WITHIN_RECT",
+"PARTIALLY_WITHIN_RECT",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGRectPtr": {
+"bases": [
+"TGRect"
+],
+"names": [
+"__init__"
+]
+},
+"TGUIObject": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"Appc",
+"TGUIObject_ALIGN_UL",
+"ALIGN_UL",
+"TGUIObject_ALIGN_UR",
+"ALIGN_UR",
+"TGUIObject_ALIGN_BL",
+"ALIGN_BL",
+"TGUIObject_ALIGN_BR",
+"ALIGN_BR",
+"__init__",
+"__del__",
+"GetParent",
+"GetConceptualParent",
+"GetCommonAncestor",
+"GetFocusLeaf",
+"__repr__"
+]
+},
+"TGUIObjectPtr": {
+"bases": [
+"TGUIObject"
+],
+"names": [
+"__init__"
+]
+},
+"TGPane": {
+"bases": [
+"TGUIObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetFirstChild",
+"GetLastChild",
+"GetNthChild",
+"GetNextChild",
+"GetPrevChild",
+"GetFocus",
+"GetFocusLeaf",
+"GetTrueNthChild",
+"__repr__"
+]
+},
+"TGPanePtr": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__"
+]
+},
+"TGIcon": {
+"bases": [
+"TGUIObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetIconPoly",
+"__repr__"
+]
+},
+"TGIconPtr": {
+"bases": [
+"TGIcon"
+],
+"names": [
+"__init__"
+]
+},
+"TGFrame": {
+"bases": [
+"TGUIObject"
+],
+"names": [
+"Appc",
+"TGFrame_FRAME_STRETCH_TO_FIT",
+"FRAME_STRETCH_TO_FIT",
+"TGFrame_FRAME_WRAP_TEXTURES_TO_FIT",
+"FRAME_WRAP_TEXTURES_TO_FIT",
+"TGFrame_FRAME_TILE_POLYS_TO_FIT",
+"FRAME_TILE_POLYS_TO_FIT",
+"TGFrame_STRETCH_NONE",
+"STRETCH_NONE",
+"TGFrame_NO_STRETCH_TB",
+"NO_STRETCH_TB",
+"TGFrame_NO_STRETCH_LR",
+"NO_STRETCH_LR",
+"__init__",
+"GetInnerRect",
+"GetNiColor",
+"__del__",
+"__repr__"
+]
+},
+"TGFramePtr": {
+"bases": [
+"TGFrame"
+],
+"names": [
+"__init__"
+]
+},
+"TGButtonBase": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetActivationEvent",
+"__repr__"
+]
+},
+"TGButtonBasePtr": {
+"bases": [
+"TGButtonBase"
+],
+"names": [
+"__init__"
+]
+},
+"TGButton": {
+"bases": [
+"TGButtonBase"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGButtonPtr": {
+"bases": [
+"TGButton"
+],
+"names": [
+"__init__"
+]
+},
+"TGTextButton": {
+"bases": [
+"TGButtonBase"
+],
+"names": [
+"Appc",
+"TGTextButton_FRAME_STRETCH_TO_FIT",
+"FRAME_STRETCH_TO_FIT",
+"TGTextButton_FRAME_WRAP_TEXTURES_TO_FIT",
+"FRAME_WRAP_TEXTURES_TO_FIT",
+"TGTextButton_FRAME_TILE_POLYS_TO_FIT",
+"FRAME_TILE_POLYS_TO_FIT",
+"TGTextButton_ALIGN_LEFT",
+"ALIGN_LEFT",
+"TGTextButton_ALIGN_CENTER",
+"ALIGN_CENTER",
+"TGTextButton_ALIGN_RIGHT",
+"ALIGN_RIGHT",
+"TGTextButton_ALIGN_TOP",
+"ALIGN_TOP",
+"TGTextButton_ALIGN_MIDDLE",
+"ALIGN_MIDDLE",
+"TGTextButton_ALIGN_BOTTOM",
+"ALIGN_BOTTOM",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGTextButtonPtr": {
+"bases": [
+"TGTextButton"
+],
+"names": [
+"__init__"
+]
+},
+"TGRootPane": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"TGRootPane_MCPP_VERTICAL_TOP",
+"MCPP_VERTICAL_TOP",
+"TGRootPane_MCPP_VERTICAL_CENTER",
+"MCPP_VERTICAL_CENTER",
+"TGRootPane_MCPP_VERTICAL_BOTTOM",
+"MCPP_VERTICAL_BOTTOM",
+"TGRootPane_MCPP_VERTICAL_MASK",
+"MCPP_VERTICAL_MASK",
+"TGRootPane_MCPP_HORIZONTAL_LEFT",
+"MCPP_HORIZONTAL_LEFT",
+"TGRootPane_MCPP_HORIZONTAL_CENTER",
+"MCPP_HORIZONTAL_CENTER",
+"TGRootPane_MCPP_HORIZONTAL_RIGHT",
+"MCPP_HORIZONTAL_RIGHT",
+"TGRootPane_MCPP_HORIZONTAL_MASK",
+"MCPP_HORIZONTAL_MASK",
+"__init__",
+"GetMouseCursor",
+"GetMouseGrabOwner",
+"GetTrueFocus",
+"__del__",
+"__repr__"
+]
+},
+"TGRootPanePtr": {
+"bases": [
+"TGRootPane"
+],
+"names": [
+"__init__"
+]
+},
+"TGParagraph": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"TGParagraph_TGPF_READ_ONLY",
+"TGPF_READ_ONLY",
+"TGParagraph_TGPF_INSERT_MODE",
+"TGPF_INSERT_MODE",
+"TGParagraph_TGPF_WORD_WRAP",
+"TGPF_WORD_WRAP",
+"TGParagraph_TGPF_RECALC_BOUNDS",
+"TGPF_RECALC_BOUNDS",
+"TGParagraph_TGPF_FLAGS_MASK",
+"TGPF_FLAGS_MASK",
+"__init__",
+"__del__",
+"GetFontGroup",
+"__repr__"
+]
+},
+"TGParagraphPtr": {
+"bases": [
+"TGParagraph"
+],
+"names": [
+"__init__"
+]
+},
+"TGIconGroup": {
+"bases": [],
+"names": [
+"Appc",
+"TGIconGroup_ROTATE_0",
+"ROTATE_0",
+"TGIconGroup_ROTATE_90",
+"ROTATE_90",
+"TGIconGroup_ROTATE_180",
+"ROTATE_180",
+"TGIconGroup_ROTATE_270",
+"ROTATE_270",
+"TGIconGroup_MIRROR_NONE",
+"MIRROR_NONE",
+"TGIconGroup_MIRROR_HORIZONTAL",
+"MIRROR_HORIZONTAL",
+"TGIconGroup_MIRROR_VERTICAL",
+"MIRROR_VERTICAL",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGIconGroupPtr": {
+"bases": [
+"TGIconGroup"
+],
+"names": [
+"__init__"
+]
+},
+"TGIconManager": {
+"bases": [],
+"names": [
+"Appc",
+"TGIconManager_CLAMP_NONE",
+"CLAMP_NONE",
+"TGIconManager_CLAMP_T",
+"CLAMP_T",
+"TGIconManager_CLAMP_S",
+"CLAMP_S",
+"TGIconManager_CLAMP_S_AND_T",
+"CLAMP_S_AND_T",
+"__init__",
+"CreateIconGroup",
+"GetIconGroup",
+"__repr__"
+]
+},
+"TGIconManagerPtr": {
+"bases": [
+"TGIconManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGFontGroup": {
+"bases": [
+"TGIconGroup"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGFontGroupPtr": {
+"bases": [
+"TGFontGroup"
+],
+"names": [
+"__init__"
+]
+},
+"TGFontManager": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"CreateFontGroup",
+"GetDefaultFont",
+"GetFontGroup",
+"__repr__"
+]
+},
+"TGFontManagerPtr": {
+"bases": [
+"TGFontManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGWindow": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetSubPane",
+"__repr__"
+]
+},
+"TGWindowPtr": {
+"bases": [
+"TGWindow"
+],
+"names": [
+"__init__"
+]
+},
+"TGFrameWindow": {
+"bases": [
+"TGWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetFramePane",
+"__repr__"
+]
+},
+"TGFrameWindowPtr": {
+"bases": [
+"TGFrameWindow"
+],
+"names": [
+"__init__"
+]
+},
+"TGDialogWindow": {
+"bases": [
+"TGFrameWindow"
+],
+"names": [
+"Appc",
+"TGDialogWindow_DFT_OK",
+"DFT_OK",
+"TGDialogWindow_DFT_CANCEL",
+"DFT_CANCEL",
+"TGDialogWindow_DFT_YES",
+"DFT_YES",
+"TGDialogWindow_DFT_NO",
+"DFT_NO",
+"TGDialogWindow_DFT_ABORT",
+"DFT_ABORT",
+"TGDialogWindow_DFT_RETRY",
+"DFT_RETRY",
+"TGDialogWindow_DFT_CONTINUE",
+"DFT_CONTINUE",
+"TGDialogWindow_DFT_IGNORE",
+"DFT_IGNORE",
+"TGDialogWindow_DFT_HELP",
+"DFT_HELP",
+"TGDialogWindow_DFT_OKCANCEL",
+"DFT_OKCANCEL",
+"TGDialogWindow_DFT_YESNO",
+"DFT_YESNO",
+"TGDialogWindow_DFT_YESNOCANCEL",
+"DFT_YESNOCANCEL",
+"TGDialogWindow_DFT_ABORTRETRYCONTINUE",
+"DFT_ABORTRETRYCONTINUE",
+"TGDialogWindow_DFT_OKCANCELHELP",
+"DFT_OKCANCELHELP",
+"TGDialogWindow_DFT_YESNOHELP",
+"DFT_YESNOHELP",
+"TGDialogWindow_DFT_DEFAULTBUTTON1",
+"DFT_DEFAULTBUTTON1",
+"TGDialogWindow_DFT_DEFAULTBUTTON2",
+"DFT_DEFAULTBUTTON2",
+"TGDialogWindow_DFT_DEFAULTBUTTON3",
+"DFT_DEFAULTBUTTON3",
+"TGDialogWindow_DFT_DEFAULTBUTTON4",
+"DFT_DEFAULTBUTTON4",
+"TGDialogWindow_DFT_HIDETITLE",
+"DFT_HIDETITLE",
+"TGDialogWindow_DFT_DRAGGABLE",
+"DFT_DRAGGABLE",
+"TGDialogWindow_DFT_BUTTONMASK",
+"DFT_BUTTONMASK",
+"TGDialogWindow_DFT_FEATUREMASK",
+"DFT_FEATUREMASK",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGDialogWindowPtr": {
+"bases": [
+"TGDialogWindow"
+],
+"names": [
+"__init__"
+]
+},
+"TGUITheme": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGUIThemePtr": {
+"bases": [
+"TGUITheme"
+],
+"names": [
+"__init__"
+]
+},
+"TGUIThemeManager": {
+"bases": [],
+"names": [
+"__init__",
+"FindTheme",
+"GetCurrentTheme",
+"__repr__"
+]
+},
+"TGUIThemeManagerPtr": {
+"bases": [
+"TGUIThemeManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGConsole": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGConsolePtr": {
+"bases": [
+"TGConsole"
+],
+"names": [
+"__init__"
+]
+},
+"TGPrompt": {
+"bases": [
+"TGParagraph"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGPromptPtr": {
+"bases": [
+"TGPrompt"
+],
+"names": [
+"__init__"
+]
+},
+"TGSound": {
+"bases": [],
+"names": [
+"Appc",
+"TGSound_LS_3D",
+"LS_3D",
+"TGSound_LS_STREAMED",
+"LS_STREAMED",
+"TGSound_LS_DELAY_LOADING",
+"LS_DELAY_LOADING",
+"TGSound_SS_PLAYING",
+"SS_PLAYING",
+"TGSound_SS_STOPPED",
+"SS_STOPPED",
+"TGSound_SS_UNLOADED",
+"SS_UNLOADED",
+"TGSound_SS_UNKNOWN",
+"SS_UNKNOWN",
+"__init__",
+"GetParentNode",
+"GetPosition",
+"GetEndEvent",
+"__repr__"
+]
+},
+"TGSoundPtr": {
+"bases": [
+"TGSound"
+],
+"names": [
+"__init__"
+]
+},
+"TGSoundManager": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"GetSound",
+"GetPlayingSound",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGSoundManagerPtr": {
+"bases": [
+"TGSoundManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGRedbookClass": {
+"bases": [],
+"names": [
+"Appc",
+"TGRedbookClass_MAX_CD_TRACKS",
+"MAX_CD_TRACKS",
+"__init__",
+"__repr__"
+]
+},
+"TGRedbookClassPtr": {
+"bases": [
+"TGRedbookClass"
+],
+"names": [
+"__init__"
+]
+},
+"TGMusic": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGMusicPtr": {
+"bases": [
+"TGMusic"
+],
+"names": [
+"__init__"
+]
+},
+"TGSoundRegion": {
+"bases": [
+"TGObject"
+],
+"names": [
+"Appc",
+"TGSoundRegion_FT_NONE",
+"FT_NONE",
+"TGSoundRegion_FT_MUTE",
+"FT_MUTE",
+"TGSoundRegion_FT_MUFFLE",
+"FT_MUFFLE",
+"__init__",
+"__repr__"
+]
+},
+"TGSoundRegionPtr": {
+"bases": [
+"TGSoundRegion"
+],
+"names": [
+"__init__"
+]
+},
+"PyEmbed": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"PyEmbedPtr": {
+"bases": [
+"PyEmbed"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelProperty": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetName",
+"Duplicate",
+"__repr__"
+]
+},
+"TGModelPropertyPtr": {
+"bases": [
+"TGModelProperty"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelPropertyManager": {
+"bases": [],
+"names": [
+"Appc",
+"TGModelPropertyManager_GLOBAL_TEMPLATES",
+"GLOBAL_TEMPLATES",
+"TGModelPropertyManager_LOCAL_TEMPLATES",
+"LOCAL_TEMPLATES",
+"__init__",
+"FindByNameAndType",
+"FindByName",
+"__repr__"
+]
+},
+"TGModelPropertyManagerPtr": {
+"bases": [
+"TGModelPropertyManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelPropertySet": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPropertyList",
+"GetPropertiesByType",
+"__repr__"
+]
+},
+"TGModelPropertySetPtr": {
+"bases": [
+"TGModelPropertySet"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelPropertyInstance": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetOriginalTemplate",
+"__repr__"
+]
+},
+"TGModelPropertyInstancePtr": {
+"bases": [
+"TGModelPropertyInstance"
+],
+"names": [
+"__init__"
+]
+},
+"TGModelPropertyList": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"TGGetNext",
+"__repr__"
+]
+},
+"TGModelPropertyListPtr": {
+"bases": [
+"TGModelPropertyList"
+],
+"names": [
+"__init__"
+]
+},
+"TGAction": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"GetSequence",
+"__repr__"
+]
+},
+"TGActionPtr": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGActionManager": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGActionManagerPtr": {
+"bases": [
+"TGActionManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGSequence": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"GetAction",
+"__repr__"
+]
+},
+"TGSequencePtr": {
+"bases": [
+"TGSequence"
+],
+"names": [
+"__init__"
+]
+},
+"TGScriptAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGScriptActionPtr": {
+"bases": [
+"TGScriptAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGTimedAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGTimedActionPtr": {
+"bases": [
+"TGTimedAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGSoundAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGSoundActionPtr": {
+"bases": [
+"TGSoundAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGAnimAction": {
+"bases": [
+"TGTimedAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGAnimActionPtr": {
+"bases": [
+"TGAnimAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGAnimPosition": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGAnimPositionPtr": {
+"bases": [
+"TGAnimPosition"
+],
+"names": [
+"__init__"
+]
+},
+"TGCondition": {
+"bases": [
+"TGObject"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGConditionPtr": {
+"bases": [
+"TGCondition"
+],
+"names": [
+"__init__"
+]
+},
+"TGConditionHandler": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGConditionHandlerPtr": {
+"bases": [
+"TGConditionHandler"
+],
+"names": [
+"__init__"
+]
+},
+"TGConditionAction": {
+"bases": [
+"TGAction",
+"TGConditionHandler"
+],
+"names": [
+"Appc",
+"TGConditionAction_TGCA_WAIT",
+"TGCA_WAIT",
+"TGConditionAction_TGCA_COMPLETED",
+"TGCA_COMPLETED",
+"__init__",
+"__repr__"
+]
+},
+"TGConditionActionPtr": {
+"bases": [
+"TGConditionAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGMessage": {
+"bases": [],
+"names": [
+"Appc",
+"TGMessage_TGMESSAGE_SAME_BACKOFF",
+"TGMESSAGE_SAME_BACKOFF",
+"TGMessage_TGMESSAGE_LINEAR_BACKOFF",
+"TGMESSAGE_LINEAR_BACKOFF",
+"TGMessage_TGMESSAGE_DOUBLE_BACKOFF",
+"TGMESSAGE_DOUBLE_BACKOFF",
+"__init__",
+"__del__",
+"Copy",
+"GetBufferStream",
+"__repr__"
+]
+},
+"TGMessagePtr": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGPlayerList": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPlayerAtIndex",
+"GetPlayer",
+"GetPlayerFromAddress",
+"__repr__"
+]
+},
+"TGPlayerListPtr": {
+"bases": [
+"TGPlayerList"
+],
+"names": [
+"__init__"
+]
+},
+"TGNetwork": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"Appc",
+"TGNetwork_TGNETWORK_MAX_SENDS_PENDING",
+"TGNETWORK_MAX_SENDS_PENDING",
+"TGNetwork_TGNETWORK_MAX_LOG_ENTRIES",
+"TGNETWORK_MAX_LOG_ENTRIES",
+"TGNetwork_TGNETWORK_MAX_SEQUENCE_DIFFERENCE",
+"TGNETWORK_MAX_SEQUENCE_DIFFERENCE",
+"TGNetwork_TGNETWORK_INVALID_ID",
+"TGNETWORK_INVALID_ID",
+"TGNetwork_TGNETWORK_GAMESPY_PLAYER_ID",
+"TGNETWORK_GAMESPY_PLAYER_ID",
+"TGNetwork_TGNETWORK_NULL_ID",
+"TGNETWORK_NULL_ID",
+"TGNetwork_DEFAULT_BOOT",
+"DEFAULT_BOOT",
+"TGNetwork_TIMED_OUT",
+"TIMED_OUT",
+"TGNetwork_INCORRECT_PASSWORD",
+"INCORRECT_PASSWORD",
+"TGNetwork_TOO_MANY_PLAYERS",
+"TOO_MANY_PLAYERS",
+"TGNetwork_SERVER_BOOTED_YOU",
+"SERVER_BOOTED_YOU",
+"TGNetwork_YOU_ARE_BANNED",
+"YOU_ARE_BANNED",
+"__init__",
+"__del__",
+"GetName",
+"GetNextMessage",
+"GetHostName",
+"GetPlayerList",
+"GetPassword",
+"GetGroup",
+"__repr__"
+]
+},
+"TGNetworkPtr": {
+"bases": [
+"TGNetwork"
+],
+"names": [
+"__init__"
+]
+},
+"TGWinsockNetwork": {
+"bases": [
+"TGNetwork"
+],
+"names": [
+"Appc",
+"TGWinsockNetwork_TGWINSOCK_MAX_PACKET_SIZE",
+"TGWINSOCK_MAX_PACKET_SIZE",
+"TGWinsockNetwork_WINSOCK_VERSION_NUMBER",
+"WINSOCK_VERSION_NUMBER",
+"TGWinsockNetwork_WINSOCK_PORT",
+"WINSOCK_PORT",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGWinsockNetworkPtr": {
+"bases": [
+"TGWinsockNetwork"
+],
+"names": [
+"__init__"
+]
+},
+"TGNameChangeMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGNameChangeMessagePtr": {
+"bases": [
+"TGNameChangeMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGAckMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGAckMessagePtr": {
+"bases": [
+"TGAckMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGDoNothingMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGDoNothingMessagePtr": {
+"bases": [
+"TGDoNothingMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGBootPlayerMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGBootPlayerMessagePtr": {
+"bases": [
+"TGBootPlayerMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGConnectMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGConnectMessagePtr": {
+"bases": [
+"TGConnectMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGDisconnectMessage": {
+"bases": [
+"TGMessage"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGDisconnectMessagePtr": {
+"bases": [
+"TGDisconnectMessage"
+],
+"names": [
+"__init__"
+]
+},
+"TGMessageEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetMessage",
+"__repr__"
+]
+},
+"TGMessageEventPtr": {
+"bases": [
+"TGMessageEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGPlayerEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGPlayerEventPtr": {
+"bases": [
+"TGPlayerEvent"
+],
+"names": [
+"__init__"
+]
+},
+"TGGroupPlayer": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"TGGroupPlayer_m_iNetID_set",
+"__setmethods__",
+"__setattr__",
+"TGGroupPlayer_m_iNetID_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"TGGroupPlayerPtr": {
+"bases": [
+"TGGroupPlayer"
+],
+"names": [
+"__init__"
+]
+},
+"TGNetGroup": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Copy",
+"__repr__"
+]
+},
+"TGNetGroupPtr": {
+"bases": [
+"TGNetGroup"
+],
+"names": [
+"__init__"
+]
+},
+"TGNetPlayer": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetName",
+"Copy",
+"__repr__"
+]
+},
+"TGNetPlayerPtr": {
+"bases": [
+"TGNetPlayer"
+],
+"names": [
+"__init__"
+]
+},
+"TGMovieAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGMovieActionPtr": {
+"bases": [
+"TGMovieAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGCreditAction": {
+"bases": [
+"TGTimedAction"
+],
+"names": [
+"Appc",
+"TGCreditAction_JUSTIFY_LEFT",
+"JUSTIFY_LEFT",
+"TGCreditAction_JUSTIFY_RIGHT",
+"JUSTIFY_RIGHT",
+"TGCreditAction_JUSTIFY_TOP",
+"JUSTIFY_TOP",
+"TGCreditAction_JUSTIFY_BOTTOM",
+"JUSTIFY_BOTTOM",
+"TGCreditAction_JUSTIFY_CENTER",
+"JUSTIFY_CENTER",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TGCreditActionPtr": {
+"bases": [
+"TGCreditAction"
+],
+"names": [
+"__init__"
+]
+},
+"TGMovieManager": {
+"bases": [],
+"names": [
+"Appc",
+"TGMovieManager_MAX_MOVIES_AT_ONCE",
+"MAX_MOVIES_AT_ONCE",
+"__init__",
+"__repr__"
+]
+},
+"TGMovieManagerPtr": {
+"bases": [
+"TGMovieManager"
+],
+"names": [
+"__init__"
+]
+},
+"TGGeomUtils": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TGGeomUtilsPtr": {
+"bases": [
+"TGGeomUtils"
+],
+"names": [
+"__init__"
+]
+},
+"UtopiaModule": {
+"bases": [],
+"names": [
+"Appc",
+"UtopiaModule_CLIENT_RANGE",
+"CLIENT_RANGE",
+"__init__",
+"GetCamera",
+"GetCaptainName",
+"GetNetwork",
+"GetGameSpy",
+"__repr__"
+]
+},
+"UtopiaModulePtr": {
+"bases": [
+"UtopiaModule"
+],
+"names": [
+"__init__"
+]
+},
+"UtopiaApp": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"UtopiaAppPtr": {
+"bases": [
+"UtopiaApp"
+],
+"names": [
+"__init__"
+]
+},
+"NiMatrix3": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"NiMatrix3Ptr": {
+"bases": [
+"NiMatrix3"
+],
+"names": [
+"__init__"
+]
+},
+"TGMatrix3": {
+"bases": [
+"NiMatrix3"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Inverse",
+"Transpose",
+"MultMatrix",
+"MultMatrixLeft",
+"TransposeTimes",
+"Congruence",
+"__repr__"
+]
+},
+"TGMatrix3Ptr": {
+"bases": [
+"TGMatrix3"
+],
+"names": [
+"__init__"
+]
+},
+"TGPoint3": {
+"bases": [
+"NiPoint3"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"Cross",
+"UnitCross",
+"GetAlignedComponent",
+"GetPerpendicularComponent",
+"TGPoint3_x_set",
+"TGPoint3_y_set",
+"TGPoint3_z_set",
+"__setmethods__",
+"__setattr__",
+"TGPoint3_x_get",
+"TGPoint3_y_get",
+"TGPoint3_z_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"TGPoint3Ptr": {
+"bases": [
+"TGPoint3"
+],
+"names": [
+"__init__"
+]
+},
+"TGColorA": {
+"bases": [
+"NiColorA"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"TGColorA_r_set",
+"TGColorA_g_set",
+"TGColorA_b_set",
+"TGColorA_a_set",
+"__setmethods__",
+"__setattr__",
+"TGColorA_r_get",
+"TGColorA_g_get",
+"TGColorA_b_get",
+"TGColorA_a_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"TGColorAPtr": {
+"bases": [
+"TGColorA"
+],
+"names": [
+"__init__"
+]
+},
+"SetClass": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"GetProximityManager",
+"RemoveObjectFromSet",
+"GetObject",
+"GetObjectByID",
+"GetFirstObject",
+"GetNextObject",
+"GetPreviousObject",
+"GetSceneRoot",
+"GetEffectRoot",
+"GetBackdropRoot",
+"GetForegroundRoot",
+"GetCamera",
+"GetActiveCamera",
+"GetLight",
+"GetPickedObject",
+"GetNebula",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SetClassPtr": {
+"bases": [
+"SetClass"
+],
+"names": [
+"__init__"
+]
+},
+"SetManager": {
+"bases": [],
+"names": [
+"__init__",
+"GetSet",
+"GetRenderedSet",
+"__repr__"
+]
+},
+"SetManagerPtr": {
+"bases": [
+"SetManager"
+],
+"names": [
+"__init__"
+]
+},
+"ScriptObject": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"LoadSound",
+"LoadDatabaseSound",
+"SetDatabase",
+"GetDatabase",
+"__repr__"
+]
+},
+"ScriptObjectPtr": {
+"bases": [
+"ScriptObject"
+],
+"names": [
+"__init__"
+]
+},
+"Game": {
+"bases": [
+"ScriptObject"
+],
+"names": [
+"Appc",
+"Game_EASY",
+"EASY",
+"Game_MEDIUM",
+"MEDIUM",
+"Game_HARD",
+"HARD",
+"__init__",
+"__del__",
+"GetCurrentEpisode",
+"LoadSoundInGroup",
+"LoadDatabaseSoundInGroup",
+"GetPlayer",
+"GetPlayerGroup",
+"GetPlayerSet",
+"GetPlayerCamera",
+"__repr__"
+]
+},
+"GamePtr": {
+"bases": [
+"Game"
+],
+"names": [
+"__init__"
+]
+},
+"Episode": {
+"bases": [
+"ScriptObject"
+],
+"names": [
+"__init__",
+"GetCurrentMission",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"EpisodePtr": {
+"bases": [
+"Episode"
+],
+"names": [
+"__init__"
+]
+},
+"Mission": {
+"bases": [
+"ScriptObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPrecreatedShip",
+"__repr__"
+]
+},
+"MissionPtr": {
+"bases": [
+"Mission"
+],
+"names": [
+"__init__"
+]
+},
+"BaseObjectClass": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"GetNode",
+"GetContainingSet",
+"GetNiObject",
+"GetAnimNode",
+"GetWorldLocation",
+"GetTranslate",
+"GetRotation",
+"GetWorldRotation",
+"GetDisplayName",
+"GetWorldForwardTG",
+"GetWorldBackwardTG",
+"GetWorldUpTG",
+"GetWorldDownTG",
+"GetWorldRightTG",
+"GetWorldLeftTG",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BaseObjectClassPtr": {
+"bases": [
+"BaseObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"ObjectClass": {
+"bases": [
+"BaseObjectClass"
+],
+"names": [
+"Appc",
+"ObjectClass_CFB_NO_COLLISIONS",
+"CFB_NO_COLLISIONS",
+"ObjectClass_CFB_IN_PROXIMITY_MANAGER",
+"CFB_IN_PROXIMITY_MANAGER",
+"ObjectClass_CFB_MEMBER_GROUP_1",
+"CFB_MEMBER_GROUP_1",
+"ObjectClass_CFB_COLLIDES_WITH_GROUP_1",
+"CFB_COLLIDES_WITH_GROUP_1",
+"ObjectClass_CFB_MEMBER_GROUP_2",
+"CFB_MEMBER_GROUP_2",
+"ObjectClass_CFB_COLLIDES_WITH_GROUP_2",
+"CFB_COLLIDES_WITH_GROUP_2",
+"ObjectClass_CFB_MEMBER_GROUP_3",
+"CFB_MEMBER_GROUP_3",
+"ObjectClass_CFB_COLLIDES_WITH_GROUP_3",
+"CFB_COLLIDES_WITH_GROUP_3",
+"ObjectClass_CFB_MEMBER_MASK",
+"CFB_MEMBER_MASK",
+"ObjectClass_CFB_COLLISION_MASK",
+"CFB_COLLISION_MASK",
+"ObjectClass_CFB_DEFAULTS",
+"CFB_DEFAULTS",
+"__init__",
+"GetRandomPointOnModel",
+"__del__",
+"__repr__"
+]
+},
+"ObjectClassPtr": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"CameraObjectClass": {
+"bases": [
+"BaseObjectClass"
+],
+"names": [
+"__init__",
+"GetNiFrustum",
+"GetCurrentCameraMode",
+"GetNamedCameraMode",
+"GetWorldForward",
+"GetWorldUp",
+"GetWorldRight",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CameraObjectClassPtr": {
+"bases": [
+"CameraObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"SpaceCamera": {
+"bases": [
+"CameraObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SpaceCameraPtr": {
+"bases": [
+"SpaceCamera"
+],
+"names": [
+"__init__"
+]
+},
+"LightObjectClass": {
+"bases": [
+"BaseObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"LightObjectClassPtr": {
+"bases": [
+"LightObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"CameraMode": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"GetAttrIDObject",
+"GetAttrPoint",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CameraModePtr": {
+"bases": [
+"CameraMode"
+],
+"names": [
+"__init__"
+]
+},
+"Backdrop": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BackdropPtr": {
+"bases": [
+"Backdrop"
+],
+"names": [
+"__init__"
+]
+},
+"BackdropSphere": {
+"bases": [
+"Backdrop"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BackdropSpherePtr": {
+"bases": [
+"BackdropSphere"
+],
+"names": [
+"__init__"
+]
+},
+"StarSphere": {
+"bases": [
+"BackdropSphere"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"StarSpherePtr": {
+"bases": [
+"StarSphere"
+],
+"names": [
+"__init__"
+]
+},
+"AsteroidField": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"AsteroidFieldPtr": {
+"bases": [
+"AsteroidField"
+],
+"names": [
+"__init__"
+]
+},
+"SetFloatVarEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SetFloatVarEventPtr": {
+"bases": [
+"SetFloatVarEvent"
+],
+"names": [
+"__init__"
+]
+},
+"VarManagerClass": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"VarManagerClassPtr": {
+"bases": [
+"VarManagerClass"
+],
+"names": [
+"__init__"
+]
+},
+"CPyDebug": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CPyDebugPtr": {
+"bases": [
+"CPyDebug"
+],
+"names": [
+"__init__"
+]
+},
+"ImageManagerClass": {
+"bases": [],
+"names": [
+"Appc",
+"ImageManagerClass_LOW_IMAGE_DETAIL",
+"LOW_IMAGE_DETAIL",
+"ImageManagerClass_MED_IMAGE_DETAIL",
+"MED_IMAGE_DETAIL",
+"ImageManagerClass_HIGH_IMAGE_DETAIL",
+"HIGH_IMAGE_DETAIL",
+"__init__",
+"GetImage",
+"__repr__"
+]
+},
+"ImageManagerClassPtr": {
+"bases": [
+"ImageManagerClass"
+],
+"names": [
+"__init__"
+]
+},
+"FocusManager": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"FocusManagerPtr": {
+"bases": [
+"FocusManager"
+],
+"names": [
+"__init__"
+]
+},
+"LODModel": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"LODModelPtr": {
+"bases": [
+"LODModel"
+],
+"names": [
+"__init__"
+]
+},
+"LODModelManager": {
+"bases": [],
+"names": [
+"__init__",
+"Create",
+"__repr__"
+]
+},
+"LODModelManagerPtr": {
+"bases": [
+"LODModelManager"
+],
+"names": [
+"__init__"
+]
+},
+"FloatRangeWatcher": {
+"bases": [],
+"names": [
+"Appc",
+"FloatRangeWatcher_FRW_NONE",
+"FRW_NONE",
+"FloatRangeWatcher_FRW_ABOVE",
+"FRW_ABOVE",
+"FloatRangeWatcher_FRW_BELOW",
+"FRW_BELOW",
+"FloatRangeWatcher_FRW_BOTH",
+"FRW_BOTH",
+"__init__",
+"__repr__"
+]
+},
+"FloatRangeWatcherPtr": {
+"bases": [
+"FloatRangeWatcher"
+],
+"names": [
+"__init__"
+]
+},
+"TGStringToStringMap": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TGStringToStringMapPtr": {
+"bases": [
+"TGStringToStringMap"
+],
+"names": [
+"__init__"
+]
+},
+"LoadMissionAction": {
+"bases": [
+"TGScriptAction"
+],
+"names": [
+"__init__",
+"GetGame",
+"GetEpisode",
+"__repr__"
+]
+},
+"LoadMissionActionPtr": {
+"bases": [
+"LoadMissionAction"
+],
+"names": [
+"__init__"
+]
+},
+"LoadEpisodeAction": {
+"bases": [
+"TGScriptAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"LoadEpisodeActionPtr": {
+"bases": [
+"LoadEpisodeAction"
+],
+"names": [
+"__init__"
+]
+},
+"ChatObjectClass": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ChatObjectClassPtr": {
+"bases": [
+"ChatObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"GraphicsModeInfo": {
+"bases": [],
+"names": [
+"Appc",
+"GraphicsModeInfo_RES_640x480",
+"RES_640x480",
+"GraphicsModeInfo_RES_800x600",
+"RES_800x600",
+"GraphicsModeInfo_RES_1024x768",
+"RES_1024x768",
+"GraphicsModeInfo_RES_1280x1024",
+"RES_1280x1024",
+"GraphicsModeInfo_RES_1600x1200",
+"RES_1600x1200",
+"__init__",
+"__del__",
+"GetDesc",
+"__repr__"
+]
+},
+"GraphicsModeInfoPtr": {
+"bases": [
+"GraphicsModeInfo"
+],
+"names": [
+"__init__"
+]
+},
+"TimeSliceProcess": {
+"bases": [],
+"names": [
+"Appc",
+"TimeSliceProcess_UNSTOPPABLE",
+"UNSTOPPABLE",
+"TimeSliceProcess_CRITICAL",
+"CRITICAL",
+"TimeSliceProcess_NORMAL",
+"NORMAL",
+"TimeSliceProcess_LOW",
+"LOW",
+"TimeSliceProcess_NUM_PRIORITIES",
+"NUM_PRIORITIES",
+"__init__",
+"__repr__"
+]
+},
+"TimeSliceProcessPtr": {
+"bases": [
+"TimeSliceProcess"
+],
+"names": [
+"__init__"
+]
+},
+"PythonMethodProcess": {
+"bases": [
+"TimeSliceProcess"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"PythonMethodProcessPtr": {
+"bases": [
+"PythonMethodProcess"
+],
+"names": [
+"__init__"
+]
+},
+"ChangeRenderedSetAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ChangeRenderedSetActionPtr": {
+"bases": [
+"ChangeRenderedSetAction"
+],
+"names": [
+"__init__"
+]
+},
+"ZoomCameraObjectClass": {
+"bases": [
+"CameraObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ZoomCameraObjectClassPtr": {
+"bases": [
+"ZoomCameraObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"CharacterAction": {
+"bases": [
+"TGAction"
+],
+"names": [
+"Appc",
+"CharacterAction_AT_SET_LOCATION",
+"AT_SET_LOCATION",
+"CharacterAction_AT_SET_LOCATION_NAME",
+"AT_SET_LOCATION_NAME",
+"CharacterAction_AT_MOVE",
+"AT_MOVE",
+"CharacterAction_AT_TURN",
+"AT_TURN",
+"CharacterAction_AT_TURN_NOW",
+"AT_TURN_NOW",
+"CharacterAction_AT_TURN_BACK",
+"AT_TURN_BACK",
+"CharacterAction_AT_TURN_BACK_NOW",
+"AT_TURN_BACK_NOW",
+"CharacterAction_AT_DEFAULT",
+"AT_DEFAULT",
+"CharacterAction_AT_BREATHE",
+"AT_BREATHE",
+"CharacterAction_AT_FORCE_BREATHE",
+"AT_FORCE_BREATHE",
+"CharacterAction_AT_SPEAK_LINE",
+"AT_SPEAK_LINE",
+"CharacterAction_AT_SPEAK_LINE_NO_FLAP_LIPS",
+"AT_SPEAK_LINE_NO_FLAP_LIPS",
+"CharacterAction_AT_SAY_LINE",
+"AT_SAY_LINE",
+"CharacterAction_AT_SAY_LINE_AFTER_TURN",
+"AT_SAY_LINE_AFTER_TURN",
+"CharacterAction_AT_PLAY_ANIMATION",
+"AT_PLAY_ANIMATION",
+"CharacterAction_AT_PLAY_ANIMATION_FILE",
+"AT_PLAY_ANIMATION_FILE",
+"CharacterAction_AT_LOOK_AT_ME",
+"AT_LOOK_AT_ME",
+"CharacterAction_AT_LOOK_AT_ME_NOW",
+"AT_LOOK_AT_ME_NOW",
+"CharacterAction_AT_WATCH_ME",
+"AT_WATCH_ME",
+"CharacterAction_AT_STOP_WATCHING_ME",
+"AT_STOP_WATCHING_ME",
+"CharacterAction_AT_MENU_UP",
+"AT_MENU_UP",
+"CharacterAction_AT_MENU_DOWN",
+"AT_MENU_DOWN",
+"CharacterAction_AT_SET_AUDIO_MODE",
+"AT_SET_AUDIO_MODE",
+"CharacterAction_AT_ENABLE_RANDOM_ANIMATIONS",
+"AT_ENABLE_RANDOM_ANIMATIONS",
+"CharacterAction_AT_DISABLE_RANDOM_ANIMATIONS",
+"AT_DISABLE_RANDOM_ANIMATIONS",
+"CharacterAction_AT_GLANCE_AT",
+"AT_GLANCE_AT",
+"CharacterAction_AT_GLANCE_AWAY",
+"AT_GLANCE_AWAY",
+"CharacterAction_AT_BECOME_ACTIVE",
+"AT_BECOME_ACTIVE",
+"CharacterAction_AT_BECOME_INACTIVE",
+"AT_BECOME_INACTIVE",
+"CharacterAction_AT_ENABLE_MENU",
+"AT_ENABLE_MENU",
+"CharacterAction_AT_DISABLE_MENU",
+"AT_DISABLE_MENU",
+"CharacterAction_AT_ENABLE_INITIATIVE",
+"AT_ENABLE_INITIATIVE",
+"CharacterAction_AT_DISABLE_INITIATIVE",
+"AT_DISABLE_INITIATIVE",
+"CharacterAction_AT_SET_STATUS",
+"AT_SET_STATUS",
+"__init__",
+"__repr__"
+]
+},
+"CharacterActionPtr": {
+"bases": [
+"CharacterAction"
+],
+"names": [
+"__init__"
+]
+},
+"CharacterClass": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"Appc",
+"CharacterClass_CS_IDLE",
+"CS_IDLE",
+"CharacterClass_CS_STANDING",
+"CS_STANDING",
+"CharacterClass_CS_GLANCING",
+"CS_GLANCING",
+"CharacterClass_CS_TURNED",
+"CS_TURNED",
+"CharacterClass_CS_UI_DISABLED",
+"CS_UI_DISABLED",
+"CharacterClass_CS_HIDDEN",
+"CS_HIDDEN",
+"CharacterClass_CS_INITIATIVE",
+"CS_INITIATIVE",
+"CharacterClass_CS_MIDDLE",
+"CS_MIDDLE",
+"CharacterClass_CS_SEATED",
+"CS_SEATED",
+"CharacterClass_CS_VISIBLE",
+"CS_VISIBLE",
+"CharacterClass_CS_CLEAR_GLANCE",
+"CS_CLEAR_GLANCE",
+"CharacterClass_CS_CLEAR_TURNED",
+"CS_CLEAR_TURNED",
+"CharacterClass_CS_UI_ENABLED",
+"CS_UI_ENABLED",
+"CharacterClass_CS_STOP_INITIATIVE",
+"CS_STOP_INITIATIVE",
+"CharacterClass_CAT_BREATHE",
+"CAT_BREATHE",
+"CharacterClass_CAT_INTERRUPTABLE",
+"CAT_INTERRUPTABLE",
+"CharacterClass_CAT_NON_INTERRUPTABLE",
+"CAT_NON_INTERRUPTABLE",
+"CharacterClass_CAT_TURN",
+"CAT_TURN",
+"CharacterClass_CAT_TURN_BACK",
+"CAT_TURN_BACK",
+"CharacterClass_CAT_GLANCE",
+"CAT_GLANCE",
+"CharacterClass_CAT_GLANCE_BACK",
+"CAT_GLANCE_BACK",
+"CharacterClass_CPT_DEFAULT",
+"CPT_DEFAULT",
+"CharacterClass_CPT_BLINK",
+"CPT_BLINK",
+"CharacterClass_CPT_SPEAK",
+"CPT_SPEAK",
+"CharacterClass_CPT_EYEBROW",
+"CPT_EYEBROW",
+"CharacterClass_CAM_MUTE",
+"CAM_MUTE",
+"CharacterClass_CAM_EXTREMELY_VOCAL",
+"CAM_EXTREMELY_VOCAL",
+"CharacterClass_CAM_VOCAL",
+"CAM_VOCAL",
+"CharacterClass_CAM_REDUCED",
+"CAM_REDUCED",
+"CharacterClass_MALE",
+"MALE",
+"CharacterClass_FEMALE",
+"FEMALE",
+"CharacterClass_MAX_GENDERS",
+"MAX_GENDERS",
+"CharacterClass_SMALL",
+"SMALL",
+"CharacterClass_MEDIUM",
+"MEDIUM",
+"CharacterClass_LARGE",
+"LARGE",
+"CharacterClass_MAX_SIZES",
+"MAX_SIZES",
+"CharacterClass_BOTH",
+"BOTH",
+"CharacterClass_SITTING_ONLY",
+"SITTING_ONLY",
+"CharacterClass_STANDING_ONLY",
+"STANDING_ONLY",
+"CharacterClass_EST_ALERT_GREEN",
+"EST_ALERT_GREEN",
+"CharacterClass_EST_ALERT_YELLOW",
+"EST_ALERT_YELLOW",
+"CharacterClass_EST_ALERT_RED",
+"EST_ALERT_RED",
+"CharacterClass_EST_REPORT_OVERVIEW",
+"EST_REPORT_OVERVIEW",
+"CharacterClass_EST_REPORT_ENGINES",
+"EST_REPORT_ENGINES",
+"CharacterClass_EST_REPORT_WEAPONS",
+"EST_REPORT_WEAPONS",
+"CharacterClass_EST_REPORT_SHIELDS",
+"EST_REPORT_SHIELDS",
+"CharacterClass_EST_REPORT_REPAIR",
+"EST_REPORT_REPAIR",
+"CharacterClass_EST_REPORT_SENSORS",
+"EST_REPORT_SENSORS",
+"CharacterClass_EST_REPORT_DESTINATION",
+"EST_REPORT_DESTINATION",
+"CharacterClass_EST_REPORT_SPEED",
+"EST_REPORT_SPEED",
+"CharacterClass_EST_REPORT_ETA",
+"EST_REPORT_ETA",
+"CharacterClass_EST_SHIP_STATUS",
+"EST_SHIP_STATUS",
+"CharacterClass_EST_TARGET_STATUS",
+"EST_TARGET_STATUS",
+"CharacterClass_EST_TRANSFER_POWER_WEAPONS",
+"EST_TRANSFER_POWER_WEAPONS",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_FORE",
+"EST_TRANSFER_POWER_SHIELDS_FORE",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_AFT",
+"EST_TRANSFER_POWER_SHIELDS_AFT",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_PORT",
+"EST_TRANSFER_POWER_SHIELDS_PORT",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_STARBOARD",
+"EST_TRANSFER_POWER_SHIELDS_STARBOARD",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_DORSAL",
+"EST_TRANSFER_POWER_SHIELDS_DORSAL",
+"CharacterClass_EST_TRANSFER_POWER_SHIELDS_VENTRAL",
+"EST_TRANSFER_POWER_SHIELDS_VENTRAL",
+"CharacterClass_EST_TRANSFER_POWER_SENSORS",
+"EST_TRANSFER_POWER_SENSORS",
+"CharacterClass_EST_TRANSFER_POWER_ENGINES",
+"EST_TRANSFER_POWER_ENGINES",
+"CharacterClass_EST_REPAIR_PHASERS",
+"EST_REPAIR_PHASERS",
+"CharacterClass_EST_REPAIR_TORPEDO_TUBES",
+"EST_REPAIR_TORPEDO_TUBES",
+"CharacterClass_EST_REPAIR_SENSORS",
+"EST_REPAIR_SENSORS",
+"CharacterClass_EST_REPAIR_IMPULSE_ENGINES",
+"EST_REPAIR_IMPULSE_ENGINES",
+"CharacterClass_EST_REPAIR_WARP_ENGINES",
+"EST_REPAIR_WARP_ENGINES",
+"CharacterClass_EST_REPAIR_TRACTOR_BEAM",
+"EST_REPAIR_TRACTOR_BEAM",
+"CharacterClass_EST_REPAIR_ENGINEERING",
+"EST_REPAIR_ENGINEERING",
+"CharacterClass_EST_SET_COURSE_TO_MISSION_AREA",
+"EST_SET_COURSE_TO_MISSION_AREA",
+"CharacterClass_EST_SET_COURSE_TO_PLANET",
+"EST_SET_COURSE_TO_PLANET",
+"CharacterClass_EST_SET_COURSE_INTERCEPT",
+"EST_SET_COURSE_INTERCEPT",
+"CharacterClass_EST_SET_COURSE_FOLLOW",
+"EST_SET_COURSE_FOLLOW",
+"CharacterClass_EST_SCAN_OBJECT",
+"EST_SCAN_OBJECT",
+"CharacterClass_EST_SCAN_AREA",
+"EST_SCAN_AREA",
+"CharacterClass_EST_ATTACK_BEAM_WEAPON",
+"EST_ATTACK_BEAM_WEAPON",
+"CharacterClass_EST_ATTACK_WARHEAD",
+"EST_ATTACK_WARHEAD",
+"CharacterClass_EST_ATTACK_IMPULSE_ENGINES",
+"EST_ATTACK_IMPULSE_ENGINES",
+"CharacterClass_EST_ATTACK_WARP_ENGINES",
+"EST_ATTACK_WARP_ENGINES",
+"CharacterClass_EST_ATTACK_SENSORS",
+"EST_ATTACK_SENSORS",
+"CharacterClass_EST_ATTACK_ENGINEERING",
+"EST_ATTACK_ENGINEERING",
+"CharacterClass_EST_ATTACK_TRACTOR_BEAM",
+"EST_ATTACK_TRACTOR_BEAM",
+"__init__",
+"GetDatabase",
+"SetDatabase",
+"GetStatusBox",
+"GetStatus",
+"GetMenu",
+"__del__",
+"__repr__"
+]
+},
+"CharacterClassPtr": {
+"bases": [
+"CharacterClass"
+],
+"names": [
+"__init__"
+]
+},
+"ViewScreenObject": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"GetRemoteCam",
+"GetMenu",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ViewScreenObjectPtr": {
+"bases": [
+"ViewScreenObject"
+],
+"names": [
+"__init__"
+]
+},
+"BridgeSet": {
+"bases": [
+"SetClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetViewScreen",
+"__repr__"
+]
+},
+"BridgeSetPtr": {
+"bases": [
+"BridgeSet"
+],
+"names": [
+"__init__"
+]
+},
+"BridgeObjectClass": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"GetPropertySet",
+"GetHardpointProperty",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BridgeObjectClassPtr": {
+"bases": [
+"BridgeObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"ArtificialIntelligence": {
+"bases": [],
+"names": [
+"Appc",
+"ArtificialIntelligence_US_ACTIVE",
+"US_ACTIVE",
+"ArtificialIntelligence_US_DONE",
+"US_DONE",
+"ArtificialIntelligence_US_DORMANT",
+"US_DORMANT",
+"ArtificialIntelligence_US_INVALID",
+"US_INVALID",
+"ArtificialIntelligence_US_NUM_STATUSES",
+"US_NUM_STATUSES",
+"__init__",
+"GetObject",
+"GetShip",
+"__repr__"
+]
+},
+"ArtificialIntelligencePtr": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"__init__"
+]
+},
+"PlainAI": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"PlainAIPtr": {
+"bases": [
+"PlainAI"
+],
+"names": [
+"__init__"
+]
+},
+"PriorityListAI": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"PriorityListAIPtr": {
+"bases": [
+"PriorityListAI"
+],
+"names": [
+"__init__"
+]
+},
+"SequenceAI": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"Appc",
+"SequenceAI_LOOP_INFINITE",
+"LOOP_INFINITE",
+"__init__",
+"GetAI",
+"__repr__"
+]
+},
+"SequenceAIPtr": {
+"bases": [
+"SequenceAI"
+],
+"names": [
+"__init__"
+]
+},
+"RandomAI": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"RandomAIPtr": {
+"bases": [
+"RandomAI"
+],
+"names": [
+"__init__"
+]
+},
+"PreprocessingAI": {
+"bases": [
+"ArtificialIntelligence"
+],
+"names": [
+"Appc",
+"PreprocessingAI_PS_NORMAL",
+"PS_NORMAL",
+"PreprocessingAI_PS_SKIP_ACTIVE",
+"PS_SKIP_ACTIVE",
+"PreprocessingAI_PS_SKIP_DORMANT",
+"PS_SKIP_DORMANT",
+"PreprocessingAI_PS_DONE",
+"PS_DONE",
+"PreprocessingAI_PS_INVALID",
+"PS_INVALID",
+"PreprocessingAI_PS_NUM_STATUSES",
+"PS_NUM_STATUSES",
+"PreprocessingAI_FDS_NORMAL",
+"FDS_NORMAL",
+"PreprocessingAI_FDS_TRUE",
+"FDS_TRUE",
+"PreprocessingAI_FDS_FALSE",
+"FDS_FALSE",
+"__init__",
+"GetContainedAI",
+"__repr__"
+]
+},
+"PreprocessingAIPtr": {
+"bases": [
+"PreprocessingAI"
+],
+"names": [
+"__init__"
+]
+},
+"ConditionalAI": {
+"bases": [
+"ArtificialIntelligence",
+"TGConditionHandler"
+],
+"names": [
+"__init__",
+"GetContainedAI",
+"__repr__"
+]
+},
+"ConditionalAIPtr": {
+"bases": [
+"ConditionalAI"
+],
+"names": [
+"__init__"
+]
+},
+"ConditionScript": {
+"bases": [
+"TGCondition"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"ConditionScriptPtr": {
+"bases": [
+"ConditionScript"
+],
+"names": [
+"__init__"
+]
+},
+"ConditionEventCreator": {
+"bases": [
+"TGObject",
+"TGConditionHandler"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ConditionEventCreatorPtr": {
+"bases": [
+"ConditionEventCreator"
+],
+"names": [
+"__init__"
+]
+},
+"FuzzyLogic": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"FuzzyLogicPtr": {
+"bases": [
+"FuzzyLogic"
+],
+"names": [
+"__init__"
+]
+},
+"WaypointEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"GetPlacement",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WaypointEventPtr": {
+"bases": [
+"WaypointEvent"
+],
+"names": [
+"__init__"
+]
+},
+"AIScriptAssist": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"AIScriptAssistPtr": {
+"bases": [
+"AIScriptAssist"
+],
+"names": [
+"__init__"
+]
+},
+"OptimizedFireScript": {
+"bases": [
+"PreprocessingAI"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"OptimizedFireScriptPtr": {
+"bases": [
+"OptimizedFireScript"
+],
+"names": [
+"__init__"
+]
+},
+"OptimizedSelectTarget": {
+"bases": [
+"PreprocessingAI"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"OptimizedSelectTargetPtr": {
+"bases": [
+"OptimizedSelectTarget"
+],
+"names": [
+"__init__"
+]
+},
+"BuilderAI": {
+"bases": [
+"PreprocessingAI"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"BuilderAIPtr": {
+"bases": [
+"BuilderAI"
+],
+"names": [
+"__init__"
+]
+},
+"PhysicsObjectClass": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"Appc",
+"PhysicsObjectClass_DIRECTION_MODEL_SPACE",
+"DIRECTION_MODEL_SPACE",
+"PhysicsObjectClass_DIRECTION_WORLD_SPACE",
+"DIRECTION_WORLD_SPACE",
+"__init__",
+"GetVelocity",
+"GetAcceleration",
+"GetAngularAcceleration",
+"GetVelocityTG",
+"GetAngularVelocityTG",
+"GetAccelerationTG",
+"GetAngularAccelerationTG",
+"GetAngularVelocity",
+"GetPredictedPosition",
+"GetPredictedRotationTG",
+"GetAI",
+"__del__",
+"__repr__"
+]
+},
+"PhysicsObjectClassPtr": {
+"bases": [
+"PhysicsObjectClass"
+],
+"names": [
+"__init__"
+]
+},
+"DamageableObject": {
+"bases": [
+"PhysicsObjectClass"
+],
+"names": [
+"__init__",
+"GetPropertySet",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"DamageableObjectPtr": {
+"bases": [
+"DamageableObject"
+],
+"names": [
+"__init__"
+]
+},
+"ShipClass": {
+"bases": [
+"DamageableObject"
+],
+"names": [
+"Appc",
+"ShipClass_WG_INVALID",
+"WG_INVALID",
+"ShipClass_WG_PRIMARY",
+"WG_PRIMARY",
+"ShipClass_WG_SECONDARY",
+"WG_SECONDARY",
+"ShipClass_WG_TERTIARY",
+"WG_TERTIARY",
+"ShipClass_WG_TRACTOR",
+"WG_TRACTOR",
+"ShipClass_GREEN_ALERT",
+"GREEN_ALERT",
+"ShipClass_YELLOW_ALERT",
+"YELLOW_ALERT",
+"ShipClass_RED_ALERT",
+"RED_ALERT",
+"__init__",
+"GetHull",
+"GetShields",
+"GetPowerSubsystem",
+"GetSensorSubsystem",
+"GetImpulseEngineSubsystem",
+"GetWarpEngineSubsystem",
+"GetTorpedoSystem",
+"GetPhaserSystem",
+"GetPulseWeaponSystem",
+"GetShipProperty",
+"GetTractorBeamSystem",
+"GetRepairSubsystem",
+"GetCloakingSubsystem",
+"GetWeaponSystemGroup",
+"GetSubsystemByProperty",
+"GetNextSubsystemMatch",
+"GetTargetAngularVelocityTG",
+"GetTarget",
+"GetTargetSubsystem",
+"GetTargetOffsetTG",
+"__del__",
+"__repr__"
+]
+},
+"ShipClassPtr": {
+"bases": [
+"ShipClass"
+],
+"names": [
+"__init__"
+]
+},
+"ObjectGroup": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"Appc",
+"ObjectGroup_GROUP_CHANGED",
+"GROUP_CHANGED",
+"ObjectGroup_ENTERED_SET",
+"ENTERED_SET",
+"ObjectGroup_EXITED_SET",
+"EXITED_SET",
+"ObjectGroup_DESTROYED",
+"DESTROYED",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"ObjectGroupPtr": {
+"bases": [
+"ObjectGroup"
+],
+"names": [
+"__init__"
+]
+},
+"ObjectGroupWithInfo": {
+"bases": [
+"ObjectGroup"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ObjectGroupWithInfoPtr": {
+"bases": [
+"ObjectGroupWithInfo"
+],
+"names": [
+"__init__"
+]
+},
+"ShipSubsystem": {
+"bases": [
+"TGEventHandlerObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetDisplayName",
+"GetPosition",
+"GetPositionTG",
+"GetWorldLocation",
+"GetParentShip",
+"GetConditionWatcher",
+"GetParentSubsystem",
+"GetChildSubsystem",
+"GetNextTargetableChildSubsystem",
+"GetCombinedPercentageWatcher",
+"GetDamagePoint",
+"__repr__"
+]
+},
+"ShipSubsystemPtr": {
+"bases": [
+"ShipSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"PoweredSubsystem": {
+"bases": [
+"ShipSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"__repr__"
+]
+},
+"PoweredSubsystemPtr": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"PowerSubsystem": {
+"bases": [
+"ShipSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetMainBatteryWatcher",
+"GetBackupBatteryWatcher",
+"__repr__"
+]
+},
+"PowerSubsystemPtr": {
+"bases": [
+"PowerSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"Weapon": {
+"bases": [
+"ShipSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"CalculateRoughDirection",
+"__repr__"
+]
+},
+"WeaponPtr": {
+"bases": [
+"Weapon"
+],
+"names": [
+"__init__"
+]
+},
+"FiringChain": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"FiringChainPtr": {
+"bases": [
+"FiringChain"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponSystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetWeapon",
+"UpdateWeapons",
+"GetFiringChain",
+"GetLastWeaponFired",
+"GetNextWeapon",
+"__repr__"
+]
+},
+"WeaponSystemPtr": {
+"bases": [
+"WeaponSystem"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponPayload": {
+"bases": [],
+"names": [
+"Appc",
+"WeaponPayload_WP_DEFAULT",
+"WP_DEFAULT",
+"WeaponPayload_WP_PHASER",
+"WP_PHASER",
+"WeaponPayload_WP_TORPEDO",
+"WP_TORPEDO",
+"WeaponPayload_WP_PULSE",
+"WP_PULSE",
+"WeaponPayload_WP_TRACTOR",
+"WP_TRACTOR",
+"__init__",
+"__repr__"
+]
+},
+"WeaponPayloadPtr": {
+"bases": [
+"WeaponPayload"
+],
+"names": [
+"__init__"
+]
+},
+"Torpedo": {
+"bases": [
+"PhysicsObjectClass",
+"WeaponPayload"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TorpedoPtr": {
+"bases": [
+"Torpedo"
+],
+"names": [
+"__init__"
+]
+},
+"TorpedoSystem": {
+"bases": [
+"WeaponSystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetCurrentAmmoType",
+"GetAmmoType",
+"__repr__"
+]
+},
+"TorpedoSystemPtr": {
+"bases": [
+"TorpedoSystem"
+],
+"names": [
+"__init__"
+]
+},
+"TorpedoTube": {
+"bases": [
+"Weapon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetDirection",
+"GetRight",
+"__repr__"
+]
+},
+"TorpedoTubePtr": {
+"bases": [
+"TorpedoTube"
+],
+"names": [
+"__init__"
+]
+},
+"Nebula": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"NebulaPtr": {
+"bases": [
+"Nebula"
+],
+"names": [
+"__init__"
+]
+},
+"MetaNebula": {
+"bases": [
+"Nebula"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"MetaNebulaPtr": {
+"bases": [
+"MetaNebula"
+],
+"names": [
+"__init__"
+]
+},
+"Planet": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"PlanetPtr": {
+"bases": [
+"Planet"
+],
+"names": [
+"__init__"
+]
+},
+"Sun": {
+"bases": [
+"Planet"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SunPtr": {
+"bases": [
+"Sun"
+],
+"names": [
+"__init__"
+]
+},
+"ProximityManager": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetNextObject",
+"__repr__"
+]
+},
+"ProximityManagerPtr": {
+"bases": [
+"ProximityManager"
+],
+"names": [
+"__init__"
+]
+},
+"ProximityCheck": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"Appc",
+"ProximityCheck_TT_INSIDE",
+"TT_INSIDE",
+"ProximityCheck_TT_OUTSIDE",
+"TT_OUTSIDE",
+"ProximityCheck_TT_INVALID",
+"TT_INVALID",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"ProximityCheckPtr": {
+"bases": [
+"ProximityCheck"
+],
+"names": [
+"__init__"
+]
+},
+"ProximityEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProximityCheck",
+"GetObject",
+"__repr__"
+]
+},
+"ProximityEventPtr": {
+"bases": [
+"ProximityEvent"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponHitEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"Appc",
+"WeaponHitEvent_PHASER",
+"PHASER",
+"WeaponHitEvent_TORPEDO",
+"TORPEDO",
+"WeaponHitEvent_TRACTOR_BEAM",
+"TRACTOR_BEAM",
+"__init__",
+"GetFiringObject",
+"GetTargetObject",
+"GetObjectHitPoint",
+"GetObjectHitNormal",
+"GetWorldHitPoint",
+"GetWorldHitNormal",
+"__del__",
+"__repr__"
+]
+},
+"WeaponHitEventPtr": {
+"bases": [
+"WeaponHitEvent"
+],
+"names": [
+"__init__"
+]
+},
+"StartFiringEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"GetTarget",
+"GetOffset",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"StartFiringEventPtr": {
+"bases": [
+"StartFiringEvent"
+],
+"names": [
+"__init__"
+]
+},
+"ObjectExplodingEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ObjectExplodingEventPtr": {
+"bases": [
+"ObjectExplodingEvent"
+],
+"names": [
+"__init__"
+]
+},
+"CollisionEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"GetPoint",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CollisionEventPtr": {
+"bases": [
+"CollisionEvent"
+],
+"names": [
+"__init__"
+]
+},
+"ShieldClass": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"Appc",
+"ShieldClass_NO_SHIELD",
+"NO_SHIELD",
+"ShieldClass_FRONT_SHIELDS",
+"FRONT_SHIELDS",
+"ShieldClass_REAR_SHIELDS",
+"REAR_SHIELDS",
+"ShieldClass_TOP_SHIELDS",
+"TOP_SHIELDS",
+"ShieldClass_BOTTOM_SHIELDS",
+"BOTTOM_SHIELDS",
+"ShieldClass_LEFT_SHIELDS",
+"LEFT_SHIELDS",
+"ShieldClass_RIGHT_SHIELDS",
+"RIGHT_SHIELDS",
+"ShieldClass_NUM_SHIELDS",
+"NUM_SHIELDS",
+"__init__",
+"GetProperty",
+"GetShieldWatcher",
+"GetShieldGlowColor",
+"__del__",
+"__repr__"
+]
+},
+"ShieldClassPtr": {
+"bases": [
+"ShieldClass"
+],
+"names": [
+"__init__"
+]
+},
+"HullClass": {
+"bases": [
+"ShipSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"HullClassPtr": {
+"bases": [
+"HullClass"
+],
+"names": [
+"__init__"
+]
+},
+"EnergyWeapon": {
+"bases": [
+"Weapon"
+],
+"names": [
+"Appc",
+"EnergyWeapon_EW_LOW",
+"EW_LOW",
+"EnergyWeapon_EW_MEDIUM",
+"EW_MEDIUM",
+"EnergyWeapon_EW_HIGH",
+"EW_HIGH",
+"__init__",
+"__del__",
+"GetProperty",
+"GetChargeWatcher",
+"__repr__"
+]
+},
+"EnergyWeaponPtr": {
+"bases": [
+"EnergyWeapon"
+],
+"names": [
+"__init__"
+]
+},
+"PhaserSystem": {
+"bases": [
+"WeaponSystem"
+],
+"names": [
+"Appc",
+"PhaserSystem_PP_LOW",
+"PP_LOW",
+"PhaserSystem_PP_MEDIUM",
+"PP_MEDIUM",
+"PhaserSystem_PP_HIGH",
+"PP_HIGH",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"PhaserSystemPtr": {
+"bases": [
+"PhaserSystem"
+],
+"names": [
+"__init__"
+]
+},
+"PhaserBank": {
+"bases": [
+"EnergyWeapon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight",
+"__repr__"
+]
+},
+"PhaserBankPtr": {
+"bases": [
+"PhaserBank"
+],
+"names": [
+"__init__"
+]
+},
+"PulseWeapon": {
+"bases": [
+"EnergyWeapon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"CalculateRoughDirection",
+"__repr__"
+]
+},
+"PulseWeaponPtr": {
+"bases": [
+"PulseWeapon"
+],
+"names": [
+"__init__"
+]
+},
+"PulseWeaponSystem": {
+"bases": [
+"WeaponSystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"PulseWeaponSystemPtr": {
+"bases": [
+"PulseWeaponSystem"
+],
+"names": [
+"__init__"
+]
+},
+"SensorSubsystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"ScanAllObjects",
+"__repr__"
+]
+},
+"SensorSubsystemPtr": {
+"bases": [
+"SensorSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"CloakingSubsystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"__repr__"
+]
+},
+"CloakingSubsystemPtr": {
+"bases": [
+"CloakingSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"RepairSubsystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"__repr__"
+]
+},
+"RepairSubsystemPtr": {
+"bases": [
+"RepairSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"ImpulseEngineSubsystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"GetTractorBeamSystem",
+"__repr__"
+]
+},
+"ImpulseEngineSubsystemPtr": {
+"bases": [
+"ImpulseEngineSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"WarpEngineSubsystem": {
+"bases": [
+"PoweredSubsystem"
+],
+"names": [
+"Appc",
+"WarpEngineSubsystem_WES_NOT_WARPING",
+"WES_NOT_WARPING",
+"WarpEngineSubsystem_WES_WARP_INITIATED",
+"WES_WARP_INITIATED",
+"WarpEngineSubsystem_WES_WARP_BEGINNING",
+"WES_WARP_BEGINNING",
+"WarpEngineSubsystem_WES_WARP_ENDING",
+"WES_WARP_ENDING",
+"WarpEngineSubsystem_WES_WARPING",
+"WES_WARPING",
+"WarpEngineSubsystem_WES_DEWARP_INITIATED",
+"WES_DEWARP_INITIATED",
+"WarpEngineSubsystem_WES_DEWARP_BEGINNING",
+"WES_DEWARP_BEGINNING",
+"WarpEngineSubsystem_WES_DEWARP_ENDING",
+"WES_DEWARP_ENDING",
+"__init__",
+"__del__",
+"GetProperty",
+"GetPlacement",
+"GetWarpExitLocation",
+"GetWarpExitRotation",
+"GetWarpSequence",
+"__repr__"
+]
+},
+"WarpEngineSubsystemPtr": {
+"bases": [
+"WarpEngineSubsystem"
+],
+"names": [
+"__init__"
+]
+},
+"TractorBeamProjector": {
+"bases": [
+"EnergyWeapon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetProperty",
+"__repr__"
+]
+},
+"TractorBeamProjectorPtr": {
+"bases": [
+"TractorBeamProjector"
+],
+"names": [
+"__init__"
+]
+},
+"TractorBeamSystem": {
+"bases": [
+"WeaponSystem"
+],
+"names": [
+"Appc",
+"TractorBeamSystem_TBS_HOLD",
+"TBS_HOLD",
+"TractorBeamSystem_TBS_TOW",
+"TBS_TOW",
+"TractorBeamSystem_TBS_PULL",
+"TBS_PULL",
+"TractorBeamSystem_TBS_PUSH",
+"TBS_PUSH",
+"TractorBeamSystem_TBS_DOCK_STAGE_1",
+"TBS_DOCK_STAGE_1",
+"TractorBeamSystem_TBS_DOCK_STAGE_2",
+"TBS_DOCK_STAGE_2",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"TractorBeamSystemPtr": {
+"bases": [
+"TractorBeamSystem"
+],
+"names": [
+"__init__"
+]
+},
+"WarpEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"GetExitPoint",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WarpEventPtr": {
+"bases": [
+"WarpEvent"
+],
+"names": [
+"__init__"
+]
+},
+"SubsystemList": {
+"bases": [],
+"names": [
+"__init__",
+"GetHead",
+"GetTail",
+"GetNext",
+"GetPrev",
+"__repr__"
+]
+},
+"SubsystemListPtr": {
+"bases": [
+"SubsystemList"
+],
+"names": [
+"__init__"
+]
+},
+"EffectController": {
+"bases": [],
+"names": [
+"Appc",
+"EffectController_LOWEST",
+"LOWEST",
+"EffectController_LOW",
+"LOW",
+"EffectController_MEDIUM",
+"MEDIUM",
+"EffectController_HIGH",
+"HIGH",
+"EffectController_HIGHEST",
+"HIGHEST",
+"__init__",
+"GetTargetCast",
+"__repr__"
+]
+},
+"EffectControllerPtr": {
+"bases": [
+"EffectController"
+],
+"names": [
+"__init__"
+]
+},
+"EmitterController": {
+"bases": [
+"EffectController"
+],
+"names": [
+"__init__",
+"GetEmitFromObject",
+"__repr__"
+]
+},
+"EmitterControllerPtr": {
+"bases": [
+"EmitterController"
+],
+"names": [
+"__init__"
+]
+},
+"PointParticleController": {
+"bases": [
+"EmitterController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"PointParticleControllerPtr": {
+"bases": [
+"PointParticleController"
+],
+"names": [
+"__init__"
+]
+},
+"SparkParticleController": {
+"bases": [
+"PointParticleController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"SparkParticleControllerPtr": {
+"bases": [
+"SparkParticleController"
+],
+"names": [
+"__init__"
+]
+},
+"TexturedSparksController": {
+"bases": [
+"EmitterController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TexturedSparksControllerPtr": {
+"bases": [
+"TexturedSparksController"
+],
+"names": [
+"__init__"
+]
+},
+"ExplodeParticleController": {
+"bases": [
+"PointParticleController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"ExplodeParticleControllerPtr": {
+"bases": [
+"ExplodeParticleController"
+],
+"names": [
+"__init__"
+]
+},
+"DebrisParticleController": {
+"bases": [
+"PointParticleController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"DebrisParticleControllerPtr": {
+"bases": [
+"DebrisParticleController"
+],
+"names": [
+"__init__"
+]
+},
+"AnimTSParticleController": {
+"bases": [
+"EmitterController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"AnimTSParticleControllerPtr": {
+"bases": [
+"AnimTSParticleController"
+],
+"names": [
+"__init__"
+]
+},
+"EffectAction": {
+"bases": [
+"TGTimedAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"EffectActionPtr": {
+"bases": [
+"EffectAction"
+],
+"names": [
+"__init__"
+]
+},
+"BridgeEffectAction": {
+"bases": [
+"EffectAction"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetController",
+"GetSparkController",
+"GetExplosionController",
+"__repr__"
+]
+},
+"BridgeEffectActionPtr": {
+"bases": [
+"BridgeEffectAction"
+],
+"names": [
+"__init__"
+]
+},
+"WarpSet": {
+"bases": [
+"SetClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WarpSetPtr": {
+"bases": [
+"WarpSet"
+],
+"names": [
+"__init__"
+]
+},
+"WarpSequence": {
+"bases": [
+"TGSequence"
+],
+"names": [
+"Appc",
+"WarpSequence_PRE_WARP_SEQUENCE",
+"PRE_WARP_SEQUENCE",
+"WarpSequence_DURING_WARP_SEQUENCE",
+"DURING_WARP_SEQUENCE",
+"WarpSequence_POST_DURING_WARP_SEQUENCE",
+"POST_DURING_WARP_SEQUENCE",
+"WarpSequence_POST_WARP_SEQUENCE",
+"POST_WARP_SEQUENCE",
+"WarpSequence_WARP_BEGIN_ACTION",
+"WARP_BEGIN_ACTION",
+"WarpSequence_WARP_END_ACTION",
+"WARP_END_ACTION",
+"WarpSequence_DEWARP_BEGIN_ACTION",
+"DEWARP_BEGIN_ACTION",
+"WarpSequence_DEWARP_END_ACTION",
+"DEWARP_END_ACTION",
+"WarpSequence_WARP_ENTER_ACTION",
+"WARP_ENTER_ACTION",
+"WarpSequence_DEWARP_FINISH_ACTION",
+"DEWARP_FINISH_ACTION",
+"WarpSequence_MOVE_ACTION_1",
+"MOVE_ACTION_1",
+"WarpSequence_MOVE_ACTION_2",
+"MOVE_ACTION_2",
+"__init__",
+"__del__",
+"GetShip",
+"GetOrigin",
+"GetDestinationSet",
+"GetExitPoint",
+"GetWarpSequencePiece",
+"__repr__"
+]
+},
+"WarpSequencePtr": {
+"bases": [
+"WarpSequence"
+],
+"names": [
+"__init__"
+]
+},
+"WarpFlash": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WarpFlashPtr": {
+"bases": [
+"WarpFlash"
+],
+"names": [
+"__init__"
+]
+},
+"LensFlare": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"LensFlarePtr": {
+"bases": [
+"LensFlare"
+],
+"names": [
+"__init__"
+]
+},
+"ExplosionPlumeController": {
+"bases": [
+"AnimTSParticleController"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"ExplosionPlumeControllerPtr": {
+"bases": [
+"ExplosionPlumeController"
+],
+"names": [
+"__init__"
+]
+},
+"SunEffect": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"SunEffectPtr": {
+"bases": [
+"SunEffect"
+],
+"names": [
+"__init__"
+]
+},
+"TextureAnimTrack": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"TextureAnimTrackPtr": {
+"bases": [
+"TextureAnimTrack"
+],
+"names": [
+"__init__"
+]
+},
+"TextureAnimContainer": {
+"bases": [],
+"names": [
+"__init__",
+"AddTextureTrack",
+"__repr__"
+]
+},
+"TextureAnimContainerPtr": {
+"bases": [
+"TextureAnimContainer"
+],
+"names": [
+"__init__"
+]
+},
+"TextureAnimManager": {
+"bases": [],
+"names": [
+"__init__",
+"AddContainer",
+"__repr__"
+]
+},
+"TextureAnimManagerPtr": {
+"bases": [
+"TextureAnimManager"
+],
+"names": [
+"__init__"
+]
+},
+"InterfaceModule": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"InterfaceModulePtr": {
+"bases": [
+"InterfaceModule"
+],
+"names": [
+"__init__"
+]
+},
+"TopWindow": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"FindMainWindow",
+"GetLastRenderedSet",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TopWindowPtr": {
+"bases": [
+"TopWindow"
+],
+"names": [
+"__init__"
+]
+},
+"MainWindow": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"MainWindowPtr": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__"
+]
+},
+"ConsoleWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ConsoleWindowPtr": {
+"bases": [
+"ConsoleWindow"
+],
+"names": [
+"__init__"
+]
+},
+"OptionsWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"OptionsWindowPtr": {
+"bases": [
+"OptionsWindow"
+],
+"names": [
+"__init__"
+]
+},
+"BridgeWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BridgeWindowPtr": {
+"bases": [
+"BridgeWindow"
+],
+"names": [
+"__init__"
+]
+},
+"TacticalWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TacticalWindowPtr": {
+"bases": [
+"TacticalWindow"
+],
+"names": [
+"__init__"
+]
+},
+"TacticalControlWindow": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetWeaponsControl",
+"GetTacticalMenu",
+"GetShipDisplay",
+"GetEnemyShipDisplay",
+"GetWeaponsDisplay",
+"GetTargetMenu",
+"GetRadarDisplay",
+"GetRadarToggle",
+"FindMenu",
+"GetMenuParentPane",
+"GetOpenMenu",
+"__repr__"
+]
+},
+"TacticalControlWindowPtr": {
+"bases": [
+"TacticalControlWindow"
+],
+"names": [
+"__init__"
+]
+},
+"MapWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"MapWindowPtr": {
+"bases": [
+"MapWindow"
+],
+"names": [
+"__init__"
+]
+},
+"ModalDialogWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ModalDialogWindowPtr": {
+"bases": [
+"ModalDialogWindow"
+],
+"names": [
+"__init__"
+]
+},
+"CinematicWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CinematicWindowPtr": {
+"bases": [
+"CinematicWindow"
+],
+"names": [
+"__init__"
+]
+},
+"SubtitleWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"Appc",
+"SubtitleWindow_SM_BRIDGE",
+"SM_BRIDGE",
+"SubtitleWindow_SM_TACTICAL",
+"SM_TACTICAL",
+"SubtitleWindow_SM_FELIX",
+"SM_FELIX",
+"SubtitleWindow_SM_NONFELIX",
+"SM_NONFELIX",
+"SubtitleWindow_SM_MAP",
+"SM_MAP",
+"SubtitleWindow_SM_CINEMATIC",
+"SM_CINEMATIC",
+"SubtitleWindow_SM_END_CINEMATIC",
+"SM_END_CINEMATIC",
+"SubtitleWindow_SM_SPECIAL_FELIX",
+"SM_SPECIAL_FELIX",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"SubtitleWindowPtr": {
+"bases": [
+"SubtitleWindow"
+],
+"names": [
+"__init__"
+]
+},
+"SubtitleAction": {
+"bases": [
+"TGTimedAction"
+],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"SubtitleActionPtr": {
+"bases": [
+"SubtitleAction"
+],
+"names": [
+"__init__"
+]
+},
+"STStylizedWindow": {
+"bases": [
+"TGWindow"
+],
+"names": [
+"Appc",
+"STStylizedWindow_SCROLL_DOWN",
+"SCROLL_DOWN",
+"STStylizedWindow_NO_SCROLL",
+"NO_SCROLL",
+"STStylizedWindow_SCROLL_UP",
+"SCROLL_UP",
+"__init__",
+"GetName",
+"GetNameParagraph",
+"GetExteriorPane",
+"GetInteriorPane",
+"__del__",
+"__repr__"
+]
+},
+"STStylizedWindowPtr": {
+"bases": [
+"STStylizedWindow"
+],
+"names": [
+"__init__"
+]
+},
+"STMenu": {
+"bases": [
+"TGWindow"
+],
+"names": [
+"Appc",
+"STMenu_STMF_TWO_CLICKS",
+"STMF_TWO_CLICKS",
+"STMenu_STMF_OPENABLE",
+"STMF_OPENABLE",
+"STMenu_STMF_CLOSEABLE",
+"STMF_CLOSEABLE",
+"STMenu_STMF_AUTO_CHOOSE",
+"STMF_AUTO_CHOOSE",
+"STMenu_STMF_FLAGS_MASK",
+"STMF_FLAGS_MASK",
+"STMenu_STMF_CLICKED_ONCE",
+"STMF_CLICKED_ONCE",
+"STMenu_STMF_OPENED",
+"STMF_OPENED",
+"STMenu_STMF_CHOSEN",
+"STMF_CHOSEN",
+"STMenu_STMF_DONT_USE_END_CAP_SPACE",
+"STMF_DONT_USE_END_CAP_SPACE",
+"STMenu_STMF_DEFAULTS",
+"STMF_DEFAULTS",
+"__init__",
+"__del__",
+"GetText",
+"GetSubmenu",
+"GetSubmenuW",
+"GetButton",
+"GetButtonW",
+"GetClientArea",
+"GetContainingWindow",
+"__repr__"
+]
+},
+"STMenuPtr": {
+"bases": [
+"STMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STSubPane": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"GetSubmenu",
+"GetSubmenuW",
+"GetButton",
+"GetButtonW",
+"GetContainingWindow",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STSubPanePtr": {
+"bases": [
+"STSubPane"
+],
+"names": [
+"__init__"
+]
+},
+"STTopLevelMenu": {
+"bases": [
+"STMenu"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetOwner",
+"__repr__"
+]
+},
+"STTopLevelMenuPtr": {
+"bases": [
+"STTopLevelMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STCharacterMenu": {
+"bases": [
+"STMenu"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STCharacterMenuPtr": {
+"bases": [
+"STCharacterMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STButton": {
+"bases": [
+"TGButtonBase"
+],
+"names": [
+"Appc",
+"STButton_LEFT",
+"LEFT",
+"STButton_CENTER",
+"CENTER",
+"STButton_RIGHT",
+"RIGHT",
+"__init__",
+"GetText",
+"GetContainingWindow",
+"__del__",
+"__repr__"
+]
+},
+"STButtonPtr": {
+"bases": [
+"STButton"
+],
+"names": [
+"__init__"
+]
+},
+"STRoundedButton": {
+"bases": [
+"TGButtonBase"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STRoundedButtonPtr": {
+"bases": [
+"STRoundedButton"
+],
+"names": [
+"__init__"
+]
+},
+"STToggle": {
+"bases": [
+"STButton"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPrimaryCaption",
+"__repr__"
+]
+},
+"STTogglePtr": {
+"bases": [
+"STToggle"
+],
+"names": [
+"__init__"
+]
+},
+"STFillGauge": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"STFillGauge_LEFT_TO_RIGHT",
+"LEFT_TO_RIGHT",
+"STFillGauge_RIGHT_TO_LEFT",
+"RIGHT_TO_LEFT",
+"STFillGauge_BOTTOM_TO_TOP",
+"BOTTOM_TO_TOP",
+"STFillGauge_TOP_TO_BOTTOM",
+"TOP_TO_BOTTOM",
+"__init__",
+"__del__",
+"GetObject",
+"__repr__"
+]
+},
+"STFillGaugePtr": {
+"bases": [
+"STFillGauge"
+],
+"names": [
+"__init__"
+]
+},
+"STNumericBar": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"GetText",
+"GetPercentageText",
+"GetMarker",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STNumericBarPtr": {
+"bases": [
+"STNumericBar"
+],
+"names": [
+"__init__"
+]
+},
+"STTargetMenu": {
+"bases": [
+"STTopLevelMenu"
+],
+"names": [
+"__init__",
+"GetObjectEntry",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STTargetMenuPtr": {
+"bases": [
+"STTargetMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STFileMenu": {
+"bases": [
+"STTopLevelMenu"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STFileMenuPtr": {
+"bases": [
+"STFileMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STFileDialog": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"GetFileMenu",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STFileDialogPtr": {
+"bases": [
+"STFileDialog"
+],
+"names": [
+"__init__"
+]
+},
+"STLoadDialog": {
+"bases": [
+"STFileDialog"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STLoadDialogPtr": {
+"bases": [
+"STLoadDialog"
+],
+"names": [
+"__init__"
+]
+},
+"STSaveDialog": {
+"bases": [
+"STFileDialog"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STSaveDialogPtr": {
+"bases": [
+"STSaveDialog"
+],
+"names": [
+"__init__"
+]
+},
+"STSubsystemMenu": {
+"bases": [
+"STMenu"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetShip",
+"__repr__"
+]
+},
+"STSubsystemMenuPtr": {
+"bases": [
+"STSubsystemMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STComponentMenu": {
+"bases": [
+"STMenu"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetShip",
+"GetSubsystem",
+"__repr__"
+]
+},
+"STComponentMenuPtr": {
+"bases": [
+"STComponentMenu"
+],
+"names": [
+"__init__"
+]
+},
+"STComponentMenuItem": {
+"bases": [
+"STButton"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetSubsystem",
+"__repr__"
+]
+},
+"STComponentMenuItemPtr": {
+"bases": [
+"STComponentMenuItem"
+],
+"names": [
+"__init__"
+]
+},
+"STTiledIcon": {
+"bases": [
+"TGIcon"
+],
+"names": [
+"Appc",
+"STTiledIcon_DIRECTION_X",
+"DIRECTION_X",
+"STTiledIcon_DIRECTION_Y",
+"DIRECTION_Y",
+"STTiledIcon_TILE_X",
+"TILE_X",
+"STTiledIcon_TILE_Y",
+"TILE_Y",
+"STTiledIcon_TILE_SIZE_X",
+"TILE_SIZE_X",
+"STTiledIcon_TILE_SIZE_Y",
+"TILE_SIZE_Y",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"STTiledIconPtr": {
+"bases": [
+"STTiledIcon"
+],
+"names": [
+"__init__"
+]
+},
+"GraphicsMenuInfo": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"GraphicsMenuInfo_m_bDataWasChanged_set",
+"GraphicsMenuInfo_m_bModeWasChanged_set",
+"GraphicsMenuInfo_m_bWeAreCanceling_set",
+"GraphicsMenuInfo_m_bWeAreUndoing_set",
+"GraphicsMenuInfo_m_bDetect_set",
+"GraphicsMenuInfo_m_kUndoMode_set",
+"GraphicsMenuInfo_m_kOldMode_set",
+"GraphicsMenuInfo_m_pSizeToggle_set",
+"GraphicsMenuInfo_m_pColorDepthToggle_set",
+"GraphicsMenuInfo_m_pApplyButton_set",
+"GraphicsMenuInfo_ms_pDatabase_set",
+"GraphicsMenuInfo_m_kSavedTitle_set",
+"GraphicsMenuInfo_ms_pGraphicsMenu_set",
+"__setmethods__",
+"__setattr__",
+"GraphicsMenuInfo_m_bDataWasChanged_get",
+"GraphicsMenuInfo_m_bModeWasChanged_get",
+"GraphicsMenuInfo_m_bWeAreCanceling_get",
+"GraphicsMenuInfo_m_bWeAreUndoing_get",
+"GraphicsMenuInfo_m_bDetect_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"GraphicsMenuInfoPtr": {
+"bases": [
+"GraphicsMenuInfo"
+],
+"names": [
+"__init__"
+]
+},
+"GraphicsMenu": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"GetDevicesMenu",
+"GetSizeToggle",
+"GetColorDepthToggle",
+"GetResolutionMenu",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"GraphicsMenuPtr": {
+"bases": [
+"GraphicsMenu"
+],
+"names": [
+"__init__"
+]
+},
+"ShipDisplay": {
+"bases": [
+"STStylizedWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetShieldsDisplay",
+"GetDamageDisplay",
+"GetHealthGauge",
+"__repr__"
+]
+},
+"ShipDisplayPtr": {
+"bases": [
+"ShipDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"ShieldsDisplay": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"ShieldsDisplay_DISPLAY_PANE",
+"DISPLAY_PANE",
+"ShieldsDisplay_TOP_PANE",
+"TOP_PANE",
+"ShieldsDisplay_SHIP_ICON",
+"SHIP_ICON",
+"ShieldsDisplay_BOTTOM_PANE",
+"BOTTOM_PANE",
+"ShieldsDisplay_NO_TARGET",
+"NO_TARGET",
+"ShieldsDisplay_UNKNOWN_OBJECT",
+"UNKNOWN_OBJECT",
+"ShieldsDisplay_TOP_SHIELDS",
+"TOP_SHIELDS",
+"ShieldsDisplay_FRONT_SHIELDS",
+"FRONT_SHIELDS",
+"ShieldsDisplay_REAR_SHIELDS",
+"REAR_SHIELDS",
+"ShieldsDisplay_LEFT_SHIELDS",
+"LEFT_SHIELDS",
+"ShieldsDisplay_RIGHT_SHIELDS",
+"RIGHT_SHIELDS",
+"ShieldsDisplay_BOTTOM_SHIELDS",
+"BOTTOM_SHIELDS",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"ShieldsDisplayPtr": {
+"bases": [
+"ShieldsDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"DamageIcon": {
+"bases": [
+"TGIcon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetSubsystem",
+"__repr__"
+]
+},
+"DamageIconPtr": {
+"bases": [
+"DamageIcon"
+],
+"names": [
+"__init__"
+]
+},
+"DamageDisplay": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetShip",
+"__repr__"
+]
+},
+"DamageDisplayPtr": {
+"bases": [
+"DamageDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponsDisplay": {
+"bases": [
+"STStylizedWindow"
+],
+"names": [
+"Appc",
+"WeaponsDisplay_DISPLAY_PANE",
+"DISPLAY_PANE",
+"WeaponsDisplay_ICON_PANE",
+"ICON_PANE",
+"WeaponsDisplay_TOP_RIGHT_BORDER",
+"TOP_RIGHT_BORDER",
+"WeaponsDisplay_TOP_BORDER",
+"TOP_BORDER",
+"WeaponsDisplay_LEFT_TOP_BORDER",
+"LEFT_TOP_BORDER",
+"WeaponsDisplay_LEFT_BORDER",
+"LEFT_BORDER",
+"WeaponsDisplay_LEFT_BOTTOM_BORDER",
+"LEFT_BOTTOM_BORDER",
+"WeaponsDisplay_RIGHT_TOP_BORDER",
+"RIGHT_TOP_BORDER",
+"WeaponsDisplay_RIGHT_BORDER",
+"RIGHT_BORDER",
+"WeaponsDisplay_RIGHT_BOTTOM_BORDER",
+"RIGHT_BOTTOM_BORDER",
+"WeaponsDisplay_GLASS",
+"GLASS",
+"WeaponsDisplay_TORPEDO_PANE",
+"TORPEDO_PANE",
+"WeaponsDisplay_UPPER_PHASER_PANE",
+"UPPER_PHASER_PANE",
+"WeaponsDisplay_UPPER_PHASER_INDICATOR_PANE",
+"UPPER_PHASER_INDICATOR_PANE",
+"WeaponsDisplay_UPPER_DISRUPTOR_PANE",
+"UPPER_DISRUPTOR_PANE",
+"WeaponsDisplay_UPPER_DISRUPTOR_INDICATOR_PANE",
+"UPPER_DISRUPTOR_INDICATOR_PANE",
+"WeaponsDisplay_SHIP_ICON",
+"SHIP_ICON",
+"WeaponsDisplay_LOWER_PHASER_INDICATOR_PANE",
+"LOWER_PHASER_INDICATOR_PANE",
+"WeaponsDisplay_LOWER_PHASER_PANE",
+"LOWER_PHASER_PANE",
+"WeaponsDisplay_LOWER_DISRUPTOR_INDICATOR_PANE",
+"LOWER_DISRUPTOR_INDICATOR_PANE",
+"WeaponsDisplay_LOWER_DISRUPTOR_PANE",
+"LOWER_DISRUPTOR_PANE",
+"WeaponsDisplay_SPEED_INDICATOR_PANE",
+"SPEED_INDICATOR_PANE",
+"WeaponsDisplay_SPEED_INDICATOR_TEXT",
+"SPEED_INDICATOR_TEXT",
+"WeaponsDisplay_SPEED_INDICATOR_SPEED",
+"SPEED_INDICATOR_SPEED",
+"WeaponsDisplay_SPEED_INDICATOR_BACKGROUND",
+"SPEED_INDICATOR_BACKGROUND",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"WeaponsDisplayPtr": {
+"bases": [
+"WeaponsDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"RadarDisplay": {
+"bases": [
+"STStylizedWindow"
+],
+"names": [
+"Appc",
+"RadarDisplay_RADAR_SCOPE",
+"RADAR_SCOPE",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"RadarDisplayPtr": {
+"bases": [
+"RadarDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"RadarBlip": {
+"bases": [
+"TGIcon"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"RadarBlipPtr": {
+"bases": [
+"RadarBlip"
+],
+"names": [
+"__init__"
+]
+},
+"RadarScope": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"RadarScope_SHIP_ICON",
+"SHIP_ICON",
+"RadarScope_RADAR_RING",
+"RADAR_RING",
+"RadarScope_BRACKET_PANE",
+"BRACKET_PANE",
+"RadarScope_TARGET_BRACKET",
+"TARGET_BRACKET",
+"RadarScope_BLIP_PANE",
+"BLIP_PANE",
+"RadarScope_PHASER_LINE_PANE",
+"PHASER_LINE_PANE",
+"RadarScope_BACKGROUND_PANE",
+"BACKGROUND_PANE",
+"__init__",
+"__del__",
+"CreateShipIcon",
+"__repr__"
+]
+},
+"RadarScopePtr": {
+"bases": [
+"RadarScope"
+],
+"names": [
+"__init__"
+]
+},
+"TacWeaponsCtrl": {
+"bases": [
+"STStylizedWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPhaserIntensityToggle",
+"GetTorpTypeToggle",
+"GetTorpSpreadToggle",
+"GetBeamToggle",
+"GetCloakToggle",
+"__repr__"
+]
+},
+"TacWeaponsCtrlPtr": {
+"bases": [
+"TacWeaponsCtrl"
+],
+"names": [
+"__init__"
+]
+},
+"EngPowerCtrl": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetBarForSubsystem",
+"__repr__"
+]
+},
+"EngPowerCtrlPtr": {
+"bases": [
+"EngPowerCtrl"
+],
+"names": [
+"__init__"
+]
+},
+"EngPowerDisplay": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"EngPowerDisplay_MAIN",
+"MAIN",
+"EngPowerDisplay_BACKUP",
+"BACKUP",
+"EngPowerDisplay_WARP_CORE",
+"WARP_CORE",
+"__init__",
+"__del__",
+"CreateBatteryGauge",
+"__repr__"
+]
+},
+"EngPowerDisplayPtr": {
+"bases": [
+"EngPowerDisplay"
+],
+"names": [
+"__init__"
+]
+},
+"EngRepairPane": {
+"bases": [
+"TGPane"
+],
+"names": [
+"Appc",
+"EngRepairPane_REPAIR_AREA_LABEL",
+"REPAIR_AREA_LABEL",
+"EngRepairPane_REPAIR_AREA",
+"REPAIR_AREA",
+"EngRepairPane_WAITING_AREA_LABEL",
+"WAITING_AREA_LABEL",
+"EngRepairPane_WAITING_AREA",
+"WAITING_AREA",
+"EngRepairPane_DESTROYED_AREA_LABEL",
+"DESTROYED_AREA_LABEL",
+"EngRepairPane_DESTROYED_AREA",
+"DESTROYED_AREA",
+"EngRepairPane_DIVIDER",
+"DIVIDER",
+"EngRepairPane_DIVIDER_2",
+"DIVIDER_2",
+"__init__",
+"__del__",
+"GetSubsystemButton",
+"__repr__"
+]
+},
+"EngRepairPanePtr": {
+"bases": [
+"EngRepairPane"
+],
+"names": [
+"__init__"
+]
+},
+"STWarpButton": {
+"bases": [
+"STButton"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STWarpButtonPtr": {
+"bases": [
+"STWarpButton"
+],
+"names": [
+"__init__"
+]
+},
+"SortedRegionMenu": {
+"bases": [
+"STCharacterMenu"
+],
+"names": [
+"__init__",
+"InitializeAllSets",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SortedRegionMenuPtr": {
+"bases": [
+"SortedRegionMenu"
+],
+"names": [
+"__init__"
+]
+},
+"MultiplayerWindow": {
+"bases": [
+"MainWindow"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetMultiplayerMenu",
+"GetHostMenu",
+"GetDedicatedServerMenu",
+"GetJoinMenu",
+"GetDirectJoinMenu",
+"GetMissionPane",
+"GetStatusWindow",
+"GetEndWindow",
+"GetChatWindow",
+"GetPlayerListWindow",
+"BuildMissionMenu",
+"__repr__"
+]
+},
+"MultiplayerWindowPtr": {
+"bases": [
+"MultiplayerWindow"
+],
+"names": [
+"__init__"
+]
+},
+"STMissionLog": {
+"bases": [
+"TGPane"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"STMissionLogPtr": {
+"bases": [
+"STMissionLog"
+],
+"names": [
+"__init__"
+]
+},
+"KeyboardBinding": {
+"bases": [],
+"names": [
+"Appc",
+"KeyboardBinding_GET_EVENT",
+"GET_EVENT",
+"KeyboardBinding_GET_INT_EVENT",
+"GET_INT_EVENT",
+"KeyboardBinding_GET_BOOL_EVENT",
+"GET_BOOL_EVENT",
+"KeyboardBinding_GET_FLOAT_EVENT",
+"GET_FLOAT_EVENT",
+"KeyboardBinding_KBT_MANY_TO_MANY",
+"KBT_MANY_TO_MANY",
+"KeyboardBinding_KBT_SINGLE_EVENT_TO_KEY",
+"KBT_SINGLE_EVENT_TO_KEY",
+"KeyboardBinding_KBT_SINGLE_KEY_TO_EVENT",
+"KBT_SINGLE_KEY_TO_EVENT",
+"KeyboardBinding_KBT_LOCKOUT_CHANGE",
+"KBT_LOCKOUT_CHANGE",
+"__init__",
+"__repr__"
+]
+},
+"KeyboardBindingPtr": {
+"bases": [
+"KeyboardBinding"
+],
+"names": [
+"__init__"
+]
+},
+"UITreeDialog": {
+"bases": [],
+"names": [
+"__init__",
+"__repr__"
+]
+},
+"UITreeDialogPtr": {
+"bases": [
+"UITreeDialog"
+],
+"names": [
+"__init__"
+]
+},
+"PlacementObject": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"FindContainingSet",
+"__repr__"
+]
+},
+"PlacementObjectPtr": {
+"bases": [
+"PlacementObject"
+],
+"names": [
+"__init__"
+]
+},
+"Waypoint": {
+"bases": [
+"PlacementObject"
+],
+"names": [
+"__init__",
+"GetNext",
+"GetPrev",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WaypointPtr": {
+"bases": [
+"Waypoint"
+],
+"names": [
+"__init__"
+]
+},
+"LightPlacement": {
+"bases": [
+"PlacementObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"LightPlacementPtr": {
+"bases": [
+"LightPlacement"
+],
+"names": [
+"__init__"
+]
+},
+"GridClass": {
+"bases": [
+"ObjectClass"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetIntersectionPoint",
+"__repr__"
+]
+},
+"GridClassPtr": {
+"bases": [
+"GridClass"
+],
+"names": [
+"__init__"
+]
+},
+"AsteroidFieldPlacement": {
+"bases": [
+"PlacementObject"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetField",
+"__repr__"
+]
+},
+"AsteroidFieldPlacementPtr": {
+"bases": [
+"AsteroidFieldPlacement"
+],
+"names": [
+"__init__"
+]
+},
+"PositionOrientationProperty": {
+"bases": [
+"TGModelProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetForward",
+"GetUp",
+"GetRight",
+"GetPosition",
+"__repr__"
+]
+},
+"PositionOrientationPropertyPtr": {
+"bases": [
+"PositionOrientationProperty"
+],
+"names": [
+"__init__"
+]
+},
+"SubsystemProperty": {
+"bases": [
+"TGModelProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetPosition",
+"GetPositionTG",
+"__repr__"
+]
+},
+"SubsystemPropertyPtr": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"PoweredSubsystemProperty": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"PoweredSubsystemPropertyPtr": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponSystemProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"Appc",
+"WeaponSystemProperty_WST_UNKNOWN",
+"WST_UNKNOWN",
+"WeaponSystemProperty_WST_PHASER",
+"WST_PHASER",
+"WeaponSystemProperty_WST_TORPEDO",
+"WST_TORPEDO",
+"WeaponSystemProperty_WST_PULSE",
+"WST_PULSE",
+"WeaponSystemProperty_WST_TRACTOR",
+"WST_TRACTOR",
+"__init__",
+"__del__",
+"GetFiringChainString",
+"__repr__"
+]
+},
+"WeaponSystemPropertyPtr": {
+"bases": [
+"WeaponSystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"WeaponProperty": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WeaponPropertyPtr": {
+"bases": [
+"WeaponProperty"
+],
+"names": [
+"__init__"
+]
+},
+"EnergyWeaponProperty": {
+"bases": [
+"WeaponProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"EnergyWeaponPropertyPtr": {
+"bases": [
+"EnergyWeaponProperty"
+],
+"names": [
+"__init__"
+]
+},
+"PhaserProperty": {
+"bases": [
+"EnergyWeaponProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOuterShellColor",
+"GetInnerShellColor",
+"GetOuterCoreColor",
+"GetInnerCoreColor",
+"__repr__"
+]
+},
+"PhaserPropertyPtr": {
+"bases": [
+"PhaserProperty"
+],
+"names": [
+"__init__"
+]
+},
+"PulseWeaponProperty": {
+"bases": [
+"EnergyWeaponProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight",
+"__repr__"
+]
+},
+"PulseWeaponPropertyPtr": {
+"bases": [
+"PulseWeaponProperty"
+],
+"names": [
+"__init__"
+]
+},
+"TractorBeamProperty": {
+"bases": [
+"EnergyWeaponProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetOrientationForward",
+"GetOrientationUp",
+"GetOrientationRight",
+"GetOuterShellColor",
+"GetInnerShellColor",
+"GetOuterCoreColor",
+"GetInnerCoreColor",
+"__repr__"
+]
+},
+"TractorBeamPropertyPtr": {
+"bases": [
+"TractorBeamProperty"
+],
+"names": [
+"__init__"
+]
+},
+"TorpedoTubeProperty": {
+"bases": [
+"WeaponProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"GetDirection",
+"GetRight",
+"__repr__"
+]
+},
+"TorpedoTubePropertyPtr": {
+"bases": [
+"TorpedoTubeProperty"
+],
+"names": [
+"__init__"
+]
+},
+"TorpedoAmmoType": {
+"bases": [],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"TorpedoAmmoType_m_iMaxTorpedoes_set",
+"TorpedoAmmoType_m_pcModule_set",
+"TorpedoAmmoType_m_fLaunchSpeed_set",
+"TorpedoAmmoType_m_pcLaunchSound_set",
+"__setmethods__",
+"__setattr__",
+"TorpedoAmmoType_m_iMaxTorpedoes_get",
+"TorpedoAmmoType_m_pcModule_get",
+"TorpedoAmmoType_m_fLaunchSpeed_get",
+"TorpedoAmmoType_m_pcLaunchSound_get",
+"__getmethods__",
+"__getattr__",
+"__repr__"
+]
+},
+"TorpedoAmmoTypePtr": {
+"bases": [
+"TorpedoAmmoType"
+],
+"names": [
+"__init__"
+]
+},
+"TorpedoSystemProperty": {
+"bases": [
+"WeaponSystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"TorpedoSystemPropertyPtr": {
+"bases": [
+"TorpedoSystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"EngineGlowProperty": {
+"bases": [
+"TGModelProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"EngineGlowPropertyPtr": {
+"bases": [
+"EngineGlowProperty"
+],
+"names": [
+"__init__"
+]
+},
+"ShieldProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"Appc",
+"ShieldProperty_FRONT_SHIELDS",
+"FRONT_SHIELDS",
+"ShieldProperty_REAR_SHIELDS",
+"REAR_SHIELDS",
+"ShieldProperty_TOP_SHIELDS",
+"TOP_SHIELDS",
+"ShieldProperty_BOTTOM_SHIELDS",
+"BOTTOM_SHIELDS",
+"ShieldProperty_LEFT_SHIELDS",
+"LEFT_SHIELDS",
+"ShieldProperty_RIGHT_SHIELDS",
+"RIGHT_SHIELDS",
+"ShieldProperty_NUM_SHIELDS",
+"NUM_SHIELDS",
+"__init__",
+"__del__",
+"GetShieldGlowColor",
+"__repr__"
+]
+},
+"ShieldPropertyPtr": {
+"bases": [
+"ShieldProperty"
+],
+"names": [
+"__init__"
+]
+},
+"HullProperty": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"HullPropertyPtr": {
+"bases": [
+"HullProperty"
+],
+"names": [
+"__init__"
+]
+},
+"SensorProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SensorPropertyPtr": {
+"bases": [
+"SensorProperty"
+],
+"names": [
+"__init__"
+]
+},
+"CloakingSubsystemProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"CloakingSubsystemPropertyPtr": {
+"bases": [
+"CloakingSubsystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"RepairSubsystemProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"RepairSubsystemPropertyPtr": {
+"bases": [
+"RepairSubsystemProperty"
+],
+"names": [
+"__init__"
+]
+},
+"ShipProperty": {
+"bases": [
+"TGModelProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ShipPropertyPtr": {
+"bases": [
+"ShipProperty"
+],
+"names": [
+"__init__"
+]
+},
+"PowerProperty": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"PowerPropertyPtr": {
+"bases": [
+"PowerProperty"
+],
+"names": [
+"__init__"
+]
+},
+"ImpulseEngineProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ImpulseEnginePropertyPtr": {
+"bases": [
+"ImpulseEngineProperty"
+],
+"names": [
+"__init__"
+]
+},
+"WarpEngineProperty": {
+"bases": [
+"PoweredSubsystemProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"WarpEnginePropertyPtr": {
+"bases": [
+"WarpEngineProperty"
+],
+"names": [
+"__init__"
+]
+},
+"EngineProperty": {
+"bases": [
+"SubsystemProperty"
+],
+"names": [
+"Appc",
+"EngineProperty_EP_IMPULSE",
+"EP_IMPULSE",
+"EngineProperty_EP_WARP",
+"EP_WARP",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"EnginePropertyPtr": {
+"bases": [
+"EngineProperty"
+],
+"names": [
+"__init__"
+]
+},
+"EffectEmitterProperty": {
+"bases": [
+"PositionOrientationProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"EffectEmitterPropertyPtr": {
+"bases": [
+"EffectEmitterProperty"
+],
+"names": [
+"__init__"
+]
+},
+"SmokeEmitterProperty": {
+"bases": [
+"EffectEmitterProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SmokeEmitterPropertyPtr": {
+"bases": [
+"SmokeEmitterProperty"
+],
+"names": [
+"__init__"
+]
+},
+"SparkEmitterProperty": {
+"bases": [
+"EffectEmitterProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SparkEmitterPropertyPtr": {
+"bases": [
+"SparkEmitterProperty"
+],
+"names": [
+"__init__"
+]
+},
+"ExplodeEmitterProperty": {
+"bases": [
+"EffectEmitterProperty"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ExplodeEmitterPropertyPtr": {
+"bases": [
+"ExplodeEmitterProperty"
+],
+"names": [
+"__init__"
+]
+},
+"BlinkingLightProperty": {
+"bases": [
+"EffectEmitterProperty"
+],
+"names": [
+"__init__",
+"GetColor",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"BlinkingLightPropertyPtr": {
+"bases": [
+"BlinkingLightProperty"
+],
+"names": [
+"__init__"
+]
+},
+"ObjectEmitterProperty": {
+"bases": [
+"PositionOrientationProperty"
+],
+"names": [
+"Appc",
+"ObjectEmitterProperty_OEP_UNKNOWN",
+"OEP_UNKNOWN",
+"ObjectEmitterProperty_OEP_SHUTTLE",
+"OEP_SHUTTLE",
+"ObjectEmitterProperty_OEP_PROBE",
+"OEP_PROBE",
+"ObjectEmitterProperty_OEP_DECOY",
+"OEP_DECOY",
+"__init__",
+"__del__",
+"__repr__"
+]
+},
+"ObjectEmitterPropertyPtr": {
+"bases": [
+"ObjectEmitterProperty"
+],
+"names": [
+"__init__"
+]
+},
+"MultiplayerGame": {
+"bases": [
+"Game"
+],
+"names": [
+"Appc",
+"MultiplayerGame_MAX_PLAYERS",
+"MAX_PLAYERS",
+"__init__",
+"__del__",
+"GetPlayerName",
+"GetShipFromPlayerID",
+"__repr__"
+]
+},
+"MultiplayerGamePtr": {
+"bases": [
+"MultiplayerGame"
+],
+"names": [
+"__init__"
+]
+},
+"ServerListEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"ServerListEventPtr": {
+"bases": [
+"ServerListEvent"
+],
+"names": [
+"__init__"
+]
+},
+"SortServerListEvent": {
+"bases": [
+"TGEvent"
+],
+"names": [
+"__init__",
+"Appc",
+"__del__",
+"__repr__"
+]
+},
+"SortServerListEventPtr": {
+"bases": [
+"SortServerListEvent"
+],
+"names": [
+"__init__"
+]
+}
+}

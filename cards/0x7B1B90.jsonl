@@ -1,0 +1,4 @@
+{"date": "2026-11-18", "kind": "score", "lane": "const-referents", "commit": "f95d91a8cd", "from": 100.0, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-18", "kind": "score", "lane": "renumber", "commit": "7769acdd48", "from": 99.9, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-20", "kind": "try", "lane": "audit-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "sdkdebug: AnimOnly 0x4A1679 (NiPSysController.cpp) is 3.1's Update: a lastTime == -1 test, no epsilon, the delta passed on; BC's compares scaledTime with lastTime and an epsilon (retail's bytes). Release-vs-debug conflict: release kept.", "wall": "structure"}
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit conflict: AnimOnly 0x4A1679 is an earlier revision (no fabsf epsilon test, the reset path asserts m_pNode2 and passes a time delta): release keeps retail's statements"}

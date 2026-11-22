@@ -1,0 +1,7 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-58", "commit": "3db2b1b0d1", "from": null, "to": 90.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 90.4, "to": 90.4, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-90c", "by": "opus", "from": 90.4, "to": 92.1, "how": "tracks[index] at each use, as AnimatedTriShapeParticles' twin (no track local): 90.4 -> 92.1, the corner copy matches; textures + index * 4 flat; key times at each use (no time0/time1): 86.2", "wall": "register", "group": "schedule-only"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90c", "commit": "185f59f4f4", "from": 90.4, "to": 92.1, "status": "DIFF"}
+{"date": "2026-11-21", "kind": "try", "lane": "effects", "by": "sonnet", "from": 92.1, "to": 100.0, "how": "MATCH: key0/key1/time0/time1 declared before the interp function pointer (retail forms key1's address before loading interpFunctions[LINKEY]); any order with the keys first is exact (trial)"}
+{"date": "2026-11-21", "kind": "score", "lane": "effects", "commit": "99d84acb8e", "from": 92.1, "to": 100.0, "status": "MATCH"}

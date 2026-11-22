@@ -1,0 +1,4 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-optimized", "by": "fable", "from": null, "to": 92.5, "how": "phase 1 draft from the script's method of the same role; see the DRAFT note (if/else assignment into a NiPoint3 instead of ?: removed the EH frame where retail has none)"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-optimized", "commit": "b5a883162e", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-reuse", "how": "framemap: retail keeps some of one variable's values in another's slot: one variable reused, or scopes that let them share"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts80", "commit": "12adbbcb6c", "from": 92.5, "to": 100.0, "status": "MATCH"}

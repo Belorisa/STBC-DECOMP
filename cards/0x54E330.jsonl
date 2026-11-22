@@ -1,0 +1,3 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ui-layout", "by": "opus", "from": null, "to": 78.9, "how": "loops with break then one SetFocus (38.2), then a SetFocus per branch (78.9): the compiler merges the identical tails", "wall": "control-flow"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-layout", "commit": "55b3cdda01", "from": null, "to": 78.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "control-flow-walls", "commit": "ecfccf2f7b", "from": 78.9, "to": 100.0, "status": "MATCH"}

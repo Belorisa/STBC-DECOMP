@@ -1,0 +1,6 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-obb", "by": "fable", "from": null, "to": 86.1, "how": "first spelling (NiDynamicCast shape, texture, AddTail; child loop): ebp/edi swapped and no explicit compare of the shape", "wall": "register"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-obb", "commit": "c3491a7286", "from": null, "to": 86.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "register-roles", "how": "framemap: same frame, callee-saved register roles or push order differ: no frame evidence"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 86.1, "to": 86.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80b", "by": "opus", "from": 86.1, "to": 86.1, "how": "if/else in place of the shape arm's return: 86.1, byte-identical; c2trace --regs: zero const #9 takes edi only because node (ebx/ebp allowed) and child (temp #32, edi) are placed first; retail gives child ebp, node edi, zero ebp", "wall": "register", "group": "register-roles"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80b", "commit": "b3f6db459f", "from": 86.1, "to": 100.0, "status": "MATCH"}

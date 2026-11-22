@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-51", "commit": "7431fa5c71", "from": null, "to": 86.7, "status": "DIFF"}
+{"date": "2026-11-01", "kind": "score", "lane": "game-58", "commit": "3db2b1b0d1", "from": 86.7, "to": 93.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "fpu-copy", "how": "framemap: same frame, one value written as float on one side and int on the other: an FPU copy (fld/fstp) against integer moves, an inline level (x87.md, Floats copied through the FPU)"}
+{"date": "2026-11-17", "kind": "try", "lane": "fpu-copy", "by": "opus", "from": 93.1, "to": 93.1, "how": "SubsystemProperty::GetRadius given a second inline level (header probe): no change", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 93.1, "to": 93.1, "how": "operand triage: no fadd/fmul/imul/add operand pair swapped in the diff (5 register picks, 12 other instructions): register, schedule or frame, not the sort", "wall": "register", "group": "operand-order"}

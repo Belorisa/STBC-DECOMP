@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-55", "commit": "32880b86dc", "from": null, "to": 68.8, "status": "DIFF"}
+{"date": "2026-11-01", "kind": "score", "lane": "game-57", "commit": "bb5ab2a9a1", "from": 68.8, "to": 86.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow2", "by": "opus", "from": 86.8, "to": 86.8, "how": "read only: the one-branch delta is the sameAddress bool: retail evaluates player->GetConnectAddress() == connectAddress with sete before the UID compare and tests it after; this build sinks the single-use bool into a branch. Plus frame slot order (length/address swapped, a spilled player at esp+0x24) and &playerList kept in ebx. No structural lead; register/frame wall", "wall": "register"}

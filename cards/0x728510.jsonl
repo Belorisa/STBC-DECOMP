@@ -1,0 +1,3 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-2", "commit": "1fa3fe3629", "from": null, "to": 60.7, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 60.7, "to": 60.7, "how": "the NiTList::NewItem budget wall (first AddTail calls NewItem out of line, the rest expand it); NiTList.h is another lane's this round, so not touched", "wall": "inline"}
+{"date": "2026-11-21", "kind": "score", "lane": "ui-refine", "commit": "fb915f8694", "from": 60.7, "to": 100.0, "status": "MATCH"}

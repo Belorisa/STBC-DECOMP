@@ -1,0 +1,5 @@
+{"date": "2026-11-10", "kind": "try", "lane": "fable-voxel", "by": "fable", "from": null, "to": 73.2, "how": "three loop nests over the grid planes, colours and flags, NiAlphaProperty with blending on; 73.2 first compile", "wall": "inline"}
+{"date": "2026-11-10", "kind": "score", "lane": "fable-voxel", "commit": "0eab6aac09", "from": null, "to": 73.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-60", "by": "opus", "from": 73.2, "to": 85.2, "how": "the grid loops share two counters i/j (retail keeps the outer counters of all three nests in one frame slot and the inner in another; frame 0x18): 73.2 -> 85.2. Count: named per-axis point counts and both term orders still factor (retail computes Y*Z, X*Y, X*Z separately) 84.7, reverted. Budget: SetField [16.3.1] share 53 < 50 needed: ~210 more units before [16] or own -105", "wall": "inline"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-60", "commit": "dd14ddfa15", "from": 73.2, "to": 85.2, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-pass2", "commit": "a7930c3d67", "from": 85.2, "to": 100.0, "status": "MATCH"}

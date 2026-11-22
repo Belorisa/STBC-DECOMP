@@ -1,0 +1,6 @@
+{"date": "2026-11-08", "kind": "score", "lane": "strata-mapcamera", "commit": "617b0eee7b", "from": null, "to": 87.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-lineage", "by": "opus", "from": 87.2, "to": 91.3, "how": "NiPoint3::Length through Gamebryo 1.1.2's NiSqrt (float(sqrt(value)), NiMath.h included by NiPoint3.h) in place of sqrtf: 87.2 -> 91.3"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-90a", "by": "opus", "from": 91.3, "to": 77.3, "how": "up-first cross product (forward->UnitCross( camera->GetWorldUp().Cross( *forward ) ), the same vector): 77.3", "wall": "register", "group": "slot-shared"}
+{"date": "2026-11-22", "kind": "try", "lane": "walls-structure-2", "by": "opus", "from": 91.3, "to": 100.0, "how": "the first cross product into a named NiPoint3 right, then right.UnitCross( *forward ) (as ChaseCameraMode's): MATCH"}
+{"date": "2026-11-22", "kind": "score", "lane": "walls-structure-2", "commit": "8bffeb9e6c", "from": 91.3, "to": 100.0, "status": "MATCH"}

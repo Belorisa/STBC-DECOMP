@@ -1,0 +1,4 @@
+{"date": "2026-11-07", "kind": "score", "lane": "game-76", "commit": "4df01f8029", "from": null, "to": 91.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 91.8, "to": 91.8, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-90c", "by": "opus", "from": 91.8, "to": 91.8, "how": "diagnosed: retail stores oldID before loading idAttrs' hash size (eax) and counts the bucket index in ecx; ours loads the size first into ecx; NiTMap.h's GetFirstPos is off-limits, statement order fixed by the call order; no try", "wall": "register", "group": "schedule-only"}

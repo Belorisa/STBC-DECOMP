@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-late", "by": "opus", "from": null, "to": 91.7, "how": "hoisted ExceptionRecord/ContextRecord loads and the process store after construction (87.3->91.7); early return, if/else and positive condition all compile the same: failure path goes to the end instead of inline", "wall": "control-flow"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-late", "commit": "9dca8def12", "from": null, "to": 91.7, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow", "commit": "6cc37bced7", "from": 91.7, "to": 100.0, "status": "MATCH"}

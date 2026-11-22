@@ -1,0 +1,2 @@
+{"date": "2026-10-30", "kind": "score", "lane": "game-21", "commit": "91231749e3", "from": null, "to": 65.0, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-40", "by": "opus", "from": 65.0, "to": 65.0, "how": "skipped (inline-40): retail calls TGPoolManager::AllocateObject and ~NiTList (free, cost 29) out of line at top level: not a budget decision (the top-level question); NiTList.h off-limits", "wall": "inline"}

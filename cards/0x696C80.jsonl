@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-51", "commit": "7431fa5c71", "from": null, "to": 99.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 99.3, "to": 99.3, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 99.3, "to": 99.3, "how": "sched triage: (b) three of the WriteCLine calls swap push esi / mov ecx,edi in one 81-tuple region; the same source form gives retail both orders, so the region cut or the heights differ, not an input-order tie", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-95b", "commit": "dafb32b59f", "from": 99.3, "to": 100.0, "status": "MATCH"}

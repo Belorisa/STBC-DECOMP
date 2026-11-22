@@ -1,0 +1,9 @@
+build/
+orig/*
+!orig/*.sha1
+*.pyc
+__pycache__/
+*.gpr
+*.rep/
+tools/vc6/
+ref/

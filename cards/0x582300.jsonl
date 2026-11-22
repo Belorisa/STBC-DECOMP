@@ -1,0 +1,4 @@
+{"date": "2026-11-14", "kind": "try", "lane": "damage-nebula", "by": "opus", "from": null, "to": 95.8, "how": "copying GetPosition into the result first and reading the node after it reached 95.8 (60.9 with the TGPoint3 temporary in the expression); point * scale instead of scale * point changed nothing", "wall": "register"}
+{"date": "2026-11-14", "kind": "score", "lane": "damage-nebula", "commit": "9576341043", "from": null, "to": 95.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-17", "kind": "score", "lane": "modelutils", "commit": "aa8c9f3689", "from": 95.8, "to": 100.0, "status": "MATCH"}

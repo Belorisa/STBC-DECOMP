@@ -1,0 +1,6 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-50", "commit": "c38c1ff50a", "from": null, "to": 92.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 92.8, "to": 92.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 92.8, "to": 92.8, "how": "sched triage: (c) register choice (edi/ecx) in the size computation", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order-2", "by": "opus", "from": 92.8, "to": 92.8, "how": "--operands: rows * segments and (rows+1) * (segments+1) are 'temp #21 before rows #3' (segments is a temp numbered after rows), retail the reverse; segments declared first 78.8, 2 * rows * segments no move", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-unblock", "commit": "d370e7ba48", "from": 92.8, "to": 100.0, "status": "MATCH"}

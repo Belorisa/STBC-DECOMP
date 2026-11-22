@@ -1,0 +1,4 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-45", "commit": "6d55e76168", "from": null, "to": 90.7, "status": "DIFF"}
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-46", "commit": "31c9bd7ae2", "from": 90.7, "to": 91.8, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-ni", "commit": "427115440b", "from": 91.8, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: statement split and Sequence accessors from AnimOnly 0x490733; left: the manager's inline count and map accessors 0x493060/0x493080 (header item) and the frame"}

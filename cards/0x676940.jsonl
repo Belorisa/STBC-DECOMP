@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ship-cloak-viewscreen", "by": "sonnet", "from": null, "to": 96.4, "how": "drafted 96.4: TGIconGroup::unknown1C retyped to NiPointer<NiTextureProperty> (elements' image at 0x18), array pointer taken before the new; SetField(0,3,1) for SetCycleType stays inlined where retail calls it", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "ship-cloak-viewscreen", "commit": "58c923d43e", "from": null, "to": 96.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "refine95", "commit": "b1297d8424", "from": 96.4, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,2 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-30", "commit": "920b4767d0", "from": null, "to": 18.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "tg-walls", "commit": "daed314ac8", "from": 18.8, "to": 100.0, "status": "MATCH"}

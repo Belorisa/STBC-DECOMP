@@ -1,0 +1,2 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-55", "commit": "32880b86dc", "from": null, "to": 79.2, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 79.2, "to": 79.2, "how": "c2trace --regs: the zero constant (const #1, 19 refs) has prio -8 and loses ebx, so ours tests with test/immediates; retail allocates zero to ebx (push ebx, xor ebx,ebx at entry). Needs the constant's priority above zero: more zero uses or fewer competing ebx candidates; not found", "wall": "register"}

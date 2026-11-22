@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "proximity-ship", "by": "sonnet", "from": null, "to": 74.4, "how": "first draft from retail structure; see the DRAFT note in the source for what differs", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "proximity-ship", "commit": "7ea2ed4341", "from": null, "to": 74.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-game-tg", "by": "opus", "from": 74.4, "to": 74.4, "how": "table.entries[i].object for GetObject( i ): no change (74.4); retail also sets EH state 2 before ~ProximityPairCounts, this build skips it, and unlinks the touching list's nodes prev-first (std::list header)", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts50", "commit": "3a884cd999", "from": 74.4, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 53.3, "how": "draft: alpha byte at +3 through the table; 53.3, register only", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 53.3, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts-owned", "commit": "b14ecec9b2", "from": 53.3, "to": 100.0, "status": "MATCH"}

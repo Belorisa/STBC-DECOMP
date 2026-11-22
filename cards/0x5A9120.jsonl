@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "proximity-ship", "by": "sonnet", "from": null, "to": 73.2, "how": "separate loop index int i=lower instead of reusing lower (73.2 vs 66.7); params are lower, upper", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "proximity-ship", "commit": "7ea2ed4341", "from": null, "to": 73.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-tg", "commit": "10ac37fbdf", "from": 73.2, "to": 100.0, "status": "MATCH"}

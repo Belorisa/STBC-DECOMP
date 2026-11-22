@@ -1,0 +1,6 @@
+{"date": "2026-11-04", "kind": "score", "lane": "game-72", "commit": "393e86d24d", "from": null, "to": 94.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 94.4, "to": 94.4, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-a", "by": "sonnet", "from": 94.4, "to": 94.4, "how": "sched triage: (c) not-schedule, the branch or test form differs: first ours \"test eax, eax\" retail \"lea edx, [esp + 0x10]\"", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow-4", "by": "opus", "from": 94.4, "to": 100.0, "how": "MATCH: the network, object and damageable guards as nested positive ifs (no inner early return): VC6 then pushes ebx/esi after the network test and gives the early exit its own pop-free epilogue; nesting only the network test left the inner returns pulling the pushes to entry (94.4)", "wall": "control-flow"}
+{"date": "2026-11-18", "kind": "score", "lane": "control-flow-4", "commit": "d64aab6539", "from": 94.4, "to": 100.0, "status": "MATCH"}

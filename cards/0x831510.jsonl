@@ -1,0 +1,3 @@
+{"date": "2026-10-31", "kind": "score", "lane": "netimmerse-41", "commit": "4748efed52", "from": null, "to": 88.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "inline-walls", "by": "opus", "from": 88.1, "to": 88.1, "how": "record-depth probes (+1, +2 levels under NiNodeLoadRecord): 88.1 -> 78.4; the residue is SetUnknown40's loop, not the record", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "walls-ni", "commit": "0c926a3147", "from": 88.1, "to": 100.0, "status": "MATCH"}

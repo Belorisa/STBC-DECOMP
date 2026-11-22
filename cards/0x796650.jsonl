@@ -1,0 +1,4 @@
+{"date": "2026-10-30", "kind": "score", "lane": "netimmerse-33", "commit": "2a3390aa41", "from": null, "to": 41.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "sweep-ni", "by": "opus", "from": 41.8, "to": 41.8, "how": "unsigned axis counter (Gamebryo 1.2.2): unchanged 41.8", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "ni-headers", "by": "opus", "from": 41.8, "to": 41.8, "how": "lane/ni-headers: NiFloatKey::GetEqualFunction as the debug copy calls it; score unchanged", "wall": "inline"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 41.8, "to": 100.0, "status": "MATCH"}

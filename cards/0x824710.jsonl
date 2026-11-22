@@ -1,0 +1,4 @@
+{"date": "2026-10-31", "kind": "score", "lane": "netimmerse-38", "commit": "4ec906b69c", "from": null, "to": 62.9, "status": "DIFF"}
+{"date": "2026-10-31", "kind": "score", "lane": "netimmerse-39", "commit": "8b7be30ad4", "from": 62.9, "to": 77.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65c", "by": "opus", "from": 77.2, "to": 77.2, "how": "no compile: c2trace --frame: retail's slot order is format, bitCount, size, row, compression, width, height, dataOffset; ours bitCount, width, format, size, ..., so retail's width has about compression's two references (width read from the image elsewhere?) and format is created before bitCount; open lead, not tried", "wall": "register", "group": "bmp-frame"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-render", "commit": "e9a310d21c", "from": 77.2, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-pilot", "by": "sonnet", "from": null, "to": 71.1, "how": "operator* scalar-first with ShipSubsystem::GetPosition qualified: 71; member operator* form 41.9; named TGPoint3 locals with explicit NiPoint3(x*s,..) args 42.2; retail has TGPoint3 temporaries (EH state 0/-1), scales each direction z,y,x and calls ShipSubsystem::GetPosition out of line", "wall": "inline"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-pilot", "commit": "f54a8e54a1", "from": null, "to": 71.1, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-40", "by": "opus", "from": 71.1, "to": 71.1, "how": "skipped (inline-40): c2trace call sets agree; register/frame wall (frame 0x2C vs 0x38)", "wall": "register"}

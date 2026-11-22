@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 61.8, "how": "draft mirroring CreateTexture (which matches) with the RGBA test; 61.8, retail calls DecRefCount out of line", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 61.8, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-60", "commit": "dd14ddfa15", "from": 61.8, "to": 100.0, "status": "MATCH"}

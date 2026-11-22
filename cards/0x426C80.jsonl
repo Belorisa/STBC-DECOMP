@@ -1,0 +1,3 @@
+{"date": "2026-11-15", "kind": "try", "lane": "early-game", "by": "opus", "from": null, "to": 19.3, "how": "first draft from the SetAt sequence; retail calls NiTMap<float>::SetAt out of line for all but the last attribute, this build expands them all (the chase/target constructors' wall)", "wall": "inline"}
+{"date": "2026-11-15", "kind": "score", "lane": "early-game", "commit": "7c6f6c7c89", "from": null, "to": 19.3, "status": "DIFF"}
+{"date": "2026-11-21", "kind": "score", "lane": "camera", "commit": "53e72e8742", "from": 19.3, "to": 100.0, "status": "MATCH"}

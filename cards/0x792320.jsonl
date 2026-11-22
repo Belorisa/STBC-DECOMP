@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "audit-scene", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: dropped the position block's assert( create ) (AnimOnly 0x47C32B has none); with the assert names ppRotKeys/ppPosKeys/ppScaleKeys/cf and count->num the /Od copy is 94.1, two per-block slot pairs still swapped; names not kept", "wall": "register"}

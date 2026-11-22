@@ -1,0 +1,5 @@
+{"date": "2026-10-29", "kind": "score", "lane": "game-ui-5", "commit": "d6c4370fee", "from": null, "to": 88.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 88.0, "to": 88.0, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 88.0, "to": 88.0, "how": "sched triage: (b) x87: scale and screen height stay on the FPU stack across the call", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts50", "commit": "3a884cd999", "from": 88.0, "to": 100.0, "status": "MATCH"}

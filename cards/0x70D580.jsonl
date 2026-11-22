@@ -1,0 +1,5 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gaps-mop", "by": "opus", "from": null, "to": 0.0, "how": "annotated NiTListBlock<TGFadePoint *>'s constructor copy to game/TGSound: retail's TGSound( TGSound * ) calls it out of line, ours inlines it, so no symbol yet", "wall": "inline"}
+{"date": "2026-11-16", "kind": "score", "lane": "gaps-mop", "commit": "1b964e58c3", "from": null, "to": 0.0, "status": "NO-SYMBOL"}
+{"date": "2026-11-18", "kind": "try", "lane": "dupes", "by": "sonnet", "from": 0.0, "to": 0.0, "how": "dupescan exact twin of the NiTListBlock ctor copies; already annotated @game/TGSound, TGSound::TGSound inlines it so no copy is emitted; inline-budget wall in the caller", "wall": "inline"}
+{"date": "2026-11-20", "kind": "try", "lane": "ni-headers", "by": "opus", "from": 0.0, "to": 0.0, "how": "lane/ni-headers: NiTListBlock's constructor gained NiTList.h's items assert (AnimOnly.exe, NiTList.h line 105); still inlined by TGSound, no copy emitted", "wall": "inline"}
+{"date": "2026-11-22", "kind": "score", "lane": "sub80-c", "commit": "b9e7475b99", "from": 0.0, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-50", "commit": "c38c1ff50a", "from": null, "to": 29.8, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-ni", "by": "opus", "from": 29.8, "to": 61.7, "how": "side effect of the nested NiTSet::Realloc test (29.8 -> 61.7), not worked"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-ni", "commit": "427115440b", "from": 29.8, "to": 61.7, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 61.7, "to": 100.0, "status": "MATCH"}

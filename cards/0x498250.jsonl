@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-48", "commit": "2d89c5d0dd", "from": null, "to": 85.7, "status": "DIFF"}
+{"date": "2026-11-03", "kind": "score", "lane": "game-70", "commit": "bca098b61b", "from": 85.7, "to": 86.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "decref-nipointer", "by": "opus", "group": "nipointer-budget", "how": "DecRefCount / NiPointer member inline decided by the per-function budget; the NiPointer members' placement (in class vs out of class) and operator=(T*)'s body move it tree-wide, none net positive"}
+{"date": "2026-11-17", "kind": "try", "lane": "inline-trace2", "by": "opus", "from": 86.3, "to": 86.3, "how": "c2trace: floor budget 1000; retail calls one DecRefCount out of line, ours' shares are 113-161: 6+ more sites needed, large gap, not tried", "wall": "inline"}
+{"date": "2026-11-21", "kind": "score", "lane": "dt-signatures", "commit": "8392d30042", "from": 86.3, "to": 100.0, "status": "MATCH"}

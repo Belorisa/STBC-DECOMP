@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "tactical-ui-ids", "by": "opus", "from": null, "to": 68.3, "how": "GetCurrentPlayer() == event->GetDestination() in either order: the destination still loads before the call", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "tactical-ui-ids", "commit": "706a5dcbff", "from": null, "to": 68.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "drafts-low-game", "commit": "1f164242f6", "from": 68.3, "to": 100.0, "status": "MATCH"}

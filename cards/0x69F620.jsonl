@@ -1,0 +1,3 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-90", "commit": "54b38fbfa3", "from": null, "to": 70.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-65", "by": "opus", "from": 70.4, "to": 71.0, "how": "the forwarded copy named before SendTGMessage (retail calls message->Copy() before it loads the player ID and pushes the arguments): 70.4 -> 71.0, the forwarding call's order now retail's. Left: this spilled at entry (retail ebx until the ID swap), playerObject kept in bl, the loop counter in the frame where retail counts it in ebx and reads message from its slot", "wall": "register", "group": "mpgame-create"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-65", "commit": "26f7d6da56", "from": 70.4, "to": 71.0, "status": "DIFF"}

@@ -1,0 +1,5 @@
+{"date": "2026-11-02", "kind": "score", "lane": "game-61", "commit": "3c51afd235", "from": null, "to": 36.7, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "try", "lane": "damage-geometry", "by": "opus", "from": 36.7, "to": 34.4, "how": "parameters swapped to (char *block, int &offset): retail dereferences the second argument; score moved 36.7 to 34.4, the copy loop's addressing still differs", "wall": "structure"}
+{"date": "2026-11-11", "kind": "score", "lane": "damage-geometry", "commit": "70f473b730", "from": 36.7, "to": 34.4, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "try", "lane": "damage-rtti", "by": "opus", "from": 34.4, "to": 34.4, "how": "renamed (class, method or nested type) from DamageTool.exe's RTTI and COFF symbols (lane damage-rtti); no statement changed, score unchanged"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-voxel", "commit": "e1dd69a17d", "from": 34.4, "to": 100.0, "status": "MATCH"}

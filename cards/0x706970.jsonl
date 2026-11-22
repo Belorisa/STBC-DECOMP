@@ -1,0 +1,7 @@
+{"date": "2026-11-15", "kind": "try", "lane": "tg-late", "by": "opus", "from": null, "to": 97.9, "how": "first draft 97.9; a named tick count with a separate mask statement compiles the same; left: retail's double store of the tick difference into the length slot", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "tg-late", "commit": "9dca8def12", "from": null, "to": 97.9, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "viewscreen-near", "by": "opus", "from": 97.9, "to": 97.9, "how": "no new try: the extra store is a dead store of the unmasked difference to the fild slot that no honest spelling keeps", "wall": "register"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 97.9, "to": 97.9, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 97.9, "to": 97.9, "how": "sched triage: (c) two extra stores of the tick difference: the instruction set differs", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-95b", "commit": "dafb32b59f", "from": 97.9, "to": 100.0, "status": "MATCH"}

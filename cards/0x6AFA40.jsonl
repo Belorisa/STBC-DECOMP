@@ -1,0 +1,4 @@
+{"date": "2026-11-03", "kind": "score", "lane": "game-71", "commit": "2cb24c250e", "from": null, "to": 87.5, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-16", "kind": "try", "lane": "structure-finish", "by": "opus", "from": 87.5, "to": 87.5, "how": "Rename only: NiCamera::Unknown7E7F70 is now NiCamera::Clear (Gamebryo lineage, BSim 1.00); bytes unchanged"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 87.5, "to": 87.5, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}

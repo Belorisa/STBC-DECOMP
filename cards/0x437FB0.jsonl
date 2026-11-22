@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "unknown-sweep", "by": "opus", "from": null, "to": 95.2, "how": "body stores in retail order, cached NiCommand pointer (75->82.7), SM_CX/CYFULLSCREEN (95.2); left: bool true held in bl, appWindow loaded before GetSystemMetrics", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "unknown-sweep", "commit": "ec01c4d011", "from": null, "to": 95.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "refine-game", "commit": "cd92790cd3", "from": 95.2, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,37 @@
+{"date": "2026-11-15", "kind": "try", "lane": "ni-mid", "by": "opus", "from": 100.0, "to": 98.2, "how": "Lost MATCH (98.2, two frame slots swapped, source unchanged) when lane ni-mid's NetImmerse header additions (NiRender.h inline virtuals, NiMultiTextureProperty.h, NiTimeController::GetCycleType) combined with it at merge. Accepted under the 2026-11-11 declaration-sensitive ruling; parked. Don't tune headers to hold it."}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-mid", "commit": "f106423767", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "appwrap-mid", "commit": "a029b2a998", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-15", "kind": "try", "lane": "ni-big", "by": "opus", "from": 100.0, "to": 98.2, "how": "lost MATCH with source unchanged: group/created frame slots swap; bisected to NiTriShape.h's weld declarations (reverting that header alone restores the match); declaration-sensitive loss for --accept", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "ni-big", "commit": "13c970e546", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-blockers", "by": "opus", "from": 100.0, "to": 98.2, "how": "source unchanged; lost MATCH to two frame slots swapped after the unit's NiColorA/NiPoint3 member wrappers took their base names and their 14 forward declarations left the not-yet list (initAppc's referent fix)", "wall": "register"}
+{"date": "2026-11-15", "kind": "score", "lane": "game-ready", "commit": "890c233d1a", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "score", "lane": "ph1-tg", "commit": "88808d6c4b", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "try", "lane": "ph1-ni", "by": "opus", "from": 100.0, "to": 98.2, "how": "lost to a declaration only: NiDDImage.h's new static CreateFromRawFile declaration (needed for 0x7C6980) flips the register picks (98.2, register wall); with the old NiDDImage.h it matches; source unchanged", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "tg-gaps", "commit": "52f50d2435", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "try", "lane": "structural-statics", "by": "opus", "from": 100.0, "to": 98.2, "how": "lost again at the lane/structural-statics merge (register pick) from TGObject.h's change; source unchanged; accepted under the declaration-sensitive ruling as in rounds 13/18/21"}
+{"date": "2026-11-16", "kind": "score", "lane": "structural-statics", "commit": "d7443a0b16", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "statics-refine", "commit": "944f5c6c73", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "try", "lane": "ni-gaps-drafts", "by": "opus", "from": 100.0, "to": 98.2, "how": "lane ni-gaps-drafts: flips to the swapped slots (98.2) with NiBound.h/NiPoint3.h/NiMatrix3.h plus NiRawImageData.h's new member declaration (Unknown7DFFF0) together; no single header does it; source unchanged", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "ni-gaps-drafts", "commit": "6f081912e5", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-ni", "commit": "7e988891a8", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-16", "kind": "try", "lane": "ni-statics-sweep", "by": "opus", "from": 100.0, "to": 98.2, "how": "lost to the NiBound/NiProcessorSpecificCode class statics (header-only change, source unchanged): object and length frame slots 0x18/0x1C swapped; declaration-sensitive, accept at merge", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "ni-statics-sweep", "commit": "277d5868f5", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "inline-walls", "commit": "c36197485e", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "flip-bisect", "by": "opus", "from": 100.0, "to": 100.0, "how": "flip-bisect: the state is a function of how many front-end entities (extern, typedef, struct, enum, function declarations; not #defines; nothing after the function) precede the definition, modulo 64: k dummy externs above it give exact for k=0-8 and 60-63 and the swapped slots for 9-59 (after the includes: 9-59 and 73+); names and kinds don't matter, only the count", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "nipoint3-lineage", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "nipoint3-lineage", "commit": "b9be354a82", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "score", "lane": "ni-object-lineage", "commit": "60610d116b", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-17", "kind": "try", "lane": "inline-depth", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-17", "kind": "score", "lane": "inline-depth", "commit": "58ddfdf790", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-17", "kind": "try", "lane": "ni-members", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "rulings", "commit": "99beda3f71", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-19", "kind": "try", "lane": "pending-evidence", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "pending-evidence", "commit": "33091f8bd5", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "drafts50", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "fin-geom", "commit": "82a5978fd2", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-21", "kind": "try", "lane": "dt-signatures", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-21", "kind": "score", "lane": "dt-signatures", "commit": "8392d30042", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-od-hits", "commit": "79966d738a", "from": 98.2, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-22", "kind": "try", "lane": "ni-gap-headers", "by": "merge_lane", "from": 100.0, "to": 98.2, "how": "declaration-sensitive flip accepted (config/declaration_sensitive.txt): frame/register, source unchanged", "wall": "register"}
+{"date": "2026-11-22", "kind": "score", "lane": "ni-gap-headers", "commit": "11b2e96161", "from": 100.0, "to": 98.2, "status": "DIFF"}
+{"date": "2026-11-22", "kind": "score", "lane": "tgmodelutils-copies", "commit": "3aafc130c6", "from": 98.2, "to": 100.0, "status": "MATCH"}

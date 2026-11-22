@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bridge-lighting", "by": "opus", "from": null, "to": 92.3, "how": "draft from retail with the phoneme code table and ConvertLWVToLIP claimed: 92.3, only the frame differs (8 bytes); moving the size local to the top changed nothing", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "bridge-lighting", "commit": "cc945dd3db", "from": null, "to": 92.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "unused-frame-bytes", "how": "framemap: one side reserves frame bytes no instruction touches: a local declared and never used"}
+{"date": "2026-11-18", "kind": "score", "lane": "regs-frame", "commit": "fbe7e4c603", "from": 92.3, "to": 100.0, "status": "MATCH"}

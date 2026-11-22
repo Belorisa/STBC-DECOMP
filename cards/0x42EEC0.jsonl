@@ -1,0 +1,4 @@
+{"date": "2026-11-12", "kind": "try", "lane": "early-game-gaps", "by": "opus", "from": null, "to": 71.4, "how": "first draft; then planes walked through a local (NiCamera::GetPlanes) 54.6->71.4; normal copy and dots still out of line", "wall": "inline"}
+{"date": "2026-11-12", "kind": "score", "lane": "early-game-gaps", "commit": "de8ecfbe71", "from": null, "to": 71.4, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "inline-60", "by": "opus", "from": 71.4, "to": 90.8, "how": "camera location and direction named as const NiPoint3 & locals (two fewer top-level sites after SetNormal: share 1000/19=52 -> 1000/17=58 >= 57, operator= expands as retail): 71.4 -> 90.8, call set equal; left: x87 product order in the setup dot and near-plane Distance; declaration order and location*direction no change", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "inline-60", "commit": "dd14ddfa15", "from": 71.4, "to": 90.8, "status": "DIFF"}

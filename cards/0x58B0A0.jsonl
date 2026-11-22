@@ -1,0 +1,6 @@
+{"date": "2026-11-11", "kind": "try", "lane": "backdrop-family", "by": "sonnet", "from": null, "to": 90.0, "how": "handler table exit: retail tests bit 1 of the guard byte 0x98D804, ours bit 4 (the array and the map take bits 1 and 2 of the same byte before it); retail puts the array and map guards in 0x98D80C, so the table's guard sits in its own byte. Reordering the three definitions only moves the bits", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-family", "commit": "fd26b2f6c9", "from": null, "to": 90.0, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "backdrop-guards", "commit": "6fa030c9bb", "from": 90.0, "to": 100.0, "status": "MATCH"}
+{"date": "2026-11-11", "kind": "try", "lane": "setclass-interface", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B0A0: _$E244 -> _$E246"}
+{"date": "2026-11-11", "kind": "try", "lane": "glow-setclass", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B0A0: _$E246 -> _$E247"}
+{"date": "2026-11-15", "kind": "try", "lane": "tg-gaps", "by": "merge_lane", "from": null, "to": null, "how": "game/Backdrop 0x58B0A0: _$E247 -> _$E248"}

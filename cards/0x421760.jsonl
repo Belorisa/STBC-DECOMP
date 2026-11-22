@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-pilot", "by": "sonnet", "from": null, "to": 95.3, "how": "named NiMatrix3 local built before the camera node load closed the order (95.3); a NiMatrix3 temporary in the SetRotate call loaded the node first (79.7); retail's frame is 12 bytes bigger (matrix temp kept apart from the fallback direction temps at 0x40 vs 0x34)", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-pilot", "commit": "f54a8e54a1", "from": null, "to": 95.3, "status": "DIFF"}
+{"date": "2026-11-11", "kind": "score", "lane": "refine-95", "commit": "d6617011d2", "from": 95.3, "to": 100.0, "status": "MATCH"}

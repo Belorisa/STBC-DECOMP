@@ -1,0 +1,310 @@
+CharacterClass	direct=45 virtual=1 inline=30 other=34	slots 0:(delete)
+TGUIObject	direct=9 virtual=60 inline=21 other=1	slots 0:(delete) 3:Print 21:SetParent 22:SetPosition 23:Move 24:Resize 25:GetFocusLeaf 26:GotFocus 27:GotTrueFocus 28:GotTrueFocusPath 29:LostFocus 30:LostTrueFocus 31:LostTrueFocusPath 32:FocusHeight 33:GetDesiredSize 34:MouseEntered 35:MouseExited 36:IsCompletelyEnabled 37:SetEnabled/SetEnabledFlag 38:SetDisabled/ToggleEnabled 39:SetSelected/SetSelectedFlag 40:SetNotSelected/ToggleSelected 41:SetHighlighted/SetHighlightedFlag 42:SetNotHighlighted/ToggleHighlighted 43:IsCompletelyVisible 44:SetVisible/SetVisibleFlag 45:SetNotVisible/ToggleVisible 46:SetExclusive/SetExclusiveFlag 47:SetNotExclusive/ToggleExclusive 48:SetSkipParent/SetSkipParentFlag 49:SetNoSkipParent/ToggleSkipParent 50:SetAlwaysHandleEvents/SetAlwaysHandleEventsFlag 51:SetNotAlwaysHandleEvents/ToggleAlwaysHandleEvents 52:SetUseParentBatch/SetUseParentBatchFlag 53:SetNotUseParentBatch/ToggleUseParentBatch 54:SetBatchChildPolys/SetBatchChildPolysFlag 55:SetNotBatchChildPolys/ToggleBatchChildPolys 56:SetNoFocus/SetNoFocusFlag 57:SetNotNoFocus/ToggleNoFocus 58:Layout
+ShipClass	direct=31 virtual=5 inline=32 other=13	slots 0:(delete) 50:IsTargetable 51:CanTargetObject 75:TurnTowardOrientation 91:SetAcceleration
+UtopiaModule	direct=17 virtual=0 inline=44 other=14	slots 
+TGSound	direct=32 virtual=0 inline=19 other=5	slots 
+PhaserProperty	direct=3 virtual=1 inline=40 other=11	slots 0:(delete)
+SetClass	direct=32 virtual=2 inline=10 other=9	slots 0:(delete) 21:AddObjectToSet
+TGMessage	direct=7 virtual=7 inline=34 other=4	slots 1:(delete) 2:Serialize 3:Merge 4:OverrideOldPackets 5:GetBufferSpaceRequired 6:Copy 7:BreakUpMessage
+TractorBeamProperty	direct=3 virtual=1 inline=35 other=13	slots 0:(delete)
+STMenu	direct=6 virtual=33 inline=9 other=3	slots 0:(delete) 58:SetUseEndCapSpace/SetUseUIHeight 69:GetText 83:GetActualHeight 84:GetTitleBarHeight 85:GetDesiredHeight 86:GetSubmenu 87:GetSubmenuW 88:GetButton 89:GetButtonW 90:RemoveItem 91:RemoveItemW 92:GetClientArea 93:SetTwoClicks 94:SetSingleClick 95:SetOpenable 96:SetNotOpenable 97:SetCloseable 98:SetNotCloseable 99:SetClickedOnce 100:ClearClickedOnce 101:SetOpened 102:ClearOpened 103:SetActivationEvent 104:ClearActivationEvent 105:SendActivationEvent 106:SetName 107:GetName 108:ResetColorScheme 109:Open 110:Close 111:ResizeToContents
+ShipSubsystem	direct=21 virtual=6 inline=11 other=9	slots 0:(delete) 21:GetPosition 22:SetParentShip 23:SetParentSubsystem 24:SetProperty 25:Update
+MultiplayerWindow	direct=8 virtual=1 inline=29 other=7	slots 0:(delete)
+PhysicsObjectClass	direct=13 virtual=6 inline=13 other=10	slots 0:(delete) 74:SetupModel 75:TurnTowardOrientation 76:SetAcceleration 77:SetAI 78:ClearAI
+TGNetwork	direct=20 virtual=4 inline=13 other=3	slots 0:(delete)/DeleteGroup 21:GetLocalIPAddress 22:GetIPPacketHeaderSize
+TGMatrix3	direct=26 virtual=0 inline=4 other=10	slots 
+STStylizedWindow	direct=17 virtual=2 inline=16 other=4	slots 0:(delete) 82:GetInteriorPane
+BaseObjectClass	direct=7 virtual=23 inline=5 other=3	slots 0:(delete) 20:SetHidden 21:IsHidden/Update 22:UpdateNodeOnly 25:GetAnimNode 26:SetName 28:Rotate 29:SetTranslateXYZ 31:SetTranslate 32:SetAngleAxisRotation 34:SetMatrixRotation 35:SetScale 36:GetScale 37:GetWorldLocation 38:GetTranslate 39:GetRotation 40:GetWorldRotation 43:GetWorldBackwardTG 44:GetWorldDownTG/GetWorldUpTG 45:GetWorldLeftTG/GetWorldRightTG
+TGPoint3	direct=5 virtual=0 inline=18 other=14	slots 
+TGBufferStream	direct=0 virtual=35 inline=0 other=2	slots 1:Close 2:SetWriteMode 3:GetWriteMode 4:Read 5:Write 6:ReadCLine 7:WriteCLine 8:ReadCString 9:WriteCString 12:ReadCWLine 13:WriteCWLine 14:ReadWChar 15:WriteWChar 18:ReadBool 19:WriteBool 20:ReadChar 21:WriteChar 22:ReadShort 23:WriteShort 24:ReadInt 25:WriteInt 26:ReadLong 27:WriteLong 28:ReadFloat 29:WriteFloat 30:ReadDouble 31:WriteDouble 32:ReadID 33:WriteID 54:GetPos 56:GetLength 57:Eof 61:GetBuffer 62:OpenBuffer 63:CloseBuffer
+Game	direct=15 virtual=2 inline=11 other=8	slots 0:(delete) 26:Terminate
+DamageableObject	direct=12 virtual=4 inline=13 other=7	slots 0:(delete) 13:GetClonedModelRadius 85:AddDamage 86:SetupProperties
+TopWindow	direct=24 virtual=5 inline=3 other=3	slots 0:(delete) 82:AllowKeyboardInput 83:IsKeyboardInputAllowed 84:AllowMouseInput 85:IsMouseInputAllowed
+TGSoundManager	direct=24 virtual=1 inline=9 other=0	slots 0:(delete)
+STButton	direct=9 virtual=5 inline=17 other=2	slots 0:(delete) 58:SetUseEndCapSpace/SetUseEndCaps/SetUseUIHeight 69:GetText
+TGParagraph	direct=6 virtual=17 inline=4 other=4	slots 0:(delete) 64:InsertChild 82:GetString 83:GetWrapWidth 84:SetWrapWidth 85:AppendChar/InsertChar 86:RecalcBounds 87:AppendString/AppendStringW/InsertString/InsertStringW 88:SetStringW 89:SetIgnoreStringW 90:MoveCursorToEnd/MoveCursorToStart/SetCursorPosition
+WeaponSystem	direct=15 virtual=4 inline=8 other=4	slots 0:(delete) 35:StartFiring 36:StopFiring 37:SetGroupFireMode
+Torpedo	direct=9 virtual=2 inline=16 other=2	slots 0:(delete) 75:TurnTowardOrientation
+TacticalControlWindow	direct=6 virtual=1 inline=19 other=3	slots 0:(delete)
+TGPane	direct=3 virtual=23 inline=0 other=2	slots 0:(delete) 25:GetFocusLeaf 32:FocusHeight 64:AddChild/InsertChild/PrependChild 65:RemoveChild 66:DeleteChild 67:GetNumChildren 68:FindPos 69:GetFirstChild 70:GetLastChild 71:GetNthChild 72:GetNextChild 73:GetPrevChild 74:KillChildren 75:MoveToFront 76:MoveTowardsFront 77:MoveToBack 78:MoveTowardsBack 79:SetFocus 80:GetFocus 81:MoveFocus
+GraphicsMenuInfo	direct=0 virtual=0 inline=23 other=4	slots 
+ShipProperty	direct=6 virtual=1 inline=18 other=1	slots 0:(delete)
+TGInputManager	direct=16 virtual=0 inline=4 other=5	slots 
+ObjectClass	direct=12 virtual=8 inline=2 other=3	slots 0:(delete) 50:IsTargetable 51:CanTargetObject 52:IsHailable 53:IsScannable 57:GetRadius 60:GetRandomPointOnModel 61:GetLocalRandomPointAndNormalOnModel
+ViewScreenObject	direct=19 virtual=1 inline=4 other=1	slots 0:(delete)
+PowerSubsystem	direct=13 virtual=1 inline=9 other=2	slots 0:(delete)
+EnergyWeaponProperty	direct=3 virtual=1 inline=19 other=1	slots 0:(delete)
+TGEvent	direct=8 virtual=2 inline=10 other=3	slots 0:(delete) 12:Copy
+TGRect	direct=4 virtual=0 inline=17 other=2	slots 
+TorpedoTube	direct=7 virtual=2 inline=8 other=6	slots 0:(delete) 24:SetProperty
+PhaserBank	direct=15 virtual=1 inline=0 other=7	slots 0:(delete)
+WarpSequence	direct=9 virtual=3 inline=7 other=4	slots 0:(delete) 18:Skip 24:SetEventDestination
+SortedRegionMenu	direct=6 virtual=1 inline=5 other=11	slots 0:(delete)
+SubsystemProperty	direct=2 virtual=1 inline=17 other=3	slots 0:(delete)
+CameraObjectClass	direct=15 virtual=5 inline=0 other=2	slots 0:(delete) 43:GetWorldForward 44:GetWorldUp 45:GetWorldRight 50:PopCameraMode
+ProximityCheck	direct=15 virtual=1 inline=3 other=3	slots 0:(delete)
+STNumericBar	direct=10 virtual=3 inline=8 other=1	slots 0:(delete) 71:GetPercentageText/GetText
+TGColorA	direct=0 virtual=0 inline=18 other=3	slots 
+ShieldClass	direct=8 virtual=1 inline=4 other=8	slots 0:(delete)
+EnergyWeapon	direct=13 virtual=3 inline=4 other=1	slots 0:(delete) 35:CalculateWeaponAppeal 36:SetPowerSetting
+WeaponProperty	direct=3 virtual=1 inline=16 other=1	slots 0:(delete)
+TGAction	direct=4 virtual=9 inline=6 other=1	slots 12:IsPlaying 13:ConstructDescription 14:SetupEditControls 15:ExtractControlValues 16:Play 17:Restart 18:Skip 19:Abort 20:Completed
+PulseWeapon	direct=12 virtual=3 inline=2 other=3	slots 0:(delete) 34:CalculateRoughDirection 35:CalculateWeaponAppeal
+STWarpButton	direct=9 virtual=1 inline=7 other=3	slots 0:(delete)
+PulseWeaponProperty	direct=3 virtual=1 inline=11 other=5	slots 0:(delete)
+ScriptObject	direct=2 virtual=8 inline=6 other=3	slots 0:(delete) 21:PreLoadAssets 22:Initialize 23:Load 24:OnIdle 25:Unload 26:Terminate 27:AddPersistentModule
+WarpEngineSubsystem	direct=3 virtual=1 inline=6 other=9	slots 0:(delete)
+STSubPane	direct=5 virtual=11 inline=3 other=0	slots 0:(delete) 24:Create 64:InsertChild 65:RemoveChild 66:DeleteChild 82:GetSubmenu 83:GetSubmenuW 84:GetButton 85:GetButtonW 86:RemoveItem 87:RemoveItemW
+TGIconManager	direct=9 virtual=1 inline=7 other=1	slots 10:SetCamera
+TGFontGroup	direct=1 virtual=1 inline=16 other=0	slots 0:(delete)
+TGUITheme	direct=6 virtual=1 inline=10 other=1	slots 0:(delete)
+TGNetPlayer	direct=3 virtual=2 inline=12 other=1	slots 0:(delete) 1:Copy
+BackdropSphere	direct=16 virtual=2 inline=0 other=0	slots 0:(delete) 70:SetTextureFileName
+ZoomCameraObjectClass	direct=8 virtual=1 inline=6 other=3	slots 0:(delete)
+TorpedoSystem	direct=8 virtual=1 inline=6 other=3	slots 0:(delete)
+SensorSubsystem	direct=11 virtual=1 inline=4 other=2	slots 0:(delete)
+TorpedoAmmoType	direct=3 virtual=0 inline=13 other=2	slots 
+TGModelManager	direct=15 virtual=0 inline=0 other=2	slots 
+PoweredSubsystem	direct=4 virtual=5 inline=7 other=1	slots 0:(delete) 30:GetNormalPowerWanted 31:Turn/TurnOn 32:TurnOff
+Weapon	direct=5 virtual=7 inline=4 other=1	slots 0:(delete) 30:StopFiring 31:Fire 32:FireDumb 33:CanFire 34:CalculateRoughDirection 35:CalculateWeaponAppeal
+CloakingSubsystem	direct=6 virtual=1 inline=4 other=6	slots 0:(delete)
+AsteroidFieldPlacement	direct=9 virtual=2 inline=4 other=2	slots 0:(delete) 21:Update
+TGIconGroup	direct=10 virtual=3 inline=2 other=1	slots 0:(delete) 1:SetIconLocation 2:GetPyWrapper
+AsteroidField	direct=8 virtual=2 inline=5 other=1	slots 0:(delete) 21:Update
+STTopLevelMenu	direct=2 virtual=7 inline=3 other=4	slots 0:(delete) 26:GotFocus 29:LostFocus 44:SetVisible 45:SetNotVisible 111:ResizeToContents 115:CloseMenu
+STRoundedButton	direct=5 virtual=1 inline=8 other=2	slots 0:(delete)
+ShipDisplay	direct=5 virtual=1 inline=8 other=2	slots 0:(delete)
+PlacementObject	direct=8 virtual=3 inline=3 other=2	slots 0:(delete) 21:Update 67:SaveObjectSecondPass
+MultiplayerGame	direct=10 virtual=1 inline=3 other=2	slots 0:(delete)
+NiPoint3	direct=0 virtual=0 inline=4 other=11	slots 
+TGSystemWrapperClass	direct=9 virtual=0 inline=5 other=1	slots 
+TGModelPropertyManager	direct=15 virtual=0 inline=0 other=0	slots 
+CameraMode	direct=3 virtual=10 inline=1 other=1	slots 0:(delete) 1:GetAttrFloat/GetAttrID 21:SetAttrFloat 22:SetAttrID 23:SetAttrPoint 24:SnapToIdealPosition 25:Reset 26:IsValid 27:Update
+GraphicsModeInfo	direct=1 virtual=0 inline=9 other=5	slots 
+BridgeObjectClass	direct=11 virtual=1 inline=1 other=2	slots 0:(delete)
+WeaponHitEvent	direct=2 virtual=1 inline=8 other=4	slots 0:(delete)
+ImpulseEngineSubsystem	direct=6 virtual=1 inline=6 other=2	slots 0:(delete)
+EffectController	direct=1 virtual=10 inline=2 other=2	slots 23:CreateTarget 24:GetTargetCast 25:AttachEffect 26:DetachEffect 27:AddColorKey 28:RemoveAllColorKeys 29:AddAlphaKey 30:RemoveAllAlphaKeys 31:AddSizeKey 32:RemoveAllSizeKeys
+EmitterController	direct=0 virtual=1 inline=13 other=1	slots 10:SetEmitFromObject
+TacWeaponsCtrl	direct=11 virtual=1 inline=0 other=3	slots 0:(delete)
+TGAnimNode	direct=5 virtual=2 inline=3 other=4	slots 22:FindNode/SetRootNode
+TGIcon	direct=5 virtual=1 inline=6 other=2	slots 0:(delete)
+TGRootPane	direct=9 virtual=2 inline=3 other=0	slots 0:(delete) 58:Layout
+ProximityManager	direct=8 virtual=0 inline=0 other=6	slots 
+STToggle	direct=4 virtual=1 inline=1 other=8	slots 0:(delete)
+TorpedoTubeProperty	direct=2 virtual=1 inline=8 other=3	slots 0:(delete)
+PowerProperty	direct=2 virtual=1 inline=10 other=1	slots 0:(delete)
+ImpulseEngineProperty	direct=3 virtual=1 inline=9 other=1	slots 0:(delete)
+ServerListEvent	direct=0 virtual=2 inline=1 other=11	slots 0:(delete) 12:Copy
+(free functions)	direct=12 virtual=0 inline=0 other=1	slots 
+NiFrustum	direct=0 virtual=0 inline=12 other=1	slots 
+TGFrame	direct=6 virtual=1 inline=2 other=4	slots 0:(delete)
+TGButtonBase	direct=2 virtual=9 inline=0 other=2	slots 0:(delete) 82:ClearActivationEvent 83:SetActivationEvent 84:SendActivationEvent 85:GetActivationEvent 86:SetMouseDownEvent 87:SendMouseDownEvent 88:SetMouseUpEvent 89:SendMouseUpEvent
+TGModelProperty	direct=6 virtual=3 inline=0 other=4	slots 0:(delete) 13:WriteInit 14:Edit
+TGPlayerList	direct=4 virtual=4 inline=3 other=2	slots 0:(delete)/DeleteAllPlayers/DeletePlayer/DeletePlayerAtIndex
+LODModelManager	direct=12 virtual=0 inline=0 other=1	slots 
+ArtificialIntelligence	direct=3 virtual=2 inline=8 other=0	slots 1:IsInterruptable 2:Reset
+BlinkingLightProperty	direct=3 virtual=1 inline=7 other=2	slots 0:(delete)
+TGTimer	direct=2 virtual=1 inline=7 other=2	slots 0:(delete)
+TGTextButton	direct=1 virtual=7 inline=1 other=3	slots 0:(delete) 90:SetText 91:SetTextW 92:SetIcons 93:SetTextWrapWidth 94:AlignTextHorizontal 95:AlignTextVertical
+CharacterAction	direct=3 virtual=2 inline=4 other=3	slots 16:Play 20:Completed
+InterfaceModule	direct=9 virtual=0 inline=3 other=0	slots 
+STFillGauge	direct=2 virtual=1 inline=2 other=7	slots 0:(delete)
+GridClass	direct=4 virtual=2 inline=4 other=2	slots 0:(delete) 21:Update
+WeaponSystemProperty	direct=2 virtual=1 inline=6 other=3	slots 0:(delete)
+ShieldProperty	direct=2 virtual=1 inline=2 other=7	slots 0:(delete)
+TGConfigMapping	direct=11 virtual=0 inline=0 other=0	slots 
+TGRedbookClass	direct=9 virtual=0 inline=2 other=0	slots 
+UtopiaApp	direct=0 virtual=0 inline=9 other=2	slots 
+ObjectGroup	direct=5 virtual=3 inline=2 other=1	slots 0:(delete) 21:RemoveName 22:RemoveAllNames
+NiColorA	direct=0 virtual=0 inline=0 other=10	slots 
+NiPoint2	direct=0 virtual=0 inline=8 other=2	slots 
+TGModelUtils	direct=1 virtual=0 inline=0 other=9	slots 
+TGAnimationManagerClass	direct=10 virtual=0 inline=0 other=0	slots 
+TGMouseEvent	direct=0 virtual=2 inline=6 other=2	slots 0:(delete) 12:Copy
+TGKeyboardEvent	direct=0 virtual=2 inline=6 other=2	slots 0:(delete) 12:Copy
+TGFontManager	direct=7 virtual=0 inline=0 other=3	slots 
+TGMusic	direct=5 virtual=1 inline=2 other=2	slots 0:(delete)
+TGNetGroup	direct=0 virtual=1 inline=3 other=6	slots 0:(delete)
+TGMovieAction	direct=2 virtual=3 inline=3 other=2	slots 16:Play 18:Skip 20:Completed
+SetManager	direct=5 virtual=2 inline=3 other=0	slots 0:DeleteAllSets 27:GetSet
+LightObjectClass	direct=5 virtual=5 inline=0 other=0	slots 0:(delete) 51:AddIlluminatedObject 52:RemoveIlluminatedObject 53:IlluminateEntireSet 54:UnilluminateEntireSet
+SequenceAI	direct=4 virtual=0 inline=5 other=1	slots 
+FuzzyLogic	direct=7 virtual=0 inline=1 other=2	slots 
+ProximityEvent	direct=0 virtual=5 inline=4 other=1	slots 0:(delete) 4:Serialize 5:UnSerialize 6:CanFixupPtrs 7:FixupPtrs
+BridgeEffectAction	direct=8 virtual=1 inline=1 other=0	slots 0:(delete)
+STTargetMenu	direct=8 virtual=1 inline=0 other=1	slots 0:(delete)
+STTiledIcon	direct=7 virtual=1 inline=0 other=2	slots 0:(delete)
+GraphicsMenu	direct=7 virtual=1 inline=0 other=2	slots 0:(delete)
+KeyboardBinding	direct=5 virtual=0 inline=1 other=4	slots 
+PositionOrientationProperty	direct=2 virtual=1 inline=0 other=7	slots 0:(delete)
+TorpedoSystemProperty	direct=6 virtual=1 inline=2 other=1	slots 0:(delete)
+TGProfilingInfo	direct=6 virtual=0 inline=0 other=3	slots 
+TGPoolManager	direct=8 virtual=0 inline=0 other=1	slots 
+TGObject	direct=2 virtual=4 inline=1 other=2	slots 0:Destroy 1:GetObjType 2:IsTypeOf 3:Print
+TGString	direct=3 virtual=0 inline=1 other=5	slots 
+TGConsole	direct=5 virtual=1 inline=0 other=3	slots 0:(delete)
+Backdrop	direct=5 virtual=3 inline=1 other=0	slots 0:(delete) 24:SetContainingSet 26:SetName
+VarManagerClass	direct=6 virtual=1 inline=0 other=2	slots 0:(delete)
+BridgeSet	direct=4 virtual=1 inline=2 other=2	slots 0:(delete)
+PreprocessingAI	direct=3 virtual=1 inline=4 other=1	slots 21:GetPreprocessingInstance
+FiringChain	direct=3 virtual=0 inline=3 other=3	slots 
+Planet	direct=4 virtual=1 inline=4 other=0	slots 0:(delete)
+STFileMenu	direct=4 virtual=1 inline=2 other=2	slots 0:(delete)
+DamageDisplay	direct=6 virtual=1 inline=0 other=2	slots 0:(delete)
+Waypoint	direct=3 virtual=1 inline=4 other=1	slots 0:(delete)
+SubsystemList	direct=0 virtual=0 inline=5 other=3	slots 
+NiColor	direct=0 virtual=0 inline=6 other=2	slots 
+TGEventHandlerObject	direct=6 virtual=2 inline=0 other=0	slots 0:(delete) 20:ProcessEvent
+TGSequence	direct=2 virtual=2 inline=2 other=2	slots 16:Play 18:Skip
+TGCondition	direct=3 virtual=3 inline=2 other=0	slots 12:SetStatus 13:SetActive 14:SetInactive
+TGWinsockNetwork	direct=3 virtual=3 inline=1 other=1	slots 0:(delete) 21:GetLocalIPAddress 22:GetIPPacketHeaderSize
+TGAckMessage	direct=1 virtual=4 inline=2 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+TGBootPlayerMessage	direct=1 virtual=4 inline=2 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+SpaceCamera	direct=3 virtual=1 inline=1 other=3	slots 0:(delete)
+SetFloatVarEvent	direct=2 virtual=1 inline=4 other=1	slots 0:(delete)
+ImageManagerClass	direct=5 virtual=0 inline=2 other=1	slots 
+Nebula	direct=7 virtual=1 inline=0 other=0	slots 0:(delete)
+RepairSubsystem	direct=5 virtual=1 inline=0 other=2	slots 0:(delete)
+ShieldsDisplay	direct=5 virtual=1 inline=0 other=2	slots 0:(delete)
+SensorProperty	direct=2 virtual=1 inline=4 other=1	slots 0:(delete)
+RepairSubsystemProperty	direct=2 virtual=1 inline=4 other=1	slots 0:(delete)
+SortServerListEvent	direct=0 virtual=2 inline=3 other=3	slots 0:(delete) 12:Copy
+TGAttrObject	direct=0 virtual=7 inline=0 other=0	slots 12:LookupAttrValue 13:GetAttrValue 14:SetAttrValue 15:RemoveAttr 16:LookupAttrInt 17:GetAttrInt 18:SetAttrInt
+TGBoolEvent	direct=1 virtual=1 inline=3 other=2	slots 0:(delete)
+TGButton	direct=1 virtual=3 inline=1 other=2	slots 0:(delete) 90:SetIcons 91:SetIconColor
+TGDialogWindow	direct=2 virtual=1 inline=2 other=2	slots 0:(delete)
+TGModelPropertyList	direct=3 virtual=1 inline=2 other=1	slots 0:(delete)
+TGSoundAction	direct=0 virtual=5 inline=1 other=1	slots 10:SetNode 16:Play 17:Restart 18:Skip 20:Completed
+TGCreditAction	direct=0 virtual=2 inline=1 other=4	slots 0:(delete) 16:Play
+FocusManager	direct=5 virtual=0 inline=0 other=2	slots 
+TimeSliceProcess	direct=1 virtual=1 inline=5 other=0	slots 0:Update
+OptimizedFireScript	direct=7 virtual=0 inline=0 other=0	slots 
+MainWindow	direct=2 virtual=3 inline=1 other=1	slots 0:(delete) 82:Initialize 83:Update
+OptionsWindow	direct=5 virtual=1 inline=0 other=1	slots 0:(delete)
+SubtitleWindow	direct=3 virtual=1 inline=2 other=1	slots 0:(delete)
+RadarDisplay	direct=4 virtual=1 inline=0 other=2	slots 0:(delete)
+EngRepairPane	direct=3 virtual=1 inline=0 other=3	slots 0:(delete)
+LightPlacement	direct=5 virtual=1 inline=0 other=1	slots 0:(delete)
+TGLocalizationManager	direct=6 virtual=0 inline=0 other=0	slots 
+TGCharEvent	direct=1 virtual=1 inline=2 other=2	slots 0:(delete)
+TGShortEvent	direct=1 virtual=1 inline=2 other=2	slots 0:(delete)
+TGIntEvent	direct=1 virtual=1 inline=2 other=2	slots 0:(delete)
+TGFloatEvent	direct=1 virtual=1 inline=2 other=2	slots 0:(delete)
+TGStringEvent	direct=1 virtual=1 inline=0 other=4	slots 0:(delete)
+TGObjPtrEvent	direct=1 virtual=1 inline=1 other=3	slots 0:(delete)
+TGWindow	direct=3 virtual=2 inline=0 other=1	slots 0:(delete) 82:GetSubPane
+TGFrameWindow	direct=3 virtual=1 inline=0 other=2	slots 0:(delete)
+PyEmbed	direct=5 virtual=0 inline=0 other=1	slots 
+TGModelPropertySet	direct=3 virtual=1 inline=0 other=2	slots 0:(delete)
+TGModelPropertyInstance	direct=1 virtual=1 inline=3 other=1	slots 0:(delete)
+TGNameChangeMessage	direct=1 virtual=4 inline=0 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+TGDoNothingMessage	direct=1 virtual=4 inline=0 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+TGConnectMessage	direct=1 virtual=4 inline=0 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+TGDisconnectMessage	direct=1 virtual=4 inline=0 other=1	slots 1:(delete) 2:Serialize 5:GetBufferSpaceRequired 6:Copy
+TGMovieManager	direct=5 virtual=0 inline=1 other=0	slots 
+Episode	direct=3 virtual=1 inline=1 other=1	slots 0:(delete)
+ChatObjectClass	direct=4 virtual=1 inline=0 other=1	slots 0:(delete)
+WaypointEvent	direct=0 virtual=2 inline=2 other=2	slots 0:(delete) 12:Copy
+PhaserSystem	direct=2 virtual=1 inline=1 other=2	slots 0:(delete)
+TractorBeamSystem	direct=1 virtual=1 inline=2 other=2	slots 0:(delete)
+WarpSet	direct=3 virtual=1 inline=2 other=0	slots 0:(delete)
+STSubsystemMenu	direct=4 virtual=1 inline=0 other=1	slots 0:(delete)
+WeaponsDisplay	direct=2 virtual=1 inline=1 other=2	slots 0:(delete)
+RadarScope	direct=2 virtual=1 inline=1 other=2	slots 0:(delete)
+EngPowerCtrl	direct=2 virtual=1 inline=0 other=3	slots 0:(delete)
+EngPowerDisplay	direct=2 virtual=1 inline=0 other=3	slots 0:(delete)
+PoweredSubsystemProperty	direct=2 virtual=1 inline=2 other=1	slots 0:(delete)
+CloakingSubsystemProperty	direct=2 virtual=1 inline=2 other=1	slots 0:(delete)
+EngineProperty	direct=2 virtual=1 inline=2 other=1	slots 0:(delete)
+ObjectEmitterProperty	direct=2 virtual=1 inline=2 other=1	slots 0:(delete)
+TGLocalizationDatabase	direct=5 virtual=0 inline=0 other=0	slots 
+TGVoidPtrEvent	direct=0 virtual=1 inline=2 other=2	slots 0:(delete)
+TGEventManager	direct=1 virtual=0 inline=0 other=4	slots 
+TGGamepadEvent	direct=0 virtual=2 inline=2 other=1	slots 0:(delete) 12:Copy
+TGPrompt	direct=0 virtual=4 inline=0 other=1	slots 0:(delete) 82:GetString 90:SetCursorPosition 91:GetCString
+TGSoundRegion	direct=4 virtual=0 inline=0 other=1	slots 
+TGAnimAction	direct=0 virtual=4 inline=0 other=1	slots 16:Play 17:Restart 18:Skip 20:Completed
+TGMessageEvent	direct=1 virtual=1 inline=1 other=2	slots 0:(delete)
+TGPlayerEvent	direct=0 virtual=1 inline=2 other=2	slots 0:(delete)
+LODModel	direct=4 virtual=0 inline=0 other=1	slots 
+TGStringToStringMap	direct=3 virtual=0 inline=0 other=2	slots 
+ChangeRenderedSetAction	direct=1 virtual=1 inline=0 other=3	slots 0:(delete)
+WeaponPayload	direct=0 virtual=0 inline=5 other=0	slots 
+ObjectExplodingEvent	direct=0 virtual=1 inline=4 other=0	slots 0:(delete)
+TractorBeamProjector	direct=2 virtual=1 inline=0 other=2	slots 0:(delete)
+WarpEvent	direct=0 virtual=1 inline=3 other=1	slots 0:(delete)
+ExplodeParticleController	direct=0 virtual=4 inline=0 other=1	slots 40:AddIntensityKey 41:RemoveIntensityKeyAt 42:RemoveAllIntensityKeys 43:SetSceneRoot
+ModalDialogWindow	direct=3 virtual=1 inline=1 other=0	slots 0:(delete)
+STComponentMenu	direct=3 virtual=1 inline=0 other=1	slots 0:(delete)
+DamageIcon	direct=2 virtual=1 inline=1 other=1	slots 0:(delete)
+STMissionLog	direct=3 virtual=1 inline=0 other=1	slots 0:(delete)
+TGActionManager	direct=1 virtual=1 inline=0 other=2	slots 0:(delete)
+TGIEvent	direct=0 virtual=1 inline=2 other=1	slots 0:(delete)
+TGUIThemeManager	direct=3 virtual=0 inline=1 other=0	slots 
+Mission	direct=3 virtual=1 inline=0 other=0	slots 0:(delete)
+LoadMissionAction	direct=0 virtual=1 inline=2 other=1	slots 16:Play
+PriorityListAI	direct=3 virtual=0 inline=0 other=1	slots 
+ConditionEventCreator	direct=0 virtual=2 inline=1 other=1	slots 0:(delete)/ConditionChanged
+MetaNebula	direct=3 virtual=1 inline=0 other=0	slots 0:(delete)
+CollisionEvent	direct=0 virtual=1 inline=2 other=1	slots 0:(delete)
+HullClass	direct=1 virtual=1 inline=0 other=2	slots 0:(delete)
+PulseWeaponSystem	direct=1 virtual=1 inline=0 other=2	slots 0:(delete)
+LensFlare	direct=4 virtual=0 inline=0 other=0	slots 
+TacticalWindow	direct=2 virtual=1 inline=0 other=1	slots 0:(delete)
+MapWindow	direct=3 virtual=1 inline=0 other=0	slots 0:(delete)
+CinematicWindow	direct=1 virtual=1 inline=1 other=1	slots 0:(delete)
+STFileDialog	direct=2 virtual=1 inline=0 other=1	slots 0:(delete)
+STComponentMenuItem	direct=2 virtual=1 inline=0 other=1	slots 0:(delete)
+RadarBlip	direct=0 virtual=1 inline=2 other=1	slots 0:(delete)
+HullProperty	direct=2 virtual=1 inline=0 other=1	slots 0:(delete)
+WarpEngineProperty	direct=2 virtual=1 inline=0 other=1	slots 0:(delete)
+TGTimerManager	direct=3 virtual=0 inline=0 other=0	slots 
+TGPythonInstanceWrapper	direct=0 virtual=1 inline=0 other=2	slots 0:(delete)
+TGUIModule	direct=0 virtual=0 inline=0 other=3	slots 
+TGConditionHandler	direct=0 virtual=3 inline=0 other=0	slots 0:ConditionChanged 1:AddCondition 2:RemoveCondition
+StarSphere	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+CPyDebug	direct=1 virtual=0 inline=0 other=2	slots 
+FloatRangeWatcher	direct=2 virtual=0 inline=1 other=0	slots 
+PythonMethodProcess	direct=0 virtual=1 inline=0 other=2	slots 1:(delete)
+PlainAI	direct=1 virtual=0 inline=1 other=1	slots 
+ConditionalAI	direct=1 virtual=0 inline=1 other=1	slots 
+ConditionScript	direct=1 virtual=2 inline=0 other=0	slots 13:SetActive 14:SetInactive
+BuilderAI	direct=2 virtual=0 inline=0 other=1	slots 
+ObjectGroupWithInfo	direct=1 virtual=1 inline=0 other=1	slots 0:(delete)
+Sun	direct=1 virtual=1 inline=0 other=1	slots 0:(delete)
+StartFiringEvent	direct=1 virtual=1 inline=1 other=0	slots 0:(delete)
+SparkParticleController	direct=0 virtual=0 inline=2 other=1	slots 
+WarpFlash	direct=0 virtual=1 inline=0 other=2	slots 0:(delete)
+ExplosionPlumeController	direct=1 virtual=0 inline=1 other=1	slots 
+BridgeWindow	direct=1 virtual=1 inline=0 other=1	slots 0:(delete)
+STCharacterMenu	direct=0 virtual=1 inline=0 other=2	slots 0:(delete)
+UITreeDialog	direct=1 virtual=0 inline=0 other=2	slots 
+EngineGlowProperty	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+EffectEmitterProperty	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+SmokeEmitterProperty	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+SparkEmitterProperty	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+ExplodeEmitterProperty	direct=2 virtual=1 inline=0 other=0	slots 0:(delete)
+TGTimedAction	direct=0 virtual=0 inline=2 other=0	slots 
+TGAnimPosition	direct=0 virtual=1 inline=0 other=1	slots 16:Play
+TGConditionAction	direct=0 virtual=1 inline=0 other=1	slots 16:Play
+TGGroupPlayer	direct=0 virtual=0 inline=2 other=0	slots 
+TGGeomUtils	direct=1 virtual=0 inline=0 other=1	slots 
+LoadEpisodeAction	direct=0 virtual=1 inline=0 other=1	slots 16:Play
+RandomAI	direct=1 virtual=0 inline=0 other=1	slots 
+AnimTSParticleController	direct=0 virtual=0 inline=1 other=1	slots 
+ConsoleWindow	direct=0 virtual=1 inline=0 other=1	slots 0:(delete)
+SubtitleAction	direct=0 virtual=0 inline=0 other=2	slots 
+STLoadDialog	direct=0 virtual=1 inline=0 other=1	slots 0:(delete)
+STSaveDialog	direct=0 virtual=1 inline=0 other=1	slots 0:(delete)
+TGTemplatedAttrObject	direct=0 virtual=0 inline=0 other=1	slots 
+TGScriptAction	direct=0 virtual=1 inline=0 other=0	slots 16:Play
+AIScriptAssist	direct=1 virtual=0 inline=0 other=0	slots 
+OptimizedSelectTarget	direct=1 virtual=0 inline=0 other=0	slots 
+PointParticleController	direct=1 virtual=0 inline=0 other=0	slots 
+DebrisParticleController	direct=0 virtual=0 inline=0 other=1	slots 
+EffectAction	direct=0 virtual=0 inline=0 other=1	slots 
+SunEffect	direct=1 virtual=0 inline=0 other=0	slots 
+TextureAnimTrack	direct=0 virtual=0 inline=1 other=0	slots 
+TextureAnimContainer	direct=0 virtual=0 inline=0 other=1	slots 
+TextureAnimManager	direct=0 virtual=1 inline=0 other=0	slots 1:AddContainer

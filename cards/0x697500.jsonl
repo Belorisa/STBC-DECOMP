@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-51", "commit": "7431fa5c71", "from": null, "to": 89.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 89.6, "to": 89.6, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 89.6, "to": 89.6, "how": "sched triage: (c) radius passed through the FPU in retail, integer moves here: the instruction the scheduler receives differs", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "mixed-b", "by": "opus", "from": 89.6, "to": 73.1, "how": "float radius = GetRadius() named at the first piece builder: 89.6; one radius local for both branches: 73.1", "wall": "register"}

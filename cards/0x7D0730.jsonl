@@ -1,0 +1,6 @@
+{"date": "2026-10-28", "kind": "score", "lane": "ni-renderer-9", "commit": "74664867c3", "from": null, "to": 80.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 80.8, "to": 80.8, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-17", "kind": "try", "lane": "sched-b", "by": "sonnet", "from": 80.8, "to": 80.8, "how": "sched triage: (b) x87 operand order, as 0x7D0560", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "operand-order", "by": "opus", "from": 80.8, "to": 100.0, "how": "the stage's matrix through a reference local (D3DMATRIX &transform = stage->transform): renumbers the inlined GetEntry temporaries, every element's sum in retail's order: exact", "wall": "register", "group": "operand-order"}
+{"date": "2026-11-18", "kind": "score", "lane": "operand-order", "commit": "a9f5ee0498", "from": 80.8, "to": 100.0, "status": "MATCH"}

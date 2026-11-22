@@ -1,0 +1,3 @@
+{"date": "2026-11-09", "kind": "try", "lane": "phase1-gap-700000", "by": "sonnet", "from": null, "to": 92.5, "how": "early-return and nested-if null tests both 92.5; only the register roles of name/controller differ", "wall": "register"}
+{"date": "2026-11-09", "kind": "score", "lane": "phase1-gap-700000", "commit": "9b062d0036", "from": null, "to": 92.5, "status": "DIFF"}
+{"date": "2026-11-15", "kind": "score", "lane": "game-ready", "commit": "890c233d1a", "from": 92.5, "to": 100.0, "status": "MATCH"}

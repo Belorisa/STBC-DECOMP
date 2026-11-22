@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-80", "commit": "e4540cf39e", "from": null, "to": 85.1, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 85.1, "to": 85.1, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-21", "kind": "score", "lane": "camera", "commit": "53e72e8742", "from": 85.1, "to": 100.0, "status": "MATCH"}

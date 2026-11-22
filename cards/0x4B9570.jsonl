@@ -1,0 +1,7 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-91", "commit": "36f61833ce", "from": null, "to": 98.3, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 98.3, "to": 98.3, "how": "ctxscan: invariant, 1 state (other) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-95", "by": "opus", "from": 98.3, "to": 98.3, "how": "guard return in place of the wrapping null test (lever from ShowRealName): unchanged, reverted", "wall": "register", "group": "schedule-only"}
+{"date": "2026-11-18", "kind": "try", "lane": "near-miss-2", "by": "opus", "from": 98.3, "to": 98.3, "how": "near-miss-2 (post-/YX) re-diagnosed, skipped: first difference 'je      0x4b9738  vs  je      0x4b973c' (register), the card's tried spellings cover it and nothing in the build change reaches it", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "damage-rtti", "by": "opus", "from": 98.3, "to": 98.3, "how": "renamed (class, method or nested type) from DamageTool.exe's RTTI and COFF symbols (lane damage-rtti); no statement changed, score unchanged"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-meta", "commit": "f15ddcbc5e", "from": 98.3, "to": 100.0, "status": "MATCH"}

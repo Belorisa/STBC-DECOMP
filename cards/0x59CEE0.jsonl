@@ -1,0 +1,4 @@
+{"date": "2026-11-09", "kind": "score", "lane": "game-102", "commit": "f3f25ad899", "from": null, "to": 43.3, "status": "DIFF"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-rest", "by": "opus", "from": 43.3, "to": 72.7, "how": "index advanced in its own statement after PyTuple_SetItem (retail evaluates VirtualSlot08 before the index and increments after the pushes): 43.3 -> 72.7; frame and prologue now agree. Left: this/set register roles swapped (esi/edi), i in edi vs ebx", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-rest", "commit": "5a6e45f5a8", "from": 43.3, "to": 72.7, "status": "DIFF"}
+{"date": "2026-11-22", "kind": "try", "lane": "sub80-c2", "by": "sonnet", "from": 72.7, "to": 72.7, "how": "a second loop counter of its own (j, for-scoped i in the first loop): same bytes (72.7); the set still loses esi to this", "wall": "register"}

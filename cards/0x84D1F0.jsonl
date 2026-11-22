@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "bezier", "by": "opus", "from": null, "to": 37.6, "how": "first draft 37.6 from retail asm and Ghidra: rows blended linearly in v, texture loop reads set 0 past the first term (BUG), normal from the first row's tangent and the rule; the call multiset differs only by inline choices (28 retail, 34 ours)", "wall": "inline"}
+{"date": "2026-11-11", "kind": "score", "lane": "bezier", "commit": "a96b2a6728", "from": null, "to": 37.6, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom", "commit": "44dde0cf19", "from": 37.6, "to": 100.0, "status": "MATCH"}

@@ -1,0 +1,3 @@
+{"date": "2026-11-10", "kind": "score", "lane": "fable-shieldpatch", "commit": "eff6ca6af1", "from": null, "to": 46.7, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "low-cf", "by": "opus", "from": 46.7, "to": 48.1, "how": "NI_TWO_PI * ( scale * 0.5f ) in yawStep and the row's start yaw: retail's scale, 0.5, NI_TWO_PI order and no 0.5*0.5 fold (46.7 -> 48.1); left: frame 0x4C vs 0x50 (framemap: one temporary shares column's slot in retail), this in EBP", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "low-cf", "commit": "84402143fd", "from": 46.7, "to": 48.1, "status": "DIFF"}

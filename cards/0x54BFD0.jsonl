@@ -1,0 +1,3 @@
+{"date": "2026-11-12", "kind": "try", "lane": "ui-input-gaps", "by": "sonnet", "from": null, "to": 96.6, "how": "new draft: per-branch SetColor (87->93), charge<=0 first (95.7), local order (96.6); index spelled g_pConditionColors - (int)(charge * -19.0f) as retail subtracts", "wall": "register"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-input-gaps", "commit": "537eab6140", "from": null, "to": 96.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "refine95", "commit": "b1297d8424", "from": 96.6, "to": 100.0, "status": "MATCH"}

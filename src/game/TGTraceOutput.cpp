@@ -1,0 +1,265 @@
+/*
+===============================================================================
+
+	TGTraceOutput.cpp
+
+	The trace stream's outputs (invented unit name: the outputs' code and
+	the statics after it follow TGTraceStream's in link order, with a
+	.bss block of their own).
+
+===============================================================================
+*/
+
+// <iostream>'s statics: the ios_base::Init and _Winit quads and the locale
+// id pair.
+// FUNCTION: STBC 0x00724320 _$E32
+// FUNCTION: STBC 0x00724330 _$E29
+// FUNCTION: STBC 0x00724340 _$E31
+// FUNCTION: STBC 0x00724350 _$E30
+// FUNCTION: STBC 0x00724360 _$E38
+// FUNCTION: STBC 0x00724370 _$E35
+// FUNCTION: STBC 0x00724380 _$E37
+// FUNCTION: STBC 0x00724390 _$E36
+// FUNCTION: STBC 0x00724460 _$E432
+// FUNCTION: STBC 0x00724480 _$E431
+#include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <windows.h>
+
+#include "TGTraceStream.h"
+#include "TGSystemWrapperClass.h"
+#include "PyEmbed.h"
+#include "NiMain.h"
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x007243a0 _$E69
+// FUNCTION: STBC 0x007243b0 _$E68
+// FUNCTION: STBC 0x007243c0 _$E73
+// FUNCTION: STBC 0x007243d0 _$E72
+// FUNCTION: STBC 0x007243e0 _$E84
+// FUNCTION: STBC 0x007243f0 _$E83
+// FUNCTION: STBC 0x00724400 _$E88
+// FUNCTION: STBC 0x00724410 _$E87
+// FUNCTION: STBC 0x00724420 _$E92
+// FUNCTION: STBC 0x00724430 _$E91
+// FUNCTION: STBC 0x00724440 _$E96
+// FUNCTION: STBC 0x00724450 _$E95
+// FUNCTION: STBC 0x00724490 _$E220
+// FUNCTION: STBC 0x007244a0 _$E219
+// FUNCTION: STBC 0x007244b0 _$E162
+// FUNCTION: STBC 0x007244c0 _$E161
+// FUNCTION: STBC 0x007244d0 _$E175
+// FUNCTION: STBC 0x007244e0 _$E174
+// FUNCTION: STBC 0x007244f0 _$E225
+// FUNCTION: STBC 0x00724500 _$E224
+// FUNCTION: STBC 0x00724510 _$E230
+// FUNCTION: STBC 0x00724520 _$E229
+// FUNCTION: STBC 0x00724530 _$E234
+// FUNCTION: STBC 0x00724540 _$E233
+// FUNCTION: STBC 0x00724550 _$E238
+// FUNCTION: STBC 0x00724560 _$E237
+// FUNCTION: STBC 0x00724570 _$E245
+// FUNCTION: STBC 0x00724580 _$E244
+// FUNCTION: STBC 0x00724590 _$E270
+// FUNCTION: STBC 0x007245a0 _$E269
+// FUNCTION: STBC 0x007245b0 _$E274
+// FUNCTION: STBC 0x007245c0 _$E273
+// FUNCTION: STBC 0x007245d0 _$E120
+// FUNCTION: STBC 0x007245e0 _$E119
+// FUNCTION: STBC 0x007245f0 _$E256
+// FUNCTION: STBC 0x00724600 _$E255
+// FUNCTION: STBC 0x00724610 _$E263
+// FUNCTION: STBC 0x00724620 _$E262
+// FUNCTION: STBC 0x00724630 _$E286
+// FUNCTION: STBC 0x00724640 _$E285
+// FUNCTION: STBC 0x00724650 _$E290
+// FUNCTION: STBC 0x00724660 _$E289
+// FUNCTION: STBC 0x00724670 _$E330
+// FUNCTION: STBC 0x00724680 _$E329
+// FUNCTION: STBC 0x00724690 _$E336
+// FUNCTION: STBC 0x007246a0 _$E335
+// FUNCTION: STBC 0x007246b0 _$E278
+// FUNCTION: STBC 0x007246c0 _$E277
+// FUNCTION: STBC 0x007246d0 _$E282
+// FUNCTION: STBC 0x007246e0 _$E281
+// FUNCTION: STBC 0x007246f0 _$E294
+// FUNCTION: STBC 0x00724700 _$E293
+// FUNCTION: STBC 0x00724710 _$E298
+// FUNCTION: STBC 0x00724720 _$E297
+// FUNCTION: STBC 0x00724730 _$E302
+// FUNCTION: STBC 0x00724740 _$E301
+// FUNCTION: STBC 0x00724750 _$E306
+// FUNCTION: STBC 0x00724760 _$E305
+// FUNCTION: STBC 0x00724770 _$E310
+// FUNCTION: STBC 0x00724780 _$E309
+// FUNCTION: STBC 0x00724790 _$E314
+// FUNCTION: STBC 0x007247a0 _$E313
+// FUNCTION: STBC 0x007247b0 _$E318
+// FUNCTION: STBC 0x007247c0 _$E317
+// FUNCTION: STBC 0x007247d0 _$E322
+// FUNCTION: STBC 0x007247e0 _$E321
+// FUNCTION: STBC 0x007247f0 _$E125
+// FUNCTION: STBC 0x00724800 _$E124
+// FUNCTION: STBC 0x00724810 _$E326
+// FUNCTION: STBC 0x00724820 _$E325
+// FUNCTION: STBC 0x00724830 _$E130
+// FUNCTION: STBC 0x00724840 _$E129
+// FUNCTION: STBC 0x00724850 _$E340
+// FUNCTION: STBC 0x00724860 _$E339
+// FUNCTION: STBC 0x00724870 _$E344
+// FUNCTION: STBC 0x00724880 _$E343
+// FUNCTION: STBC 0x00724890 _$E348
+// FUNCTION: STBC 0x007248a0 _$E347
+// FUNCTION: STBC 0x007248b0 _$E352
+// FUNCTION: STBC 0x007248c0 _$E351
+// FUNCTION: STBC 0x007248d0 _$E139
+// FUNCTION: STBC 0x007248e0 _$E138
+// FUNCTION: STBC 0x007248f0 _$E356
+// FUNCTION: STBC 0x00724900 _$E355
+// FUNCTION: STBC 0x00724910 _$E360
+// FUNCTION: STBC 0x00724920 _$E359
+// FUNCTION: STBC 0x00724930 _$E364
+// FUNCTION: STBC 0x00724940 _$E363
+// FUNCTION: STBC 0x00724950 _$E145
+// FUNCTION: STBC 0x00724960 _$E144
+// FUNCTION: STBC 0x00724970 _$E150
+// FUNCTION: STBC 0x00724980 _$E149
+// FUNCTION: STBC 0x00724990 _$E180
+// FUNCTION: STBC 0x007249a0 _$E179
+// FUNCTION: STBC 0x007249b0 _$E368
+// FUNCTION: STBC 0x007249c0 _$E367
+// FUNCTION: STBC 0x007249d0 _$E185
+// FUNCTION: STBC 0x007249e0 _$E184
+// FUNCTION: STBC 0x007249f0 _$E372
+// FUNCTION: STBC 0x00724a00 _$E371
+// FUNCTION: STBC 0x00724a10 _$E376
+// FUNCTION: STBC 0x00724a20 _$E375
+// FUNCTION: STBC 0x00724a30 _$E190
+// FUNCTION: STBC 0x00724a40 _$E189
+// FUNCTION: STBC 0x00724a50 _$E380
+// FUNCTION: STBC 0x00724a60 _$E379
+// FUNCTION: STBC 0x00724a70 _$E155
+// FUNCTION: STBC 0x00724a80 _$E154
+// FUNCTION: STBC 0x00724a90 _$E384
+// FUNCTION: STBC 0x00724aa0 _$E383
+// FUNCTION: STBC 0x00724ab0 _$E388
+// FUNCTION: STBC 0x00724ac0 _$E387
+// FUNCTION: STBC 0x00724ad0 _$E195
+// FUNCTION: STBC 0x00724ae0 _$E194
+// FUNCTION: STBC 0x00724af0 _$E200
+// FUNCTION: STBC 0x00724b00 _$E199
+// FUNCTION: STBC 0x00724b10 _$E392
+// FUNCTION: STBC 0x00724b20 _$E391
+// FUNCTION: STBC 0x00724b30 _$E396
+// FUNCTION: STBC 0x00724b40 _$E395
+// FUNCTION: STBC 0x00724b50 _$E400
+// FUNCTION: STBC 0x00724b60 _$E399
+// FUNCTION: STBC 0x00724b70 _$E404
+// FUNCTION: STBC 0x00724b80 _$E403
+// FUNCTION: STBC 0x00724b90 _$E408
+// FUNCTION: STBC 0x00724ba0 _$E407
+// FUNCTION: STBC 0x00724bb0 _$E412
+// FUNCTION: STBC 0x00724bc0 _$E411
+// FUNCTION: STBC 0x00724bd0 _$E416
+// FUNCTION: STBC 0x00724be0 _$E415
+// FUNCTION: STBC 0x00724bf0 _$E420
+// FUNCTION: STBC 0x00724c00 _$E419
+// FUNCTION: STBC 0x00724c10 _$E205
+// FUNCTION: STBC 0x00724c20 _$E204
+// FUNCTION: STBC 0x00724c30 _$E424
+// FUNCTION: STBC 0x00724c40 _$E423
+// FUNCTION: STBC 0x00724c50 _$E210
+// FUNCTION: STBC 0x00724c60 _$E209
+// FUNCTION: STBC 0x00724c70 _$E215
+// FUNCTION: STBC 0x00724c80 _$E214
+
+/*
+================
+TGDebugWindowOutput::Output
+================
+*/
+// FUNCTION: STBC 0x007240b0
+void TGDebugWindowOutput::Output( const char *text ) {
+	OutputDebugString( text );
+}
+
+/*
+================
+TGLogFileOutput::TGLogFileOutput
+================
+*/
+// FUNCTION: STBC 0x007240c0
+TGLogFileOutput::TGLogFileOutput( char *name ) {
+	file = g_kSystemWrapper.FileOpen( name, "w" );
+}
+
+/*
+================
+TGLogFileOutput::~TGLogFileOutput
+================
+*/
+// FUNCTION: STBC 0x00724140
+TGLogFileOutput::~TGLogFileOutput( void ) {
+	if ( file ) {
+		g_kSystemWrapper.FileClose( file );
+	}
+}
+
+/*
+================
+TGLogFileOutput::Output
+================
+*/
+// FUNCTION: STBC 0x007241a0
+void TGLogFileOutput::Output( const char *text ) {
+	if ( file ) {
+		fputs( text, file );
+	}
+}
+
+/*
+================
+TGConsoleOutput::Output
+================
+*/
+// FUNCTION: STBC 0x007241c0
+void TGConsoleOutput::Output( const char *text ) {
+}
+
+/*
+================
+TGPythonFuncOutput::TGPythonFuncOutput
+================
+*/
+// FUNCTION: STBC 0x007241d0
+TGPythonFuncOutput::TGPythonFuncOutput( char *module, char *function ) {
+	this->module = new char[strlen( module ) + 1];
+	strcpy( this->module, module );
+	this->function = new char[strlen( function ) + 1];
+	strcpy( this->function, function );
+}
+
+/*
+================
+TGPythonFuncOutput::~TGPythonFuncOutput
+================
+*/
+// FUNCTION: STBC 0x007242b0
+TGPythonFuncOutput::~TGPythonFuncOutput( void ) {
+	delete [] module;
+	delete [] function;
+}
+
+/*
+================
+TGPythonFuncOutput::Output
+
+Errors the call raises are printed.
+================
+*/
+// FUNCTION: STBC 0x007242e0
+void TGPythonFuncOutput::Output( const char *text ) {
+	PyEmbed::CallFunction( module, function, "", NULL, "(s)", text );
+	PyErr_Print();
+}

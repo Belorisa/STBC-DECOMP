@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: AnimOnly 0x495BAC sets bit 4 through an inline one-argument setter (0x497FC0: SetBit( b, 4 )) NiMorphController.h doesn't declare: header item"}

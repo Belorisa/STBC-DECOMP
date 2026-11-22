@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "appwrap-8", "commit": "175719dbc1", "from": null, "to": 84.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-reuse", "how": "framemap: retail keeps some of one variable's values in another's slot: one variable reused, or scopes that let them share"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-80", "by": "opus", "from": 84.8, "to": 84.8, "how": "probe: a SWIG %addmethods-style static helper Game_LoadDatabaseSoundInGroup(self, database, name, group, type) stays out of line at /Ob1 (72.3); retail evaluates arg0 into esi before GetFilename and swaps arg0/arg1's slots, the pattern of an inlined helper's parameters; an 'inline' helper is not SWIG's output, so not kept", "wall": "register", "group": "arg-preeval"}
+{"date": "2026-11-19", "kind": "score", "lane": "drafts80", "commit": "12adbbcb6c", "from": 84.8, "to": 100.0, "status": "MATCH"}

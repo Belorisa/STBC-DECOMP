@@ -1,0 +1,2 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 85.4, "how": "ternary compare mode folds to sbb (76.4); if/else into a local still folds (85.4); retail branches on the push and evaluates ServerListGetServer before the hostname arguments", "wall": "control-flow"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 100.0, "status": "MATCH"}

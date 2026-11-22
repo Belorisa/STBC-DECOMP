@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ui-menus", "by": "sonnet", "from": null, "to": 82.8, "how": "first draft: same operator+ operand order as HandleSaveButton", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "ui-menus", "commit": "462cd6df72", "from": null, "to": 82.8, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 82.8, "to": 100.0, "status": "MATCH"}

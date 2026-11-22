@@ -1,0 +1,270 @@
+/*
+===============================================================================
+
+	FloatVariableScope.cpp
+
+	The float variables of one VarManagerClass scope (invented unit name).
+
+===============================================================================
+*/
+
+#include <iostream>
+#include <string.h>
+#include "ScriptVariables.h"
+#include "NiMain.h"
+#include "NiListener.h"
+#include "NiSoundSystem.h"
+#include "NiSource.h"
+
+// The NetImmerse headers' class registrations (NiRegisterStream, NiStreamMacros.h).
+// FUNCTION: STBC 0x00448340 _$E45
+// FUNCTION: STBC 0x00448350 _$E44
+// FUNCTION: STBC 0x00448360 _$E49
+// FUNCTION: STBC 0x00448370 _$E48
+// FUNCTION: STBC 0x00448380 _$E60
+// FUNCTION: STBC 0x00448390 _$E59
+// FUNCTION: STBC 0x004483a0 _$E64
+// FUNCTION: STBC 0x004483b0 _$E63
+// FUNCTION: STBC 0x004483c0 _$E68
+// FUNCTION: STBC 0x004483d0 _$E67
+// FUNCTION: STBC 0x004483e0 _$E72
+// FUNCTION: STBC 0x004483f0 _$E71
+// FUNCTION: STBC 0x00448400 _$E196
+// FUNCTION: STBC 0x00448410 _$E195
+// FUNCTION: STBC 0x00448420 _$E138
+// FUNCTION: STBC 0x00448430 _$E137
+// FUNCTION: STBC 0x00448440 _$E151
+// FUNCTION: STBC 0x00448450 _$E150
+// FUNCTION: STBC 0x00448460 _$E201
+// FUNCTION: STBC 0x00448470 _$E200
+// FUNCTION: STBC 0x00448480 _$E206
+// FUNCTION: STBC 0x00448490 _$E205
+// FUNCTION: STBC 0x004484a0 _$E210
+// FUNCTION: STBC 0x004484b0 _$E209
+// FUNCTION: STBC 0x004484c0 _$E214
+// FUNCTION: STBC 0x004484d0 _$E213
+// FUNCTION: STBC 0x004484e0 _$E221
+// FUNCTION: STBC 0x004484f0 _$E220
+// FUNCTION: STBC 0x00448500 _$E246
+// FUNCTION: STBC 0x00448510 _$E245
+// FUNCTION: STBC 0x00448520 _$E250
+// FUNCTION: STBC 0x00448530 _$E249
+// FUNCTION: STBC 0x00448540 _$E96
+// FUNCTION: STBC 0x00448550 _$E95
+// FUNCTION: STBC 0x00448560 _$E232
+// FUNCTION: STBC 0x00448570 _$E231
+// FUNCTION: STBC 0x00448580 _$E239
+// FUNCTION: STBC 0x00448590 _$E238
+// FUNCTION: STBC 0x004485a0 _$E262
+// FUNCTION: STBC 0x004485b0 _$E261
+// FUNCTION: STBC 0x004485c0 _$E266
+// FUNCTION: STBC 0x004485d0 _$E265
+// FUNCTION: STBC 0x004485e0 _$E306
+// FUNCTION: STBC 0x004485f0 _$E305
+// FUNCTION: STBC 0x00448600 _$E312
+// FUNCTION: STBC 0x00448610 _$E311
+// FUNCTION: STBC 0x00448620 _$E254
+// FUNCTION: STBC 0x00448630 _$E253
+// FUNCTION: STBC 0x00448640 _$E258
+// FUNCTION: STBC 0x00448650 _$E257
+// FUNCTION: STBC 0x00448660 _$E270
+// FUNCTION: STBC 0x00448670 _$E269
+// FUNCTION: STBC 0x00448680 _$E274
+// FUNCTION: STBC 0x00448690 _$E273
+// FUNCTION: STBC 0x004486d0 _$E278
+// FUNCTION: STBC 0x004486e0 _$E277
+// FUNCTION: STBC 0x004486f0 _$E282
+// FUNCTION: STBC 0x00448700 _$E281
+// FUNCTION: STBC 0x00448710 _$E286
+// FUNCTION: STBC 0x00448720 _$E285
+// FUNCTION: STBC 0x00448730 _$E290
+// FUNCTION: STBC 0x00448740 _$E289
+// FUNCTION: STBC 0x00448750 _$E294
+// FUNCTION: STBC 0x00448760 _$E293
+// FUNCTION: STBC 0x00448770 _$E298
+// FUNCTION: STBC 0x00448780 _$E297
+// FUNCTION: STBC 0x00448790 _$E101
+// FUNCTION: STBC 0x004487a0 _$E100
+// FUNCTION: STBC 0x004487b0 _$E302
+// FUNCTION: STBC 0x004487c0 _$E301
+// FUNCTION: STBC 0x004487d0 _$E106
+// FUNCTION: STBC 0x004487e0 _$E105
+// FUNCTION: STBC 0x004487f0 _$E316
+// FUNCTION: STBC 0x00448800 _$E315
+// FUNCTION: STBC 0x00448810 _$E320
+// FUNCTION: STBC 0x00448820 _$E319
+// FUNCTION: STBC 0x00448830 _$E324
+// FUNCTION: STBC 0x00448840 _$E323
+// FUNCTION: STBC 0x00448850 _$E328
+// FUNCTION: STBC 0x00448860 _$E327
+// FUNCTION: STBC 0x00448870 _$E115
+// FUNCTION: STBC 0x00448880 _$E114
+// FUNCTION: STBC 0x00448890 _$E332
+// FUNCTION: STBC 0x004488a0 _$E331
+// FUNCTION: STBC 0x004488b0 _$E336
+// FUNCTION: STBC 0x004488c0 _$E335
+// FUNCTION: STBC 0x004488d0 _$E340
+// FUNCTION: STBC 0x004488e0 _$E339
+// FUNCTION: STBC 0x004488f0 _$E121
+// FUNCTION: STBC 0x00448900 _$E120
+// FUNCTION: STBC 0x00448910 _$E126
+// FUNCTION: STBC 0x00448920 _$E125
+// FUNCTION: STBC 0x00448930 _$E156
+// FUNCTION: STBC 0x00448940 _$E155
+// FUNCTION: STBC 0x00448950 _$E344
+// FUNCTION: STBC 0x00448960 _$E343
+// FUNCTION: STBC 0x00448970 _$E161
+// FUNCTION: STBC 0x00448980 _$E160
+// FUNCTION: STBC 0x00448990 _$E348
+// FUNCTION: STBC 0x004489a0 _$E347
+// FUNCTION: STBC 0x004489b0 _$E352
+// FUNCTION: STBC 0x004489c0 _$E351
+// FUNCTION: STBC 0x004489d0 _$E166
+// FUNCTION: STBC 0x004489e0 _$E165
+// FUNCTION: STBC 0x004489f0 _$E356
+// FUNCTION: STBC 0x00448a00 _$E355
+// FUNCTION: STBC 0x00448a10 _$E131
+// FUNCTION: STBC 0x00448a20 _$E130
+// FUNCTION: STBC 0x00448a30 _$E360
+// FUNCTION: STBC 0x00448a40 _$E359
+// FUNCTION: STBC 0x00448a50 _$E364
+// FUNCTION: STBC 0x00448a60 _$E363
+// FUNCTION: STBC 0x00448a70 _$E171
+// FUNCTION: STBC 0x00448a80 _$E170
+// FUNCTION: STBC 0x00448a90 _$E176
+// FUNCTION: STBC 0x00448aa0 _$E175
+// FUNCTION: STBC 0x00448ab0 _$E368
+// FUNCTION: STBC 0x00448ac0 _$E367
+// FUNCTION: STBC 0x00448ad0 _$E372
+// FUNCTION: STBC 0x00448ae0 _$E371
+// FUNCTION: STBC 0x00448af0 _$E376
+// FUNCTION: STBC 0x00448b00 _$E375
+// FUNCTION: STBC 0x00448b10 _$E380
+// FUNCTION: STBC 0x00448b20 _$E379
+// FUNCTION: STBC 0x00448b30 _$E384
+// FUNCTION: STBC 0x00448b40 _$E383
+// FUNCTION: STBC 0x00448b50 _$E388
+// FUNCTION: STBC 0x00448b60 _$E387
+// FUNCTION: STBC 0x00448b70 _$E392
+// FUNCTION: STBC 0x00448b80 _$E391
+// FUNCTION: STBC 0x00448b90 _$E396
+// FUNCTION: STBC 0x00448ba0 _$E395
+// FUNCTION: STBC 0x00448bb0 _$E181
+// FUNCTION: STBC 0x00448bc0 _$E180
+// FUNCTION: STBC 0x00448bd0 _$E400
+// FUNCTION: STBC 0x00448be0 _$E399
+// FUNCTION: STBC 0x00448bf0 _$E186
+// FUNCTION: STBC 0x00448c00 _$E185
+// FUNCTION: STBC 0x00448c10 _$E191
+// FUNCTION: STBC 0x00448c20 _$E190
+// FUNCTION: STBC 0x00448c30 _$E404
+// FUNCTION: STBC 0x00448c40 _$E403
+// FUNCTION: STBC 0x00448c50 _$E409
+// FUNCTION: STBC 0x00448c60 _$E408
+// FUNCTION: STBC 0x00448c70 _$E413
+// FUNCTION: STBC 0x00448c80 _$E412
+
+// <iostream>'s statics: the ios_base::Init and _Winit quads and the locale id pair.
+// FUNCTION: STBC 0x004482c0 _$E32
+// FUNCTION: STBC 0x004482d0 _$E29
+// FUNCTION: STBC 0x004482e0 _$E31
+// FUNCTION: STBC 0x004482f0 _$E30
+// FUNCTION: STBC 0x00448300 _$E38
+// FUNCTION: STBC 0x00448310 _$E35
+// FUNCTION: STBC 0x00448320 _$E37
+// FUNCTION: STBC 0x00448330 _$E36
+// FUNCTION: STBC 0x004486a0 _$E421
+// FUNCTION: STBC 0x004486c0 _$E420
+
+/*
+================
+FloatVariableScope::FloatVariableScope
+================
+*/
+// FUNCTION: STBC 0x00447f50
+FloatVariableScope::FloatVariableScope( void ) {
+	name = NULL;
+}
+
+/*
+================
+FloatVariableScope::Compare
+
+Compares the scope with another one by name.
+================
+*/
+// FUNCTION: STBC 0x00447f70
+int FloatVariableScope::Compare( FloatVariableScope *other ) {
+	return CompareKey( other->GetName() );
+}
+
+/*
+================
+FloatVariableScope::CompareKey
+================
+*/
+// FUNCTION: STBC 0x00447f80
+int FloatVariableScope::CompareKey( char *key ) {
+	return strcmp( key, name );
+}
+
+/*
+================
+FloatVariableScope::~FloatVariableScope
+
+Deletes the name and the variables.
+================
+*/
+// FUNCTION: STBC 0x00447fe0
+FloatVariableScope::~FloatVariableScope( void ) {
+	delete [] name;
+}
+
+/*
+================
+FloatVariableScope::SetName
+
+Keeps a copy of the scope's name.
+================
+*/
+// FUNCTION: STBC 0x00448060
+void FloatVariableScope::SetName( char *name_ ) {
+	if ( name != NULL ) {
+		delete [] name;
+		name = NULL;
+	}
+	if ( name_ != NULL ) {
+		name = new char[strlen( name_ ) + 1];
+		strcpy( name, name_ );
+	}
+}
+
+/*
+================
+FloatVariableScope::SetVariable
+================
+*/
+// FUNCTION: STBC 0x004480d0
+void FloatVariableScope::SetVariable( char *variableName, float variableValue ) {
+	FloatVariable *variable = variables.Get( variableName );
+	if ( variable == NULL ) {
+		variable = new FloatVariable;
+		variable->SetName( variableName );
+		variables.Insert( variable );
+	}
+	variable->value = variableValue;
+}
+
+/*
+================
+FloatVariableScope::GetVariable
+================
+*/
+// FUNCTION: STBC 0x00448250
+float FloatVariableScope::GetVariable( char *variableName ) {
+	FloatVariable *variable = variables.Get( variableName );
+	if ( variable != NULL ) {
+		return variable->value;
+	}
+	return 0.0f;
+}

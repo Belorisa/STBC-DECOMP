@@ -1,0 +1,3 @@
+{"date": "2026-11-22", "kind": "try", "lane": "phase1-rest", "by": "sonnet", "from": null, "to": 0.0, "how": "annotated NiTArray<unsigned short*>::SetSize @game/VisibleDamageBuilder (claim removed); NO-SYMBOL while SimpleFeatureCollector::AddTriangle (DIFF) expands it", "wall": "inline"}
+{"date": "2026-11-22", "kind": "score", "lane": "phase1-rest", "commit": "9c5f2dea3d", "from": null, "to": 0.0, "status": "NO-SYMBOL"}
+{"date": "2026-11-22", "kind": "try", "lane": "inline-callers", "by": "opus", "from": 0.0, "to": 0.0, "how": "follows SimpleFeatureCollector::AddTriangle (0x4BB780): needs Add's divisor R >= 5 (three more top-level sites from Add on); the widened loads retail shows are before Add; stays NO-SYMBOL", "wall": "inline"}

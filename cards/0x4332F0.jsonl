@@ -1,0 +1,2 @@
+{"date": "2026-11-15", "kind": "try", "lane": "early-game2", "by": "opus", "from": null, "to": 36.5, "how": "first draft: NiPoint3 x axis local, UnitCross/Dot/NiACos; ours expands all three, retail calls them (budget)", "wall": "inline"}
+{"date": "2026-11-15", "kind": "score", "lane": "early-game2", "commit": "db7e4ed843", "from": null, "to": 36.5, "status": "DIFF"}

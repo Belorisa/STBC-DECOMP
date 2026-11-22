@@ -1,0 +1,3 @@
+{"date": "2026-11-01", "kind": "score", "lane": "game-37", "commit": "a336e33cf0", "from": null, "to": 87.5, "status": "DIFF"}
+{"date": "2026-11-05", "kind": "score", "lane": "merge", "commit": "cef10e16b1", "from": 87.5, "to": 99.9, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "sweep-game-low", "commit": "9f2d53d4af", "from": 99.9, "to": 100.0, "status": "MATCH"}

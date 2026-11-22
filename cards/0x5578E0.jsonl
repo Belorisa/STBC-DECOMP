@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "interface-obb", "by": "opus", "from": null, "to": 99.9, "how": "inline id ctor STRepairButton(long) : STButton(id) {} with unknown114: bytes agree, the vtable 0x890554 is undeclared (no virtual of the class written)", "wall": "referent"}
+{"date": "2026-11-11", "kind": "score", "lane": "interface-obb", "commit": "211e918131", "from": null, "to": 99.9, "status": "WRONG-REFERENT"}
+{"date": "2026-11-12", "kind": "score", "lane": "ui-layout", "commit": "55b3cdda01", "from": 99.9, "to": 100.0, "status": "MATCH"}

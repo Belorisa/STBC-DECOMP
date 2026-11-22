@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-render", "by": "opus", "from": 100.0, "to": 100.0, "how": "AnimOnly 0x51D8C7: the debug copy has an HRESULT local set to 0 and never read (its own slot); release can't show it, not added (it would be an unexplained local)"}

@@ -1,0 +1,4 @@
+{"date": "2026-11-11", "kind": "try", "lane": "registration", "by": "opus", "from": null, "to": 84.6, "how": "drafted from the registry calls (RegOpenKeyEx, RegCreateKeyEx, RegSetValue, RegQueryValueEx); keyClass declared next to the create call moved its store to retail's place (83.8); RegSetValue for the 0x888010 slot (84.6); scoping disposition and size changed nothing: retail keeps a 4-byte slot at frame 8 that no use explains", "wall": "register"}
+{"date": "2026-11-11", "kind": "score", "lane": "registration", "commit": "cfe893cb61", "from": null, "to": 84.6, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-80", "commit": "b6c32a4175", "from": 84.6, "to": 100.0, "status": "MATCH"}

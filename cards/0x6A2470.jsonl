@@ -1,0 +1,4 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-78", "commit": "f24ca56eb0", "from": null, "to": 80.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-shared", "how": "framemap: which values share a frame slot differs (block scope or one variable reused across loops), not declaration order"}
+{"date": "2026-11-19", "kind": "try", "lane": "untried-game", "by": "opus", "from": 80.7, "to": 95.5, "how": "the source location named (NiPoint3 sourceLocation = source->GetWorldLocation()) before the difference: 80.7 -> 95.5, retail's three flds and spilled differences. Left: length in a frame slot in retail; the gap as -= steps or a distance expression (93.8), radius locals or an if setting accepted = false (flat)", "wall": "register"}
+{"date": "2026-11-19", "kind": "score", "lane": "untried-game", "commit": "d062175954", "from": 80.7, "to": 95.5, "status": "DIFF"}

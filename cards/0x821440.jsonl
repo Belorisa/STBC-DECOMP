@@ -1,0 +1,2 @@
+{"date": "2026-11-05", "kind": "score", "lane": "ready-a", "commit": "a278aef634", "from": null, "to": 59.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "ni-gaps-drafts", "commit": "6f081912e5", "from": 59.7, "to": 100.0, "status": "MATCH"}

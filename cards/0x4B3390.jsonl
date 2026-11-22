@@ -1,0 +1,5 @@
+{"date": "2026-11-08", "kind": "score", "lane": "game-86", "commit": "21c80f9284", "from": null, "to": 35.2, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-90a", "by": "opus", "from": 35.2, "to": 40.5, "how": "first typed unsigned int like DamageBuilderMesh::GetTriangles (retail masks the min into a 32-bit value): 35.2 -> 40.5; addressing wall unchanged", "wall": "register"}
+{"date": "2026-11-18", "kind": "score", "lane": "register-90a", "commit": "1ecba9d39e", "from": 35.2, "to": 40.5, "status": "DIFF"}
+{"date": "2026-11-20", "kind": "try", "lane": "damage-rtti", "by": "opus", "from": 40.5, "to": 40.5, "how": "renamed (class, method or nested type) from DamageTool.exe's RTTI and COFF symbols (lane damage-rtti); no statement changed, score unchanged"}
+{"date": "2026-11-20", "kind": "score", "lane": "dt-meta", "commit": "f15ddcbc5e", "from": 40.5, "to": 100.0, "status": "MATCH"}

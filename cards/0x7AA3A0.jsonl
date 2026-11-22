@@ -1,0 +1,1 @@
+{"date": "2026-11-20", "kind": "try", "lane": "fin-anim", "by": "opus", "from": 100.0, "to": 100.0, "how": "/Od audit: assert and fill-derived local from AnimOnly 0x4986BD (86.0, frame only); the new[] count temporary sits first in AnimOnly's loop scope and last in ours: the compiler temporaries' numbered names decide it, no local name can"}

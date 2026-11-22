@@ -1,0 +1,4 @@
+{"date": "2026-11-04", "kind": "score", "lane": "game-73", "commit": "8facb4657e", "from": null, "to": 96.4, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "slot-order", "how": "framemap: same frame size, slots at other offsets: declaration order or block layout"}
+{"date": "2026-11-18", "kind": "try", "lane": "register-95-pass2", "by": "opus", "from": 96.4, "to": 96.4, "how": "read only: float copies through a slot of their own are the FPU-copy family held for the user; skipped", "wall": "register", "group": "fpu-copy"}
+{"date": "2026-11-18", "kind": "try", "lane": "near-miss-2", "by": "opus", "from": 96.4, "to": 96.4, "how": "near-miss-2 (post-/YX) skipped: float copy through the FPU (fld/fstp) against integer moves, the FPU-copy family held for the user", "wall": "register"}

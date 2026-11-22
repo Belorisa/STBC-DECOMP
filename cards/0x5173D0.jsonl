@@ -1,0 +1,3 @@
+{"date": "2026-11-11", "kind": "try", "lane": "ui-windows", "by": "sonnet", "from": null, "to": 93.7, "how": "mission NULL tests: nested if/else 84.2; two separate ifs 93.7 (either order, one 84.2); retail loads other mission into eax and shares a tail rechecking this mission", "wall": "control-flow"}
+{"date": "2026-11-11", "kind": "score", "lane": "ui-windows", "commit": "2a3255ce07", "from": null, "to": 93.7, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "score", "lane": "control-flow-walls", "commit": "ecfccf2f7b", "from": 93.7, "to": 100.0, "status": "MATCH"}

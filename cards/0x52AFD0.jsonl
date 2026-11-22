@@ -1,0 +1,2 @@
+{"date": "2026-10-31", "kind": "score", "lane": "game-ui-14", "commit": "3b7d4c4062", "from": null, "to": 80.5, "status": "DIFF"}
+{"date": "2026-11-18", "kind": "try", "lane": "control-flow2", "by": "opus", "from": 80.5, "to": 80.5, "how": "read only: branches and calls agree; the diff is register/spill choice (retail: barEnd in ebp then secondArrow reloaded into ebp after the arrow resize, firstArrow in ebx) and the icon-height divisor left on the FPU (fld; fdiv st(1); fstp st(0)); no control-flow lever applies", "wall": "register"}

@@ -1,0 +1,2 @@
+{"date": "2026-11-16", "kind": "try", "lane": "gamespy", "by": "opus", "from": null, "to": 62.7, "how": "straight strncpy/terminate body; retail defers all argument pops to the end, this build pops after the GetIntValue pair; /G6 /Os /Ox and the pp back end don't change it", "wall": "register"}
+{"date": "2026-11-16", "kind": "score", "lane": "gamespy", "commit": "6fc70ded15", "from": null, "to": 100.0, "status": "MATCH"}

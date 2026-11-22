@@ -1,0 +1,5 @@
+{"date": "2026-11-01", "kind": "score", "lane": "netimmerse-51", "commit": "bef9dd201d", "from": null, "to": 85.0, "status": "DIFF"}
+{"date": "2026-11-16", "kind": "group", "lane": "levers-rework", "by": "opus", "group": "schedule-only", "how": "framemap: frame and callee-saved registers agree; not a declaration-order wall"}
+{"date": "2026-11-17", "kind": "try", "lane": "schedule-verdicts", "by": "opus", "from": 85.0, "to": 85.0, "how": "ctxscan: invariant, 1 state (schedule) over k=0-63: the wall is the function's own source", "wall": "register"}
+{"date": "2026-11-20", "kind": "try", "lane": "ni-render", "by": "opus", "from": 85.0, "to": 85.0, "how": "AnimOnly 0x48DE9E: reads through the Get accessors the tree has (GetFilename, GetUnknown08, GetTextKeys), the clone in a local: 85.0 flat; the debug copy also reads the name, node count and node name and sets unknown08/unknown40 through accessors the header lacks (0x492C60, 0x492C70, 0x492D50, 0x492F20, 0x492E50)", "wall": "register"}
+{"date": "2026-11-20", "kind": "score", "lane": "ni-geom-2", "commit": "44f7a6a251", "from": 85.0, "to": 100.0, "status": "MATCH"}
